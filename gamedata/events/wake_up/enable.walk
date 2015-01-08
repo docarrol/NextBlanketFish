@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>wake_up/enable</name>
+  <descr>Waking process enabled.
+
+&lt;% SetPerFlag(&quot;start_waking_process&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;start_waking_process&quot;) == 0;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/debug_unlock</name>
+  <descr>Added Baby Scanner and unlocked all the modules.
+
+&lt;%SetFlag(&quot;installed_gene_device&quot;, 1);
+SetFlag(&quot;todd_need_crystals&quot;, 0);
+SetFlag(&quot;todd_waiting&quot;, 0);
+SetFlag(&quot;installed_adapation_upgrade&quot;, 1);
+SetFlag(&quot;installed_display_upgrade&quot;, 1);
+SetFlag(&quot;installed_appearance_upgrade&quot;, 1);
+SetFlag(&quot;installed_fertility_upgrade&quot;, 1);
+SetFlag(&quot;todd_used_modification&quot;, 0);
+SetFlag(&quot;todd_finished_appearance_mod&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>InDevMode();</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

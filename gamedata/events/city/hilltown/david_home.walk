@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hilltown/david_home</name>
+  <descr>Going into David&apos;s lab is interesting. There are many devices and many books on the shelves.
+
+- Ah, good to see you. Well not YOU, but I&apos;m glad that everything works fine. 
+- I have some bad news though. My boss and owner of our company, sir d&apos;Arrow, insists that we need to put the artificial body and cloning projects on hold. We&apos;re not canceling - we have invested too much into it. But, for now, our resources are limited by a shortage of funds. Our sponsors are getting worried about the incident that caused the explosion and some have refused to work with us. So, for now, our resources will be focused on other projects. Sorry for this, but I can&apos;t change it, as it&apos;s not my decision.
+
+As &lt;%activePartner.getName();%&gt; is heading out to the street, you begin to think about your new situation. On one hand, you are in a stable situation. But on the other, now, you are stuck like this. Though this artificial body may have some advantages, nothing can compare with your own flesh and bones. If you just wait, it could be a very long time. Maybe you can speed this up? But how?
+
+David says that the projects are put on hold due to a shortage of money. So, if you can become a sponsor... But right now, you don&apos;t have any money, and can&apos;t work - any skills that you had before the accident are now lost along with your memory. What to do?
+&lt;% SetFlag(&quot;david_talk_about_hold&quot;, 1); &quot;&quot;;%&gt;
+</descr>
+  <conditions>res = 0;
+if (GetFlag(&quot;david_talk_about_hold&quot;) &lt; 1)
+{ res=1; }
+res;</conditions>
+  <picturePath>intro/doctor.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hilltown/return_from_david</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>99</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/t_beast/collect_semen</name>
+  <descr>&lt;% act = enemy.doAction(&quot;orgasm&quot;);
+cum = act.get(&quot;penis&quot;, &quot;cum&quot;);
+b = (Integer)cum/500;
+text = &quot;&quot;;
+if (b &lt; 2)
+{
+text = &quot;a bottle of semen.&quot;;
+AddItem(&quot;t_beast_semen&quot;);
+}
+else
+{
+text =  b + &quot; bottles of semen.&quot;;
+AddItem(&quot;t_beast_semen&quot;, b);
+}
+&quot;&quot;;%&gt;[=target]Using currently immobile state of [target] [proxy] found [t-hisher] penis tentacle and by giving it a handjob managed to collect &lt;% text;%&gt;
+&lt;%
+EndInteraction(); &quot;&quot;;%&gt;
+&lt;%LustShame(5,40); &quot;&quot;;%&gt;</descr>
+  <conditions>res = 0;
+if (GetFlag(&quot;uren_quest_done&quot;) &gt; 0){res = 1;}
+if (PerGetFlag(&quot;uren_quest&quot;) &gt; 0){res = 1;}
+res;</conditions>
+  <picturePath>forest/t_s_collect.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

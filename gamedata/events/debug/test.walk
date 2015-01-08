@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/test</name>
+  <descr>Enter description of new event here.dc</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>1</name>
+      <value>a</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>3</name>
+      <value>c</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>2</name>
+      <value>b</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/menu_penis</name>
+  <descr>[Proxy] is now looking at [target]&apos;s [=target][penis]. </descr>
+  <conditions>iTarget.hasOrgan(&quot;penis&quot;);</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Blowjob</name>
+      <value>sex/penis/make_blowjob</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Deepthroat</name>
+      <value>sex/penis/deepthroat</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Throat Fuck</name>
+      <value>sex/penis/mouth_fuck</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Missionary</name>
+      <value>sex/penis/missionary</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Doggy Style</name>
+      <value>sex/penis/doggy_style</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Anal sex</name>
+      <value>sex/penis/anal</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>sex/turn</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

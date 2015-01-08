@@ -1,0 +1,18 @@
+<fetishmaster.items.Item>
+  <name>Gestamin</name>
+  <descr>Vial with powerful alchemical elixir that can speed up gestation. Side-effects are not known.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>if (consumer.hasOrgan(&quot;uterus&quot;))&#xd;
+{&#xd;
+consumer.loadEffect(&quot;uterus.volume&quot;, &quot;gestamin&quot;);&#xd;
+self.MoodShame(50);&#xd;
+}</useScript>
+  <useText>Almost strange, but &lt;%self.getName();%&gt; not feeling anything unusual.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>10000</value>
+  <sellValue>3000</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

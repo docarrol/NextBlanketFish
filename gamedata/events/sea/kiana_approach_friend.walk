@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/kiana_approach_friend</name>
+  <descr>&lt;%Include(&quot;seafront/kiana_talking_hello&quot;);%&gt;
+&lt;%Include(&quot;seafront/kiana_talking_choices&quot;);%&gt;
+&lt;%SetFlag(&quot;kiana_seaside_meet&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;kiana_friend&quot;) &gt; 0</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

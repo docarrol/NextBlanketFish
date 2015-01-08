@@ -1,0 +1,43 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/cosmetic_surgery</name>
+  <descr>You decide that breasts implants will be a good addition to [proxy]&apos;s appearance. Not feeling any strong resistance from [himher], it&apos;s settled. When [heshe] tells Dr. Genki that [heshe] is thinking about getting some breast implants, he smiles, walks over to a cabinet, and opens it before beginning to explain the procedure. Inside the cabinet [proxy] can see implants of various sizes.
+
+- The full operation will take about five hours. The implants I use are completely safe and will not require any special attention. Though I need to warn you... the implants, especially the large ones, will affect your lactic output. Since they are occupying space in your breasts, you will have less milk to express. If you still desire to have the enhancement, choose the size of implant now. The operation will cost you eight hundred coins plus the cost of the selected implant.
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>ShameCheck(30) &lt; 10; HasMoney(GetFlag(&quot;money_for_implant&quot;)+800) &amp;&amp; status.isPregnant(proxy) == false &amp;&amp; proxy.hasOrgan(&quot;breasts&quot;);</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>500 cc (500 coins).</name>
+      <value>city/hospital/genki/implants_500</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>1000 cc. (800 coins)</name>
+      <value>city/hospital/genki/implants_1000</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>1500 cc. (1000 coins)</name>
+      <value>city/hospital/genki/implants_1500</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Filling implants. (2000 coins)</name>
+      <value>city/hospital/genki/implants_custom</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/genki/r_to_cabinet</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

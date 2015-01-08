@@ -1,0 +1,12 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/end_of_walking</name>
+  <descr>&lt;%EndWalk();%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

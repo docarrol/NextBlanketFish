@@ -1,0 +1,60 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/turn</name>
+  <descr>Before [proxy] is [target].
+&lt;%
+sysprint(&quot;========= Sex event turn ===========&quot;);
+ctv=iTarget; 
+c=iTarget;
+ctv.setFlag(&quot;clothed&quot;, 0);
+&quot;&quot;;
+%&gt;
+&lt;%Include(&quot;cview/full_description&quot;);%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Tease</name>
+      <value>sex/tease</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Kissing</name>
+      <value>sex/kissing</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Breasts</name>
+      <value>sex/menu_breasts</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pussy</name>
+      <value>sex/menu_vagina</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cock</name>
+      <value>sex/menu_penis</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ass</name>
+      <value>sex/menu_ass</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Special</name>
+      <value>sex/special</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>sex/leave</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc>Before Asami is Hiroaki.
+
+Hiroaki is a boy kau tangata of short height, with shoulder-length straw hair, pair of cow-like ears, and human golden eyes. Pair of the cow-like horns grow on his human head. He has human arms and human legs which end in human feet. He has He has a average weight for his size, with a flat belly and medium hips. Hiroaki has cow-like tail.
+
+</parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

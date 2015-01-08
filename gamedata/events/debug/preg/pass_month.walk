@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/preg/pass_month</name>
+  <descr>Adding one month to proxy bio clock.
+
+&lt;%
+proxy.addHours(24*7);
+proxy.addHours(24*7);
+proxy.addHours(24*7);
+proxy.addHours(24*7);
+proxy.addHours(24*2);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/mod_gene_mutation</name>
+  <descr>[Proxy] asks to Todd what this DNA modification will do.
+
+- You see, when a embyro is fertilized, the genes from both father and mother are taken and made into the person it&apos;ll be. It has been confirmed that there is a percentage of every gene that might alter the gene itself. This modification changes the percentage so there&apos;s a bigger chance of having a larger difference between the parent and child. 
+
+- It also &apos;resets&apos; the gene, so the average of the DNA of the proxy. It should allow offsprings to have higher values. I call this occurance &apos;mutation&apos;. I believe this is the best way to indirectly change the value of the DNA.
+
+&lt;% geneName = GetTextFlag(&quot;gene_mod_selection&quot;); gene = proxy.getDNAGene( geneName ); &quot;&quot;;%&gt;
+&lt;% purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue(); &quot;&quot;;%&gt;
+Gene Purity:	&lt;% purity;%&gt;% (Medium Impact)
+Cost:		&lt;% (7500 + (7500 * (100 - (int)purity) / 250));%&gt;
+Selected gene: 	&lt;% Include(&quot;hospital/todd/text_selected_gene&quot;);%&gt; 
+&lt;%if(geneName != &quot;None&quot;) {Include(&quot;base/scanner/scan_gene_mutation&quot;)};%&gt; (+1%)
+
+&lt;%SetFlag(&quot;todd_mod_select_mutation&quot;, 1); &quot;&quot;;%&gt;
+
+&lt;%Include(&quot;hospital/todd/limit_mutation&quot;);%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;installed_display_upgrade&quot;) == 1 &amp;&amp; GetPerFlag(&quot;todd_used_modification&quot;) &lt; 10;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/todd/modifications</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Select Gene</name>
+      <value>city/hospital/todd/select_gene</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Preform Modification (3h)</name>
+      <value>city/hospital/todd/start_mod_mutation</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

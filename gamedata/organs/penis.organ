@@ -1,0 +1,61 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>penis</name>
+  <actionNames>
+    <string>orgasm</string>
+    <string>penis_arousal</string>
+  </actionNames>
+  <actionScripts>
+    <string>        cumpouch = 0.0;
+        cumballs = calc.percent(self.getStat(&quot;balls.sperm_volume&quot;), 60);
+        self.subStat(&quot;balls.sperm_volume&quot;, cumballs);
+
+        if (self.hasOrgan(&quot;pouch&quot;))
+        {
+            cumpouch = calc.percent(self.getStat(&quot;pouch.sperm_volume&quot;), 80);
+            self.subStat(&quot;pouch.sperm_volume&quot;, cumpouch);
+        }
+        result.put(&quot;cum&quot;, cumballs+cumpouch);
+        result.put(&quot;cum_from_balls&quot;, cumballs);
+        result.put(&quot;cum_from_pouch&quot;, cumpouch);
+
+//Tiredness from orgasm
+
+         if (self.isRNAactive(&quot;penis.breeder&quot;))
+        {
+        self.addStat(&quot;generic.tiredness&quot;, 10+(cumballs+cumpouch)/400);
+        }
+        else
+        {
+        self.addStat(&quot;generic.tiredness&quot;, 10+(cumballs+cumpouch)/1200);
+        }
+result;</string>
+    <string>len = self.getCleanStat(&quot;penis.length&quot;);
+wd = self.getCleanStat(&quot;penis.width&quot;);
+
+ar = self.getStat(&quot;generic.arousal&quot;);
+
+erate = self.getCleanStat(&quot;penis.erectrate&quot;);
+len_r = erate;
+wd_r = calc.percent(erate, 30);
+
+add_l = 0;
+add_w = 0;
+
+if ( ar &gt; 50) //erection
+{
+add_l = len * calc.percent(len_r, ar);
+add_w = wd * calc.percent(wd_r, ar);
+}
+
+self.updateEffect(&quot;penis.length&quot;, &quot;arousal&quot;, add_l);
+self.updateEffect(&quot;penis.width&quot;, &quot;arousal&quot;, add_w);
+self.setStat(&quot;penis.od_size&quot;, len+ (len * calc.percent(erate, 80))); //for description only.
+
+result;</string>
+  </actionScripts>
+  <nextHourScript>self.doAction(&quot;penis_arousal&quot;);
+
+self.setStat(&quot;penis.size&quot;, self.getStat(&quot;penis.length&quot;));
+
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

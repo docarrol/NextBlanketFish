@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/pets_store/sell_semen</name>
+  <descr>Mitch gives [proxy] 700 coins in exchange for two containers of tentacle beast semen.
+
+&lt;%
+RemoveItem(&quot;t_beast_semen&quot;, 2);
+AddMoney(700); &quot;&quot;; %&gt;
+&lt;%DisplayChar(&quot;char/uren.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>HasItems(proxy, &quot;t_beast_semen&quot;, 2) &amp;&amp; GetFlag(&quot;uren_quest_done&quot;) &gt; 0 &amp;&amp; GetFlag(&quot;gestamin_ready&quot;) &lt; clock.getAHours();</conditions>
+  <picturePath>city/pets_store/inside.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sell More Semen</name>
+      <value>city/pets_store/sell_semen</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

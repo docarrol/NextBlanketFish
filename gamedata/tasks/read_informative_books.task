@@ -1,0 +1,22 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Read Informative Books</name>
+  <conditions>res = false;
+
+if (GetFlag(&quot;read_informative_books&quot;) == 1)
+	res = true;
+
+if (status.isBaby(self))
+	res= false;
+
+res;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if (isTaskFirstHour())&#xd;
+{&#xd;
+        self.addStat(&quot;generic.int&quot;, 0.15);&#xd;
+        self.addStat(&quot;generic.tiredness&quot;, 5);&#xd;
+&#xd;
+res = self.getName()+&quot; reads some informative books.&quot;;&#xd;
+}&#xd;
+res;</script>
+  <decription>Read informative books to boost intelligence.</decription>
+</fetishmaster.engine.ManagmentTask>

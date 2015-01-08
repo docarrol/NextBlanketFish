@@ -1,0 +1,7 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>debug</name>
+  <conditions>0</conditions>
+  <script>sysprint(&quot;Debug task processed&quot;);&#xd;
+</script>
+  <decription>Debug task to test script processing.</decription>
+</fetishmaster.engine.ManagmentTask>

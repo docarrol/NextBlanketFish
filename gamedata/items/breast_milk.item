@@ -1,0 +1,28 @@
+<fetishmaster.items.Item>
+  <name>Breast Milk</name>
+  <descr>A bottle of milk taken from the breasts of a young girl (or futa). &#xd;
+&#xd;
+Restores a small amount of life and fatigue.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>        life = self.getRNAGene(&quot;generic.health&quot;);&#xd;
+       fatigue = self.getRNAGene(&quot;generic.tiredness&quot;);&#xd;
+        &#xd;
+        life.setValue(life.getCleanValue()+5);&#xd;
+        if(life.getCleanValue() &gt; self.getRNAValue(&quot;generic.maxhealth&quot;))&#xd;
+            life.setValue(self.getRNAValue(&quot;generic.maxhealth&quot;));&#xd;
+        &#xd;
+        fatigue.setValue(fatigue.getCleanValue()-20);&#xd;
+        if(fatigue.getCleanValue()&lt;0)&#xd;
+            fatigue.setValue(0);&#xd;
+self.MoodShame(10);&#xd;
+self.addStat(&quot;generic.calories&quot;, 360);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 500);&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+&quot;&quot;;</useScript>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>20</value>
+  <sellValue>5</sellValue>
+  <weight>0.5</weight>
+</fetishmaster.items.Item>

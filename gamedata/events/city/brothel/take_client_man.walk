@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/take_client_man</name>
+  <descr>A man enters [proxy]&apos;s room and looks at [himher] with interest. He begins to remove his clothes and tells [proxy] to do the same.
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/client_man</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

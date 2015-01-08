@@ -1,0 +1,66 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Milking: Stimulation</name>
+  <conditions>self.hasOrgan(&quot;breasts&quot;) &amp;&amp;
+self.getStat(&quot;breasts.lact_rate&quot;) &gt; 0 &amp;&amp; GetFlag(&quot;setup_milking_room&quot;) &gt; 0 &amp;&amp;  GetFlag(&quot;hospital_buy_milk&quot;) &gt; 0;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+&#xd;
+myhour = clock.getHours() / 2;&#xd;
+if ( myhour == (Integer) myhour)&#xd;
+&#xd;
+//if(isTaskFirstHour())&#xd;
+{&#xd;
+     resp = self.doAction(&quot;milking&quot;);&#xd;
+     milk = resp.get(&quot;breasts&quot;, &quot;milk_volume&quot;);   &#xd;
+     milk += resp.get(&quot;udder&quot;, &quot;milk_volume&quot;);      &#xd;
+             &#xd;
+        bottCount = 0;&#xd;
+        &#xd;
+        if (milk &gt; 500)&#xd;
+        {&#xd;
+            bottCount = (Integer) (milk/500);&#xd;
+            AddItem(player, &quot;coin&quot;, bottCount*10);&#xd;
+        }&#xd;
+                      &#xd;
+        res = new StringBuilder();&#xd;
+        res.append(self.getName()).append(&quot; was milked and gave &quot;).append((Integer)milk).append(&quot;ml. of milk.\n&quot;);&#xd;
+        &#xd;
+        if (bottCount == 1)&#xd;
+            res.append(&quot;We manage to collect enough milk to fill one bottle.&quot;);&#xd;
+        if (bottCount &gt; 1)&#xd;
+            res.append(&quot;We managed to collect enough milk to fill &quot;).append(bottCount).append(&quot; bottles.&quot;);&#xd;
+if (bottCount &gt; 0)&#xd;
+{&#xd;
+res.append(&quot;\nHospital bought this milk for &quot;).append(bottCount*10).append(&quot;c.\n&quot;);&#xd;
+}&#xd;
+double ms = self.getStat(&quot;skill.milking&quot;);&#xd;
+self.addStat(&quot;skill.milking&quot;, (milk / 10000));&#xd;
+&#xd;
+if (ms &gt;= 100){&#xd;
+ms = 0.2;&#xd;
+} else {&#xd;
+ms = (100 - (ms * 0.8)) / 100;&#xd;
+}&#xd;
+&#xd;
+t = milk/10000*ms;&#xd;
+self.addStat(&quot;generic.tiredness&quot;, t);&#xd;
+&#xd;
+if (Chance(10) &amp;&amp; self.getCleanRNAValue(&quot;breasts.nipple&quot;) &lt; 6 &amp;&amp; GetFlag(&quot;huge_milking_cups&quot;) == 0)&#xd;
+{&#xd;
+self.addStat(&quot;breasts.nipple&quot;, 0.2);&#xd;
+res.append(&quot;Her nipples seems slightly bigger than before, seems the pumping enchanced their size.&quot;);&#xd;
+}&#xd;
+if (Chance(10) &amp;&amp; self.getCleanRNAValue(&quot;breasts.nipple&quot;) &lt; 14 &amp;&amp; GetFlag(&quot;huge_milking_cups&quot;) == 1)&#xd;
+{&#xd;
+self.addStat(&quot;breasts.nipple&quot;, 0.2);&#xd;
+res.append(&quot;Her nipples seems slightly bigger than before, seems the pumping enchanced their size.&quot;);&#xd;
+}&#xd;
+&#xd;
+//self.addStat(&quot;generic.tiredness&quot;, milk/100);&#xd;
+LustShame(self, 20, 30);&#xd;
+&#xd;
+}&#xd;
+res;</script>
+  <decription>Perform breast milking every odd hour to stimulate its production rate. 
+
+Each 500ml will be filled in bottles and sold to the hospital.</decription>
+</fetishmaster.engine.ManagmentTask>

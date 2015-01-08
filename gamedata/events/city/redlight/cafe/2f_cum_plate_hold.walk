@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/2f_cum_plate_hold</name>
+  <descr>Using all [hisher] will, [proxy] controls [himher]self until the end of the dinner. The clients finish dinner and leave looking a little disappointed. [Proxy]&apos;s shift has ended.
+&lt;%LustShame(20,35);
+AddMoney(100); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.arousal&quot;) &lt; 90;</conditions>
+  <picturePath>city/fcafe/2f_g_plate.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

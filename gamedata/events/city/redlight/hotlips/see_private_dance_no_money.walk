@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/see_private_dance_no_money</name>
+  <descr>&lt;%activePartner.getName();%&gt; does not have enough money for this.</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hotlips/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/hotlips/dance_hall</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

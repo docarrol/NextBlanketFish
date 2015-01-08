@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/masturbation/penis_play_2_mass</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;&lt;%activePartner.getName();%&gt; is feeling very aroused and is ready for some fun. &lt;%activePartner.HeShe();%&gt; hungrily looks at her massive rod and without missing a beat, manages to shove it directly into her leaking, gaping pussy. Her belly already bulging beyond beliefs, it doesn&apos;t take long as she hump and squeeze her truly massive cock with her ridiculously stretched pussy to get &lt;%activePartner.getName();%&gt; to climax. &lt;%activePartner.HeShe();%&gt; tightly grips the whole length of&lt;%activePartner.HisHer();%&gt; cock as she feels her womb filling with her own semen! &lt;%activePartner.HisHer();%&gt; vaginaviolently pulses and squirt as she climaxes from both organs!&#xd;
+&#xd;
+&lt;% &#xd;
+proxy.subStat(&quot;generic.calories&quot;, 50);&#xd;
+proxy.addStat(&quot;skill.striptease&quot;, 0.5);&#xd;
+RelaxShame(0.5);&#xd;
+act = proxy.doAction(&quot;orgasm&quot;);&#xd;
+vol = act.get(&quot;penis&quot;, &quot;cum&quot;);&#xd;
+InjectSperm(proxy, proxy, vol);&#xd;
+taker =proxy;&#xd;
+giver = proxy;&#xd;
+volume = vol;&#xd;
+proxy.setStat(&quot;generic.arousal&quot;, 0); &#xd;
+&quot;&quot;;&#xd;
+%&gt;&lt;%Include(&quot;base/futa_mast/vaginalt&quot;);%&gt;&lt;%Include(&quot;sex/cumshot/semen_in_uterus&quot;);%&gt;&lt;%Include(&quot;base/futa_mast/semen_in_vaginat&quot;);%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.hasOrgan(&quot;vagina&quot;) &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;)&amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; ShameCheck(35) &lt; 1 &amp;&amp; status.isPregnant(proxy) == false &amp;&amp; proxy.getStat(&quot;penis.length&quot;) &gt;= 76 &amp;&amp; proxy.getStat(&quot;vagina.width&quot;) &gt;= 18;</conditions>
+  <picturePath>base/masturbation_f_tmass.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

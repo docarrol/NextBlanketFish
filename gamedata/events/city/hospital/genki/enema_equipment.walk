@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/enema_equipment</name>
+  <descr>Dr. Genki laughs loudly and shakes his head unbelievingly. 
+
+- Well, I don&apos;t have the time right now, but I have an enema set, that you could use at home. I have one I do not use anymore. So, if you wish, for 500 coins it&apos;s yours.
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy (500 coins)</name>
+      <value>city/hospital/genki/enema_equipment_buy</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>5</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

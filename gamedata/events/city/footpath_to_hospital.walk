@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/footpath_to_hospital</name>
+  <descr>This footpath goes down to the central hospital. </descr>
+  <conditions>1</conditions>
+  <picturePath>city/footpath_to_hospital.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Hilltown</name>
+      <value>city/hilltown</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Hospital</name>
+      <value>city/hospital_entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

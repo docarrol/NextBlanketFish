@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/masturbation/penis_play_cumsplosion</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;&lt;%activePartner.getName();%&gt; is feeling extremely aroused as her tremendously swollen and churning balls pulsate in rytmh with her heartbeat.
+
+Needing no lube as her throbbing a unnaturally hard cock literally spews lube from it&apos;s cocktip, she pumps her penis with one hand. It doesn&apos;t take long as she feels an orgasm coming... but then something happens! Her cock starts expanding in her hands instead, making her pump faster, with soon both hands as her cock becomes painfully distended, easily reaching 5 times it&apos;s normal erect size! Tears starts beading in her eyes as she cries out and beg for an orgasm to come! Her bals soon starts painfully tightening and are churning even louder as a wave of release comes over her whole body! She screams in ecstasy as semen start blasting out of her massively distended cock... for a solid 2 minutes non-stop, splatering in a huge pool in front of her.
+
+As her body finally manages to recover,&lt;%activePartner.getName();%&gt; notices that her cock, even if not as big as it was when hugely distended, is really bigger than before! Her balls seems to have retained some of it&apos;s expansion and productivity too, not that it bothers her much, more cum can only mean more fun!
+
+&lt;%proxy.doAction(&quot;orgasm&quot;); 
+proxy.setStat(&quot;generic.arousal&quot;, 0); 
+proxy.addStat(&quot;skill.striptease&quot;, 1);
+RelaxShame(0.5);
+proxy.subStat(&quot;generic.calories&quot;, 50);
+proxy.removeEffect(&quot;balls.size&quot;,&quot;bloatingvenom1&quot;);
+proxy.removeEffect(&quot;balls.size&quot;,&quot;bloatingvenom2&quot;);
+proxy.removeEffect(&quot;balls.size&quot;,&quot;bloatingvenom3&quot;);
+proxy.removeEffect(&quot;balls.size&quot;,&quot;bloatingvenom4&quot;);
+proxy.removeEffect(&quot;balls.prod_rate&quot;,&quot;bloatingvenom1&quot;);
+proxy.removeEffect(&quot;balls.prod_rate&quot;,&quot;bloatingvenom2&quot;);
+proxy.removeEffect(&quot;balls.prod_rate&quot;,&quot;bloatingvenom3&quot;);
+proxy.removeEffect(&quot;balls.prod_rate&quot;,&quot;bloatingvenom4&quot;);
+if (proxy.getCleanStat(&quot;penis.length&quot;) &lt;= 20)
+{
+	proxy.addStat(&quot;penis.length&quot;, 2);
+}
+if (proxy.getCleanStat(&quot;penis.length&quot;) &gt; 20)
+{
+	proxy.addStat(&quot;penis.length&quot;, 0.5);
+}
+if (proxy.getCleanStat(&quot;penis.width&quot;) &lt;= 18)
+{
+	proxy.addStat(&quot;penis.width&quot;, 1);
+}
+proxy.addStat(&quot;penis.erectrate&quot;, 0.15);
+ballsSizeCalc = 5 + (self.getStat(&quot;pouch.venom_absorb&quot;)/9);
+proxy.addStat(&quot;balls.size&quot;, ballsSizeCalc);
+self.setStat(&quot;pouch.venom_absorb&quot;, 0);
+proxy.addStat(&quot;balls.prod_rate&quot;, (proxy.getStat(&quot;balls.max_volume&quot;) / 75));
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; ShameCheck(5) &lt; 1 &amp;&amp; proxy.hasEffect(&quot;balls.size&quot;, &quot;bloatingvenom4&quot;);</conditions>
+  <picturePath>base/cumsplosion.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/preg/sex_current_partner</name>
+  <descr>Test of sex process:
+
+&lt;%
+cuid = GetTextFlag(&quot;base_current_partner&quot;);
+male =  Character(cuid);
+act = male.doAction(&quot;orgasm&quot;);
+vol = act.get(&quot;penis&quot;, &quot;cum&quot;);
+InjectSperm(male, proxy, vol);
+proxy.addEffect(&quot;uterus.volume&quot;, &quot;sperm&quot;, vol, 24);
+ &quot;&quot;;%&gt;
+
+</descr>
+  <conditions>cuid = GetTextFlag(&quot;base_current_partner&quot;);
+partner = Character(cuid);
+if (partner == null) { partner = player; } //to avoid null pointer exception error
+cuid != proxy.getUID() &amp;&amp; partner.isWorker() &amp;&amp; partner.hasOrgan(&quot;penis&quot;);</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

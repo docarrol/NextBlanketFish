@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/milking/pussy_milker_under200</name>
+  <descr>&lt;%self.getName()%&gt; puts her  &lt;%IncludeRange(activePartner.getStat(&quot;vagina.vulva_size&quot;), &quot;vulva&quot;);%&gt; vulva in the suction cup and flips the pussy milker on. The rythmic suction soons get the best of her as she orgasms in not time, spurting her white goo in the cup, though the quantity isn&apos;t enough to fill a bottle, it was relieving nonetheless in addition to making her vulva temporarily a little bigger.
+&lt;%
+self.setStat(&quot;generic.arousal&quot;, 0);
+self.updateEffect(&quot;vagina.vulva_size&quot;,&quot;pumped&quot;, 1, 24);&quot;&quot;;
+%&gt;</descr>
+  <conditions>
+if (activePartner.getRNAValue(&quot;generic.arousal&quot;) &gt;= 75 &amp;&amp; GetFlag(&quot;neferi_pussy_pump&quot;) == 1 &amp;&amp; activePartner.getStat(&quot;vagina.vulva_size&quot;) &lt; 20)
+	true;
+else
+	false;</conditions>
+  <picturePath>base/vagina/pump1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

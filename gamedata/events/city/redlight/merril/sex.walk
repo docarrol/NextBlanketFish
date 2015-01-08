@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/merril/sex</name>
+  <descr>&lt;%Include(&quot;char/merril_init&quot;); &quot;&quot;;%&gt;&lt;%DisplayChar(&quot;&quot;); &quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetInteractionTarget(merril);&#xd;
+BeginInteraction(&quot;sex/turn&quot;);&#xd;
+AddIState(&quot;sex&quot;, &quot;sex/turn&quot;);&#xd;
+AddIState(&quot;t_satisfed&quot;, &quot;sex/t_satisfed&quot;);&#xd;
+AddIState(&quot;t_tired&quot;, &quot;sex/t_tired&quot;);&#xd;
+AddIState(&quot;p_leave&quot;, &quot;sex/p_leave&quot;);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/merril_home/interior.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

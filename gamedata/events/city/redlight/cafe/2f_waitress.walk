@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/2f_waitress</name>
+  <descr>[Proxy] changes into [hisher] uniform and begins their shift. &lt;%Include(&quot;fetish_cafe/2f_waitress&quot;);%&gt;</descr>
+  <conditions>(proxy.isFemale()||proxy.isFuta()) &amp;&amp; GetPerFlag(&quot;cafe_2f_work&quot;) &gt; 0;</conditions>
+  <picturePath>city/fcafe/interior_2f.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>4</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

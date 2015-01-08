@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/t_beast/start</name>
+  <descr>&lt;%DisplayChar (&quot;char/t_beast.png&quot;); &quot;&quot;;%&gt;&lt;%
+ e = Character(&quot;Tentacle Beast&quot;, &quot;t_beast/t_beast&quot;);
+ SetEnemy(e);
+BeginInteraction(&quot;battle/p_turn&quot;);
+AddIState(&quot;fight&quot;, &quot;battle/p_turn&quot;);
+AddIState(&quot;win&quot;, &quot;battle/t_beast/win&quot;);
+AddIState(&quot;lose&quot;, &quot;battle/t_beast/lose&quot;);
+AddIState(&quot;flee&quot;, &quot;battle/t_beast/flee&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

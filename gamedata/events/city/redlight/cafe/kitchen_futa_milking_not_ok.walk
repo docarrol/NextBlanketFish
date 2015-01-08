@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/kitchen_futa_milking_not_ok</name>
+  <descr>Gross! [Proxy] has such a negative reaction, you cannot force [himher] to accept.</descr>
+  <conditions>GetPerFlag(&quot;fcafe_kitchen_futa&quot;) == 2 &amp;&amp; ShameCheck(30) &gt;= 1;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

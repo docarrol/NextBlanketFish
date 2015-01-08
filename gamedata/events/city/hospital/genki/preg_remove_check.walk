@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/in_cabinet</name>
+  <descr>[proxy] rubs her &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly a couple of times before telling the doctor that [she] wants the pregnant implant removed.
+
+- That is fine [proxy]. Are you absolutely sure you want me to remove your pregnancy implant?
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getFlag(&quot;installed_preg_implant&quot;) &gt; 0 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Remove preg implant</name>
+      <value>city/hospital/genki/preg_implant_remove</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/genki/r_to_cabinet</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,28 @@
+<fetishmaster.items.Item>
+  <name>Expando-Cunt Cream</name>
+  <descr>This container contains a hefty dose of expando-cunt cream, which will expand your vulva, deepen your pussy, and boosting it&apos;s juice belching! For those who want literally everything possible inside them...</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>res = self.getName() + &quot; takes the special cream and starts massaging her vulva, fingering inside too to get the cream everywhere...&quot;;&#xd;
+if (GetPerFlag(&quot;cunt_overload&quot;) &gt; 0)&#xd;
+{&#xd;
+res += &quot; which grows hot as you hear it churning and expanding, inside and out, juices gushing out with each little growth spurt! Now to find someone with a cock big enough to satisfy this throbbing ball of pleasure!&quot;;&#xd;
+self.addStat(&quot;vagina.length&quot;, 5);&#xd;
+self.addStat(&quot;vagina.width&quot;, 3);&#xd;
+self.addStat(&quot;vagina.vulva_size&quot;, 3);&#xd;
+self.addStat(&quot;vagina.goo_modifier&quot;, 1);&#xd;
+self.addStat(&quot;vagina.maxmoist&quot;, 25);&#xd;
+self.LustShame(30, 40);&#xd;
+}&#xd;
+else&#xd;
+{&#xd;
+res += &quot; and then shrugs as nothing really happens. It seems like it won&apos;t affect the pussies that didn&apos;t get the huge boost from the magic dildo&quot;;&#xd;
+}&#xd;
+res;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>3000</value>
+  <sellValue>500</sellValue>
+  <weight>0.1</weight>
+</fetishmaster.items.Item>

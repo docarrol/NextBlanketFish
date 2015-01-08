@@ -1,0 +1,10 @@
+<fetishmaster.components.StatEffect>
+  <name>npc_rest</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>self.subStat(&quot;generic.tiredness&quot;, 3);</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

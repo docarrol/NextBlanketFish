@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/preg_play_old</name>
+  <descr>&lt;% cuid = proxy.getStatText(&quot;neferi.preg_client&quot;);&#xd;
+client = Character(cuid);&#xd;
+c = client;&#xd;
+oldsize = proxy.getStat(&quot;neferi.preg_client&quot;);&#xd;
+size = proxy.getStat(&quot;generic.abdomen&quot;);&#xd;
+size_diff = size-oldsize;&#xd;
+money = (Integer) size_diff*500;&#xd;
+ &quot;&quot;;%&gt;After some time [t-name] enters the room. [t-HeShe] pauses shortly in the doorway to get a good look at [proxy]&apos;s figure, and how it changes.&#xd;
+&lt;%Include(&quot;brothel/preg_client_changes&quot;);%&gt;&#xd;
+&#xd;
+&lt;% Include(&quot;brothel/preg_play_payment&quot;);%&gt;&#xd;
+&lt;%&#xd;
+proxy.setStat(&quot;neferi.preg_client&quot;, proxy.getStat(&quot;generic.abdomen&quot;));&#xd;
+LustShame(15,40); &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;neferi_preg_play_intro&quot;) &gt; 0 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &gt; 2 &amp;&amp;
+proxy.getStatText(&quot;neferi.preg_client&quot;) != &quot;&quot;;</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/work_room</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>3</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

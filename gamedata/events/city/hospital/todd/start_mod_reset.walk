@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/start_mod_reset</name>
+  <descr>&lt;%Include(&quot;hospital/todd/operation_text&quot;);%&gt;
+
+
+&lt;% 
+RemoveMoney(5000);
+geneName = GetTextFlag(&quot;gene_mod_selection&quot;);
+sysprint(&quot;modifying: &quot; + geneName);
+gene = proxy.getDNAGene(geneName);
+gene.setGeneForce(50);
+gene.setMutationRate(5);
+&quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(5000) &amp;&amp; GetTextFlag(&quot;gene_mod_selection&quot;) != &quot;none&quot; &amp;&amp; 
+GetFlag(&quot;block_operation&quot;) &lt; 1;</conditions>
+  <picturePath>city/hospital/healing_capsule.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>3</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

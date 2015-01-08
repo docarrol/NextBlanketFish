@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/anal_disgusted</name>
+  <descr>[Proxy] gets down on [her] knees spreading her ass wide open. 
+
+[target] looks at [proxy]&apos;s &lt;%IncludeRange(proxy.getStat(&quot;ass.cleanness&quot;), &quot;asscleanness&quot;);%&gt; asshole and gets disgusted.  [=target][t-HeShe] rushes to the bathroom. When [t-heshe] returns to the room, the erection has fades away and the [target] hasten not interested to continue.
+
+[target] takes [t-hisher] clothes and leaves disgusted without a payment.
+
+[Proxy] is shocked by what just happened. [HeShe] puts on [hisher] clothes and leaves.
+
+&lt;%
+SetPerFlag(&quot;anal_sex_disgusting&quot;, 1);
+EndInteraction();
+&quot;&quot;;%&gt;
+&lt;%LustShame(20, 65); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;ass&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;33 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; proxy.getStat(&quot;ass.cleanness&quot;) &lt;= 0.7 &amp;&amp; iTarget.getName() == &quot;Client&quot;
+//&amp;&amp; GetPerFlag(&quot;anal_sex_disgusting&quot;) &lt; 1;</conditions>
+  <picturePath>sex/anal_sex_unhappy_client_2.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>5</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/collect_pancakes</name>
+  <descr>&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;Vicky thanks [proxy] once again, the aroma of pancakes and toppings waft through the cafe. Surely it won&apos;t be long until news spreads of the cafe&apos;s delicious pancakes?&#xd;
+&lt;% &#xd;
+AddItem(&quot;pancake&quot;, 10);&#xd;
+SetPerFlag(&quot;mt_collected_pancakes&quot;, 1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;muffin_top_quest&quot;)&gt;=2 &amp;&amp; GetPerFlag(&quot;muffin_top_quest&quot;) == 3 &amp;&amp; GetFlag(&quot;muffin_top_next_stage&quot;)-6 &lt;= clock.getDays() &amp;&amp; GetPerFlag(&quot;mt_collected_pancakes&quot;) == 0; </conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

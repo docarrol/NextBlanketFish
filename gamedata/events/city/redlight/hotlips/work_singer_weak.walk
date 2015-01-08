@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/work_singer_weak</name>
+  <descr>&lt;%activePartner.getName();%&gt; works as a singer. &lt;%@activePartner.HeShe();%&gt; received some clapping, but she needs more practice to be something more than an ordinary singer.
+
+Ms. Tendo payed &lt;%activePartner.getName();%&gt; 10 coins for the work.
+
+&lt;%
+activePartner.inventory.addMoney(10);
+activePartner.addStat(&quot;skill.sing&quot;, 1);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.cha&quot;)/10 + activePartner.getRNAValue(&quot;skill.sing&quot;) &gt; 15;</conditions>
+  <picturePath>city/hotlips/singer_weak.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>2</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

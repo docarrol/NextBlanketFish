@@ -1,0 +1,33 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>uddersize</name>
+  <min>
+    <double>-999.0</double>
+    <double>3.0</double>
+    <double>8.0</double>
+    <double>13.0</double>
+    <double>20.0</double>
+    <double>30.0</double>
+    <double>40.0</double>
+    <double>55.0</double>
+  </min>
+  <max>
+    <double>3.0</double>
+    <double>8.0</double>
+    <double>13.0</double>
+    <double>20.0</double>
+    <double>30.0</double>
+    <double>40.0</double>
+    <double>55.0</double>
+    <double>9999.0</double>
+  </max>
+  <descr>
+    <string>almost flat but still noticeable</string>
+    <string>small but definitely bulging</string>
+    <string>decent sized</string>
+    <string>cantaloupe-sized</string>
+    <string>watermelon-sized</string>
+    <string>pumpkin-sized</string>
+    <string>prize cow like</string>
+    <string>enormous</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

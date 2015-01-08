@@ -1,0 +1,44 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/milker_inspection</name>
+  <descr>&lt;%activePartner.getName();%&gt; looks the milking unit over. You see that the device overall doesn&apos;t look that complicated. It&apos;s a mechanical pump attached to a magical engine with a mana crystal sitting on top in a mount. The crystal has the ability to collect and store mana which is then used to power the motor. Just below the mana crystal&apos;s mount is a hole marked &quot;AUX POWER CRYSTAL PORT&quot; that you assume is used to power the motor in emergencies. When [proxy] looks closer at the mana collector crystal, you see that there is a crack in it.
+
+When [proxy] tells Belanika that the collector crystal is cracked, the cowgirl sighs sadly when hearing the news. Deciding that the problem is more complex then you thought, you have [proxy] carefully take the mana collector crystal out of its mount on the engine, [proxy] promising Belanika that [heshe] will try and find someone that can fix it.
+
+- Thank you so much [proxy]! I really appreciate you doing this. The mage in the city might know what to do.
+
+Belanika then blushes and casts her eyes down.
+
+- I know I&apos;m asking a lot of you, and it&apos;s going to be expensive, but please, can you obtain a power crystal to power the engine until you get the mana collector crystal fixed?
+
+With a nod, [proxy] says that [heshe] makes no promises, but will do what [heshe] can. After carefully putting the crystal into [hisher] travel satchel, [proxy] waves to Belanika and says [heshe] will be back as soon as possible.
+
+- Please return as soon as you can [proxy].
+
+&lt;% SetFlag(&quot;belanika_quest&quot;, 1); &quot;&quot;;%&gt;
+&lt;% PerSetFlag(&quot;carry_belanika_crystal&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>res = 0;
+if (GetFlag(&quot;belanika_quest&quot;) == 0)
+	res = 1;
+res;
+
+</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Give Crystal</name>
+      <value>farms/has_power_crystal</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

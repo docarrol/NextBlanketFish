@@ -1,0 +1,225 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>abdomen</name>
+  <actionNames>
+    <string>abdomen_recalc</string>
+    <string>abdomen_recalc_fat</string>
+    <string>eat</string>
+    <string>overeated</string>
+  </actionNames>
+  <actionScripts>
+    <string>//fat changes
+fat_vol =  self.getStat(&quot;generic.fat&quot;)/100* self.getStat(&quot;fat.belly&quot;);
+self.setStat(&quot;abdomen.fat&quot;, fat_vol);
+self.updateEffect(&quot;abdomen.volume&quot;, &quot;fat&quot;, fat_vol);
+self.updateEffect(&quot;generic.fat_in_organs&quot;, &quot;abdomen&quot;, fat_vol, 2);
+
+//calc data about spare vol
+max_vol  = self.getStat(&quot;abdomen.max_volume&quot;);
+prev_vol = self.getStat(&quot;abdomen.prev_volume&quot;);
+self.removeEffect(&quot;abdomen.volume&quot;, &quot;spare_vol&quot;);
+cvol = self.getStat(&quot;abdomen.volume&quot;);
+prev_spare = self.getStat(&quot;abdomen.spare_vol&quot;);
+vol_d = cvol - prev_vol;
+str_vol = self.getStat(&quot;abdomen.stretched_vol&quot;);
+spare = prev_spare - vol_d;
+spare -= self.getStat(&quot;abdomen.contr_rate&quot;);
+
+if (str_vol &lt; spare)
+{
+str_vol += self.getStat(&quot;generic.regen_rate&quot;);
+}
+else
+{
+str_vol -= self.getStat(&quot;generic.regen_rate&quot;);
+}
+self.setStat(&quot;abdomen.stretched_vol&quot;, str_vol);
+
+if (str_vol &lt; spare)
+{
+spare = str_vol;
+}
+
+if (cvol &gt; max_vol / 2)
+{
+   spare -= cvol - (max_vol/2);
+}
+
+if (spare &lt; 0)
+{
+	spare=0;
+}
+
+self.setStat(&quot;abdomen.spare_vol&quot;, spare);
+self.setStat(&quot;abdomen.prev_volume&quot;, cvol);
+self.updateEffect(&quot;abdomen.volume&quot;, &quot;spare_vol&quot;, spare);
+cvol = self.getStat(&quot;abdomen.volume&quot;);
+
+//grow maxvol
+if (cvol &gt; calc.procent(max_vol, 80))
+{
+	maxvol = self.getCleanRNAValue(&quot;abdomen.max_volume&quot;);
+	maxvol += self.getStat(&quot;generic.regen_rate&quot;)/3;
+	self.setStat(&quot;abdomen.max_volume&quot;, maxvol);
+}
+
+//volume to size
+
+size = geometry.MillilitersToSphereDiameter(self.getStat(&quot;abdomen.volume&quot;));
+self.setStat(&quot;abdomen.size&quot;, size);
+
+//now calc what we adding to waist.
+
+waist = self.getCleanRNAValue(&quot;generic.waist&quot;);
+h = self.getStat(&quot;generic.height&quot;);
+h = calc.procent(h, 40);
+r = waist/(2*3.14);
+
+wvol = h*r*r;
+
+inside = geometry.MillilitersToSphereDiameter(calc.procent(wvol, 5));
+//sysprint(&quot;inside=&quot;+inside);
+//sysprint(&quot;size=&quot;+size);
+
+aw = (size-inside)*3.14;
+
+if (inside &lt;= size)
+{
+    self.updateEffect(&quot;generic.waist&quot;, &quot;abdomen&quot;, aw);
+    self.setStat(&quot;generic.abdomen&quot;, size-inside);
+}
+else
+{
+    self.updateEffect(&quot;generic.waist&quot;, &quot;abdomen&quot;, 0);
+    self.setStat(&quot;generic.abdomen&quot;, 0);
+}
+
+//weight
+self.updateEffect(&quot;generic.weight&quot;, &quot;abdomen&quot;, self.getStat(&quot;abdomen.weight&quot;));
+
+//stretchmarks
+marks = self.getStat(&quot;abdomen.stretch_marks&quot;);
+n_marks = (cvol / (max_vol+1)) - 1;
+if (n_marks &lt; 0) n_marks = 0;
+n_marks = n_marks * 100;
+
+if (marks &lt; n_marks) self.setStat(&quot;abdomen.stretch_marks&quot;, n_marks);
+
+if (marks &gt; 11) self.subStat(&quot;abdomen.stretch_marks&quot;, self.getStat(&quot;generic.regen_rate&quot;)/75 );
+
+//size penalties
+if (max_vol &lt; cvol)
+{
+	self.subStat(&quot;generic.health&quot;, (cvol-max_vol)/10000);
+}
+spd = self.getStat(&quot;generic.spd&quot;);
+str = self.getStat(&quot;generic.str&quot;);
+dex = self.getStat(&quot;generic.dex&quot;);
+
+self.updateEffect(&quot;generic.dex&quot;, &quot;belly_size&quot;, 0-cvol/(str*10));
+self.updateEffect(&quot;generic.spd&quot;, &quot;belly_size&quot;, 0-cvol/(str*10));
+
+/* this is incorrect - hyper should affect END stat, or at least add it&apos;s own effect, but not change already present calculations. This breaking game engine ideology.
+if (self.getStat(&quot;fertility.hyperbreeder&quot;) == 0)
+{
+self.updateEffect(&quot;generic.dex&quot;, &quot;belly_size&quot;, 0-cvol/(str*10));
+self.updateEffect(&quot;generic.spd&quot;, &quot;belly_size&quot;, 0-cvol/(str*10));
+}
+if (self.getStat(&quot;fertility.hyperbreeder&quot;) &gt; 0)
+{
+self.updateEffect(&quot;generic.dex&quot;, &quot;belly_size&quot;, 0-cvol/(str*30));
+self.updateEffect(&quot;generic.spd&quot;, &quot;belly_size&quot;, 0-cvol/(str*30));
+}
+*/
+
+//stomach volume
+st_vol = self.getCleanStat(&quot;abdomen.max_volume&quot;)/2;
+self.setStat(&quot;abdomen.stomach_volume&quot;, st_vol);
+food = self.getStat(&quot;abdomen.food&quot;);
+if (st_vol &lt; food)
+{ self.doAction(&quot;overeated&quot;); }
+
+result;</string>
+    <string>f = self.getStat(&quot;generic.fat&quot;);
+m = self.getStat(&quot;generic.metabolism&quot;);
+cl = self.getStat(&quot;generic.calories&quot;);
+cr = self.getStat(&quot;generic.calories_rate&quot;);
+w = self.getStat(&quot;generic.weight&quot;);
+fd = self.getStat(&quot;abdomen.food&quot;);
+
+prc = 0;
+m = calc.setInRange(m, 0, 100);
+wst = 0;
+fr = fd / cl;
+
+// from calories to fat
+if (cl &gt; 0)
+{
+	prc = cr;
+	if (cl &lt; cr)
+	{
+		prc = cl-cr;
+	}
+	cl -= prc;
+	f += calc.procent(prc, 100-m);
+	wst = calc.procent(prc, m);
+	fd -= prc * fr;
+}
+
+
+// from fat to calories
+if (cl &lt; 0 )
+{
+	prc = cr;
+	cl += prc;
+	f -= prc;
+	fd += prc * fr;
+	if (f &lt; 0)
+	{
+		f = 1;
+	}
+}
+
+self.setStat(&quot;generic.fat&quot;, f);
+self.setStat(&quot;generic.calories&quot;, cl);
+self.setStat(&quot;abdomen.food&quot;, fd);
+self.setStat(&quot;abdomen.waste&quot;, wst);
+self.updateEffect(&quot;generic.weight&quot;, &quot;fat&quot;, f * 0.9); //fat not as heavy as water
+self.updateEffect(&quot;abdomen.volume&quot;, &quot;food&quot;, fd);
+
+result;</string>
+    <string>fd = self.getStat(&quot;abdomen.food&quot;);
+self.updateEffect(&quot;abdomen.volume&quot;, &quot;food&quot;, fd);
+
+self.doAction(&quot;abdomen_recalc&quot;);
+
+result;</string>
+    <string>food = self.getStat(&quot;abdomen.food&quot;);
+stm = self.getStat(&quot;abdomen.stomach_volume&quot;);
+e_str = self.getEffectValue(&quot;abdomen.stomach_volume&quot;, &quot;stretched&quot;);
+regen = self.getStat(&quot;generic.regen_rate&quot;);
+
+if (calc.percent(stm, 85) &gt; food)
+{ 
+self.updateEffectAR(&quot;abdomen.stomach_volume&quot;, &quot;stretched&quot;, e_str+regen*10, regen) ;
+
+}
+
+//throw up
+if (stm &lt; food &amp;&amp; Chance( 100/(stm/(food-stm)) ))
+{
+self.addHistory(&quot;Overeating!&quot;, &quot;To much food, &quot;+self.getName()+&quot; can&apos;t hold it all, and throw up some!&quot;);
+ta = calc.percent(food, calc.random(100));
+ca = calc.percent(self.getStat(&quot;generic.calories&quot;), calc.random(100));
+self.subStat(&quot;abdomen.food&quot;, ta);
+self.subStat(&quot;generic.calories&quot;, ca);
+self.doAction(&quot;eat&quot;);
+}
+
+result;</string>
+  </actionScripts>
+  <nextHourScript>self.doAction(&quot;abdomen_recalc_fat&quot;);
+
+self.doAction(&quot;abdomen_recalc&quot;);
+
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

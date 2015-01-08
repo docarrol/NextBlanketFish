@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/preg_strip</name>
+  <descr>- So, you would like to participate in a pregnancy show? Good. Please bear in mind that we only do this once a day. The show starts at 18:00 sharp and continues until 21:00. If the crowd likes what they see, they will give you tips. The bigger your belly, the bigger the tips. It&apos;s as simple as that. To get more, you can try to accent your state. They will like it. Having wide hips also can helps, the wider the better!
+
+&lt;% DisplayChar(&quot;char/neferi.png&quot;);
+SetPerFlag(&quot;neferi_preg_strip_intro&quot;, 1);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;neferi_preg_strip_intro&quot;) &lt; 1 &amp;&amp; GetPerFlag(&quot;neferi_preg_offer&quot;) &gt; 0 &amp;&amp; GetPerFlag(&quot;nefri_warning&quot;) &lt; 2;</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/outskirts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

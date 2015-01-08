@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital_entrance</name>
+  <descr>You have arrived at the Central City Hospital. You may also find the Medical College here. This not only hosts the best medical care in the city, it also has a large research department. After the DS, traditional medicine has seen major improvements with the inclusion of magic. To discover how to use this fusion to the its best effects, a large research wing was built here. The college near it is good to the students, they always have plenty of practice. Also there are some rumors about strange experiments in the science wing, but that is closed to the public.
+
+&lt;%Include(&quot;rumors/common&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital_entrance.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Footpath</name>
+      <value>city/footpath_to_hospital</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Look Around (1h)</name>
+      <value>city/hospital/entrance_look</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enter Hospital</name>
+      <value>city/hospital/reception</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>College</name>
+      <value>city/college/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

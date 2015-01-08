@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/scanner/gene_body_display</name>
+  <descr>-&lt;\/&gt;  Body Display Module  &lt;\/&gt;-
+
+This module will display the estimated body display of the proxy in 20 years. 
+With some, the measurements are too inaccurate. Additional values are displayed for those variables.
+
+&lt;%gene = proxy.getDNAGene(&quot;generic.height&quot;); &quot;&quot;;%&gt; &lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;; %&gt;
+Body:  
+ Height:		&lt;%((Float)(Integer)valueMin)/ 100;%&gt;-&lt;%((Float)(Integer)valueMax)/ 100;%&gt; meters
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+
+&lt;%gene = proxy.getDNAGene(&quot;generic.hips&quot;); &quot;&quot;;%&gt; &lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;; %&gt;
+Hips: 
+ Width:		&lt;%(Integer)valueMin;%&gt;-&lt;%(Integer)valueMax;%&gt; cm.
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+&lt;%Include(&quot;base/scanner/scan_display_female&quot;);%&gt;
+&lt;%Include(&quot;base/scanner/scan_display_male&quot;);%&gt;
+
+
+Abdomen Capacity:	&lt;%gene = proxy.getDNAGene(&quot;abdomen.max_volume&quot;); &quot;&quot;;%&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); (Integer)valueMin+&quot;-&quot; + (Integer)valueMax; %&gt; ml.
+  &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+  &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+
+Uterus Capacity:	&lt;%gene = proxy.getDNAGene(&quot;uterus.max_volume&quot;); &quot;&quot;;%&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); (Integer)valueMin+&quot;-&quot; + (Integer)valueMax; %&gt; ml.
+  &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+  &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+
+&lt;%gene = proxy.getDNAGene(&quot;generic.regen_rate&quot;);&quot;&quot;;%&gt; &lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;;%&gt;
+Regeneration Rate: 
+ Chance:		&lt;%(Integer)valueMin;%&gt;-&lt;% (Integer)valueMax;%&gt;%
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+</descr>
+  <conditions>GetFlag(&quot;installed_display_upgrade&quot;) == 1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

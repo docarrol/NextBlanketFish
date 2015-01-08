@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/merril_request</name>
+  <descr>[Proxy] hears the farmer tending to the bull&apos;s barn and heads inside. She greets him and hands him the note. He looks at it and gives a nod.
+
+- Alright then, we do have something like that for the bulls but I&apos;ve been working on it under her request. I need at least 3 horse beans and 1 Gestamin. You can find those at the pet store in the magic district. The owner has been working on it for a bit. Bring me those and I&apos;ll craft you the mix your friend wants.
+
+He also adds one other thing.
+
+- Also, if you&apos;re interested, I can give you a treatment to increase your fertility and chances to have more offsprings. All I&apos;m asking for payment is fresh breast milk. If you let me milk you when you at least have 10L of milk in your breasts, I&apos;ll inject you with the stuff. It should last about a month but it&apos;s also stackable so in clear, if you get a treatment before the previous dose wears off, not only will it last a month, it will also be enchanced by the previous treatment and it will permanently increase your chances of having a lot of multiples. The offer&apos;s there!
+&lt;%SetPerFlag(&quot;merril_sexperiment_prep&quot; , 2); &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;merril_sexperiment_prep&quot;) &gt;= 1;</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To Farm</name>
+      <value>farms/on_the_farm</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Prepare the mix</name>
+      <value>farms/merril_request_craft</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Fertility Treatment</name>
+      <value>farms/fertility_treatment</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

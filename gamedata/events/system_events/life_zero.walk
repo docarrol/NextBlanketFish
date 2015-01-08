@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/life_zero</name>
+  <descr>[Proxy] is too wounded to do anything. You should immediately turn off the proxy. [Proxy] will be evacuated by a hospital emergency team and will return home on [hisher] own, after [heshe] is fully healed.
+&lt;%proxy.addEffect(&quot;generic.knockouts&quot;, &quot;k.o.&quot;, 1, 800); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>system/nurses_pov_bed.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Turn off Proxy</name>
+      <value>system_events/return_to_home_after_hospital</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

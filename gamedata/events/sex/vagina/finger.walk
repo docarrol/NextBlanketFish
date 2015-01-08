@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/vagina/finger</name>
+  <descr>Fingering [target]'s pussy gives [=target][t-her] some arousal.&#xd;
+&lt;%Include(&quot;sex/calc_vagina_finger&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

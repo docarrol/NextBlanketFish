@@ -1,0 +1,26 @@
+<fetishmaster.items.Item>
+  <name>Milk</name>
+  <descr>Bottle of regular milk.&#xd;
+&#xd;
+Restores a small amount of life and fatigue.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>        life = self.getRNAGene(&quot;generic.health&quot;);&#xd;
+       fatigue = self.getRNAGene(&quot;generic.tiredness&quot;);&#xd;
+        &#xd;
+        life.setValue(life.getCleanValue()+5);&#xd;
+        if(life.getCleanValue() &gt; self.getRNAValue(&quot;generic.maxhealth&quot;))&#xd;
+            life.setValue(self.getRNAValue(&quot;generic.maxhealth&quot;));&#xd;
+        &#xd;
+        fatigue.setValue(fatigue.getCleanValue()-20);&#xd;
+        if(fatigue.getCleanValue()&lt;0)&#xd;
+            fatigue.setValue(0);&#xd;
+self.addStat(&quot;generic.calories&quot;, 300);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 500);&#xd;
+self.doAction(&quot;eat&quot;);</useScript>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>15</value>
+  <sellValue>5</sellValue>
+  <weight>0.5</weight>
+</fetishmaster.items.Item>

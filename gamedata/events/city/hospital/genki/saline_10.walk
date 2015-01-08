@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/saline_10</name>
+  <descr>Telling Dr. Genki [heshe] wants ten bags of saline, he pulls them out of a box one at a time and gives it to [himher], [proxy] putting each one away into [hisher] travel satchel as he hands them to [himher]. [HeShe] then pulls out four rolls of a hundred coins and counts out fifty more before giving them all to the doctor. After pocketing the money, the doctor chuckles with a smile and a shake of his head.&#xd;
+&#xd;
+- Be careful that you don&apos;t over do it [proxy]. Implants are much stronger then your body is.&#xd;
+&lt;%&#xd;
+RemoveMoney(450);&#xd;
+AddItem(&quot;saline_pack&quot;, 10);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(450);</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/genki/select_saline_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

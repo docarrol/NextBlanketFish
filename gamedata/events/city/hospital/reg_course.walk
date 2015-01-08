@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/reg_course</name>
+  <descr>The Magitech regenerator is a sarcophagus like device that can quickly heal minor to moderate wounds. [Proxy] will lay in it for about one hour and after this procedure [hisher] health will be fully restored.
+&lt;%
+activePartner.setStat(&quot;generic.health&quot;, activePartner.getRNAValue(&quot;generic.maxhealth&quot;));
+activePartner.inventory.removeMoney(50);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>activePartner.inventory.moneyCount() &gt; 50;</conditions>
+  <picturePath>city/hospital/healing_capsule.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

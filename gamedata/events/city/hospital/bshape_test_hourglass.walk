@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/bshape_test_hourglass</name>
+  <descr>[Proxy] decides to go with Pear shape.
+
+- Pear shape it is! Just relax and let me inject it in your system, lay your arm on the table please.
+
+[Proxy] does as the researcher says and let him inject [himher].
+
+- Your body might start tingling all over with some heat, that normal, it&apos;s just your body re-arrenging it&apos;s fat disposition.
+
+[HeShe] really does feel some tingling and a short heat wave and then it&apos;s all done.
+
+[Proxy] thanks the good doctor and goes out the room.
+
+&lt;%
+self.setStat(&quot;fat.breasts&quot;, 29);
+self.setStat(&quot;fat.belly&quot;, 1);
+self.setStat(&quot;fat.hips&quot;, 20);
+self.subStat(&quot;generic.metabolism&quot;, 25);
+SetPerFlag(&quot;bshape_test_done&quot;, 2);
+%&gt;</descr>
+  <conditions>GetPerFlag(&quot;bshape_test_done&quot;) == 1;</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

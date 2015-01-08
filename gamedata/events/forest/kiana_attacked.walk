@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/kiana_attacked</name>
+  <descr>After going through some brushes [Proxy] see quite a scene. On the ground lie an strange girl that [heshe] meet at seaside, and before her stand a tentacle beast. Fully adult, and quite ready to use his prey. But as soon as he hear [proxy] arrival beast turn to the new character not pleased to be interrupted. It&apos;s a fight!
+&lt;%DisplayChar (&quot;char/t_beast.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>forest/in_the_forest1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Fight</name>
+      <value>forest/kiana_tbeast_fight</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

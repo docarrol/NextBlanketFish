@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/research_look</name>
+  <descr>All of the cabinets are closed, and none have any descriptions. Also [proxy] has to hide from the medical staff in this wing. They do not allow commoners to freely wander here. Maybe, now is not the time for [himher] to find anything here?</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,30 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>asswidth</name>
+  <min>
+    <double>0.0</double>
+    <double>2.0</double>
+    <double>5.0</double>
+    <double>8.0</double>
+    <double>11.0</double>
+    <double>15.0</double>
+    <double>20.0</double>
+  </min>
+  <max>
+    <double>2.0</double>
+    <double>5.0</double>
+    <double>8.0</double>
+    <double>11.0</double>
+    <double>15.0</double>
+    <double>20.0</double>
+    <double>999.0</double>
+  </max>
+  <descr>
+    <string>very tight</string>
+    <string>tight</string>
+    <string>ordinary</string>
+    <string>loose</string>
+    <string>stretched</string>
+    <string>gaping</string>
+    <string>gaping-wide</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

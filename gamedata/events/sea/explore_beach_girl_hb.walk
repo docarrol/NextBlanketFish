@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/explore_beach_girl_hb</name>
+  <descr>While exploring the beach, [Proxy] notices someone suntanning. [HeShe] approaches and sees a girl with an unusually large bust. It&apos;s so huge, that the girl can&apos;t possibly see anything past it! [Proxy] decides to approach her from the side so that she won&apos;t be surprised by [proxy].&#xd;
+&#xd;
+- I know, I know. This is not a nude beach but with my size it&apos;s impossible to find a swimsuit that does not look lewd. I decided it would be better if I just did&apos;t wear anything.&#xd;
+&lt;%MoodShame(10); &quot;&quot;;%&gt;</descr>
+  <conditions>(clock.isDay() || clock.isMorning() ) &amp;&amp; Chance(20);</conditions>
+  <picturePath>sea/girl_hb.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to Beach</name>
+      <value>sea/beach</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about her Breasts</name>
+      <value>sea/girl_hb_ask</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/oppai_strip_show</name>
+  <descr>[Proxy] gets to the backstage of the show building, and waits for [her] turn. After some time entertainer announced [her] name, and [proxy] begins [her] show.
+&lt;%Include(&quot;brothel/oppai_show_result&quot;);%&gt;
+</descr>
+  <conditions>proxy.getStat(&quot;generic.cup_size&quot;) &gt;= 26 &amp;&amp; (clock.getHours() == 2 || clock.getHours() == 1  || clock.getHours() == 22 || clock.getHours() == 23 || clock.getHours() == 0) &amp;&amp; GetPerFlag(&quot;neferi_oppai_show&quot;) &gt; 0;</conditions>
+  <picturePath>city/brothel/oppai_show_generic.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>5</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

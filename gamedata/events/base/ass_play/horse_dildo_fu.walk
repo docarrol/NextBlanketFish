@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/ass_play/horse_dildo_fu</name>
+  <descr>[Proxy] selects the big dildo that imitates a horse penis. After some trying [heshe] managed to push it inside [hisher] ass but it&apos;s very tight, almost painful to [himher]. Hour of cautious play allow [himher] to become a little more used to this size.&#xd;
+&#xd;
+&lt;%Include(&quot;base/ass_stretch_horse&quot;); res;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;ass.width&quot;) &gt; 1 &amp;&amp; proxy.getStat(&quot;ass.width&quot;) &gt; 6 &amp;&amp;  proxy.getStat(&quot;generic.sex&quot;) == 3</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

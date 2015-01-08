@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_forest_catgirl</name>
+  <descr>Walking around a tree, [proxy] nearly runs into a Catgirl. The Catgirl jumps away from [proxy] and hisses at [himher]. &lt;%activePartner.getName();%&gt; does not dare to approach her. She is not going to argue with a Catgirl. Making sure that &lt;%activePartner.getName();%&gt; does not appear threatening to her, the Catgirl disappears into some bushes on the side of the forest trail.
+
+&lt;%
+DisplayChar(&quot;char/cat-girl1.png&quot;);
+RelaxShame(1);
+ &quot;&quot;;
+%&gt;</descr>
+  <conditions>calc.chance(20);</conditions>
+  <picturePath>forest/in_the_forest1.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

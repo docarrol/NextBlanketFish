@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/doctor_low_health</name>
+  <descr>- Lets see...
+
+The doctor gives [proxy] a full medical exam.
+
+- You are wounded. I can recommend a regeneration course for you, however it will cost 50c. Is this acceptable?
+</descr>
+  <conditions>GetHealthProcent(activePartner) &lt; 60;</conditions>
+  <picturePath>city/hospital/doctor_tw.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes (1h, 50c.)</name>
+      <value>city/hospital/reg_course</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>city/hospital/treatment_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

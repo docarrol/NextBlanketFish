@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/kiana_explain_youself</name>
+  <descr>You begin to suggest [proxy] a right words to tell a girl trying to explain what you are. But clearly she do not believe of what she hear.
+
+- Then let me go, and do not follow me anymore.
+
+It&apos;s clearly nothing you can do to make her thrust you. Only thing to do now - is just leave.
+</descr>
+  <conditions>1</conditions>
+  <picturePath>char/kiana_scared.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

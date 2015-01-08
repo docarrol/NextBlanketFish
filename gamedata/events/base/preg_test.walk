@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/preg_test</name>
+  <descr>After using the test and waiting the sufficient amount of time, [proxy] looks at the stick...
+
+Single line. Test is negative.
+&lt;%
+RemoveItem(&quot;home_preg_test&quot;);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasItem(&quot;home_preg_test&quot;);</conditions>
+  <picturePath>base/train_rooms.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

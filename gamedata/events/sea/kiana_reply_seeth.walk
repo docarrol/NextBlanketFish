@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/kiana_reply_seeth</name>
+  <descr>- Seeth is what we call someone who can see inside of things, and see the magic. Seeth can tell if someone is telling a truth or a lie. They can see and tell dangerous things and wrong decisions... It&apos;s something related to our magic. All shamans can do it, but they also can do much more - true magic. Seeth only see and feel it. My father is the shaman of our village. I&apos;m a seeth, but not an experienced one. It is not enough to just see, you also need to understand what you are seeing. I saw you wrong, and I am sorry about that.
+
+&lt;% SetFlag(&quot;kiana_village_know&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>sea/kiana_approach_friend</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

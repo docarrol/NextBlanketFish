@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/daria_shrine_outside_2</name>
+  <descr>Daria materializes right before [proxy] in her usual child-like form and smiles at [himher].
+
+- Hello! I am happy to see that you did not forget me. Thank you. It is good to be able to talk with someone from time to time.
+
+&lt;%Include(&quot;forest/daria_show_preg&quot;);%&gt;
+&lt;%DisplayChar(&quot;char/daria.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;daria_pendant&quot;) &gt; 0;</conditions>
+  <picturePath>forest/daria_shrine.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk</name>
+      <value>forest/daria_shrine_talk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/mirkwood</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

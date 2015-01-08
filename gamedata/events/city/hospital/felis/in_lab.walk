@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/in_lab</name>
+  <descr>[Proxy] walks into Dr. Felis&apos; lab and sees her sitting at a table working on something. Closing the door behind her, [proxy] waits for the doctor to notice her. A moment later, Dr. Felis looks up from what she is currently working on and smiles at [proxy].&#xd;
+&#xd;
+&lt;%DisplayChar(&quot;char/felis.png&quot;); &quot;&quot;;%&gt;&#xd;
+&lt;%Include(&quot;hospital/felis/in_lab_say&quot;);%&gt;</descr>
+  <conditions>GetFlag(&quot;found_felis&quot;) == 1;</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

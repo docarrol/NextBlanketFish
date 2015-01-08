@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/cancel_current_project</name>
+  <descr>[Proxy] tells Todd [heshe] wishes to cancel the current project in order to select a new one. You seem to notice the sadness in his voice as he cancels the project.
+
+- L-let me know when you want to continue or start a new one.
+
+&lt;% SetFlag(&quot;todd_in_experiment&quot;, 0); &quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;todd_project_appearance_modification&quot;, 0); &quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;todd_project_display_upgrade&quot;, 0); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_started_help&quot;) != 2; </conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

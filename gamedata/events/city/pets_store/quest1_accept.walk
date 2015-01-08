@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/pets_store/quest1_accept</name>
+  <descr>Interested? Good. As you can see, some of these pets are very rare and it can be very hard to get any offspring from them. Even if mating is successful I need to wait for the gestation time, which can be very long. If only there was a way to speed things up... And I think I know of a way. Do you know about the tentacle monsters that live in the forests? They have one interesting trait, they have very fast gestation time for creatures of such size. I don&apos;t think it&apos;s natural. If only I could study them, but it&apos;s too risky. However I think that if I was to get some of their semen in enough quantity it could be done. Would you like to help me out and try and collect some of it? You will be paid well.
+&lt;%DisplayChar(&quot;char/uren.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/pets_store/inside.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>city/pets_store/quest1_yes</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>city/pets_store/quest1_no</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

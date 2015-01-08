@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/2f_blowjob_yes</name>
+  <descr>The client does not look very good and seems to be slightly drunk, but [proxy] knows better than to try anything other than to accept the order. [HeShe] gets to the table, gets on [hisher] knees, and prepares to do what he wants. &lt;%Include(&quot;fetish_cafe/2f_blowjob_yes&quot;);%&gt;
+&lt;%LustShame(10,35);
+AddMoney(50);
+proxy.addStat(&quot;skill.blowjob&quot;, 1);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/fcafe/interior_2f.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

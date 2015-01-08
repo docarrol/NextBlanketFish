@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hilltown</name>
+  <descr>Hilltown is located entirely on the hills. There is almost no transport by natural means so travel is very difficult. Because of this, those who live and work here are mostly those who do not like contact with the old technology.
+
+&lt;%Include(&quot;rumors/common&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hilltown.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lane Down</name>
+      <value>city/to_hilltown</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lane to the Sea</name>
+      <value>city/lane_to_seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Footpath to Hospital</name>
+      <value>city/footpath_to_hospital</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit David S. Rif</name>
+      <value>city/hilltown/david_home</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

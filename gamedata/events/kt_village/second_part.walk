@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/second_part</name>
+  <descr>This part of the village mostly hidden in the forest foliage. Houses here more advanced by architecture. [Proxy] can see large stone pillar with sculpted decorations raising here.  Maybe this is totem, or something other, related to the Kau&apos;s culture.
+
+&lt;%location = &quot;kau_second_part&quot;; chars = &quot;kau_village_members&quot;;  AddObject(&quot;continue_event_return&quot;, &quot;kt_village/second_part&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;commoners/street&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/second_part.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To the Main Village</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Look Around (1h)</name>
+      <value>kt_village/second_look_around</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Shaman House</name>
+      <value>kt_village/second_shaman_house</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

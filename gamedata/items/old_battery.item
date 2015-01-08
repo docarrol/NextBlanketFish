@@ -1,0 +1,13 @@
+<fetishmaster.items.Item>
+  <name>Old Battery</name>
+  <descr>An old, discharged battery. Modern batteries are created using power crystals and can store much more energy, while this one uses chemicals.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <useText>Cannot be used.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>2</value>
+  <sellValue>2</sellValue>
+  <weight>0.5</weight>
+</fetishmaster.items.Item>

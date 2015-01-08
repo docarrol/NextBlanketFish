@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/catgirl/start</name>
+  <descr>&lt;%
+DisplayChar(&quot;char/cat-girl1.png&quot;);
+ &quot;&quot;;
+%&gt;
+&lt;%
+ e = Character(&quot;Catgirl&quot;, &quot;enemy/catgirl&quot;);
+ SetEnemy(e);
+BeginInteraction(&quot;battle/p_turn&quot;);
+AddIState(&quot;fight&quot;, &quot;battle/p_turn&quot;);
+AddIState(&quot;win&quot;, &quot;battle/catgirl/win&quot;);
+AddIState(&quot;lose&quot;, &quot;battle/lose&quot;);
+AddIState(&quot;flee&quot;, &quot;battle/catgirl/flee&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

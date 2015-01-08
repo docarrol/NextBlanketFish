@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/work_stripper_lust</name>
+  <descr>This time &lt;%activePartner.getName();%&gt; gives a very good performance, but in process of dancing &lt;%activePartner.HeShe();%&gt; excites &lt;%activePartner.HimHer();%&gt;self. &lt;%activePartner.HisHer();%&gt; arousal gets higher and higher, and on the planned end of show &lt;%activePartner.HeShe();%&gt; just can&apos;t control herself. &lt;%activePartner.getName();%&gt; begins using &lt;%activePartner.HisHer();%&gt; hands to actively pleasure &lt;%activePartner.HisHer();%&gt; body. But this does not change a thing. In the end &lt;%activePartner.HisHer();%&gt; restraint just gives way, and ,sitting on the stage, begins to please &lt;%activePartner.HimHer();%&gt;self with a hand. The audience gets quite a show with &lt;%activePartner.getName();%&gt; masturbating right on stage in front of everyone. &lt;%activePartner.HeShe();%&gt; has a strong orgasm and the public applauds &lt;%activePartner.HimHer();%&gt;.
+	
+Ms. Tendo pays &lt;%activePartner.getName();%&gt; 50 coins for the show, and says that this kind of performance is good variety from the routine dances, but &lt;%activePartner.getName();%&gt; needs to be more in control of herself, or &lt;%activePartner.HisHer();%&gt; uncontrolled lust can become the source of trouble.
+
+&lt;%
+activePartner.inventory.addMoney(50);
+activePartner.addStat(&quot;skill.striptease&quot;, 5);
+MoodShame(40);
+proxy.doAction(&quot;orgasm&quot;);
+proxy.subStat(&quot;generic.arousal&quot;, 60);
+&quot;&quot;;
+%&gt;
+</descr>
+  <conditions>proxy.getStat(&quot;generic.cha&quot;)/5 + activePartner.getRNAValue(&quot;skill.striptease&quot;) &gt; 25 &amp;&amp; activePartner.getRNAValue(&quot;generic.arousal&quot;) &gt; 75;</conditions>
+  <picturePath>city/hotlips/stripper_lust.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,48 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Milking: Regular</name>
+  <conditions>lactrate = self.getRNAGene(&quot;breasts.lact_rate&quot;);
+(lactrate.isActive()) &amp;&amp; (GetFlag(&quot;setup_milking_room&quot;) &gt;= 1);</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if(isTaskFirstHour())&#xd;
+{&#xd;
+&#xd;
+     resp = self.doAction(&quot;milking&quot;);&#xd;
+     milk = resp.get(&quot;breasts&quot;, &quot;milk_volume&quot;);        &#xd;
+     milk += resp.get(&quot;udder&quot;, &quot;milk_volume&quot;);                     &#xd;
+&#xd;
+        bottCount = 0;&#xd;
+        &#xd;
+        if (milk &gt; 500)&#xd;
+        {&#xd;
+            bottCount = (Integer) (milk/500);&#xd;
+            AddItem(self, &quot;breast_milk&quot;, bottCount);&#xd;
+        }&#xd;
+                      &#xd;
+        res = new StringBuilder();&#xd;
+        res.append(self.getName()).append(&quot; was milked and gave &quot;).append((Integer)milk).append(&quot;ml. of milk.\n&quot;);&#xd;
+        &#xd;
+        if (bottCount == 1)&#xd;
+            res.append(&quot;We manage to collect enough milk to fill one bottle.&quot;);&#xd;
+        if (bottCount &gt; 1)&#xd;
+            res.append(&quot;We managed to collect enough milk to fill &quot;).append(bottCount).append(&quot; bottles.\n&quot;);&#xd;
+&#xd;
+if (Chance(10) &amp;&amp; self.getCleanRNAValue(&quot;breasts.nipple&quot;) &lt; 6 &amp;&amp; GetFlag(&quot;huge_milking_cups&quot;) == false)&#xd;
+{&#xd;
+self.addStat(&quot;breasts.nipple&quot;, 0.2);&#xd;
+res.append(&quot;Her nipples seems slightly bigger than before, seems the pumping enchanced their size.&quot;);&#xd;
+}&#xd;
+if (Chance(10) &amp;&amp; self.getCleanRNAValue(&quot;breasts.nipple&quot;) &lt; 14 &amp;&amp; GetFlag(&quot;huge_milking_cups&quot;) == true)&#xd;
+{&#xd;
+self.addStat(&quot;breasts.nipple&quot;, 0.2);&#xd;
+res.append(&quot;Her nipples seems slightly bigger than before, seems the pumping enchanced their size.&quot;);&#xd;
+}&#xd;
+&#xd;
+self.addStat(&quot;generic.arousal&quot;, 10);&#xd;
+self.addStat(&quot;generic.tiredness&quot;, 30);&#xd;
+LustShame(self, 20, 30);&#xd;
+&#xd;
+}&#xd;
+&#xd;
+res;</script>
+  <decription>Milk the breasts. Enough milk can be stored in bottles.</decription>
+</fetishmaster.engine.ManagmentTask>

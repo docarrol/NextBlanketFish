@@ -1,0 +1,20 @@
+<fetishmaster.items.Item>
+  <name>Cream Eclair</name>
+  <descr>Cream Eclair with a delicious smell.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addStat(&quot;generic.health&quot;, 10);&#xd;
+self.subStat(&quot;generic.tiredness&quot;, 20);&#xd;
+self.addStat(&quot;generic.calories&quot;, 1000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 100);&#xd;
+self.addStat(&quot;generic.arousal&quot;, 10);&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+&quot;&quot;;</useScript>
+  <useText>The Cream Eclair was as delicious as its aroma. The taste left you feeling bright and warm...</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>20</value>
+  <sellValue>0</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

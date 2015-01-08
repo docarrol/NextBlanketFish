@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/pills/get_pill_prev_dose_recoil</name>
+  <descr>After checkup Nurse tell [Proxy]:&#xd;
+&#xd;
+- You are still under the effect of the previous dose. This is just temporary recoil, it&apos;s happens with these new medicine.&#xd;
+</descr>
+  <conditions>proxy.hasEffect(&quot;generic.str&quot;, &quot;str_pill_recoil&quot;) || proxy.hasEffect(&quot;generic.dex&quot;, &quot;dex_pill_recoil&quot;);</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/girl_hb_ask</name>
+  <descr>[Proxy] asks about her size.
+
+- Ah yes, it&apos;s not my natural size. Two years ago they were only ordinary C-cups, but I needed money to go to college. The only job that I could find to get the necessary amount of money in time was a test subject in the research department of the hospital. They needed to test some artificial hormones... Maybe I'm a little perverted, but I like attention. So, after explaining what they wanted me to test, I agreed to it. There were some complications, as you can see.
+&lt;%MoodShame(15); 
+SetFlag(&quot;hospital_be_research&quot;, 1);
+SetPerFlag(&quot;now_about_hb_breasts&quot;, 1);
+&quot;&quot;;%&gt;
+
+</descr>
+  <conditions>ShameCheck(20) == 0 &amp;&amp; PerGetFlag(&quot;now_about_hb_breasts&quot;) &lt; 1;</conditions>
+  <picturePath>sea/girl_hb.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

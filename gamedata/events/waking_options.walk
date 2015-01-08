@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>waking_options</name>
+  <descr>You discuss with proxy about how your connection with [Proxy] will start.
+
+Currently the options are;
+
+- Keep it as intended by calling the [Proxy] to enable the linking process,
+- Connection will start immediately, allowing you to see [Proxy] waking up.
+
+The second allows for more descriptions of the [Proxy]&apos;s body as [heshe] wakes up. This&apos;ll only be possible on 7 to 10 AM. It has zero impact on the game itself.</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Turn on Proxy</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enable Waking Process</name>
+      <value>wake_up/enable</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Disable Waking Process</name>
+      <value>wake_up/disable</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>system_events/end_of_walking</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/books/informative_books_history</name>
+  <descr>[Proxy] decides [heshe] wants to read up on some history. Taking one out of the history bookcases, [heshe] slowly reads through the topics handled by the book.
+
+&lt;% self.addStat(&quot;generic.int&quot;, 0.5);
+self.addStat(&quot;generic.tiredness&quot;, 5);&quot;&quot;;%&gt;
+
+&lt;% SetFlag(&quot;read_informative_books&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/library</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

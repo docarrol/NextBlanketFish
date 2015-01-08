@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/christian_repair_crystal</name>
+  <descr>- Oh, great. As agreed, I&apos;m doing my part of the deal.
+
+Christian takes the crystal and asks [proxy] to wait and goes into the next room. [Proxy] waits for about an hour, and finally Christian appears again. He looks exhausted, but happy. Returning [proxy] a crystal, he says:
+
+- I finished it. The crystal is fully reconstructed, though, I confess, it was honestly more difficult than I expected. However, working on a major challenge is always interesting. Hopefully, you will be happy with the result, and you will contact me in the future if you are in need of magical assistance.
+&lt;% SetFlag(&quot;belanika_quest&quot;, 2);
+RemoveItem(&quot;old_parts&quot;, 15);
+ &quot;&quot;; %&gt;</descr>
+  <conditions>res = 0;
+if (GetFlag(&quot;belanika_quest&quot;) == 1 &amp;&amp; PerGetFlag(&quot;christian_quest&quot;) == 1 &amp;&amp; PerGetFlag(&quot;carry_belanika_crystal&quot;) == 1 &amp;&amp; HasItems(activePartner, &quot;old_parts&quot;, 15))
+	res = 1;
+res;</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

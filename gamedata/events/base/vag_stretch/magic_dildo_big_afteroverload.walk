@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/vag_stretch/magic_dildo_big_afteroverload</name>
+  <descr>[proxy] selects the magic dildo and spend a full hour playing with it, it&apos;s size accomodating to pleasureably stretch her love canal. A the end of [hisher] session [heshe] feels a slight warm tingle as something changes in her gigantic pussy... She somehow gets the feeling her next orgasm&apos;s going to be even messier...&#xd;
+&lt;%&#xd;
+if (self.getStat(&quot;vagina.goo_modifier&quot;) &lt; 30)&#xd;
+	{&#xd;
+	Include(&quot;base/goo_boost_norm&quot;);&#xd;
+	}&#xd;
+LustShame(25, 30); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;neferi_magic_dildo&quot;) == 1 &amp;&amp; GetPerFlag(&quot;cunt_overload&quot;) &gt; 0;</conditions>
+  <picturePath>base/vagina/mdildobloat.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

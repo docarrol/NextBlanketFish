@@ -1,0 +1,79 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/scan_dna</name>
+  <descr>-&lt;\/&gt;  Standard module  &lt;\/&gt;-
+
+This module scans some of the estimated statistics [proxy]&apos;s offsprings, if [hisher] gene&apos;s are dominant enough. This is done by reading the DNA structure. Additional values will be added automatically to this list as they&apos;re unlocked.
+&lt;% purity = 100;
+ g = proxy.getDNAGene(&quot;genes.purity&quot;);
+if (g != null)
+{purity = g.getValue();}
+ &quot;&quot;;%&gt;
+Gene Purity:	&lt;%purity;%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.str&quot;);&quot;&quot;;%&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;; %&gt;
+Strength: 
+ Value:		&lt;%(Integer)valueMin;%&gt;-&lt;%(Integer)valueMax;%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.dex&quot;);&quot;&quot;;%&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;; %&gt;
+Dexterity: 
+ Value:		&lt;%(Integer)valueMin;%&gt;-&lt;% (Integer)valueMax;%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.spd&quot;);&quot;&quot;;%&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;; %&gt;
+Speed: 
+ Value:		&lt;%(Integer)valueMin;%&gt;-&lt;% (Integer)valueMax;%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.end&quot;);&quot;&quot;;%&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;; %&gt;
+Endurance: 
+ Value:		&lt;%(Integer)valueMin;%&gt;-&lt;%(Integer)valueMax;%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.int&quot;); &quot;&quot;; %&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;; %&gt;
+Intelligence: 
+ Value:		&lt;%(Integer)valueMin;%&gt;-&lt;%(Integer)valueMax;%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+&lt;%
+gene = proxy.getDNAGene(&quot;generic.cha&quot;);
+Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;; %&gt;
+Charisma: 
+ Value:		&lt;%(Integer)valueMin;%&gt;-&lt;%(Integer)valueMax;%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;</descr>
+  <conditions>GetFlag(&quot;installed_gene_device&quot;) &gt; 0;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/p_training</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Scan Body Adapation</name>
+      <value>base/scanner/gene_body_adapation</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Scan Body Display</name>
+      <value>base/scanner/gene_body_display</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Scan Body Appearance</name>
+      <value>base/scanner/gene_body_appearance</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Scan Body Fertility</name>
+      <value>base/scanner/gene_body_fertility</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Read Instructions</name>
+      <value>base/scanner/instructions</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

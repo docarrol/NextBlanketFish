@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/masturbation</name>
+  <descr>How will &lt;%activePartner.getName();%&gt; pleasure &lt;%activePartner.HimHer();%&gt;self?</descr>
+  <conditions>1;</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Masturbate Pussy</name>
+      <value>base/masturbation/vagina_play</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Masturbate Dick</name>
+      <value>base/masturbation/penis_play</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cum in self</name>
+      <value>base/masturbation/penis_play_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cancel</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

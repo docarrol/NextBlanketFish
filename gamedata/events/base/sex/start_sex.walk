@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/sex/start_sex</name>
+  <descr>&lt;%
+partner = Character(GetTextFlag(&quot;base_current_partner&quot;));
+SetInteractionTarget(partner);
+BeginInteraction(&quot;sex/turn&quot;);
+AddIState(&quot;sex&quot;, &quot;sex/turn&quot;);
+AddIState(&quot;t_satisfed&quot;, &quot;sex/t_satisfed&quot;);
+AddIState(&quot;t_tired&quot;, &quot;sex/t_tired&quot;);
+AddIState(&quot;p_leave&quot;, &quot;sex/p_leave&quot;);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>base/sex_room.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/enema_equipment_buy</name>
+  <descr>&quot;Here you are&quot;, says Dr. Genki and gives [Proxy] the enema set. 
+
+- I am sure you know how to use it. And now please leave, I have some work to do.
+
+&lt;% 
+RemoveMoney(500);
+SetFlag(&quot;enema_equipment&quot;, 1); 
+&quot;&quot;;%&gt;
+
+</descr>
+  <conditions>HasMoney(500)</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

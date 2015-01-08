@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/p_turn</name>
+  <descr>&lt;%enemy.getName();%&gt; is standing here. &lt;%@enemy.HeShe();%&gt; is &lt;% Include (&quot;battle/enemy_health_desc&quot;);%&gt;
+
+&lt;%activePartner.getName();%&gt; is &lt;% Include (&quot;battle/partner_health_desc&quot;);%&gt; 
+
+What does &lt;%activePartner.HeShe();%&gt; do?</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Attack</name>
+      <value>battle/p_attack</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Defend</name>
+      <value>battle/p_defence</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Flee</name>
+      <value>battle/p_flee</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Inventory</name>
+      <value>battle/p_inventory</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

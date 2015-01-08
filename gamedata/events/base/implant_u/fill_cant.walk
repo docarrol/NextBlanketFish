@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/implant_u/fill_cant</name>
+  <descr>With [hisher] belly too large to freely reach [hisher] [=proxy][vagina], [proxy] can&apos;t do this procedure alone. [HeShe] needs someone&apos;s help.</descr>
+  <conditions>HasItem(&quot;saline_pack&quot;) &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &gt; 18;</conditions>
+  <picturePath>base/sex_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/implant_u/menu</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

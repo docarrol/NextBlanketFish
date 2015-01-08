@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/balls_inspect</name>
+  <descr>Here&apos;s &lt;%self.getName();%&gt; &lt;%IncludeRange(activePartner.getStat(&quot;penis.length&quot;), &quot;penislength&quot;);%&gt; penis and &lt;%IncludeRange(activePartner.getStat(&quot;balls.size&quot;), &quot;ballssize&quot;);%&gt; testicles specs:
+
+&lt;%Include(&quot;base/balls/balls_inspect&quot;);%&gt;
+
+
+</descr>
+  <conditions>GetFlag(&quot;visit_david&quot;) == 1;
+     
+if (activePartner.isRNAactive(&quot;balls.exists&quot;))
+	true;
+else
+	false;</conditions>
+  <picturePath>base/Balls/balls_scanner_big.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

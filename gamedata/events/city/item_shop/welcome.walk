@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/item_shop/welcome</name>
+  <descr>[Proxy] is standing in the item shop. Many interesting items can be found here, but none are truly rare or valuable.
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/item_shop/shop.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Trade</name>
+      <value>city/item_shop/trade</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Exit</name>
+      <value>city/edge_of_city</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

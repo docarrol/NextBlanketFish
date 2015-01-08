@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/preg_strip_show</name>
+  <descr>[Proxy] arrives at the &quot;fun house&quot; and makes her way to the backstage of the show building. After getting ready and dressing in a matching provocative sheer top and bikini panties, she waits for [her] turn. Finally [her] name is announced and [proxy] makes [her] way towards the stage to begin [her] show.
+&lt;%Include(&quot;brothel/preg_show_result&quot;);%&gt;
+</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 4 &amp;&amp; clock.getHours() &lt; 22 &amp;&amp; clock.getHours() &gt;= 18 &amp;&amp; GetPerFlag(&quot;neferi_preg_offer&quot;) &gt; 0;</conditions>
+  <picturePath>city/brothel/preg_strip_generic.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>5</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

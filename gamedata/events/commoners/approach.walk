@@ -1,0 +1,44 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/approach</name>
+  <descr>[Proxy] approachs &lt;%ctv = buttonObject.get(&quot;char&quot;); ctv.setFlag(&quot;clothed&quot;, 1); ctv.setStat(&quot;generic.last_meet&quot;, 0); SetTextFlag(&quot;commoner_uid&quot;, ctv.getUID()); ctv.getName();%&gt;. &lt;%Include(&quot;commoners/approach_reaction&quot;);%&gt;
+
+&lt;%Include(&quot;cview/full_description&quot;);%&gt;
+&lt;%
+DisplayBG(bgimage);
+cont =  GetObject (&quot;continue_event_return&quot;);
+if (ctv.getFlag(&quot;commoner_introduced&quot;) &lt; 1)
+{ ForceEvent(&quot;commoners/first_meet&quot;); }
+else
+{ if (cont != null) {AddButton(&quot;Leave&quot;, cont);} }
+&quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk</name>
+      <value>commoners/talk_with</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Seduce</name>
+      <value>commoners/seduce</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Offer Sex</name>
+      <value>commoners/offer_sex</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Reveal nature of proxy device</name>
+      <value>commoners/proxy_reveal</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Offer Work</name>
+      <value>commoners/offer_work</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

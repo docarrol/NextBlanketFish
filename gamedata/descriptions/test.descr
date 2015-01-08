@@ -1,0 +1,12 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name></name>
+  <min>
+    <double>0.0</double>
+  </min>
+  <max>
+    <double>0.0</double>
+  </max>
+  <descr>
+    <string></string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

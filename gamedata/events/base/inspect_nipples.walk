@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/inspect_nipples</name>
+  <descr>&lt;% Include(&quot;base/Breasts/nipples_display&quot;);%&gt;</descr>
+  <conditions>proxy.getStat(&quot;breasts.nipple&quot;) &gt;= 4;
+</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/inspect_breasts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

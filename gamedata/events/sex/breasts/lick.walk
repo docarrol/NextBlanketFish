@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/breasts/lick</name>
+  <descr>[Proxy] licks [target]&apos;s breasts, trying to give [=target][t-Her] pleasure despite being an amateur.
+&lt;%Include(&quot;sex/calc_breasts_lick&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

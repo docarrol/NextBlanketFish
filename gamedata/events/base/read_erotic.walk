@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/read_erotic</name>
+  <descr>You give &lt;%activePartner.getName();%&gt; an erotic book to read. You think this will help &lt;%activePartner.HimHer();%&gt; be more relaxed about sex.&#xd;
+&lt;%&#xd;
+LustShame(10,20); &#xd;
+if (ShameCheck(20)&gt;0)&#xd;
+{&#xd;
+	RelaxShame(1);&#xd;
+}&#xd;
+&quot;&quot;;&#xd;
+%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>base/read_erotic.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>6</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

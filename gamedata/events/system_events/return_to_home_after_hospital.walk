@@ -1,0 +1,12 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/return_to_home_after_hospital</name>
+  <descr>&lt;%EndWalkWithTimedReturn(24);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

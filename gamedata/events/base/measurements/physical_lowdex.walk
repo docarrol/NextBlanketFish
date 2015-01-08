@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/measurements/physical_lowdex</name>
+  <descr>In [hisher] current condition [Proxy] can&apos;t do it by [himher]self! [HeShe] needs help with this.
+
+&lt;%MoodShame(15); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.dex&quot;) &lt; 10;</conditions>
+  <picturePath>base/p_training.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

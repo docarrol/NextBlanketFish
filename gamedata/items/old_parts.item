@@ -1,0 +1,13 @@
+<fetishmaster.items.Item>
+  <name>Old Parts</name>
+  <descr>Old electronic parts found in the abandoned city. Have no real value other than to some collectors. An expert may be able to break them down into more basic components.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <useText>Cannot be used.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1</value>
+  <sellValue>1</sellValue>
+  <weight>0.5</weight>
+</fetishmaster.items.Item>

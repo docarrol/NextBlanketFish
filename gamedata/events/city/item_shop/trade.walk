@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/item_shop/trade</name>
+  <descr>&lt;%
+NewShop();
+ItemToShop(&quot;regular_milk&quot;);
+ItemToShop(&quot;utice&quot;);
+ItemToShop(&quot;utice_pack&quot;);
+ItemToShop(&quot;home_preg_test&quot;);
+ItemToShop(&quot;digestup&quot;);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/item_shop/shop.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

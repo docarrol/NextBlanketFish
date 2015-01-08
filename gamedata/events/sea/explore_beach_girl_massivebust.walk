@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/explore_beach_girl_massivebust</name>
+  <descr>While exploring the beach in the evening, [Proxy] notices a woman standing in the waves in the distance, her ovbviously massive tits hanging down to her knees. She diecides to approach her.&#xd;
+&#xd;
+- Oh! Hello there, didn&apos;t expect someone at this hour. I come here in the evening to relax and reduce the chances of unrequited attention. You do look nice though, so I don&apos;t mind!&#xd;
+&#xd;
+She smiles as she says so.&#xd;
+&#xd;
+- So, what can I do for you this fine evening?&#xd;
+&lt;%MoodShame(20); &quot;&quot;;%&gt;</descr>
+  <conditions>clock.isEvening() &amp;&amp; Chance(15);</conditions>
+  <picturePath>sea/girl_massivebust.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Chat about the weather and go back</name>
+      <value>sea/beach</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask About her Massive Tits</name>
+      <value>sea/girl_massivebust_ask</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

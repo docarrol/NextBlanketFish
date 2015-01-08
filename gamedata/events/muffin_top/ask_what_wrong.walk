@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/ask_what_wrong</name>
+  <descr>[HeShe] asks Vicky what&apos;s the matter?. &#xd;
+&#xd;
+- You can see what it&apos;s like, once the novelty wore off nobody wants to trek out here just for a coffee. Maybe the manager of the Fetish Cafe was right, I&apos;m too plain no one would ever want to be served by me. &#xd;
+&#xd;
+[proxy] gives Vicky a hug and asks if there is anything that can be done?&#xd;
+&#xd;
+Vicky perks up at this. She explains that whilst a lover of coffee she has a sweet tooth, more specifically for cakes. However she has no recipes and no suppliers. If [proxy] can find some recipes and assist in finding suppliers she will repay her in what ever way she can. As money is tight her best offer is ten of the first batch of every new delicacy.&#xd;
+&#xd;
+Does [proxy] accept?&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;muffin_top_quest&quot;, 1);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;muffin_top_quest&quot;) &lt; 2 &amp;&amp; GetPerFlag(&quot;muffin_top_quest&quot;) == 0 &amp;&amp; (GetFlag(&quot;muffin_top_open_at&quot;) != 0) &amp;&amp; (GetFlag(&quot;muffin_top_open_at&quot;)+8 &lt; clock.getDays());</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>muffin_top/q1_yes</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>muffin_top/q1_no</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

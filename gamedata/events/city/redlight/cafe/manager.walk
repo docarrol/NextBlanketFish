@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/manager</name>
+  <descr>[Proxy] talks with the manager of this place about working here.
+
+&lt;%Include(&quot;fetish_cafe/manager_response_sex&quot;);%&gt;
+</descr>
+  <conditions>GetPerFlag(&quot;fcafe_getwork&quot;)&lt;1;</conditions>
+  <picturePath>city/fcafe/manager.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To the cafe room</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

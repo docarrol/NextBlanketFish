@@ -1,0 +1,51 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/begin_quest</name>
+  <descr>- So [proxy], you are not afraid to do something in the name of science? Good. Now please, follow me.
+
+Without waiting for a response, Dr. Genki goes to the other door in his office, opening it and stepping into the examination room. [proxy] gets up from the couch and quickly follows after him.
+
+- Remove all of your clothing and place them on a table then put on one of the hospital gowns hanging on the hooks over there. Meanwhile I will explain to you what to expect.
+
+[proxy] goes over and takes a gown Dr. Genki pointed out. When [she] turns around, [she] sees him sitting in a chair and staring at [her]. With a squeak of embarrassment, [proxy] looks around for a changing curtain and sees none.
+
+- Is there a problem [proxy]? We are both adults here and I have seen it all. My intentions are clinical, not sexual.
+
+With a soft sigh, [proxy] resigns [her]self to the fact that [she] volunteered for this, though it still doesn&apos;t lessen the indignity of undressing in front of the doctor while he sits there and watches [her].
+
+- I know you have seen some of my patients, and I suspect the one question on your mind is what it is that I do here? While I will not divulge any of my secrets, at least for now, what I will tell you is that my private clinic specializes in cases of unusual bodily changes. After the DS it has become relatively common and someone needs to deal with it. I am one of such persons. I have learned that the changes are not always a bad thing. There are those that even desire the transformations. You would be perplexed by some of the requests that are asked of me...  
+
+At this point Dr. Genki pauses and looks to the side while clearing his throat.
+
+- Moving on... With the DS there is always something new to be encountered. So I need to constantly learn how to treat or manage these changes. Usually I need to pay someone to be a test subject. But since you have volunteered to help, it would be foolish not to take advantage of the opportunity that has been presented to me. But worry not [proxy]. I promise that what I do will not cause you any permanent harm or something that can not be undone. 
+
+When [proxy] is finally dressed in the hospital gown, Dr. Genki stands up and gestures towards a scale.
+
+- First thing I need is to get some numbers, so if you will step on this please.
+
+[proxy] steps onto the scale and watches as Dr. Genki jots her weight down on a pad. Then using a cloth measuring tape, he runs it around her middle and hips, writing down what he finds, before gesturing to a gynecology chair next. 
+
+- Now settle back onto the gynecology chair and we will get started.
+
+After [proxy] is lying back on the chair with her legs in the stirrups, Dr. Genki stands besides [her] with a gas mask in hand.
+
+- Even though you have volunteered for this, there is still the possibility that you will give me some trouble. I apologize, but this will just make it easier for the both of us.
+
+Before [proxy] can ask Dr. Genki how much more [she] can cooperate, he places the gas mask over [her] nose and mouth. After a few breaths from it, [her] consciousness begins to fade...
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/genki_gyno.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/genki/wake_up_later</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/in_cabinet_q_to_early</name>
+  <descr>Dr. Genki looks up from the papers on his desk when [proxy] knocks on his office door and walks into his office.
+
+- Did you not understand what I told you [proxy]? I said come back in a couple of days. Now leave.
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;found_genki&quot;)==1 &amp;&amp; GetPerFlag(&quot;genki_quest&quot;)&gt;0 &amp;&amp; GetPerFlag(&quot;genki_quest&quot;)&lt;3 &amp;&amp; GetPerFlag(&quot;genki_last_visit&quot;)+36 &gt; clock.getAHours();</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

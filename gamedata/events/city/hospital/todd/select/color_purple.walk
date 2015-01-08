@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/select/color_purple</name>
+  <descr>Selected purple as the color to apply.
+
+&lt;%SetFlag(&quot;color_selection&quot;, 7); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

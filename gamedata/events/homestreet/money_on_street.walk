@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>homestreet/money_on_street</name>
+  <descr>&lt;%count = calc.PlusMinusXProcent(100, 40);
+AddItem(&quot;coin&quot;, count); &quot;&quot;;%&gt;
+You find a small pouch containing money on the street. Inside it are &lt;%(Integer) count;%&gt; coins. Lucky!</descr>
+  <conditions>1;</conditions>
+  <picturePath>home_outside.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

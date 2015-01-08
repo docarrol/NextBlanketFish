@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/reception</name>
+  <descr>This is the reception area. From here you can get to the two main wings of the hospital - treatment and research.
+
+&lt;%Include(&quot;hospital/note_on_wall&quot;);%&gt;
+&lt;%SetFlag(&quot;hospital_found&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/reception.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Go Outside</name>
+      <value>city/hospital_entrance</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Treatment Wing</name>
+      <value>city/hospital/treatment_wing</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Research Wing</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to Home</name>
+      <value>in_the_base</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

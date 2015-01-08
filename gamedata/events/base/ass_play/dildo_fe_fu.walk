@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/ass_play/dildo_fe_fu</name>
+  <descr>For a start [proxy] selected a normal average size dildo and spend a full hour playing with it. A the end of [hisher] session [heshe] feels as dildo insertion become easier.&#xd;
+&#xd;
+&lt;%Include(&quot;base/ass_stretch_norm&quot;);res;%&gt;&#xd;
+&#xd;
+&lt;%//LustShame(10, 30); &#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.sex&quot;) &gt; 1 &amp;&amp; proxy.getStat(&quot;ass.width&quot;) &gt; 3</conditions>
+  <picturePath>base/ass_dildo_9.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

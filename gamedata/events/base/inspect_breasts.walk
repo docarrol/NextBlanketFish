@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/inspect_breasts</name>
+  <descr>You inspect &lt;%activePartner.getName()%&gt; &lt;%IncludeRange(activePartner.getStat(&quot;breasts.size&quot;), &quot;breastsize&quot;);%&gt; &lt;%IncludeRange(activePartner.getStat(&quot;generic.cup_size&quot;), &quot;breastcups&quot;);%&gt; breasts topped by &lt;%IncludeRange(proxy.getStat(&quot;breasts.nipple&quot;), &quot;nipplesize&quot;);%&gt; nipples with the scanner:
+
+&lt;%Include(&quot;base/Breasts/breasts_inspect&quot;);%&gt;
+Nipples Size: &lt;%(int)proxy.getStat(&quot;breasts.nipple&quot;)%&gt;cm.</descr>
+  <conditions>GetFlag(&quot;home_breast_scanner&quot;) == 1;
+</conditions>
+  <picturePath>base/Breasts/breasts_scanner.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to hall</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Look at nipples</name>
+      <value>base/inspect_nipples</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

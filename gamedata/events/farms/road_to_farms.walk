@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/road_to_farms</name>
+  <descr>A dirt road that leads from the farms to the city. The surroundings are very picturesque.</descr>
+  <conditions>1</conditions>
+  <picturePath>farms/road.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To City</name>
+      <value>city/edge_of_city</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>To Farms</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+</fetishmaster.engine.WalkEvent>

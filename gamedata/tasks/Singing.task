@@ -1,0 +1,24 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Singer</name>
+  <conditions>res = false;
+if ( self.getFlag(&quot;singer_contract&quot;) &gt; 0)
+	res = true;
+if (self.getStat(&quot;generic.spd&quot;) &lt;=0 )
+	res = false;
+res;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if(isTaskFirstHour() &amp;&amp; (clock.isEvening() || clock.isNight()))&#xd;
+{&#xd;
+pay = (Integer) self.getStat(&quot;generic.cha&quot;)/10+10;&#xd;
+player.inventory.addMoney(pay);&#xd;
+res = self.getName()+&quot; worked in the club as a singer. The payment was transferred to your account (&quot; + pay +&quot; coins).&quot;;&#xd;
+self.addStat(&quot;generic.tiredness&quot;, 10);&#xd;
+MoveWorkerToReturnList(self, 5);&#xd;
+}&#xd;
+if(isTaskFirstHour() &amp;&amp; (clock.isMorning() || clock.isDay()))&#xd;
+{&#xd;
+res = &quot;The club is only open from 18:00 to 6:00, &quot;+self.getName()+&quot; can&apos;t work there at any other time.&quot;;&#xd;
+}&#xd;
+res;</script>
+  <decription>Work as singer at &quot;Hot Lips&quot;.</decription>
+</fetishmaster.engine.ManagmentTask>

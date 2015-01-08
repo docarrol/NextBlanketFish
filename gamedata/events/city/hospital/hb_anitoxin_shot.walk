@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/hb_anitoxin_shot</name>
+  <descr>The doctor quickly gives [proxy] a shot in the arm, and [heshe] immediately begins to feel better...
+&lt;%
+activePartner.inventory.removeMoney(500);
+proxy.removeEffect(&quot;generic.end&quot;, &quot;horse_bean_addict&quot;);
+proxy.removeEffect(&quot;generic.mood&quot;, &quot;horse_bean_addict&quot;);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>activePartner.inventory.moneyCount() &gt; 500;</conditions>
+  <picturePath>city/hospital/doctor_tw.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

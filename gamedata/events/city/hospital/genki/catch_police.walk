@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/catch_police</name>
+  <descr>- If that is what you want [proxy], so be it.
+
+Dr. Genki calls an officer and [proxy] is promptly arrested. When [heshe] is booked into jail, it is discovered that [heshe] is wearing a proxy device. [proxy] is quickly released, but [hisher] contract with you is canceled as well. Luckily there aren&apos;t any laws that can be used against you and since no actual damage was done, the proxy receiver is returned to you and the case is closed. The only personal loss from this situation is the loss of the contract.
+&lt;%proxy.die();
+ &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/genki_office_night.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>system_events/end_of_walking</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/merril_request_craft</name>
+  <descr>[Proxy] hands the farmer the ingredients and after about an hour he returns with the item, handing it to you.
+
+
+&lt;%
+RemoveItem(&quot;gestamin&quot;, 1);
+RemoveItem(&quot;horse_bean&quot;, 3);
+AddItem(&quot;b_grow&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>HasItems(activePartner, &quot;gestamin&quot;, 1) &amp;&amp; HasItems(activePartner, &quot;horse_bean&quot;, 3) &amp;&amp; GetPerFlag(&quot;merril_sexperiment_prep&quot;) &gt;= 2;</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To Farm</name>
+      <value>farms/road_to_farms</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,31 @@
+<fetishmaster.contracts.WorkerContract>
+  <name>commoner_contract</name>
+  <desc>Standard fulltime contract.&#xd;
+&#xd;
+Conditions: &#xd;
+- Good health care.&#xd;
+- Can be voided on worker initiative.</desc>
+  <value>0</value>
+  <temp>false</temp>
+  <timeleft>0</timeleft>
+  <conage>0</conage>
+  <custom>true</custom>
+  <conditions>
+    <fetishmaster.contracts.ContractCondition>
+      <name>Health</name>
+      <conditionScript>self.getStat(&quot;generic.knockouts&quot;) &gt; 3;</conditionScript>
+      <brokenScript>self.removeFromWorkers();&#xd;
+self.die();</brokenScript>
+      <voidText>I don&apos;t want to get hurt so much, I&apos;m leaving!</voidText>
+      <payfine>false</payfine>
+    </fetishmaster.contracts.ContractCondition>
+    <fetishmaster.contracts.ContractCondition>
+      <name>Mood</name>
+      <conditionScript>self.getStat(&quot;generic.mood&quot;) &lt;= 0;</conditionScript>
+      <brokenScript>self.removeFromWorkers();&#xd;
+self.die();</brokenScript>
+      <voidText>Working here is too nasty. I&apos;m leaving.</voidText>
+      <payfine>false</payfine>
+    </fetishmaster.contracts.ContractCondition>
+  </conditions>
+</fetishmaster.contracts.WorkerContract>

@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/scanner/gene_body_fertility</name>
+  <descr>-&lt;\/&gt;  Body Fertility Module  &lt;\/&gt;-
+
+This module will display the values primairly or secondarly used in calculating fertility. The fertility for each race is an percentage of concepting the available eggs. Has little impact when raised above normal levels.
+&lt;%gene = proxy.getDNAGene(&quot;fertility.human&quot;);&quot;&quot;;%&gt; &lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;;%&gt;
+Human Fertility: 
+ Chance:		&lt;%(Integer)valueMin;%&gt;-&lt;% (Integer)valueMax;%&gt;%
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;fertility.ovulation_ova&quot;);&quot;&quot;;%&gt; &lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;;%&gt;
+Ovulating Eggs:  
+ Count:		&lt;%(Integer)valueMin;%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;fertility.extra_ova&quot;);&quot;&quot;;%&gt; &lt;% Include(&quot;base/scanner/scan_gene_value&quot;); &quot;&quot;;%&gt;
+Extra Ovulation: (No idea how this impacts fertility) 
+ Value:		&lt;%(Integer)valueMin;%&gt;-&lt;% (Integer)valueMax;%&gt; (?)
+ &lt;% Include(&quot;base/scanner/scan_gene_mutation&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;</descr>
+  <conditions>GetFlag(&quot;installed_fertility_upgrade&quot;) == 1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

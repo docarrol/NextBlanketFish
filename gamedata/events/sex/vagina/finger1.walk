@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/vagina/finger1</name>
+  <descr>You expertly fingering [target]&apos;s pussy, locating her G-Spot and giving her [=target][t-her] loads of arousal, her pussy becoming wetter by the seconds.&#xd;
+&lt;%Include(&quot;sex/calc_vagina_finger&quot;);%&gt;</descr>
+  <conditions>proxy.getStat(&quot;skill.handjob&quot;) &gt;= 25;</conditions>
+  <picturePath>sex/fingering.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

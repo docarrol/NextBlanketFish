@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>Hospital Testing Pill</name>
+  <descr>Pill found in the research wing of the hospital. Has an unknown effect.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.setRNAactive(&quot;breasts.lact_rate&quot;, true);&#xd;
+self.addStat(&quot;breasts.lact_rate&quot;, 15);&#xd;
+self.MoodShame(40);</useScript>
+  <useText>After consuming the pill, &lt;%self.getName();%&gt;'s breasts start to feel warm...</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>0</value>
+  <weight>0.1</weight>
+</fetishmaster.items.Item>

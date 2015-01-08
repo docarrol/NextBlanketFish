@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/misc</name>
+  <descr>Misc testing&#xd;
+&#xd;
+&#xd;
+&#xd;
+//&lt;%AddItem(&quot;kau_transform_potion&quot;);&quot;&quot;;%&gt;&#xd;
+&#xd;
+//&lt;% gl = NewList(); &#xd;
+//gl.add(&quot;testing object saving&quot;); &#xd;
+//AddObject(&quot;test_list&quot;, gl); &quot;&quot;;%&gt;&#xd;
+//&lt;%location = &quot;kau_main_street&quot;; chars = &quot;kau_village_members&quot;;&#xd;
+// AddObject(&quot;continue_event_return&quot;, &quot;debug&quot;);&#xd;
+//&quot;&quot;;%&gt;&lt;%Include(&quot;commoners/street&quot;);%&gt;&#xd;
+/*&lt;% alert(&quot;Testing alert window&quot;); proxy.getDNA();%&gt;*/&#xd;
+&#xd;
+/*&lt;% &#xd;
+text = &quot;time not even&quot;;&#xd;
+hour = clock.getHours() / 2;&#xd;
+if ( hour == (Integer) hour)&#xd;
+{ text = &quot;time IS even&quot;;}&#xd;
+&#xd;
+text;%&gt;&#xd;
+*/&#xd;
+&#xd;
+</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>debug</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc>Misc testing&#xd;
+&#xd;
+//&#xd;
+&#xd;
+//[]&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</parsedDesc>
+</fetishmaster.engine.WalkEvent>

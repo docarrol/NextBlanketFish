@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/2f_serve_naked_yes</name>
+  <descr>[Proxy] gives the client a seductive smile and replies: &quot;As you wish&quot;.
+[HeShe] puts the tray on the table and begins to remove [hisher] garments, trying to do it in the most seductive way [heshe] can. &lt;%Include(&quot;fetish_cafe/2f_naked_yes&quot;);%&gt;
+&lt;%LustShame(15,30);
+proxy.addStat(&quot;generic.stiptease&quot;, 1);
+AddMoney(50);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/fcafe/interior_2f.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

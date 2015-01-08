@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/offer_sex</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;[Proxy] spends some time talking with &lt;% c.getName();%&gt;. [HeShe] begins to flirt with &lt;% c.HimHer();%&gt; and manages to seduce &lt;% c.getName();%&gt; into having sex.
+
+- Well, shall we find a place where no one can interrupt us?
+&lt;%AddButton(&quot;Go with a &quot;+ c.getName(), c.getStatText(&quot;generic.sex_place&quot;)); &quot;&quot;;%&gt;
+&lt;%LustShame(5,35); &quot;&quot;;%&gt;
+&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(ctv.getUID()+ &quot;.relations&quot;) &gt; 70) &amp;&amp; ctv.getStatText(&quot;generic.sex_place&quot;) != &quot;&quot; &amp;&amp; (ctv.getStat(&quot;generic.lewdness&quot;) &gt; 50);</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>system_events/continue</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

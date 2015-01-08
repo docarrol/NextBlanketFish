@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/manual_test</name>
+  <descr>We testing control of characters bodies an extracted &lt;%
+
+//In first thing we need - some character. 
+
+c =  Character(&quot;Jane&quot;, &quot;belanika&quot;, true);   //We have character Jane, loaded
+	 							//from template and marked as 									//permanent, so it will be stored 									//in the game world.
+res = c.doAction(&quot;milking&quot;);
+/* In this string we give Jane&apos;s body command &quot;milking&quot;. This command will be received by all organs, and if they can, they will form response object OrganResponse, and add it to the object that will be written in variable &quot;res&quot;. This is BodyResponse object. 
+Now we can try an now, what Jane organs do on the command? There is one catch - we need to now, what to ask. List of possible actions, and already programmed responses you can read in this SDK, in the end of document. */
+
+milk = res.get(&quot;breasts&quot;, &quot;milk&quot;);
+/* We do request here. &quot;breasts&quot; - name of organ that we interested. &quot;milk&quot; name of response.
+If Jane is lactating, action &quot;milking&quot; empty her breasts, and store in this response ammount of extracted milk. Code for this action inside Organ object that represented breasts. From here it&apos;s black box. We can&apos;t change way how it&apos;s work, and can only &quot;pull on strings&quot; by actions. And now result, by asking what we have in answer to action. */
+milk;%&gt; milk.
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

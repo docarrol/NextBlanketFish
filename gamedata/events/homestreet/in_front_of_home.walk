@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>homestreet/in_front_of_home</name>
+  <descr>&lt;%activePartner.getName();%&gt; is standing in front of your home, although, now you could probably call it your base. 
+
+You think you are pretty lucky to live in this home for free. This is a very expensive neighborhood.
+&lt;% if (Chance(2))
+	AddButton(&quot;Something on sidewalk&quot;, &quot;homestreet/money_on_street&quot;); 
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>base_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To Up Lane</name>
+      <value>city/to_hilltown</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Outskirts</name>
+      <value>city/outskirts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enter Home</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

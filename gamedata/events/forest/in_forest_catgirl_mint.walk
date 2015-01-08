@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_forest_catgirl_mint</name>
+  <descr>While walking out of the woods to the forest trail, [proxy] finds a Catgirl standing on it ahead of [himher], its back towards [himher]. Freezing for just a moment, [proxy] starts to slowly back up, hoping that the Catgirl did not notice [himher]. Suddenly the Catgirl sniffs at the air a few times before turning around and spotting [proxy] as &lt;%activePartner.get2ndPerson();%&gt; are moving away from her. When [proxy] sees the Catgirl looking right at [himher], [heshe] pauses for a moment then sets down [hisher] travel satchel to get ready for the impending fight. The Catgirl rushes forward, rapidly closing the distance between them. Before [proxy] could take a swing at the Catgirl, she jumps on [himher] with a happy meow, knocking [himher] on the ass, and begins to rub herself against &lt;%activePartner.getName();%&gt;, clearly very excited and not giving [himher] any chance to stand up. So, &lt;%activePartner.getName();%&gt; spends some time stroking and scratching the Catgirl that purrs and even tries to lick [himher] on the face a few times. Finally the Catgirl seems satisfied, and after one last loud purr in &lt;%activePartner.getName();%&gt;&apos;s ear, quickly leaves before &lt;%activePartner.getName();%&gt; manages to get up.
+
+&lt;%
+DisplayChar(&quot;char/cat-girl1.png&quot;);
+RelaxShame(3);
+ &quot;&quot;;
+%&gt;
+</descr>
+  <conditions>calc.chance(20) &amp;&amp; proxy.hasEffect(&quot;generic.cha&quot;, &quot;kitty_mint&quot;);</conditions>
+  <picturePath>forest/in_the_forest1.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

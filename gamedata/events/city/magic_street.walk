@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_street</name>
+  <descr>Although this street has many shops, it is known for one thing, Magic.
+
+&lt;%Include(&quot;pets_store/outside&quot;);%&gt;
+&lt;%Include(&quot;rumors/common&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/magic_street.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Down Lane</name>
+      <value>city/to_hilltown</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Magic Shop</name>
+      <value>city/magic_shop/greetings</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

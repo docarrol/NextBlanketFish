@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/masturbation/penis_play_1d</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;&lt;%activePartner.getName();%&gt; is feeling very aroused and is ready for some fun. Then &lt;%activePartner.HeShe();%&gt; opens the window that goes to the immense garden and prepares herself to let her massive cock get erect.
+
+&lt;%activePartner.getName();%&gt; grabs a bucket of lube and dumps it into the also massive fucktoy and somehow manages to get it on &lt;%activePartner.HisHer();%&gt; &lt;%Include(&quot;c_od/penis&quot;);%&gt;. Now being completely ready, &lt;%activePartner.HeShe();%&gt; position herself accordingly on the bed and slides the extremely stretched, but still tight, ona-hole up and down her now halfway throught the window penis, pre-cum already flowing out liberally outside. Soon, the whole length of her massive cock rumbles as semen start visibly distending her urethra until it finally shoots out and massively spray onto the whole garden, &lt;%activePartner.getName();%&gt; almost passing out from the sheer amount of cum blasting out. After some minutes, she finally stops cumming and falls into a light sleep, her cock-head still poking out the window...
+
+&lt;%proxy.doAction(&quot;orgasm&quot;); 
+proxy.setStat(&quot;generic.arousal&quot;, 0);
+proxy.addStat(&quot;skill.handjob&quot;, 2); 
+RelaxShame(2.5);
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; ShameCheck(20) &lt; 1 &amp;&amp; proxy.getStat(&quot;penis.length&quot;) &gt; 200;</conditions>
+  <picturePath>base/masturbation_f4.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/enema_special</name>
+  <descr> Dr. Genki explains to [Proxy] that the infusion needs to be effective as long as possible and suggest that [Proxy] get some restraints, to prevent unintentional slip out of the tube. Once the container with the solution is open the procedure cannot be interrupted. If it is unsuccessful, you will have to pay a new procedure. 
+
+So, what will it be? asks Dr. Genki with an slightly devilish smile on his face pointing at the bed with handcuffs.
+
+&lt;%DisplayChar(&quot;char/genki.png&quot;); 
+//AddMoney(10000);
+&quot;&quot;;%&gt;
+&lt;%LustShame(5,40); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Chained (1001 coins)</name>
+      <value>city/hospital/genki/enema_special_constraint</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Unchained (1001 coins)</name>
+      <value>city/hospital/genki/enema_special_unchained</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>city/hospital/genki/in_cabinet</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>6</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

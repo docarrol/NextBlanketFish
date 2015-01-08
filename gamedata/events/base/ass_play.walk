@@ -1,0 +1,55 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/ass_play</name>
+  <descr>Having a tight ass usually a good thing. But sometimes something just can&apos;t fit. What to do then? Training - is the answer.</descr>
+  <conditions>proxy.getStat(&quot;generic.lewdness&quot;) &gt; 25 &amp;&amp; proxy.hasOrgan(&quot;ass&quot;); </conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Finger</name>
+      <value>base/ass_play/finger</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Plug</name>
+      <value>base/ass_play/plug</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dildo</name>
+      <value>base/ass_play/dildo</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Horse Dildo</name>
+      <value>base/ass_play/horse_dildo</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Inflantable Dildo</name>
+      <value>base/ass_play/inf_dildo</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cleaning</name>
+      <value>base/ass_play/simple_wash</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enema</name>
+      <value>base/ass_play/enema</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

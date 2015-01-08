@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/client_futa</name>
+  <descr>&lt;%
+client = Character(&quot;Client&quot;, &quot;human_futa_agency_worker&quot;);
+client.addStat(&quot;generic.lewdness&quot;, calc.random(20)+20);
+//client.setStat(&quot;generic.arousal&quot;, 90);
+//client.setStat(&quot;balls.sperm_volume&quot;, 1000);
+if (client.getStat(&quot;generic.arousal&quot;) &lt; 50)
+{
+	client.setStat(&quot;generic.arousal&quot;, 51);
+	client.nextHour();
+}
+SetInteractionTarget(client);
+BeginInteraction(&quot;sex/turn&quot;);
+AddIState(&quot;sex&quot;, &quot;sex/turn&quot;);
+AddIState(&quot;t_satisfed&quot;, &quot;city/brothel/client_t_satisfed&quot;);
+AddIState(&quot;t_tired&quot;, &quot;city/brothel/client_t_tired&quot;);
+AddIState(&quot;p_leave&quot;, &quot;city/brothel/proxy_p_leave&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

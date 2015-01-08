@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/give_recipe_1</name>
+  <descr>Vicky is delighted. She giggles to herself and then thanks [proxy] profusely. She will have the first batch ready by the next day.
+&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;
+&lt;% 
+SetPerFlag(&quot;muffin_top_quest&quot; , 3);
+SetFlag(&quot;muffin_top_quest&quot; , 2);
+SetFlag(&quot;muffin_top_next_stage&quot;, clock.getDays()+7);
+vicky.addStat(&quot;generic.calories&quot;, 20000);
+vicky.addStat(&quot;abdomen.food&quot;, 10);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;muffin_top_quest&quot;)==1 &amp;&amp; GetPerFlag(&quot;muffin_top_quest&quot;) == 2;</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

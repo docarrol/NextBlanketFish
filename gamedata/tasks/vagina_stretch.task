@@ -1,0 +1,29 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Vaginal stretch</name>
+  <conditions>self.getFlag(&quot;vaginal_stretching_used&quot;) &gt; 0 &amp;&amp; self.hasOrgan(&quot;vagina&quot;);</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if (isTaskFirstHour())&#xd;
+{&#xd;
+	wd = self.getStat(&quot;vagina.width&quot;);&#xd;
+	lw = self.getStat(&quot;generic.lewdness&quot;);&#xd;
+	if (lw &gt; 100 )&#xd;
+	{lw = 100;}&#xd;
+	ar = self.getStat(&quot;generic.arousal&quot;);&#xd;
+	hw = (self.getStat(&quot;generic.hips&quot;)/3.14); //hips width&#xd;
+	hc = 100 - calc.getPercent(hw,wd);&#xd;
+&#xd;
+	coef = calc.percent(wd, 50+(ar/20)+(lw/20));	&#xd;
+	coef = calc.percent(coef, hc);&#xd;
+	&#xd;
+	add = calc.percent(wd, coef);&#xd;
+	rforce = add/330;&#xd;
+	self.addEffectAR(&quot;vagina.width&quot;, &quot;dildo_stretching&quot;, add, -rforce);&#xd;
+	res = self.getName() + &quot; spent some time with the various toys training &quot; + self.HisHer() + &quot; vagina. This definitely pay some results - &quot; + self.getName() + &quot; can accept wider things in her vagina now...&quot;;&#xd;
+LustShame (self, 3, 30);&#xd;
+&#xd;
+sysprint(self.getName()+ &quot; stretch vagina task, new size: &quot; + self.getStat(&quot;vagina.width&quot;));&#xd;
+&#xd;
+}&#xd;
+res;</script>
+  <decription>Exercises to stretch vaginal muscules and tissues, to allow larger penetrations without problems.</decription>
+</fetishmaster.engine.ManagmentTask>

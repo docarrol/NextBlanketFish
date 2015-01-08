@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/kiana_reply_village</name>
+  <descr>- Why not? Not everyone is allowed, but we can bring guests.  You helped me, and I see now that you are not a bad person...
+
+&lt;%Include(&quot;seafront/kiana_village_path&quot;);%&gt;
+</descr>
+  <conditions>GetFlag(&quot;kiana_village_know&quot;) &gt; 0;</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>sea/kiana_approach_friend</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

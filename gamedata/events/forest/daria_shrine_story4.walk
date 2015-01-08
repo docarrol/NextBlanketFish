@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/daria_shrine_story4</name>
+  <descr>- What I need are followers, though not just ordinary ones. Regular priests need initiations with their god&apos;s power. And as weak as I am now, it is impossible. What, or more properly, who I need, is a miko, natively trained priests and priestess of my cult. They need to be raised from a very early age to have their own power compatible with mine, and only miko with their own powers will be able to resurrect my cult.
+
+Daria looks at you, the edges of her eyes seeming to softly glow.
+
+- What you need, I can not see in your hazed future, as I do not have enough power. But one thing does look clear to me. The possibility to raise children quickly can be very useful to you. I can give this boon to you. With my blessing kids can grow fast and become adults in a few months. But this ritual requires much power from me, almost to exhaustion in my weakened state. But I&apos;ll do it for you, as a trade for what I need.
+
+The goddess looks through [proxy] and speaks directly into your mind.
+
+- Babies... Babies who I can give to couples that are unable to have their own children. With my guidance they will raise them as the miko&apos;s I so need. Please, do not respond now. I will give you a talisman. If you decide later, you can summon me with it.
+
+When [proxy] snaps out of the trance [heshe] went into, Daria takes the half empty tea cup from [himher] then gives [proxy] a small pendant in the form of a leaf. Afterwards she rises to her feet and smiles sweetly at [himher].
+
+- I&apos;ll show you the way out [proxy]. Remember that you can always come visit me here, if you like.
+
+&lt;%DisplayChar(&quot;char/daria.png&quot;); 
+SetFlag(&quot;daria_pendant&quot;,1);
+&quot;&quot;;%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>forest/daria_shrine_int.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/mirkwood</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,33 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>strength</name>
+  <min>
+    <double>0.0</double>
+    <double>20.0</double>
+    <double>40.0</double>
+    <double>60.0</double>
+    <double>80.0</double>
+    <double>100.1</double>
+    <double>200.1</double>
+    <double>400.1</double>
+  </min>
+  <max>
+    <double>20.0</double>
+    <double>40.0</double>
+    <double>60.0</double>
+    <double>80.0</double>
+    <double>100.0</double>
+    <double>200.0</double>
+    <double>400.0</double>
+    <double>9999.0</double>
+  </max>
+  <descr>
+    <string>weak</string>
+    <string>normal</string>
+    <string>average</string>
+    <string>strong</string>
+    <string>very strong</string>
+    <string>bodybuilder</string>
+    <string>Inhuman</string>
+    <string>Superhuman</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

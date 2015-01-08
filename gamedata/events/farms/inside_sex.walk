@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/inside_sex</name>
+  <descr>&lt;%Include(&quot;char/belanika_init&quot;);&#xd;
+belanika.setFlag(&quot;clothed&quot;, 0);&#xd;
+proxy.addStat(&quot;belanika.relations&quot;, proxy.getStat(&quot;generic.cha&quot;)/12);&#xd;
+SetInteractionTarget(belanika);&#xd;
+BeginInteraction(&quot;sex/turn&quot;);&#xd;
+AddIState(&quot;sex&quot;, &quot;sex/turn&quot;);&#xd;
+AddIState(&quot;t_satisfed&quot;, &quot;sex/t_satisfed&quot;);&#xd;
+AddIState(&quot;t_tired&quot;, &quot;sex/t_tired&quot;);&#xd;
+AddIState(&quot;p_leave&quot;, &quot;sex/p_leave&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;belanika.relations&quot;) &gt; 65;</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

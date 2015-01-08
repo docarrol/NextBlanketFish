@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/pay_fine</name>
+  <descr>Having the amount Genki asked for, [proxy] counts out the rolls of coins and hands them to him. Glowering at [himher], he quickly takes the coins and pockets them before hurriedly escorting [proxy] to the exit, pushing [himher] out and slamming the door shut.
+&lt;%RemoveMoney(1000);
+AllowDisconnect();
+ &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(1000);</conditions>
+  <picturePath>city/hospital/genki_office_night.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

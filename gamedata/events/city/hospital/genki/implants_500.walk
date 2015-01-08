@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/implants_500</name>
+  <descr>[proxy] points to the small implant and asks about it. Pulling it out of the cabinet, Dr. Genki holds it up so [heshe] can get a better look at it.
+
+- This is the smallest implant that I have. It is only five hundred cubic centimeters in volume, but will give you a little more up top.
+&lt;% SetFlag(&quot;last_implants_selected&quot;, 500); 
+SetFlag(&quot;money_for_implant&quot;, 500); 
+&quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Select</name>
+      <value>city/hospital/genki/implants_pre_op</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Not satisfed.</name>
+      <value>city/hospital/genki/cosmetic_surgery</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

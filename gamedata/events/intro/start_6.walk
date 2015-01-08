@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>intro/start_6</name>
+  <descr>You turn your head to look at the ceiling with soft sigh. It seems pointless to make a scene over it now. The doctor does seem to honestly want to help you. And speaking of the doctor...
+
+- What is your name?
+
+- Oh! How rude of me! My name is David. David S. Rif, to be exact. And yours?
+
+With some horror you realize, you can&apos;t remember your own name! What&apos;s more, you can&apos;t remember who you are. Not even what you had been, a man or a woman. With despair, you explain this to David.
+
+- I see... I&apos;m sorry, but your old body was damaged beyond recognition and you suffered major head trauma as well. I was hoping it would not be this critical, but it seems you&apos;ve lost some of your memory. Unfortunately, I cannot help you with this. But I hope you can adapt to this somehow. Please take your time...
+
+- Also, for now, you will be provided with a home with all the equipment necessary to maintain your artificial body. You can live in this home for free, of course, and all of your basic needs will be provided for.
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath>intro/doctor.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>intro/start_7</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

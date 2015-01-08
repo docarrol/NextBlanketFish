@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/ass_play/finger_ma</name>
+  <descr>For a start [proxy] tries to relax [hisher] asshole with a finger and spends an hour playing with it. At the end of [hisher] session [heshe] feels that the finger is moving easier.&#xd;
+&#xd;
+&lt;%Include(&quot;base/ass_stretch_finger&quot;);res;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.sex&quot;) == 1</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

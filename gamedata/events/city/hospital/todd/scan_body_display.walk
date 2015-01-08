@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/scan_body_display</name>
+  <descr>[Proxy] enters the small scanning chamber. You tell [Proxy] to strip and lay down on the scanning table.
+
+&lt;%MoodShame(45); &quot;&quot;;%&gt;
+
+&lt;%Include(&quot;hospital/todd/scan&quot;);%&gt;
+
+&lt;%Include(&quot;hospital/todd/result&quot;);%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_project_display_upgrade&quot;) == 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

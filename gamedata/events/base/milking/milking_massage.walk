@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/milking/milking_massage</name>
+  <descr>You are massaging &lt;% activePartner.getName() %&gt;&apos;s &lt;%IncludeRange(activePartner.getStat(&quot;generic.cup_size&quot;), &quot;breastcups&quot;);%&gt; breasts. Maybe this can be more practical and not only for pleasure.
+&lt;%activePartner.doAction(&quot;milking&quot;);
+MoodShame(10);
+self.addStat(&quot;generic.arousal&quot;, 14);
+if (self.getStat(&quot;generic.arousal&quot;) &gt; 100)
+self.setStat(&quot;generic.arousal&quot;, 100);
+&quot;&quot;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>milking_massage.jpeg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

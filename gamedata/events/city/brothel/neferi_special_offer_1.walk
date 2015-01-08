@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/neferi_special_offer_1</name>
+  <descr>- I think you have potential in this business... What do you think about doing some unusual services? I have clients who have... special tastes. If you would like to make more money, I can let you serve them. Though this can be demanding.&#xd;
+&lt;% DisplayChar(&quot;char/neferi.png&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Interested</name>
+      <value>city/brothel/offer_1_yes</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No, thanks</name>
+      <value>city/brothel/offer_1_no</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

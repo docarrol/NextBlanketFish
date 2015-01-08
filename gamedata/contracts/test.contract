@@ -1,0 +1,21 @@
+<fetishmaster.contracts.WorkerContract>
+  <name>Test Contract</name>
+  <desc>Contract for testing script contracts
+Script contract for the: &lt;%self.getName();%&gt;</desc>
+  <value>0</value>
+  <temp>false</temp>
+  <timeleft>0</timeleft>
+  <conage>0</conage>
+  <custom>true</custom>
+  <conditions>
+    <fetishmaster.contracts.ContractCondition>
+      <name>Tired</name>
+      <conditionScript>sysprint(&quot;test contract condition script&quot;);
+self.getStat(&quot;generic.tiredness&quot;) &gt; 100;</conditionScript>
+      <brokenScript>sysprint(&quot;test contract if broken script&quot;);
+self.removeFromWorkers();</brokenScript>
+      <voidText>Tiredness condition reached.</voidText>
+      <payfine>false</payfine>
+    </fetishmaster.contracts.ContractCondition>
+  </conditions>
+</fetishmaster.contracts.WorkerContract>

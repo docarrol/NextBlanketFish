@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/ass/missionary</name>
+  <descr>[Target] spreads [=target][t-her]&apos;s legs, and [Proxy] inserts [hisher] [=proxy][penis] inside. [He] begins moving and the pleasure is rising.&lt;%
+taker=iTarget;
+giver=proxy;&quot;&quot;;%&gt;&lt;%Include(&quot;sex/vaginal_sex/calc_sex&quot;);%&gt; &lt;%taker.doAction(&quot;vaginal_enter&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;sex/about_to_cum_in_t_vagina&quot;);%&gt; &lt;%Include(&quot;sex/generic_t_orgasm&quot;);%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; status.VaginalIsPossible(iTarget, proxy);</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/magbot/flee</name>
+  <descr>&lt;%activePartner.getName();%&gt; managed to flee from the Magbot.
+&lt;%EndInteraction(); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

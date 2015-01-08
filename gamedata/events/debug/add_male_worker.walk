@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/add_male_worker</name>
+  <descr>Adding male as worker:&#xd;
+&#xd;
+&lt;%&#xd;
+//c = Character (&quot;Woman&quot;, &quot;human_female_agency_worker&quot;, true);&#xd;
+c = Character (&quot;Kau-m&quot;, &quot;kau_male_adult&quot;, true);&#xd;
+c.addToWorkers(LoadContract(&quot;test&quot;));&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

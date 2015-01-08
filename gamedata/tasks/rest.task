@@ -1,0 +1,34 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Rest</name>
+  <conditions>1</conditions>
+  <script>res = &quot;&quot;;
+
+lust = self.getStat(&quot;generic.arousal&quot;)/10;
+
+if (isTaskFirstHour())
+{
+      res = self.getName()+&quot; is resting.&quot;;
+}
+       x = self.getRNAValue(&quot;generic.tiredness&quot;);
+
+if (clock.isNight())
+{
+      x-= calc.procent(x, 80);
+      if (isTaskFirstHour())
+     {  res = self.getName()+&quot; is sleeping.&quot;; }
+      x = x - (calc.procent(x, 10) - lust);
+}
+else
+{
+       x = x - calc.procent(x, 10);
+}   
+
+       if (x&lt;0)
+           x=0;
+       self.setStat(&quot;generic.tiredness&quot;, x);
+
+rr = self.getRNAValue(&quot;generic.regen_rate&quot;);
+       self.addStat(&quot;generic.health&quot;, rr);
+res;</script>
+  <decription>Take a break and rest or sleep. </decription>
+</fetishmaster.engine.ManagmentTask>

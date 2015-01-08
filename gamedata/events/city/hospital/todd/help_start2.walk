@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/help_start2</name>
+  <descr>[Proxy] asks Todd if [heshe] can help him with anything else.
+
+- Yes, of course you can help!
+
+Todd continues to explain that there&apos;s two ways on which [heshe] can help him. Either by helping him achieve DNA manipulation or upgrade the gene scanner. However, to unlock one modification, Todd first needs an upgraded version of the scanner. He explains that he needs to be able to scan the body adaptation regarding training and exercises before he can start modifying them. Todd suspects this will be the case with the future upgrades.
+
+
+Todd tells that [Proxy] needs to be scanned twice, one with a stat untrained and one where it&apos;s trained. Strength will be the focus. He also explains that only one person can do the different scans. With that he&apos;ll be able to upgrade the scanner.
+
+&lt;% SetFlag(&quot;todd_started_help&quot;, 2); 
+SetFlag(&quot;todd_in_experiment&quot;, 1); &quot;&quot;;%&gt;
+&lt;% cuid = proxy.getUID();  SetTextFlag(&quot;todd_current_proxy&quot;, cuid); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_started_help&quot;) == 1 &amp;&amp; GetFlag(&quot;installed_gene_device&quot;) == 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

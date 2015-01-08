@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/vag_stretch/magic_dildo_overload</name>
+  <descr>[proxy] selects the magic dildo and spend a full hour playing with it, it&apos;s size accomodating to pleasureably stretch her love canal. A the end of [hisher] session [heshe] feels as dildo insertion become easier and feels up her vulva, slightly bloated and fatter than usual, almost giving her another orgasm just from feeling it and in fact, her pussy feels wetter than normal, probably a pleasant side-effect... But soon she feels her massively cum-inflated belly rumble ominously as it starts shrinking down really fast as her bloated pussy throbs and churn... It doesn&apos;t take long for her huge cunt to grow and grow, past it&apos;s limit, spewing juices all over the floor as [proxy] is overwhelmed by a tremendous orgasm over and over! After some time her belly finally shrunk down... but her pussy&apos;s left massively inflated, to the point where walking&apos;s going to be a hassle with this leg-spreading, leaking beachball of a cunt!&#xd;
+&lt;%&#xd;
+self.setStat(&quot;generic.arousal&quot;, 0);&#xd;
+self.setStat(&quot;vagina.width&quot;, 24.9);&#xd;
+self.setStat(&quot;vagina.length&quot;, 30);&#xd;
+self.setStat(&quot;vagina.vulva_size&quot;, 25);&#xd;
+self.addStat(&quot;vagina.max_moist&quot;, 250);&#xd;
+self.setStat(&quot;uterus.cervix_size&quot;, 200);&#xd;
+SetPerFlag(&quot;cunt_overload&quot;, 1);&#xd;
+self.removeEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;);&#xd;
+self.setStat(&quot;vagina.goo_modifier&quot;, 12)&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;neferi_magic_dildo&quot;) == 1 &amp;&amp; proxy.getStat(&quot;vagina.vulva_size&quot;) &gt;= 15 &amp;&amp; proxy.hasEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;) &amp;&amp; proxy.getStat(&quot;uterus.volume&quot;) &gt; 125000 &amp;&amp; GetPerFlag(&quot;cunt_overload&quot;) &lt; 1;</conditions>
+  <picturePath>base/vagina/overload.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/work_stripper_normal</name>
+  <descr>&lt;%activePartner.getName();%&gt; is getting used to this, and can dance without much trouble. But &lt;%activePartner.HeShe();%&gt; does not have much artistic skill yet, so the audience is not impressed, but not bored either. 
+
+Ms. Tendo praises &lt;%activePartner.getName();%&gt; a little, and says that next time this work will be easier for her. She pays &lt;%activePartner.HimHer();%&gt; 20 coins.
+
+&lt;%
+activePartner.inventory.addMoney(20);
+activePartner.addStat(&quot;skill.striptease&quot;, 2);
+MoodShame(30);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.cha&quot;)/5 + activePartner.getRNAValue(&quot;skill.striptease&quot;) &gt; 25;</conditions>
+  <picturePath>city/hotlips/stripper_pole_normal.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

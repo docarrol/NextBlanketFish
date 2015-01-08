@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/select/gene_abdomen_volume</name>
+  <descr>Selected the capacity of the abdomen as the gene to modify (This also counts as uterus capacity).
+
+&lt;%SetTextFlag(&quot;gene_mod_selection&quot;, &quot;abdomen.max_volume&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_mod_select_returnforce&quot;) &lt; 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

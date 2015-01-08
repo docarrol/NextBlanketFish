@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/enema_checkup_futa</name>
+  <descr>Dr. Genki asks [Proxy] to take off panties and bend over the table to make the initial checkup. He puts on gloves and softly tests the anus for injuries. [Proxy] gasps silently when his finger circle the anus from inside.
+
+Dr. Genki is happy to proceed with the enema.
+
+Would you like the standard enema for 300 coins that lasts two days or would you prefer the special procedure that costs 1001 coins, where the effect lasts a week?
+
+&lt;% 
+SetPerFlag(&quot;bonus_enema&quot;, 0); 
+SetPerFlag(&quot;genki_enema_intro&quot;, 1);
+&quot;&quot;;%&gt;
+
+</descr>
+  <conditions>proxy.getStat(&quot;generic.sex&quot;) == 3;</conditions>
+  <picturePath>city/hospital/enema_checkup_futa_1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Standard (300 coins)</name>
+      <value>city/hospital/genki/enema_standard</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Special</name>
+      <value>city/hospital/genki/enema_special</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>city/hospital/genki/in_cabinet</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/2f_live_plate_no</name>
+  <descr>[Proxy] politely excuses [himher]self, saying that it&apos;s too much for [himher] now. Chief is slightly disappointed but understands. The rest of the shift is uneventful.
+&lt;%AddMoney(50);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/fcafe/interior_2f.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

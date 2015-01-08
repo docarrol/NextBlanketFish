@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/preg_test_p</name>
+  <descr>After using the test and waiting the sufficient amount of time, [proxy] looks at the stick...
+
+Two lines! Test is positive.
+&lt;%
+RemoveItem(&quot;home_preg_test&quot;);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasItem(&quot;home_preg_test&quot;) &amp;&amp; Chance(95) &amp;&amp; status.isPregnant(proxy);</conditions>
+  <picturePath>base/train_rooms.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

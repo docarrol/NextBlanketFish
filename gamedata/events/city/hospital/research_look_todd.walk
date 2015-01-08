@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/research_look_todd</name>
+  <descr>Exploring the various halls, [Proxy] eventually discovers one of the doors is wide open and decides to investigate. The sign next to the door says; &quot;DNA Research Facility&quot;. Upon entering, [Proxy] notices a doctor working behind his desk. He seems to hear you entering.
+
+- H-Hello? Who enters?
+
+[Proxy] raises [hisher] hands and greets the man. The man seems to be interested in [Proxy]&apos;s ear.
+
+- Wait a minute... That thing you&apos;re wearing on your ear, is that a proxy device?
+
+
+The man doesn&apos;t appear to be very healthy and probably a tad insane. What do you tell [Proxy] to do?
+
+&lt;%SetFlag(&quot;found_todd&quot;, 1); 
+SetPerFlag(&quot;found_todd_person&quot;, 1); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>Chance(20 + proxy.getStat(&quot;generic.int&quot;) / 2) &amp;&amp; GetFlag(&quot;found_todd&quot;) == 0;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Act Confused</name>
+      <value>city/hospital/todd/intro_confused</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Answer Yes</name>
+      <value>city/hospital/todd/intro_answeryes</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

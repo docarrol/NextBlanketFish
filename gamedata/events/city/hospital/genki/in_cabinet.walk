@@ -1,0 +1,53 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/in_cabinet</name>
+  <descr>Entering the clinic [proxy] heads to Dr. Genki&apos;s office, knocks on the door, then waits until he gives [himher] permission to enter. Walking inside, [heshe] sees him filing some folders away into an office cabinet before turning to look at [himher].
+
+- Greetings [proxy]. How may I be of service?
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;found_genki&quot;)==1;</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cosmetic surgery</name>
+      <value>city/hospital/genki/cosmetic_surgery</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>About Neferi offer</name>
+      <value>city/hospital/genki/ask_neferi_offer</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pregnancy Implant</name>
+      <value>city/hospital/genki/select_preg_implant</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Remove breast implants</name>
+      <value>city/hospital/genki/implants_remove</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Remove preg implant</name>
+      <value>city/hospital/genki/preg_remove_check</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy saline</name>
+      <value>city/hospital/genki/select_saline</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enema</name>
+      <value>city/hospital/genki/enema_offer</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enema</name>
+      <value>city/hospital/genki/enema_checkup_repeat</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

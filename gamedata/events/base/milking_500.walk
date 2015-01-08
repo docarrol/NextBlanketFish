@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/milking_500</name>
+  <descr>You are milking &lt;% activePartner.getName() %&gt; and &lt;% activePartner.get2ndPerson(); %&gt; gives &lt;% a = selectedWorker.doAction(&quot;breasts_milking&quot;);
+LustShame(5,20);
+       (Integer)a.get(&quot;breasts&quot;).get(&quot;milk&quot;); %&gt;ml. of milk. Enough was collected to fill a bottle. 
+&lt;%AddItem(self, &quot;breast_milk&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>sysprint(activePartner.getName());
+     
+if (activePartner.getRNAValue(&quot;breasts.milk_volume&quot;) &gt; 500)
+	true;
+else
+	false;</conditions>
+  <picturePath>base_milking.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

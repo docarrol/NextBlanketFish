@@ -1,0 +1,52 @@
+<fetishmaster.engine.WalkEvent>
+  <name>in_the_base</name>
+  <descr>This is the main hall of your home.
+
+It is a very nice home with many rooms; a library, a small garden, and even a private back yard. 
+</descr>
+  <conditions>1</conditions>
+  <picturePath>base/hall_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to Managment</name>
+      <value>end_of_walking</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Travel to...</name>
+      <value>fast_travel/select</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Street</name>
+      <value>homestreet/in_front_of_home</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Training Rooms</name>
+      <value>base/training_rooms</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Library</name>
+      <value>base/library</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Acquire Alchemist lab(200k c.)</name>
+      <value>acquire_lab</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Alchemy lab</name>
+      <value>in_the_lab</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Toggle Agency</name>
+      <value>toggle_agency</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Debug Event</name>
+      <value>debug</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>in_the_base</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

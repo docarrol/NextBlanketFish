@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/current_status</name>
+  <descr>&lt;%Include(&quot;hospital/todd/current_status&quot;);%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_started_help&quot;) &gt; 1 &amp;&amp; GetFlag(&quot;todd_in_experiment&quot;) == 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Go Back</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Scan Body</name>
+      <value>city/hospital/todd/scan_body</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Reset Research</name>
+      <value>city/hospital/todd/reset_scans</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cancel Current</name>
+      <value>city/hospital/todd/cancel_current_project</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/test_bshape</name>
+  <descr>[Proxy] is welcomed in the room and sits near the researcher&apos;s desk.
+
+- I see you are interested in our body shape test injections hmm? It&apos;s something we developed to make womans able to chose what body shape they want. Those injections are designed to change how the fat is distributed in your body to allow some control on where you want the fat to go.
+
+He then lays down the different choice in front of [Proxy] and start explaining.
+1 - Pregnant: Will distribute most of fat cells in the waist area and some more in the bust, perfect if you want to look pregnant without the side-effects.
+2 - Pear: Will distribute most of fat cells in the hips and some in the waist.
+3 - Hourglass: Will distribute an even percentage of fat cells in the hips and the bust.
+
+So, what will it be? It is one time only though, no changing back after you&apos;re done.</descr>
+  <conditions>GetPerFlag(&quot;bshape_test_done&quot;) == 1;
+</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pregnant</name>
+      <value>city/hospital/bshape_test_apple</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pear</name>
+      <value>city/hospital/bshape_test_pear</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Hourglass</name>
+      <value>city/hospital/bshape_test_hourglass</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Watermelon Special</name>
+      <value>city/hospital/bshape_test_wmelonsp</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Not now</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

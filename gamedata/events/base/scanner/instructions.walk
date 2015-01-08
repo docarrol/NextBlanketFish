@@ -1,0 +1,60 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/scanner/instructions</name>
+  <descr>You decide to read the instruction note next to the scanner. [Proxy] picks it up and reads it;
+
+Dear Proxy User,
+
+In case I&apos;ve forgotten to explain something, here&apos;s a list of the things you need to know.
+
+
+SCANNER:
+The scanner device allows you to scan the target to see into it&apos;s DNA, basically allowing you to see how he or she will be when fully grown. However, there will be some small deviations. 
+
+
+MODULES:
+Modules are an addition to the scanner itself, either improving or adding new componements to the device. The standard module only shows the value of the statistics themselves. As you upgrade the scanner with modules, more values will unlock for scanning. Some will show more details about a specific gene.
+
+
+TERMS:
+Body Display:
+Basically means the appearance of the body. Good examples are the length of the body and the sex organs.
+
+Body Apperance:
+Translates as the visual apperance of the body. Examples are the hair and eye colors.
+
+Body Adaptation:
+After exercising intensely for couple of weeks, the body adapts and makes you stronger. The downside is that the effects will not stay and decay if you stop exercising. This modification aims to lower that effect.
+
+Gene Purity:
+The term is pretty straight-forward. The more I edit a proxy&apos;s gene, the lower the &apos;purity&apos; of the genes will be. The price to further adjust the proxy will increase. Unfortunately this is an unavoidable conflict. There is however, a very slim chance an embyro will adopt the purity of the pure parent.
+
+
+Mutation:
+When a embyro is fertilized, the genes from both father and mother are taken and made into the person it&apos;ll be. It has been confirmed that there is a percentage of every gene that might alter the gene itself. This modification changes the percentage so there&apos;s a bigger chance of having a larger difference between the parent and child. I believe this is the best way to indirectly change the value of the DNA, with quite a bit of trial and error.
+
+Domination:
+Increasing the domination on a gene increases the chance it&apos;ll be chosen over the gene of the other parent. To use an example, lets say parent A and B. A has green hair while B has brown. Increasing the domination of A will result in a higher chance an embryo having green hair.
+
+
+
+GUIDE:
+Increasing the value of a gene:
+Maybe I&apos;ve overthrown you with confusing terms, so here&apos;s a guide to help you out. If you&apos;re aiming to raise a value, you&apos;ll need quite a bit of money. Not only to afford the modifications, but also to speed up the pregnancies. Which can count up to a lot of money.
+
+After that, you want to get a proxy with a relatively high value on the gene you wish to increase. Apply some domination mods and one mutation. The first mutation modification is the most effective, so one is enough. 
+
+The next step is to have a child that has a higher estimated value for the gene you&apos;re aiming for. It might take several pregnancies to finally get a higher value.
+
+After that, it&apos;s a matter of repeating the above steps until the value is raised enough.
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,26 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Sport: Athletics </name>
+  <conditions>res = true;
+
+if (status.isBaby(self))
+	res= false;
+if (self.getStat(&quot;generic.spd&quot;) &lt;=0 )
+	res = false;
+res;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if (isTaskFirstHour())&#xd;
+{&#xd;
+        self.addStat(&quot;generic.str&quot;, 1.5);&#xd;
+        self.addStat(&quot;generic.spd&quot;, 0.5);&#xd;
+        self.addStat(&quot;generic.end&quot;, 0.7);&#xd;
+        self.addStat(&quot;generic.cha&quot;, 0.02);&#xd;
+        self.addStat(&quot;generic.tiredness&quot;, 10);&#xd;
+&#xd;
+self.subStat(&quot;generic.calories&quot;, 350);&#xd;
+&#xd;
+res = self.getName()+&quot; do a athletics course.&quot;;&#xd;
+}&#xd;
+res;</script>
+  <decription>Athletics helping to keep body in good shape and improve strength.
+</decription>
+</fetishmaster.engine.ManagmentTask>

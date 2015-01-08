@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/offer_work_yes</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); ctv=c; &quot;&quot;;%&gt;- Well... let&apos;s try it! I like to be payed &lt;%Include(&quot;commoners/hire_payment_calc&quot;);%&gt;. But cash must be paid in advance. Are you interested?
+
+&lt;% c.setFlag(&quot;hire_money&quot;, payment); &quot;&quot;;%&gt;
+&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>ctv.getFlag(&quot;proxy_reveal&quot;) == 2 &amp;&amp; ctv.getStat(&quot;generic.lewdness&quot;) &gt; 20 &amp;&amp; Chance (proxy.getStat(&quot;generic.cha&quot;)) </conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>commoners/work_hire_yes</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>commoners/work_hire_no</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

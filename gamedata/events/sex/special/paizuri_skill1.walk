@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/special/paizuri_skill1</name>
+  <descr>&lt;% c = proxy;&quot;&quot;;%&gt; [Proxy] tries [hisher] best to message [target]&apos;s penis with her &lt;% Include(&quot;c_od/breasts&quot;);%&gt; but her rythm is slightly off. 
+
+&lt;%Include(&quot;sex/calc_special_paizuri&quot;); &quot;&quot;;%&gt;
+
+&lt;%Include(&quot;sex/paizuri/image_size&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;breasts.size&quot;) &gt; 7 &amp;&amp; iTarget.hasOrgan(&quot;penis&quot;);</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

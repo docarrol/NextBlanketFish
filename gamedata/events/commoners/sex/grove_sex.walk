@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/sex/grove_sex</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;This is a small grove on the side of the village and is a good place to hide. [Proxy] and &lt;%c.getName();%&gt; find a place where the grass makes a sort of natural bed, and start their play...
+
+&lt;%
+partner = c;
+SetInteractionTarget(partner);
+BeginInteraction(&quot;sex/turn&quot;);
+AddIState(&quot;sex&quot;, &quot;sex/turn&quot;);
+AddIState(&quot;t_satisfed&quot;, &quot;sex/t_satisfed&quot;);
+AddIState(&quot;t_tired&quot;, &quot;sex/t_tired&quot;);
+AddIState(&quot;p_leave&quot;, &quot;sex/p_leave&quot;);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

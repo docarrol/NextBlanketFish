@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/kissing_male</name>
+  <descr>[Proxy] leans forward, embraces and kisses [Target].&#xd;
+&lt;%Include(&quot;sex/calc_kiss&quot;);%&gt;</descr>
+  <conditions>proxy.isMale();</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

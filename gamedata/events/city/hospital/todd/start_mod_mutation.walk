@@ -1,0 +1,44 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/start_mod_mutation</name>
+  <descr>&lt;%Include(&quot;hospital/todd/operation_text&quot;);%&gt;
+
+&lt;%Include(&quot;hospital/todd/operation_mutation&quot;);%&gt;
+
+
+&lt;% 
+if (GetTextFlag(&quot;gene_mod_selection&quot;) == &quot;abdomen.max_volume&quot;) {
+	if (proxy.getStat(&quot;generic.sex&quot;) == 2 || proxy.getStat(&quot;generic.sex&quot;) == 3) {
+		SetTextFlag(&quot;gene_mod_selection&quot;, &quot;uterus.max_volume&quot;);
+		Include(&quot;hospital/todd/operation_mutation&quot;);
+		//And set the gene selection back to the first, because the game won&apos;t reset the gene selection.
+		SetTextFlag(&quot;gene_mod_selection&quot;, &quot;abdomen.max_volume&quot;);
+	}
+}
+
+// I switched the mutation mod to a template because it&apos;ll be easier for the simplified genes (abdomen and uterus) and 
+// the limitations
+
+&quot;&quot;;%&gt;
+
+
+</descr>
+  <conditions>purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue();
+
+HasMoney(7500 + (7500 * (100 - (int)purity) / 250)) &amp;&amp; GetTextFlag(&quot;gene_mod_selection&quot;) != &quot;none&quot; &amp;&amp; 
+GetFlag(&quot;block_operation&quot;) &lt; 1;</conditions>
+  <picturePath>city/hospital/healing_capsule.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>3</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

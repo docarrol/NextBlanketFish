@@ -1,0 +1,45 @@
+<fetishmaster.bio.DNAGenePool>
+  <pool class="java.util.Collections$SynchronizedMap" serialization="custom">
+    <java.util.Collections_-SynchronizedMap>
+      <default>
+        <m class="linked-hash-map">
+          <entry>
+            <string>generic.undefined</string>
+            <fetishmaster.bio.DNAGene>
+              <organname>fertility</organname>
+              <statname>hyperbreeder</statname>
+              <value>0.0</value>
+              <changerate>0.0</changerate>
+              <pubertyage>0.0</pubertyage>
+              <maturetime>999.0</maturetime>
+              <mutationrate>0.0</mutationrate>
+              <oneTimeMutation>0.0</oneTimeMutation>
+              <active>true</active>
+              <geneForce>50</geneForce>
+              <sexTraits>70</sexTraits>
+              <script>if (self.getStat(&quot;fertility.hyperbreeder&quot;) &lt; 9)&#xd;
+{&#xd;
+	sysprint (self.getName()+&quot; hyper_b script&quot;);&#xd;
+	self.loadRNA(&quot;genetic_traits/human_hyperbreeder_rna&quot;);&#xd;
+	self.loadOrgan(&quot;hp_breed&quot;);&#xd;
+	self.setStat(&quot;fertility.hyperbreeder&quot;, 10);&#xd;
+}</script>
+              <passOnFastTime>false</passOnFastTime>
+              <runAsDNA>false</runAsDNA>
+              <runAsRNA>true</runAsRNA>
+              <checkRange>false</checkRange>
+              <minValue>0.0</minValue>
+              <maxValue>0.0</maxValue>
+              <returnToNatural>false</returnToNatural>
+              <backforce>0.0</backforce>
+              <backforceRangeMult>1.0</backforceRangeMult>
+              <scriptRunOnlyAsActive>true</scriptRunOnlyAsActive>
+              <chrate>0.0</chrate>
+            </fetishmaster.bio.DNAGene>
+          </entry>
+        </m>
+        <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+      </default>
+    </java.util.Collections_-SynchronizedMap>
+  </pool>
+</fetishmaster.bio.DNAGenePool>

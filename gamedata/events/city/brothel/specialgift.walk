@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/specialgift</name>
+  <descr>Neferi invites [proxy] to come into her private room.
+
+- You know, you&apos;ve been a great help around the place here! We get a lot more customers than before and it&apos;s all thanks to your amazing job! And for that, I wanted to give you a special gift.
+
+She goes and get an ornate wooden case, opening it to [proxy], revealing what seems to be an expertly carved dildo.
+
+- This is a magical dildo that fits ALL sizes, by that I mean that I enchanted it to grow until it snugly stretches you just right inside. And as a bonus, it bloats and fattens up your vulva with each use for some time, like normal stretching training would do. I have one for myself and I can tell you it&apos;s given me mind melting orgasms, and that&apos;s just from playing with my fat, bloated vulva and clit! I had one made for you the moment I saw your dedication, take it and have fun! 
+
+[Proxy] take the ornate wooden box and thank neferi profusely, [heshe]&apos;ll leave the box in your house&apos;s sexual training room, with the other dildos.
+ 
+&lt;%
+SetFlag(&quot;neferi_magic_dildo&quot;, 1); 
+DisplayChar(&quot;char/neferi.png&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>PerGetFlag(&quot;brothel_clients_satisfed&quot;) &gt;= 25 &amp;&amp; GetFlag(&quot;neferi_magic_dildo&quot;) &lt; 1;</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

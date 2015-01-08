@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/manager_room_no</name>
+  <descr>The manager is a business woman who introduces herself as Ms. Tendo.&#xd;
+&#xd;
+- You would like to work here? Let&apos;s see... First  - we need only women. I know, that futanari can look almost the same, but it&apos;s my rule - women only. Not that I personally have anything against futanari, but, in this day and age, a fully traditional club is rather unique, and we get some regular clients. Second, we do not provide any exotic services. This is a classic club. &#xd;
+&#xd;
+&lt;%activePartner.getName();%&gt; say that &lt;%activePartner.HeShe();%&gt; understand.</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hotlips/manager.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

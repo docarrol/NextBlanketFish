@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/scanner/gene_body_appearance</name>
+  <descr>-&lt;\/&gt;  Body Appearance Module  &lt;\/&gt;-
+
+This module displays the eye and hair color [proxy]&apos;s offspring will have.
+
+&lt;%gene = proxy.getDNAGene(&quot;generic.haircolor&quot;);&quot;&quot;;%&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); combined = (valueMin+valueMax)/2; &quot;&quot;; %&gt;
+Hair Color:
+ Color:		&lt;%IncludeRange((Integer)combined, &quot;colors&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+
+&lt;%gene = proxy.getDNAGene(&quot;generic.eyescolor&quot;);&quot;&quot;;%&gt;&lt;% Include(&quot;base/scanner/scan_gene_value&quot;); combined = (valueMin+valueMax)/2; &quot;&quot;; %&gt;
+Eye Color: 
+ Color:		&lt;%IncludeRange((Integer)combined, &quot;colors&quot;);%&gt;
+ &lt;% Include(&quot;base/scanner/scan_gene_domination&quot;);%&gt;
+
+</descr>
+  <conditions>GetFlag(&quot;installed_display_upgrade&quot;) == 1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

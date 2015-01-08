@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/anal_not_possible</name>
+  <descr>[Proxy]&apos;s asshole is too small for [target]&apos;s penis. Anal sex is not possible.</descr>
+  <conditions>proxy.hasOrgan(&quot;ass&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;33 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; ((iTarget.getStat(&quot;penis.width&quot;) / 2) * (iTarget.getStat(&quot;penis.width&quot;) / 2)) &gt;=
+((proxy.getStat(&quot;ass.width&quot;) / 2) * (proxy.getStat(&quot;ass.width&quot;) / 2) + Calc.percent((proxy.getStat(&quot;ass.width&quot;) / 2), 50));</conditions>
+  <picturePath>sex/anal_sex_not_possible.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>4</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

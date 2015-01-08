@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/offer_sex_can_accept</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;[Proxy] spends some time talking with &lt;% c.getName();%&gt;. [HeShe] begins to flirt with &lt;% c.HimHer();%&gt; and tries to seduce &lt;% c.getName();%&gt; into having sex. After some advances [proxy] clearly sees arousal of a &lt;% c.getName();%&gt;. &lt;%@c.HeShe();%&gt; can&apos;t refuse &lt;% c.HisHer();%&gt; urges anymore.
+
+- Well, shall we find some place where no one can interrupt us?
+&lt;%AddButton(&quot;Go with a &quot;+ c.getName(), c.getStatText(&quot;generic.sex_place&quot;)); &quot;&quot;;%&gt;
+&lt;%LustShame(5,35); &quot;&quot;;%&gt;&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(ctv.getUID()+ &quot;.relations&quot;) &gt; 40) &amp;&amp; ctv.getStatText(&quot;generic.sex_place&quot;) != &quot;&quot; &amp;&amp; (c.getStat(&quot;generic.arousal&quot;)+ctv.getStat(&quot;generic.lewdness&quot;)&gt; 110);</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>system_events/continue</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/search_recipes_mt_q1</name>
+  <descr>Leafing through the weighty tombs, [proxy] sees a small piece of paper flutter out. On closer inspection it is for pancakes. A simple recipe, it shouldn&apos;t require any special ingredients.
+&lt;%
+SetPerFlag(&quot;muffin_top_quest&quot; , 2);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;muffin_top_quest&quot;)==1 &amp;&amp; GetPerFlag(&quot;muffin_top_quest&quot;) == 1</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

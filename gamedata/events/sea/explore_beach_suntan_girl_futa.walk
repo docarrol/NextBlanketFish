@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/explore_beach_suntan_girl_futa</name>
+  <descr>[Proxy] goes to the far edge of the beach. A girl is laying in the sun getting a tan. &lt;%Include(&quot;sea/beach_girl_suntan&quot;);%&gt;
+&lt;%LustShame(5,10); &quot;&quot;;%&gt;</descr>
+  <conditions>(activePartner.getRNAValue(&quot;generic.sex&quot;)==3) &amp;&amp; (clock.isDay() || clock.isMorning()) &amp;&amp; Chance(30);</conditions>
+  <picturePath>sea/girl_suntaning.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

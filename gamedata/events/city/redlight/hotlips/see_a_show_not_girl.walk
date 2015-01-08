@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/see_a_show_not_girl</name>
+  <descr>&lt;%activePartner.getName();%&gt; is having a good time seeing the show. It&apos;s rather interesting, though not focused on anything sexual. On the main stage, striptease acts are changing out with singers, and even some humoristic artists.
+Good way to relax.
+&lt;% 
+proxy.addStat(&quot;generic.cha&quot;, 0.3);
+proxy.addStat(&quot;skill.striptease&quot;, 2);
+proxy.addStat(&quot;skill.sing&quot;, 2);
+proxy.inventory.removeMoney(20);
+proxy.addStat(&quot;generic.mood&quot;, 10);
+proxy.addStat(&quot;generic.arousal&quot;, 5);
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.sex&quot;)!=2 &amp;&amp; proxy.inventory.moneyCount() &gt;= 20;</conditions>
+  <picturePath>city/hotlips/see_a_show.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>3</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

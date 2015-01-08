@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/add_futa_worker</name>
+  <descr>Adding woman as worker:&#xd;
+&#xd;
+&lt;%&#xd;
+c = Character (&quot;Futa&quot;, &quot;human_futa_agency_worker&quot;);&#xd;
+AddToWorkers(c);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

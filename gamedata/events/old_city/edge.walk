@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>old_city/edge</name>
+  <descr>City of the old civilization. People lived here before the DS. After this region was in the area of high instability anomaly, living here became too difficult, and people have moved to other places. The city was abandoned. Very few people like to go here. First of all, this place is a reminder of old times, and secondly, in the ruins you can run into dangerous creatures.
+
+To the left, it seems, are the border regions. And [proxy] saw the passage into the depths of city.</descr>
+  <conditions>1</conditions>
+  <picturePath>lost_city/edge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To the Bridge Path</name>
+      <value>old_city/to_lost_city</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Go to Left</name>
+      <value>old_city/green_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Try to go Inside</name>
+      <value>old_city/dark_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

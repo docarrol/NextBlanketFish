@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/mouth_fuck</name>
+  <descr>&lt;%Include(&quot;sex/calc_blowjob&quot;); &quot;&quot;;%&gt; [Proxy] takes [Target]&apos;s cock into [her] throat, then allows [Target] to fuck [her] throat. &lt;%Include(&quot;sex/blowjob_cum&quot;);%&gt;&#xd;
+</descr>
+  <conditions>proxy.getStat(&quot;skill.blowjob&quot;)&gt;80;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

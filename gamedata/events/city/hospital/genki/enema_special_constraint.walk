@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/enema_special_constraint</name>
+  <descr>- [Proxy] agrees to be bound during the procedure.
+
+- Great, haha! says Dr. Genki, this will make the procedure a bit easier. Then let&apos;s start with the fun, shall we? Would you please get down on your knees on the bed over there. You can leave your clothes on. Dr. Genki smiles while he tightens the belts on [Proxy]&apos;s hands and legs. Then he quickly takes the solution out from a fridge and hangs it on the hook next to the bed. Now, it is a bit chilling and can become unpleasant in the first minute, so please try to stay relaxed. Then he quickly inserts the other end of the hose into [Proxy]&apos;s anal, securing it with panties.
+
+&lt;% 
+SetPerFlag(&quot;special_enema_first_step&quot;, 1);
+SetPerFlag(&quot;anal_sex_disgusting&quot;, 0);
+if(Chance(50)){
+SetPerFlag(&quot;bonus_enema&quot;, 1);
+} 
+&quot;&quot;;%&gt;&lt;%
+RemoveMoney(1001);
+proxy.addEffect(&quot;ass.cleanness&quot;, &quot;enema_special&quot;, 2 ,168);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(1001)</conditions>
+  <picturePath>city/hospital/enema_special_restraint.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/genki/enema_special_constraint_two</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>5</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

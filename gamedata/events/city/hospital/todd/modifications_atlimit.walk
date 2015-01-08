@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/modifications_atlimit</name>
+  <descr>[Proxy] moves up to the list of potential modifications, but Todd quickly moves to stop [himher].
+
+- I&apos;m sorry, but you&apos;re at the limit for DNA modifications.
+
+He points to another note relatively close to the list, it says with a large bold text: &quot;WARNING: Due to the increasing instability with every modification, I&apos;ve limited the amount to 5 modifications per proxy. The proxy&apos;s offspring however, wont suffer from the same limitation as the parent. But it&apos;ll still be 5 per proxy.&quot;
+</descr>
+  <conditions>GetFlag(&quot;todd_unlock_helpmethods&quot;) == 1 &amp;&amp; GetFlag(&quot;todd_waiting&quot;) != 1 &amp;&amp; GetFlag(&quot;todd_in_experiment&quot;) == 0 &amp;&amp; GetPerFlag(&quot;todd_used_modification&quot;) == 5;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

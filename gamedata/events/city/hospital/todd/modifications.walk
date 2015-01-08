@@ -1,0 +1,48 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/modifications</name>
+  <descr>[Proxy] reads a list of the potiental modifications Todd can apply, once finished. He reminds you that this will only apply for the DNA. The proxy [himher]self can not make use of this, only their children will.
+
+A side note lays besides the list, it says with a large bold text: &quot;WARNING: Due to the increasing instability with every modification, the cost will increase. I named this occurance &apos;Gene Purity&apos;.&quot;
+
+&lt;% SetFlag(&quot;todd_mod_select_returnforce&quot;, 0); &quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;todd_mod_select_domination&quot;, 0); &quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;todd_mod_select_mutation&quot;, 0); &quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;block_operation&quot;, 0); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_unlock_helpmethods&quot;) == 1 &amp;&amp; GetFlag(&quot;todd_waiting&quot;) == 0 &amp;&amp; GetFlag(&quot;todd_in_experiment&quot;) == 0;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Body Adapation Mod</name>
+      <value>city/hospital/todd/mod_body_adapation</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Gene Mutation Mod</name>
+      <value>city/hospital/todd/mod_gene_mutation</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Body Appearance Mod</name>
+      <value>city/hospital/todd/mod_body_appearance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Gene Domination Mod</name>
+      <value>city/hospital/todd/mod_gene_domination</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

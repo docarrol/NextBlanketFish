@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/christian_can_repair</name>
+  <descr>[Proxy] decides that the owner of the magic shop might know how to repair artifacts. &lt;%activePartner.get2ndPerson();%&gt; shows the crystal to Christian, and ask if he could fix it.
+
+Christian carefully takes the crystal, and begins to study it. After a while, he replies:
+
+- An interesting instance and quite complex. Yes, I can repair it, but it will cost you very dearly. However, I do not need the money itself, but a service.
+
+[Proxy] continues to listen.
+
+- As you know, after the DS the development of technology stalled somehow and getting some components now has become quite difficult and expensive. But if you don&apos;t want anything too specific, you can get the necessary pieces from items in the old abandoned towns. However, this is not very safe. People have left them for a reason. If the town is abandoned, then DS activity in it is too great, so you might find... anything. But I am an experimenter, and stocks of parts come to an end pretty quickly for me. If I just order new, then I&apos;m going to go bankrupt, and going to the old city is something that I would not like - I&apos;m not a fighter by nature. Therefore I offer you a deal - I repair the crystal, in exchange for 15 printed circuit boards of old technology. Yes, you will have to get them in the old cities, and yes, it can be dangerous. I&apos;m not asking you to answer &quot;Yes&quot; or &quot;No&quot;, but rather I firmly promise you a repaired crystal in exchange for the these components.
+&lt;% PerSetFlag(&quot;christian_quest&quot;, 1); &quot;&quot;; %&gt;
+</descr>
+  <conditions>res = 0;
+if (PerGetFlag(&quot;christian_quest&quot;) &lt; 1 &amp;&amp; GetFlag(&quot;belanika_quest&quot;) == 1 &amp;&amp; PerGetFlag(&quot;carry_belanika_crystal&quot;) == 1)
+	res = 1;
+res;</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

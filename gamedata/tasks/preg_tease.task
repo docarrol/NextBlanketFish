@@ -1,0 +1,38 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Fun House: PregTease</name>
+  <conditions>// only those who really can get pregnant is allowed;
+(self.getFlag(&quot;neferi_preg_strip_intro&quot;) &gt; 0 &amp;&amp; self.getStat(&quot;generic.abdomen&quot;) &gt; 4) &amp;&amp; self.hasOrgan(&quot;uterus&quot;) &amp;&amp; self.getFlag(&quot;brothel_fuck_contract&quot;) &gt; 0;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+&#xd;
+if( isTaskFirstHour() &amp;&amp; clock.isEvening())&#xd;
+{&#xd;
+s = self.getStat(&quot;skill.striptease&quot;)+1;&#xd;
+if (s&gt;100) { s = 100;}&#xd;
+abdomen = self.getStat(&quot;generic.abdomen&quot;) * 5;&#xd;
+h = 1;&#xd;
+//if (self.getStat(&quot;generic.hips&quot;) &gt; 90)&#xd;
+//{&#xd;
+//h = ((self.getStat(&quot;generic.hips&quot;) - 90)/9);&#xd;
+//}&#xd;
+m =(Integer) (abdomen * (s/25) * h);&#xd;
+AddItem(player, &quot;coin&quot;, m);&#xd;
+res = &quot;Payment is &quot; + m + &quot; coins.&quot;;&#xd;
+//res = &quot;Payment paid&quot;.&#xd;
+&#xd;
+self.addStat(&quot;skill.striptease&quot;, 0.2);&#xd;
+self.addStat(&quot;generic.tiredness&quot;, abdomen / 2);&#xd;
+&#xd;
+LustShame(self, 10, 40);&#xd;
+&#xd;
+MoveWorkerToReturnList(self, 5);&#xd;
+&#xd;
+}&#xd;
+else if (clock.isEvening() == false)&#xd;
+{&#xd;
+   res = &quot;This show going only at evening times, &quot;+self.getName() + &quot; can&apos;t work here right now.&quot;;&#xd;
+}&#xd;
+res;</script>
+  <decription>Work as pregnant stripteaser in the Fun House. Payment depends on the skill and satisfaction of the clients. Size of the belly and teasing skill is a keys to the success.
+
+This show going only at evening times.</decription>
+</fetishmaster.engine.ManagmentTask>

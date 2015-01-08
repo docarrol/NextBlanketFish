@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/aquader/win</name>
+  <descr>&lt;%activePartner.getName();%&gt; manages to beat the last will to fight from Aquader. He now lies there completely at the mercy of &lt;%activePartner.getName();%&gt;.&#xd;
+&lt;%activePartner.addStat(&quot;generic.str&quot;, 0.5); &#xd;
+EndInteraction();&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

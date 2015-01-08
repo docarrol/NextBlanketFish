@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/search_around_fcafe</name>
+  <descr>After walking around [proxy] finds something unusual. This type of establishment is expected to be seen in the regular town districts, so seeing it here, a regular looking cafe, is somewhat unexpected. You decide that it might be interesting, and have [proxy] go inside. 
+&lt;%SetFlag(&quot;now_about_fcafe&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;now_about_fcafe&quot;) == 0 &amp;&amp; Chance(50) &amp;&amp; (clock.isDay()||clock.isEvening()||clock.isNight());</conditions>
+  <picturePath>city/fcafe/outside_cafe.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enter</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

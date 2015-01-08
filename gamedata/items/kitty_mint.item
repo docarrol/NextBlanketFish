@@ -1,0 +1,21 @@
+<fetishmaster.items.Item>
+  <name>Kitty Mint</name>
+  <descr>Leaf that smells soft and sweet. Give this to your cat and they will become very happy.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.updateEffect(&quot;generic.cha&quot;, &quot;kitty_mint&quot;, 0, 7);&#xd;
+if (self.hasOrgan(&quot;vagina&quot;))&#xd;
+{&#xd;
+  self.updateEffect(&quot;generic.arousal&quot;, &quot;kitty_mint&quot;, 10, 1, &quot;Arousal has faded...&quot;);&#xd;
+  self.addStat(&quot;generic.libido&quot;, 0.2);&#xd;
+}&#xd;
+self.addStat(&quot;generic.mood&quot;, 5);&#xd;
+&quot;&quot;;</useScript>
+  <useText>After chewing it, &lt;%self.getName();%&gt; feels warm and happy.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>50</value>
+  <sellValue>10</sellValue>
+  <weight>0.05</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

@@ -1,0 +1,36 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>hipswidth</name>
+  <min>
+    <double>0.0</double>
+    <double>80.0</double>
+    <double>90.0</double>
+    <double>100.0</double>
+    <double>110.0</double>
+    <double>125.0</double>
+    <double>140.0</double>
+    <double>160.0</double>
+    <double>180.0</double>
+  </min>
+  <max>
+    <double>80.0</double>
+    <double>90.0</double>
+    <double>100.0</double>
+    <double>110.0</double>
+    <double>125.0</double>
+    <double>140.0</double>
+    <double>160.0</double>
+    <double>180.0</double>
+    <double>9999.0</double>
+  </max>
+  <descr>
+    <string>normal</string>
+    <string>voluptuous</string>
+    <string>wide</string>
+    <string>childbearing</string>
+    <string>huge</string>
+    <string>doorway-jamming</string>
+    <string>giant, cow-like</string>
+    <string>enormous, couch-sized</string>
+    <string>massive, baby-making</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

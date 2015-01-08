@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/merril_vagina</name>
+  <descr>&lt;%Include(&quot;char/merril_init&quot;); &quot;&quot;;%&gt;&#xd;
+- Really!? I can? I was so thankful! It&apos;s so rare that anyone allow me...&#xd;
+&#xd;
+Merril quickly pull [proxy] at the bed beside, and begins to undress [himher] quickly. Do Merril have high skill, or it&apos;s something other, but at the times that her garments lies beside bed, [proxy] is completely aroused and ready.&#xd;
+&#xd;
+Merril push [proxy] down, and press her huge cock at the [proxy] cunt lips...&#xd;
+&#xd;
+&lt;%c= proxy; &quot;&quot;;%&gt;&lt;%Include(&quot;brothel/merril_scene_vagina&quot;);%&gt;&#xd;
+&lt;%proxy.setStat(&quot;generic.arousal&quot;, 0); &#xd;
+merril.setStat(&quot;generic.arousal&quot;, 0); &quot;&quot;;%&gt;&#xd;
+&lt;%MoodShame(40); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;vagina&quot;);</conditions>
+  <picturePath>brothel/merril_fun_house.jpeg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/merril_scene_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/pets_store/buy_items</name>
+  <descr>&lt;%
+NewShop();
+if (GetFlag(&quot;uren_quest_done&quot;) &gt; 0 &amp;&amp; GetFlag(&quot;gestamin_ready&quot;) &lt; clock.getAHours() )
+{
+	ItemToShop(&quot;gestamin&quot;);
+}
+ItemToShop(&quot;kitty_mint&quot;);
+&quot;&quot;;
+%&gt;
+
+&lt;%DisplayChar(&quot;char/uren.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/pets_store/inside.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

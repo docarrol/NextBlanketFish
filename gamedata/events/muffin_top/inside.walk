@@ -1,0 +1,90 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/inside</name>
+  <descr>&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;&lt;%Include(&quot;muffin_top/inside&quot;);%&gt;&lt;%Include(&quot;muffin_top/kiana&quot;);%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Look at Vicky</name>
+      <value>muffin_top/look_at_vicky</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Filter Coffee (5 c.)</name>
+      <value>muffin_top/filter_coffee</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Espresso (20 c.)</name>
+      <value>muffin_top/espresso</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pancake(5 c.)</name>
+      <value>muffin_top/pancake</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pancake Box(55 c.)</name>
+      <value>muffin_top/pancakebox</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cream Eclair (20 c.)</name>
+      <value>muffin_top/cream_eclair</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cream Eclair Box(220 c.)</name>
+      <value>muffin_top/cream_eclair_box</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Skinny Latte (30 c.)</name>
+      <value>muffin_top/skinny_latte</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cream Latte (20 c.)</name>
+      <value>muffin_top/cream_latte</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Collect Pancakes</name>
+      <value>muffin_top/collect_pancakes</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Collect Eclairs</name>
+      <value>muffin_top/collect_eclairs</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Give Recipe</name>
+      <value>muffin_top/give_recipe</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Accept offer</name>
+      <value>muffin_top/accept_offer</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask what is wrong</name>
+      <value>muffin_top/ask_what_wrong</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

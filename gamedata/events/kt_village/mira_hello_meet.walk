@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/mira_hello_meet</name>
+  <descr>[Proxy] greets a girl, and tell her that [heshe] is here to explore around and meet new people.&#xd;
+&#xd;
+- Uh, okay. Eh, I&apos;m sorry we don&apos;t get many guests here, so... I&apos;m Mira. Like to come in? We can talk then. But please, leave before Romul get here in the evening. He... it can be dangerous for you, if you meet with him.&#xd;
+&#xd;
+&lt;%Include(&quot;char/mira_init&quot;);&#xd;
+DisplayChar(&quot;char/mira.png&quot;);&#xd;
+proxy.setFlag(&quot;meet_mira&quot;, 1);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/mira_house.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enter</name>
+      <value>kt_village/inside_mira_house</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

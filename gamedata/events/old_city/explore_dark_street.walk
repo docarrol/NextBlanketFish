@@ -1,0 +1,13 @@
+<fetishmaster.engine.WalkEvent>
+  <name>old_city/explore_dark_street</name>
+  <descr>[Proxy] searched around the dark street. No useful things could be found, only old junk.</descr>
+  <conditions>1</conditions>
+  <picturePath>lost_city/dark_street.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

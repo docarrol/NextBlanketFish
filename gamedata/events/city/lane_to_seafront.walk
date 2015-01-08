@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/lane_to_seafront</name>
+  <descr>This lane connects Hilltown and Seafront with a long and winding path. Pedestrian travel is safe as vehicles are prohibited on this path.</descr>
+  <conditions>1</conditions>
+  <picturePath>city/lane_to_seafront.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Seafront</name>
+      <value>city/seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Hilltown</name>
+      <value>city/hilltown</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

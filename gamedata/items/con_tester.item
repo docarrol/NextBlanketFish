@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>Test item</name>
+  <descr>Item for testing.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;
+</useScript>
+  <useText>test</useText>
+  <count>1</count>
+  <canBeStacked>false</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1</value>
+  <sellValue>1</sellValue>
+  <weight>0.0</weight>
+</fetishmaster.items.Item>

@@ -1,0 +1,250 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>uterus</name>
+  <actionNames>
+    <string>orgasm</string>
+    <string>uterus_recalc</string>
+    <string>uterus_foll_phase</string>
+    <string>uterus_ova_phase</string>
+    <string>uterus_lut_phase</string>
+    <string>uterus_preg_phase</string>
+    <string>uterus_post_phase</string>
+    <string>uterus_select_phase</string>
+    <string>birth</string>
+    <string>uterus_birth_waters</string>
+    <string>uterus_birth_offscreen</string>
+  </actionNames>
+  <actionScripts>
+    <string>result;</string>
+    <string>        volume = self.getStat(&quot;uterus.volume&quot;);
+        weight = volume+70;
+        size = GeometryCalc.MillilitersToSphereDiameter(volume+50);
+        self.setStat(&quot;uterus.size&quot;, size);
+        self.setStat(&quot;uterus.weight&quot;, weight);
+        self.updateEffect(&quot;abdomen.weight&quot;, &quot;uterus&quot;, weight);
+        self.updateEffect(&quot;abdomen.volume&quot;, &quot;uterus&quot;, volume+50);
+
+result;</string>
+    <string>cycle = self.getStat(&quot;uterus.cycle&quot;);
+cyc_len = self.getStat(&quot;uterus.foll_phase&quot;);
+
+if (cycle &gt; cyc_len)
+{
+if(!self.getName().equals(&quot;agency&quot;))
+//sysprint(self.getName()+&quot; entring ovulation phase.&quot;);
+self.setStat(&quot;uterus.phase&quot;, 1);
+self.setStat(&quot;uterus.cycle&quot;, 0);
+}
+
+if(self.getStat(&quot;uterus.embrios&quot;) &gt; 0)
+{
+self.setStat(&quot;uterus.phase&quot;, 3);
+self.setStat(&quot;uterus.waters&quot;, 1);
+self.setStat(&quot;uterus.offscreen_timer&quot;, 36);
+}
+
+result;</string>
+    <string>cycle = self.getStat(&quot;uterus.cycle&quot;);
+cyc_len = self.getStat(&quot;uterus.ova_phase&quot;);
+
+if (cycle &gt; cyc_len)
+{
+if(!self.getName().equals(&quot;agency&quot;))
+//sysprint(self.getName()+&quot; ovulation phase end.&quot;);
+Ovulation(self);
+self.setStat(&quot;uterus.phase&quot;, 2);
+self.setStat(&quot;uterus.cycle&quot;, 0);
+self.setStat(&quot;uterus.offscreen_timer&quot;, 36);
+self.setStat(&quot;uterus.waters&quot;, 1);
+}
+
+result;</string>
+    <string>cycle = self.getStat(&quot;uterus.cycle&quot;);
+cyc_len = self.getStat(&quot;uterus.lut_phase&quot;);
+
+if (cycle &gt; cyc_len &amp;&amp; self.getStat(&quot;uterus.embrios&quot;) == 0)
+{
+mtime = 20+calc.random(36);
+mf = 0-calc.random(10);
+self.updateEffect(&quot;generic.dex&quot;, &quot;menstruation&quot;, mf, mtime);
+self.updateEffect(&quot;generic.spd&quot;, &quot;menstruation&quot;, mf, mtime);
+self.updateEffect(&quot;generic.end&quot;, &quot;menstruation&quot;, mf, mtime);
+}
+
+if (cycle &gt; cyc_len)
+{
+if(!self.getName().equals(&quot;agency&quot;))
+//sysprint(self.getName()+&quot; next menstrual cycle begin.&quot;);
+self.setStat(&quot;uterus.phase&quot;, 0);
+self.setStat(&quot;uterus.cycle&quot;, 0);
+}
+
+Fertilization(self);
+
+if (status.isPregnant(self))
+{
+evol = EmbriosVolume(self);
+
+self.updateEffect(&quot;uterus.volume&quot;, &quot;embrios&quot;, evol);
+self.updateEffect(&quot;uterus.volume&quot;, &quot;placenta&quot;, evol*0.3);
+}
+
+result;</string>
+    <string>amax = self.getStat(&quot;uterus.max_amniotic&quot;);
+amn = self.getStat(&quot;uterus.amniotic&quot;);
+
+if (amax &gt; amn)
+{
+amn += self.getStat(&quot;uterus.amniotic_rate&quot;);
+self.updateEffect(&quot;uterus.volume&quot;, &quot;amniotic&quot;, amn);
+self.setStat(&quot;uterus.amniotic&quot;, amn);
+}
+
+evol = EmbriosVolume(self);
+
+self.updateEffect(&quot;uterus.volume&quot;, &quot;embrios&quot;, evol);
+self.updateEffect(&quot;uterus.volume&quot;, &quot;placenta&quot;, evol*0.3);
+
+if (status.isLaborReady(self))
+{
+self.doAction(&quot;uterus_birth_waters&quot;);
+}
+
+//morning sickness effect
+if (self.getStat(&quot;foetus.grow_time&quot;)/4 &gt; self.getStat(&quot;uterus.cycle&quot;) &amp;&amp; Chance(5)*self.getStat(&quot;uterus.embrios&quot;) &amp;&amp; clock.isMorning())
+{
+self.updateEffect(&quot;generic.end&quot;, &quot;morning_sickness&quot;, -10, calc.random(6)+2);
+}
+
+result;</string>
+    <string>//menstrual cycle restart?
+pftime = self.getStat(&quot;uterus.postpartum_fulltime&quot;);
+ptime = self.getStat(&quot;uterus.postpartum_time&quot;);
+prate = self.getStat(&quot;uterus.postpartum_rate&quot;);
+
+pftime+= self.getStat(&quot;breasts.lact_rate&quot;)*100;
+
+if (prate &lt; 0)
+{
+prate=0;
+}
+
+if (pftime&gt;ptime)
+{
+self.addStat(&quot;uterus.postpartum_time&quot;, prate);
+}
+
+//test of postpartum time ending
+if (pftime&lt;ptime)
+{
+self.setStat(&quot;uterus.phase&quot;, 0);
+}
+
+
+result;</string>
+    <string>phase = self.getStat(&quot;uterus.phase&quot;);
+
+if (phase == 0)
+{
+self.doAction(&quot;uterus_foll_phase&quot;);
+}
+
+if (phase == 1)
+{
+self.doAction(&quot;uterus_ova_phase&quot;);
+}
+
+if (phase == 2)
+{
+self.doAction(&quot;uterus_lut_phase&quot;);
+}
+
+if (phase == 3)
+{
+self.doAction(&quot;uterus_preg_phase&quot;);
+}
+
+if (phase == 4)
+{
+self.doAction(&quot;uterus_post_phase&quot;);
+}
+
+cyc = self.getStat(&quot;uterus.cycle&quot;);
+cyc=cyc+1;
+self.setStat(&quot;uterus.cycle&quot;, cyc);
+//sysprint(self.getName()+ &quot; cycle state &quot;+cyc);
+result;</string>
+    <string>debug.log(self.getName()+&quot; give birth&quot;);
+
+self.setStat(&quot;uterus.phase&quot;, 4);
+self.setStat(&quot;uterus.postpartum_time&quot;, 0);
+
+pvol = self.getStat(&quot;uterus.volume&quot;);
+
+self.removeEffect(&quot;uterus.volume&quot;, &quot;embrios&quot;);
+self.removeEffect(&quot;uterus.volume&quot;, &quot;amniotic&quot;);
+self.removeEffect(&quot;uterus.volume&quot;, &quot;placenta&quot;);
+
+if (self.getCleanStat(&quot;vagina.width&quot;)  &lt; 12) // need to be changed to use actual child size
+{
+	self.addStat(&quot;vagina.width&quot;, 1);
+}
+
+pvol = calc.procent(pvol, 65);
+
+//debug.log(&quot;pvol=&quot;+pvol);
+
+self.loadEffect(&quot;uterus.volume&quot;, &quot;pregnancy_postpartum&quot;, pvol);
+
+result;</string>
+    <string>if (self.getStat(&quot;uterus.waters&quot;) &gt; 0 &amp;&amp; self.isWorker())
+{
+   alert(self.getName()+&quot; waters broken!!!&quot;);
+   self.setFlag(&quot;in_labour&quot;, 1);
+}
+else
+{
+   self.setFlag(&quot;in_labour&quot;, 1);
+}
+
+self.setStat(&quot;uterus.waters&quot;, 0);
+self.subStat(&quot;uterus.offscreen_timer&quot;, 1);
+
+
+result;</string>
+    <string>if (self.getStat(&quot;uterus.offscreen_timer&quot;) &lt; 1)
+{
+st = self.getName()+&quot; give birth, but you been too busy to oversee it personally.&quot;;
+self.addHistory(&quot;Birth&quot;, st);
+alert(st);
+
+self.setFlag(&quot;in_labour&quot;, 0);
+
+childs = GiveBirth(self);
+self.doAction(&quot;birth&quot;);
+        
+if (self.isWorker())
+{
+AddLegacyWorkers(childs);
+}
+else
+{ 
+	for (i=0; i&lt;childs.size(); i++)
+	{
+	     CharacterRegistry(childs.get(i));
+	}
+}
+
+self.setStat(&quot;uterus.offscreen_timer&quot;, 0);
+}
+
+result;</string>
+  </actionScripts>
+  <nextHourScript>if(self.getAge()&gt;self.getStat(&quot;uterus.menarche&quot;))
+{
+  self.doAction(&quot;uterus_select_phase&quot;);
+}
+
+self.doAction(&quot;uterus_recalc&quot;);
+// test update;
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

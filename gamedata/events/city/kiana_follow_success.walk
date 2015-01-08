@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/kiana_follow_success</name>
+  <descr>[Proxy] tries to follow this strange girl without being caught. This is pretty hard, as the girl seems nervous, maybe she feels something? Eventually she walks outside of the seaside and quickly continues onto the road that leads to the forest. This path is quite open, [proxy] can&apos;t follow the girl any more without being seen.</descr>
+  <conditions>proxy.getStat(&quot;generic.dex&quot;) &gt; 55;</conditions>
+  <picturePath>city/path_to_sea.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/path_to_seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/kitchen_milk_talk</name>
+  <descr>[Proxy] talks to Chief about [hisher] lactating breasts. &#xd;
+&#xd;
+- I can see. Yes, breast milk is used in some of our recipes, and we have some equipment to extract it here. If you would like to, you can milk yourself in the backroom. We will pay you for every full bottle.&#xd;
+&lt;%MoodShame(30); &#xd;
+SetPerFlag(&quot;fcafe_kitchen_milk&quot;, 2);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>PerGetFlag(&quot;fcafe_kitchen_milk&quot;) == 1 &amp;&amp; proxy.isRNAactive(&quot;breasts.lact_rate&quot;);</conditions>
+  <picturePath>city/fcafe/kitchen_interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/kitchen_interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

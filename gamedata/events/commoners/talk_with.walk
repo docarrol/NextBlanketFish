@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/talk_with</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;[Proxy] spends some time talking with &lt;% c.getName();%&gt;. 
+
+&lt;% tl = c.getObject(&quot;talk_themes&quot;);
+r = calc.randomInt(tl.size()-1);
+sysprint(&quot;Selected theme: &quot;+ r+ &quot; - &quot; + tl.get(r));
+Include(&quot;commoners/casual_talk/&quot;+tl.get(r));%&gt;
+&lt;% 
+coef = proxy.getStat(&quot;generic.int&quot;)/20 + proxy.getStat(&quot;generic.cha&quot;)/20;
+proxy.addStat(c.getUID()+&quot;.relations&quot;, coef); 
+sysprint (&quot;New relations is: &quot;+ proxy.getStat(c.getUID()+&quot;.relations&quot;));&quot;&quot;;%&gt;
+/*&lt;% proxy.addStat(c.getUID()+&quot;.relations&quot;, 70); &quot;&quot;;%&gt;*/
+&lt;% DisplayBG(bgimage);&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Next</name>
+      <value>system_events/continue</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc>Jeremiah spent some time talking with Keiko. 
+
+He have a good time.
+
+</parsedDesc>
+</fetishmaster.engine.WalkEvent>

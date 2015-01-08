@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/q1_no</name>
+  <descr>[Proxy] explains that [she] is not sure how to help.
+
+- Think it over, you do like my coffee? I&apos;d like to still be here to offer it.
+&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

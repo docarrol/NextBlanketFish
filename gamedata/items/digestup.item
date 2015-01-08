@@ -1,0 +1,19 @@
+<fetishmaster.items.Item>
+  <name>Digest-Up!</name>
+  <descr>A specialised drink that temporarily raises the rate at which the body digest calories. A good way to gain weight faster! Effect lasts 7 days.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>res = &quot;This drink has a sugary-salty taste... &lt;%self.getName();%&gt; feels a wave of heat in her belly...&quot;;&#xd;
+&#xd;
+// restore addiction times.&#xd;
+self.updateEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, 200, 168);&#xd;
+&#xd;
+res;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1500</value>
+  <sellValue>500</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

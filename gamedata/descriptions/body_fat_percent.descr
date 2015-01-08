@@ -1,0 +1,39 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>body_fat_percent</name>
+  <min>
+    <double>0.0</double>
+    <double>5.0</double>
+    <double>10.0</double>
+    <double>30.0</double>
+    <double>40.0</double>
+    <double>45.0</double>
+    <double>50.0</double>
+    <double>15.0</double>
+    <double>20.0</double>
+    <double>60.0</double>
+  </min>
+  <max>
+    <double>5.0</double>
+    <double>10.0</double>
+    <double>15.0</double>
+    <double>40.0</double>
+    <double>45.0</double>
+    <double>50.0</double>
+    <double>60.0</double>
+    <double>20.0</double>
+    <double>30.0</double>
+    <double>999.0</double>
+  </max>
+  <descr>
+    <string>slim</string>
+    <string>firm</string>
+    <string>a little traces of extra fat on</string>
+    <string>pleasantly plump</string>
+    <string>big and beautiful</string>
+    <string>extremely soft</string>
+    <string>heavy and bulging</string>
+    <string>slightly plump</string>
+    <string>significaly plump</string>
+    <string>obese</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

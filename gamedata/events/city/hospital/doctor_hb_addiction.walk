@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/doctor_hb_addiction</name>
+  <descr>- Lets see...
+
+The doctor gives [proxy] a full medical exam.
+
+- These analyses show that you are experiencing withdrawal syndrome from a chemical of vegetable origin. Most likely it&apos;s caused by the forest fruit known as the &quot;Horse bean&quot;. It&apos;s a pretty common case, as this fruit has some benefits for males or futanari... Though it&apos;s very addicting and can cause addiction after only the first use. There is no such thing as a &quot;safe dose&quot; of it. Withdrawal syndrome causes tiredness and a sick feeling, but luckily - it&apos;s not life threatening. By itself this syndrome will wear off in about a month, or so...
+I can give you a shot with an antitoxin that removes most of the negative effects, but it&apos;s pretty costly - 500 coins. 
+&lt;%SetPerFlag(&quot;now_horse_beans&quot;, 1);&quot;&quot;;%&gt;
+</descr>
+  <conditions>proxy.hasEffect(&quot;generic.end&quot;, &quot;horse_bean_addict&quot;);</conditions>
+  <picturePath>city/hospital/doctor_tw.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes (500c.)</name>
+      <value>city/hospital/hb_anitoxin_shot</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>city/hospital/treatment_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

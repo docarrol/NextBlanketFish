@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/implant_u/empty_cant</name>
+  <descr>[Proxy] was unable to connect the special nozzle to the cervix port of the implant. [Her] belly is too large and in the way. [She] needs someone to help [her]...&#xd;
+</descr>
+  <conditions>proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;) &gt; 100 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &gt; 18;</conditions>
+  <picturePath>base/sex_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/implant_u/menu</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

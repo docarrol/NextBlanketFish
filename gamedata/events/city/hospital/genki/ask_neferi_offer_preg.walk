@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/ask_neferi_offer_preg</name>
+  <descr>As [proxy] begins to talk about Neferi&apos;s offer, Dr. Genki interrupts [her].
+
+- Are you blind? Or are you a twit... To what purpose does an already pregnant girl need an implant? When your pregnancy is completed, and if you still are thinking about Neferi&apos;s offer, come see me and we will talk about it then.
+&lt;%DisplayChar(&quot;char/genki.png&quot;); 
+&quot;&quot;;%&gt;
+&lt;%MoodShame(35); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;genki_implants_know&quot;)==1 &amp;&amp; status.isLookedPregnant(proxy) &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

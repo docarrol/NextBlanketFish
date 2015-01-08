@@ -1,0 +1,21 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>nipplestate</name>
+  <min>
+    <double>0.0</double>
+    <double>50.0</double>
+    <double>70.0</double>
+    <double>90.0</double>
+  </min>
+  <max>
+    <double>50.0</double>
+    <double>70.0</double>
+    <double>90.0</double>
+    <double>200.0</double>
+  </max>
+  <descr>
+    <string>soft</string>
+    <string>erect</string>
+    <string>rock-hard, erect</string>
+    <string>diamond-hard, painfully erect</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

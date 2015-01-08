@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>UtIce pack</name>
+  <descr>Pack of the 100 UtIce contraceptive pills.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addItem(&quot;utice&quot;, 100);</useScript>
+  <useText>Unpacking pills...</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1500</value>
+  <sellValue>750</sellValue>
+  <weight>0.6</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

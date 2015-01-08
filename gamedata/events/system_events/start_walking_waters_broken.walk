@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/start_walking_waters_broken</name>
+  <descr>[Proxy] is in labor! What do you do?</descr>
+  <conditions>proxy.getFlag(&quot;in_labour&quot;) &gt; 0;
+</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Hospital Birth (1000c)</name>
+      <value>city/hospital/hospital_birth</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Home Birth</name>
+      <value>base/home_birth</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ignore</name>
+      <value>system_events/end_of_walking</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

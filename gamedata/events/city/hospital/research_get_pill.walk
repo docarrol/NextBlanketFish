@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/research_get_pill</name>
+  <descr>[Proxy] takes one pill from the case. In such chaos, surely no one will notice. [HeShe] carefully leaves the lab before anyone arrives.
+
+&lt;%
+AddItem(&quot;lac_unknown_pill&quot;);
+SetFlag(&quot;hospital_be_research&quot;, 2);
+SetPerFlag(&quot;get_unknown_pill&quot;, 1);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

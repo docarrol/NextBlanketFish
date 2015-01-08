@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/mira_ask_call_romul</name>
+  <descr>- Okay, I warned you. So it&apos;s you own decision now.&#xd;
+&#xd;
+ She stands up, go into the another room and says something that [proxy] can not hear clearly. She then returns and following her into the room is a creature that must be Romul - big human body with powerful looking musculature and bull-like head with big horns. He definitely looks dangerous but right now he seems to not do anything aggressive.&#xd;
+&#xd;
+- Who are you, and why you are here? Mira explained to you that I&apos;m dangerous? So why? &#xd;
+&lt;%Include(&quot;char/mira_init&quot;);&#xd;
+Include(&quot;char/romul_init&quot;);&#xd;
+DisplayChar(&quot;char/romul.png&quot;);&#xd;
+SetTextFlag(&quot;romul_place&quot;, &quot;home_in_room&quot;);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetTextFlag(&quot;romul_place&quot;) == &quot;home&quot;;</conditions>
+  <picturePath>kt_village/inside_mira_house.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

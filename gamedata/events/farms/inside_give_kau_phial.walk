@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/inside_give_kau_phial</name>
+  <descr>[Proxy] tell Belanika second part of the Romul story - about potion that he asks [proxy] to deliver. Belanika get Phial, and looks on it for some time. But then to the surprise of [proxy] she return Phial back.
+
+- I&apos;m happy that he is so serious about his promises... but... I&apos;m not ready to turn into something completely another. In this form I still feel as human inside. But after full transformation... No, this is not for me. 
+
+She smiles.
+
+- I don&apos;t need it. You may do with this potion as you like.
+ 
+&lt;%proxy.addStat(&quot;belanika.relations&quot;, 20);
+proxy.setFlag(&quot;romul_quest&quot;, 5);
+SetFlag(&quot;romul_quest&quot;, 5);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;romul_quest&quot;) == 4 &amp;&amp; proxy.getFlag(&quot;romul_quest&quot;) == 4 &amp;&amp; HasItem(&quot;kau_transform_potion&quot;);</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Give Phial with Kau Potion</name>
+      <value>farms/inside_give_kau_phial</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,44 @@
+<fetishmaster.items.Item>
+  <name>Kau Tangata Potion</name>
+  <descr>Produced by the Shaman of the Kau Tangata village, this potion can transform Human to the Kau Tangata.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>if (consumer.getStatText(&quot;generic.race&quot;) == &quot;human&quot;)&#xd;
+{&#xd;
+if (consumer.hasOrgan(&quot;uterus&quot;)) {&#xd;
+consumer.addOrgan(&quot;udder&quot;);&#xd;
+consumer.addStat(&quot;breasts.size&quot;, 5);&#xd;
+consumer.addStat(&quot;breasts.max_lactation&quot;, 25);&#xd;
+consumer.addStat(&quot;udder.max_size&quot;, 12);&#xd;
+}&#xd;
+&#xd;
+if (consumer.hasOrgan(&quot;balls&quot;)) {&#xd;
+consumer.addStat(&quot;balls.size&quot;, 17);&#xd;
+consumer.addStat(&quot;balls.prod_rate&quot;, 10);&#xd;
+&#xd;
+}&#xd;
+&#xd;
+consumer.setStatText(&quot;body.look&quot;, &quot;human-like&quot;);&#xd;
+consumer.setStatText(&quot;eyes.look&quot;, &quot;human-like&quot;);&#xd;
+consumer.setStatText(&quot;ears.look&quot;, &quot;cow-like&quot;);&#xd;
+consumer.setStatText(&quot;head.look&quot;, &quot;human&quot;);&#xd;
+consumer.setStatText(&quot;legs.look&quot;, &quot;human&quot;);&#xd;
+consumer.setStatText(&quot;feets.look&quot;, &quot;human&quot;);&#xd;
+consumer.setRNAactive(&quot;tail.exists&quot;, true);&#xd;
+consumer.setStatText(&quot;tail.look&quot;, &quot;cow-like&quot;);&#xd;
+consumer.setRNAactive(&quot;horns.exists&quot;, true);&#xd;
+consumer.setStatText(&quot;horns.look&quot;, &quot;cow-like&quot;);&#xd;
+consumer.addStat(&quot;horns.length&quot;, 8);&#xd;
+&#xd;
+consumer.setStatText(&quot;generic.race&quot;, &quot;kau&quot;);&#xd;
+consumer.addStat(&quot;fertility.kau&quot;, 30);&#xd;
+consumer.subStat(&quot;fertility.human&quot;, 30);&#xd;
+}</useScript>
+  <useText>After drinking of the Potion body become very hot and consciousness slip away.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>15000</value>
+  <sellValue>15000</sellValue>
+  <weight>0.2</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

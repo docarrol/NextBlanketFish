@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/tease_female</name>
+  <descr>[Proxy] seductively flexes [her] [=proxy][hips] and licks [her] lips...&#xd;
+&lt;%Include(&quot;sex/calc_tease&quot;);%&gt;&#xd;
+</descr>
+  <conditions>proxy.isFemale();</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

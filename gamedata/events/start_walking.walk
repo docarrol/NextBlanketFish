@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>start_walking</name>
+  <descr>You call for &lt;%activePartner.getName();%&gt; and ready your link with [HisHer] &quot;proxy&quot;.
+&lt;% Include(&quot;first_go_proxy&quot;);%&gt;
+Where are you going now?
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Main Hall</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

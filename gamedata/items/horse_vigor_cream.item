@@ -1,0 +1,26 @@
+<fetishmaster.items.Item>
+  <name>Horse Vigor Cream</name>
+  <descr>This syringe contains a powerful hormone that triggers an increase in penis size! Please even the loosest pussies!</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>res = self.getName()+ &quot; takes the special cream&quot;;&#xd;
+if (self.hasOrgan(&quot;penis&quot;))&#xd;
+{&#xd;
+res += &quot; and rubs it all over her cock, which grows warm as cock meat pours out, leaveing her in a slight daze, thinking about taking her bigger appendage for a test drive...&quot;;&#xd;
+self.addStat(&quot;penis.length&quot;, 1.5);&#xd;
+self.addStat(&quot;penis.width&quot;, 1);&#xd;
+self.LustShame(20, 40);&#xd;
+}&#xd;
+else&#xd;
+{&#xd;
+res += &quot; and then shrugs and put it back, it&apos;s not like she can make any use of it really.&quot;;&#xd;
+AddItem(&quot;horse_vigor_cream&quot;);&#xd;
+}&#xd;
+res;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>500</value>
+  <sellValue>100</sellValue>
+  <weight>0.1</weight>
+</fetishmaster.items.Item>

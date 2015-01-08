@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/take_client_futa</name>
+  <descr>At first [proxy] thinks that the person who enters [her] room is a girl, but quickly corrects [her] error by looking at the &quot;woman&quot;s crotch. This is obviously a futanari. And a pretty aroused one too! Without much foreplay she begins to undress, looking at [proxy] with lust in her eyes. The naked futa stands in all her glory before [proxy] and says:
+
+- As you can see, I need some release. I hope you can give it to me.
+</descr>
+  <conditions>Chance(30);</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/client_futa</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

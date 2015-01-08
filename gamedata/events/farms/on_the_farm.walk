@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/on_the_farm</name>
+  <descr>The farm is located on the edge of the forest. Places for such settlements are chosen in areas where the influence of the DS is low and the reality is stable. Although there can be a lot of oddities about, at this distance from the city, people are familiar with them and treat them with respect so long as they do not cause any trouble.</descr>
+  <conditions>1;</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To City</name>
+      <value>farms/road_to_farms</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Knock at Door</name>
+      <value>farms/knock_at_door</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Look Around (1h)</name>
+      <value>farms/barn</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Merril&apos;s Request</name>
+      <value>farms/merril_request</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

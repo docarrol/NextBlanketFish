@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/help_start</name>
+  <descr>[Proxy] asks Todd if [heshe] can help him with anything.
+
+- Actually, I&apos;ve been working on a device that scans babies after they&apos;ve been born. It&apos;s supposed to scan and detect how strong the baby will be when he or she will grow up. I believe this is one of the first steps to achieve DNA manipulation. I&apos;ve got most of the device working, but I need a power source to test and adjust the device. Have you heard of &apos;Power Crystals&apos;? They contain a lot more power than regular power sources. If you can get me 10 power crystals, I&apos;ll be able to finish the device.
+
+&lt;% SetFlag(&quot;todd_started_help&quot;, 1); &quot;&quot;; %&gt;
+&lt;% SetFlag(&quot;todd_need_crystals&quot;, 1); &quot;&quot;; %&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_started_help&quot;) == 0 &amp;&amp; GetFlag(&quot;todd_left_early&quot;) == 0;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

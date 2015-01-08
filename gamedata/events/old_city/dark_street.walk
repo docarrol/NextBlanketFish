@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>old_city/dark_street</name>
+  <descr>A dark and unwelcoming street. The buildings here have suffered considerably. Although they aren&apos;t falling apart, it is impossible to get inside of some due to obstructions. It is very quiet, the only things that can be heard are the wind and the steps of [proxy].</descr>
+  <conditions>1</conditions>
+  <picturePath>lost_city/dark_street.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back to Edge</name>
+      <value>old_city/edge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Search Around (1h)</name>
+      <value>old_city/explore_dark_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

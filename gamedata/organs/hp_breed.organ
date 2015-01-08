@@ -1,0 +1,86 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>hp_breed</name>
+  <hooked class="java.util.Collections$SynchronizedRandomAccessList" resolves-to="java.util.Collections$SynchronizedList" serialization="custom">
+    <java.util.Collections_-SynchronizedCollection>
+      <default>
+        <c class="list"/>
+        <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+      </default>
+    </java.util.Collections_-SynchronizedCollection>
+    <java.util.Collections_-SynchronizedList>
+      <default>
+        <list reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+      </default>
+    </java.util.Collections_-SynchronizedList>
+  </hooked>
+  <actionNames>
+    <string>orgasm</string>
+    <string>birth</string>
+    <string>hp_breed_recalc</string>
+    <string>uterus_lut_phase</string>
+  </actionNames>
+  <actionScripts>
+    <string>result;</string>
+    <string>if (self.getStat(&quot;fertility.ovulation_ova&quot;) &lt; 12)
+{
+self.addStat(&quot;fertility.ovulation_ova&quot;, 1);
+self.addHistory(&quot;Birth&quot;, self.getName()+&quot;&apos;s womb feels a bit more active after birthing...&quot;);
+}
+
+
+result;</string>
+    <string>if (self.getStat(&quot;uterus.phase&quot;) == 1)
+{
+	if (self.hasEffect(&quot;vagina.max_moist&quot;, &quot;hyperbreeding&quot;) == false)
+	{
+	self.addEffect(&quot;vagina.max_moist&quot;, &quot;hyperbreeding&quot;, 40, 100);
+	self.addEffect(&quot;vagina.vulva_size&quot;, &quot;hyperbreeding&quot;, 10, 100);
+	self.addEffect(&quot;vagina.width&quot;, &quot;hyperbreeding&quot;, 6, 100);
+	self.addEffect(&quot;vagina.length&quot;, &quot;hyperbreeding&quot;, 10, 100);
+	self.addHistory(&quot;HyperBreeder&quot;, &quot;It&apos;s her breeding time of the month...&quot;);
+	}
+self.addStat(&quot;generic.arousal&quot;, 4);
+}
+
+
+// enhance mobility in pregnant state:
+val = self.getEffectValue(&quot;generic.dex&quot;, &quot;belly_size&quot;);
+self.updateEffect(&quot;generic.dex&quot;, &quot;belly_size_hyper&quot;, 0-val/3, 2);
+val = self.getEffectValue(&quot;generic.spd&quot;, &quot;belly_size&quot;);
+self.updateEffect(&quot;generic.spd&quot;, &quot;belly_size_hyper&quot;, 0-val/3, 2);
+
+//enhance breasts mobility (milk weight)
+val = self.getEffectValue(&quot;breasts.weight&quot;, &quot;milk&quot;);
+self.updateEffect(&quot;breasts.weight&quot;, &quot;milk_hyper&quot;, 0-val*0.05, 2);
+
+//pregnancy speedup
+if (self.getStat(&quot;uterus.phase&quot;) == 3 &amp;&amp; self.hasOrgan(&quot;uterus&quot;))
+{
+ut = self.getOrgan(&quot;uterus&quot;);
+
+  for (i=0; i&lt;14; i++)
+  {
+    ut.nextHour();
+    if(self.getFlag(&quot;in_labour&quot;) &gt; 0)
+	{ break; }
+  }
+
+}
+
+//postpartum speedup (but still not skipped as in original mod)
+if (self.getStat(&quot;uterus.phase&quot;) == 4 &amp;&amp; self.hasOrgan(&quot;uterus&quot;))
+{
+   self.updateEffect(&quot;uterus.postpartum_rate&quot;, &quot;postpartum_hyper&quot;, self.getStat(&quot;generic.regen_rate&quot;), 2);
+}
+result;</string>
+    <string>self.removeEffect(&quot;vagina.max_moist&quot;, &quot;hyperbreeding&quot;);
+self.removeEffect(&quot;vagina.vulva_size&quot;, &quot;hyperbreeding&quot;);
+self.removeEffect(&quot;vagina.width&quot;, &quot;hyperbreeding&quot;);
+self.removeEffect(&quot;vagina.length&quot;, &quot;hyperbreeding&quot;);
+result;</string>
+  </actionScripts>
+  <nextHourScript>if (self.isRNAactive(&quot;fertility.hyperbreeder&quot;))
+{ self.doAction(&quot;hp_breed_recalc&quot;); }
+
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

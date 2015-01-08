@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/magbot/start</name>
+  <descr>&lt;%DisplayChar(&quot;lost_city/magbot.png&quot;); &quot;&quot;;%&gt;&lt;%
+ e = Character(&quot;Magbot&quot;, &quot;enemy/magbot&quot;);
+ SetEnemy(e);
+BeginInteraction(&quot;battle/p_turn&quot;);
+AddIState(&quot;fight&quot;, &quot;battle/p_turn&quot;);
+AddIState(&quot;win&quot;, &quot;battle/magbot/win&quot;);
+AddIState(&quot;lose&quot;, &quot;battle/magbot/lose&quot;);
+AddIState(&quot;flee&quot;, &quot;battle/magbot/flee&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

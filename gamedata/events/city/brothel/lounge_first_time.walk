@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/lounge_first_time</name>
+  <descr>In the lounge of the main house [proxy] is met by the hostess. She is a beautiful woman wearing a surprisingly long traditional dress. But the first thing about her that grabs the attention is the size of her breasts. They are huge! And the dress does not do much to hide them. With some trouble [proxy] eventually switches [hisher] attention to what the woman is saying to [himher].
+
+- What can we do for you? Do you need a room to relax from your travel? Or a bath? Or, maybe... you are here for some fun? 
+
+She winks playfully.
+
+Though what gets [proxy]&apos;s attention at second glance at the Hostesses appearance [heshe] noticed the woman&apos;s secondary main attribute. Red eyes and a medium sized pair of horns on the sides of her head. This is surprising enough for [proxy] to show it.  As she sees &lt;%activePartner.HisHer();%&gt; reaction, and says:
+
+- Ah, do not feel repulsed please. Yes - I&apos;m not fully human, but as you can see, I mean no harm to anyone, or the authorities would not allow me to open this place. And one other thing...
+
+With these words she raise her hands.. and takes off her horns. It&apos;s just headband!
+
+- Though they are decorations, I&apos;m not joking about myself. I&apos;m a quarter non human, so it feels right for me to wear them to show it. Oh, and how rude of me - I have forgotten to tell you my name. Call me Neferi please, And be our guest.
+
+&lt;% DisplayChar(&quot;char/neferi.png&quot;);
+SetFlag(&quot;found_outskirt_brothel&quot;, 2);
+SetPerFlag(&quot;neferi_intro&quot;, 1);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;found_outskirt_brothel&quot;) == 1 || GetPerFlag(&quot;neferi_intro&quot;) == 0;</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask to about working here</name>
+      <value>city/brothel/ask_about_working</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/outskirts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_forest_t_beast_fight</name>
+  <descr>Walking through the forest, [proxy] suddenly hears the branches rustling in some nearby bushes. Startled, [heshe] pauses, when suddenly a Tentacle Beast bursts out of hiding and attacks!
+
+&lt;%
+DisplayChar(&quot;char/t_beast.png&quot;);
+ &quot;&quot;;
+%&gt;
+</descr>
+  <conditions>calc.chance(5 + (proxy.getStat(&quot;generic.arousal&quot;)/2));</conditions>
+  <picturePath>forest/in_the_forest1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Fight!</name>
+      <value>battle/t_beast/start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

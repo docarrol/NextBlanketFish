@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>acquire_lab</name>
+  <descr>You send the proxy to acquire the vacant alchemy lab next door.
+&lt;%
+proxy.inventory.removeMoney(200000);
+SetFlag(&quot;lab_bought&quot;, 1);&quot;&quot;;
+%&gt;
+</descr>
+  <conditions>proxy.inventory.moneyCount() &gt;= 200000 &amp;&amp; GetFlag(&quot;lab_bought&quot;) &lt; 1;</conditions>
+  <picturePath>base/hall_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>in_the_base</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

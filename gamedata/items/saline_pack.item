@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>Saline Pack</name>
+  <descr>Medical grade saline, can be used for injections, or for filling implants. Harmless to the body.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <useText>Can&apos;t be consumed.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>50</value>
+  <sellValue>0</sellValue>
+  <weight>0.3</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

@@ -1,0 +1,34 @@
+<fetishmaster.engine.TextTemplate>
+  <conditions>1;</conditions>
+  <text></text>
+  <priority>0</priority>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Strength</name>
+      <value>city/hospital/todd/select/gene_strength</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dexterity</name>
+      <value>city/hospital/todd/select/gene_dexterity</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Speed</name>
+      <value>city/hospital/todd/select/gene_speed</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Endurance</name>
+      <value>city/hospital/todd/select/gene_endurance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Regeneration Rate</name>
+      <value>city/hospital/todd/select/gene_regenrate</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <overrideChoices>false</overrideChoices>
+</fetishmaster.engine.TextTemplate>

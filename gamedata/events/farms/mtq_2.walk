@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/mtq_2</name>
+  <descr>&lt;%Include(&quot;farm/greetings_in_farm&quot;);%&gt; 
+
+It seems Belanika is quite pleased with the separator. She can now supply skimmed milk and cream to her customers. This is bringing even more money into the farm, keeping it more easily in the black. Belanika with thanks refund [proxy] 3000 coins spent on the forward payment.
+
+[Proxy] asks if Belanika can supply some cream to Vicky?
+
+- Oh that nice girl that opened a cafe at seafront? I&apos;ve heard of her, if only I were more mobile I would certainly pay her a visit. She orders milk from me already some times. I&apos;ll make sure she is aware of the new products.
+
+&lt;%
+SetFlag(&quot;muffin_top_quest&quot;, 6);
+SetPerFlag(&quot;muffin_top_quest&quot;, 6);
+SetFlag(&quot;muffin_top_next_stage&quot;, clock.getDays()+7);
+vicky =  Character (GetTextFlag(&quot;vicky_uid&quot;));
+vicky.addStat(&quot;generic.calories&quot;, 60000);
+vicky.addStat(&quot;abdomen.food&quot;, 10);
+AddMoney(3000);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>(clock.isMorning() || clock.isDay() ) &amp;&amp; GetFlag(&quot;muffin_top_quest&quot;) == 5 &amp;&amp; GetFlag(&quot;muffin_top_next_stage&quot;) &lt; clock.getDays() &amp;&amp; GetFlag(&quot;belanika_quest&quot;) &gt;= 3;</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

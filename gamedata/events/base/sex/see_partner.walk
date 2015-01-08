@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/sex/see_partner</name>
+  <descr>&lt;%
+cuid = GetTextFlag(&quot;base_current_partner&quot;);
+partner = Character(cuid);
+ctv = partner;&quot;&quot;;%&gt;&lt;%Include(&quot;cview/full_description&quot;);%&gt;</descr>
+  <conditions>cuid = GetTextFlag(&quot;base_current_partner&quot;);
+partner = Character(cuid);
+if (partner == null) { partner = player; } //to avoid null pointer exception error
+cuid != proxy.getUID() &amp;&amp; partner.isWorker();</conditions>
+  <picturePath>base/sex_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Begin session</name>
+      <value>base/sex/start_sex</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Help with uterus implant</name>
+      <value>base/sex/u_implant</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/sex_interactions</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

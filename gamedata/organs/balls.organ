@@ -1,0 +1,59 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>balls</name>
+  <actionNames>
+    <string>orgasm</string>
+    <string>balls_production</string>
+    <string>balls_recalc</string>
+  </actionNames>
+  <actionScripts>
+    <string>self.setStat(&quot;balls.last_orgasm&quot;, clock.getAHours());
+result;</string>
+    <string>self.addStat(&quot;balls.sperm_volume&quot;, self.getStat(&quot;balls.prod_rate&quot;));
+
+excess = 0;
+
+        if(self.getStat(&quot;balls.max_volume&quot;)&lt;self.getStat(&quot;balls.sperm_volume&quot;))
+        {
+	excess = self.getStat(&quot;balls.sperm_volume&quot;) - self.getStat(&quot;balls.max_volume&quot;);
+	self.subStat(&quot;balls.sperm_volume&quot;, excess);
+        }
+
+         if (self.hasOrgan(&quot;pouch&quot;)== true)
+         {
+               self.addStat(&quot;pouch.sperm_volume&quot;, excess);
+          }
+
+result;</string>
+    <string>x = geometry.SphereDiameterToMillilites(self.getCleanStat(&quot;balls.size&quot;)-3);
+
+x = x+10;
+
+self.setStat(&quot;balls.max_volume&quot;, x);
+
+self.setStat(&quot;balls.hours_from_orgasm&quot;, clock.getAHours() - self.getStat(&quot;balls.last_orgasm&quot;));
+
+// maybe need fix later
+if (self.hasOrgan(&quot;pouch&quot;) == false)
+{
+ballsfilling = self.getStat(&quot;balls.sperm_volume&quot;) / self.getStat(&quot;balls.max_volume&quot;);
+self.updateEffect(&quot;balls.size&quot;, &quot;balls_filling&quot;, ballsfilling*self.getCleanStat(&quot;balls.size&quot;));
+}
+result;</string>
+  </actionScripts>
+  <nextHourScript>/* Venom effect moved outside of normall balls mechanic.
+if (self.getStat(&quot;pouch.venom_absorb&quot;) &gt; 0)
+{
+	self.updateEffect(&quot;balls.size&quot;, &quot;maxvenombloat&quot;, self.getStat(&quot;pouch.venom_absorb&quot;)/2)
+}
+if (self.getStat(&quot;pouch.venom_absorb&quot;) == 0)
+{
+	self.removeEffect(&quot;balls.size&quot;, &quot;maxvenombloat&quot;)
+}
+*/
+
+self.doAction(&quot;balls_production&quot;);
+
+self.doAction(&quot;balls_recalc&quot;);
+
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

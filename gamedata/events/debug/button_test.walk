@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/button_test</name>
+  <descr>Normal text.
+
+&lt;%buttonObject;%&gt;
+&lt;%Include(&quot;debug/button_test&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

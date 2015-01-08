@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>wake_up/disable</name>
+  <descr>Waking process disabled.
+
+&lt;% SetPerFlag(&quot;start_waking_process&quot;, 0); &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;start_waking_process&quot;) == 1;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Turn on Proxy</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

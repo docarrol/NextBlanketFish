@@ -1,0 +1,20 @@
+<fetishmaster.components.StatEffect>
+  <name>hyperbreeding</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>ut = self.getOrgan(&quot;uterus&quot;);&#xd;
+&#xd;
+for (i=0; i&lt;14; i++)&#xd;
+{&#xd;
+ut.nextHour();&#xd;
+}&#xd;
+&#xd;
+if(self.getFlag(&quot;in_labour&quot;) &gt; 0)&#xd;
+{&#xd;
+self.removeEffect(&quot;uterus.volume&quot;, &quot;hyperbreeding&quot;);&#xd;
+}</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

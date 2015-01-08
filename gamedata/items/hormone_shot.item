@@ -1,0 +1,15 @@
+<fetishmaster.items.Item>
+  <name>Hormone Shot</name>
+  <descr>This syringe contains a powerful hormone that triggers lactation when used. The effect is permanent if regularly stimulated.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.setRNAactive(&quot;breasts.lact_rate&quot;, true);&#xd;
+self.addStat(&quot;breasts.lact_rate&quot;, 10);&#xd;
+self.MoodShame(40);</useScript>
+  <useText>After using it, &lt;%self.getName();%&gt;'s breasts feel warm...</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>5000</value>
+  <sellValue>1000</sellValue>
+  <weight>0.1</weight>
+</fetishmaster.items.Item>

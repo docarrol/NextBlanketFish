@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>Milk Sample</name>
+  <descr>Small vial with a sample of Belanika's milk requested by Dr. Felis.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>false</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>0</value>
+  <sellValue>0</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

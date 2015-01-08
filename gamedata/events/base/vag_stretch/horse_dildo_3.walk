@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/vag_stretch/horse_dildo_3</name>
+  <descr>[=proxy]Inserts a horse-like dildo into [hisher] [vagina] without any trouble. [HeShe] can easily stretch [hisher] hole even more. An hour of play passes very fast.
+&lt;%LustShame(15, 45); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;vagina.width&quot;) &gt; 16;</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

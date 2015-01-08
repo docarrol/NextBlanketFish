@@ -1,0 +1,26 @@
+<fetishmaster.components.StatEffect>
+  <name>semen_in_uterus</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>cvol = This.getValue();&#xd;
+sysprint (&quot;sperm in uterus: &quot; + cvol);&#xd;
+&#xd;
+//something can leak out&#xd;
+out = self.getStat(&quot;uterus.cervix_size&quot;)*10;&#xd;
+if (out&gt;0) cvol -= out;&#xd;
+&#xd;
+//something can be absorbed by body&#xd;
+cvol -= 5;&#xd;
+sysprint (&quot;sperm in uterus after recalc: &quot; + cvol);&#xd;
+&#xd;
+if (cvol &lt; 0)&#xd;
+{&#xd;
+self.removeEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;);&#xd;
+}&#xd;
+else&#xd;
+{&#xd;
+This.setValue(cvol);&#xd;
+}</script>
+  <tmp>false</tmp>
+  <endText></endText>
+</fetishmaster.components.StatEffect>

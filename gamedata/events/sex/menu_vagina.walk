@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/menu_vagina</name>
+  <descr>[Proxy] looks at [target]&apos;s [=target][vagina]. </descr>
+  <conditions>iTarget.hasOrgan(&quot;vagina&quot;);</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Finger</name>
+      <value>sex/vagina/finger</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lick</name>
+      <value>sex/vagina/lick</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Penetrate</name>
+      <value>sex/vagina/missionary</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Doggy style</name>
+      <value>sex/vagina/doggy_style</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Fisting</name>
+      <value>sex/vagina/fisting</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>sex/turn</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

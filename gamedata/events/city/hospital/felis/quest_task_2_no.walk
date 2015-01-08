@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/quest_task_2_no</name>
+  <descr>[Proxy] declines the offer, saying that [heshe] is too unsure about all this.
+
+- I see [proxy]. I understand. But if you change your mind, please come see me. As I said, I appreciate any assistance you can give me and will compensate you for your time.
+
+&lt;%DisplayChar(&quot;char/felis.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

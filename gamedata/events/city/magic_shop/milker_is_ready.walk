@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/milker_is_ready</name>
+  <descr>- Ah, yes. I have finished your order. Now, you can set this machine up in your house, and use it as you like.
+
+&lt;%
+activePartner.inventory.removeMoney(500);
+PerSetFlag(&quot;milker_build&quot;,2);
+SetFlag(&quot;setup_milking_room&quot;, GetFlag(&quot;setup_milking_room&quot;)+1);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>activePartner.inventory.moneyCount() &gt; 500 &amp;&amp; PerGetFlag(&quot;time_to_milker_build&quot;) &lt; clock.getDays() &amp;&amp; PerGetFlag(&quot;milker_build&quot;) == 1;</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

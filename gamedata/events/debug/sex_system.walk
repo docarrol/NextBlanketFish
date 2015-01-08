@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/sex_system</name>
+  <descr>&lt;%
+male = Character(&quot;Futa&quot;, &quot;human_futa_agency_worker&quot;);
+male.addStat(&quot;generic.lewdness&quot;, calc.random(30)+10);
+//male.setStat(&quot;generic.arousal&quot;, 90);
+//male.setStat(&quot;balls.sperm_volume&quot;, 1000);
+//proxy.addStat(&quot;generic.arousal&quot;, 30);
+SetInteractionTarget(male);
+BeginInteraction(&quot;sex/turn&quot;);
+AddIState(&quot;sex&quot;, &quot;sex/turn&quot;);
+AddIState(&quot;t_satisfed&quot;, &quot;sex/t_satisfed&quot;);
+AddIState(&quot;t_tired&quot;, &quot;sex/t_tired&quot;);
+AddIState(&quot;p_leave&quot;, &quot;sex/p_leave&quot;);
+//AddIState(&quot;p_unvol_orgasm&quot;, &quot;sex/p_unvol_orgasm&quot;);
+sysprint (&quot;Hours to next sex: &quot;+male.getFlag(&quot;next_auto_orgasm_hours&quot;));
+sysprint (&quot;Cum ready: &quot;+male.getStat(&quot;pouch.volume&quot;));
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kitchen1.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

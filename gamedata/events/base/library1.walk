@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/library1</name>
+  <descr>This is the library in your house. You may find some of the books to be interesting...
+
+&lt;%IncludeAll(&quot;base/library/read_book&quot;);%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To the Main Hall</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Read History Book</name>
+      <value>base/history_book_1</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Read Informative Books</name>
+      <value>base/books/informative_books</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Read About Futanari</name>
+      <value>base/anatomy_book_1</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Search for Recipes</name>
+      <value>base/search_recipes</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

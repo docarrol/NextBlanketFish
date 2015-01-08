@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>intro/start_2</name>
+  <descr>*Click*
+
+- Primary sync ready. Magitech system ready. All stats are green doctor.
+
+- Good. Begin the process.
+
+*Click*
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>intro/start_3</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/manager_room_fat</name>
+  <descr>The manager is a business woman who introduces herself as Ms. Tendo.&#xd;
+&#xd;
+- I meant no offence to you, but to work here you need a good figure. Try to workout some, or maybe diet... Right now, I can&apos;t hire you. Sorry. Please, take care about youself, and return later.&#xd;
+</descr>
+  <conditions>proxy.getStat(&quot;generic.fat&quot;) &gt; 3000;</conditions>
+  <picturePath>city/hotlips/manager.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

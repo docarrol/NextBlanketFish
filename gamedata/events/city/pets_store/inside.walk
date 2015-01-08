@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/pets_store/inside</name>
+  <descr>[Proxy] enters the pet shop. Inside it looks like another mage or alchemist shop, there are shelves with various herbs and bottles everywhere.  At the counter stands the assistant but the owner is here too. Another door leads to the garden where pets in the cages live.
+
+&lt;%Include(&quot;pets_store/hello&quot;);%&gt;
+
+&lt;%Include(&quot;pets_store/quest&quot;);%&gt;
+&lt;%DisplayChar(&quot;char/uren.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/pets_store/inside.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy Items</name>
+      <value>city/pets_store/buy_items</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sell Tentacle Semen</name>
+      <value>city/pets_store/sell_semen</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

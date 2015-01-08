@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/implants_1500</name>
+  <descr>[proxy] points to the biggest implant in the cabinet and asks about it. Hefting it out, Dr. Genki holds it up so [heshe] can get a better look at it.
+
+- Now this one right here, if you plan on being an adult performer, will do you quite nicely. It is the biggest implant I have right now at fifteen hundred cubic centimeters.
+&lt;% SetFlag(&quot;last_implants_selected&quot;, 1500); 
+SetFlag(&quot;money_for_implant&quot;, 1000); 
+&quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Select</name>
+      <value>city/hospital/genki/implants_pre_op</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Not satisfed.</name>
+      <value>city/hospital/genki/cosmetic_surgery</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

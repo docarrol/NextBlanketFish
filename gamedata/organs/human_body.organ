@@ -1,0 +1,38 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>human_body</name>
+  <hooked class="java.util.Collections$SynchronizedRandomAccessList" resolves-to="java.util.Collections$SynchronizedList" serialization="custom">
+    <java.util.Collections_-SynchronizedCollection>
+      <default>
+        <c class="list"/>
+        <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+      </default>
+    </java.util.Collections_-SynchronizedCollection>
+    <java.util.Collections_-SynchronizedList>
+      <default>
+        <list reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+      </default>
+    </java.util.Collections_-SynchronizedList>
+  </hooked>
+  <actionNames/>
+  <actionScripts/>
+  <nextHourScript>//recalcualting base weight.
+chest = self.getStat(&quot;generic.chest&quot;);
+height = self.getStat(&quot;generic.height&quot;);
+weight = height * chest / 240; // based on Borngardt formula
+self.setStat(&quot;generic.weight&quot;, weight*1000); // formula result in kg, game need gramms.
+
+//fat in hips
+fat_vol =  self.getStat(&quot;generic.fat&quot;)/100* self.getStat(&quot;fat.hips&quot;);
+self.setStat(&quot;hips.fat&quot;, fat_vol);
+//self.updateEffect(&quot;abdomen.volume&quot;, &quot;fat&quot;, fat_vol);
+self.updateEffect(&quot;generic.fat_in_organs&quot;, &quot;hips&quot;, fat_vol, 2);
+self.updateEffect(&quot;generic.hips&quot;, &quot;hipfat&quot;, (self.getStat(&quot;hips.fat&quot;) / 1150));
+
+//recalculating fat percent
+fwg = self.getStat(&quot;generic.weight&quot;);
+fat = self.getStat(&quot;generic.fat&quot;) - self.getStat(&quot;generic.fat_in_organs&quot;);
+fat_percent = 100.0 / (fwg / (fat*0.9) );
+self.setStat(&quot;generic.fat_percent&quot;, fat_percent);
+
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

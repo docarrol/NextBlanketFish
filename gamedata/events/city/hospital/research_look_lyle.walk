@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>research_look_lyle</name>
+  <descr>[proxy] wanders through the research wing of the hospital hoping to find the Dr. Lyle that Leyla mentioned. Eventually [heshe] finds a door with a &quot;Dr. Leeroy Lyle&quot; name plate above a sliding sign that states that the Doctor is &quot;IN&quot;. [HeShe] knocks on the door and a rough voice curtly grants them entry.
+
+The doctor sat at the desk is a pretty impressive sight. Despite the name on the door, Dr. Lyle is clearly a woman with long blond hair and glassy eyes behind spectacles. Dr. Lyle&apos;s huge and soft boobs spill across her thighs and the desk she&apos;s working at, big enough so that the doctor hasn&apos;t even bothered to button up her white shirt. They&apos;re big, but soft enough to hint that they&apos;re natural.
+
+- You like &apos;em? Felis&apos; fuck-up. Breast growth hormone. Too effective. Swiped some myself. Bang. Best knockers in the hospital.
+
+Dr. Lyle speaks quickly, her voice barely raising above a bored monotone the whole time. She spanks her own breasts and causes them to wobble.
+
+- I&apos;m Leeroy Lyle. Research procedures and materials. Thinking how to use Felis&apos; fuck-up. Thinkin&apos;... Implants. Small ones, big ones, doesn&apos;t matter - Implants infused with this shit. Soaked right through. Causes natural breast growth while the implants are in. Maybe even affect genes. Daughters, sons; huge tits on all of &apos;em. What you want, proxy? What you want, ghost in proxy&apos;s head?
+
+Your proxy begins to stammer as [heshe] wonders just how the doctor knows that [heshe] is operating as a proxy, but somehow manages to produce the name &quot;Leyla&quot;. Lyle grins immediately and stands up, her huge breasts swinging easily.
+
+- Leyla. Adventurer. Ex-wife. Interesting medical case. Immune yet suspectable to goddamned everything. Contracts every disease under the sun. Can&apos;t pass &apos;em on. Doesn&apos;t suffer from &apos;em. Got a kid - not mine, forest beast&apos;s. Can breed with everything. Freak of nature. Freaky in bed. Best fucking five years of my life. Bang.
+
+Dr. Lyle then pulls open a large cabinet drawer to reveal a pair of large and wobbling beachball-sized breast implants.
+
+- Birthday present ten years ago. 1,000 cc implants. She loved &apos;em, worked as a stripper at the time. Still kept &apos;em even as she adventured. 1,000 cc stock implants. Overfilled to 30,000. Squid&apos;s ink. Still light. Shell still safe. Not gonna rupture. Promised her a pair of bigger implants if this research pays off. Squid ink. like saline. Stupidly light. Defies all known laws of physics. Amazing shit. Would. Be. Fucking. Revolutionary. Dr. Genki&apos;s already creaming his pants. Told him about this. Freak. Loves his girls. Loves giving out surgery like candy. If a girl goes missing when she&apos;s under, who the fuck cares? Anyway, digressing.
+
+Dr. Lyle shows [proxy] a photograph of the squid carcass that Leyla hauled away earlier.
+
+- New species. Probably due to the DS. Need more ink. More ink means more research. Pay ya good money. Go get yourself some breast implants. Bigger the better. Pump those udders up as big as you can afford. Hit Haze City. Dig around. Find squids. Attracted to fake tits. Fight &apos;em. Kill &apos;em. Let &apos;em pump you up a few times. Need a barrel-full of ink. About twenty gallons. Get to it. Leyla&apos;s already looking herself. Beat her to the punch and you can be my next ex-wife. Or ex-husband. Or whatever. I&apos;m flexible.
+
+The eccentric doctor sits down back at her desk and begins typing at the keyboard. It&apos;s clear that now she&apos;s explained what needs to be done that she&apos;s forgotten about you and [proxy].
+&lt;%SetFlag(&quot;lyle_quest&quot;, 2); &quot;&quot;;%&gt;</descr>
+  <conditions>Chance(30) &amp;&amp; GetFlag(&quot;lyle_quest&quot;) == 1;</conditions>
+  <picturePath>city/hospital/doctor_lyle.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

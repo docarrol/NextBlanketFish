@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/enema_special_addition_final</name>
+  <descr>Dr. Genki swiftly moves behind [Proxy] and slips the bottleneck into [hisher] ass. [Proxy] is stiff, expecting pain from the stretched asshole, but only a pleasantly warm feeling is stretching through her entire body. [Proxy] moves passionately again the movement of the bottle, while Dr. Genki is emptying its content to the last drop.
+ 
+When the bottle is empty, Dr. Genki puts it aside and [Proxy] tightens [hisher] asshole. With the continued back and forth movements [Proxy] feels how the pressure in her belly quickly rises. Clenching [hisher] fists, [heshe] tries to hold as long as possible, suddenly exploding into an intensive orgasm as the wine is leaving [hisher] body accompanied by an excited scream.
+
+A nurse quickly comes rushing into the room to check if everything is okay. Dr. Genki gestures her to leave at once. 
+
+When [Proxy] regains control of [hisher] body again, [heshe] realizes that [hisher] belly feels absolutely clean inside. [Proxy] dries off [hisher] body, puts on cloths and leaves. Dr. Genki silently watches [Proxy]&apos;s light butt movements on [hisher] way out.
+
+Just as [Proxy] is about to grab the doorhandle, Dr. Genki asks &apos;&apos;[Proxy], you still dont have enough? Do you want more?&apos;&apos;
+
+&lt;% 
+SetPerFlag(&quot;bonus_enema&quot;, 0);
+proxy.addStat(&quot;skill.anal_sex&quot;,5);
+&quot;&quot;;%&gt;
+</descr>
+  <conditions>GetPerFlag(&quot;bonus_enema&quot;)</conditions>
+  <picturePath>city/hospital/enema_bonus.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>More!</name>
+      <value>city/hospital/genki/enema_equipment</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

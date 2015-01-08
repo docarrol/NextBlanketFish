@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/to_hilltown</name>
+  <descr>This lane connects the old city and the district of Hilltown. You can also find passages to Magic Street and the Red Light District.</descr>
+  <conditions>1</conditions>
+  <picturePath>city/to_hilltown.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Hilltown</name>
+      <value>city/hilltown</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Magic Street</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Redlight District</name>
+      <value>city/redlight_district</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Home</name>
+      <value>homestreet/in_front_of_home</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

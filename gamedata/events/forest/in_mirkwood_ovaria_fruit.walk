@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_mirkwood_ovaria_fruit</name>
+  <descr>In the woods its a little bit dark, but it seems quiet. After some time &lt;%activePartner.getName();%&gt; gets to the area where some rare plants are growing. &lt;%@activePartner.HeShe();%&gt; found one ripe ovaria fruit here.
+&lt;%AddItem(&quot;ovariafruit&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>Chance(40);</conditions>
+  <picturePath>forest/mirkwood.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

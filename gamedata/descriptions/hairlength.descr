@@ -1,0 +1,36 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>hairlength</name>
+  <min>
+    <double>0.0</double>
+    <double>1.0</double>
+    <double>7.0</double>
+    <double>14.0</double>
+    <double>20.0</double>
+    <double>30.0</double>
+    <double>20.0</double>
+    <double>60.0</double>
+    <double>90.0</double>
+  </min>
+  <max>
+    <double>1.0</double>
+    <double>7.0</double>
+    <double>15.0</double>
+    <double>20.0</double>
+    <double>30.0</double>
+    <double>60.0</double>
+    <double>60.0</double>
+    <double>90.0</double>
+    <double>999.0</double>
+  </max>
+  <descr>
+    <string>shaved</string>
+    <string>short</string>
+    <string>medium</string>
+    <string>shoulder-length</string>
+    <string>mid-back length</string>
+    <string>ass-length</string>
+    <string>long</string>
+    <string>knee-length</string>
+    <string>reaching floor</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

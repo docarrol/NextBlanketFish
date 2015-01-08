@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/select/gene_human_fertility</name>
+  <descr>Selected fertility with humans as the gene to modify.
+
+&lt;%SetTextFlag(&quot;gene_mod_selection&quot;, &quot;fertility.human&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

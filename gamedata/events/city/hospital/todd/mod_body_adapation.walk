@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/mod_body_adapation</name>
+  <descr>[Proxy] asks to Todd what this DNA modification will do.
+
+- You see, after exercising intensely for couple of weeks, your body adapts and makes you stronger. The downside is that the effects will not stay and decay if you stop exercising. This modification aims to lower that effect. 
+
+&lt;% geneName = GetTextFlag(&quot;gene_mod_selection&quot;); gene = proxy.getDNAGene( geneName ); &quot;&quot;;%&gt;
+&lt;% rangeMult = gene.getBackforceRangeMult(); simplified = rangeMult * 100; &quot;&quot;;%&gt;
+&lt;% purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue(); &quot;&quot;;%&gt;
+
+Gene Purity:	&lt;% purity;%&gt; (Medium Impact)
+Cost:		&lt;% (5000 + (5000 * (100 - (int)purity) / 250));%&gt;
+Selected gene: 	&lt;% Include(&quot;hospital/todd/text_selected_gene&quot;);%&gt;
+Value:		&lt;% simplified;%&gt; (-5)
+
+&lt;%Include(&quot;hospital/todd/limit_adaptation&quot;);%&gt;
+
+&lt;% SetFlag(&quot;todd_mod_select_returnforce&quot;, 1); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;installed_adaptation_upgrade&quot;) == 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/todd/modifications</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Select Gene</name>
+      <value>city/hospital/todd/select_gene</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Preform Modification (3h)</name>
+      <value>city/hospital/todd/start_mod_adapation</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

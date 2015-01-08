@@ -1,0 +1,13 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/barn_empty</name>
+  <descr>After looking around, &lt;%activePartner.getName();%&gt; has found a way into a closed barn. Looking inside, &lt;%activePartner.HeShe();%&gt; finds that the barn is empty. However, on the floor in the hay are fresh tracks. There was something here recently. Maybe you will need to look here at another time?</descr>
+  <conditions>1</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

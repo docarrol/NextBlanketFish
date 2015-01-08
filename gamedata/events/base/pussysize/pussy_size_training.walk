@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/pussysize/pussy_size_training</name>
+  <descr>&lt;%activePartner.getName()%&gt; will stimulate herself with bigger sized dildos in order to improve her &lt;%IncludeRange(self.getStat(&quot;vagina.width&quot;), &quot;vaginawidth&quot;);%&gt; &lt;% self.getStatText(&quot;vagina.look&quot;)%&gt; vagina&apos;s size.
+
+Choose the dildo you want to use.</descr>
+  <conditions>activePartner.getStat(&quot;generic.arousal&quot;) &gt;= 70;
+</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to training room</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Bigger than average</name>
+      <value>base/pussysize/big</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Quite huge</name>
+      <value>base/pussysize/huge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Horse cock sized</name>
+      <value>base/pussysize/horse</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Elephant Size</name>
+      <value>base/pussysize/elephant</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

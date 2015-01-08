@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/client_t_tired_money</name>
+  <descr>[Target] is too tired and not interested to continue, but [=target][t-heshe] leaves satisfied so Neferi will pay [proxy] &lt;% payment = iTarget.getFlag(&quot;last_sex_orgasms&quot;) * 100; payment;%&gt; coins.
+&lt;%
+EndInteraction();
+AddMoney(payment);
+SetPerFlag(&quot;brothel_clients_satisfed&quot;, PerGetFlag(&quot;brothel_clients_satisfed&quot;)+1);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>iTarget.getFlag(&quot;last_sex_orgasms&quot;) &gt; 0</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/work_room</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

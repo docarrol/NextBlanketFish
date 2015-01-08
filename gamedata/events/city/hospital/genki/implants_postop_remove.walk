@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/implants_postop_remove</name>
+  <descr>[Proxy] nods [hisher] head and says [heshe] is absolutely sure [heshe] wants them removed.
+
+- If you are ready, go through the doors over there into the next room and get dressed in one of the gowns you will find hanging on some hooks. A nurse will be by in a few minutes to take you to the operating room. Meanwhile I will be prepping for your implant removal surgery.
+
+Walking through the other door Dr. Genki had pointed to, [she] finds a large examination room. Not wanting to keep the doctor waiting, [proxy] sees the gowns he was talking about and proceeds to undress. Just as [she] finishes changing clothes, a nurse is pushing a gurney into the room. After [proxy] lies down on the stretcher, the nurse wheels [her] into the operating room where [she] sees Dr. Genki and another nurse finishing preparations. When [she] is positioned, the nurses quickly connect various wires to [her] that are hooked to a health monitoring system before one of them puts a gas mask over [her] mouth and nose. In a moment, [proxy] blacks out from the anesthesia and after some time [she] awakens in a regeneration capsule.
+
+The first thing [heshe] notices is the lighter weight on [hisher] chest. Looking down at it, [heshe] gasps softly when seeing [hisher] [=proxy][breasts]. As [heshe] is looking at them, Dr. Genki walks into the recovery room.
+
+- I am glad to see that you are now awake [proxy]. As you may notice, the operation went without any issues. When you are ready, your clothes are over on the table. If you need anything else, you know where to find me.
+
+Dr. Genki turns and heads back out of the room. When he is gone, [proxy] rests a moment more before climbing out of the regeneration capsule and dressing. Making a mental note to go shopping for some new shirts, [proxy] gathers the rest of [hisher] things and heads for the clinic&apos;s exit.
+&lt;%
+proxy.removeEffect(&quot;breasts.size&quot;, &quot;breasts_implant&quot;);
+proxy.removeEffect(&quot;breasts.max_lactation&quot;, &quot;breasts_implant&quot;);
+proxy.removeEffect(&quot;breasts.max_volume&quot;, &quot;breasts_implant&quot;);
+proxy.removeEffect(&quot;breasts.weight&quot;, &quot;breasts_implant&quot;);
+&quot;&quot;;%&gt;
+&lt;%MoodShame(30); &quot;&quot;;%&gt;
+</descr>
+  <conditions>proxy.hasEffect(&quot;breasts.size&quot;, &quot;breasts_implant&quot;) == true;</conditions>
+  <picturePath>city/hospital/healing_capsule.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>5</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,12 @@
+<fetishmaster.items.Item>
+  <name>B-GROW</name>
+  <descr>A creamy mixture created on Merril&apos;s request by the Dr.Genki.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>0</value>
+  <sellValue>0</sellValue>
+  <weight>0.0</weight>
+</fetishmaster.items.Item>

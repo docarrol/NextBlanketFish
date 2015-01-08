@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/masturbation/penis_play_1e</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;&lt;%activePartner.getName();%&gt; is feeling very aroused and is ready for some fun. Then &lt;%activePartner.HeShe();%&gt; goes outside and sit on the side of the huge, empty pool, knowing full well she&apos;ll need all the space.
+
+&lt;%activePartner.getName();%&gt; grabs some buckets of lube and dumpsall of them onto the whole, gargatuan length of &lt;%activePartner.HisHer();%&gt; &lt;%Include(&quot;c_od/penis&quot;);%&gt;, also lubing up her massive, gigantic testicles. Now being completely ready, &lt;%activePartner.HeShe();%&gt; starts giving a massive boobjob on what she can reach of her arect and throbbing, gargatuan cock. Without missing a beat she slides her giant titties up and down, lost in the sensations, until her balls tightens up violently and churn extremely loudly as it starts pumping gallons after gallons along the giant shaft. 
+&lt;%activePartner.getName();%&gt; throws her head back as the pool starts quickly filling up with her massive, hot cum, blasting out endlessly! After a good 20 minutes, the pool is filled to the brim with thick, gooey semen and 
+&lt;%activePartner.getName();%&gt; smiles, happily knowing that she produced all of this. She then decides to take a relaxing dip in said semen pool, rubbing it all over her body.
+&lt;%proxy.doAction(&quot;orgasm&quot;); 
+proxy.setStat(&quot;generic.arousal&quot;, 0);
+proxy.addStat(&quot;skill.paizuri&quot;, 6); 
+RelaxShame(2.5);
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; ShameCheck(40) &lt; 1 &amp;&amp; proxy.getStat(&quot;penis.length&quot;) &gt; 300 &amp;&amp; proxy.getStat(&quot;balls.size&quot;) &gt;= 175 &amp;&amp; proxy.getStat(&quot;generic.cup_size&quot;) &gt;= 100;</conditions>
+  <picturePath>base/masturbation_f5.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,34 @@
+<fetishmaster.components.StatEffect>
+  <name>daria_bless</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>cnt = self.getFlag(&quot;daria_bless_cnt&quot;);&#xd;
+cnt--;&#xd;
+self.setFlag(&quot;daria_bless_cnt&quot;, cnt);&#xd;
+&#xd;
+if (cnt &gt; 0)&#xd;
+{&#xd;
+//	self.nextHour();&#xd;
+	AddHoursInBG(self, 1);&#xd;
+}&#xd;
+&#xd;
+if (cnt &lt;= 0)&#xd;
+{&#xd;
+	cnt = 280;&#xd;
+	self.setFlag(&quot;daria_bless_cnt&quot;, cnt);&#xd;
+}&#xd;
+&#xd;
+&#xd;
+sysprint(&quot;Daria bless cnt = &quot; +cnt);&#xd;
+&#xd;
+if (status.isAdult(self))&#xd;
+{&#xd;
+	self.removeEffect(&quot;generic.sex&quot;, &quot;daria_bless&quot;);&#xd;
+	sysprint(&quot;Daria&apos;s blessing ENDED&quot;);&#xd;
+}&#xd;
+</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

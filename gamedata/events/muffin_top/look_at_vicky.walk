@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/look_at_vicky</name>
+  <descr>&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;&lt;%ctv = vicky; &quot;&quot;;%&gt;&lt;%Include(&quot;cview/full_description&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

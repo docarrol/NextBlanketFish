@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/manager_room_singer_contract</name>
+  <descr>Ms. Tendo lookes happy to see &lt;%activePartner.getName();%&gt; again. &#xd;
+&#xd;
+- I&apos;m very pleased with you performance, and would like to propose a regular singing contract. You would still be free to work as you like, but this would guarantee you stable payment for the hours you work .&#xd;
+&#xd;
+(Now, &lt;%activePartner.getName();%&gt; can work as singer. You can set this task in management screen.)&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;singer_contract&quot;, 1);&#xd;
+&quot;&quot;;&#xd;
+%&gt;&#xd;
+</descr>
+  <conditions>activePartner.getRNAValue(&quot;generic.sex&quot;) == 2 &amp;&amp; activePartner.getRNAValue(&quot;skill.sing&quot;) &gt; 80 &amp;&amp; GetPerFlag(&quot;singer_contract&quot;) &lt; 1;</conditions>
+  <picturePath>city/hotlips/manager.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

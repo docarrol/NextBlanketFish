@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_forest_catgirl_fight</name>
+  <descr>While walking through the forest, [proxy] nearly runs into a Catgirl. The Catgirl jumps away from [proxy] and hisses at [himher]. Though &lt;%activePartner.getName();%&gt; is trying to slowly step back, the Catgirl is clearly aggressive. She hisses again and jumps at &lt;%activePartner.getName();%&gt;!
+
+&lt;%
+DisplayChar(&quot;char/cat-girl1.png&quot;);
+RelaxShame(1);
+ &quot;&quot;;
+%&gt;
+</descr>
+  <conditions>calc.chance(20);</conditions>
+  <picturePath>forest/in_the_forest1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Fight!</name>
+      <value>battle/catgirl/start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

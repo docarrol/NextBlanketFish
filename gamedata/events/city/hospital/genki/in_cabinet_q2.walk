@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/in_cabinet_q2</name>
+  <descr>&lt;%Include(&quot;hospital/genki/q2_belly&quot;);%&gt;
+
+- Ah, it seems my research is beginning to bear fruit. Good... good... Please, [proxy], follow me into the examination room and dress in a gown. In the meantime I will explain to you what is going on.
+
+Dr. Genki walks into the examination room, [proxy] close behind, and sits on a chair while [proxy] begins to get undressed. With her belly now sticking out as it is [she]&apos;s feeling more embarrassed then ever changing clothes in front of the doctor.
+
+- One of my... clients... has a pregnancy fetish. She wants to be able to experience pregnancy herself, but is not keen on the idea of having actual children. So she sought me out and asked if I could find a way for her to experience the look and feel of pregnancy without actually being pregnant. After thinking on it, I came up with and idea on how to simulate a pregnancy. You are testing one of the final components of this process. In your uterus is a special sack that is absorbing your feminine moisture when you are aroused and expanding from it. As this only a test model, its final size will not be as big as compared to a real pregnancy, so you do not need to fear about any serious complications. Also this test does not include morning sickness, mood swings, tender breasts or the other symptoms related to pregnancy since I have already successfully simulated them. Now please lay back on the chair so we can get the examination over with.
+
+Wide eyed from what [she] had just heard, [proxy] lies back on the gynecology chair. Just like the last exam, Dr. Genki draws a curtain over the top of her [=proxy][belly] and starts to probe around in [her] [=proxy][vagina]. After finishing his exam, the doctor removes the speculum and pulls back the curtain.
+
+- Everything is still looking good. Your body seems to not have any problems maintaining this so far. But just to be sure, I will give you a shot that contains a serum that will relax your uterus muscles and trick it into thinking that you are actually pregnant.
+
+Dr. Genki walks over to a tray sitting next to the chair, puts down the speculum, and picks up a syringe. Rubbing her arm with a cotton ball soaked in alcohol, he flicks the syringe a couple times before quickly inserting the needle and depressing the plunger. Afterwards he tosses the empty syringe into a biohazard container.
+
+- Now that I know the implant is working, I want to give you some precautions for here on out. Naturally if you become more aroused, you will produce more feminine moisture that the sack will absorb, expanding faster. Also, it will absorb semen from your sexual partner. So you might want to try and abstain from having any vaginal sex. If you feel tight or painful, come to me immediately. Otherwise, I will be waiting for you to return in a few days for another examination.
+
+Dr. Genki walks out of the room back into his office without saying anything more. Guessing that he is done, [proxy] redresses into her regular clothes before exiting out of the door leading to the hallway. The entire time [she] wonders what exactly has [she] gotten [her]self into as [she] walks down the hall to the exit.
+&lt;%SetPerFlag(&quot;genki_last_visit&quot;, clock.getAHours());
+SetPerFlag(&quot;genki_quest&quot;, 2);
+SetPerFlag(&quot;now_genki_implant&quot;, 1);
+ &quot;&quot;;%&gt;
+&lt;%LustShame(20,50); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;found_genki&quot;)==1 &amp;&amp; GetPerFlag(&quot;genki_quest&quot;)==1 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &gt;= 3 &amp;&amp; proxy.getStat(&quot;uterus.volume&quot;) &gt; 500;</conditions>
+  <picturePath>city/hospital/genki_gyno2.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

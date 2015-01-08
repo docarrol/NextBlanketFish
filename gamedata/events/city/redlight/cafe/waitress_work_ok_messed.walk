@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/waitress_work_ok_messed</name>
+  <descr>&lt;%Include(&quot;fetish_cafe/change_to_waitress&quot;);%&gt;
+
+[Proxy] works [hisher] shift and is actually enjoying all the attention [heshe] gets. However [heshe] messes up an order, and so does not get any tips.
+&lt;%MoodShame(20); 
+proxy.inventory.addMoney(2);
+&quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/fcafe/waitress_messup.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

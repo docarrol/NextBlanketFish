@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/sex/u_implant</name>
+  <descr>&lt;%
+cuid = GetTextFlag(&quot;base_current_partner&quot;);
+partner = Character(cuid);
+ctv = partner;
+c=partner;&quot;&quot;;%&gt;&lt;%Include(&quot;cview/full_description&quot;);%&gt;What does [t-name] need to help [proxy] with?</descr>
+  <conditions>proxy.hasEffect(&quot;uterus.volume&quot;, &quot;preg_implant_t2&quot;) || proxy.hasEffect(&quot;uterus.volume&quot;, &quot;preg_implant_t3&quot;);</conditions>
+  <picturePath>base/sex_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Help with filling</name>
+      <value>base/implant_u/help_fill</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Help with emptying</name>
+      <value>base/implant_u/help_empty</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/sex_interactions</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

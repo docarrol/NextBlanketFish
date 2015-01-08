@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/2f_serve_naked_no</name>
+  <descr>Not being comfortable about such a situation, [proxy] refuses. The client becomes very angry and calls for the Manager. He quickly remedies the situation by sending [proxy] away and tells two other girls to serve him. After fixing the issue, the Manager calls [proxy] to his office.
+
+- I told you before this work can be hard. You will not be paid this time, and you need to be punished. Strip now! If you can&apos;t do it in front of the customers, we will have to begin with a smaller task. You can either strip in front of me now, or you can leave and not come back.
+
+Having [proxy] thrown out goes against your plans, so you force [himher] to strip. [Proxy] gives Manager a private show by standing in some seductive poses and doing some walks around the room.
+&lt;%MoodShame(30); &quot;&quot;;%&gt;
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/fcafe/manager.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

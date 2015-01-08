@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/go_see_elise</name>
+  <descr>[proxy] knock on the door to Elise&apos;s room and hear a voice that invites [himher] to enter. Elise still has a pregnant looking belly, probably full of watermelons, and her gigantic vulva is barely covered by her oversized panties.
+
+- Hi there! What do you need from me today?
+
+&lt;% DisplayChar(&quot;char/elise.png&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;cunt_overload&quot;) &gt; 0 &amp;&amp; GetPerFlag(&quot;know_about_elise&quot;) == 2;</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about her massive cunt</name>
+      <value>city/brothel/learn_recipe</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

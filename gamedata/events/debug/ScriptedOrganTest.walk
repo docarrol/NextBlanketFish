@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/ScriptedOrganTest</name>
+  <descr>Testing scripted organ. 
+
+Character: &lt;%
+//c = proxy;
+c = Character (&quot;Hermy&quot;, &quot;human_futa_agency_worker&quot;, false);
+//c.setRNAactive(&quot;udder.lacrate&quot;, true);
+//c.addStat(&quot;udder.lacrate&quot;, 1);
+//	c.updateEffect(&quot;udder.lacrate&quot;, &quot;belanika_uniq&quot;, 100);
+//	c.setStat(&quot;udder.milk&quot;, 6000);
+//	c.setFlag(&quot;init_ok&quot;, 1);
+c.getName();
+%&gt; 
+Do action &quot;test&quot; and display result:
+&lt;%
+//c.nextHour(false);
+//c.nextHour(false);
+//c.nextHour(false);
+
+sysDebug(c);
+&quot;&quot;;
+%&gt;
+&lt;%Include(&quot;debug/gene_values&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>debug</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

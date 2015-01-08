@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/preg_play_new</name>
+  <descr>&lt;% &#xd;
+sysprint (&quot;preg_client&quot;+proxy.getStatText(&quot;neferi.preg_client&quot;));&#xd;
+RemoveCharacter(proxy.getStatText(&quot;neferi.preg_client&quot;));&#xd;
+&quot;&quot;;&#xd;
+%&gt;&lt;% &#xd;
+fname = &quot;human_male_agency_worker&quot;;&#xd;
+&#xd;
+if (Chance(40))&#xd;
+{ &#xd;
+fname = &quot;human_futa_agency_worker&quot;;&#xd;
+ }&#xd;
+&#xd;
+client = Character(&quot;Client&quot;, fname, true);&#xd;
+GenerateNewName(client);&#xd;
+c = client;&#xd;
+&quot;&quot;;&#xd;
+%&gt;To the room enter a &lt;% &#xd;
+res=&quot;futanari&quot;;&#xd;
+if (client.isMale()) { res=&quot;man&quot;;}&#xd;
+res;&#xd;
+%&gt;, and they spend some quality time together. [t-name] does not forget to caress [proxy]&apos;s curves, and even takes some photos, though without [her] face, so [proxy] is not too worried about it. But [t-name] will expect to see changes next time in [her].&#xd;
+&lt;%&#xd;
+proxy.setStatText(&quot;neferi.preg_client&quot;, client.getUID());&#xd;
+proxy.setStat(&quot;neferi.preg_client&quot;, proxy.getStat(&quot;generic.abdomen&quot;));&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&lt;%LustShame(15,40); &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;neferi_preg_play_intro&quot;) &gt; 0 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &gt; 2;</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/work_room</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

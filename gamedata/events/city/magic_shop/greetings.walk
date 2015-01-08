@@ -1,0 +1,57 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/greetings</name>
+  <descr>Magic shop. The room is not too large, it seems even smaller due to the huge number of different shelves and items stored on them. In the chair sits the shopkeeper.
+
+&lt;% res = &quot;- Greetings. My name is Christian, I am the owner of this store. How can I help you?&quot;;
+if (PerGetFlag(&quot;cristian_meet&quot;) == 1)
+	res = &quot;- Ah, hello! Glad to see you again. May I help you?&quot;;	
+
+PerSetFlag(&quot;cristian_meet&quot;, 1);
+res;
+%&gt;
+
+&lt;%Include (&quot;cristian_offer&quot;);%&gt;</descr>
+  <conditions>res = 0;
+if (clock.isDay() || clock.isEvening())
+	res = 1;
+res;</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Trade</name>
+      <value>city/magic_shop/trade</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about charger crystal</name>
+      <value>city/magic_shop/christian_can_repair</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Exchange Battery</name>
+      <value>city/magic_shop/exchange_batteries</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Can you build a milker?</name>
+      <value>city/magic_shop/can_you_build_milker</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Is milker ready?</name>
+      <value>city/magic_shop/milker_is_ready</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

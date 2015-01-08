@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/read_hentai</name>
+  <descr>Not satisfied with the lewdness of regular erotic books, you give &lt;%activePartner.getName();%&gt; something more serious - a hentai manga. There are tentacles on the cover, so this is obviously not a light romantic novel.
+&lt;% LustShame(20,30);
+if (ShameCheck(35)&gt;1)
+{
+	RelaxShame(1);
+}
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>base/read_hentai.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>6</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

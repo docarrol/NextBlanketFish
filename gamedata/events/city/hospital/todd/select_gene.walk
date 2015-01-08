@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/select_gene</name>
+  <descr>&lt;% selectedGene = GetTextFlag(&quot;gene_mod_selection&quot;);&quot;&quot;;%&gt;
+Selected gene: &lt;%Include(&quot;hospital/todd/text_selected_gene&quot;);%&gt;
+
+&lt;%Include(&quot;hospital/todd/select_gene_standard&quot;);%&gt;
+
+&lt;%Include(&quot;hospital/todd/select_gene_display&quot;);%&gt;
+
+&lt;%Include(&quot;hospital/todd/select_gene_appearance&quot;);%&gt;
+
+&lt;%Include(&quot;hospital/todd/select_gene_fertility&quot;);%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Go Back</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Fertility Menu</name>
+      <value>city/hospital/todd/select/fertility_menu</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

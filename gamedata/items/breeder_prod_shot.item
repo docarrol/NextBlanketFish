@@ -1,0 +1,23 @@
+<fetishmaster.items.Item>
+  <name>Breeder Pure Prod Shot</name>
+  <descr>This syringe contains a powerful hormone that triggers a huge increase in sperm production, put those balls to work!</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>res = &quot;&quot;;&#xd;
+if (self.hasOrgan(&quot;balls&quot;))&#xd;
+{&#xd;
+self.addStat(&quot;balls.prod_rate&quot;, 25);&#xd;
+self.LustShame(20, 40);&#xd;
+res = &quot;After using it, &quot; + self.getName() + &quot;&apos;s balls feel warm...&quot;;&#xd;
+}&#xd;
+else&#xd;
+{res = &quot;Nothing happens it seems...&quot;;}&#xd;
+&#xd;
+res;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>20000</value>
+  <sellValue>10000</sellValue>
+  <weight>0.1</weight>
+</fetishmaster.items.Item>

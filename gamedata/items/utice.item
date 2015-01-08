@@ -1,0 +1,31 @@
+<fetishmaster.items.Item>
+  <name>UtIce</name>
+  <descr>Hormonal contraceptive pill for females. It halts monthly cycles, and has an almost 100% effectiveness with regular use.&#xd;
+&#xd;
+Instruction:&#xd;
+Start course at first day of your cycle. Dosage - one pill a day. Do not overdose. After end of course, menstrual cycle will be established again with several days.&#xd;
+&#xd;
+Caution: A significant overdose can cause side effects, consult with you doctor in this case.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>cycle = self.getStat(&quot;uterus.cycle&quot;);&#xd;
+&#xd;
+if (self.getStat(&quot;uterus.phase&quot;) == 0  &amp;&amp;  self.getStat(&quot;uterus.lut_phase&quot;)-cycle &lt; 28)&#xd;
+{&#xd;
+&#xd;
+self.subStat(&quot;uterus.cycle&quot;, 30);&#xd;
+self.updateEffect(&quot;fertility.extra_ova&quot;, &quot;utice_end&quot;, 50, 720);&#xd;
+&#xd;
+}&#xd;
+self.MoodShame(5);&#xd;
+&#xd;
+self.getName()+ &quot; take pill.&quot;;&#xd;
+</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>20</value>
+  <sellValue>10</sellValue>
+  <weight>0.01</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

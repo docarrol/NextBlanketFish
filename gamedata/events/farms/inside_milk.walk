@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/inside_milk</name>
+  <descr>[Proxy] ask if [heshe] can drink some milk from Belanika - it&apos;s look delicious...&#xd;
+&lt;%Include(&quot;farm/inside_firsttime_milk&quot;);%&gt;&#xd;
+She smiles.&#xd;
+&#xd;
+[Proxy] leans to Belanika&apos;s lying figure, experimentally get tip of the huge nipple in her month, and press it with the lips a little. [HeShe] immediately rewarded with stream of milk. It sweet to the taste, and [proxy] definitely wanted more! [HeShe] begins to suck Belanika&apos;s breast and flow of her milk quickly become almost too much to swallow it. Some time passed, but eventually [proxy] begins to feel full. [HeShe] release Belanika&apos;s nipple from her month, and stand up, feeling well feed. [Proxy] thank Belanika for this pleasure, and she replied:&#xd;
+&#xd;
+- And thank you, I&apos;m enjoyed this too.&#xd;
+&#xd;
+&lt;%Include(&quot;char/belanika_init&quot;)&#xd;
+belanika.removeStat(&quot;breasts.milk_volume&quot;, 700);&#xd;
+proxy.addStat(&quot;abdomen.food&quot;, 700);&#xd;
+proxy.addStat(&quot;generic.calories&quot;, 700);&#xd;
+proxy.addStat(&quot;belanika.relations&quot;, 5);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%LustShame(10,30); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;belanika.relations&quot;) &gt; 35;</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

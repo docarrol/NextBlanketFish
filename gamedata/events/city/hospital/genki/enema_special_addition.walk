@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/enema_special_addition</name>
+  <descr>Dr. Genki turns around and reaches for a bottle of an expensive wine and two glasses from the middle showcase of the cabinet behind him. 
+
+- The consumption of this unique and expensive wine deserves some respect says Dr. Genki and orders you to take your clothes off. He opens the bottle and pours two sips into each glass. Then he picks them up, smells them and then offers you one. With a clink you both toss the wine down. The wine leaves a nice and pleasant trace of its taste in your mouth. Dr. Geniki grabs the bottle, carefully inspects the label and suddenly looks at [Proxy].
+
+- We don&apos;t want to waste a single drop more of this delicious nectar, Dr. Genki says. Get down on your knees! Enchanted by the taste of the wine, you get down and lean towards to him for some more wine, excitedly expecting what is about to happen.
+
+
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;bonus_enema&quot;)</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/genki/enema_special_addition_final</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

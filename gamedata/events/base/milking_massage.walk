@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/milking_massage</name>
+  <descr>You are massaging &lt;% activePartner.getName() %&gt; breasts. Maybe this has a more practical use, not just used for pleasure.
+&lt;%activePartner.doAction(&quot;milking&quot;);
+LustShame(5,10);
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;breasts&quot;);</conditions>
+  <picturePath>milking_massage.jpeg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

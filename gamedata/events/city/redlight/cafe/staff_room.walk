@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/staff_room</name>
+  <descr>This is the changing room for the cafe staff.</descr>
+  <conditions>GetPerFlag(&quot;fcafe_waitress&quot;) &gt; 0;</conditions>
+  <picturePath>city/fcafe/staff_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Work as Waitress (1h)</name>
+      <value>city/redlight/cafe/waitress_work</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Work as Medieval Waitress (4h)</name>
+      <value>city/redlight/cafe/2f_waitress</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Exit</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

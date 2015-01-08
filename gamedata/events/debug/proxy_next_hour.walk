@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/proxy_next_hour</name>
+  <descr>&lt;% proxy.nextHour(false);%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

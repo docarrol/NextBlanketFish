@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/implant_u/empty</name>
+  <descr>To remove part of the volume from the implant, [proxy] sits down and connects a special nozzle to the cervix port, but does not connect it to a saline pack. After everything is connected in the right place, and the clamp is opened, [she] feels some pressure relieved from her belly.&#xd;
+&#xd;
+&lt;%MoodShame(50);&#xd;
+sal = proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);&#xd;
+if (sal &lt; 500) {sal = 500;}&#xd;
+proxy.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, sal-500);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;) &gt; 100;</conditions>
+  <picturePath>base/sex_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/implant_u/menu</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

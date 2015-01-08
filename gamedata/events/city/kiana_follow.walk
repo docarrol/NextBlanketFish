@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/kiana_follow</name>
+  <descr>[Proxy] is too clumsy and can&apos;t follow this strange girl fast enough while staying hidden. It&apos;s lucky that [heshe] was not caught.</descr>
+  <conditions>1</conditions>
+  <picturePath>city/seafront.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

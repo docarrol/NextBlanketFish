@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/see_private_dance_girl_ok</name>
+  <descr>&lt;%Include(&quot;hotlips/private_dance_begin&quot;);%&gt;
+With this, the girl makes few trial motions to get into rhythm, and begins her dance. At first it&apos;s almost pure, and her hands rarely touching anywhere on her body. The girl demonstrates her elegance well. But after a few minutes, her motions become more calling, and she begins to expose her curves, taking more revealing poses. Next, she touches herself in some racy places, and her clothes begin to fall from her figure, almost on their own. Now shes left only in her lingerie. &lt;%activePartner.getName();%&gt; can get very good look at the dancing girls figure. Meanwhile, her dancing is getting more and more sexual. The girl begins to caress herself, starting to breathe hard and revealing her breasts as she dances.  She still has her underwear on, but manages to look more naked in them than if she was actually naked!
+
+
+</descr>
+  <conditions>proxy.getStat(&quot;generic.sex&quot;)==2 &amp;&amp; proxy.inventory.moneyCount() &gt;= 100 &amp;&amp; ShameCheck(25) &lt; 1;</conditions>
+  <picturePath>city/hotlips/private_dance.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/hotlips/2_see_private_dance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

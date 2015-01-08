@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/milk_excuse</name>
+  <descr>[Proxy] returns to the client and tells him that the cafe is terribly sorry but cannot do his order because they have run out of milk. Client is not pleased, but understands.</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/fcafe/waitress_ok.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

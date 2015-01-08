@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/bshape_test_wmelonsp</name>
+  <descr>[Proxy] decides to go with Watermelon Special shape.
+
+- Watermelon Special shape it is! Just relax and let me inject it in your system, lay your arm on the table please.
+
+[Proxy] does as the researcher says while he synthesise the shot and let him inject [himher].
+
+- Your body might start tingling all over with some heat, that normal, it&apos;s just your body re-arrenging it&apos;s fat disposition.
+
+[HeShe] really does feel some tingling and a short heat wave and then it&apos;s all done.
+
+[Proxy] thanks the good doctor and goes out the room.
+
+&lt;%
+self.setStat(&quot;fat.breasts&quot;, 99);
+self.setStat(&quot;fat.belly&quot;, 1);
+self.setStat(&quot;fat.hips&quot;, 1);
+self.subStat(&quot;generic.metabolism&quot;, 25);
+SetPerFlag(&quot;bshape_test_done&quot;, 2);
+RemoveItem(&quot;breast_milk&quot;, 100);
+%&gt;</descr>
+  <conditions>GetPerFlag(&quot;bshape_test_done&quot;) == 1 &amp;&amp; GetPerFlag(&quot;know_about_massive_breasts&quot;) == 1 &amp;&amp; HasItems(activePartner, &quot;breast_milk&quot;, 100);</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

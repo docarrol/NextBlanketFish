@@ -1,0 +1,63 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>pouch</name>
+  <actionNames>
+    <string>orgasm</string>
+    <string>pouch_recalc</string>
+  </actionNames>
+  <actionScripts>
+    <string>result;</string>
+    <string>//sperm calc
+        cumvol = self.getStat(&quot;pouch.sperm_volume&quot;);
+        maxvol = self.getStat(&quot;pouch.max_volume&quot;);
+
+//excess sperm is lost
+        if(cumvol &gt; maxvol)
+        {
+            self.setStat(&quot;pouch.sperm_volume&quot;, maxvol);
+            cumvol=maxvol;
+        }
+
+/* Venom mechanic extended in the another separate temporary added organ.
+//venom absorption
+if (self.getStat(&quot;pouch.venom_absorb&quot;) &gt; 0)
+        {
+            self.addStat(&quot;pouch.venom_absorb&quot;, 1);
+         }
+if (self.getStat(&quot;pouch.venom_absorb&quot;) &gt; 48)
+        {
+            self.addStat(&quot;pouch.max_volume&quot;, self.getStat(&quot;pouch.max_volume&quot;)/4);
+            self.removeEffect(&quot;balls.size&quot;,&quot;bloatingvenom1&quot;);
+            self.removeEffect(&quot;balls.size&quot;,&quot;bloatingvenom2&quot;);
+            self.removeEffect(&quot;balls.size&quot;,&quot;bloatingvenom3&quot;);
+            self.removeEffect(&quot;balls.size&quot;,&quot;bloatingvenom4&quot;);
+            self.removeEffect(&quot;balls.prod_rate&quot;,&quot;bloatingvenom1&quot;);
+            self.removeEffect(&quot;balls.prod_rate&quot;,&quot;bloatingvenom2&quot;);
+            self.removeEffect(&quot;balls.prod_rate&quot;,&quot;bloatingvenom3&quot;);
+            self.removeEffect(&quot;balls.prod_rate&quot;,&quot;bloatingvenom4&quot;);
+            self.setStat(&quot;pouch.venom_absorb&quot;, 0);
+            self.addHistory(&quot;Venom Absorb&quot;, &quot;The pouch has absorbed the venom that affected her balls, but doing so increased it&apos;s maximum volume...&quot;);
+        }
+*/
+
+//calc size and weight;
+
+        self.updateEffect(&quot;pouch.volume&quot;, &quot;sperm&quot;, cumvol); //sperm as part volume
+
+        volume = self.getStat(&quot;pouch.volume&quot;); //full volume is...
+
+        weight = volume+70; //weight of pouch is...
+
+        size = GeometryCalc.MillilitersToSphereDiameter(volume+50); //size is...
+
+        self.setStat(&quot;pouch.size&quot;, size);
+        self.setStat(&quot;pouch.weight&quot;, weight);
+
+        self.updateEffect(&quot;abdomen.weight&quot;, &quot;pouch&quot;, weight); //adding weight to abdomen.
+        self.updateEffect(&quot;abdomen.volume&quot;, &quot;pouch&quot;, volume/2+50); // adding volume to abdomen.
+
+result;</string>
+  </actionScripts>
+  <nextHourScript>self.doAction(&quot;pouch_recalc&quot;);
+
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>in_the_lab</name>
+  <descr>Here&apos;s the alchemy lab, used to invent new and interesting potions! Just remember that the base ingredient is pussyjuices/goo!
+
+Known recipes:
+
+&lt;%
+IncludeAll(&quot;base/a_lab/recipe&quot;);
+%&gt;</descr>
+  <conditions>GetFlag(&quot;lab_bought&quot;) &gt; 0</conditions>
+  <picturePath>base/lab1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to main hall</name>
+      <value>in_the_base</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>in_the_base</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

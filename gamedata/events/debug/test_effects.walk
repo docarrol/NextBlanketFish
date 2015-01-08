@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/test_effects</name>
+  <descr>This is fix for negative lactation rate from 0.94.p2.&#xd;
+&#xd;
+&lt;%&#xd;
+proxy.setStat(&quot;breasts.lact_rate&quot;, 0);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;breasts.lact_rate&quot;) &lt; 0;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

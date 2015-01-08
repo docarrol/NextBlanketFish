@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/inside_appearance</name>
+  <descr>&lt;%Include(&quot;char/belanika_init&quot;);%&gt;&lt;%ctv = belanika; ctv.setFlag(&quot;clothed&quot;, 1);&quot;&quot;;%&gt;&lt;%Include(&quot;cview/full_description&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>farms/knock_at_door_enter</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

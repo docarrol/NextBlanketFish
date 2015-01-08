@@ -1,0 +1,39 @@
+<fetishmaster.items.Item>
+  <name>Female Fruit</name>
+  <descr>Mistery fruit, transfoming consumer to a female.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>if (consumer.getStat(&quot;generic.sex&quot;) != 2)&#xd;
+{&#xd;
+&#xd;
+consumer.setStat(&quot;generic.sex&quot;, 2);&#xd;
+consumer.removeOrgan(&quot;penis&quot;);&#xd;
+consumer.removeOrgan(&quot;balls&quot;);&#xd;
+consumer.addOrgan(&quot;vagina&quot;);&#xd;
+consumer.addOrgan(&quot;uterus&quot;);&#xd;
+consumer.addOrgan(&quot;breasts&quot;);&#xd;
+&#xd;
+consumer.setStat(&quot;uterus.foll_phase&quot;, 336);&#xd;
+consumer.setStat(&quot;uterus.ova_phase&quot;, 40);&#xd;
+consumer.setStat(&quot;uterus.lut_phase&quot;, 312);&#xd;
+consumer.setStat(&quot;uterus.postpartum_rate&quot;, 1);&#xd;
+consumer.setStat(&quot;uterus.postpartum_fulltime&quot;, 1080);&#xd;
+consumer.setStat(&quot;uterus.max_amniotic&quot;, 1000);&#xd;
+consumer.setStat(&quot;uterus.cervix_size&quot;, 15);&#xd;
+consumer.setStat(&quot;vagina.length&quot;, 10);&#xd;
+consumer.setStat(&quot;vagina.width&quot;, 4.5);&#xd;
+consumer.setStat(&quot;vagina.max_moist&quot;, 45);&#xd;
+&#xd;
+dna = consumer.getDNAGene(&quot;generic.sex&quot;);&#xd;
+dna.setValue(2);&#xd;
+&#xd;
+}&#xd;
+</useScript>
+  <useText>After eating fruit &lt;%self.getName()%&gt; losing consciousness...</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>0</value>
+  <sellValue>0</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

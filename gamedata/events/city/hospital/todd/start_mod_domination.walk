@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/start_mod_domination</name>
+  <descr>&lt;%Include(&quot;hospital/todd/operation_text&quot;);%&gt;
+
+
+&lt;% 
+purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue();
+RemoveMoney(2500 + (2500 * (100 - (int)purity) / 250));
+geneName = GetTextFlag(&quot;gene_mod_selection&quot;);
+sysprint(&quot;modifying: &quot; + geneName);
+gene = proxy.getDNAGene(geneName);
+newDomination = (Integer) gene.getGeneForce() + 5;
+sysprint(&quot;new domination: &quot; + newDomination);
+
+if (newDomination &gt; 90) {
+    newDomination = 90;
+}
+
+gene.setGeneForce( newDomination );
+
+currentPurity = proxy.getStat(&quot;genes.purity&quot;);
+proxy.setStat(&quot;genes.purity&quot;, currentPurity - 2);
+gene = proxy.getDNAGene(&quot;genes.purity&quot;);
+gene.setValue(currentPurity - 2);
+if (gene.getValue() &lt; 0) {
+    gene.setValue(0);
+}
+gene.setGeneForce(95);
+
+&quot;&quot;;%&gt;</descr>
+  <conditions>purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue();
+
+HasMoney(2500 + (2500 * (100 - (int)purity) / 250)) &amp;&amp; GetTextFlag(&quot;gene_mod_selection&quot;) != &quot;none&quot; &amp;&amp; 
+GetFlag(&quot;block_operation&quot;) &lt; 1;</conditions>
+  <picturePath>city/hospital/healing_capsule.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>3</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

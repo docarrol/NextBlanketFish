@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/see_elise_first</name>
+  <descr>[proxy] knock on the door to Elise&apos;s room and hear a voice that invites [himher] to enter. What [heshe] see inside is surprising, yet, strangely intriguing as a black-haired woman is leaning on her bed, her leg sprayed as you see her gently shoving what seems to be a watermelon inside her cunt... which is gigantic compared to normal human, it&apos;s gargantuan, bulbous mass is scraping the floor as she finally gets up to greet you.
+
+- Hi there!... What? you seem a bit surprised. It was only my second one so it&apos;s not really that much, that&apos;s why my belly is big, but not the best I can manage!
+
+She inspects [proxy], mainly her huge pussy...:
+
+- I see the dildo did it&apos;s work eh? But it&apos;s pretty small compared to mine... I can help you with that of course, if you&apos;re interested. I got plenty of stuff to help you enjoy and grow your cunt even more!
+
+She gets up and opens her closet, which is filled with strange vials and toys.
+
+- Just ask and I&apos;ll be happy to help!
+&lt;% SetPerFlag(&quot;know_about_elise&quot;, 2);
+&quot;&quot;;%&gt;
+&lt;% DisplayChar(&quot;char/elise.png&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;cunt_overload&quot;) &gt; 0 &amp;&amp; GetPerFlag(&quot;know_about_elise&quot;) == 1;</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/edge_of_city</name>
+  <descr>This is the edge of the suburbs; the wild territory begins here. After the DS walking here became dangerous. However, if you don&apos;t go too far, then you won&apos;t chance inviting danger.
+This road goes to the forest, also, it is possible to reach the farms...
+
+There is a small item shop here. The shopkeeper certainly relies almost entirely on adventurers that are leaving the city or coming back with loot.
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/edge_of_city.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To Forest</name>
+      <value>forest/edge_of_forest</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Farms</name>
+      <value>farms/road_to_farms</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Outskirts</name>
+      <value>city/outskirts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Item Shop</name>
+      <value>city/item_shop/welcome</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc>This is the edge of the suburbs; the wild territory begins here. After the DS walking here became dangerous. However, if you don&apos;t go too far, then you won&apos;t chance inviting danger.
+This road goes to the forest, also, it is possible to reach the farms...
+There is a small item shop here. The shopkeeper certainly relies almost entirely on adventurers that are leaving the city or coming back with loot.
+</parsedDesc>
+  <pasedConditions>2</pasedConditions>
+</fetishmaster.engine.WalkEvent>

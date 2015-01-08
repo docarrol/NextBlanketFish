@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>intro/start_1</name>
+  <descr>...The last thing you remember is going to the market, happily daydreaming as you walked along. All of a sudden there was a bright flash, accompanied by a loud sound, and your world faded to black. Now, you are starting to recall a few fragments of what happened after the accident.
+
+-Sir, our time is almost up. The body is in terrible condition and vital signs are beginning to fade!
+
+-It&apos;s a shame that I wasn&apos;t able to save this person. Now we have no other choice. Prepare the project now! Hopefully it will work.
+
+-Sir, the head has been damaged as well. Are you sure it&apos;s wise to proceed. There might be complications.
+
+-Yes. It&apos;s our fault after all. If only we could do something else... But we have no choice. Now, begin!
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>intro/start_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Skip Intro</name>
+      <value>end_of_walking</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

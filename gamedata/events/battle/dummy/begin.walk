@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/dummy/begin</name>
+  <descr>A fearsom training dummy is standing before you. The dummy is &lt;% Include (&quot;battle/enemy_health_desc&quot;);%&gt;
+
+What do you do now?
+
+Attack Chance: &lt;%interCalc.AttackChance(activePartner, enemy);%&gt;
+Attack Damage: &lt;%interCalc.AttackDamage(activePartner,  enemy);%&gt;
+Run Chance: &lt;%interCalc.RunChance(activePartner,  enemy);%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Attack</name>
+      <value>battle/dummy/attack</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>End Training</name>
+      <value>battle/dummy/end</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/select_saline</name>
+  <descr>[proxy] pauses for a moment before looking at Dr. Genki and saying [she] is thinking about getting more bags of saline. He just chuckles softly and gestures into the cabinet.&#xd;
+&#xd;
+- Get all you like [proxy]. Just be careful about how many are used. The human body can only stretch so far.&#xd;
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;genki_implants_know&quot;) &gt; 1 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>One pack (50 c.)</name>
+      <value>city/hospital/genki/saline_1</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Five packs (250 c.)</name>
+      <value>city/hospital/genki/saline_5</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ten packs (450 c.)</name>
+      <value>city/hospital/genki/saline_10</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/genki/r_to_cabinet</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

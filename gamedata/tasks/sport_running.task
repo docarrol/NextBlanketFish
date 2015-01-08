@@ -1,0 +1,27 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Sport: Running </name>
+  <conditions>res = false;
+if (self.getFlag(&quot;run_course&quot;) &gt;= 1)
+res = true;
+if (status.isBaby(self))
+	res= false;
+if (self.getStat(&quot;generic.spd&quot;) &lt;=0 )
+	res = false;
+res;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if (isTaskFirstHour())&#xd;
+{&#xd;
+        self.addStat(&quot;generic.str&quot;, 0.4);&#xd;
+        self.addStat(&quot;generic.spd&quot;, 1.5);&#xd;
+        self.addStat(&quot;generic.end&quot;, 1.2);&#xd;
+        self.addStat(&quot;generic.cha&quot;, 0.02);&#xd;
+        self.addStat(&quot;generic.tiredness&quot;, 10);&#xd;
+&#xd;
+self.subStat(&quot;generic.calories&quot;, 350);&#xd;
+&#xd;
+res = self.getName()+&quot; do a running course around quarter.&quot;;&#xd;
+        MoveWorkerToReturnList(self, 1);&#xd;
+}&#xd;
+res;</script>
+  <decription>Running helping to keep body in good shape and improve endurance.</decription>
+</fetishmaster.engine.ManagmentTask>

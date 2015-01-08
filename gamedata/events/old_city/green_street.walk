@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>old_city/green_street</name>
+  <descr>This part of the city is flooded. Some of the streets have turned into canals and streams. Plants have taken over the area. Houses have become bases for the climbing plants and vines.</descr>
+  <conditions>1</conditions>
+  <picturePath>lost_city/green_street.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back to Edge</name>
+      <value>old_city/edge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Search Around (1h)</name>
+      <value>old_city/explore_green_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+</fetishmaster.engine.WalkEvent>

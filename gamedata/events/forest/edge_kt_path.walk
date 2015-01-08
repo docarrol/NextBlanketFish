@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/edge_kt_path</name>
+  <descr>There is no road or trail but [proxy] can walk pretty easy. Soil is firm and grass is not too high.</descr>
+  <conditions>GetFlag(&quot;kiana_village_path&quot;) &gt; 0;</conditions>
+  <picturePath>forest/edge_kt_path.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back to the city </name>
+      <value>forest/edge_of_forest</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Forward </name>
+      <value>forest/edge_kt_shrine</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>5</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

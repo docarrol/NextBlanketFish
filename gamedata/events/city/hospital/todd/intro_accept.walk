@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/intro_accept</name>
+  <descr>Upon telling yes, the man jumps in the air of happiness and shakes [Proxy]&apos;s hand violently.
+
+- Yes! Thank you thankyou-thnkyou!
+
+The man realises his out-of-place reaction and tones down.
+
+- R-right, I&apos;m sorry. I can be a little expressive with my emotions. My name is Todd.
+
+The two of you chat a bit about his goal with this facility. He aims to improve the DNA of any race in this world. Todd wasn&apos;t capable of doing this before due to his age and financial problems. He still has the latter, but with the help of Magitech he has almost reached the first steps of DNA manipulation. You might be able to assist him with it.
+
+&lt;% SetPerFlag(&quot;todd_last_breastsize&quot;, proxy.getRNAValue(&quot;breasts.size&quot;));&quot;&quot;;%&gt;
+
+
+&lt;% SetFlag(&quot;todd_left_early&quot;, 0); &quot;&quot;;%&gt;
+&lt;% SetTextFlag(&quot;gene_mod_selection&quot;, &quot;generic.str&quot;); &quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;color_selection&quot;, 0); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_left_early&quot;) == 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

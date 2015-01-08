@@ -1,0 +1,30 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>generic.weight</name>
+  <min>
+    <double>0.0</double>
+    <double>16.0</double>
+    <double>18.5</double>
+    <double>25.0</double>
+    <double>30.0</double>
+    <double>35.0</double>
+    <double>40.0</double>
+  </min>
+  <max>
+    <double>16.0</double>
+    <double>18.5</double>
+    <double>25.0</double>
+    <double>30.0</double>
+    <double>35.0</double>
+    <double>40.0</double>
+    <double>999.0</double>
+  </max>
+  <descr>
+    <string>very low</string>
+    <string>low</string>
+    <string>average</string>
+    <string>slightly above average</string>
+    <string>above average</string>
+    <string>excessively over-</string>
+    <string>beyond excessively over-</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

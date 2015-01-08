@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/mtq_1</name>
+  <descr>&lt;%Include(&quot;farm/greetings_in_farm&quot;);%&gt; 
+
+[Proxy] asks if Belanika can make some cream from her milk? Belanika frowns for a second. 
+
+- I have not thought about this before. To produce cream from the milk, a separator is needed, but I do not have one. Money is not a problem thanks to the fixed milker and my milk quality and quantity... But... Maybe you can find someone who sell them and order one for me? I do not like to trip in the city these days. Too much... attention I catching with my appearance. And this machine you can&apos;t order in regular shop - this industrial equipment. If you have contact with someone related, it will be more easy. I will refund your spendings later.
+&lt;%
+SetPerFlag(&quot;belanika_separator_deal&quot;, 1);
+SetFlag(&quot;muffin_top_quest&quot;, 4); &quot;&quot;;
+%&gt;</descr>
+  <conditions>(clock.isMorning() || clock.isDay() ) &amp;&amp; GetFlag(&quot;muffin_top_quest&quot;) == 3
+&amp;&amp; GetFlag(&quot;belanika_quest&quot;) &gt;= 3;</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

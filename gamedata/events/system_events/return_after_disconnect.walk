@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/return_after_disconnect</name>
+  <descr>&lt;%
+t = proxy.getStat(&quot;generic.tiredness&quot;);
+EndWalkWithTimedReturn(2+t/5);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

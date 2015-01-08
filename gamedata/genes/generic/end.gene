@@ -1,0 +1,24 @@
+<fetishmaster.bio.DNAGene>
+  <organname>generic</organname>
+  <statname>end</statname>
+  <value>15.0</value>
+  <changerate>2.3E-4</changerate>
+  <pubertyage>10000.0</pubertyage>
+  <maturetime>130000.0</maturetime>
+  <mutationrate>5.0</mutationrate>
+  <oneTimeMutation>20.0</oneTimeMutation>
+  <active>true</active>
+  <geneForce>50</geneForce>
+  <sexTraits>70</sexTraits>
+  <passOnFastTime>false</passOnFastTime>
+  <runAsDNA>false</runAsDNA>
+  <runAsRNA>false</runAsRNA>
+  <checkRange>false</checkRange>
+  <minValue>0.0</minValue>
+  <maxValue>0.0</maxValue>
+  <textValue></textValue>
+  <returnToNatural>true</returnToNatural>
+  <backforce>0.01</backforce>
+  <backforceRangeMult>0.6</backforceRangeMult>
+  <chrate>2.310360280881006E-4</chrate>
+</fetishmaster.bio.DNAGene>

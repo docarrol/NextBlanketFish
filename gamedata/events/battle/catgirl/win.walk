@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/catgirl/win</name>
+  <descr>With a meow, the Catgirl collapses to the ground, not able to fight anymore. Maybe she now regrets attacking &lt;%activePartner.getName();%&gt;.&#xd;
+&#xd;
+After the battle &lt;%activePartner.getName();%&gt; found a strange smelling leaf stuck to the Catgirl's fur.&#xd;
+&#xd;
+&lt;%activePartner.addStat(&quot;generic.str&quot;, 0.5); &#xd;
+AddItem(&quot;kitty_mint&quot;);&#xd;
+EndInteraction();&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

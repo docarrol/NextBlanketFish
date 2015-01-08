@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/gene_values</name>
+  <descr>Character: &lt;%
+c = proxy;
+c.getName();
+%&gt; 
+&lt;%
+sysDebug(c);
+&quot;&quot;;
+%&gt;
+&lt;%Include(&quot;debug/gene_values&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,27 @@
+<fetishmaster.components.StatEffect>
+  <name>preg_implant_t3</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>maxvol = self.getFlag(&quot;preg_implant_max_volume&quot;);&#xd;
+&#xd;
+cvol = self.getStat(&quot;uterus.volume&quot;);&#xd;
+&#xd;
+if (cvol &gt; maxvol)&#xd;
+{&#xd;
+	self.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, maxvol);&#xd;
+}&#xd;
+&#xd;
+if (self.hasEffect(&quot;uterus.volume&quot;, &quot;implant_postpartum&quot;))&#xd;
+{&#xd;
+	self.updateEffect(&quot;uterus.volume&quot;, &quot;postpartum_volume&quot;, cvol/2);&#xd;
+	self.removeEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);&#xd;
+	self.removeEffect(&quot;uterus.volume&quot;, &quot;preg_implant_t3&quot;);&#xd;
+	sysprint(&quot;Uterus implant removed.&quot;);&#xd;
+}&#xd;
+&#xd;
+//anti pregnancy&#xd;
+self.setStat(&quot;uterus.phase&quot;, 4);&#xd;
+self.setStat(&quot;uterus.postpartum_time&quot;, 0);</script>
+  <tmp>false</tmp>
+  <endText></endText>
+</fetishmaster.components.StatEffect>

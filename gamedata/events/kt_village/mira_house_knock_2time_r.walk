@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/mira_house_knock_2time_r</name>
+  <descr>Mira opens door.&#xd;
+&#xd;
+- Oh, it&apos;s you, hello there! But Romul is home right now, so it&apos;s not the best time for the visit...&#xd;
+&#xd;
+&lt;%Include(&quot;char/mira_init&quot;);&#xd;
+DisplayChar(&quot;char/mira.png&quot;);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetTextFlag(&quot;mira_place&quot;) == &quot;home&quot; &amp;&amp; GetTextFlag(&quot;romul_place&quot;) == &quot;home&quot;;</conditions>
+  <picturePath>kt_village/mira_house.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enter anyway</name>
+      <value>kt_village/inside_mira_house</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

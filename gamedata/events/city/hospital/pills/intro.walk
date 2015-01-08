@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/pills/intro</name>
+  <descr>[Proxy] is standing a plain looking room with only one nurse present.&#xd;
+&#xd;
+- Ah, you are here for the medicine trials? I need to warn you though - they can give some negative reactions in sometimes. Noting serious and permanent so far. We getting statistic now.&#xd;
+</descr>
+  <conditions>GetFlag(&quot;hospital_stim_trials&quot;) &gt; 0;</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>city/hospital/pills/get_pill</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>city/hospital/pills/no_trials</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

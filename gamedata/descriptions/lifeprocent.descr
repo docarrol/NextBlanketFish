@@ -1,0 +1,27 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>lifeprocent</name>
+  <min>
+    <double>90.0</double>
+    <double>0.0</double>
+    <double>15.0</double>
+    <double>30.0</double>
+    <double>50.0</double>
+    <double>70.0</double>
+  </min>
+  <max>
+    <double>999.0</double>
+    <double>15.0</double>
+    <double>30.0</double>
+    <double>50.0</double>
+    <double>70.0</double>
+    <double>90.0</double>
+  </max>
+  <descr>
+    <string>in good health</string>
+    <string>on death's door</string>
+    <string>badly wounded</string>
+    <string>wounded</string>
+    <string>have scratches and bruises</string>
+    <string>lightly scratched</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

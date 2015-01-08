@@ -1,0 +1,59 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/walk_in</name>
+  <descr>[Proxy] enters into Todd&apos;s lab. He seems to notice you rather quickly and greets you.
+
+&lt;%Include(&quot;hospital/todd/greet&quot;);%&gt;
+&lt;%// sysprint(clock.getAHours());
+gnt = proxy.getDNAGene(&quot;genes.purity&quot;); 
+if (gnt == null) {  proxy.loadDNA(&quot;genetic_traits/genes_purity&quot;); }
+&quot;&quot;;%&gt;
+
+&lt;%SetPerFlag(&quot;found_todd_person&quot;, 1); &quot;&quot;; %&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;found_todd&quot;) == 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Scanner Module Options</name>
+      <value>city/hospital/todd/upgrades</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Modifications</name>
+      <value>city/hospital/todd/modifications</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Assist Todd</name>
+      <value>city/hospital/todd/help_start</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Check Experiment Status</name>
+      <value>city/hospital/todd/current_status</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Reconsider helping</name>
+      <value>city/hospital/todd/intro_accept</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Read Instructions</name>
+      <value>base/scanner/instructions</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>DEBUG: Unlock All Modules</name>
+      <value>city/hospital/todd/debug_unlock</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>DEBUG: Skip Start</name>
+      <value>city/hospital/todd/debug_skipbegin</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

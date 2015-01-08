@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/preg_gimplant_medium</name>
+  <descr>&lt;%Include(&quot;hospital/genki/preg_implant_preop&quot;);%&gt;
+&lt;%
+implant = &quot;genki_preg_implant_t2&quot;;
+money = 2500;
+max_vol = 5500;
+ &quot;&quot;;%&gt;
+&lt;%Include(&quot;hospital/genki/preg_implant_install&quot;);%&gt;</descr>
+  <conditions>status.isVisiblePregnant(proxy) == false &amp;&amp; HasMoney(2500) &amp;&amp;
+proxy.getFlag(&quot;installed_preg_implant&quot;) &lt; 1 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
+  <picturePath>city/hospital/genki_gyno.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>5</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

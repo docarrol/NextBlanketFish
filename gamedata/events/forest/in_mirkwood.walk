@@ -1,0 +1,13 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_mirkwood</name>
+  <descr>[Proxy] did not find anything interesting. [HeShe] is not sure if this is bad or good. Mirkwood can be dangerous after all...</descr>
+  <conditions>1</conditions>
+  <picturePath>forest/mirkwood.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

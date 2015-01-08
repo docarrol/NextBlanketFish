@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/stripper_skill</name>
+  <descr>&lt;%activePartner.getName();%&gt; skill getting plus 80 points...
+&lt;%activePartner.addStat(&quot;skill.striptease&quot;, 80); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/belanika_milked1</name>
+  <descr>At first, just trickles of milk run through the tubes to the pump. But the flow quickly grows from a trickle to a strong flow of milk that makes the tubes shudder and distend larger with the influx.
+
+Belanika lolls softly as her eyes roll with delight. Her arousal is steadily growing with every pulse of the milker cups suckling at her teats until with a lusty moan she tries to reach for her sodden, throbbing femmesex. In her increased lust the horny cowgirl forgot about her oversized breasts and massive undulating udder being in the way and preventing her from reaching her goal. She resigns herself to rocking her udder and kneading it with her legs to rub at her swollen snatch. With all the attention she is paying to her udder now, droplets of milk begin to well up from the tips of the cola bottle sized teats.
+
+Unfortunately for Belanika, the milker only has four teat cups. She begins to massage at her breasts again until finally her entire body is shuddering and she is moaning in continuous orgasm. As her voice raises to the rafters, streams of milk spurt from the teats of her udder, arching into the air in four different directions and coming down to soak the hay and hard packed earth of the stall. The milking machine shakes and sputters loudly as it diligently tries to keep up with the deluge of milk flowing from the cumming cowgirl&apos;s massive tits.
+
+After several minutes the flow of milk from Belanika finally peaks and quickly drops to slow dribbles from all of her teats. With a great sigh of relief, Belanika calms down from the peaks of pleasure and asks &lt;%activePartner.getName();%&gt; to stop the machine.
+
+[proxy] steps back over to the milker and switches it off.
+
+&lt;%LustShame(20, 20); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>farms/belanika_milked2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/preg/clone_proxy</name>
+  <descr>Adding clone of the proxy to the workers list
+&lt;%
+c = CharacterFromDNA(proxy.getDNA());
+RegistryCharacter(c);
+AddToWorkers(c);
+ &quot;&quot;;%&gt;
+
+Name: &lt;% c.getName();%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

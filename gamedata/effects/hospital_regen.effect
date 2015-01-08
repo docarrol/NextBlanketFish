@@ -1,0 +1,18 @@
+<fetishmaster.components.StatEffect>
+  <name>hospital_regen</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>if (self.isWorker())&#xd;
+{&#xd;
+self.removeEffect(&quot;generic.health&quot;, &quot;hospital_regen&quot;);&#xd;
+}&#xd;
+&#xd;
+min = calc.procent(self.getStat(&quot;generic.maxhealth&quot;), 30);&#xd;
+&#xd;
+if (self.getCleanRNAValue(&quot;generic.health&quot;) &lt; min )&#xd;
+{&#xd;
+self.setStat(&quot;generic.health&quot;, min);&#xd;
+}</script>
+  <tmp>false</tmp>
+  <endText></endText>
+</fetishmaster.components.StatEffect>

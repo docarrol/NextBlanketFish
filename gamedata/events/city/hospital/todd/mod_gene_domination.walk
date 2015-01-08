@@ -1,0 +1,47 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/mod_gene_domination</name>
+  <descr>[Proxy] asks to Todd what this DNA modification will do.
+
+- Modifying a gene with this increases the chance it&apos;ll be chosen over the gene of the other parent. To use an example, lets say parent A and B have a child together. A has green hair while B has brown. Increasing the domination of A will result in a higher chance of that child having green hair.
+
+
+- I call the occurance &apos;Domination&apos;. It&apos;s probably the best way to certify specfic genes.
+&lt;% geneName = GetTextFlag(&quot;gene_mod_selection&quot;); gene = proxy.getDNAGene( geneName ); &quot;&quot;;%&gt;
+&lt;% purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue(); &quot;&quot;;%&gt;
+Gene Purity:	&lt;% purity;%&gt; (Light Impact)
+Cost:		&lt;% (2500 + (2500 * (100 - (int)purity) / 250));%&gt;
+Selected gene: 	&lt;% Include(&quot;hospital/todd/text_selected_gene&quot;);%&gt; 
+&lt;%if(geneName != &quot;None&quot;) {Include(&quot;base/scanner/scan_gene_domination&quot;)};%&gt; (+5)
+
+
+&lt;%Include(&quot;hospital/todd/limit_domination&quot;);%&gt;
+
+&lt;% SetFlag(&quot;todd_mod_select_domination&quot;, 1); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;installed_fertility_upgrade&quot;) == 1 &amp;&amp; GetPerFlag(&quot;todd_used_modification&quot;) &lt; 10;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/todd/modifications</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Select Gene</name>
+      <value>city/hospital/todd/select_gene</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Preform Modification (3h)</name>
+      <value>city/hospital/todd/start_mod_domination</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

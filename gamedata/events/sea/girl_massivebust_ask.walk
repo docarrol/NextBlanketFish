@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/girl_massivebust_ask</name>
+  <descr>[Proxy] asks about her the size of her massive boobs.
+
+- Yeah, I guessed someone would ask about that. Well, you see, they are doing new experimentations in the research department of the hospital. They give you an injection that will drastically alter fat distribution in your body, they do offer different options in term of shape and well, a special &quot;Watermellon Special&quot; option if you supply them with the necessary material. You should ask for it, as they not anounce by their own this option yet. I suggest you pay them a visit! I can eat as much as I want now and it only help in growing those beauties, I&apos;m sure you can enjoy that too, don&apos;t you think?
+
+She winks at [Proxy] as she&apos;s mesmerized by the sheer size, but soon waves her goodbye and gets on her way.
+&lt;%MoodShame(15); 
+SetPerFlag(&quot;know_about_massive_breasts&quot;, 1);
+&quot;&quot;;%&gt;
+
+</descr>
+  <conditions>ShameCheck(40) == 0 &amp;&amp; PerGetFlag(&quot;know_about_massive_breasts&quot;) &lt; 1;</conditions>
+  <picturePath>sea/girl_massivebust.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

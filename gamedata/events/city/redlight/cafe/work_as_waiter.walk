@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/work_as_waiter</name>
+  <descr>[proxy] spending a hour working as waiter. Sometimes it&apos;s boring, but eventually [hisher] shift is ended.
+&lt;%MoodShame(15); 
+AddMoney(5); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getFlag(&quot;fcafe_getwork&quot;) == 1 &amp;&amp; proxy.getFlag(&quot;fcafe_barmen&quot;) == 1;</conditions>
+  <picturePath>city/fcafe/waiter.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

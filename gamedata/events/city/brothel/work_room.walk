@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/work_room</name>
+  <descr>[Proxy] enters a room where Neferi expects [her] to work. Changing into a provocative outfit [she] readies [her]self for the clients. &lt;%Include(&quot;brothel/preg_service_desc&quot;);%&gt;</descr>
+  <conditions>GetPerFlag(&quot;brothel_ask_job&quot;) &gt; 0  &amp;&amp; GetPerFlag(&quot;nefri_warning&quot;) &lt; 2</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Take client</name>
+      <value>city/brothel/take_client</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pregnancy Play (New Client)</name>
+      <value>city/brothel/preg_play_new</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Call Client again</name>
+      <value>city/brothel/preg_play_old</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to Home</name>
+      <value>in_the_base</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

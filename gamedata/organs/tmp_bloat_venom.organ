@@ -1,0 +1,87 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>tmp_bloat_venom</name>
+  <hooked class="java.util.Collections$SynchronizedRandomAccessList" resolves-to="java.util.Collections$SynchronizedList" serialization="custom">
+    <java.util.Collections_-SynchronizedCollection>
+      <default>
+        <c class="list"/>
+        <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+      </default>
+    </java.util.Collections_-SynchronizedCollection>
+    <java.util.Collections_-SynchronizedList>
+      <default>
+        <list reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+      </default>
+    </java.util.Collections_-SynchronizedList>
+  </hooked>
+  <actionNames>
+    <string>orgasm</string>
+    <string>tmp_venom_recalc</string>
+    <string>balls_recalc</string>
+    <string>tmp_venom_remove</string>
+    <string>pouch_recalc</string>
+  </actionNames>
+  <actionScripts>
+    <string>//At orgasm some venom decomposes into toxin. Toxin affect only futa&apos;s pouch.
+
+v = self.getStat(&quot;balls.bloat_venom&quot;);
+self.subStat(&quot;balls.bloat_venom&quot;, calc.percent(v, 50));
+self.addStat(&quot;balls.bloat_venom_toxin&quot;, calc.percent(v, 50));
+
+//here for futa:
+
+
+result;</string>
+    <string>self.subStat(&quot;balls.bloat_venom&quot;, self.getStat(&quot;generic.regen_rate&quot;)/6);
+
+if (self.getStat(&quot;balls.bloat_venom_toxin&quot;) &gt; 0)
+{ self.subStat(&quot;balls.bloat_venom_toxin&quot;, self.getStat(&quot;generic.regen_rate&quot;)/10); }
+else
+{self.setStat(&quot;balls.bloat_venom_toxin&quot;, 0); }
+
+result;</string>
+    <string>//this called from &quot;balls&quot; organ if it exists.
+
+val = self.getStat(&quot;balls.bloat_venom&quot;);
+
+self.addStat(&quot;generic.arousal&quot;, val/10);
+
+size = self.getCleanStat(&quot;balls.size&quot;);
+rate = self.getStat(&quot;balls.prod_rate&quot;);
+
+self.updateEffect(&quot;balls.size&quot;, &quot;bloat_venom&quot;, calc.percent(size, val*2), 2);
+self.updateEffect(&quot;balls.prod_rate&quot;, &quot;bloat_venom&quot;, calc.percent(rate, val*3), 2);
+
+result;</string>
+    <string>self.addHistory(&quot;Venom Absorb&quot;, &quot;The body has rid of the venom that affected balls, they are not feel so active and swollen...&quot;);
+
+self.removeOrgan(&quot;tmp_bloat_venom&quot;);
+
+result;</string>
+    <string>//this called from &quot;pouch&quot; organ if it exists.
+
+tx = self.getStat(&quot;balls.bloat_venom_toxin&quot;);
+
+if (tx &gt; 10)
+{
+self.addHistory(&quot;Belly&quot;, self.getName()+ &quot;feels intence burning and pressure in the lower bellly...&quot;);
+
+self.subStat(&quot;balls.bloat_venom_toxin&quot;, 1);
+self.subStat(&quot;generic.health&quot;, 1);
+
+tx=tx-10;
+
+toxin = self.getStatEffect(&quot;pouch.max_volume&quot;, &quot;bloat_venom_toxin&quot;);
+self.updateEffect(&quot;pouch.max_volume&quot;, &quot;bloat_venom_toxin&quot;, toxin+(tx*2));
+//effect is permanent but maybe we add some remedy later? So it&apos;s through effect, not just adding stat;
+
+}
+result;</string>
+  </actionScripts>
+  <nextHourScript>self.doAction(&quot;tmp_venom_recalc&quot;);
+
+if (self.getStat(&quot;balls.bloat_venom&quot;) &lt;=0)
+{
+self.doAction(&quot;tmp_venom_remove&quot;);
+}
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

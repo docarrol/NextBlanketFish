@@ -1,0 +1,13 @@
+<fetishmaster.engine.WalkEvent>
+  <name>old_city/explore_green_street</name>
+  <descr>[Proxy] looked for anything useful for about an hour, but found nothing.</descr>
+  <conditions>1</conditions>
+  <picturePath>lost_city/green_street.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

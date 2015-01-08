@@ -1,0 +1,13 @@
+<fetishmaster.items.Item>
+  <name>Power Crystal</name>
+  <descr>These crystals can store large quantities of energy. In this form they are used for storing raw magical energy, not as a power source for machines like a battery.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <useText>Cannot be used.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>250</value>
+  <sellValue>50</sellValue>
+  <weight>0.4</weight>
+</fetishmaster.items.Item>

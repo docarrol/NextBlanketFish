@@ -1,0 +1,40 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/ass_play/simple_wash_ma</name>
+  <descr>&lt;% &#xd;
+gw = proxy.getStat(&quot;generic.lewdness&quot;);&#xd;
+cl = 0.7;&#xd;
+time = cl/24;&#xd;
+proxy.addEffectAR(&quot;ass.cleanness&quot;, &quot;ass_cleaning&quot;, cl, -time);&#xd;
+MoodShame(55);&#xd;
+&#xd;
+if(gw &lt; 35){&#xd;
+proxy.addStat(&quot;generic.arousal&quot;, -35);&#xd;
+proxy.getName() + &quot; felt very uncomfortably cleaning &quot; + proxy.HisHer() +&quot; ass. It definitely did not make &quot;+ proxy.HisHer() + &quot; feel any better and &quot; +proxy.HisHer() + &quot; arousal lowered considerably.&quot;;&#xd;
+} else{&quot;&quot;;}%&gt;&lt;%&#xd;
+if(gw &gt;= 35 &amp;&amp; gw &lt; 55){&#xd;
+proxy.addStat(&quot;generic.arousal&quot;, -35);&#xd;
+proxy.getName() + &quot; is getting more comfortably with the procedure, but it is still far from being pleasant. &quot; +proxy.HeShe() + &quot; starts to understand the benefits and the drop in &quot; +proxy.HisHer() + &quot; mood and lust is much smaller&quot;;&#xd;
+} else{&quot;&quot;;}%&gt;&lt;%&#xd;
+if(gw &gt;= 55 &amp;&amp; gw &lt; 80 ){&#xd;
+proxy.getName() + &quot; is used to the cleaning procedure by now. &quot; + proxy.getName() + &quot; fully appreciate all the benefits from maintaining a standard of hygiene, whether for health or pleasure. &quot;;&#xd;
+} else{&quot;&quot;;}%&gt;&lt;%&#xd;
+if(gw &gt;= 80){&#xd;
+proxy.getName() + &quot; is enjoying the ritual. &quot; +proxy.HeShe() + &quot; is slowly teasing her anal ring with a soft wet sponge. &quot; + proxy.getName() + &quot; can feel &quot; +proxy.HisHer() + &quot; blood pressure to rise and the hearth rate to increase. Not only is this a useful procedure, but it gives pleasure too! &quot;;&#xd;
+}else{&quot;&quot;;}%&gt;&#xd;
+&#xd;
+&lt;%&#xd;
+de = IncludeRange(proxy.getStat(&quot;ass.cleanness&quot;), &quot;asscleanness&quot;);&#xd;
+res = proxy.getName() + &quot;&apos;s ass is now &quot; + de +&quot;.&quot;;&#xd;
+res;&#xd;
+%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.sex&quot;) == 1</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

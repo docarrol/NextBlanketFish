@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/kiana_reply_romul</name>
+  <descr>[Proxy] explain about your quest about the minotaur search. Kiana thinks for some time about something, then she says:
+
+- I do not know anyone like him personally, but I have heard something that might help. I heard a rumor that in the single house that stays outside but near our own village lives a girl who has a strange lover or husband. He stays away from the people of the village, and spends much time in the forest. Sounds like it may be him, eh? But girl... why she live with him if he so dangerous?.. Strange. 
+
+&lt;%Include(&quot;seafront/kiana_village_path&quot;);%&gt;
+&lt;%proxy.setFlag(&quot;romul_quest&quot;, 2); 
+SetFlag(&quot;romul_quest&quot;, 2);
+SetFlag(&quot;mira_house_know&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;romul_quest&quot;) == 1;</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>sea/kiana_approach_friend</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

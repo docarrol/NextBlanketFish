@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/upgrade_body_display</name>
+  <descr>[Proxy] asks Todd about the body display module.
+
+- I&apos;m glad you asked. To make things clear, this will allow the scanner to display DNA of the body features and also the ability to modify aspects of them. Good examples are the length of the body and the sex organs. Very useful if you&apos;re trying to improve them using the mutation rate. Which will be available after you&apos;ve helped me with this.
+
+- So I require three individual scans. One male, female and ofcourse a futa. The scans however, will be preformed completely naked. So make sure they&apos;re okay with that.
+
+&lt;% SetFlag(&quot;todd_in_experiment&quot;, 1); &quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;todd_project_display_upgrade&quot;, 1); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;installed_display_upgrade&quot;) == 0;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,49 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/belanika_milked2</name>
+  <descr>- Oh, what a relief ... But I&apos;m only half done...
+
+Belanika disconnects the teat cups from her nipples, shivering slightly each time one audibly pops off.
+
+- May you help me by attaching the cups to my udder [proxy]? I&apos;m still a little swollen up top to do it myself.
+
+[proxy] nods and takes the teat cups from out of Belanika&apos;s hands. Kneeling by her large udder, [proxy] begins to carefully attach the cups to her dribbling teats, the cowgirl shivering and stifling a moan each time a sensitive nub is compressed into a cup. In less then a minute [proxy] has all four cups attached to Belanika&apos;s udder and [heshe] stands back up. After calming back down, the cowgirl smiles beatifically at [proxy] and gives her still swollen udder a couple pats before rummaging through the pile of cloth sitting near her on the hay bale.
+
+- There&apos;s no need for you to wait. This milky load is going to take awhile. But before you go, let me give you something in appreciation for helping me out. Just give me a tick.
+
+Belanika finally finds what she is looking for and holds up a pill.
+
+-Here it is. Come on over and take this please.
+
+[proxy] steps over to Belanika who promptly presses the pill into [hisher] hand.
+
+&lt;% res = &quot;&quot;;
+if (activePartner.getStat(&quot;breasts.size&quot;)  &gt; 3)
+	res = &quot;With this, you can experience this same feeling I do.&quot;;
+res;
+%&gt; Thank you again. Now, switch the milker back on please. I should be fine for now until you can get the mana crystal fixed.
+
+&lt;%activePartner.getName();%&gt; goes back over to the milker and turns it on, the pump once again humming and the cups starting their work. However, the flow of milk is not the flood it was just minutes ago. Though Belanika is enjoying the gentle suckling on her teats, she is not growing aroused from it. With a happy sigh, she leans back against the hay and closes her eyes...
+
+Chuckling gently, &lt;%activePartner.getName();%&gt; decides to follow Belanika&apos;s advice and walks out of the barn, closing the door behind [himher].
+
+&lt;%AddItem(&quot;lactaids&quot;); &quot;&quot;;%&gt;
+&lt;%LustShame(25, 25); &quot;&quot;;%&gt;
+&lt;%Include(&quot;char/belanika_init&quot;); 
+act = belanika.doAction(&quot;milking&quot;); &quot;&quot;;%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

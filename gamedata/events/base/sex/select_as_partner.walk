@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/sex/select_as_partner</name>
+  <descr>You select [proxy] as the sexual partner for your other workers.
+&lt;%
+cuid = proxy.getUID();
+SetTextFlag(&quot;base_current_partner&quot;, cuid);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>base/sex_room.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

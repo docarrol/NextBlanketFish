@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/t_beast/lose</name>
+  <descr>[proxy] collapses before the beast. [HeShe] cannot fight anymore...
+&lt;%Include(&quot;battle/t_beast/lose&quot;);%&gt;
+&lt;%EndInteraction(); &quot;&quot;;%&gt;
+</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

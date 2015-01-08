@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/enema_offer</name>
+  <descr>[Proxy] explains to Dr. Genki that [she] is working for Neferi and that she had an accident with a customer who was curious about anal sex. When I spoke to Neferi, she suggested, that you might be able to help me to clean it.
+
+- Well, said Dr. Genki with a grim, after inspecting [Proxy]&apos;s ass with a long stare, I might be able to help you. To fully enjoy the pleasure of anal sex some preparations are required. To help you with the hygiene, I can offer you an enema. The procedure is painless and takes about and hour.
+
+The standard procedure costs 300 coins and the effect will last up to two days. I can also prepare a special solution from &quot;mermaid&apos;s tears&quot; and a few other ingredients that lasts considerably longer. 
+
+- What other ingredients? [Proxy] asks curiously. 
+
+- That&apos;s not important! replays Dr. Genki firmly. The important thing is that the effect will last a week, before it wears off. However, these ingredients are much harder to come by and so the procedure costs 1001 coins.
+
+Are you interested? asks Dr. Genki.
+
+&lt;%DisplayChar(&quot;char/genki.png&quot;);
+ 
+&quot;&quot;;%&gt;
+&lt;%LustShame(5,40); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;ass&quot;) &amp;&amp; GetPerFlag(&quot;genki_enema_intro&quot;) &lt; 1 &amp;&amp; GetPerFlag(&quot;enema_neferi_suggestion&quot;) == 1</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>city/hospital/genki/enema_checkup</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>city/hospital/genki/in_cabinet</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

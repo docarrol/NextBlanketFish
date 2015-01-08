@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/begin_battle</name>
+  <descr>&lt;%activePartner.getName();%&gt; prepares to fight with &lt;%enemy.getName();%&gt;
+&lt;%InBattleMode(true); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>battle/p_turn</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

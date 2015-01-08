@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/psychologist_ko</name>
+  <descr>- I see, you experienced a traumatic event that now psychologically threatens you. Would you like to talk about it?</descr>
+  <conditions>activePartner.getRNAValue(&quot;generic.knockouts&quot;) &gt; 0;    </conditions>
+  <picturePath>city/hospital/doctor_psy.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes (1h, 100c)</name>
+      <value>city/hospital/psy_ko_help</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>city/hospital/treatment_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

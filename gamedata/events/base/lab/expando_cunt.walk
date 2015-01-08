@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/lab/expando_cunt</name>
+  <descr>After an hour of mixing, you produce a container of Expando-cunt cream!
+&lt;%
+AddItem(&quot;expando_cunt_cream&quot;);
+RemoveItem(&quot;gestamin&quot;, 3);
+RemoveItem(&quot;horse_bean&quot;, 2);
+RemoveItem(&quot;pussy_cum_bottle&quot;, 50);
+%&gt;
+</descr>
+  <conditions>activePartner.inventory.itemsCount(&quot;pussy_cum_bottle&quot;) &gt;= 50 &amp;&amp; activePartner.inventory.itemsCount(&quot;horse_bean&quot;) &gt;= 2 &amp;&amp; activePartner.inventory.itemsCount(&quot;gestamin&quot;) &gt;= 3 &amp;&amp;
+GetFlag(&quot;know_special_recipe&quot;) &gt; 0;</conditions>
+  <picturePath>base/lab1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>in_the_lab</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>in_the_base</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

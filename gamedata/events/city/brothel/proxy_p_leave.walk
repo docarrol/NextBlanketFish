@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/proxy_p_leave</name>
+  <descr>[proxy] does not continue with the [target], and [=target][t-HeShe] leaves unsatisfied. There will be no payment. 
+&lt;%
+EndInteraction();
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/work_room</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,18 @@
+<fetishmaster.items.Item>
+  <name>Filter Coffee</name>
+  <descr>Filter Coffee.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.subStat(&quot;generic.tiredness&quot;, 10);&#xd;
+self.addStat(&quot;generic.calories&quot;, 100);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 80);&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+&quot;&quot;;</useScript>
+  <useText>Coffee tasted good...</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>5</value>
+  <sellValue>0</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

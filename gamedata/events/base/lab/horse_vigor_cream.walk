@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/lab/horse_vigor_cream</name>
+  <descr>After an hour of mixing, you produce small container of Horse Vigor Cream!
+&lt;%
+AddItem(&quot;horse_vigor_cream&quot;);
+RemoveItem(&quot;pussy_cum_bottle&quot;, 50);&quot;&quot;;
+%&gt;
+</descr>
+  <conditions>proxy.inventory.itemsCount(&quot;pussy_cum_bottle&quot;) &gt;= 50
+</conditions>
+  <picturePath>base/lab1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>in_the_lab</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>in_the_base</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

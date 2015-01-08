@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/p_attack</name>
+  <descr>&lt;%activePartner.getName();%&gt; tries to attack &lt;%enemy.getName();%&gt;...
+
+&lt;%Include (&quot;battle/attack_p/attack&quot;);%&gt;
+
+&lt;%Include (&quot;battle/attack_e/attack&quot;);%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>battle/p_turn</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/p_training1</name>
+  <descr>Physical training.</descr>
+  <conditions>1</conditions>
+  <picturePath>base/p_training.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/training_rooms</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Body Measurements (1h)</name>
+      <value>base/measurements/physical</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Uterus Scanner</name>
+      <value>base/inspect_womb</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Scan DNA</name>
+      <value>base/scan_dna</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Running (1h)</name>
+      <value>base/running</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

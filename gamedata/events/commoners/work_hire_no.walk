@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/work_hire_no</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); ctv=c; &quot;&quot;;%&gt;[Proxy] politely apologizes and says that terms are unsuitable at this time.
+&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

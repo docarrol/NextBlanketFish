@@ -1,0 +1,26 @@
+<fetishmaster.bio.DNAGene>
+  <organname>breasts</organname>
+  <statname>nipple</statname>
+  <value>2.0</value>
+  <changerate>2.0E-5</changerate>
+  <pubertyage>100000.0</pubertyage>
+  <maturetime>50000.0</maturetime>
+  <mutationrate>5.0</mutationrate>
+  <oneTimeMutation>40.0</oneTimeMutation>
+  <active>false</active>
+  <geneForce>50</geneForce>
+  <sexTraits>70</sexTraits>
+  <script></script>
+  <passOnFastTime>false</passOnFastTime>
+  <runAsDNA>false</runAsDNA>
+  <runAsRNA>false</runAsRNA>
+  <checkRange>false</checkRange>
+  <minValue>0.0</minValue>
+  <maxValue>0.0</maxValue>
+  <textValue></textValue>
+  <returnToNatural>false</returnToNatural>
+  <backforce>0.0</backforce>
+  <backforceRangeMult>1.0</backforceRangeMult>
+  <scriptRunOnlyAsActive>false</scriptRunOnlyAsActive>
+  <chrate>2.0189914031260818E-5</chrate>
+</fetishmaster.bio.DNAGene>

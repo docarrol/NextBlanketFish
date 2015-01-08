@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/start_walking_auto_talk1</name>
+  <descr>You decide to use [proxy]&apos;s service and ready the link with &lt;%activePartner.get3dPerson();%&gt; proxy. Before turning it on you ask [her] about how [she]&apos;s feeling.
+&lt;% Include(&quot;wake_up/waking_up&quot;);%&gt;
+&lt;% Include(&quot;casual_talk/reply&quot;);%&gt;
+&lt;%IncludeAll(&quot;system/patch/fix_&quot;);%&gt;
+
+
+</descr>
+  <conditions>GetFlag(&quot;auto_talk_at_start_walking&quot;) == 1;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Turn on Proxy</name>
+      <value>in_the_base</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Waking Options</name>
+      <value>waking_options</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Travel to...</name>
+      <value>fast_travel/select</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>system_events/end_of_walking</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

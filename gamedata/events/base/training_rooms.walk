@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/training_rooms</name>
+  <descr>&lt;%activePartner.getName();%&gt; is standing in the corridor to the training rooms. Where does &lt;%activePartner.HeShe();%&gt; go now?
+</descr>
+  <conditions>1</conditions>
+  <picturePath>base/train_rooms.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to Hall</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Physical Training</name>
+      <value>base/p_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Mental Training</name>
+      <value>base/m_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sexual Training</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sex Interactions</name>
+      <value>base/sex_interactions</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Do Pregnancy Test (item, 1h)</name>
+      <value>base/preg_test</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

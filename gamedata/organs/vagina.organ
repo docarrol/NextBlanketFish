@@ -1,0 +1,35 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>vagina</name>
+  <actionNames>
+    <string>orgasm</string>
+    <string>vaginal_enter</string>
+    <string>vagina_arousal</string>
+    <string>vagina_recalc</string>
+    <string>vagina_goo_vol</string>
+  </actionNames>
+  <actionScripts>
+    <string>self.addStat(&quot;generic.tiredness&quot;, 5);
+result;</string>
+    <string>self.setStat(&quot;vagina.virgin&quot;, 0);
+self.addEffectAR(&quot;vagina.width&quot;, &quot;peneteration&quot;, 0.5, -0.004 );
+
+result;</string>
+    <string>self.setStat(&quot;vagina.moist&quot;, calc.procent(self.getStat(&quot;vagina.max_moist&quot;), self.getStat(&quot;generic.arousal&quot;)));
+self.updateEffect(&quot;vagina.length&quot;, &quot;arousal&quot;, calc.procent(self.getCleanRNAValue(&quot;vagina.length&quot;)/2, self.getStat(&quot;generic.arousal&quot;)));
+        self.updateEffect(&quot;vagina.width&quot;, &quot;arousal&quot;, calc.procent(self.getCleanRNAValue(&quot;vagina.width&quot;)/2, self.getStat(&quot;generic.arousal&quot;)));
+
+maxsize = self.getCleanRNAValue(&quot;vagina.vulva_size&quot;) * 1.5;
+        addsize = maxsize - self.getCleanRNAValue(&quot;vagina.vulva_size&quot;);
+        self.updateEffect(&quot;vagina.vulva_size&quot;, &quot;arousal&quot;, calc.procent(addsize, self.getStat(&quot;generic.arousal&quot;)));
+
+result;</string>
+    <string>result;</string>
+    <string>self.setStat(&quot;vagina.goo_vol&quot;, (self.getStat(&quot;vagina.moist&quot;) * self.getStat(&quot;vagina.goo_modifier&quot;)));
+result;</string>
+  </actionScripts>
+  <nextHourScript>self.doAction(&quot;vagina_arousal&quot;);
+
+self.doAction(&quot;vagina_goo_vol&quot;);
+
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

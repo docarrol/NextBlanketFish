@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/research_look_pill</name>
+  <descr>[Proxy] managed to find a cabinet slightly ajar in a seemingly unoccupied room. [HeShe] carefully looks though the door, but sees no one. This is some sort of lab. There are many charts on the walls, tables with working chaos and only a small free space in the center. [Proxy] looks at a chart - some of it is graphs, some of it is photos of womens breasts, and the rest are highly technical medical jargon.  Maybe, this is the lab that the girl on the beach mentioned. On the table [heshe] sees a small case with tablets. 
+
+What should [heshe] do?</descr>
+  <conditions>GetFlag(&quot;hospital_be_research&quot;) &gt;= 1 &amp;&amp; Chance(30) &amp;&amp; GetPerFlag(&quot;get_unknown_pill&quot;) &lt; 1;</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Get one pill</name>
+      <value>city/hospital/research_get_pill</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/reception</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

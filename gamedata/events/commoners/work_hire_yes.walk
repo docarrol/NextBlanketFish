@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/work_hire_yes</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); ctv=c; &quot;&quot;;%&gt;[Proxy] gives payment to &lt;% c.getName();%&gt; and contract is sealed.&#xd;
+&#xd;
+(&lt;% c.getName();%&gt; will be available in the list of the workers in the management mode.)&#xd;
+&lt;% &#xd;
+//sysprint (c);&#xd;
+ppl = GetObject(&quot;commoners_last_used_list&quot;);&#xd;
+//sysprint (ppl);&#xd;
+//if (ppl == null )&#xd;
+//{ ppl = NewList(); } //to avoid null pointer exception.&#xd;
+&#xd;
+ppl.remove(c);&#xd;
+contract = LoadContract(&quot;commoner_contract&quot;);&#xd;
+contract.setValue(c.getFlag(&quot;hire_money&quot;));&#xd;
+c.addToWorkers(contract);&#xd;
+RemoveMoney(c.getFlag(&quot;hire_money&quot;));&#xd;
+c.setFlag(&quot;clothed&quot;, 0);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(proxy, payment);</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc>Asami give payment to the Kazue and contract is sealed.&#xd;
+&#xd;
+(Kazue will be available in the list of the workers in the management mode.)&#xd;
+</parsedDesc>
+</fetishmaster.engine.WalkEvent>

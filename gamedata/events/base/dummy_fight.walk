@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/dummy_fight</name>
+  <descr>&lt;%&#xd;
+Object en;&#xd;
+en = Character(&quot;Dummy&quot;, &quot;dummy&quot;, false);&#xd;
+SetEnemy(en);&#xd;
+BeginInteraction(&quot;battle/p_turn&quot;);&#xd;
+AddIState(&quot;fight&quot;, &quot;battle/p_turn&quot;);&#xd;
+AddIState(&quot;win&quot;, &quot;battle/dummy/win&quot;);&#xd;
+AddIState(&quot;lose&quot;, &quot;battle/lose&quot;);&#xd;
+AddIState(&quot;flee&quot;, &quot;battle/dummy/flee&quot;);&#xd;
+&quot;&quot;;&#xd;
+%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>base/dummy.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

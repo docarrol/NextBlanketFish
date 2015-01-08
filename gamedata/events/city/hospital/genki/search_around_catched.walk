@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/search_around_catched</name>
+  <descr>[proxy] was already caught once snooping around by Dr. Genki. [HeShe] doesn&apos;t want to push [hisher] luck.</descr>
+  <conditions>GetFlag(&quot;genki_catched&quot;)== 1;
+
+</conditions>
+  <picturePath>city/hospital/genki_corridor.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

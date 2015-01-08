@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/lounge</name>
+  <descr>Club lounge. Here guests can relax and decide where to go. Club has a dance hall with &quot;dance&quot; podiums, a restaurant, and private cabins. Escort services can also be found here.
+&lt;%SetFlag(&quot;hot_lips_found&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;found_hot_lips&quot;);</conditions>
+  <picturePath>city/hotlips/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dance hall</name>
+      <value>city/redlight/hotlips/dance_hall</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Restaurant</name>
+      <value>city/redlight/hotlips/restaurant</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Manager room</name>
+      <value>city/redlight/hotlips/manager_room</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/redlight_district</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

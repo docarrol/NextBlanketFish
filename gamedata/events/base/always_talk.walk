@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/always_talk</name>
+  <descr>You decide that asking your workers about how they are feeling before turning on the proxy link is a good idea. From now on it will be part of your link up procedure.
+&lt;%SetFlag(&quot;auto_talk_at_start_walking&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/casual_talk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/quest_task_3_yes</name>
+  <descr>- Thank you for continuing to be willing to assist me [proxy]. Now take these...
+
+Dr. Felis gives [Proxy] three pills.
+
+- Use as many as you feel is necessary. What I am about to say next is important [proxy], so please remember what I am about to tell you. First, taking one before the effects of the other pill has worn off does not enhance your lactation. Second, if your body &quot;thinks&quot; that there is more demand for milk than it produces, then it will try to compensate and produce more. And third, if you let your breasts store excessive amounts of milk, there is a chance that they will grow some to accommodate the surplus. But be careful. Letting them get that full is a clear sign to your body that there is no demand. And if there is no demand, production will begin to fade until ceasing completely. So be cautious not to let your lactation production completely halt.
+
+The doctor gesture towards a table with a machine sitting atop it that looks a like a pump attached to a medium sized silver holding tank.
+
+- Since you are assisting me with this test, you will have access to this top of the line milking machine. For convenience sake, it will be installed at your house so that you don&apos;t need to come back here all the time to get milked. It is easily able to accommodate you and anyone else needing to get milked down. Also, if you are producing enough milk, you can collect and store it to sell to the hospital at about ten coins a bottle. So that&apos;s about it [proxy]... When you think you are letting down at least a liter of milk in one go, come back here for a final examination.
+
+&lt;%SetPerFlag(&quot;felis_quest&quot;, 6);
+AddItem(&quot;felis_lactaids&quot;, 3);
+SetFlag(&quot;setup_milking_room&quot;, GetFlag(&quot;setup_milking_room&quot;)+1);
+ &quot;&quot;;%&gt;
+&lt;%LustShame(20,35); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/felis.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/main_look_around</name>
+  <descr>You see nothing interesting happening around the area.</descr>
+  <conditions>1;</conditions>
+  <picturePath>kt_village/village.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

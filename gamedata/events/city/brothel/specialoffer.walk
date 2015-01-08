@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/specialoffer</name>
+  <descr>Neferi invites [proxy] to come into her private room again.
+
+- Since you have that magic dildo now, it&apos;s bound to make your orgasms really messy, as it also increases the amount of pussy cum you shoot out. And believe it or not, I have a way for you to make some money out of it!
+
+She goes and open her closet, presenting [proxy] a device that could be mistaken for a milking pump, but with a big selection of cups.
+
+- This is a pussy pump, it works like the ones used for milking, but this one milks your pussy for thick pussy cum! Which you can store into bottles if you produce enough to sell. I&apos;m also working of finding ways to use it in some kind of lotion... but I haven&apos;t been successful so far, come back to me later and maybe I&apos;ll have found something.
+
+She pauses for a moment...
+
+- I could give you one but I&apos;ll have to charge you for it, this thing take some pricy parts. I can sell you one for about 2000 coin.So, what do you think?.... Oh, I also got these bigger milking cups, if your nipples got too big for the normal ones or you just want to pump them bigger, I could sell you the &apos;HUGE&apos; set for about 1000 coins.
+
+ 
+&lt;%
+DisplayChar(&quot;char/neferi.png&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;neferi_magic_dildo&quot;) == 1 &amp;&amp; (GetFlag(&quot;neferi_pussy_pump&quot;) &lt; 1 || GetFlag(&quot;huge_milking_cups&quot;) &lt; 1);</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Think it over</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy it!</name>
+      <value>city/brothel/buypump</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy HUGE cups</name>
+      <value>city/brothel/hugemilkingcups</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

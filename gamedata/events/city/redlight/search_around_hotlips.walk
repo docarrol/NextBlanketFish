@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/search_around_hotlips</name>
+  <descr>The Red Light District is a big place, so [proxy] spends some time to trying to find a place that is suitable for beginners. At last, [heshe] finds such a place. The Club &quot;Hot Lips&quot; - it seems to have a good reputation, and accepts strangers for work. You think, this will be good place for your contractors to learn the basics about this industry...
+&lt;%SetFlag(&quot;found_hot_lips&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;found_hot_lips&quot;) == 0 &amp;&amp; Chance(50);</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

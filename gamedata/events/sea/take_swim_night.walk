@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/take_swim_night</name>
+  <descr>[Proxy] goes for a midnight swim. [HeShe] feels good and refreshed, but a little tired.
+&lt;% activePartner.addStat(&quot;generic.str&quot;, 1);
+        proxy.addStat(&quot;generic.tiredness&quot;, 10);
+        proxy.addStat(&quot;generic.spd&quot;, 0.7);
+        proxy.addStat(&quot;generic.dex&quot;, 0.3);
+        proxy.addStat(&quot;generic.end&quot;, 1.2);
+        proxy.addStat(&quot;generic.cha&quot;, 0.02);
+activePartner.addStat(&quot;generic.swim&quot;, 1);
+proxy.subStat(&quot;generic.calories&quot;, 400);
+SetFlag(&quot;found_swimming&quot;, 1);
+&quot;&quot;; %&gt;</descr>
+  <conditions>res = 0;
+if (clock.isNight())
+       {
+		res = 1;
+       }
+res;</conditions>
+  <picturePath>sea/beach.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

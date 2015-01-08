@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/q3_res_money</name>
+  <descr>- All right [proxy], here it is... Visit me in the future, ok? I might have more work you can help me with...
+
+&lt;%AddMoney(500);
+SetFlag(&quot;setup_milking_room&quot;, GetFlag(&quot;setup_milking_room&quot;)-1);
+ &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/felis.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

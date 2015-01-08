@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/select_preg_implant</name>
+  <descr>When [proxy] says that [she] is interested in the pregnancy implant, Dr. Genki arches an eyebrow for just a second before smiling gently at [her]. Seeing the look he just gave [her], [she] thinks to [her]self that maybe this kind of implant is not requested too often.&#xd;
+&#xd;
+- So which implant has your interest [proxy]? Or are you here to pick up some saline?&#xd;
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;genki_implants_know&quot;) &gt; 1 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Install implant (5h, 1000c.)</name>
+      <value>city/hospital/genki/preg_implant_normal</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Small growing implant (5h, 2000c.)</name>
+      <value>city/hospital/genki/preg_gimplant_small</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Medium growing implant (5h, 2500c.)</name>
+      <value>city/hospital/genki/preg_gimplant_medium</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Big growing implant (5h, 3000c.)</name>
+      <value>city/hospital/genki/preg_gimplant_big</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy Saline</name>
+      <value>city/hospital/genki/select_saline</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/genki/r_to_cabinet</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

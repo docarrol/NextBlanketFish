@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/t_beast/win</name>
+  <descr>Beast tries to retreat, but it&apos;s too late! [Proxy] wins!&#xd;
+&lt;%activePartner.addStat(&quot;generic.str&quot;, 0.5);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Collect Semen</name>
+      <value>battle/t_beast/collect_semen</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>battle/t_beast/leave</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

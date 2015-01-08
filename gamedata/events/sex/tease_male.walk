@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/tease_male</name>
+  <descr>[Proxy] flexes [hisher] muscles to show [target] [hisher] figure.&#xd;
+&lt;%Include(&quot;sex/calc_tease&quot;);%&gt;&#xd;
+</descr>
+  <conditions>proxy.isMale();</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

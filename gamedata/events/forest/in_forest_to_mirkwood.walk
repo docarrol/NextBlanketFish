@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_forest_to_mirkwood</name>
+  <descr>After some time spent randomly walking, [Proxy] finds a spot where the forest begins to change. The trees before [himher] have thicker, darker bark, stand closer together, and loom larger. Only a light breeze blowing through their thick canopies make them sway enough to allow random spots of sunshine to filter through, creating small oasis of bright light in the otherwise dimly lit forest. And the only sound that can be heard coming from the woods, besides the wind, is the sporadic call of some distant crows.
+
+</descr>
+  <conditions>Chance(30);</conditions>
+  <picturePath>forest/to_mirkwood.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Go Further</name>
+      <value>forest/mirkwood</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Go Back</name>
+      <value>forest/lightwood</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

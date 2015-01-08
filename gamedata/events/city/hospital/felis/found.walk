@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/found</name>
+  <descr>After wandering for a bit, [Proxy] finds a door in the rather large lab that is not closed all the way. Curiosity getting the better of [himher], she looks through the open doorway and sees a woman in a doctor&apos;s robe working on something. Before [proxy] can duck out of sight, the woman inside the room notices [proxy], stops what she is working on, and smiles at [himher].
+
+- Hello. I am doctor Andrea Felis. Are you lost or looking for something?
+
+[Proxy] blushes while stammering that [heshe] got lost and apologizes for interrupting her work. As [heshe] turns to leave, Dr. Felis asks [himher] to wait.
+
+&lt;%DisplayChar(&quot;char/felis.png&quot;); &quot;&quot;;%&gt;
+&lt;%Include(&quot;hospital/felis/greeting&quot;);%&gt;
+&lt;%SetPerFlag(&quot;found_felis&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>Chance(30);</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

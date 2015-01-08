@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/maxed_tiredness</name>
+  <descr>[Proxy] is too exhausted to do anything. You should immediately turn off the proxy. [Proxy] will return home on [hisher] own, after some rest.</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Turn off Proxy</name>
+      <value>system_events/return_to_home_after_rest</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

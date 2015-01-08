@@ -1,0 +1,18 @@
+<fetishmaster.components.StatEffect>
+  <name>gestamin</name>
+  <value>0.0</value>
+  <timer>100</timer>
+  <script>ut = self.getOrgan(&quot;uterus&quot;);&#xd;
+&#xd;
+for (i=0; i&lt;31; i++)&#xd;
+{&#xd;
+ut.nextHour();&#xd;
+}&#xd;
+&#xd;
+if(self.getFlag(&quot;in_labour&quot;) &gt; 0)&#xd;
+{&#xd;
+self.removeEffect(&quot;uterus.volume&quot;, &quot;gestamin&quot;);&#xd;
+}</script>
+  <tmp>true</tmp>
+  <endText></endText>
+</fetishmaster.components.StatEffect>

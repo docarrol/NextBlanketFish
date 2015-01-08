@@ -1,0 +1,13 @@
+<fetishmaster.items.Item>
+  <name>Lust Pill</name>
+  <descr>This pill causes your arousal to grow instantly.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>consumer.addStat(&quot;generic.arousal&quot;, 10);
+self.MoodShame(30);</useScript>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>100</value>
+  <sellValue>50</sellValue>
+  <weight>0.1</weight>
+</fetishmaster.items.Item>

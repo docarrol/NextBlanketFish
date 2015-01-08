@@ -1,0 +1,13 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/search_around_noting</name>
+  <descr>[Proxy] searches around for a while, but finds nothing of interest.</descr>
+  <conditions>1</conditions>
+  <picturePath>city/redlight_district.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

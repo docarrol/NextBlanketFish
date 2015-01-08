@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/psy_depression_help</name>
+  <descr>[Proxy] lays on the sofa and talks with the psychologist. [HisHer] worries do not trouble [himher] as much anymore.
+&lt;%
+activePartner.addStat(&quot;generic.mood&quot;, 30);
+activePartner.inventory.removeMoney(100);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>activePartner.inventory.moneyCount() &gt; 100;</conditions>
+  <picturePath>city/hospital/doctor_psy.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

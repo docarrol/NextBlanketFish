@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/research_wing</name>
+  <descr>There are many doors in this corridor, all are closed. [Proxy] doesn&apos;t see anything interesting here. Yet.</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Reception</name>
+      <value>city/hospital/reception</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Look around (1h)</name>
+      <value>city/hospital/research_look</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Room 204</name>
+      <value>city/hospital/pills/intro</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dr. Felis lab</name>
+      <value>city/hospital/felis/in_lab</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dr. Genki office</name>
+      <value>city/hospital/genki/in_cabinet</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dr. Lyle office</name>
+      <value>city/hospital/lyle/lyle_office</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dr. Lyle</name>
+      <value>city/hospital/lyle/lyle_end</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/inside_mira_house</name>
+  <descr>The interior of Mira&apos;s house looks even better than the outside - she must be good at housework.&#xd;
+&lt;%Include(&quot;char/mira_init&quot;);&#xd;
+Include(&quot;char/romul_init&quot;);&#xd;
+DisplayChar(&quot;char/mira.png&quot;);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&lt;%Include(&quot;mira_house/mira_home&quot;); &quot;&quot;%&gt;&#xd;
+&lt;%Include(&quot;mira_house/romul_home&quot;); &quot;&quot;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>kt_village/inside_mira_house.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/outside_mira_house</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

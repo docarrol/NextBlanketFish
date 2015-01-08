@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/vag_stretch/dildo_2</name>
+  <descr>[=proxy][Proxy] spends a full hour with the dildo. It becomes easier and easier to move it, especially as [heshe] gets used to relaxing [hisher] [vagina] at will.&#xd;
+&lt;%LustShame(10, 30); &quot;&quot;;%&gt;&#xd;
+&lt;%Include(&quot;base/vag_stretch_norm&quot;);%&gt;</descr>
+  <conditions>proxy.getStat(&quot;vagina.width&quot;) &gt; 4;</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

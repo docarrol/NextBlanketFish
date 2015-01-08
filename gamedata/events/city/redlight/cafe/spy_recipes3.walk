@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/spy_recipes3</name>
+  <descr>The chief cook raises an eyebrow.
+
+- Usualy we using it fresh, straight from the source, but...
+
+She, grumbles to themselves and takes the 20 bottles of milk out to the cool room. Whilst the cook is away [proxy] can flick through the cook books. She spies a book on cream cakes, and found one. Upon further inspection she sees that the recipe is for cream eclairs, &lt;%Include(&quot;fetish_cafe/result_recipe_spy&quot;);%&gt;
+&lt;%RemoveItem(&quot;breast_milk&quot;, 20); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;muffin_top_quest&quot;) == 2 &amp;&amp; GetPerFlag(&quot;muffin_top_quest&quot;) &lt; 4 &amp;&amp; HasItems(proxy, &quot;breast_milk&quot;, 20);
+</conditions>
+  <picturePath>city/fcafe/kitchen_interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/kitchen_interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

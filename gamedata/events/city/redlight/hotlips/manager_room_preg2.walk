@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/manager_room_preg2</name>
+  <descr>The manager is a business woman who introduces herself as Ms. Tendo.&#xd;
+&#xd;
+- I&apos;m sorry, but pregnant girls not allowed to work here. We are classic club, with the old fashion rules. Please, return after you have this baby and not forget to excise after you big day to get back in the shape.&#xd;
+</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 5;</conditions>
+  <picturePath>city/hotlips/manager.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/special/paizuri_skill3</name>
+  <descr>&lt;% c = proxy;&quot;&quot;;%&gt; [Proxy] pushes her &lt;% Include(&quot;c_od/breasts&quot;);%&gt; against [target]&apos;s [=target][penis] and shoves her tits up and down. [target] has trouble speaking normal words, [t-heshe] is that amazed by [Proxy]&apos;s boobjob. 
+
+&lt;%Include(&quot;sex/paizuri_cum&quot;); %&gt;
+
+&lt;%Include(&quot;sex/calc_special_paizuri&quot;); &quot;&quot;;%&gt;	
+&lt;%Include(&quot;sex/paizuri/image_size&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;breasts.size&quot;) &gt; 7 &amp;&amp; iTarget.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.getStat(&quot;skill.paizuri&quot;) &gt; 40;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

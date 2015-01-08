@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/hugemilkingcups</name>
+  <descr>Neferi hands [proxy] the pump and a big box.
+
+- There you go! I&apos;ve provided a wide range of cups as you can see, it goes even bigger than your head if, you know... You get overboard a bit.*grin* Anyway, have fun with it and I&apos;ll see you soon!
+
+&lt;%
+activePartner.inventory.removeMoney(1000);
+SetFlag(&quot;huge_milking_cups&quot;, 1);
+DisplayChar(&quot;char/neferi.png&quot;);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;neferi_magic_dildo&quot;) == 1 &amp;&amp; GetFlag(&quot;huge_milking_cups&quot;) &lt; 1 &amp;&amp; activePartner.inventory.moneyCount() &gt;= 1000;</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/daria_shrine_talk</name>
+  <descr>[Proxy] and Daria wander the temple grounds, [Proxy] telling Daria some news and rumors from the outside. Though she is a goddess, it&apos;s clearly interesting to her. After spending some time talking, [proxy] says [heshe] needs to get going. As they parts ways, [proxy] feels refreshed after having talked to Daria.
+
+&lt;%DisplayChar(&quot;char/daria.png&quot;);
+proxy.subStat(&quot;generic.tiredness&quot;, 20); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>forest/daria_shrine.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/mirkwood</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

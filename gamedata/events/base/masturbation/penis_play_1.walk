@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/masturbation/penis_play_1</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;&lt;%activePartner.getName();%&gt; is feeling very aroused and is ready for some fun. Before &lt;%activePartner.HeShe();%&gt; begins &lt;%activePartner.HeShe();%&gt; gets out &lt;%activePartner.HisHer();%&gt; favorite book, a story about an orgy, filled with sex, anal play, and cum-shots for everyone. Then &lt;%activePartner.HeShe();%&gt; grabs a plastic mattress cover, to make sure she has plenty of room to slide around and to help keep the place clean. 
+
+&lt;%activePartner.getName();%&gt; grabs a bottle of lube and squirts a liberal amount onto &lt;%activePartner.HisHer();%&gt; &lt;%Include(&quot;c_od/penis&quot;);%&gt;. Now completely ready, &lt;%activePartner.HeShe();%&gt; starts to read the book, all the while stroking &lt;%activePartner.HimHer();%&gt;self. After getting only a few chapters in, &lt;%activePartner.HeShe();%&gt; decides that more active stimulation is needed and places the book to the side. &lt;%@activePartner.HeShe();%&gt; takes the rest of the bottle of lube and starts to empty it all over &lt;%activePartner.HimHer();%&gt;self and the cover.
+
+Rolling onto &lt;%activePartner.HisHer();%&gt; stomach, &lt;%activePartner.HeShe();%&gt; begins to slide around while imagining that &lt;%activePartner.HeShe();%&gt; is in the large group of people fucking from &lt;%activePartner.HisHer();%&gt; erotic book.
+
+The sensation of &lt;%activePartner.HisHer();%&gt; &lt;%Include(&quot;c_od/penis&quot;);%&gt; pressed between &lt;%activePartner.HisHer();%&gt; &lt;%Include(&quot;c_od/abdomen&quot;);%&gt; and the slick sheet soon brings &lt;%activePartner.HimHer();%&gt; to orgasm. &lt;%@activePartner.HeShe();%&gt; shudders and begins to pump a nice load of semen between &lt;%activePartner.HisHer();%&gt; &lt;%Include(&quot;c_od/abdomen&quot;);%&gt; and the sheet, adding to the slickness and sensation, and continuing to slide around, delighting in the feeling of &lt;%activePartner.HisHer();%&gt; own cum.
+
+&lt;%proxy.doAction(&quot;orgasm&quot;); 
+proxy.setStat(&quot;generic.arousal&quot;, 0); 
+proxy.addStat(&quot;skill.striptease&quot;, 1);
+RelaxShame(0.5);
+proxy.subStat(&quot;generic.calories&quot;, 50);
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; ShameCheck(5) &lt; 1;</conditions>
+  <picturePath>base/masturbation_f.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

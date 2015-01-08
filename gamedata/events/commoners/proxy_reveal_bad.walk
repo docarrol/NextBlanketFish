@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/proxy_reveal_bad</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;You decided: it&apos;s time to tell &lt;%c.getName();%&gt; about yourself. So [Proxy] takes time and tells &lt;%c.getName();%&gt; your story, and about [hisher] contract, then you both look at &lt;%c.getName();%&gt; waiting for &lt;%c.HisHer();%&gt; reaction.
+
+- That&apos;s disgusing! At least you do it by yours own decision in first place, so it&apos;s your&apos;s own buisness... But do not aproach me anymore!
+
+&lt;% c.setFlag(&quot;proxy_reveal&quot;, 1); &quot;&quot;;%&gt;
+&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;
+</descr>
+  <conditions>(proxy.getStat(ctv.getUID()+ &quot;.relations&quot;) &gt; 5) &amp;&amp; ctv.getFlag(&quot;proxy_reveal&quot;) == 0; </conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

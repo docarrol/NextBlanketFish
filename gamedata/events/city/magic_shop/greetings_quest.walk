@@ -1,0 +1,54 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/greetings_quest</name>
+  <descr>Christian stands up to greet [proxy]:
+
+- And you&apos;re back! Well, any success?</descr>
+  <conditions>res = 0;
+if (PerGetFlag(&quot;christian_quest&quot;) == 1 &amp;&amp; PerGetFlag(&quot;carry_belanika_crystal&quot;) == 1 &amp;&amp; (clock.isDay() || clock.isEvening()))
+	res = 1;
+res;</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Trade</name>
+      <value>city/magic_shop/trade</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about charger crystal</name>
+      <value>city/magic_shop/christian_can_repair</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Exchange Batteries</name>
+      <value>city/magic_shop/exchange_batteries</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Repair Crystal</name>
+      <value>city/magic_shop/christian_repair_crystal</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Can you build a milker?</name>
+      <value>city/magic_shop/can_you_build_milker</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Is milker ready?</name>
+      <value>city/magic_shop/milker_is_ready</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

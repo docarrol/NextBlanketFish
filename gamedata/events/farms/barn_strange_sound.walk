@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/barn_strange_sound</name>
+  <descr>After looking around, &lt;%activePartner.getName();%&gt; has found a way into a closed barn. Looking inside, &lt;%activePartner.get2ndPerson();%&gt; hear strange sounds coming from the far end. What should &lt;%activePartner.get2ndPerson();%&gt; do?</descr>
+  <conditions>clock.isEvening()</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Investigate</name>
+      <value>farms/belanika_hello</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

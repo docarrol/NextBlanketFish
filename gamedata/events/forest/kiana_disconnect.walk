@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/kiana_disconnect</name>
+  <descr>&lt;% proxy.setFlag(&quot;kiana_tell_disco&quot;, 1); &quot;&quot;;%&gt;
+&lt;%EndWalkWithTimedReturn(48);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>char/kiana_scared.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

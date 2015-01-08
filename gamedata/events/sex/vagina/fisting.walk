@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/vagina/fisting</name>
+  <descr>[proxy] skillfully fist [target]&apos;s pussy, trying to milk an orgasm out of [t-himher]!&#xd;
+&lt;%Include(&quot;sex/calc_vagina_fist&quot;);%&gt;&lt;%Include(&quot;sex/generic_t_orgasm&quot;);%&gt;&lt;%Include(&quot;sex/vaginal_sex/fisting&quot;);%&gt;</descr>
+  <conditions>iTarget.getStat(&quot;generic.arousal&quot;)&gt; 50 &amp;&amp; proxy.getStat(&quot;skill.handjob&quot;) &gt;= 40;</conditions>
+  <picturePath>sex/vaginal_fisting.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,23 @@
+<fetishmaster.components.StatEffect>
+  <name>pregnancy_postpartum</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>uv = This.getValue();&#xd;
+&#xd;
+uv = calc.procent(uv, 99);&#xd;
+&#xd;
+This.setValue(uv);&#xd;
+&#xd;
+sysprint(&quot;uv=&quot;+uv);&#xd;
+&#xd;
+if (uv &lt; 20)&#xd;
+{&#xd;
+	self.removeEffect(&quot;uterus.volume&quot;, &quot;pregnancy_postpartum&quot;);&#xd;
+	debug.log(&quot;Pregnancy postpartum effect gone&quot;);&#xd;
+}&#xd;
+</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

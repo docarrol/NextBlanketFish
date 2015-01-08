@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/q1_yes</name>
+  <descr>- Then it&apos;s a deal!
+
+&lt;%
+SetFlag(&quot;muffin_top_quest&quot;, 1);
+ &quot;&quot;;%&gt;
+&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

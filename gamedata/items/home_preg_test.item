@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>Home pregnancy test</name>
+  <descr>Classic home pregnancy test. Not 100% accurate but gives fast results.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <useText>Can&apos;t be used as regular item, there is option in you house to do a test.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>40</value>
+  <sellValue>0</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/inspect_womb6</name>
+  <descr>You inspect &lt;%activePartner.getName()%&gt; uterus with the scanner:
+
+Foetus count: &lt;%proxy.getStat(&quot;uterus.embrios&quot;);%&gt;
+Foetus grow rate: &lt;%proxy.getStat(&quot;foetus.grow_rate&quot;);%&gt;
+Fertility:  &lt;%(int)activePartner.getRNAValue(&quot;fertility.human&quot;)%&gt;%.
+Ovulation &lt;%(int)activePartner.getRNAValue(&quot;fertility.ovulation_ova&quot;)%&gt;.
+Extra Ovulation: &lt;%(int)activePartner.getRNAValue(&quot;fertility.extra_ova&quot;) %&gt;%.
+Abdomen Current Volume: &lt;%(int)activePartner.getRNAValue(&quot;abdomen.volume&quot;)%&gt;
+Abdomen Maximum Volume: &lt;%(int)activePartner.getRNAValue(&quot;abdomen.max_volume&quot;)%&gt;
+Belly Fat Volume: &lt;%(int)activePartner.getRNAValue(&quot;abdomen.fat&quot;);%&gt;          
+
+</descr>
+  <conditions>if (activePartner.getRNAValue(&quot;abdomen.size&quot;) &gt;= 100 &amp;&amp; GetFlag(&quot;base_uterus_scanner&quot;) == 1)
+	true;
+else
+	false;
+</conditions>
+  <picturePath>base/belly/extremebelly.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to hall</name>
+      <value>in_the_base</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>7</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

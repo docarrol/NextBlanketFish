@@ -1,0 +1,19 @@
+<fetishmaster.items.Item>
+  <name>Pancake</name>
+  <descr>Pancake with a delicious smell.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addStat(&quot;generic.health&quot;, 5);&#xd;
+self.subStat(&quot;generic.tiredness&quot;, 10);&#xd;
+self.addStat(&quot;generic.calories&quot;, 200);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 100);&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+&quot;&quot;;</useScript>
+  <useText>Pancakes were as delicious as their aroma.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>5</value>
+  <sellValue>0</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

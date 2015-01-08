@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/cum_inside</name>
+  <descr>[target] pounds [proxy] at a breakneck pace, rapidly approaching the point of no return, [target] grunts, shooting a load into [proxy]! &lt;%
+act = iTarget.doAction(&quot;orgasm&quot;);
+vol = act.get(&quot;penis&quot;, &quot;cum&quot;);
+InjectSperm(iTarget, proxy, vol);
+taker = proxy;
+giver = iTarget;
+volume = vol;
+&quot;&quot;;
+%&gt;&lt;%Include(&quot;sex/cumshot/vaginal&quot;);%&gt;[=taker]&lt;%Include(&quot;sex/cumshot/semen_in_uterus&quot;);%&gt;[=taker]&lt;%Include(&quot;sex/cumshot/semen_in_vagina&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

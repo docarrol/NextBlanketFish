@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/vag_stretch/magic_dildo</name>
+  <descr>[proxy] selects the magic dildo and spend a full hour playing with it, it&apos;s size accomodating to pleasureably stretch her love canal. A the end of [hisher] session [heshe] feels as dildo insertion become easier and feels up her vulva, slightly bloated and fatter than usual, almost giving her another orgasm just from feeling it and in fact, her pussy feels wetter than normal, probably a pleasant side-effect.&#xd;
+&lt;%if (self.getStat(&quot;vagina.width&quot;) &lt; 25)&#xd;
+	{&#xd;
+	Include(&quot;base/vag_stretch_norm&quot;);&quot;&quot;;&#xd;
+	}&#xd;
+if (self.getStat(&quot;vagina.vulva_size&quot;) &lt; 15)&#xd;
+	{&#xd;
+	Include(&quot;base/vulva_bloat_norm&quot;);&quot;&quot;;&#xd;
+	}&#xd;
+LustShame(15, 30); &quot;&quot;;&#xd;
+if (self.getStat(&quot;vagina.goo_modifier&quot;) &lt; 3)&#xd;
+{&#xd;
+self.setStat(&quot;vagina.goo_modifier&quot;, 3); &quot;&quot;;&#xd;
+}&#xd;
+%&gt;</descr>
+  <conditions>GetFlag(&quot;neferi_magic_dildo&quot;) == 1;</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

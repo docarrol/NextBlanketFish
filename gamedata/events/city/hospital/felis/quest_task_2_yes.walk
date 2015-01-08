@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/quest_task_2_yes</name>
+  <descr>- [proxy], I am glad that you are willing to assist me with this experiment. Now please swallow this. It is a new version of the lactation enhancing drug.
+
+Dr. Felis holds out a pill to [proxy], who immediately takes and swallows it down.
+
+- It is not any stronger, but it is supposed to work longer. By the estimates I have come up with, about a week. What I am trying to discover is if this version will overcome the natural tendency of lactation drying up if there is no demand. What I require of you is to wait for your breasts to get as full as they can then return to me for an exam before the week is out. I will be waiting.
+
+&lt;%SetPerFlag(&quot;felis_quest&quot;, 4);
+proxy.setRNAactive(&quot;breasts.lact_rate&quot;, true);
+proxy.addEffect(&quot;breasts.lact_rate&quot;, &quot;felis_pill&quot;, 100, 160, proxy.getName()+&quot; breasts don&apos;t feel so hot anymore...&quot;);
+proxy.MoodShame(35);
+ &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/felis.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

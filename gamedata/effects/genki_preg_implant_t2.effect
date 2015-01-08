@@ -1,0 +1,36 @@
+<fetishmaster.components.StatEffect>
+  <name>preg_implant_t2</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>moist = (self.getStat(&quot;vagina.moist&quot;)+1);&#xd;
+maxvol = self.getFlag(&quot;preg_implant_max_volume&quot;);&#xd;
+sysprint(&quot;Current moistness: &quot;+moist);&#xd;
+&#xd;
+cvol = self.getStat(&quot;uterus.volume&quot;);&#xd;
+&#xd;
+if (cvol &lt; maxvol)&#xd;
+{&#xd;
+	self.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, cvol+moist/2);&#xd;
+}&#xd;
+else&#xd;
+{&#xd;
+	self.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, maxvol);&#xd;
+}&#xd;
+&#xd;
+if (self.hasEffect(&quot;uterus.volume&quot;, &quot;implant_postpartum&quot;))&#xd;
+{&#xd;
+	self.updateEffect(&quot;uterus.volume&quot;, &quot;postpartum_volume&quot;, cvol/2);&#xd;
+	self.removeEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);&#xd;
+	self.removeEffect(&quot;uterus.volume&quot;, &quot;preg_implant_t2&quot;);&#xd;
+	sysprint(&quot;Uterus implant removed.&quot;);&#xd;
+}&#xd;
+&#xd;
+//anti pregnancy&#xd;
+self.setStat(&quot;uterus.phase&quot;, 4);&#xd;
+self.setStat(&quot;uterus.postpartum_time&quot;, 0);&#xd;
+</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

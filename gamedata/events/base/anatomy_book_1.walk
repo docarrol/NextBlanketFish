@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/anatomy_book_1</name>
+  <descr>You notice some biology books. Opening one up, you read an excerpt from the &quot;Popular anatomy&quot; section.
+
+... As you may well know, in the world of fauna when the DS appeared, a third gender type was created. There is even a proposal by some scientists to count neuters as a fourth gender [2], though official science can not count them as such due to a neuters inability for natural reproduction [3]. So for now they are considered a genetic anomaly.
+
+In the case of the third gender, futanari, some has tried to gather evidence of them being a genetic anomaly as well [4]. But it has been very problematic, for as any first year medical student that&apos;s learning about anatomy has learned, futanari are not just females with some male parts. Their internal organs have their own unique structure. Though their appearance is female with the addition of a male penis, and in a lot of cases testicles, internally they are slightly different.
+
+As you well know, the male and female sexual organs form and grow from the same cells of the embryo. But in the case of a futanari embryo, they have two sets of such cells that form two sexual, but not fully isolated systems that work as one in the adult body. From the second set of &quot;uterus&quot; cells, an organ forms in a futanari that does not have a male equivalency. This organ has been termed a &quot;pouch&quot; [5]. Its function has been found to act as a semen store. We know not why this organ has evolved as such to allow a futanari to store much more semen relative to a male. Some scientists have speculated that it is nature&apos;s way to ensure a species survival by granting the ability to inseminate several females in one session of copulation [6].
+
+On the subject of procreation, a futanari is also able to adequately perform the role of both sexes. But it is with a bit of irony of nature. They normally can not have children with another futanari. Though there have been documented cases of a futanari couple beating the odds [7]. And even rarer cases of self-fertilization have been found [8]. As for the reasons why this peculiarity exists, scientists are still unsure. There are those in the scientific community hypothesizing that it is nature&apos;s safety valve, ensuring that the male sex is not diluted out, but again, the study is on going [9]. 
+
+Confusing scientists that are trying to declare futanaris an anomaly is that all futanari in human society predominately have a feminine personality. This phenomenon is related to their biological makeup. It has been found that a futanari normally has more estrogen then testosterone flowing through their veins. Thusly this makes them appear female. And because they appear female, it has formed an appropriate psychological reaction in humans. Even though most men and women that have been polled in the past [10] have felt slightly uneasy around them, recent surveys [11] has shown that a futanari&apos;s feminine personality has eased such tensions.
+
+This is also the main source of the current gender ratio in humans. Futanaris have a ten to one ratio compared to the population of both males and females [12], as opposed to that of wild animals. The evidence that could be gathered has shown in the large mammal populations a sexual ratio closer to one [13] across all three sexual orientations. This ratio is relatively stable, as we can see in current history...
+
+</descr>
+  <conditions>proxy.isFuta();</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

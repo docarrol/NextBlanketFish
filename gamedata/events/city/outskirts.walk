@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/outskirts</name>
+  <descr>Here you are reminded of a more simple life. It feels like the DS had almost no impact on local daily life.
+
+&lt;%Include(&quot;brothel/outside&quot;);%&gt;
+&lt;%Include(&quot;rumors/common&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/outskirts.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>The Edge</name>
+      <value>city/edge_of_city</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Home</name>
+      <value>homestreet/in_front_of_home</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Road to Sea</name>
+      <value>city/path_to_seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

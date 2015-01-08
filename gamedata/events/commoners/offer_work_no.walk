@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/offer_work_no</name>
+  <descr>- No! I am not interested.
+&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>ctv.getFlag(&quot;proxy_reveal&quot;) == 2 &amp;&amp; ctv.getStat(&quot;generic.lewdness&quot;) &lt; 30 </conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

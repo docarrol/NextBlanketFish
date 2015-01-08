@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/reset_scans</name>
+  <descr>[Proxy] tells Todd [heshe] wishes to reset the scans.
+
+-Oh, you want to use this proxy instead for this test? Sure, I&apos;ll do that.
+
+
+&lt;% cuid = proxy.getUID(); SetTextFlag(&quot;todd_current_proxy&quot;, cuid);&quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_started_help&quot;) &gt; 1 &amp;&amp; GetFlag(&quot;todd_in_experiment&quot;) == 1 &amp;&amp; GetFlag(&quot;todd_project_display_upgrade&quot;) != 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

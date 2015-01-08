@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/child/to_daria_old</name>
+  <descr>You call Daria to give [proxy] to her.
+
+Daria materializes in a soft glow, but after looking at [proxy] Daria says:
+
+- I&apos;m sorry, but [heshe] is too old. It&apos;s too late to begin the path of the Miko for [himher]. If you have another candidate, please call me again...
+
+Then she vanishes.
+</descr>
+  <conditions>proxy.getAge() &gt; 9000;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>system_events/end_of_walking</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

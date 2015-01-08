@@ -1,0 +1,53 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/bealnika_milker_repaired</name>
+  <descr>&lt;%activePartner.getName();%&gt; sets the repaired mana crystal in its mount on the milk machine&apos;s motor and steps back. At first nothing seems to happen, which makes Belanika sigh sadly. Frowning in frustration, [proxy] begins to look over the motor to see if there is anything else [heshe] can do. Just as [heshe] reaches for the crystal to pull it back out and check it, the crystalline begins to emit a soft, green light. When it does, an indicator on the motor showing the mana crystal&apos;s current charge level starts to slowly rise. [proxy] turns to look at the cowgirl with a grin and tell her it&apos;s a successful repair! Belanika is very happy to see this.
+
+-Thank you! Thank you so very much [proxy]! Now I&apos;m finally able to live normally again.
+
+She giggles softly while rubbing at the sides of her massive breasts.
+
+- Hmm... Well as normally as possible for me. From what I know, the crystal will take about an hour to fully charge so there&apos;s no need for you to wait here until it&apos;s done. But in the meantime there should be just enough power for me to use it.
+
+[proxy] sees Belanika suddenly frowning slightly in thought.
+
+- You know, I&apos;m not sure if this will be an adequate measure of gratitude for everything you&apos;ve done for me, but I don&apos;t have a better idea. It seems to me that you&apos;re interested in this...
+
+The busty cowgirl wraps both arms around as much of her monumental breasts as she can to hug them to her and smiles at [proxy]. Holding them for just a moment, she lets them go, the voluminous boobs undulating on her chest like gigantic jello molds. [proxy] swears [heshe] can hear the faint sound of sloshing.
+
+- If you&apos;re interested following in my path, I have this thing that might come in handy for you. It&apos;s a scanner for the breasts. It shows a lot, for sure. But unfortunately it doesn&apos;t work on my breasts anymore... Since I can no longer use it, I&apos;m offering it to you.
+
+[proxy] begins to thank Belanika, but the cowgirl raises a hand to stop [himher] and shakes her head with a smile.
+
+- No need to thank me. I really wish I could do more [proxy]. If you hadn&apos;t come along I would still be stuck in this spot with my overfilled tits and udder keeping me pinned down until... Well until my boyfriend returned or someone other found me... So enjoy the scanner and don&apos;t forget to drop by once in awhile. I will always be glad to see you. Before you go, may you hand me the teat cups and turn on the milker when I&apos;m ready?
+
+[proxy] nods and picks up the teat cups hanging off the milker then walks over and gives them to Belanika. Walking back over to the power switch on the milker, [heshe] waits until Belanika works the cups onto her nipples and quietly nods at [himher]. When [heshe] turns the milker on, the motor stutters for a moment before kicking over and smoothly turning the pump. Belanika lays back and sighs happily as the cups start to suckle at her aching nipples, waving to [proxy] as [heshe] picks up [hisher] satchel and leaves the barn.
+
+Belanika gave &lt;%activePartner.getName();%&gt; a scanner that can be used during sexual training. 
+(Since the scanner requires a power source, it must be installed at your house.)
+
+&lt;%
+SetFlag(&quot;belanika_quest&quot;, 3);
+SetFlag(&quot;home_breast_scanner&quot;, 1);
+PerSetFlag(&quot;belanika_friend&quot;, 1);
+proxy.addStat(&quot;belanika.relations&quot;, 35);
+PerRemoveFlag(&quot;carry_belanika_crystal&quot;);
+&quot;&quot;;%&gt;
+&lt;%Include(&quot;char/belanika_init&quot;); 
+act = belanika.doAction(&quot;milking&quot;); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/cowgirl2.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

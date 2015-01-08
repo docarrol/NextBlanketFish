@@ -1,0 +1,46 @@
+<fetishmaster.items.Item>
+  <name>Horse Bean</name>
+  <descr>A strange fruit from the forest. Smells a little fishy and becomes intoxicating over time.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>res = &quot;Has a strange, salty taste that is not all that bad. &lt;%self.getName();%&gt; still feels the same...&quot;;&#xd;
+&#xd;
+// only for those with balls..&#xd;
+if (self.hasOrgan(&quot;balls&quot;))&#xd;
+{&#xd;
+  rt = self.getStat(&quot;balls.prod_rate&quot;);&#xd;
+  self.updateEffect(&quot;balls.prod_rate&quot;, &quot;horse_bean&quot;, rt*3, 48);&#xd;
+  res = &quot;The taste is both salty and sweet. After consuming it, &lt;%self.getName();%&gt;&apos;s balls begin to feel hot...&quot;;&#xd;
+}&#xd;
+&#xd;
+// restore addiction times.&#xd;
+if (self.hasEffect(&quot;generic.end&quot;, &quot;horse_bean_addict&quot;))&#xd;
+{&#xd;
+  self.updateEffect(&quot;generic.end&quot;, &quot;horse_bean&quot;, 20, 48);&#xd;
+  self.updateEffect(&quot;generic.end&quot;, &quot;horse_bean_addict&quot;, -20, 720);&#xd;
+  self.updateEffect(&quot;generic.mood&quot;, &quot;horse_bean&quot;, 20, 48);&#xd;
+  self.updateEffect(&quot;generic.mood&quot;, &quot;horse_bean_addict&quot;, -20, 720);&#xd;
+  res = &quot;After consuming another bean, &lt;%self.getName();%&gt;&apos;s balls feel hot again... \nSick feeling goes away.&quot;;&#xd;
+}&#xd;
+&#xd;
+// some chance to catch addiction...&#xd;
+if (self.hasOrgan(&quot;balls&quot;) &amp;&amp; calc.chance(30))&#xd;
+{&#xd;
+  sysprint(&quot;Horse bean addiction added&quot;);&#xd;
+  self.updateEffect(&quot;generic.end&quot;, &quot;horse_bean_addict&quot;, -20, 720);&#xd;
+  self.updateEffect(&quot;generic.end&quot;, &quot;horse_bean&quot;, 20, 48);&#xd;
+  self.updateEffect(&quot;generic.mood&quot;, &quot;horse_bean_addict&quot;, -20, 720);&#xd;
+  self.updateEffect(&quot;generic.mood&quot;, &quot;horse_bean&quot;, 20, 48);&#xd;
+}&#xd;
+&#xd;
+self.addStat(&quot;generic.calories&quot;, 200);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 100);&#xd;
+res;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>100</value>
+  <sellValue>20</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

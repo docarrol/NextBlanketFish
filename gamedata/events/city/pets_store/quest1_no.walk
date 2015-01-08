@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/pets_store/quest1_no</name>
+  <descr>What a shame... But if you know someone who can do it - tell them please.
+&lt;%DisplayChar(&quot;char/uren.png&quot;); &quot;&quot;;%&gt;
+&lt;%SetPerFlag(&quot;uren_quest&quot;, 99); &quot;&quot;;%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/pets_store/inside.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

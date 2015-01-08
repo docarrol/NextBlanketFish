@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/mira_house_knock_1time</name>
+  <descr>A girl opens door. She can be typical rural human girl, if not a pair of huge breasts, and pair of horns on the her head.
+
+- Hello? What you are need?
+&lt;%Include(&quot;char/mira_init&quot;);
+DisplayChar(&quot;char/mira.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetTextFlag(&quot;mira_place&quot;) == &quot;home&quot; &amp;&amp; GetTextFlag(&quot;romul_place&quot;) != &quot;home&quot;;</conditions>
+  <picturePath>kt_village/mira_house.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To meet peoples</name>
+      <value>kt_village/mira_hello_meet</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

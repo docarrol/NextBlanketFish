@@ -1,0 +1,37 @@
+<fetishmaster.components.StatEffect>
+  <name>kiana_schedule</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>if (clock.getHours() == 6)
+{
+SetTextFlag(&quot;kiana_place&quot;, &quot;forest&quot;);
+}
+if (clock.getHours() &gt;= 8 &amp;&amp; clock.getHours() &lt; 19)
+{
+SetTextFlag(&quot;kiana_place&quot;, &quot;seafront&quot;);
+}
+
+if (clock.getHours() &gt;= 8 &amp;&amp; clock.getHours() &lt; 19 &amp;&amp; Chance(30))
+{
+SetTextFlag(&quot;kiana_place&quot;, &quot;seafront_cafe&quot;);
+}
+
+if (clock.getHours() &gt;= 8 &amp;&amp; clock.getHours() &lt; 19 &amp;&amp; Chance(20))
+{
+SetTextFlag(&quot;kiana_place&quot;, &quot;seafront_street&quot;);
+}
+
+if (clock.getHours() == 19 )
+{
+SetTextFlag(&quot;kiana_place&quot;, &quot;forest&quot;);
+}
+
+if (clock.getHours() == 21)
+{
+SetTextFlag(&quot;kiana_place&quot;, &quot;home&quot;);
+}</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

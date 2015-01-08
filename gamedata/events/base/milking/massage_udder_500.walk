@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/massage_udder_500</name>
+  <descr>You are milking &lt;% activePartner.getName() %&gt;&apos;s udder and &lt;% activePartner.get2ndPerson(); %&gt; gives &lt;% activePartner.getRNAValue(&quot;udder.milk&quot;); %&gt; ml. of milk. It&apos;s enough to fill a bottle.
+&lt;% activePartner.setStat(&quot;udder.milk&quot;, 0); %&gt;
+&lt;%AddItem(self, &quot;udder_milk&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>if (self.getRNAValue(&quot;udder.milkvol&quot;) &gt; 500)
+	true;
+else
+	false;</conditions>
+  <picturePath>milking_massage.jpeg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

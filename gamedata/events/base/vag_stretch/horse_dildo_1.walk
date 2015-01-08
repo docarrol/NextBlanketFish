@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/vag_stretch/horse_dildo_1</name>
+  <descr>[=proxy][Proxy] selects a big dildo that imitates a horse&apos;s penis. After some effort, [heshe] manages to push it inside [hisher] [vagina], but it&apos;s very tight, and a little painful to [himher]. After an hour of cautious play, [heshe] becomes a little looser and more used to the size.&#xd;
+&lt;%Include(&quot;base/vag_stretch_norm&quot;);%&gt;&#xd;
+&lt;%LustShame(10, 40); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;vagina.width&quot;) &gt; 7;</conditions>
+  <picturePath>base/s_training.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

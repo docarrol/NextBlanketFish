@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/aquader/attack</name>
+  <descr>&lt;%activePartner.getName();%&gt; attempts to attack Aquader...
+
+&lt;%Include (&quot;battle/p2e_attack&quot;);%&gt;
+
+&lt;%Include (&quot;battle/e2p_attack&quot;);%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>battle/aquader/turn</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

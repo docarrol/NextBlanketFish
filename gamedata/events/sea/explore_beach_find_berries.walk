@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/explore_beach_find_berries</name>
+  <descr>Upon walking calmly on the beach, she stumbles upon a little patch of juicy looking berries growing just barely at the sea&apos;s edge. She grabs a handful of them and take those with her.
+&lt;%AddItem(&quot;bloated_berries&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>Chance(20);</conditions>
+  <picturePath>sea/beach.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

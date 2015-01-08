@@ -1,0 +1,15 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Overeat</name>
+  <conditions>HasMoney(player, 30);</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if (isTaskFirstHour() &amp;&amp; HasMoney(player, 30))&#xd;
+{&#xd;
+self.addStat(&quot;generic.calories&quot;, 500);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 300);&#xd;
+RemoveMoney(player, 30);&#xd;
+&#xd;
+res = &quot;Overeating can help fatten up your body. &quot;+self.getName()+&quot; ate more than normal. This cost about 30 coins from your account.&quot;;&#xd;
+}&#xd;
+res;</script>
+  <decription>Eating more than needed to increase weight. (30 coins)</decription>
+</fetishmaster.engine.ManagmentTask>

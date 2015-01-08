@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/ass_play/simple_wash_1</name>
+  <descr>[Proxy] felt very uncomfortably cleaning [hisher] ass. It definitely did not make [himher] feel any better and [hisher] arousal lowered considerably.&#xd;
+&#xd;
+&lt;% &#xd;
+gw = proxy.getStat(&quot;generic.lewdness&quot;);&#xd;
+cl = 0.7;&#xd;
+time = cl/24;&#xd;
+proxy.addEffectAR(&quot;ass.cleanness&quot;, &quot;ass_cleaning&quot;, cl, -time);&#xd;
+//MoodShame(55);&#xd;
+LustShame(5,35);&#xd;
+//proxy.addStat(&quot;generic.arousal&quot;, -35);&#xd;
+&#xd;
+de = IncludeRange(proxy.getStat(&quot;ass.cleanness&quot;), &quot;asscleanness&quot;);&#xd;
+res = proxy.getName() + &quot;&apos;s ass is now &quot; + de +&quot;.&quot;;&#xd;
+res;&#xd;
+%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.lewdness&quot;) &lt;= 35 &amp;&amp; proxy.getStat(&quot;generic.sex&quot;) &gt; 1</conditions>
+  <picturePath>base/ass_cleaning_1.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

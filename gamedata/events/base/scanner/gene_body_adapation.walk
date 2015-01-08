@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/scanner/gene_body_adapation</name>
+  <descr>-&lt;\/&gt;  Body Adapation Module  &lt;\/&gt;-
+
+Body Return Speed; How quick the body returns to the standard. Lower means the body will maintain its improved state longer and achieve better results.
+
+&lt;%gene = proxy.getDNAGene(&quot;generic.str&quot;);
+multiplier = gene.getBackforceRangeMult();
+simplified = multiplier * 100; &quot;&quot;;%&gt;
+Strength: &lt;%simplified;%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.dex&quot;);
+multiplier = gene.getBackforceRangeMult();
+simplified = multiplier * 100; &quot;&quot;;%&gt;
+Dexterity: &lt;%simplified;%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.end&quot;);
+multiplier = gene.getBackforceRangeMult();
+simplified = multiplier * 100; &quot;&quot;;%&gt;
+Endurance: &lt;%simplified;%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.spd&quot;);
+multiplier = gene.getBackforceRangeMult();
+simplified = multiplier * 100; &quot;&quot;;%&gt;
+Speed: &lt;%simplified;%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.int&quot;);
+backForce = gene.getBackforce(); 
+multiplier = gene.getBackforceRangeMult();
+simplified = multiplier * 100; &quot;&quot;;%&gt;
+Intelligence: &lt;%simplified;%&gt;
+&lt;%gene = proxy.getDNAGene(&quot;generic.cha&quot;);
+multiplier = gene.getBackforceRangeMult();
+simplified = multiplier * 100; &quot;&quot;;%&gt;
+Charisma: &lt;%simplified;%&gt;</descr>
+  <conditions>GetFlag(&quot;installed_adapation_upgrade&quot;) == 1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

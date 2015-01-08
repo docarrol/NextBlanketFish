@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/books/t_beasts</name>
+  <descr>[proxy] reads a book:
+
+Tentacle beasts. 
+
+Half-magic life form. Prefers forests but can be encountered even within the city borders. Natural diet is unknown, though presumably they are omnivores with a preference of liquid diet.
+
+Reproduction: Parasitic. Uses large animals as hosts for their offspring. Injects a mix of their sperm and eggs into the hosts uterus. May attack humans for this purpose. Offspring of the beast gestate very quickly, usually full pregnancy takes only a few weeks. Hosts may experience some discomfort but usually this process is not dangerous to them.
+</descr>
+  <conditions>1</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

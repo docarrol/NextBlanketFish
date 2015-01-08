@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/anal_training</name>
+  <descr>[Proxy] gets down on [her] knees spreading her ass wide open. [target] grabs [proxy]&apos;s hips and penetrates [hisher] ass slowly stretching [hisher] asshole and pushing [=target][t-hisher] [penis] deep inside [hisher] &lt;%IncludeRange(proxy.getStat(&quot;ass.width&quot;), &quot;asswidth&quot;);%&gt; &lt;%IncludeRange(proxy.getStat(&quot;ass.cleanness&quot;), &quot;asscleanness&quot;);%&gt; asshole. 
+
+&lt;%
+taker=proxy;
+giver=iTarget;
+&quot;&quot;;%&gt;
+&lt;%Include(&quot;sex/anal_sex/calc_anal_sex&quot;);%&gt; 
+&lt;%Include(&quot;sex/about_to_cum_in_p_ass&quot;);%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;ass&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;33 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; GetPerFlag(&quot;anal_sex_disgusting&quot;) &lt; 1 &amp;&amp; iTarget.getName().compareTo(&quot;Client&quot;) &gt; 0 &amp;&amp; ((iTarget.getStat(&quot;penis.width&quot;) / 2) * (iTarget.getStat(&quot;penis.width&quot;) / 2)) &lt;=
+((proxy.getStat(&quot;ass.width&quot;) / 2) * (proxy.getStat(&quot;ass.width&quot;) / 2) + Calc.percent((proxy.getStat(&quot;ass.width&quot;) / 2), 50));</conditions>
+  <picturePath>sex/sex_anal_1.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>4</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

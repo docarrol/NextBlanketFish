@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/edge_of_forest</name>
+  <descr>Here is where the only trail into the forest begins. Just ahead of [proxy], the road branches off into three different directions. One road follows along the edge of the forest and looks to head towards the sea off in the distance. The other road heads in the opposite direction, also running along the edge of the forest, heading towards some mountains. While the last one leads away from the forest and towards the city.
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath>forest/edge_of_forest.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To the side path</name>
+      <value>old_city/to_lost_city</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>To city</name>
+      <value>city/edge_of_city</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Road to sea</name>
+      <value>city/path_to_seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Walk in forest (1h)</name>
+      <value>forest/lightwood</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Walk along the forest edge (5h)</name>
+      <value>forest/edge_kt_path</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

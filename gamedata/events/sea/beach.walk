@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/beach</name>
+  <descr>You are at a small beach that is not very popular. There are rumors that strange things happen here. Maybe that is why there aren&apos;t many people here.</descr>
+  <conditions>1</conditions>
+  <picturePath>sea/beach.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Seafront</name>
+      <value>city/seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Explore beach (1h)</name>
+      <value>sea/explore_beach</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Swim (1h)</name>
+      <value>sea/take_swim</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

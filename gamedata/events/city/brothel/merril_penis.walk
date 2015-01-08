@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/merril_penis</name>
+  <descr>&lt;%Include(&quot;char/merril_init&quot;); c=proxy; &quot;&quot;;%&gt;[Proxy] oversee Merril one more time. She clearly very ready, no any prelude needed for her. &lt;%Include(&quot;brothel/merrils_scene_arousal&quot;);%&gt;&#xd;
+&#xd;
+With current size of Merril cock and balls missionary position is out of question. [Proxy] gently pull Merril to the knees and elbows, and than put hand on the hips to fixate her form the trembling. With single quick motion [proxy] insert [hisher] [penis] inside, and begins [hisher] motions.&#xd;
+&#xd;
+Merril vagina respond with series of the convulsive contractions that raise [proxy] arousal even more. And Merril seems to be on the verge too. They cum together!&#xd;
+&#xd;
+Powerful torrents of cum shots out from the Merril dick, covering sheets, floor, and even wall in front of her. Belly of nekomata start so shrink, and [proxy] realizes that she is not pregnant. She just been have very full pouch! But [proxy]&apos;s own orgasm quickly distract [himher] for [hisher] own feeling. &lt;%&#xd;
+act = proxy.doAction(&quot;orgasm&quot;);&#xd;
+vol = act.get(&quot;penis&quot;, &quot;cum&quot;);&#xd;
+InjectSperm(proxy, merril, vol);&#xd;
+taker = merril;&#xd;
+giver = proxy;&#xd;
+volume = vol;&#xd;
+&quot;&quot;;&#xd;
+%&gt;&lt;%Include(&quot;sex/cumshot/vaginal&quot;);%&gt;[=taker]&lt;%Include(&quot;sex/cumshot/semen_in_uterus&quot;);%&gt;[=taker]&lt;%Include(&quot;sex/cumshot/semen_in_vagina&quot;);%&gt;&lt;%Include(&quot;sex/calc_t_orgasm&quot;);%&gt;&#xd;
+&lt;%proxy.setStat(&quot;generic.arousal&quot;, 0); &#xd;
+merril.setStat(&quot;generic.arousal&quot;, 0); &quot;&quot;;%&gt;&#xd;
+&lt;%MoodShame(40); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; merril.getStat(&quot;wagina.width&quot;) - proxy.getStat(&quot;penis.width&quot;) &lt; 3;</conditions>
+  <picturePath>brothel/merril_fun_house.jpeg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/merril_scene_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,16 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Eat pancake</name>
+  <conditions>self.hasItem(&quot;pancake&quot;);</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if (isTaskFirstHour())&#xd;
+{&#xd;
+  res = self.useItem(&quot;pancake&quot;);&#xd;
+}&#xd;
+else&#xd;
+{&#xd;
+   DoTask(self, &quot;overeat&quot;);&#xd;
+}&#xd;
+&#xd;
+res;</script>
+  <decription>Eat one pancake.</decription>
+</fetishmaster.engine.ManagmentTask>

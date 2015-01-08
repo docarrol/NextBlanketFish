@@ -1,0 +1,43 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/implants_operation</name>
+  <descr>&lt;%
+RemoveMoney(GetFlag(&quot;money_for_implant&quot;)+800);
+iv = GetFlag(&quot;last_implants_selected&quot;);
+id = geometry.MillilitersToSphereDiameter(iv)/2;
+
+//removing old implants
+proxy.removeEffect(&quot;breasts.size&quot;, &quot;breasts_implant&quot;);
+proxy.removeEffect(&quot;breasts.max_lactation&quot;, &quot;breasts_implant&quot;);
+proxy.removeEffect(&quot;breasts.max_volume&quot;, &quot;breasts_implant&quot;);
+proxy.removeEffect(&quot;breasts.weight&quot;, &quot;breasts_implant&quot;);
+
+sysprint(iv);
+//adding new implants, if selected
+if (iv &gt; 0)
+{
+sysprint(999);
+proxy.addEffect(&quot;breasts.size&quot;, &quot;breasts_implant&quot;, id);
+proxy.addEffect(&quot;breasts.max_lactation&quot;, &quot;breasts_implant&quot;, 0-(iv/15));
+proxy.addEffect(&quot;breasts.max_volume&quot;, &quot;breasts_implant&quot;, 0-iv);
+proxy.addEffect(&quot;breasts.weight&quot;, &quot;breasts_implant&quot;, iv);
+proxy.doAction(&quot;breasts_recalc&quot;);
+}
+ &quot;&quot;;%&gt;Walking through the other door Dr. Genki had pointed to, [she] finds a large examination room. Not wanting to keep the doctor waiting, [proxy] sees the gowns he was talking about and proceeds to undress. Just as [she] finishes changing clothes, a nurse is pushing a gurney into the room. After [proxy] lies down on the stretcher, the nurse wheels [her] into the operating room where [she] sees Dr. Genki and another nurse finishing preparations. When [she] is positioned, the nurses quickly connect various wires to [her] that are hooked to a health monitoring system before one of them puts a gas mask over her mouth and nose. In a moment, [proxy] blacks out from the anesthesia and after some time [she] awakens in a regeneration capsule. &lt;%Include(&quot;hospital/genki/implants_postop&quot;);%&gt;
+</descr>
+  <conditions>HasMoney(GetFlag(&quot;money_for_implant&quot;)+800) &amp;&amp; status.isPregnant(proxy) == false;</conditions>
+  <picturePath>city/hospital/healing_capsule.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>5</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

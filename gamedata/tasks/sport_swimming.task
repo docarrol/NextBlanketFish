@@ -1,0 +1,33 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Sport: Swimming</name>
+  <conditions>res = false;
+if (GetFlag(&quot;found_swimming&quot;) &gt;= 1)
+	res = true;
+if (status.isBaby(self))
+	res= false;
+if (self.getStat(&quot;generic.spd&quot;) &lt;=0 )
+	res = false;
+res;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if (isTaskFirstHour()) &#xd;
+{&#xd;
+res = &quot;Swimming in the dark is a bad idea. &quot; + self.getName()+ &quot; will not do it.&quot;;&#xd;
+}&#xd;
+&#xd;
+if (isTaskFirstHour() &amp;&amp; (clock.isDay() || clock.isMorning() ))&#xd;
+{&#xd;
+        self.addStat(&quot;generic.str&quot;, 1);&#xd;
+        self.addStat(&quot;generic.spd&quot;, 0.7);&#xd;
+        self.addStat(&quot;generic.dex&quot;, 0.3);&#xd;
+        self.addStat(&quot;generic.end&quot;, 1.2);&#xd;
+        self.addStat(&quot;generic.cha&quot;, 0.02);&#xd;
+        self.addStat(&quot;generic.tiredness&quot;, 10);&#xd;
+&#xd;
+self.subStat(&quot;generic.calories&quot;, 400);&#xd;
+&#xd;
+res = self.getName()+&quot; go to a beach for swimming course.&quot;;&#xd;
+        MoveWorkerToReturnList(self, 2);&#xd;
+}&#xd;
+res;</script>
+  <decription>Swimming as a excirse helping to keep body in good shape and good for the health.</decription>
+</fetishmaster.engine.ManagmentTask>

@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/start_mod_adapation</name>
+  <descr>&lt;%Include(&quot;hospital/todd/operation_text&quot;);%&gt;
+
+&lt;% 
+purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue();
+RemoveMoney(5000 + (5000 * (100 - (int)purity) / 250));
+
+geneName = GetTextFlag(&quot;gene_mod_selection&quot;);
+sysprint(&quot;modifying: &quot; + geneName);
+gene = proxy.getDNAGene(geneName);
+newBackForceMult = gene.getBackforceRangeMult() - 0.05;
+sysprint(&quot;new backforce mult: &quot; + newBackForceMult);
+gene.setBackforceRangeMult( newBackForceMult );
+sysprint( &quot;double check: &quot; + gene.getBackforceRangeMult() );
+
+currentPurity = proxy.getStat(&quot;genes.purity&quot;);
+proxy.setStat(&quot;genes.purity&quot;, currentPurity - 5);
+gene = proxy.getDNAGene(&quot;genes.purity&quot;);
+gene.setValue(currentPurity - 5);
+if (gene.getValue() &lt; 0) {
+    gene.setValue(0);
+}
+gene.setGeneForce(95);
+
+&quot;&quot;;%&gt;</descr>
+  <conditions>purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue();
+
+HasMoney(5000 + (5000 * (100 - (int)purity) / 250)) &amp;&amp; GetTextFlag(&quot;gene_mod_selection&quot;) != &quot;none&quot; &amp;&amp; 
+GetFlag(&quot;block_operation&quot;) &lt; 1;</conditions>
+  <picturePath>city/hospital/healing_capsule.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>3</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

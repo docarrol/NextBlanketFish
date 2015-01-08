@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/village_mirkwood</name>
+  <descr>While walking along the trail, [proxy] sees that it&apos;s actually what&apos;s left of a paved stone road. The road continues through the woods until eventually leading [himher] to what looks to have been a small village. The few buildings that are left seem dilapidated and mostly covered in foliage. After taking some time to look through them, [proxy] finds nothing and you decide that they&apos;re definitely abandoned. Going back to the trail, [heshe] continues to follow it until [heshe] sees a temple in the distance. Heading towards it, [proxy] soon reaches some footsteps that lead up into a shrine.
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath>forest/mirkwood_willage.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Go Further</name>
+      <value>forest/daria_shrine_outside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

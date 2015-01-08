@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/dance_hall</name>
+  <descr>You decide that seeing how other girls work can assist in &lt;%activePartner.getName();%&gt; training, experience exchange and all.
+
+So &lt;%activePartner.getName();%&gt; go in the main show hall, there are dance podiums all around, and one main stage. Also some private rooms are around, so clients can get a private performance. However, this costs extra. Around the hall, there are many tables to sit at. If &lt;%activePartner.getName();%&gt; is staying here, &lt;%activePartner.HeShe();%&gt; will need to find a place to sit and order something to drink. Hot Lips is not a cheap club, so drinks here are rather expensive.
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hotlips/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Look at show (20c. 3h.)</name>
+      <value>city/redlight/hotlips/see_a_show</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Get private dance (100c. 1h.)</name>
+      <value>city/redlight/hotlips/see_private_dance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

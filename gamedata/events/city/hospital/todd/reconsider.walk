@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/reconsider</name>
+  <descr>[Proxy] enters into Todd&apos;s lab. He seems to notice you rather quickly and greets you.
+
+&lt;%Include(&quot;hospital/todd/greet&quot;);%&gt;
+
+&lt;%SetPerFlag(&quot;found_todd_person&quot;, 1); &quot;&quot;; %&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;todd_left_early&quot;) == 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Reconsider helping</name>
+      <value>city/hospital/todd/reconsider</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

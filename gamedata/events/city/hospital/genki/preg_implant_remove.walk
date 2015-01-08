@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/preg_implant_remove</name>
+  <descr>&lt;% 
+proxy.loadEffect(&quot;uterus.volume&quot;, &quot;genki_implant_postpartum&quot;);
+proxy.nextHour();
+proxy.setFlag(&quot;installed_preg_implant&quot;, 0);
+&quot;&quot;;%&gt;[proxy] rubs her [=proxy][belly] a couple more times before nodding, saying that [she] is absolutely sure [she] wants the pregnant implant removed. Dr. Genki nods as he walks over and gently pats [her] shoulder.
+
+- I am sorry to hear you are unhappy with the implant [proxy], but I completely understand. You are not the first to tire of it, and I am sure you will not be the last. You are in luck. My schedule is empty today so I will be able to remove the implant immediately. Head into the examination room and get changed. As before, just remove your lower clothing and use a gown to cover your lower half before lying back on the gynecology chair. I will be with you momentarily.
+
+[proxy] heads into the examination room where [she] removes her skirt and panties, neatly folding them before placing them on a table and wrapping a gown over her hips. Dr. Genki knocks on the door just as [she] finishes and walks in. While the doctor is walking around the room gathering some equipment, [she] slowly climbs onto the gynecology chair, lies back, places her legs on the stirrups, and waits. Dr. Genki finishes his preparations and wheels a small cart with some tools on it next to the chair. He then picks up a gas mask hanging from a nearby tank and places it over her mouth and nose.
+
+- This is going to be a long process so it will be much easier for you if you are fully anesthetized. So please relax and take deep breath...
+
+It doesn&apos;t take long for [proxy] to black out from the anesthesia...
+
+[Proxy]&apos;s eyes slowly open as [heshe] comes to [hisher] senses in the recovery room. As [heshe] awakes, Dr. Genki walks in.
+
+- Ah, just in time [proxy]. Congratulations. The operation went well without any complications.&lt;%Include(&quot;hospital/genki/preg_implant_postpartum&quot;);%&gt; Though there is a slight problem if you planned on getting pregnant immediately. A side effect of removing the implant that I failed to mention is that it will take time for you body to reestablish your normal menstrual cycle. Depending on the individual, it may take one to two months. So, rest as long as you like [proxy]. If you need anything I will be in my office.
+
+Once Dr. Genki leaves the room, [proxy] begins to prod at [her] [belly]. [She] isn&apos;t sore, but does feel some emptiness in [her] womb. [proxy] reasons that the feeling is normal. Deciding that the sensation will be gone in time, [proxy] gets out of bed, dresses, and leaves Dr. Genki&apos;s clinic.</descr>
+  <conditions>proxy.getFlag(&quot;installed_preg_implant&quot;) &gt; 0 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
+  <picturePath>city/hospital/genki_ward.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>5</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

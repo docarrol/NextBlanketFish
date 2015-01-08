@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/pills/get_pill_prev_dose</name>
+  <descr>After checkup Nurse tell [Proxy]:&#xd;
+&#xd;
+- You are still under the effect of the previous dose. It can be dangerous to take another, and we can&apos;t get clear results this way. Please, come again after the effect has worn off.&#xd;
+</descr>
+  <conditions>proxy.hasEffect(&quot;generic.str&quot;, &quot;str_pill&quot;) || proxy.hasEffect(&quot;generic.dex&quot;, &quot;dex_pill&quot;);</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

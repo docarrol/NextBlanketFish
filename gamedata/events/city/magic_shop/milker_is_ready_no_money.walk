@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/milker_is_ready_no_money</name>
+  <descr>- Ah, yes. I have finished your order; you need 500 coins, as we agreed. You can get it anytime.
+</descr>
+  <conditions>activePartner.inventory.moneyCount() &lt; 500 &amp;&amp; PerGetFlag(&quot;time_to_milker_build&quot;) &lt; clock.getDays() &amp;&amp; PerGetFlag(&quot;milker_build&quot;) == 1;</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

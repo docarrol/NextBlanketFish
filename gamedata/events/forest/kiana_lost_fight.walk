@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/kiana_lost_fight</name>
+  <descr>Falling from the last hit, [proxy] seen as the girl tries to leave this scene. Though all fight she slowly but steady, and trying not catch attention of the beast crawl to the brushes, and now she managed to hide in them.&#xd;
+&lt;%Include(&quot;battle/t_beast/lose&quot;);%&gt;&#xd;
+&lt;%EndInteraction(); &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

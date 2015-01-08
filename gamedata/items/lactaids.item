@@ -1,0 +1,15 @@
+<fetishmaster.items.Item>
+  <name>Lactaids</name>
+  <descr>This pill triggers instant lactation. Effect lasts 12 hours.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.setRNAactive(&quot;breasts.lact_rate&quot;, true);&#xd;
+self.updateEffect(&quot;breasts.lact_rate&quot;, &quot;lactaids&quot;, 100, 12, self.getName()+&quot;&apos;s breasts do not feel as warm anymore...&quot;);&#xd;
+self.MoodShame(30);</useScript>
+  <useText>After consuming the pill, &lt;%self.getName();%&gt; breasts start to feel warm.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1000</value>
+  <sellValue>200</sellValue>
+  <weight>0.1</weight>
+</fetishmaster.items.Item>

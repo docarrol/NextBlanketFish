@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/add_items</name>
+  <descr>Adding items:&#xd;
+&#xd;
+&lt;%&#xd;
+//AddItem(&quot;lust_pill&quot;, 10);&#xd;
+//AddItem(&quot;gestamin&quot;, 10);&#xd;
+//AddItem(&quot;lactaids&quot;, 10);&#xd;
+//AddItem(&quot;lac_unknown_pill&quot;, 10);&#xd;
+//AddItem(&quot;hormone_shot&quot;);&#xd;
+//AddItem(&quot;horse_bean&quot;, 10);&#xd;
+//AddItem(&quot;kitty_mint&quot;, 10);&#xd;
+//AddItem(&quot;breast_milk&quot;, 10);&#xd;
+//AddItem(&quot;filter_coffee&quot;, 10);&#xd;
+//AddItem(&quot;cream_eclair&quot;, 10);&#xd;
+//AddItem(&quot;espresso&quot;, 10);&#xd;
+//AddItem(&quot;cream_latte&quot;, 10);&#xd;
+//AddItem(&quot;skinny_latte&quot;, 10);&#xd;
+//AddItem(&quot;female_fruit&quot;, 10);&#xd;
+AddItem(&quot;digestup&quot;, 3);&#xd;
+AddItem(&quot;bloated_berries&quot;, 3);&#xd;
+AddItem(&quot;expando_cunt_cream&quot;, 3);&#xd;
+AddItem(&quot;horse_vigor_cream&quot;, 3);&#xd;
+AddItem(&quot;ovariafruit&quot;, 5);&#xd;
+&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

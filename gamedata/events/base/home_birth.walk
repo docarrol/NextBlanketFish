@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/home_birth</name>
+  <descr>[Proxy] is in labour! What do you do?
+
+You decide that [proxy] needs to give birth at home. You prepare all that [she] will need, and wait. After a few hours [proxy] successfully gives birth!
+[=proxy]
+&lt;%Include(&quot;system/c_generic_birth&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>system_events/end_of_walking</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>5</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

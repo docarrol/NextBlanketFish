@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/hotlips/work_stripper_good</name>
+  <descr>This time &lt;%activePartner.getName();%&gt; completly captures the attention of the audience. &lt;%@activePartner.HeShe();%&gt; has become very skilled at pole danceing and can show &lt;%activePartner.HisHer();%&gt; body in the best way. The flexibility and grace of &lt;%activePartner.HisHer();%&gt; movements arouse all viewers, and they applaude &lt;%activePartner.HimHer();%&gt;. 
+
+Ms. Tendo seems pretty pleased and says that she hopes to see &lt;%activePartner.getName();%&gt; again soon. She pays her 30 coins.
+
+&lt;%
+activePartner.inventory.addMoney(30);
+activePartner.addStat(&quot;skill.striptease&quot;, 2);
+LustShame(10,30);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.cha&quot;)/5 + activePartner.getRNAValue(&quot;skill.striptease&quot;) &gt; 50;</conditions>
+  <picturePath>city/hotlips/stripper_good1.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

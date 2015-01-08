@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/massage_udder</name>
+  <descr>You are milking &lt;% activePartner.getName() %&gt;&apos;s udder and &lt;% activePartner.get2ndPerson(); %&gt; gives &lt;% activePartner.getRNAValue(&quot;udder.milk&quot;); %&gt; ml. of milk.
+&lt;% activePartner.setStat(&quot;udder.milk&quot;, 0); %&gt;</descr>
+  <conditions>if (self.isRNAactive(&quot;udder.exists&quot;))
+	true;
+else
+	false;</conditions>
+  <picturePath>milking_massage.jpeg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/merril/look</name>
+  <descr>&lt;%Include(&quot;char/merril_init&quot;); &quot;&quot;;%&gt;&lt;%ctv=merril; &quot;&quot;;%&gt;&lt;%Include(&quot;char/merril_display&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;cview/full_description&quot;)%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/merril_home/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk</name>
+      <value>city/redlight/merril/talk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sex</name>
+      <value>city/redlight/merril/sex</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/redlight_district</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

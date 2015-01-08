@@ -1,0 +1,143 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>udder</name>
+  <actionNames>
+    <string>orgasm</string>
+    <string>milking</string>
+    <string>udder_lactate</string>
+    <string>udder_growcheck</string>
+    <string>udder_engorgement</string>
+    <string>udder_recalc</string>
+    <string>udder_excesschek</string>
+    <string>udder_milking</string>
+    <string>udder_balancemilk</string>
+  </actionNames>
+  <actionScripts>
+    <string>if (self.hasEffect(&quot;udder.size&quot;, &quot;engorged&quot;))
+{
+m = self.getStat(&quot;udder.milk&quot;);
+e = calc.procent(m, 10);
+result.put(&quot;milk&quot;, e);
+self.subStat(&quot;udder.milk&quot;, e);
+}
+
+result;</string>
+    <string>res = self.doAction(&quot;udder_milking&quot;);
+
+result.put(&quot;milk&quot;, res.get(&quot;udder&quot;, &quot;milk&quot;));
+result.put(&quot;milk_volume&quot;, res.get(&quot;udder&quot;, &quot;milk&quot;));
+
+result;</string>
+    <string>if (self.isRNAactive(&quot;breasts.lact_rate&quot;))
+{
+	self.addStat(&quot;udder.milk&quot;, self.getStat(&quot;breasts.lact_rate&quot;));
+}
+
+self.doAction(&quot;udder_balancemilk&quot;);
+
+self.doAction(&quot;udder_engorgement&quot;);
+
+self.doAction(&quot;udder_excesscheck&quot;);
+
+self.doAction(&quot;udder_growcheck&quot;);
+
+self.doAction(&quot;udder_dryup&quot;);
+
+result;</string>
+    <string>        if (self.hasEffect(&quot;udder.size&quot;, &quot;engorged&quot;) &amp;&amp; calc.chance(5))
+            {
+                cursize = self.getCleanRNAValue(&quot;udder.max_size&quot;);
+                psize =  Calc.procent(cursize, 5);
+                self.addStat(&quot;udder.max_size&quot;, psize);
+                self.addHistory(&quot;Udder&quot;, &quot;Udder grow a little, to hold better all this milk...&quot;);
+            }
+
+result;</string>
+    <string>if (self.hasEffect(&quot;udder.size&quot;, &quot;engorged&quot;))
+{
+                if (calc.procent(self.getCleanRNAValue(&quot;udder.maxvol&quot;), 50) &gt; self.getStat(&quot;udder.milk&quot;))
+                self.removeEffect(&quot;udder.size&quot;, &quot;engorged&quot;);
+ }
+
+ if (self.getCleanRNAValue(&quot;udder.maxvol&quot;) &lt; self.getStat(&quot;udder.milk&quot;) &amp;&amp; self.hasEffect(&quot;udder.size&quot;, &quot;engorged&quot;)==false)
+{
+               addsize = calc.procent(self.getCleanRNAValue(&quot;udder.size&quot;), 20);
+               self.updateEffect(&quot;udder.size&quot;, &quot;engorged&quot;, addsize);
+               self.addHistory(&quot;Lactating&quot;, &quot;Udder engorged with milk&quot;);
+}
+
+result;</string>
+    <string>// udder swell if lactating.
+if ((self.isRNAactive(&quot;breasts.lact_rate&quot;)) &amp;&amp; (self.getStat(&quot;udder.size&quot;) &lt; self.getStat(&quot;udder.max_size&quot;)) &amp;&amp; self.hasEffect(&quot;udder.size&quot;, &quot;engorged&quot;))
+{
+    self.addStat(&quot;udder.size&quot;, calc.percent(self.getStat(&quot;udder.max_size&quot;), 5));
+}
+
+// udder retract if not lactating.
+if ((self.isRNAactive(&quot;breasts.lact_rate&quot;) == false) &amp;&amp; (self.getStat(&quot;udder.size&quot;) &gt; 0))
+{
+    self.removeEffect(&quot;udder.size&quot;, &quot;engorged&quot;);
+    self.subStat(&quot;udder.size&quot;, calc.percent(self.getStat(&quot;udder.max_size&quot;), 5));
+}
+
+self.setStat(&quot;udder.weight&quot;, self.getCleanRNAValue(&quot;udder.size&quot;)*1.5);
+self.updateEffect(&quot;udder.weight&quot;, &quot;milk&quot;, self.getStat(&quot;udder.milk&quot;));
+        
+//recalc udder volume;
+self.setStat(&quot;udder.maxvol&quot;, geometry.SphereDiameterToMillilites(10+self.getStat(&quot;udder.size&quot;))/2);
+
+self.updateEffect(&quot;generic.weight&quot;, &quot;udder&quot;, self.getStat(&quot;udder.weight&quot;));
+
+//penalties
+str = self.getStat(&quot;generic.str&quot;);
+pen = self.getStat(&quot;udder.weight&quot;);
+
+self.updateEffect(&quot;generic.dex&quot;, &quot;udder_size&quot;, 0-pen /(str*10));
+self.updateEffect(&quot;generic.spd&quot;, &quot;udder_size&quot;, 0-pen/(str*10));
+
+result;
+
+</string>
+    <string>excess = self.getStat(&quot;udder.milk&quot;) - self.getStat(&quot;udder.maxvol&quot;);
+        if (excess &gt; 0)
+        {   
+            self.setStat(&quot;udder.milk&quot;, self.getStat(&quot;udder.maxvol&quot;));
+            self.addHistory(&quot;Milk&quot;, &quot;Milk leaked from the udder&quot;);
+        }
+
+result;</string>
+    <string>milk = self.getStat(&quot;udder.milk&quot;);
+
+result.put(&quot;milk&quot;, milk);
+result.put(&quot;milk_volume&quot;, milk);
+
+self.setStat(&quot;udder.milk&quot;, 0);
+
+result;</string>
+    <string>sv = calc.percent(self.getStat(&quot;breasts.max_volume&quot;), 50);
+
+//if breasts is full and uddert is not
+if (self.getStat(&quot;breasts.milk_volume&quot;) &gt; calc.percent(self.getStat(&quot;breasts.max_volume&quot;), 60) &amp;&amp; self.getStat(&quot;udder.milk&quot;) &lt; self.getStat(&quot;udder.maxvol&quot;)-sv-10)
+{
+	self.subStat(&quot;breasts.milk_volume&quot;, sv);
+	self.addStat(&quot;udder.milk&quot;, sv);
+}
+
+//reverse, if breasts is empty and udder is not
+if (self.getStat(&quot;breasts.milk_volume&quot;) &lt; calc.percent(self.getStat(&quot;breasts.max_volume&quot;), 10) &amp;&amp; self.getStat(&quot;udder.milk&quot;) &gt; sv-10)
+{
+	self.addStat(&quot;breasts.milk_volume&quot;, sv);
+	self.subStat(&quot;udder.milk&quot;, sv);
+}
+
+result;</string>
+  </actionScripts>
+  <nextHourScript>if (self.isRNAactive(&quot;breasts.lact_rate&quot;))
+{self.doAction(&quot;udder_lactate&quot;);}
+else
+{
+            self.setStat(&quot;udder.milk&quot;, 0);
+            self.removeEffect(&quot;udder.size&quot;, &quot;engorged&quot;);
+}
+
+self.doAction(&quot;udder_recalc&quot;);</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

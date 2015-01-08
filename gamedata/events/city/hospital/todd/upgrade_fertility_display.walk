@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/upgrade_fertility_display</name>
+  <descr>[Proxy] asks Todd about the fertility display module.
+
+- This is probably the least impactful module. The scanner will be able to scan aspects regarding fertility. For example the fertility for humans and other races, might you be interested in it. There will probably be other nich&apos;s to display, but I&apos;m not sure on which.
+Also, I&apos;ll be able to display and modify the domination of every gene after this. It&apos;ll influence the chance this gene will get picked over the other parent&apos;s.
+
+- As this isn&apos;t such a impactful upgrade, all I need is a female or futa. Two scans, before and during her pregnancy.
+
+&lt;% SetFlag(&quot;todd_in_experiment&quot;, 1); &quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;todd_project_fertility_upgrade&quot;, 1); &quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;installed_fertility_upgrade&quot;) == 0 &amp;&amp; GetFlag(&quot;installed_display_upgrade&quot;) == 1;</conditions>
+  <picturePath>city/hospital/dna_facility.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/todd/walk_in</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

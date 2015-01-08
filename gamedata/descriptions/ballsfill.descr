@@ -1,0 +1,33 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name></name>
+  <min>
+    <double>0.0</double>
+    <double>0.1</double>
+    <double>0.25</double>
+    <double>0.5</double>
+    <double>0.65</double>
+    <double>0.8</double>
+    <double>0.95</double>
+    <double>0.9</double>
+  </min>
+  <max>
+    <double>0.1</double>
+    <double>0.25</double>
+    <double>0.5</double>
+    <double>0.65</double>
+    <double>0.8</double>
+    <double>0.9</double>
+    <double>1.0</double>
+    <double>0.95</double>
+  </max>
+  <descr>
+    <string>, empty</string>
+    <string>, relatively empty</string>
+    <string>, lightly filled</string>
+    <string>, healthy filled</string>
+    <string>, slightly swollen</string>
+    <string>, churning, heavily filled</string>
+    <string>, massively swollen, pulsing almost visibly for anyone</string>
+    <string>, almost painfully cum-stretched</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

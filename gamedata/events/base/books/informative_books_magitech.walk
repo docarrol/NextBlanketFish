@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/books/informative_books_magitech</name>
+  <descr>[Proxy] takes a random book out of the bookcase. The front reads &apos;&apos;The History of Magitech&quot;. [HeShe] sits down and reads all the interesting facts about the technology. 
+
+
+&lt;% self.addStat(&quot;generic.int&quot;, 0.2);
+self.addStat(&quot;generic.tiredness&quot;, 5);&quot;&quot;;%&gt;
+&lt;% SetFlag(&quot;read_informative_books&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/library</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

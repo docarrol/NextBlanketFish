@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/doctor</name>
+  <descr>- Lets see...
+
+Doctor gives [proxy] a full medical exam.
+
+- I don&apos;t see anything wrong. You are healthy, so I can only congratulate you. 
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/doctor_tw.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/belanika_felis_request</name>
+  <descr>[proxy] explains to Belanika that Dr. Felis from the city hospital asked them to come check on her plus get a sample. Belanika laughs and smiles at the mention of the doctor&apos;s name.
+
+- Ah, my long time friend. She&apos;s always been pretty interested in me, but I don&apos;t feel... Oops! I guess you&apos;re here to collect a sample, not gossip.
+
+Smiling at [proxy], the cowgirl begins to knead the sides of her upper pair of breasts, stifling a moan as small beads of milk begin to form on her turgid nipples. After calming back down, Belanika giggles softly and looks at [himher].
+
+- Be my guest. Take what you need.
+
+Taking out a vial Dr. Felis had given to [himher], [proxy] nervously approaches Belanika, though [heshe] doesn&apos;t know why [heshe] should be hesitant around the very friendly cowgirl. Gingerly, [proxy] tips the open end of the vial against one of Belanika&apos;s leaking teats, the milky fluid quickly filling the vial. When it&apos;s nearly full, [heshe] caps it before putting it away and thanks Belanika, telling her as [heshe]&apos;s leaving that they will tell Dr. Felis that she is ok.
+
+-Ok. Just please don&apos;t tell her about my current situation. No need to worry her.
+
+[proxy] nods [hisher] head with a smile and says [heshe] promises.
+
+([Proxy] gets the sample!)
+
+&lt;%DisplayChar(&quot;char/cowgirl2.png&quot;);
+SetPerFlag(&quot;felis_quest&quot;, 2);
+AddItem(&quot;belanika_milk_sample&quot;);
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;felis_quest&quot;) == 1;</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

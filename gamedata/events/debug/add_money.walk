@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/add_money</name>
+  <descr>Adding money to player
+
+&lt;%
+player.inventory.addMoney(210000);
+&quot;&quot;;%&gt;
+
+
+
+</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>debug</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,83 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/lounge</name>
+  <descr>This is the lounge of the &quot;Fun House&quot; complex, Neferi personally greets clients here.
+
+&lt;%Include(&quot;brothel/neferi_warning&quot;);%&gt;&lt;%Include(&quot;brothel/neferi_offer&quot;);%&gt;
+
+&lt;% DisplayChar(&quot;char/neferi.png&quot;);
+//SetPerFlag(&quot;nefri_warning&quot;, 1);
+//SetPerFlag(&quot;anal_sex_disgusting&quot;, 1);
+&quot;&quot;;%&gt;
+&lt;%SetFlag(&quot;fun_house_found&quot;, 1); &quot;&quot;;%&gt;
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about working here</name>
+      <value>city/brothel/ask_about_working</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>To Work Room</name>
+      <value>city/brothel/work_room</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pregnancy Striptease</name>
+      <value>city/brothel/preg_strip</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pregnancy Sexual Play</name>
+      <value>city/brothel/intro_preg_play</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about fake pregnancy</name>
+      <value>city/brothel/ask_fake_preg</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Contract</name>
+      <value>city/brothel/brothel_fuck_contract</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Huge Breasts Show Offer</name>
+      <value>city/brothel/oppai_show</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Huge Breasts Show</name>
+      <value>city/brothel/oppai_strip_show</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Special Gift</name>
+      <value>city/brothel/specialgift</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Special offer</name>
+      <value>city/brothel/specialoffer</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about your huge pussy</name>
+      <value>city/brothel/elise_offer</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meet Elise</name>
+      <value>city/brothel/see_elise_first</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>See Elise</name>
+      <value>city/brothel/go_see_elise</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Size Training</name>
+      <value>city/brothel/size_training</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/outskirts</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,338 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>breasts</name>
+  <hooked class="java.util.Collections$SynchronizedRandomAccessList" resolves-to="java.util.Collections$SynchronizedList" serialization="custom">
+    <java.util.Collections_-SynchronizedCollection>
+      <default>
+        <c class="list"/>
+        <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+      </default>
+    </java.util.Collections_-SynchronizedCollection>
+    <java.util.Collections_-SynchronizedList>
+      <default>
+        <list reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+      </default>
+    </java.util.Collections_-SynchronizedList>
+  </hooked>
+  <actionNames>
+    <string>breasts_recalc</string>
+    <string>breasts_lactation</string>
+    <string>breasts_grow</string>
+    <string>breasts_dryup</string>
+    <string>milking</string>
+    <string>orgasm</string>
+    <string>birth</string>
+    <string>breasts_lactup</string>
+    <string>breasts_milking</string>
+    <string>breasts_preg_recalc</string>
+  </actionNames>
+  <actionScripts>
+    <string>//fat changes
+fat_vol =  self.getStat(&quot;generic.fat&quot;)/100* self.getStat(&quot;fat.breasts&quot;);
+fat_siz = geometry.VolumeToRadius(fat_vol);
+self.setStat(&quot;breasts.fat&quot;, fat_vol);
+self.updateEffect(&quot;generic.fat_in_organs&quot;, &quot;breasts&quot;, fat_vol, 2);
+
+//sysprint(&quot;breasts fat vol: &quot; + fat_vol);
+//sysprint(&quot;breasts fat size: &quot; + fat_siz);
+
+size = self.getCleanStat(&quot;breasts.size&quot;);
+
+cvol = geometry.SphereDiameterToMillilites(self.getStat(&quot;breasts.size&quot;));
+maxcvol = geometry.SphereDiameterToMillilites(self.getStat(&quot;breasts.size&quot;)+4);
+
+self.setStat(&quot;breasts.max_volume&quot;, maxcvol);
+
+milk = self.getStat(&quot;breasts.milk_volume&quot;);
+
+weight = size*95*2;  //more balance needed later;
+
+self.setStat(&quot;breasts.weight&quot;, weight);
+
+self.updateEffect(&quot;breasts.weight&quot;, &quot;milk&quot;, milk);
+
+self.updateEffect(&quot;generic.weight&quot;, &quot;breasts&quot;, self.getStat(&quot;breasts.weight&quot;));
+
+ct =  self.getStat(&quot;generic.chest&quot;); //+10;
+
+//gb = ct + geometry.VolumeToRadius((self.getCleanStat(&quot;breasts.max_volume&quot;)+fat__vol/4)*2)*2;
+
+gb = ct + geometry.VolumeToRadius((cvol+fat_vol/4)*2)*2;
+
+self.setStat(&quot;generic.breasts&quot;, gb);
+self.setStat(&quot;generic.cup_size&quot;, gb+10 - ct);
+
+//penalties
+str = self.getStat(&quot;generic.str&quot;);
+pen = self.getStat(&quot;breasts.weight&quot;);
+
+self.updateEffect(&quot;generic.dex&quot;, &quot;breasts_size&quot;, 0-pen /(str*10));
+self.updateEffect(&quot;generic.spd&quot;, &quot;breasts_size&quot;, 0-pen/(str*10));
+
+result;</string>
+    <string>self.doAction(&quot;breasts_dryup&quot;);
+
+fatp = self.getStat(&quot;generic.fat_percent&quot;);
+
+rate = self.getStat(&quot;breasts.lact_rate&quot;);
+if (fatp &gt; 3)
+{
+    rate += fatp;
+}
+rate = calc.PlusMinusXProcent(rate, 5);
+
+self.addStat(&quot;breasts.milk_volume&quot;, rate);
+//sysprint(&quot;Milk: &quot; + self.getStat(&quot;breasts.milk_volume&quot;) );
+//sysprint(&quot;Rate: &quot; + rate );
+
+
+//do breasts become engorged?
+if (self.getStat(&quot;breasts.milk_volume&quot;) &gt; calc.percent(self.getStat(&quot;breasts.max_volume&quot;), 80))
+{
+self.updateEffect(&quot;breasts.size&quot;, &quot;engorged&quot;, calc.percent(self.getCleanStat(&quot;breasts.size&quot;), 5));
+self.addHistory(&quot;Lactating&quot;, &quot;Breasts engorged with milk&quot;);
+}
+
+if (self.getStat(&quot;breasts.milk_volume&quot;) &lt; calc.percent(self.getStat(&quot;breasts.max_volume&quot;), 65))
+{
+self.removeEffect(&quot;breasts.size&quot;, &quot;engorged&quot;);
+}
+
+self.doAction(&quot;breasts_grow&quot;);
+
+//If too much milk it leak out a some.
+excess = self.getStat(&quot;breasts.milk_volume&quot;) - self.getStat(&quot;breasts.max_volume&quot;);
+if (excess &gt; 0)
+{
+self.subStat(&quot;breasts.milk_volume&quot;, excess);
+self.addHistory(&quot;Milk&quot;, &quot;Milk leaked from the breasts&quot;);
+}
+
+result;</string>
+    <string>//Full breasts can grow premanently a little.
+if (self.hasEffect(&quot;breasts.size&quot;, &quot;engorged&quot;) &amp;&amp; Chance(5) )
+{
+	size = self.getCleanStat(&quot;breasts.size&quot;);
+	self.addStat(&quot;breasts.size&quot;, calc.percent(size, 5));
+	self.addHistory(&quot;Breasts&quot;, &quot;Breasts grow a little, to hold better all this milk...&quot;);
+}
+
+//lactation down if breasts too full
+if (self.hasEffect(&quot;breasts.size&quot;, &quot;engorged&quot;))
+{
+	lac = self.getCleanStat(&quot;breasts.max_lactation&quot;);
+	self.subStat(&quot;breasts.lact_rate&quot;, calc.percent(lac, 1));
+}
+
+if (self.getCleanStat(&quot;breasts.lact_rate&quot;) &lt; 0 )
+{ self.setStat(&quot;breasts.lact_rate&quot;, 0); }
+
+result;</string>
+    <string>if (self.getStat(&quot;breasts.lact_rate&quot;) &lt;= 0)
+{
+	self.removeEffect(&quot;breasts.size&quot;, &quot;engorged&quot;);
+	self.setRNAactive(&quot;breasts.lact_rate&quot;, false);
+	self.setStat(&quot;breasts.milk_volume&quot;, 0);
+	self.setStat(&quot;breasts.lact_rate&quot;, 0);
+
+	if (self.hasEffect(&quot;breasts.size&quot;, &quot;postpregnancy_milking&quot;))
+	{
+	val =  self.getEffectValue(&quot;breasts.size&quot;, &quot;postpregnancy_milking&quot;);
+	self.updateEffectAR(&quot;breasts.size&quot;, &quot;postpregnancy_milking&quot;, val, self.getStat(&quot;generic.regen_rate&quot;));
+	}
+}
+result;</string>
+    <string>milk = self.getStat(&quot;breasts.milk_volume&quot;);
+
+// ========= Activate lactation with regular milking
+
+mhour = clock.getHours();
+mday = clock.getDays();
+
+if (self.getFlag(&quot;previous_milking_hour&quot;) == mhour &amp;&amp;  self.getFlag(&quot;previous_milking_day&quot;) != mday)
+{
+ self.addEffect(&quot;breast.regular_milking&quot;, &quot;stimulated&quot;, 1, 720);
+ //sysprint (&quot;Breasts stimulated at right time&quot;);
+}
+
+self.setFlag(&quot;previous_milking_hour&quot;, mhour);
+self.setFlag(&quot;previous_milking_day&quot;, mday);
+
+if (self.getStat(&quot;breast.regular_milking&quot;) &gt; 7  &amp;&amp; self.isRNAactive(&quot;breasts.lact_rate&quot;) == false)
+{
+	self.setRNAactive(&quot;breasts.lact_rate&quot;, true);
+	self.addStat(&quot;breasts.lact_rate&quot;, 2);	
+	self.addHistory(&quot;Lactation!&quot;, &quot;Breasts begin produce milk.&quot;);
+}
+
+//====== activation part of script end
+
+if (self.isRNAactive(&quot;breasts.lact_rate&quot;))
+{
+	self.doAction(&quot;breasts_lactup&quot;);
+}
+
+result.put(&quot;milk&quot;, milk);
+result.put(&quot;milk_volume&quot;, milk);
+
+//Production of milk need some calories.
+self.subStat(&quot;generic.calories&quot;, milk/2);
+
+//removing all milk
+self.removeEffect(&quot;breasts.size&quot;, &quot;engorged&quot;);
+self.setStat(&quot;breasts.milk_volume&quot;, 0);
+
+
+result;</string>
+    <string>if (self.hasEffect(&quot;breasts.size&quot;, &quot;engorged&quot;))
+{
+m = self.getStat(&quot;breasts.milk&quot;);
+e = calc.procent(m, 10);
+result.put(&quot;milk&quot;, e);
+self.subStat(&quot;breasts.milk_volume&quot;, e);
+}
+
+result;</string>
+    <string>self.setRNAactive(&quot;breasts.lact_rate&quot;, true);
+self.addStat(&quot;breasts.lact_rate&quot;, 20);
+self.removeEffect(&quot;breasts.size&quot;, &quot;pgrow1&quot;);
+self.removeEffect(&quot;breasts.size&quot;, &quot;pgrow2&quot;);
+self.removeEffect(&quot;breasts.size&quot;, &quot;pgrow3&quot;);
+self.removeEffect(&quot;breasts.size&quot;, &quot;pgrow4&quot;);
+
+val = self.getEffectValue(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;);
+self.updateEffect(&quot;breasts.size&quot;, &quot;postpregnancy_milking&quot;, val);
+self.removeEffect(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;);
+
+result;</string>
+    <string>low = calc.percent(self.getStat(&quot;breasts.max_volume&quot;), 10);
+
+if (self.getStat(&quot;breasts.milk_volume&quot;) &lt; low &amp;&amp; Chance(20) )
+{
+	if (self.getStat(&quot;breasts.lact_rate&quot;) &lt; self.getStat(&quot;breasts.max_lactation&quot;))
+	{
+	self.addStat(&quot;breasts.lact_rate&quot;, calc.percent(self.getStat(&quot;breasts.max_lactation&quot;), 5));
+	self.addHistory(&quot;Lactation up.&quot;, &quot;Breasts now making more milk to satisfy increased demand...&quot;);
+	}
+}
+result;</string>
+    <string>// This used as separate action - if needed only breasts milking, not mixed with udder milking.
+
+milk = self.getStat(&quot;breasts.milk_volume&quot;);
+
+// ========= Activate lactation with regular milking
+
+mhour = clock.getHours();
+mday = clock.getDays();
+
+if (self.getFlag(&quot;previous_milking_hour&quot;) == mhour &amp;&amp;  self.getFlag(&quot;previous_milking_day&quot;) != mday)
+{
+ self.addEffect(&quot;breast.regular_milking&quot;, &quot;stimulated&quot;, 1, 720);
+ sysprint (&quot;Breasts stimulated at right time&quot;);
+}
+
+self.setFlag(&quot;previous_milking_hour&quot;, mhour);
+self.setFlag(&quot;previous_milking_day&quot;, mday);
+
+if (self.getStat(&quot;breast.regular_milking&quot;) &gt; 7  &amp;&amp; self.isRNAactive(&quot;breasts.lact_rate&quot;) == false)
+{
+	self.setRNAactive(&quot;breasts.lact_rate&quot;, true);
+	self.addStat(&quot;breasts.lact_rate&quot;, 2);	
+	self.addHistory(&quot;Lactation!&quot;, &quot;Breasts begin produce milk.&quot;);
+}
+
+//====== activation part of script end
+
+if (self.isRNAactive(&quot;breasts.lact_rate&quot;))
+{
+	self.doAction(&quot;breasts_lactup&quot;);
+}
+
+result.put(&quot;milk&quot;, milk);
+result.put(&quot;milk_volume&quot;, milk);
+
+//Production of milk need some calories.
+self.subStat(&quot;generic.calories&quot;, milk/2);
+
+//removing all milk
+self.removeEffect(&quot;breasts.size&quot;, &quot;engorged&quot;);
+self.setStat(&quot;breasts.milk_volume&quot;, 0);
+
+result;</string>
+    <string>//=== Phase one ===
+if ((self.getStat(&quot;uterus.cycle&quot;)/27) &gt;= 60 &amp;&amp; self.hasEffect(&quot;breasts.size&quot;, &quot;pgrow1&quot;) == false &amp;&amp; self.isRNAactive(&quot;breasts.lact_rate&quot;) == false)
+{
+val = self.getStat(&quot;uterus.embrios&quot;) * 0.20;
+self.updateEffect(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;, val);
+
+self.addHistory(&quot;Breasts&quot;, &quot;Breasts grows, and become more tender to prepare for the incoming...&quot;);
+self.addEffect(&quot;breasts.size&quot;, &quot;pgrow1&quot;, 0);
+}
+
+//=== Phase two ===
+if ((self.getStat(&quot;uterus.cycle&quot;)/27) &gt;= 120 &amp;&amp; self.hasEffect(&quot;breasts.size&quot;, &quot;pgrow2&quot;) == false &amp;&amp; self.isRNAactive(&quot;breasts.lact_rate&quot;) == false)
+{
+val = self.getStat(&quot;uterus.embrios&quot;) * 0.20 + self.getEffectValue(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;);
+self.updateEffect(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;, val);
+
+if (Chance(20)) // not always pregnancy cause milk to come before birth
+{
+self.setRNAactive(&quot;breasts.lact_rate&quot;, true);
+self.addStat(&quot;breasts.lact_rate&quot;, self.getStat(&quot;uterus.embrios&quot;) * 16.6);
+self.addStat(&quot;breasts.max_lactation&quot;, self.getStat(&quot;uterus.embrios&quot;) * 17.5);
+self.addHistory(&quot;Breasts&quot;, &quot;Breasts grows and some milk comes in.&quot;);
+}else{
+self.addHistory(&quot;Breasts&quot;, &quot;Breasts grows more...&quot;);
+}
+	self.addEffect(&quot;breasts.size&quot;, &quot;pgrow2&quot;, 0);
+}
+
+//=== Phase three ===
+if ((self.getStat(&quot;uterus.cycle&quot;)/27) &gt;= 180 &amp;&amp; self.hasEffect(&quot;breasts.size&quot;, &quot;pgrow3&quot;) == false)
+{
+val = self.getStat(&quot;uterus.embrios&quot;) * 0.20 + self.getEffectValue(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;);
+self.updateEffect(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;, val);
+
+if (Chance(30)) // not always pregnancy cause milk to come before birth
+{
+self.setRNAactive(&quot;breasts.lact_rate&quot;, true);
+self.addStat(&quot;breasts.lact_rate&quot;, self.getStat(&quot;uterus.embrios&quot;) * 16.6);
+self.addStat(&quot;breasts.max_lactation&quot;, self.getStat(&quot;uterus.embrios&quot;) * 17.5);
+self.addHistory(&quot;Breasts&quot;, &quot;Breasts grows and additional milk comes in.&quot;);
+}else{
+self.addHistory(&quot;Breasts&quot;, &quot;Breasts grows more...&quot;);
+}
+	self.addEffect(&quot;breasts.size&quot;, &quot;pgrow3&quot;, 0);
+}
+
+
+//=== Phase four ===
+if ((self.getStat(&quot;uterus.cycle&quot;)/27) &gt;= 210 &amp;&amp; self.hasEffect(&quot;breasts.size&quot;, &quot;pgrow4&quot;) == false)
+{
+val = self.getStat(&quot;uterus.embrios&quot;) * 0.20 + self.getEffectValue(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;);
+self.updateEffect(&quot;breasts.size&quot;, &quot;pregnancy_growth&quot;, val);
+
+if (Chance(50)) // not always pregnancy cause milk to come before birth
+{
+self.setRNAactive(&quot;breasts.lact_rate&quot;, true);
+self.addStat(&quot;breasts.lact_rate&quot;, self.getStat(&quot;uterus.embrios&quot;) * 16.6);
+self.addStat(&quot;breasts.max_lactation&quot;, self.getStat(&quot;uterus.embrios&quot;) * 17.5);
+self.addHistory(&quot;Breasts&quot;, &quot;Breasts grows and even more milk comes in. It should be the last growth spurt before birth!&quot;);
+}else{
+self.addHistory(&quot;Breasts&quot;, &quot;Breasts grows even more...&quot;);
+}
+	self.addEffect(&quot;breasts.size&quot;, &quot;pgrow4&quot;, 0);
+}
+
+
+result;</string>
+  </actionScripts>
+  <nextHourScript>if (self.isRNAactive(&quot;breasts.lact_rate&quot;))
+{self.doAction(&quot;breasts_lactation&quot;);}
+
+self.doAction(&quot;breasts_recalc&quot;);
+
+if (self.getStat(&quot;uterus.phase&quot;) == 3 &amp;&amp; self.hasOrgan(&quot;uterus&quot;))
+{self.doAction(&quot;breasts_preg_recalc&quot;);}
+
+return false;</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/turn_p_cum</name>
+  <descr>Arousal reaches it&apos;s peak, [proxy] can&apos;t contain [himher]self anymore. [HeShe] cums!&#xd;
+&lt;%giver=proxy; taker=proxy; skill=0; &quot;&quot;;%&gt;&lt;%Include(&quot;sex/orgasm/calc_giver&quot;);%&gt;&#xd;
+&lt;%action = proxy.doAction(&quot;orgasm&quot;);&quot;&quot;;%&gt;&lt;% Include(&quot;sex/cumshot/single_standing&quot;);%&gt;&#xd;
+&lt;%&#xd;
+if (proxy.getStat(&quot;generic.tiredness&quot;) &gt;= 100)&#xd;
+{&#xd;
+	SetIState(&quot;p_leave&quot;);&#xd;
+}&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.arousal&quot;) &gt;= 100;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>10</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

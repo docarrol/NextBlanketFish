@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/masturbation/vagina_play_2</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;Lying on &lt;%activePartner.HisHer();%&gt; [belly], &lt;%activePartner.getName();%&gt; instinctively placed both hands between &lt;%activePartner.HisHer();%&gt; legs and pushed against the crotch. &lt;%@activePartner.HeShe();%&gt; felt a delicious rush of naughty pleasure emanating from between &lt;%activePartner.HisHer();%&gt; legs.
+
+The &lt;%IncludeRange((int)proxy.getStat(&quot;generic.haircolor&quot;), &quot;colors&quot;);%&gt;-haired &lt;%
+sex = &quot;creature&quot;;
+if (c.getStat(&quot;generic.sex&quot;) == 1)
+	sex=&quot;man&quot;;
+if (c.getStat(&quot;generic.sex&quot;) == 2)
+	sex=&quot;girl&quot;;
+if (c.getStat(&quot;generic.sex&quot;) == 3)
+	sex=&quot;futanari&quot;;
+sex;%&gt; continued to push and grind &lt;%activePartner.HisHer();%&gt; [vagina] against &lt;%activePartner.HisHer();%&gt; hands for several minutes, as &lt;%activePartner.HeShe();%&gt; closed &lt;%activePartner.HisHer();%&gt; eyes and drifted back into thoughts and scenes from &lt;%activePartner.HisHer();%&gt; past dreams.  All the while, &lt;%activePartner.HeShe();%&gt; was becoming more and more excited and wet. All that mattered was the growing feeling of pure sexual pleasure in &lt;%activePartner.HisHer();%&gt; [vagina]. The longer &lt;%activePartner.HeShe();%&gt; continued pressing against &lt;%activePartner.HisHer();%&gt; [vagina], the better and better it was feeling. It was feeding on itself. It was becoming uncontrollable.  
+
+&lt;%@activePartner.HeShe();%&gt; continued rubbing [her]self, grinding &lt;%@activePartner.HisHer();%&gt; ass and [vagina] against her hands, instinctively masturbating &lt;%activePartner.HisHer();%&gt; [vagina] for several more minutes, as &lt;%activePartner.HeShe();%&gt; panted heavier and heavier, and then finally, with a shudder, &lt;%activePartner.HeShe();%&gt; reached an enormous climax! As &lt;%activePartner.HeShe();%&gt; continued to grind &lt;%activePartner.HisHer();%&gt; cunt against &lt;%activePartner.HisHer();%&gt; rubbing hands, &lt;%activePartner.getName();%&gt; whimpered quietly as &lt;%activePartner.HisHer();%&gt; body shook and shivered with the first of what would be many hot climaxes, brought about by &lt;%activePartner.HisHer();%&gt; own soft, sexy hands and &lt;%activePartner.HisHer();%&gt; own imagination. Making a mess and drenching the drapes with all the juicy goo spurting out of her burning, hugely bloated pussy!
+&lt;%proxy.doAction(&quot;orgasm&quot;); 
+proxy.setStat(&quot;generic.arousal&quot;, 0); 
+proxy.addStat(&quot;skill.striptease&quot;, 1);
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;vagina&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt; 50 &amp;&amp; ShameCheck(15) &lt; 1 &amp;&amp; proxy.getStat(&quot;vagina.vulva_size&quot;) &gt; 12 &amp;&amp; GetPerFlag(&quot;cunt_overload&quot;) &lt; 1;</conditions>
+  <picturePath>base/vagina/masturbation_hugevulva.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/take_client_woman</name>
+  <descr>A Women enters [proxy]&apos;s room. She blushes slightly but orders [proxy] to undress and help her do so as well. After they&apos;re both naked, the woman looks into [proxy]&apos;s eyes and says:
+
+- Now, don&apos;t make me wait. Show me your talents...
+</descr>
+  <conditions>res=false; 
+if (proxy.hasOrgan(&quot;penis&quot;))
+{res=Chance(70);}
+else 
+{res=Chance(30);}
+res;</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/client_woman</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

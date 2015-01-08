@@ -1,0 +1,11 @@
+<fetishmaster.engine.TextTemplate>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 40;</conditions>
+  <text>&#xd;
+Everyone in the hall goes completely silent as the lights go out, save for a single spotlight shining on the center of the stage curtains. As they part, the audience gasps when [proxy] slowly makes [her] way on stage, looking out at the darkened room in what seems like nervous silence. That is until the music begins to play a slow but steady beat. Trying to stay in time with the music, [proxy] tousles [her] &lt;%IncludeRange(proxy.getStat(&quot;generic.hairlength&quot;), &quot;hairlength&quot;);%&gt;, &lt;%IncludeRange(proxy.getStat(&quot;generic.haircolor&quot;), &quot;colors&quot;);%&gt; hair  and slowly sashays to one side of the stage as best as [she] can, considering [her] unreal size, while flirting with the audience. [Her] swollen, [=proxy][belly], gives [her] some trouble as it rocks and sways in counterpoint to [her] hips with every step [she] takes across the stage, but the catcalls and whistles [she] gets let [her] know that the audience is loving [her] massive, undulating middle. When [proxy] gets to the part of the stage [she] was heading for, [she] cradles as much of [her] swollen belly as [she] can and slowly swings it, working in time with the music. [Her] slow gyrations even causes [her] [breasts] to wobble beneath the sheer top [she] is wearing. Growing tired and [her] number almost done, [proxy] cradles [her] breasts and turns to show off [her] unnaturally sized pregnancy in profile, flirting with the audience while slowly stage walking back towards the center. As the music begins to slowly fade, [proxy] turns and head back towards the curtains, giving [her] hips some extra sway to rock [her] belly so the audience can see it swing even from behind [her]. When the stage curtains close and the music dies, the audience erupts in thunderous applause, cat calls, and whistles while chanting [proxy]&apos;s name.&#xd;
+&#xd;
+&lt;%Include(&quot;brothel/money_preg_show&quot;);%&gt;</text>
+  <priority>11</priority>
+  <picturePath>brothel/preg_show_b5_t2.jpg</picturePath>
+  <choices/>
+  <overrideChoices>false</overrideChoices>
+</fetishmaster.engine.TextTemplate>

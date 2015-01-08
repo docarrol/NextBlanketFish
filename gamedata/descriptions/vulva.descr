@@ -1,0 +1,33 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>vulva</name>
+  <min>
+    <double>0.0</double>
+    <double>3.5</double>
+    <double>6.0</double>
+    <double>10.0</double>
+    <double>25.0</double>
+    <double>50.0</double>
+    <double>75.0</double>
+    <double>2.0</double>
+  </min>
+  <max>
+    <double>2.0</double>
+    <double>6.0</double>
+    <double>10.0</double>
+    <double>25.0</double>
+    <double>50.0</double>
+    <double>75.0</double>
+    <double>1000.0</double>
+    <double>3.5</double>
+  </max>
+  <descr>
+    <string>small</string>
+    <string>big, meaty and panties-filling</string>
+    <string>huge, groin filling</string>
+    <string>obscenely fat, thighs-spreading</string>
+    <string>giant, legs-spreading</string>
+    <string>gargatuan, ground-scraping</string>
+    <string>massive, bed-covering</string>
+    <string>bulging, puffy</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

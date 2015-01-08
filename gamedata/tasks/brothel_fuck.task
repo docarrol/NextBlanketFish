@@ -1,0 +1,103 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Fun House: Regualr</name>
+  <conditions>res = false;
+if ( self.getFlag(&quot;brothel_fuck_contract&quot;) &gt; 0)
+	res = true;
+if (self.getStat(&quot;generic.spd&quot;) &lt;=0 )
+	res = false;
+res;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+&#xd;
+myhour = clock.getHours() / 2;&#xd;
+if ( myhour == (Integer) myhour)&#xd;
+{&#xd;
+vfuck =  self.getStat(&quot;skill.vaginal_sex&quot;);&#xd;
+blowjob = self.getStat(&quot;skill.blowjob&quot;);&#xd;
+pfuck = self.getStat(&quot;skill.penis_sex&quot;);&#xd;
+handjob = self.getStat(&quot;skill.handjob&quot;);&#xd;
+oral = self.getStat(&quot;skill.oral&quot;);&#xd;
+&#xd;
+partner_sex = &quot;&quot;;&#xd;
+pay = 0;&#xd;
+&#xd;
+partner_sex_val = calc.PlusMinusXProcent(50, 50);&#xd;
+&#xd;
+////////////////////////// Male client&#xd;
+if(partner_sex_val &lt; 34)&#xd;
+{&#xd;
+partner_sex = &quot; serving a male customer.&quot;;&#xd;
+client = Character(&quot;Client&quot;, &quot;human_male_agency_worker&quot;);&#xd;
+self.addStat(&quot;skill.blowjob&quot;, 0.2);&#xd;
+pay = (Integer) blowjob;&#xd;
+&#xd;
+if (status.VaginalIsPossible(self, client))&#xd;
+{&#xd;
+self.addStat(&quot;skill.vaginal_sex&quot;, 0.2);&#xd;
+self.doAction(&quot;orgasm&quot;);&#xd;
+//self.setStat(&quot;generic.arousal&quot;, 0); &#xd;
+pay = (Integer) (pay + vfuck);&#xd;
+}&#xd;
+}&#xd;
+&#xd;
+//////////////////////// Female client&#xd;
+if(partner_sex_val &gt;= 34 &amp;&amp; partner_sex_val &lt; 66 )&#xd;
+{&#xd;
+partner_sex = &quot; serving a female customer.&quot;;&#xd;
+client = Character(&quot;Client&quot;, &quot;human_female_agency_worker&quot;);&#xd;
+&#xd;
+self.addStat(&quot;skill.handjob&quot;, 0.2);&#xd;
+pay = (Integer) handjob&#xd;
+&#xd;
+self.addStat(&quot;skill.oral&quot;, 0.2);&#xd;
+pay = (Integer) (pay + oral);&#xd;
+&#xd;
+if (status.VaginalIsPossible(client, self))&#xd;
+{&#xd;
+self.addStat(&quot;skill.penis_sex&quot;, 0.2);&#xd;
+self.doAction(&quot;orgasm&quot;);&#xd;
+//self.setStat(&quot;generic.arousal&quot;, 0); &#xd;
+pay = (Integer) (pay + pfuck);&#xd;
+}&#xd;
+}&#xd;
+&#xd;
+&#xd;
+/////////////////////// Futa client&#xd;
+if(partner_sex_val &gt;= 66 )&#xd;
+{&#xd;
+partner_sex = &quot; serving a futa.&quot;;&#xd;
+client = Character(&quot;Client&quot;, &quot;human_futa_agency_worker&quot;);&#xd;
+self.addStat(&quot;skill.blowjob&quot;, 0.2);&#xd;
+self.addStat(&quot;skill.handjob&quot;, 0.2);&#xd;
+self.addStat(&quot;skill.oral&quot;, 0.2);&#xd;
+self.addStat(&quot;generic.tiredness&quot;, 5);&#xd;
+pay = (Integer) (blowjob + oral + handjob)/1.75;&#xd;
+&#xd;
+if (status.VaginalIsPossible(self, client))&#xd;
+{&#xd;
+self.addStat(&quot;skill.vaginal_sex&quot;, 0.2);&#xd;
+self.doAction(&quot;orgasm&quot;);&#xd;
+//self.setStat(&quot;generic.arousal&quot;, 0); &#xd;
+pay = (Integer) (pay + vfuck)/2;&#xd;
+}&#xd;
+&#xd;
+if (status.VaginalIsPossible(client, self))&#xd;
+{&#xd;
+self.addStat(&quot;skill.penis_sex&quot;, 0.2);&#xd;
+self.doAction(&quot;orgasm&quot;);&#xd;
+//self.setStat(&quot;generic.arousal&quot;, 0); &#xd;
+pay = (Integer) (pay + pfuck);&#xd;
+}&#xd;
+&#xd;
+}&#xd;
+&#xd;
+player.inventory.addMoney(pay);&#xd;
+res = self.getName()+ &quot; worked in the whorehouse&quot; +partner_sex+&quot; &#xd;
+&#xd;
+A payment of &quot; + pay +&quot; coins was transferred to your account.&quot;;&#xd;
+self.addStat(&quot;generic.tiredness&quot;, 5);&#xd;
+MoveWorkerToReturnList(self, 1);&#xd;
+}&#xd;
+res;</script>
+  <decription>Work as a prostitute in the Fun House. Payment depends on the skill and satisfaction of the clients.
+</decription>
+</fetishmaster.engine.ManagmentTask>

@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/oppai_show</name>
+  <descr>- So you&apos;d like to participate in the Huge Breasts special show? Good to know! First things first, you&apos;ll need a bust size of minimum H cup to do it. We do the show from 22:00 to 2:00, right after the pregancy show, so present yourself in this time bracket and you&apos;ll get your chance.
+
+- As for ways to invrease your bust size, you can either start lactating and getting your breasts to their limit, it&apos;ll force them to grow permanently after some time. You can get childrens, the more you have, the more your breasts will grow in preparation of feeding them all! The owner of the exotic pet store might have something to help you there, I suggest you pay him a visit if you haven&apos;t done so already. Also to note, the customers also like big nipples to go with the big boobies, the bigger the better! For this case, using a milk pump can cause slight increases in your nipples size, so I suggest to try it out! 
+
+&lt;% DisplayChar(&quot;char/neferi.png&quot;);
+SetPerFlag(&quot;neferi_oppai_show&quot;, 1);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;neferi_oppai_show&quot;) &lt; 1 &amp;&amp; GetPerFlag(&quot;neferi_oppai_offer&quot;) &gt; 0;</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/outskirts</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

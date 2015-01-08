@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/preg/instant_child</name>
+  <descr>Test of creating child process (tentacle beast):
+
+&lt;%
+male = Character(&quot;Tentacle&quot;, &quot;t_beast/t_beast_ho&quot;);
+
+InjectOva(male, proxy);
+act = male.doAction(&quot;orgasm&quot;);
+InjectSperm(male, proxy, act.get(&quot;penis&quot;, &quot;cum&quot;));
+proxy.loadEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;, act.get(&quot;penis&quot;, &quot;cum&quot;));
+if(proxy.getStat(&quot;uterus.phase&quot;) != 1)
+{
+	proxy.setStat(&quot;uterus.phase&quot;, 2);
+	proxy.setStat(&quot;uterus.cycle&quot;, 0);
+}
+ &quot;&quot;;%&gt;
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

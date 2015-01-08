@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/running</name>
+  <descr>&lt;%activePartner.getName();%&gt; goes for a run on the streets around your home. This is boring and strenuous, but effective training for &lt;%activePartner.HisHer();%&gt; stamina and speed. 
+&lt;% activePartner.addStat(&quot;generic.spd&quot;, 1);
+       activePartner.addStat(&quot;generic.end&quot;, 1);
+       activePartner.addStat(&quot;generic.tiredness&quot;, 20);
+       activePartner.subStat(&quot;generic.mood&quot;, 5); 
+proxy.subStat(&quot;generic.calories&quot;, 200);
+SetPerFlag(&quot;run_course&quot;, GetPerFlag(&quot;run_course&quot;)+1);
+&quot;&quot;; %&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>base_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/p_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

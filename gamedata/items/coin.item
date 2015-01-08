@@ -1,0 +1,12 @@
+<fetishmaster.items.Item>
+  <name>Coins</name>
+  <descr>Coins have become the main currency since DS. Although there are many nominals, banknotes, and bank checks, most people just call them coins.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1</value>
+  <sellValue>1</sellValue>
+  <weight>0.0</weight>
+</fetishmaster.items.Item>

@@ -1,0 +1,53 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/r_to_cabinet</name>
+  <descr>[proxy] thinks about [hisher] choice for a moment before shaking [hisher] head and telling Dr. Genki [heshe] has changed [hisher] mind.
+
+- That is perfectly fine [proxy]. Is there anything else I can help you with?
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;found_genki&quot;)==1;</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cosmetic surgery</name>
+      <value>city/hospital/genki/cosmetic_surgery</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>About Neferi offer</name>
+      <value>city/hospital/genki/ask_neferi_offer</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pregnancy Implant</name>
+      <value>city/hospital/genki/select_preg_implant</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Remove breast implants</name>
+      <value>city/hospital/genki/implants_remove</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Remove preg implant</name>
+      <value>city/hospital/genki/preg_remove_check</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy saline</name>
+      <value>city/hospital/genki/select_saline</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

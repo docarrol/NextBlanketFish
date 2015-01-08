@@ -1,0 +1,13 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/vagina/missionary_toobig</name>
+  <descr>[Target] spreads [=target][t-her]&apos;s legs, and [Proxy] tries to insert [hisher] [=proxy][penis] inside. It&apos;s too big for [target]&apos;s [=target][vagina].</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;)&gt;33 &amp;&amp; !status.VaginalIsPossible(iTarget, proxy);</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

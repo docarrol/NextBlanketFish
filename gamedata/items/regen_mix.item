@@ -1,0 +1,20 @@
+<fetishmaster.items.Item>
+  <name>Regeneration Enancer</name>
+  <descr>This vial contains an alchemical mixture that greatly enhances natural body regeneration for a several days. Some components of it are very rare, and the price is quite high.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.updateEffect(&quot;generic.regen_rate&quot;, &quot;regen_enhancer&quot;, 80, 300+calc.random(99), &quot;Effect from regen mixture has ended.&quot;);&#xd;
+&#xd;
+//chance to restore virginity&#xd;
+if (Chance(10) &amp;&amp; self.hasOrgan(&quot;vagina&quot;))&#xd;
+{&#xd;
+self.setStat(&quot;vagina.virgin&quot;, 1);&#xd;
+}</useScript>
+  <useText>Mixture feels fleshy and hot at same time. &lt;%self.getName();%&gt; feels strange and energized.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>15000</value>
+  <sellValue>7000</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

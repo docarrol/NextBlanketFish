@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/first_meet</name>
+  <descr>[Proxy] approachs stranger. [HeShe] introduce [himher]self and has a small chat with &lt;%ctv = Character(GetTextFlag(&quot;commoner_uid&quot;)); ctv.setFlag(&quot;clothed&quot;, 1); ctv.setStat(&quot;generic.last_meet&quot;, 0); ctv.setFlag(&quot;commoner_introduced&quot;, 1); &quot;&quot;;%&gt;&lt;%ctv.HimHer()%&gt;. Person that interested [proxy] is a &lt;% ctv.getName()%&gt;
+
+&lt;%Include(&quot;cview/full_description&quot;);%&gt;&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

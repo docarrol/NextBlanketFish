@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/trade</name>
+  <descr>&lt;%
+NewShop();
+if (GetFlag(&quot;know_lactaids&quot;) &gt; 0 )
+{
+	ItemToShop(&quot;lactaids&quot;);
+}
+ItemToShop(&quot;power_crystal&quot;);
+ItemToShop(&quot;lust_pill&quot;);
+if (GetFlag(&quot;regen_mix_know&quot;) &gt;0) {ItemToShop(&quot;regen_mix&quot;);}
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

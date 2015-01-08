@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/lost_mobility</name>
+  <descr>[Proxy] has lost [hisher] mobility and cannot go anywhere on [hisher] own. 
+You can only turn off the proxy and wait for an evacuation team from the rescue station to return [proxy] home.</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Turn off Proxy</name>
+      <value>system_events/return_to_home_after_rest</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

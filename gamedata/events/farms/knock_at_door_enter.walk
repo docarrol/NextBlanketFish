@@ -1,0 +1,58 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/knock_at_door_enter</name>
+  <descr>&lt;%Include(&quot;char/belanika_init&quot;);%&gt;&lt;%Include(&quot;farm/greetings_in_farm&quot;);%&gt; 
+
+</descr>
+  <conditions>t = Include(&quot;char/belanika_init&quot;);
+(clock.isMorning() || clock.isDay() ) &amp;&amp;  belanika.getStat(&quot;generic.spd&quot;) &gt; 0;</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Vicky needs</name>
+      <value>farms/mtq</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Appearance</name>
+      <value>farms/inside_appearance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk</name>
+      <value>farms/inside_talk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Milk</name>
+      <value>farms/inside_milk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sex</name>
+      <value>farms/inside_sex</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Tell About Romul</name>
+      <value>farms/inside_about_romul</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Give Phial with Kau Potion</name>
+      <value>farms/inside_give_kau_phial</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

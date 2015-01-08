@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/offer_1_yes</name>
+  <descr>- I&apos;m glad that you interested. Now, let me explain what you can do. First type of the special demand from clients - a sex or striptease from the pregnant girl. This fetish actually pretty common. They liked to see or feel gravid girl or futanari forms... And the more the better. &#xd;
+&lt;%Include(&quot;brothel/preg_offer_talk&quot;);%&gt;&#xd;
+&#xd;
+- There is also another fetish we specialize in... *She cups her breasts to emphasize* It&apos;s huge boobies... REALLY HUGE ones. There is a starting limit to participate in the special show though. I&apos;ll give you more details if you&apos;re interested.&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;neferi_preg_offer&quot;, 1);&#xd;
+SetPerFlag(&quot;neferi_oppai_offer&quot;, 1);&#xd;
+DisplayChar(&quot;char/neferi.png&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/lounge</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

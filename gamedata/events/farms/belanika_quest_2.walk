@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/belanika_quest_2</name>
+  <descr>&lt;%activePartner.getName();%&gt; inspects the unit. The device is rather complicated - a mechanical pump attached to a magical engine. As planned by the author apparatus he might be charged by collecting magical energy. Unfortunately the part that is responsible for it, is broken. In addition, the apparatus has a receiver for ordinary crystals.
+Once more closely, &lt;%activePartner.getName();%&gt; decided that the problem of the charger in the complex crystal. It seems it is cracked. &lt;%activePartner.get2ndPerson();%&gt; carefully took him, and promised Belanika, to try to solve a problem.
+
+Possible to try find out who can fix crystal charger, or try to find the magic crystals. In other matters, you can just buy them. But this is rather expensive cost. In any case, ordinary crystals only a temporary solution.
+&lt;% PerSetFlag(&quot;belanika_milker_quest&quot;, 1); &quot;&quot;;%&gt;
+&lt;% PerSetFlag(&quot;belanika_meet&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>PerGetFlag(&quot;belanika_milker_quest&quot;) == 0;</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+</fetishmaster.engine.WalkEvent>

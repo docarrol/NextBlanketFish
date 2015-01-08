@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/psychologist</name>
+  <descr>- Hm... I don&apos;t see anything I can help you with...</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/doctor_psy.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

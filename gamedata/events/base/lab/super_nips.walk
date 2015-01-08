@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/lab/super_nips</name>
+  <descr>After an hour of mixing, you produce a vial of Super Nips!
+&lt;%
+AddItem(&quot;super_nips&quot;);
+RemoveItem(&quot;breast_milk&quot;, 10);
+RemoveItem(&quot;pussy_cum_bottle&quot;, 20);
+%&gt;
+</descr>
+  <conditions>if (activePartner.inventory.itemsCount(&quot;pussy_cum_bottle&quot;) &gt;= 20 &amp;&amp; activePartner.inventory.itemsCount(&quot;breast_milk&quot;) &gt;= 10)
+	true;
+else
+	false;</conditions>
+  <picturePath>base/lab1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>in_the_lab</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>in_the_base</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

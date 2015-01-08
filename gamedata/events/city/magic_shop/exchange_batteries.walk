@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/exchange_batteries</name>
+  <descr>&lt;%
+RemoveItem(&quot;old_battery&quot;);
+RemoveItem(&quot;old_battery&quot;);
+RemoveItem(&quot;old_battery&quot;);
+RemoveItem(&quot;old_battery&quot;);
+RemoveItem(&quot;old_battery&quot;);
+activePartner.inventory.addItem(item.loadItem(&quot;power_crystal&quot;)); &quot;&quot;;
+%&gt;[Proxy] exchanged five batteries for one power crystal. 
+</descr>
+  <conditions>res = 0;
+if (activePartner.inventory.itemsCount(&quot;old_battery&quot;) &gt;= 5)
+	res = 1;
+res;
+</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Exchange more Batteries</name>
+      <value>city/magic_shop/exchange_batteries</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave Shop</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

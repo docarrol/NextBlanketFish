@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/pills/get_pill</name>
+  <descr>- Good. First I need to give you a checkup and then you should fill out these forms...&#xd;
+&#xd;
+After filling out the forms, the nurse gives [proxy] a pill. &#xd;
+&#xd;
+&lt;%Include(&quot;hospital/pills/take&quot;);%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/research_wing.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

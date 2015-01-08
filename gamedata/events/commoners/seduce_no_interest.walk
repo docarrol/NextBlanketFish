@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/seduce_no_interest</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;[Proxy] has tried to flirt with &lt;% c.getName();%&gt; for some time but &lt;% c.HeShe();%&gt; does not show any interest in [proxy].
+&lt;%MoodShame(15); &quot;&quot;;%&gt;
+
+
+
+&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

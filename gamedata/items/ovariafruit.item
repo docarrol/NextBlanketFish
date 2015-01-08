@@ -1,0 +1,29 @@
+<fetishmaster.items.Item>
+  <name>Ovaria fruit</name>
+  <descr>A strange fruit found in the mirkwood. Its effects are unkown.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>res = &quot;Taste is strange, but &quot; + self.getName() + &quot; think that it&apos;s okey...\n&quot;;&#xd;
+if ( status.isPregnant(self) == false &amp;&amp; self.hasOrgan(&quot;uterus&quot;) &amp;&amp; self.hasOrgan(&quot;vagina&quot;) )&#xd;
+{&#xd;
+//too stroing to cause imidiatly ovulation. Behavior changed - //only adding more ova&apos;s now. &#xd;
+//self.setStat(&quot;uterus.phase&quot;, 1);&#xd;
+//self.setStat(&quot;uterus.cycle&quot;, 0);&#xd;
+self.addEffect(&quot;fertility.ovulation_ova&quot;, &quot;ovarian_fruit&quot;, 0.5, 240);&#xd;
+self.addStat(&quot;generic.calories&quot;, 100);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 100);&#xd;
+&#xd;
+res = res + &quot;When &quot; + self.getName() + &quot; eats the fruit &quot; + self.HeShe() + &quot; feels a tingle in her lower belly.&quot;;&#xd;
+}&#xd;
+&#xd;
+res;&#xd;
+&#xd;
+</useScript>
+  <useText> </useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>15</value>
+  <sellValue>15</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

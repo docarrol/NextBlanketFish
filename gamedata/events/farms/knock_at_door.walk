@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/knock_at_door</name>
+  <descr>[Proxy] waits for some time but no one replied to the knocks...</descr>
+  <conditions>1</conditions>
+  <picturePath>farms/farm1.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

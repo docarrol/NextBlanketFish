@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/implants_remove</name>
+  <descr>[proxy] rubs [hisher] back a few times and says to Dr. Genki [heshe] is thinking about having [hisher] breastimplants removed.
+
+- So [proxy], you are having some issues with your breasts implants? All right then, I can remove them if you are absolutely sure.
+&lt;% SetFlag(&quot;last_implants_selected&quot;, -1); 
+SetFlag(&quot;money_for_implant&quot;, 0); 
+&quot;&quot;;%&gt;
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasEffect(&quot;breasts.size&quot;, &quot;breasts_implant&quot;) == true;</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>I&apos;m sure</name>
+      <value>city/hospital/genki/implants_postop_remove</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/genki/r_to_cabinet</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/waitress_work_ok_offer</name>
+  <descr>&lt;%Include(&quot;fetish_cafe/change_to_waitress&quot;);%&gt;
+
+[Proxy] works [hisher] shift and is actually enjoying all the attention [heshe] gets. Throughout work [proxy] uses her assets to attract more customers and tease them. After the shift, Manager asks [himher] to come to his office.
+&lt;%LustShame(5, 20); 
+proxy.inventory.addMoney(5);
+&quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;generic.waitress&quot;) + proxy.getStat(&quot;generic.cha&quot;) &gt; 60) &amp;&amp; GetPerFlag(&quot;cafe_2f_work&quot;) == 0;</conditions>
+  <picturePath>city/fcafe/waitress_tease.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/2f_offer</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

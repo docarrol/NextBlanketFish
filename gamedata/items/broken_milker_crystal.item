@@ -1,0 +1,13 @@
+<fetishmaster.items.Item>
+  <name>Broken milker crystal</name>
+  <descr>This is a crystal taken from Belanika's unique milking machine.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>false</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>0</value>
+  <weight>1.0</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/t_beast/semen_from_vagina</name>
+  <descr>With a moan, [proxy] manages to pull [her]self together and collect the beasts semen from [her] own [=proxy][vagina] - how humiliating!
+&lt;%
+AddItem(&quot;t_beast_semen&quot;);
+ &quot;&quot;;%&gt;
+&lt;%MoodShame(60); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>battle/loss/semen_out.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

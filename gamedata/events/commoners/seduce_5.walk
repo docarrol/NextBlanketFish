@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>commoners/seduce_5</name>
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;It&apos;s only needed a few hints in the speaking with &lt;% c.getName();%&gt; and &lt;%c.HeShe();%&gt; begin a active flirt with [proxy]. It&apos;s quite obvious - &lt;% c.getName();%&gt; ready to &quot;play&quot; with [proxy] at almost any times now.
+
+&lt;%Include(&quot;commoners/calc_seduce&quot;); &quot;&quot;;%&gt;
+
+&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(ctv.getUID()+ &quot;.relations&quot;) &gt; 70) &amp;&amp; ctv.getStat(&quot;generic.lewdness&quot;) &gt; 50</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>5</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

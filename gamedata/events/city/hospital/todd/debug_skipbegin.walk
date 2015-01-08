@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/todd/debug_skipbegin</name>
+  <descr>Unlocked the quest until the methods.
+
+&lt;%
+SetFlag(&quot;found_todd&quot;, 1);
+SetFlag(&quot;todd_left_early&quot;, 0);
+SetFlag(&quot;todd_started_help&quot;, 3);
+SetFlag(&quot;todd_unlock_helpmethods&quot;, 1);
+SetFlag(&quot;todd_need_crystals&quot;, 0); &quot;&quot;;%&gt;</descr>
+  <conditions>InDevMode();</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

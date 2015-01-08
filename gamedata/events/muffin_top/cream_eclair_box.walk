@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/cream_eclair_box</name>
+  <descr>&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;[Proxy] asks for the cream eclair box.
+
+Vicky gives [himher] a sweet smile. After a few minutes she returns with [proxy]&apos;s order. &lt;%Include(&quot;muffin_top/first_order&quot;);%&gt;
+&lt;%
+AddItem(&quot;cream_eclair&quot;, 12);
+RemoveMoney(220); 
+&quot;&quot;;%&gt;
+&lt;% SetPerFlag(&quot;muffin_top_orders&quot;, GetPerFlag(&quot;muffin_top_orders&quot;)+1); &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(220) &amp;&amp; GetFlag(&quot;muffin_top_quest&quot;) &gt;= 6 &amp;&amp; GetFlag(&quot;muffin_top_next_stage&quot;)-5 &lt;=  clock.getDays();</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

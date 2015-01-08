@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/kitchen_interior</name>
+  <descr>This is the kitchen. As you would expect, there are cooks working, and plates being served. Chief looks at [proxy] with a questioning look in her eyes.</descr>
+  <conditions>GetFlag(&quot;fcafe_now_about_kitchen&quot;) &gt; 0 ;
+</conditions>
+  <picturePath>city/fcafe/kitchen_interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>I have milk...</name>
+      <value>city/redlight/cafe/kitchen_milk_talk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>I&apos;m a futa...</name>
+      <value>city/redlight/cafe/kitchen_futa_talk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Be milked</name>
+      <value>city/redlight/cafe/kitchen_be_milked</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Do a &quot;Donation&quot;</name>
+      <value>city/redlight/cafe/kitchen_futa_milking</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Spy for Recipes</name>
+      <value>city/redlight/cafe/spy_recipes</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Exit</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

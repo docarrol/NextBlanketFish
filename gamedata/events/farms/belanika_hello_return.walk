@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/belanika_hello_return</name>
+  <descr>&lt;%activePartner.getName();%&gt; walks back into the barn and toward the stall that Belanika uses. When [heshe] looks into the stall, &lt;%activePartner.get2ndPerson();%&gt; sees the cowgirl still sitting on the floor in her milk-bloated condition.
+
+- Oh! You&apos;re back! Hello again.
+
+&lt;%DisplayChar(&quot;char/cowgirl2.png&quot;); &quot;&quot;;%&gt;
+&lt;%MoodShame(20); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>farms/barn.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>farms/milker_look</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dr.Felis&apos; Request</name>
+      <value>farms/belanika_felis_request</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

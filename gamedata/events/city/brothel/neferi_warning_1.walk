@@ -1,0 +1,44 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/neferi_warning_1</name>
+  <descr>Neferi looks very upset and says:&#xd;
+&#xd;
+- The last client was absolutely unsatisfied and annoyed. I had to offer a free session with another girl to prevent damage to the name of this place. [Proxy], what were you thinking?&#xd;
+&#xd;
+Neferi takes a deep worrying breath and continues: &#xd;
+&#xd;
+- I can see your potential, but this may not happen again, do you understand?&#xd;
+&#xd;
+[Proxy] nods ashamed and Neferi continues: &#xd;
+&#xd;
+- Maybe Dr. Genki will be able to help, tell him I sent you.&#xd;
+&#xd;
+Watching [Proxy]&apos;s worried face, Neferi adds: &#xd;
+&#xd;
+- You will need to pay for the free session, it will cost you 200 coins. And if this happens againg, you don&apos;t need to come back. Is that clear?&#xd;
+&#xd;
+[Proxy] nods staring into the floor. [HeShe] pays quickly 200 coins and leaves.&#xd;
+&#xd;
+&lt;% DisplayChar(&quot;char/neferi.png&quot;);&#xd;
+RemoveMoney(200);&#xd;
+//SetPerFlag(&quot;anal_sex_disgusting&quot;, 0);&#xd;
+SetPerFlag(&quot;enema_neferi_suggestion&quot;, 1);&#xd;
+SetPerFlag(&quot;nefri_warning&quot;, 1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>//GetPerFlag(&quot;anal_sex_disgusting&quot;) == 2 &amp;&amp; GetPerFlag(&quot;nefri_warning&quot;) &lt; 1
+// This is not right - condition of this event processed before than script in
+// template neferi_warning_lounge.tpl
+GetPerFlag(&quot;anal_sex_disgusting&quot;) == 1 &amp;&amp; GetPerFlag(&quot;nefri_warning&quot;) &lt; 1</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>I understand</name>
+      <value>city/outskirts</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

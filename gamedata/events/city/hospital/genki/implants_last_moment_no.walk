@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/implants_last_moment_no</name>
+  <descr>[proxy] blushes and profusely apologizes as [heshe] tells Dr. Genki that [heshe] has changed [hisher] mind. He pauses while putting his equipment away, turns to look at [himher], and chuckles gently.
+
+- That is fine [proxy]. You are not the first, nor the last, to change their mind at the last minute. I will still need to charge you a one hundred coin fee for my time though. If you decide that you want to have the breast implant surgery, you know where I am.
+
+[proxy] quickly pays Dr. Genki then walks out of his office.
+
+&lt;%RemoveMoney(100); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/genki_corridor.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

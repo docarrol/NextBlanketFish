@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/waitress_work_not_ok</name>
+  <descr>&lt;%Include(&quot;fetish_cafe/change_to_waitress&quot;);%&gt;
+
+[Proxy] works [hisher] shift and does not like it at all. The staring and groping does not give [himher] any pleasure. Quite the opposite in fact.
+&lt;%MoodShame(20); 
+proxy.inventory.addMoney(5);
+&quot;&quot;;%&gt;</descr>
+  <conditions>ShameCheck(20) &gt; 5;</conditions>
+  <picturePath>city/fcafe/waitress_not_ok.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>10</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

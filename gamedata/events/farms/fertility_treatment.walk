@@ -1,0 +1,40 @@
+<fetishmaster.engine.WalkEvent>
+  <name>farms/fertility_treatment</name>
+  <descr>[Proxy] requests that the farmer gives her the fertility treatment.
+
+&quot;Alright then, please get comfortable in that hay, I&apos;m going to hook up the milker to your breasts.&quot;
+
+He readies everything and starts the milker, then puts the suction cup on [Proxy]&apos;s engorged nipples.
+
+[Proxy] tries to remain silent but can&apos;t help to let escape a moan of relief and the milker pumps out the milk from her full breasts. She can also feel a sting on her arm as the farmer injects her with the treatment. As the milking session comes to an end, [Proxy] get&apos;s up and dress back up, trying not to touch her sore nipples too much. Then thanks the farmer and leaves the barn.
+
+&lt;%
+self.subStat(&quot;breasts.milk_volume&quot;, 10000);
+if (self.getStat(&quot;fertility.extra_ova&quot;) &lt; 97)
+	{
+ 	self.updateEffect(&quot;fertility.extra_ova&quot;, &quot;boostup&quot;, 15, 720);
+	}
+	self.updateEffect(&quot;fertility.human&quot;, &quot;boostup&quot;, 25, 720);
+	self.updateEffect(&quot;fertility.kau&quot;, &quot;boostup&quot;, 25, 720);
+	self.updateEffect(&quot;fertility.nekomata&quot;, &quot;boostup&quot;, 25, 720);
+if (self.getStat(&quot;fertility.ovulation_ova&quot;) &lt; 24)
+{
+self.updateEffect(&quot;fertility.ovulation_ova&quot;, &quot;boostup&quot;, self.getStat(&quot;fertility.ovulation_ova&quot;), 720);&quot;&quot;;
+}
+%&gt;</descr>
+  <conditions>activePartner.getStat(&quot;breasts.milk_volume&quot;) &gt;= 10000;</conditions>
+  <picturePath>farms/fertility_treatment.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>To Farm</name>
+      <value>farms/on_the_farm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

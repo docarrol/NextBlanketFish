@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/preg/birth</name>
+  <descr>Character give birth.
+[=proxy]
+&lt;%Include(&quot;system/c_generic_birth&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,26 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Sport: Simple Exercises</name>
+  <conditions>res = false;
+
+if (self.getStat(&quot;generic.spd&quot;) &lt;=0 )
+	res = true;
+if (status.isBaby(self))
+	res= false;
+
+res;</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if (isTaskFirstHour())&#xd;
+{&#xd;
+        self.addStat(&quot;generic.str&quot;, 0.2);&#xd;
+        self.addStat(&quot;generic.spd&quot;, 0.9);&#xd;
+        self.addStat(&quot;generic.end&quot;, 0.4);&#xd;
+        self.addStat(&quot;generic.cha&quot;, 0.02);&#xd;
+        self.addStat(&quot;generic.tiredness&quot;, 8);&#xd;
+&#xd;
+self.subStat(&quot;generic.calories&quot;, 150);&#xd;
+&#xd;
+res = self.getName()+&quot; does several basic exercise moves.&quot;;&#xd;
+}&#xd;
+res;</script>
+  <decription>Basic exercise moves for people with little mobility.</decription>
+</fetishmaster.engine.ManagmentTask>

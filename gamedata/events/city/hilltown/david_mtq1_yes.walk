@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hilltown/david_mtq1_yes</name>
+  <descr>David takes money from [proxy], and does another call. Then he tells you that the separator is ordered and will be at the farm in the next few days. 
+&lt;%
+RemoveMoney(3000);
+SetFlag(&quot;muffin_top_quest&quot;, 5);
+SetFlag(&quot;muffin_top_next_stage&quot;, clock.getDays()+2+calc.random(3));
+ &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(3000);</conditions>
+  <picturePath>intro/doctor.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

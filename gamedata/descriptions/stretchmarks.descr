@@ -1,0 +1,24 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>abdomen.stretch_marks</name>
+  <min>
+    <double>0.0</double>
+    <double>10.0</double>
+    <double>25.0</double>
+    <double>50.0</double>
+    <double>75.0</double>
+  </min>
+  <max>
+    <double>10.0</double>
+    <double>25.0</double>
+    <double>50.0</double>
+    <double>75.0</double>
+    <double>9999.0</double>
+  </max>
+  <descr>
+    <string>very light stretch marks</string>
+    <string>light stretch marks</string>
+    <string>visible stretch marks</string>
+    <string>growing and widening stretch marks</string>
+    <string>large stretch marks that look like tears</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

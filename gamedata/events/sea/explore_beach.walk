@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/explore_beach</name>
+  <descr>[Proxy] searches around the beach but does not find anything interesting...</descr>
+  <conditions>1</conditions>
+  <picturePath>sea/beach.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

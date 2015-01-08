@@ -1,0 +1,12 @@
+<fetishmaster.engine.WalkEvent>
+  <name>old_city/explore_dark_street_oldparts</name>
+  <descr>[Proxy] searched around the dark street. In one of the old buildings [heshe] finds some old electronic parts.
+&lt;%AddItem(&quot;old_parts&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>calc.chance(30);</conditions>
+  <picturePath>lost_city/dark_street.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,17 @@
+<fetishmaster.components.StatEffect>
+  <name>implant_postpartum</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>uv = self.getStat(&quot;uterus.volume&quot;);&#xd;
+&#xd;
+self.updateEffect(&quot;uterus.volume&quot;, &quot;postpartum_volume&quot;, uv-100);&#xd;
+&#xd;
+if (uv &lt; 200)&#xd;
+{&#xd;
+	self.removeEffect(&quot;uterus.volume&quot;, &quot;postpartum_volume&quot;);&#xd;
+	self.removeEffect(&quot;uterus.volume&quot;, &quot;implant_postpartum&quot;);&#xd;
+	sysprint(&quot;Implant postpartum effect gone&quot;);&#xd;
+}</script>
+  <tmp>false</tmp>
+  <endText></endText>
+</fetishmaster.components.StatEffect>

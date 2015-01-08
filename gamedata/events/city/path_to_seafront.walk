@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/path_to_seafront</name>
+  <descr>This path leads from the city outskirts to the Seafront. Along the way is a fork that leads to the forest.</descr>
+  <conditions>1</conditions>
+  <picturePath>city/path_to_sea.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Outskirts</name>
+      <value>city/outskirts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Seafront</name>
+      <value>city/seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Forest Edge</name>
+      <value>forest/edge_of_forest</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

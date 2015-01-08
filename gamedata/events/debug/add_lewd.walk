@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/add_lewd</name>
+  <descr>Adding 10 lewdness
+&lt;%
+proxy.addStat(&quot;generic.lewdness&quot;, 10);
+&quot;&quot;;
+%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>system_events/start_walking</name>
+  <descr>You call for [proxy] and ready the link with &lt;%activePartner.get3dPerson();%&gt; proxy.
+
+&lt;% Include(&quot;first_go_proxy&quot;);%&gt;
+Where are you going now?
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Turn on Proxy</name>
+      <value>in_the_base</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk</name>
+      <value>base/casual_talk</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Travel to...</name>
+      <value>fast_travel/select</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,37 @@
+<fetishmaster.items.Item>
+  <name>Bloated Berries</name>
+  <descr>A handful of round, bloated looking berries found while exploring the forest. You don&apos;t know what it does yet...</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>res = &quot;The berries taste surprisingly sweet!&quot;;&#xd;
+if (self.hasEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;) &amp;&amp; self.getStat(&quot;uterus.volume&quot;) &gt; 1000)&#xd;
+{&#xd;
+res += &quot; As soon as she&apos;s finished, &lt;%self.getName();%&gt; feels a comforting warmth in her belly as all the semen in it gets quickly absorbed in her body.&quot;;&#xd;
+if (self.getStat(&quot;uterus.volume&quot;) &lt; 50000)&#xd;
+{&#xd;
+self.addStat(&quot;abdomen.max_volume&quot;, (self.getStat(&quot;abdomen.max_volume&quot;) * self.getStat(&quot;uterus.volume&quot;) / 50000) + 0.05);&#xd;
+}&#xd;
+if (self.getStat(&quot;uterus.volume&quot;) &gt;= 50000)&#xd;
+{&#xd;
+self.addStat(&quot;abdomen.max_volume&quot;, self.getStat(&quot;abdomen.max_volume&quot;));&#xd;
+}&#xd;
+&#xd;
+self.removeEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;);&#xd;
+}&#xd;
+else&#xd;
+{&#xd;
+res += &quot;And she feels a slight warmth in her belly.&quot;;&#xd;
+self.addStat(&quot;abdomen.max_volume&quot;, (self.getStat(&quot;abdomen.max_volume&quot;) * 0.05));&#xd;
+}&#xd;
+&#xd;
+self.addStat(&quot;generic.calories&quot;, 50);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 100);&#xd;
+res;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>30</value>
+  <sellValue>15</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

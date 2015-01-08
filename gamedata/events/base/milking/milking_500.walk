@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/milking/milking_500</name>
+  <descr>You are milking &lt;% activePartner.getName() %&gt;&apos;s  &lt;%IncludeRange(activePartner.getStat(&quot;generic.cup_size&quot;), &quot;breastcups&quot;);%&gt; breasts and &lt;% activePartner.get2ndPerson(); %&gt; gives &lt;% a = selectedWorker.doAction(&quot;milking&quot;);
+MoodShame(20);
+self.addStat(&quot;generic.arousal&quot;, 14);
+if (self.getStat(&quot;generic.arousal&quot;) &gt; 100)
+{
+self.setStat(&quot;generic.arousal&quot;, 100);
+}
+       (int)a.get(&quot;breasts&quot;).get(&quot;milk&quot;); %&gt;ml. of milk. This amount is enough to fill a bottle. 
+&lt;%AddItem(self, &quot;breast_milk&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>if (activePartner.getRNAValue(&quot;breasts.milk_volume&quot;) &gt; 500)
+	true;
+else
+	false;</conditions>
+  <picturePath>base/milking/base_milking.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,27 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>asscleanness</name>
+  <min>
+    <double>-9999.0</double>
+    <double>0.25</double>
+    <double>0.5</double>
+    <double>0.75</double>
+    <double>1.0</double>
+    <double>2.0</double>
+  </min>
+  <max>
+    <double>0.25</double>
+    <double>0.5</double>
+    <double>0.75</double>
+    <double>1.0</double>
+    <double>2.0</double>
+    <double>9999.0</double>
+  </max>
+  <descr>
+    <string>extremly messy</string>
+    <string>very dirty</string>
+    <string>dirty</string>
+    <string>slightly dirty</string>
+    <string>clean</string>
+    <string>insanely clean</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

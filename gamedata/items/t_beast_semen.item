@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>Tentacle Beast semen</name>
+  <descr>Half-liter bottle of the Tentacle Beasts semen.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>false;</useScript>
+  <useText></useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>0</value>
+  <sellValue>0</sellValue>
+  <weight>0.5</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

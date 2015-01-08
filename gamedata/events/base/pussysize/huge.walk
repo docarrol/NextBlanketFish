@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/pussysize/huge</name>
+  <descr>&lt;%activePartner.getName()%&gt; feels horny enough and spends 2 hours masturbating with the huge dildo, pushing it as deep as possible, stretching herself to her limit while having some orgasms on while at it. After the ordeal, she does feel like her pussy&apos;s a bit looser.
+
+&lt;%
+if (activePartner.getStat(&quot;vagina.length&quot;) &lt; 28)
+{
+activePartner.addStat(&quot;vagina.length&quot;, 0.35);
+}
+if (activePartner.getStat(&quot;vagina.width&quot;) &lt; 10)
+{
+activePartner.addStat(&quot;vagina.width&quot;, 0.25);
+}
+activePartner.setStat(&quot;generic.arousal&quot;, 0);
+&quot;&quot;;%&gt;</descr>
+  <conditions>((activePartner.getStat(&quot;vagina.length&quot;) &gt;= 17 &amp;&amp; activePartner.getStat(&quot;vagina.length&quot;) &lt; 28) || (activePartner.getStat(&quot;vagina.width&quot;) &gt;= 6 &amp;&amp; activePartner.getStat(&quot;vagina.width&quot;) &lt; 10)) &amp;&amp; activePartner.getStat(&quot;generic.arousal&quot;) &gt;= 70 &amp;&amp; GetFlag(&quot;Huge_dildo_acquired&quot;) &gt;= 1;
+</conditions>
+  <picturePath>base/hugedildo.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to training room</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

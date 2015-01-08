@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/implant_u/help_fill</name>
+  <descr>&lt;%&#xd;
+cuid = GetTextFlag(&quot;base_current_partner&quot;);&#xd;
+partner = Character(cuid);&#xd;
+ctv = partner;&#xd;
+c=partner;&#xd;
+&quot;&quot;;%&gt;Unable to fill [hisher] own uterine implant due to [hisher] [=proxy][belly]&lt;%c=partner; &quot;&quot;;%&gt;, [proxy] calls [t-name] to help [himher] with the procedure. While waiting for [t-name] to arrive, [proxy] hangs a new saline bag from the IV stand sitting near the bed, connects the implant&apos;s fill tube to the bag, then checks that the infusion pump is on before sitting on the edge of the bed to wait.&#xd;
+&lt;%Include(&quot;base/p_i_h_fill&quot;);%&gt;&#xd;
+&lt;%LustShame(10, 50);&#xd;
+RemoveItem(&quot;saline_pack&quot;);&#xd;
+sal = proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);&#xd;
+proxy.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, sal+300);&#xd;
+LustShame(c, 5, 50);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>HasItem(&quot;saline_pack&quot;);</conditions>
+  <picturePath>base/sex_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/sex/u_implant</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

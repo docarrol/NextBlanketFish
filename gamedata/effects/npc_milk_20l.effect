@@ -1,0 +1,17 @@
+<fetishmaster.components.StatEffect>
+  <name>npc_milk_20l</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>if (self.getStat(&quot;breasts.milk_volume&quot;) &gt; 4000)&#xd;
+{&#xd;
+	self.setStat(&quot;breasts.milk_volume&quot;, 4000);&#xd;
+}&#xd;
+if (self.getStat(&quot;udder.milk&quot;) &gt; 16000)&#xd;
+{&#xd;
+	self.setStat(&quot;udder.milk&quot;, 16000);&#xd;
+}</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

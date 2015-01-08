@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>battle/magbot/lose</name>
+  <descr>&lt;%activePartner.getName();%&gt; lost the fight with &lt;%enemy.getName();%&gt;
+&lt;%EndInteraction(); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,30 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Cock Milking</name>
+  <conditions>self.getFlag(&quot;fcafe_kitchen_futa&quot;) == 2 &amp;&amp;  self.hasOrgan(&quot;penis&quot;);</conditions>
+  <script>res = &quot;&quot;;&#xd;
+if(isTaskFirstHour() &amp;&amp; clock.isMorning() == false)&#xd;
+{&#xd;
+     self.setStat(&quot;generic.arousal&quot;, 95);&#xd;
+     act = self.doAction(&quot;orgasm&quot;);&#xd;
+     cum = act.get(&quot;penis&quot;, &quot;cum&quot;);&#xd;
+                      &#xd;
+        res = new StringBuilder();&#xd;
+        res.append(self.getName()).append(&quot;&apos;s cock was milked and gave &quot;).append((Integer)cum).append(&quot;ml. of semen.\n&quot;);&#xd;
+&#xd;
+pay = (Integer)cum/10;&#xd;
+AddMoney(player, pay);&#xd;
+&#xd;
+res.append(&quot;\nCafe bought this semen for &quot;).append((int)pay).append(&quot;c.&quot;);&#xd;
+LustShame(self, 20, 35);&#xd;
+MoveWorkerToReturnList(self, 1);&#xd;
+}&#xd;
+else if (clock.isMorning())&#xd;
+{&#xd;
+   res = &quot;Cafe is closed at this time, &quot;+self.getName() + &quot; can&apos;t work here right now.&quot;;&#xd;
+}&#xd;
+&#xd;
+res;&#xd;
+&#xd;
+</script>
+  <decription>Milk cock at the fetish cafe. Cannot be set in the morning as it&apos;s the cafe&apos;s closed hours.</decription>
+</fetishmaster.engine.ManagmentTask>
