@@ -13,7 +13,7 @@
 [Proxy] thanks the good doctor and goes out the room.
 
 &lt;%
-self.setStat(&quot;fat.breasts&quot;, 99);
+self.setStat(&quot;fat.breasts&quot;, 95);
 self.setStat(&quot;fat.belly&quot;, 1);
 self.setStat(&quot;fat.hips&quot;, 1);
 self.subStat(&quot;generic.metabolism&quot;, 25);
@@ -34,5 +34,4 @@ RemoveItem(&quot;breast_milk&quot;, 100);
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

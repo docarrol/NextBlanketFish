@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/bshape_test_hourglass</name>
-  <descr>[Proxy] decides to go with Pear shape.
+  <descr>[Proxy] decides to go with hourglass shape.
 
 - Pear shape it is! Just relax and let me inject it in your system, lay your arm on the table please.
 
@@ -18,6 +18,7 @@ self.setStat(&quot;fat.belly&quot;, 1);
 self.setStat(&quot;fat.hips&quot;, 20);
 self.subStat(&quot;generic.metabolism&quot;, 25);
 SetPerFlag(&quot;bshape_test_done&quot;, 2);
+&quot;&quot;;
 %&gt;</descr>
   <conditions>GetPerFlag(&quot;bshape_test_done&quot;) == 1;</conditions>
   <picturePath>city/hospital/research_wing.jpg</picturePath>
@@ -33,5 +34,4 @@ SetPerFlag(&quot;bshape_test_done&quot;, 2);
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

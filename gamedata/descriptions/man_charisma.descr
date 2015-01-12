@@ -1,0 +1,33 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>man_charisma</name>
+  <min>
+    <double>-999.0</double>
+    <double>15.0</double>
+    <double>30.0</double>
+    <double>40.0</double>
+    <double>50.0</double>
+    <double>60.0</double>
+    <double>75.0</double>
+    <double>90.0</double>
+  </min>
+  <max>
+    <double>15.0</double>
+    <double>30.0</double>
+    <double>45.0</double>
+    <double>50.0</double>
+    <double>60.0</double>
+    <double>75.0</double>
+    <double>90.0</double>
+    <double>999.0</double>
+  </max>
+  <descr>
+    <string>ugly</string>
+    <string>unatractive</string>
+    <string>discreet-looking</string>
+    <string>ordinary-looking</string>
+    <string>good-looking</string>
+    <string>charming</string>
+    <string>handsome</string>
+    <string>biseinen-type</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

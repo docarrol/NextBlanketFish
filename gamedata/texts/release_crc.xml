@@ -84,7 +84,7 @@
     <string>\events\farms\belanika_milked1.walk</string>
   </entry>
   <entry>
-    <string>1611066480</string>
+    <string>917016008</string>
     <string>\events\farms\on_the_farm.walk</string>
   </entry>
   <entry>
@@ -728,7 +728,7 @@
     <string>\events\debug.walk</string>
   </entry>
   <entry>
-    <string>1997717409</string>
+    <string>2015333085</string>
     <string>\events\debug\misc.walk</string>
   </entry>
   <entry>
@@ -820,7 +820,7 @@
     <string>\events\debug\add_male_worker.walk</string>
   </entry>
   <entry>
-    <string>3553626849</string>
+    <string>3623411498</string>
     <string>\events\debug\debug_setup.walk</string>
   </entry>
   <entry>
@@ -832,7 +832,7 @@
     <string>\events\debug\manual_test.walk</string>
   </entry>
   <entry>
-    <string>3772625518</string>
+    <string>3773998217</string>
     <string>\events\debug\add_lewd.walk</string>
   </entry>
   <entry>
@@ -968,7 +968,7 @@
     <string>\events\system_events\start_walking.walk</string>
   </entry>
   <entry>
-    <string>3584980741</string>
+    <string>678189913</string>
     <string>\events\system_events\start_walking_kiana.walk</string>
   </entry>
   <entry>
@@ -1232,7 +1232,7 @@
     <string>\events\city\redlight\merril\let_in.walk</string>
   </entry>
   <entry>
-    <string>3853792198</string>
+    <string>3573623434</string>
     <string>\events\city\redlight\merril\sexperiment.walk</string>
   </entry>
   <entry>
@@ -1544,7 +1544,7 @@
     <string>\events\city\to_hilltown.walk</string>
   </entry>
   <entry>
-    <string>3338484644</string>
+    <string>3392155061</string>
     <string>\events\city\hospital\bshape_test_wmelonsp.walk</string>
   </entry>
   <entry>
@@ -1616,7 +1616,7 @@
     <string>\events\city\hospital\doctor_too_preg.walk</string>
   </entry>
   <entry>
-    <string>1812755452</string>
+    <string>3776604874</string>
     <string>\events\city\hospital\bshape_test_pear.walk</string>
   </entry>
   <entry>
@@ -1624,7 +1624,7 @@
     <string>\events\city\hospital\hb_anitoxin_shot.walk</string>
   </entry>
   <entry>
-    <string>3002266648</string>
+    <string>2945378252</string>
     <string>\events\city\hospital\test_bshape.walk</string>
   </entry>
   <entry>
@@ -1896,7 +1896,7 @@
     <string>\events\city\hospital\bshape_test_descwmelonsp.walk</string>
   </entry>
   <entry>
-    <string>1730341814</string>
+    <string>1083825643</string>
     <string>\events\city\hospital\bshape_test_apple.walk</string>
   </entry>
   <entry>
@@ -1952,7 +1952,7 @@
     <string>\events\city\hospital\regen_tell_doctor.walk</string>
   </entry>
   <entry>
-    <string>2370038286</string>
+    <string>3722044172</string>
     <string>\events\city\hospital\bshape_test_hourglass.walk</string>
   </entry>
   <entry>
@@ -2168,7 +2168,7 @@
     <string>\events\city\hospital\genki\enema_checkup_futa.walk</string>
   </entry>
   <entry>
-    <string>3343983197</string>
+    <string>661542806</string>
     <string>\events\city\hospital\genki\in_cabinet.walk</string>
   </entry>
   <entry>
@@ -2480,7 +2480,7 @@
     <string>\events\city\brothel\specialoffer.walk</string>
   </entry>
   <entry>
-    <string>514099190</string>
+    <string>3038412026</string>
     <string>\events\city\brothel\take_client_breeder_futa.walk</string>
   </entry>
   <entry>
@@ -3088,11 +3088,11 @@
     <string>\tasks\stripper.task</string>
   </entry>
   <entry>
-    <string>189337077</string>
+    <string>1430203828</string>
     <string>\tasks\rest.task</string>
   </entry>
   <entry>
-    <string>1405931575</string>
+    <string>1826349026</string>
     <string>\tasks\read_informative_books.task</string>
   </entry>
   <entry>
@@ -3100,7 +3100,7 @@
     <string>\tasks\milking_stimulation.task</string>
   </entry>
   <entry>
-    <string>371283908</string>
+    <string>2209310991</string>
     <string>\tasks\sport_fitness.task</string>
   </entry>
   <entry>
@@ -3108,11 +3108,11 @@
     <string>\tasks\eat_pancake.task</string>
   </entry>
   <entry>
-    <string>1983659636</string>
+    <string>4074328247</string>
     <string>\tasks\sport_running.task</string>
   </entry>
   <entry>
-    <string>3931477236</string>
+    <string>4089947693</string>
     <string>\tasks\sport_swimming.task</string>
   </entry>
   <entry>
@@ -3144,7 +3144,7 @@
     <string>\tasks\hyper_overeat.task</string>
   </entry>
   <entry>
-    <string>3451459558</string>
+    <string>3542624410</string>
     <string>\tasks\sport_atletics.task</string>
   </entry>
   <entry>
@@ -3220,7 +3220,7 @@
     <string>\items\ovariafruit.item</string>
   </entry>
   <entry>
-    <string>4210706224</string>
+    <string>397760359</string>
     <string>\items\bloated_berries.item</string>
   </entry>
   <entry>
@@ -3360,10 +3360,6 @@
     <string>\organs\hp_breed.organ</string>
   </entry>
   <entry>
-    <string>3701329619</string>
-    <string>\organs\breasts_new.organ</string>
-  </entry>
-  <entry>
     <string>4208418330</string>
     <string>\organs\vagina.organ</string>
   </entry>
@@ -3380,7 +3376,7 @@
     <string>\organs\pouch.organ</string>
   </entry>
   <entry>
-    <string>1869509006</string>
+    <string>436495835</string>
     <string>\organs\tmp_bloat_venom.organ</string>
   </entry>
   <entry>
@@ -4022,6 +4018,74 @@
   <entry>
     <string>1733250390</string>
     <string>\img\farms\farm1.jpg</string>
+  </entry>
+  <entry>
+    <string>3377194475</string>
+    <string>\img\tasks\running2.jpg</string>
+  </entry>
+  <entry>
+    <string>90043980</string>
+    <string>\img\tasks\running3.jpg</string>
+  </entry>
+  <entry>
+    <string>4240715278</string>
+    <string>\img\tasks\sleep.jpg</string>
+  </entry>
+  <entry>
+    <string>1653867414</string>
+    <string>\img\tasks\read.jpg</string>
+  </entry>
+  <entry>
+    <string>2662183341</string>
+    <string>\img\tasks\swim1.jpg</string>
+  </entry>
+  <entry>
+    <string>3977052852</string>
+    <string>\img\tasks\fitness_def.jpg</string>
+  </entry>
+  <entry>
+    <string>3253558449</string>
+    <string>\img\tasks\sex_maid.jpeg</string>
+  </entry>
+  <entry>
+    <string>193575914</string>
+    <string>\img\tasks\running.jpg</string>
+  </entry>
+  <entry>
+    <string>2727407206</string>
+    <string>\img\tasks\rest_sit.jpg</string>
+  </entry>
+  <entry>
+    <string>309322664</string>
+    <string>\img\tasks\pushup.jpg</string>
+  </entry>
+  <entry>
+    <string>3010789889</string>
+    <string>\img\tasks\fitness.jpg</string>
+  </entry>
+  <entry>
+    <string>425830690</string>
+    <string>\img\tasks\swim.jpg</string>
+  </entry>
+  <entry>
+    <string>950675454</string>
+    <string>\img\tasks\cunni.jpg</string>
+  </entry>
+  <entry>
+    <string>1084887138</string>
+    <string>\img\tasks\fitness_unfit.jpg</string>
+  </entry>
+  <entry>
+    <string>1267907977</string>
+    <string>\img\tasks\running_unfit.jpg</string>
+  </entry>
+  <entry>
+    <string>3731781009</string>
+    <string>\img\tasks\blowjob.jpg</string>
+  </entry>
+  <entry>
+    <string>1883727057</string>
+    <string>\img\tasks\rest.jpg</string>
   </entry>
   <entry>
     <string>323090557</string>
@@ -6092,7 +6156,7 @@
     <string>\templates\hospital\genki\preg_implant_preop.tpl</string>
   </entry>
   <entry>
-    <string>1137880757</string>
+    <string>455388969</string>
     <string>\templates\hospital\genki\preg_implant_postpartum.tpl</string>
   </entry>
   <entry>
@@ -6816,12 +6880,16 @@
     <string>\templates\cview\groin_combo.tpl</string>
   </entry>
   <entry>
-    <string>3398391349</string>
+    <string>1803511212</string>
     <string>\templates\cview\full_description.tpl</string>
   </entry>
   <entry>
     <string>1929620120</string>
     <string>\templates\cview\eyes.tpl</string>
+  </entry>
+  <entry>
+    <string>1694421427</string>
+    <string>\templates\cview\weight_2.tpl</string>
   </entry>
   <entry>
     <string>3959976080</string>
@@ -6904,7 +6972,7 @@
     <string>\templates\brothel\merril_scene_vagina_in.tpl</string>
   </entry>
   <entry>
-    <string>2086234645</string>
+    <string>4120604088</string>
     <string>\templates\brothel\preg_play_payment.tpl</string>
   </entry>
   <entry>
@@ -7012,7 +7080,7 @@
     <string>\templates\sex\calc_special_paizuri.tpl</string>
   </entry>
   <entry>
-    <string>275886150</string>
+    <string>1526065556</string>
     <string>\templates\sex\about_to_cum_in_p_ass.tpl</string>
   </entry>
   <entry>
@@ -7224,6 +7292,10 @@
     <string>\templates\c_od\abdomen_tummy.tpl</string>
   </entry>
   <entry>
+    <string>2028240102</string>
+    <string>\templates\c_od\charisma_girl.tpl</string>
+  </entry>
+  <entry>
     <string>1404061688</string>
     <string>\templates\c_od\erection_soft.tpl</string>
   </entry>
@@ -7316,6 +7388,10 @@
     <string>\templates\c_od\penis_2.tpl</string>
   </entry>
   <entry>
+    <string>3803151282</string>
+    <string>\templates\c_od\charisma_man.tpl</string>
+  </entry>
+  <entry>
     <string>3360321818</string>
     <string>\templates\c_od\uterus_semen.tpl</string>
   </entry>
@@ -7340,7 +7416,7 @@
     <string>\templates\c_od\erection.tpl</string>
   </entry>
   <entry>
-    <string>783451841</string>
+    <string>792233666</string>
     <string>\templates\c_od\body_fat.tpl</string>
   </entry>
   <entry>
@@ -7696,7 +7772,7 @@
     <string>\templates\base\p_i_h_empty_lewd.tpl</string>
   </entry>
   <entry>
-    <string>3354465195</string>
+    <string>4018687865</string>
     <string>\templates\base\ass_stretch_finger.tpl</string>
   </entry>
   <entry>
@@ -7716,7 +7792,7 @@
     <string>\templates\base\p_i_h_fill_lewd.tpl</string>
   </entry>
   <entry>
-    <string>2526821801</string>
+    <string>4047789472</string>
     <string>\templates\base\ass_stretch_norm.tpl</string>
   </entry>
   <entry>
@@ -7732,7 +7808,7 @@
     <string>\templates\base\hips_size5.tpl</string>
   </entry>
   <entry>
-    <string>2229714030</string>
+    <string>3535911197</string>
     <string>\templates\base\ass_1dmg.tpl</string>
   </entry>
   <entry>
@@ -7804,7 +7880,7 @@
     <string>\templates\base\hips_size1.tpl</string>
   </entry>
   <entry>
-    <string>3090091118</string>
+    <string>147196260</string>
     <string>\templates\base\ass_3dmg.tpl</string>
   </entry>
   <entry>
@@ -7896,7 +7972,7 @@
     <string>\templates\base\goo_boost_norm.tpl</string>
   </entry>
   <entry>
-    <string>3360837475</string>
+    <string>1994419870</string>
     <string>\templates\base\ass_stretch_horse.tpl</string>
   </entry>
   <entry>
@@ -7944,7 +8020,7 @@
     <string>\templates\base\ass_painful.tpl</string>
   </entry>
   <entry>
-    <string>2595143087</string>
+    <string>2614410671</string>
     <string>\templates\base\ass_2dmg.tpl</string>
   </entry>
   <entry>
@@ -7982,6 +8058,10 @@
   <entry>
     <string>927280528</string>
     <string>\descriptions\nipplesize.descr</string>
+  </entry>
+  <entry>
+    <string>742263140</string>
+    <string>\descriptions\girl_charisma.descr</string>
   </entry>
   <entry>
     <string>1915131826</string>
@@ -8050,6 +8130,10 @@
   <entry>
     <string>3515763815</string>
     <string>\descriptions\body_fat_percent.descr</string>
+  </entry>
+  <entry>
+    <string>2046496279</string>
+    <string>\descriptions\man_charisma.descr</string>
   </entry>
   <entry>
     <string>3057196876</string>

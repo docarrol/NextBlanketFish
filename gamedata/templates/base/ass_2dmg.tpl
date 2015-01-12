@@ -9,7 +9,7 @@ b = (gha * ap  * -1) - 5;
 MoodShame(a);
 proxy.addStat(&quot;generic.health&quot;, b);
 proxy.addEffectAR(&quot;ass.painful&quot;, &quot;ass_tear&quot;, t, -time2);
-&quot;&quot;;%&gt;That was a very painful experience, tearing slightly the anus. It will take around two days to heal.</text>
+&quot;&quot;;%&gt;That was a very painful experience, slightly tearing the anus. It will take around two days to heal.</text>
   <priority>0</priority>
   <picturePath></picturePath>
   <choices/>

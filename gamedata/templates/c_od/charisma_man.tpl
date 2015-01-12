@@ -1,7 +1,6 @@
 <fetishmaster.engine.TextTemplate>
-  <conditions>money &gt; 0;</conditions>
-  <text>Final payment from client is &lt;%AddMoney(money);&#xd;
- money;%&gt; coins.</text>
+  <conditions>c.getStat(&quot;generic.sex&quot;) == 1;</conditions>
+  <text>&lt;%IncludeRange(c.getStat(&quot;generic.cha&quot;), &quot;man_charisma&quot;);%&gt; </text>
   <priority>0</priority>
   <picturePath></picturePath>
   <choices/>

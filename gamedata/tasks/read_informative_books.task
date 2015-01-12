@@ -16,6 +16,7 @@ if (isTaskFirstHour())&#xd;
         self.addStat(&quot;generic.tiredness&quot;, 5);&#xd;
 &#xd;
 res = self.getName()+&quot; reads some informative books.&quot;;&#xd;
+task_image=&quot;tasks/read.jpg&quot;;&#xd;
 }&#xd;
 res;</script>
   <decription>Read informative books to boost intelligence.</decription>

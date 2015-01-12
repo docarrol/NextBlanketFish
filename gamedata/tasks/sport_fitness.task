@@ -23,6 +23,7 @@ if (isTaskFirstHour())&#xd;
 self.subStat(&quot;generic.calories&quot;, 200);&#xd;
 &#xd;
 res = &quot;Fitness can help keep your body in good shape. &quot;+self.getName()+&quot; executed a complex set of exercises.&quot;;&#xd;
+task_image = &quot;tasks/fitness.jpg&quot;;&#xd;
 }&#xd;
 res;</script>
   <decription>Fitness helps improve the body and keep it in good shape.</decription>

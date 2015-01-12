@@ -8,6 +8,7 @@ lust = self.getStat(&quot;generic.arousal&quot;)/10;
 if (isTaskFirstHour())
 {
       res = self.getName()+&quot; is resting.&quot;;
+      task_image=&quot;tasks/rest.jpg&quot;;
 }
        x = self.getRNAValue(&quot;generic.tiredness&quot;);
 
@@ -15,7 +16,9 @@ if (clock.isNight())
 {
       x-= calc.procent(x, 80);
       if (isTaskFirstHour())
-     {  res = self.getName()+&quot; is sleeping.&quot;; }
+     {  res = self.getName()+&quot; is sleeping.&quot;; 
+        task_image=&quot;tasks/sleep.jpg&quot;;
+      }
       x = x - (calc.procent(x, 10) - lust);
 }
 else

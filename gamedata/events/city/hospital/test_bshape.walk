@@ -28,7 +28,7 @@ So, what will it be? It is one time only though, no changing back after you&apos
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Watermelon Special</name>
-      <value>city/hospital/bshape_test_wmelonsp</value>
+      <value>city/hospital/bshape_test_descwmelonsp</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Not now</name>
@@ -41,5 +41,4 @@ So, what will it be? It is one time only though, no changing back after you&apos
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -23,7 +23,20 @@ if ( hour == (Integer) hour)&#xd;
 text;%&gt;&#xd;
 */&#xd;
 &#xd;
-</descr>
+[Proxy] goes for a nude midnight swim. [HeShe] feels good and refreshed, but as she swam and since it was dark, [heshe] didn&apos;t notice the prickly plant and [heshe] stung [himher]self on it, right in [hisher] &lt;%IncludeRange(proxy.getStat(&quot;balls.size&quot;), &quot;ballssize&quot;);%&gt; testicles. [HeShe] easily removes the small needle but something doesn&apos;t feel quite right as [heshe] feels [hisher] balls warming up a bit... and they also feel a bit swollen for some reason... A good masturbation session would be nice too as [heshe] feels strangely aroused all of a sudden!&#xd;
+&lt;% activePartner.addStat(&quot;generic.str&quot;, 1);&#xd;
+        proxy.addStat(&quot;generic.tiredness&quot;, 10);&#xd;
+        proxy.addStat(&quot;generic.spd&quot;, 0.7);&#xd;
+        proxy.addStat(&quot;generic.dex&quot;, 0.3);&#xd;
+        proxy.addStat(&quot;generic.end&quot;, 1.2);&#xd;
+        proxy.addStat(&quot;generic.cha&quot;, 0.02);&#xd;
+activePartner.addStat(&quot;generic.swim&quot;, 1);&#xd;
+proxy.subStat(&quot;generic.calories&quot;, 400);&#xd;
+&#xd;
+//bloating venom code moved to special tmp organ, it&apos;s too complex:&#xd;
+if (proxy.hasOrgan(&quot;tmp_bloat_venom&quot;) == false) {proxy.addOrgan(&quot;tmp_bloat_venom&quot;); }&#xd;
+proxy.addStat(&quot;balls.bloat_venom&quot;,  25);&#xd;
+&quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
   <picturePath></picturePath>
   <choices>

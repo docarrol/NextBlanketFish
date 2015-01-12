@@ -25,6 +25,8 @@ if (isTaskFirstHour() &amp;&amp; (clock.isDay() || clock.isMorning() ))&#xd;
 &#xd;
 self.subStat(&quot;generic.calories&quot;, 400);&#xd;
 &#xd;
+task_image=&quot;tasks/swim.jpg&quot;;&#xd;
+&#xd;
 res = self.getName()+&quot; go to a beach for swimming course.&quot;;&#xd;
         MoveWorkerToReturnList(self, 2);&#xd;
 }&#xd;

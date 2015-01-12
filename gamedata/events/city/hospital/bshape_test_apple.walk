@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/bshape_test_apple</name>
-  <descr>[Proxy] decides to go with Pregnant shape.
+  <descr>[Proxy] decides to go with pregnant shape.
 
 - Pregnant shape it is! Just relax and let me inject it in your system, lay your arm on the table please.
 
@@ -33,5 +33,4 @@ SetPerFlag(&quot;bshape_test_done&quot;, 2);
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

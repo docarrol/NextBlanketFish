@@ -18,7 +18,7 @@ She then takes out a phial with a note and hands it off to [Proxy].
 
 As [Proxy] takes her leave, Merril shouts out another &quot;Thank you!&quot; and waves goodbye.
 
-&lt;%SetPerFlag(&quot;merril_sexperiment_prep&quot;, 1);%&gt;
+&lt;%SetPerFlag(&quot;merril_sexperiment_prep&quot;, 1); &quot;&quot;;%&gt;
 &lt;%Include(&quot;char/merril_init&quot;); Include(&quot;char/merril_display&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>GetPerFlag(&quot;merril_sexperiment_prep&quot;) &lt; 1 &amp;&amp; GetFlag(&quot;uren_quest_done&quot;) &gt; 0;</conditions>
   <picturePath>city/merril_home/interior.jpg</picturePath>
@@ -33,5 +33,4 @@ As [Proxy] takes her leave, Merril shouts out another &quot;Thank you!&quot; and
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

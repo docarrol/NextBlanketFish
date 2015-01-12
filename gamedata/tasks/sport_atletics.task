@@ -19,6 +19,7 @@ if (isTaskFirstHour())&#xd;
 self.subStat(&quot;generic.calories&quot;, 350);&#xd;
 &#xd;
 res = self.getName()+&quot; do a athletics course.&quot;;&#xd;
+task_image=&quot;tasks/pushup.jpg&quot;;&#xd;
 }&#xd;
 res;</script>
   <decription>Athletics helping to keep body in good shape and improve strength.

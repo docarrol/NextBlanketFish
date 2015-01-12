@@ -4,7 +4,7 @@
 
 - As you can see, I need some release... LOTS of it. I hope you can give it to me.
 </descr>
-  <conditions>true;//Chance(9); temporary deactivated</conditions>
+  <conditions>Chance(9);</conditions>
   <picturePath>city/brothel/work_room.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
@@ -14,7 +14,7 @@
   </choices>
   <defaultNext>New event</defaultNext>
   <time>1</time>
-  <priority>3</priority>
+  <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>

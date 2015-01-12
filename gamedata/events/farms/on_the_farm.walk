@@ -7,22 +7,14 @@
     <fetishmaster.engine.WalkChoice>
       <name>To City</name>
       <value>farms/road_to_farms</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Knock at Door</name>
       <value>farms/knock_at_door</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Look Around (1h)</name>
       <value>farms/barn</value>
-      <chance>0</chance>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Merril&apos;s Request</name>
-      <value>farms/merril_request</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -30,5 +22,4 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

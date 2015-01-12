@@ -1,15 +1,16 @@
 <fetishmaster.engine.WalkEvent>
   <name>debug/debug_setup</name>
-  <descr>Misc testing&#xd;
+  <descr>Engine stress testing.&#xd;
 &#xd;
 &lt;%&#xd;
-c1 = Character(&quot;Futa&quot;, &quot;human_futa_agency_worker&quot;);&#xd;
-c1.setStat(&quot;generic.lewdness&quot;, 40);&#xd;
-c1.setStat(&quot;balls.prod_rate&quot;, 10000);&#xd;
-c1.setStat(&quot;pouch.max_volume&quot;, 6000);&#xd;
-AddToWorkers(c1);&#xd;
+for (i=0; i&lt;100; i++ )&#xd;
+{&#xd;
+c1 = LoadCharacterBG(&quot;human_futa_agency_worker&quot;);&#xd;
+GenerateNewName(c1);&#xd;
+RegistryCharacter(c1);&#xd;
+}&#xd;
 &#xd;
-proxy.setStat(&quot;generic.lewdness&quot;, 40);&#xd;
+//proxy.setStat(&quot;generic.lewdness&quot;, 40);&#xd;
 %&gt;&#xd;
 </descr>
   <conditions>1</conditions>
@@ -21,5 +22,4 @@ proxy.setStat(&quot;generic.lewdness&quot;, 40);&#xd;
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

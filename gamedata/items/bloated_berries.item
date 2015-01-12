@@ -19,7 +19,7 @@ self.removeEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;);&#xd;
 }&#xd;
 else&#xd;
 {&#xd;
-res += &quot;And she feels a slight warmth in her belly.&quot;;&#xd;
+res += &quot;And &quot; + self.HeShe() + &quot; feels a slight warmth in &quot; + self.HisHer() + &quot; belly.&quot;;&#xd;
 self.addStat(&quot;abdomen.max_volume&quot;, (self.getStat(&quot;abdomen.max_volume&quot;) * 0.05));&#xd;
 }&#xd;
 &#xd;

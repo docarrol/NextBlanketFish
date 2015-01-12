@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>debug/add_lewd</name>
-  <descr>Adding 10 lewdness
+  <descr>Adding 40 lewdness
 &lt;%
-proxy.addStat(&quot;generic.lewdness&quot;, 10);
+proxy.addStat(&quot;generic.lewdness&quot;, 40);
 &quot;&quot;;
 %&gt;</descr>
   <conditions>1</conditions>
@@ -14,5 +14,4 @@ proxy.addStat(&quot;generic.lewdness&quot;, 10);
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

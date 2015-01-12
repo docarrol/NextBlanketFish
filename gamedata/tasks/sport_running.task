@@ -21,6 +21,7 @@ self.subStat(&quot;generic.calories&quot;, 350);&#xd;
 &#xd;
 res = self.getName()+&quot; do a running course around quarter.&quot;;&#xd;
         MoveWorkerToReturnList(self, 1);&#xd;
+        task_image=&quot;tasks/running3.jpg&quot;;&#xd;
 }&#xd;
 res;</script>
   <decription>Running helping to keep body in good shape and improve endurance.</decription>
