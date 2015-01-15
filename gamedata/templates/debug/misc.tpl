@@ -1,6 +1,6 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>1;</conditions>
-  <text></text>
+  <text>&lt;%self.getName();%&gt; is processed with testing task.</text>
   <priority>0</priority>
   <picturePath>intro/doctor.jpg</picturePath>
   <choices/>

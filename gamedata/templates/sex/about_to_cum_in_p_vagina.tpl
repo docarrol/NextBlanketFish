@@ -6,13 +6,11 @@
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Cum Inside</name>
-      <value>sex/penis/cum_inside</value>
-      <chance>0</chance>
+      <value>sex/penis/cum_inside_vagina</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Pull out</name>
-      <value>sex/penis/cum_outside</value>
-      <chance>0</chance>
+      <value>sex/penis/cum_outside_vagina</value>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <overrideChoices>false</overrideChoices>

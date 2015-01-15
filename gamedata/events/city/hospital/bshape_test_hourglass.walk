@@ -2,7 +2,7 @@
   <name>city/hospital/bshape_test_hourglass</name>
   <descr>[Proxy] decides to go with hourglass shape.
 
-- Pear shape it is! Just relax and let me inject it in your system, lay your arm on the table please.
+- Hourglass shape it is! Just relax and let me inject it in your system, lay your arm on the table please.
 
 [Proxy] does as the researcher says and let him inject [himher].
 
@@ -33,5 +33,6 @@ SetPerFlag(&quot;bshape_test_done&quot;, 2);
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

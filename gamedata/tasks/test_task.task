@@ -1,0 +1,13 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Testing Task</name>
+  <conditions>InDevMode();</conditions>
+  <script>res = &quot;&quot;;&#xd;
+&#xd;
+if (isTaskFirstHour())&#xd;
+{&#xd;
+res = Include(&quot;debug/misc&quot;);&#xd;
+}&#xd;
+&#xd;
+res;</script>
+  <decription>This task only for dev mode. To test some things...</decription>
+</fetishmaster.engine.ManagmentTask>

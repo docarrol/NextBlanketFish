@@ -724,11 +724,15 @@
     <string>\events\in_the_base.walk</string>
   </entry>
   <entry>
-    <string>3739767648</string>
+    <string>3876115389</string>
     <string>\events\debug.walk</string>
   </entry>
   <entry>
-    <string>2015333085</string>
+    <string>3373790538</string>
+    <string>\events\debug\misc_merged.walk</string>
+  </entry>
+  <entry>
+    <string>61262441</string>
     <string>\events\debug\misc.walk</string>
   </entry>
   <entry>
@@ -854,6 +858,10 @@
   <entry>
     <string>4027449177</string>
     <string>\events\fast_travel\to_kau.walk</string>
+  </entry>
+  <entry>
+    <string>1240788472</string>
+    <string>\events\fast_travel\select_immobile.walk</string>
   </entry>
   <entry>
     <string>1562700914</string>
@@ -1164,16 +1172,8 @@
     <string>\events\sex\penis\cum_outside_ass.walk</string>
   </entry>
   <entry>
-    <string>2958512678</string>
-    <string>\events\sex\penis\cum_outside.walk</string>
-  </entry>
-  <entry>
     <string>439305030</string>
     <string>\events\sex\penis\anal_not_possible.walk</string>
-  </entry>
-  <entry>
-    <string>2584890552</string>
-    <string>\events\sex\penis\cum_inside.walk</string>
   </entry>
   <entry>
     <string>2832811481</string>
@@ -1196,6 +1196,10 @@
     <string>\events\sex\penis\anal_disgusted.walk</string>
   </entry>
   <entry>
+    <string>3312079320</string>
+    <string>\events\sex\penis\cum_outside_vagina.walk</string>
+  </entry>
+  <entry>
     <string>4066578019</string>
     <string>\events\sex\penis\missionary_toobig.walk</string>
   </entry>
@@ -1206,6 +1210,10 @@
   <entry>
     <string>3401911385</string>
     <string>\events\sex\penis\make_blowjob2.walk</string>
+  </entry>
+  <entry>
+    <string>2562739306</string>
+    <string>\events\sex\penis\cum_inside_vagina.walk</string>
   </entry>
   <entry>
     <string>2613115489</string>
@@ -1952,7 +1960,7 @@
     <string>\events\city\hospital\regen_tell_doctor.walk</string>
   </entry>
   <entry>
-    <string>3722044172</string>
+    <string>3586650116</string>
     <string>\events\city\hospital\bshape_test_hourglass.walk</string>
   </entry>
   <entry>
@@ -2508,6 +2516,10 @@
     <string>\events\city\kiana_follow_success.walk</string>
   </entry>
   <entry>
+    <string>1213985208</string>
+    <string>\events\homestreet\in_front_of_home_immobile.walk</string>
+  </entry>
+  <entry>
     <string>411491006</string>
     <string>\events\homestreet\money_on_street.walk</string>
   </entry>
@@ -2564,15 +2576,15 @@
     <string>\events\base\sex_interactions.walk</string>
   </entry>
   <entry>
-    <string>2273965844</string>
+    <string>2040531760</string>
     <string>\events\base\inspect_womb6.walk</string>
   </entry>
   <entry>
-    <string>4128236752</string>
+    <string>3119775765</string>
     <string>\events\base\inspect_womb.walk</string>
   </entry>
   <entry>
-    <string>2949846470</string>
+    <string>4034144723</string>
     <string>\events\base\inspect_womb5.walk</string>
   </entry>
   <entry>
@@ -2772,7 +2784,7 @@
     <string>\events\base\inspect_breasts.walk</string>
   </entry>
   <entry>
-    <string>3665629023</string>
+    <string>3458278252</string>
     <string>\events\base\inspect_womb4.walk</string>
   </entry>
   <entry>
@@ -2888,11 +2900,11 @@
     <string>\events\base\home_birth_tb_flee.walk</string>
   </entry>
   <entry>
-    <string>2182680637</string>
+    <string>2747671626</string>
     <string>\events\base\inspect_womb1.walk</string>
   </entry>
   <entry>
-    <string>3880129750</string>
+    <string>2282629357</string>
     <string>\events\base\inspect_womb2.walk</string>
   </entry>
   <entry>
@@ -2984,7 +2996,7 @@
     <string>\events\base\masturbation.walk</string>
   </entry>
   <entry>
-    <string>941101348</string>
+    <string>1252402522</string>
     <string>\events\base\inspect_womb3.walk</string>
   </entry>
   <entry>
@@ -3052,7 +3064,7 @@
     <string>\events\base\vagina_stretch.walk</string>
   </entry>
   <entry>
-    <string>2738230324</string>
+    <string>659105867</string>
     <string>\events\base\inspect_womb2_2.walk</string>
   </entry>
   <entry>
@@ -3106,6 +3118,10 @@
   <entry>
     <string>981175386</string>
     <string>\tasks\eat_pancake.task</string>
+  </entry>
+  <entry>
+    <string>2549447732</string>
+    <string>\tasks\test_task.task</string>
   </entry>
   <entry>
     <string>4074328247</string>
@@ -6756,7 +6772,7 @@
     <string>\templates\debug\num_stats.tpl</string>
   </entry>
   <entry>
-    <string>426596080</string>
+    <string>945121979</string>
     <string>\templates\debug\misc.tpl</string>
   </entry>
   <entry>
@@ -7112,7 +7128,7 @@
     <string>\templates\sex\orgasm\sub_calc.tpl</string>
   </entry>
   <entry>
-    <string>1865014826</string>
+    <string>2166543890</string>
     <string>\templates\sex\about_to_cum_in_p_vagina.tpl</string>
   </entry>
   <entry>
@@ -7458,6 +7474,10 @@
   <entry>
     <string>954644953</string>
     <string>\templates\system\c_generic_birth.tpl</string>
+  </entry>
+  <entry>
+    <string>1761688632</string>
+    <string>\templates\system\proxy_walking_check.tpl</string>
   </entry>
   <entry>
     <string>337635704</string>

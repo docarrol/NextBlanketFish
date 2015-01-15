@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>fast_travel/select_immobile</name>
+  <descr>[Proxy] is too heavy and slow for the normal walking, it&apos;s not good idea to leave home now!</descr>
+  <conditions>proxy.getStat(&quot;generic.spd&quot;) &lt; 0;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>in_the_base</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>10</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+</fetishmaster.engine.WalkEvent>

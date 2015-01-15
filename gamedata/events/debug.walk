@@ -21,8 +21,6 @@ Testing IncludeAll finction:
 //AddItem(&quot;lac_unknown_pill&quot;);
 //AddItem(&quot;lactaids&quot;);
 &quot;&quot;;%&gt;
-
-&lt;%Include(&quot;debug/misc&quot;);%&gt;
 </descr>
   <conditions>InDevMode();</conditions>
   <picturePath>basehall.jpg</picturePath>
@@ -30,82 +28,66 @@ Testing IncludeAll finction:
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>in_the_base</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Progress story</name>
       <value>debug/debug_progress_story</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Char genes values</name>
       <value>debug/gene_values</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Add items</name>
       <value>debug/add_items</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Add money</name>
       <value>debug/add_money</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Add lewdness</name>
       <value>debug/add_lewd</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Misc</name>
       <value>debug/misc</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Add Male Proxy</name>
       <value>debug/add_male_worker</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Add Female Proxy</name>
       <value>debug/add_woman_worker</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Add Futa Proxy</name>
       <value>debug/add_futa_worker</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Dummy fight</name>
       <value>debug/dummy_fight</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Fix Breasts Lactation</name>
       <value>debug/test_effects</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Pregnancy test</name>
       <value>debug/preg/menu</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Sex System Test</name>
       <value>debug/sex_system</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Setup Debug Situation</name>
       <value>debug/debug_setup</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Test scene</name>
       <value>city/brothel/neferi_merril_offer_yes</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -113,5 +95,5 @@ Testing IncludeAll finction:
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>true</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

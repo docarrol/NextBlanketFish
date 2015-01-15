@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/misc_merged</name>
+  <descr>Testing merged events.&#xd;
+Script test: &lt;%activePartner.getName();%&gt;&#xd;
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>kitchen1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>(Merged choice) To Base</name>
+      <value>debug</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>true</mergeDown>
+  <parsedDesc>Misc testing&#xd;
+&#xd;
+//&#xd;
+&#xd;
+//[]&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</parsedDesc>
+</fetishmaster.engine.WalkEvent>

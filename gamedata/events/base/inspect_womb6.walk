@@ -12,11 +12,7 @@ Abdomen Maximum Volume: &lt;%(int)activePartner.getRNAValue(&quot;abdomen.max_vo
 Belly Fat Volume: &lt;%(int)activePartner.getRNAValue(&quot;abdomen.fat&quot;);%&gt;          
 
 </descr>
-  <conditions>if (activePartner.getRNAValue(&quot;abdomen.size&quot;) &gt;= 100 &amp;&amp; GetFlag(&quot;base_uterus_scanner&quot;) == 1)
-	true;
-else
-	false;
-</conditions>
+  <conditions>activePartner.getRNAValue(&quot;abdomen.size&quot;) &gt;= 100 &amp;&amp; GetFlag(&quot;base_uterus_scanner&quot;) == 1 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
   <picturePath>base/belly/extremebelly.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
@@ -29,4 +25,5 @@ else
   <priority>7</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

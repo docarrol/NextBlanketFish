@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/cum_outside_vagina</name>
+  <descr>[Proxy] manages to pull [her]self from [=target][target]&apos;s [penis] just in time, as [t-heshe] starts cumming! &lt;%
+act = iTarget.doAction(&quot;orgasm&quot;);
+vol = act.get(&quot;penis&quot;, &quot;cum&quot;);
+//InjectSperm(iTarget, proxy, vol);
+taker = proxy;
+giver = iTarget;
+volume = vol;
+skill = taker.getStat(&quot;skill.vaginal_sex&quot;) / 1.5;
+&quot;&quot;;%&gt;&lt;%Include(&quot;sex/orgasm/calc_giver&quot;);&quot;&quot;;
+%&gt;&lt;%Include(&quot;sex/cumshot/outside&quot;);%&gt;&lt;%Include(&quot;sex/calc_t_orgasm&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>
