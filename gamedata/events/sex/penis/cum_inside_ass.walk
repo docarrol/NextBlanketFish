@@ -7,8 +7,9 @@ vol = act.get(&quot;penis&quot;, &quot;cum&quot;);
 taker = proxy;
 giver = iTarget;
 volume = vol;
+skill = giver.getStat(&quot;skill.penis_sex&quot;);
 &quot;&quot;;
-%&gt;&lt;%//Include(&quot;sex/cumshot/vaginal&quot;);%&gt;[=taker]&lt;%//Include(&quot;sex/cumshot/semen_in_uterus&quot;);%&gt;[=taker]&lt;%//Include(&quot;sex/cumshot/semen_in_vagina&quot;);%&gt;</descr>
+%&gt;&lt;%Include(&quot;sex/orgasm/calc_giver&quot;);&quot;&quot;;%&gt;&lt;%Include(&quot;sex/cumshot/anal&quot;);%&gt;[=taker]&lt;%Include(&quot;sex/cumshot/semen_in_ass&quot;);%&gt;</descr>
   <conditions>1</conditions>
   <picturePath></picturePath>
   <choices/>
@@ -17,5 +18,6 @@ volume = vol;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

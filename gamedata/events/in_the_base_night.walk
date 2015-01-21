@@ -1,0 +1,13 @@
+<fetishmaster.engine.WalkEvent>
+  <name>in_the_base_night</name>
+  <descr></descr>
+  <conditions>clock.isNight()||clock.isEvening();</conditions>
+  <picturePath>base/hall_night.jpg</picturePath>
+  <choices/>
+  <defaultNext>in_the_base</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <mergeDown>true</mergeDown>
+</fetishmaster.engine.WalkEvent>

@@ -14,62 +14,54 @@ Uterus cycle of phase: 	&lt;%(Integer)proxy.getStat(&quot;uterus.cycle&quot;)/27
     <fetishmaster.engine.WalkChoice>
       <name>Return</name>
       <value>in_the_base</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Sex with generic male</name>
       <value>debug/preg/sex_male</value>
-      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sex with breeder futa</name>
+      <value>debug/preg/sex_breeder</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Sex with current sex partner</name>
       <value>debug/preg/sex_current_partner</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Character look</name>
       <value>cview/viewer</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Character values</name>
       <value>debug/gene_values</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Pass hour</name>
       <value>debug/preg/pass_hour</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Pass day</name>
       <value>debug/preg/pass_day</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Pass week</name>
       <value>debug/preg/pass_week</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Pass month</name>
       <value>debug/preg/pass_month</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Birth</name>
       <value>debug/preg/birth</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Instant child</name>
       <value>debug/preg/instant_child</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Clone proxy</name>
       <value>debug/preg/clone_proxy</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -77,6 +69,6 @@ Uterus cycle of phase: 	&lt;%(Integer)proxy.getStat(&quot;uterus.cycle&quot;)/27
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

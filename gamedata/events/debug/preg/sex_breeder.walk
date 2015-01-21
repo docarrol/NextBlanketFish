@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>debug/preg/sex_breeder</name>
+  <descr>Test of sex process:
+
+&lt;%
+male = Character(&quot;Man&quot;, &quot;human_futa_agency_worker_breeder&quot;);
+act = male.doAction(&quot;orgasm&quot;);
+vol = act.get(&quot;penis&quot;, &quot;cum&quot;);
+InjectSperm(male, proxy, vol);
+proxy.addEffect(&quot;uterus.volume&quot;, &quot;sperm&quot;, vol, 24);
+ &quot;&quot;;%&gt;
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

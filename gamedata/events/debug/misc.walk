@@ -23,7 +23,12 @@ if ( hour == (Integer) hour)&#xd;
 text;%&gt;&#xd;
 */&#xd;
 &#xd;
-</descr>
+&lt;% &#xd;
+c = LoadCharacter(&quot;human_female_agency_worker_hyperbreeder&quot;);&#xd;
+GenerateNewName(c);&#xd;
+RegistryCharacter(c);&#xd;
+c.addToWorkers();&#xd;
+&quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
   <picturePath></picturePath>
   <choices>

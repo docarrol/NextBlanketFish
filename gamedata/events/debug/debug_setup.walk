@@ -3,14 +3,27 @@
   <descr>Engine stress testing.&#xd;
 &#xd;
 &lt;%&#xd;
-for (i=0; i&lt;100; i++ )&#xd;
+/*for (i=0; i&lt;100; i++ )&#xd;
 {&#xd;
 c1 = LoadCharacterBG(&quot;human_futa_agency_worker&quot;);&#xd;
 GenerateNewName(c1);&#xd;
 RegistryCharacter(c1);&#xd;
 }&#xd;
+*/&#xd;
+c1 = LoadCharacterBG(&quot;human_female_agency_worker_hyperbreeder&quot;);&#xd;
+con = agency.newStandardContract(c1, 100);&#xd;
+c1.setName(&quot;Hyper&quot;);&#xd;
+RegistryCharacter(c1);&#xd;
+c1.addToWorkers(con);&#xd;
+c1.addStat(&quot;generic.lewdness&quot;, 40);&#xd;
 &#xd;
-//proxy.setStat(&quot;generic.lewdness&quot;, 40);&#xd;
+c1 = LoadCharacterBG(&quot;human_futa_agency_worker_breeder&quot;);&#xd;
+con = agency.newStandardContract(c1, 100);&#xd;
+c1.setName(&quot;Breeder&quot;);&#xd;
+RegistryCharacter(c1);&#xd;
+c1.addToWorkers(con);&#xd;
+c1.addStat(&quot;generic.lewdness&quot;, 40);&#xd;
+&#xd;
 %&gt;&#xd;
 </descr>
   <conditions>1</conditions>
@@ -21,5 +34,6 @@ RegistryCharacter(c1);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

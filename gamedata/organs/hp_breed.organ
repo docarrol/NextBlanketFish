@@ -54,7 +54,7 @@ val = self.getEffectValue(&quot;breasts.weight&quot;, &quot;milk&quot;);
 self.updateEffect(&quot;breasts.weight&quot;, &quot;milk_hyper&quot;, 0-val*0.05, 2);
 
 //pregnancy speedup
-if (self.getStat(&quot;uterus.phase&quot;) == 3 &amp;&amp; self.hasOrgan(&quot;uterus&quot;))
+if (self.getStat(&quot;uterus.phase&quot;) == 3 &amp;&amp; self.hasOrgan(&quot;uterus&quot;) &amp;&amp; self.getFlag(&quot;in_labour&quot;) &lt; 1 )
 {
 ut = self.getOrgan(&quot;uterus&quot;);
 
@@ -62,7 +62,7 @@ ut = self.getOrgan(&quot;uterus&quot;);
   {
     ut.nextHour();
     if(self.getFlag(&quot;in_labour&quot;) &gt; 0)
-	{ break; }
+	{ i=15; }
   }
 
 }
