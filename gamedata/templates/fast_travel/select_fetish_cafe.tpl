@@ -1,5 +1,6 @@
 <fetishmaster.engine.TextTemplate>
-  <conditions>GetFlag(&quot;fetish_cafe_found&quot;) &gt; 0;</conditions>
+  <conditions>//GetFlag(&quot;fetish_cafe_found&quot;) &gt; 0;
+false;</conditions>
   <text></text>
   <priority>0</priority>
   <picturePath></picturePath>

@@ -1,5 +1,6 @@
 <fetishmaster.engine.TextTemplate>
-  <conditions>GetFlag(&quot;hot_lips_found&quot;) &gt; 0;</conditions>
+  <conditions>//GetFlag(&quot;hot_lips_found&quot;) &gt; 0;
+false;</conditions>
   <text></text>
   <priority>0</priority>
   <picturePath></picturePath>
