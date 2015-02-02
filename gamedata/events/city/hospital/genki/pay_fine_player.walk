@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/pay_fine_player</name>
-  <descr>[Proxy] doesn’t seem to have the amount of coins Dr. Genki is asking for on [himher] at the moment. Scoffing, the doctor somehow takes control of [proxy] and has her write a check so the money will be transferred from your bank account. Afterwards, he releases his control before quickly escorting [himher] to the exit, pushing [himher] out and slamming the door shut.
+  <descr>[Proxy] doesn&apos;t seem to have the amount of coins Dr. Genki is asking for on [himher] at the moment. Scoffing, the doctor somehow takes control of [proxy] and has her write a check so the money will be transferred from your bank account. Afterwards, he releases his control before quickly escorting [himher] to the exit, pushing [himher] out and slamming the door shut.
 &lt;%RemoveMoney(player, 1000);
 AllowDisconnect();
  &quot;&quot;;%&gt;
@@ -13,6 +13,6 @@ AllowDisconnect();
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

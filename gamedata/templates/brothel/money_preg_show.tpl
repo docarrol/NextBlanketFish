@@ -12,7 +12,7 @@ m =(Integer)(proxy.getStat(&quot;generic.abdomen&quot;)* 10 * (s/10) * h + 100 )
 AddMoney(m);&#xd;
  &quot;&quot;;%&gt;[HisHer] payment is &lt;% m; %&gt; coins.&#xd;
 &lt;%LustShame(10,35);&#xd;
-proxy.addStat(&quot;skill.striptease&quot;, 1);&#xd;
+proxy.addStat(&quot;skill.striptease&quot;, 0.5);&#xd;
  &quot;&quot;;%&gt;</text>
   <priority>0</priority>
   <picturePath></picturePath>

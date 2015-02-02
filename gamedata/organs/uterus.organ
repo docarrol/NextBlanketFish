@@ -199,6 +199,7 @@ result;</string>
     <string>if (self.getStat(&quot;uterus.waters&quot;) &gt; 0 &amp;&amp; self.isWorker())
 {
    alert(self.getName()+&quot; waters broken!!!&quot;);
+   self.addHistory(&quot;Waters broken!&quot;, self.getName()+&quot; waters broken!!!&quot;, &quot;organs/waters_break.jpg&quot;);
    self.setFlag(&quot;in_labour&quot;, 1);
 }
 else
@@ -214,7 +215,7 @@ result;</string>
     <string>if (self.getStat(&quot;uterus.offscreen_timer&quot;) &lt; 1)
 {
 st = self.getName()+&quot; give birth, but you been too busy to oversee it personally.&quot;;
-self.addHistory(&quot;Birth&quot;, st);
+self.addHistory(&quot;Birth&quot;, st, &quot;organs/birth_auto.jpg&quot;);
 alert(st);
 
 self.setFlag(&quot;in_labour&quot;, 0);

@@ -2,7 +2,7 @@
   <name>Ovaria fruit</name>
   <descr>A strange fruit found in the mirkwood. Its effects are unkown.</descr>
   <hourlyScript></hourlyScript>
-  <useScript>res = &quot;Taste is strange, but &quot; + self.getName() + &quot; think that it&apos;s okey...\n&quot;;&#xd;
+  <useScript>res = &quot;Taste is strange, but &quot; + self.getName() + &quot; thinks that it&apos;s okay...\n&quot;;&#xd;
 if ( status.isPregnant(self) == false &amp;&amp; self.hasOrgan(&quot;uterus&quot;) &amp;&amp; self.hasOrgan(&quot;vagina&quot;) )&#xd;
 {&#xd;
 //too stroing to cause imidiatly ovulation. Behavior changed - //only adding more ova&apos;s now. &#xd;

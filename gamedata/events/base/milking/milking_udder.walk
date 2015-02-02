@@ -8,7 +8,7 @@ self.setStat(&quot;generic.arousal&quot;, 100);
 }
 MoodShame(15);
 b = a.get(&quot;udder&quot;);
-(int)b.get(&quot;milk&quot;); %&gt;ml. of milk. This is too small an amount to fill a bottle.</descr>
+(int)b.get(&quot;milk&quot;); %&gt;ml. of milk. This is not enough to fill a bottle.</descr>
   <conditions>if (activePartner.getRNAValue(&quot;udder.milk_volume&quot;) &gt; 10)
 	true;
 else
@@ -20,4 +20,5 @@ else
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/vag_stretch/magic_dildo_overload</name>
-  <descr>[proxy] selects the magic dildo and spend a full hour playing with it, it&apos;s size accomodating to pleasureably stretch her love canal. A the end of [hisher] session [heshe] feels as dildo insertion become easier and feels up her vulva, slightly bloated and fatter than usual, almost giving her another orgasm just from feeling it and in fact, her pussy feels wetter than normal, probably a pleasant side-effect... But soon she feels her massively cum-inflated belly rumble ominously as it starts shrinking down really fast as her bloated pussy throbs and churn... It doesn&apos;t take long for her huge cunt to grow and grow, past it&apos;s limit, spewing juices all over the floor as [proxy] is overwhelmed by a tremendous orgasm over and over! After some time her belly finally shrunk down... but her pussy&apos;s left massively inflated, to the point where walking&apos;s going to be a hassle with this leg-spreading, leaking beachball of a cunt!&#xd;
+  <descr>[proxy] selects the magic dildo and spends a full hour playing with it, it&apos;s size accomodating to pleasureably stretch her love canal. At the end of [hisher] session [heshe] feels like dildo insertion has become easier and feels up her vulva, slightly more bloated and fatter than usual, almost giving her another orgasm just from feeling it and in fact, her pussy feels wetter than normal, a pleasant side-effect... But soon she feels her cum-inflated belly rumble ominously as it starts shrinking down really fast as her bloated pussy throbs and churns... It doesn&apos;t take long for her cunt to grow and grow, past it&apos;s limit, spewing juices all over the floor as [proxy] is overwhelmed by a tremendous orgasm over and over! After some time her belly has finally shrunk down... but her pussy is left massively inflated, to the point where walking is going to be a hassle with this leg-spreading, leaking beachball of a cunt!&#xd;
 &lt;%&#xd;
 self.setStat(&quot;generic.arousal&quot;, 0);&#xd;
 self.setStat(&quot;vagina.width&quot;, 24.9);&#xd;
@@ -19,6 +19,6 @@ self.setStat(&quot;vagina.goo_modifier&quot;, 12)&quot;&quot;;%&gt;</descr>
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,7 +1,7 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>1;</conditions>
   <text>&lt;%&#xd;
-//this script is called every hour for creature if it in the list of the world's permanent characters. &#xd;
+//this script is called every hour for creature if it in the list of the world&apos;s permanent characters. &#xd;
 //Use &quot;self&quot; for the calling creature reference.&#xd;
 &#xd;
 //Restoring health&#xd;
@@ -47,7 +47,7 @@ if (self.getFlag(&quot;in_labour&quot;)==1  &amp;&amp; self.getStat(&quot;uterus
 if (self.isWorker())&#xd;
 {&#xd;
 st = self.getName()+&quot; gave birth, but you were too busy to oversee it personally...&quot;;&#xd;
-self.addHistory(&quot;Birth&quot;, st);&#xd;
+self.addHistory(&quot;Birth&quot;, st, &quot;organs/birth_auto.jpg&quot;);&#xd;
 alert(st);&#xd;
 }&#xd;
 &#xd;

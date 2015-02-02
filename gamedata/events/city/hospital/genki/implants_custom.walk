@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/implants_custom</name>
+  <descr>[Proxy] asks if here is a way to expand [hisher] bust line even more?
+
+- Not a quite usual request, but yes there is exist another option. I can install special, filling implants, that can be slowly inflated overtime. They are expensive, and inflating them is a procedure that can&apos;t be done by yourself. You will need to return here for these procedures. And they will be not a free too. Also downside of this imlpant is one-way valve - you can&apos;t empty it. Only fully remove. Implant of this type will cost 5000 coins plus standard operation fee of 800. Filling sessions will cost you 300 coins each. Still interested?
+
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>city/hospital/genki/filling_implants_pre_op</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>city/hospital/genki/cosmetic_surgery</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

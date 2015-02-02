@@ -8,7 +8,7 @@ if (self.getStat(&quot;generic.arousal&quot;) &gt; 100)
 self.setStat(&quot;generic.arousal&quot;, 100);
 }
 b = a.get(&quot;breasts&quot;);
-(int)b.get(&quot;milk&quot;); %&gt;ml. of milk. This is too small an amount to fill a bottle.</descr>
+(int)b.get(&quot;milk&quot;); %&gt;ml. of milk. This is not enough to fill a bottle.</descr>
   <conditions>if (activePartner.getRNAValue(&quot;breasts.milk_volume&quot;) &gt; 10 &amp;&amp; activePartner.getRNAValue(&quot;generic.cup_size&quot;) &gt; 60)
 	true;
 else
@@ -20,4 +20,5 @@ else
   <priority>4</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

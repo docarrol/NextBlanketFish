@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/search_around</name>
-  <descr>If [Proxy] isn&apos;t picking locks then she isn&apos;t committing a crime, right? So [she] wanders the corridors turning the door handles to see if they&apos;re unlocked.
+  <descr>If [Proxy] isn&apos;t picking locks then [heshe] isn&apos;t committing a crime, right? So [heshe] wanders the corridors turning the door handles to see if they&apos;re unlocked.
 
 &lt;%Include(&quot;hospital/genki/night_search&quot;);%&gt;
 </descr>
@@ -12,6 +12,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

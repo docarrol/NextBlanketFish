@@ -1,11 +1,11 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/merril_vagina</name>
   <descr>&lt;%Include(&quot;char/merril_init&quot;); &quot;&quot;;%&gt;&#xd;
-- Really!? I can? I was so thankful! It&apos;s so rare that anyone allow me...&#xd;
+- Really!? I can? Thank you! It&apos;s so rare for anyone to let me...&#xd;
 &#xd;
-Merril quickly pull [proxy] at the bed beside, and begins to undress [himher] quickly. Do Merril have high skill, or it&apos;s something other, but at the times that her garments lies beside bed, [proxy] is completely aroused and ready.&#xd;
+Merril quickly pulls [proxy] to the beside, and begins to undress [himher] quickly. Is Merril skilled, or if it&apos;s something else, but by the time [proxy] is undressed, [heshe] is completely aroused.&#xd;
 &#xd;
-Merril push [proxy] down, and press her huge cock at the [proxy] cunt lips...&#xd;
+Merril pushes [proxy] down, and presses her huge cock at the [proxy]s cunt lips...&#xd;
 &#xd;
 &lt;%c= proxy; &quot;&quot;;%&gt;&lt;%Include(&quot;brothel/merril_scene_vagina&quot;);%&gt;&#xd;
 &lt;%proxy.setStat(&quot;generic.arousal&quot;, 0); &#xd;
@@ -17,7 +17,6 @@ merril.setStat(&quot;generic.arousal&quot;, 0); &quot;&quot;;%&gt;&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/brothel/merril_scene_final</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -25,6 +24,6 @@ merril.setStat(&quot;generic.arousal&quot;, 0); &quot;&quot;;%&gt;&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

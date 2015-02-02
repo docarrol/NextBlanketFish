@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/in_forest_hbean</name>
-  <descr>In the woods it&apos;s a little bit dark, but it seems quiet. After some time &lt;%activePartner.getName();%&gt; comes across some rare plants. Looking through them, [heshe] is only able to find one ripe horse bean.
+  <descr>Inside the woods is somewhat dark, but it seems quiet. After some time &lt;%activePartner.getName();%&gt; comes across some rare plants. Looking through them, [heshe] is able to find one ripe horse bean.
 
 &lt;%AddItem(&quot;horse_bean&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>Chance(40);</conditions>
@@ -11,5 +11,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>!ExistsFlag(&quot;first_use_of_proxy&quot;);</conditions>
-  <text>As this is your first time using the Proxy device, you decide to take it slow. The magitech seems to be working fine.&#xd;
+  <text>As this is your first time using the Proxy device, so you decide to take it slow. The magitech seems to be working fine.&#xd;
 &#xd;
 This is definitely a little strange. You feel almost as if &lt;% activePartner.getName(); %&gt;&apos;s body is your own. You are not able to directly control &lt;% activePartner.getName(); %&gt;, but you can force &lt;% activePartner.getName(); %&gt; to do what you want. It isn&apos;t a permanent replacement for your own body but will work for now.&#xd;
 &#xd;

@@ -4,13 +4,13 @@
 
 - Watermelon Special shape it is! Just relax and let me inject it in your system, lay your arm on the table please.
 
-[Proxy] does as the researcher says while he synthesise the shot and let him inject [himher].
+[Proxy] does as he says and lets the researcher inject [himher].
 
-- Your body might start tingling all over with some heat, that normal, it&apos;s just your body re-arrenging it&apos;s fat disposition.
+- Your body might start tingling all over with some heat, thats normal, it&apos;s just your body re-arranging it&apos;s fat distribution.
 
 [HeShe] really does feel some tingling and a short heat wave and then it&apos;s all done.
 
-[Proxy] thanks the good doctor and goes out the room.
+[Proxy] thanks the doctor and goes out the room.
 
 &lt;%
 self.setStat(&quot;fat.breasts&quot;, 95);
@@ -33,5 +33,6 @@ RemoveItem(&quot;breast_milk&quot;, 100);
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

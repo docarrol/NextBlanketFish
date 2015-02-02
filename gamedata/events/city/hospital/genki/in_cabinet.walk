@@ -12,6 +12,10 @@
       <value>city/hospital/genki/cosmetic_surgery</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
+      <name>Fill breasts implant (3000 c, 2h)</name>
+      <value>city/hospital/genki/filling_implants_fill</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
       <name>About Neferi offer</name>
       <value>city/hospital/genki/ask_neferi_offer</value>
     </fetishmaster.engine.WalkChoice>
@@ -41,7 +45,7 @@
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Merril&apos;s Request</name>
-      <value>farms/merril_request</value>
+      <value>city/hospital/genki/merril_request</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
@@ -53,5 +57,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

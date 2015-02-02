@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>muffin_top/q1_no</name>
-  <descr>[Proxy] explains that [she] is not sure how to help.
+  <descr>[Proxy] explains that [heshe] is not sure how to help.
 
 - Think it over, you do like my coffee? I&apos;d like to still be here to offer it.
 &lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;</descr>
@@ -12,6 +12,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

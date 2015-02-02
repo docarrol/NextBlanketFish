@@ -8,18 +8,16 @@ c=partner;&#xd;
 &quot;&quot;;%&gt;[Proxy] call&apos;s [t-name] to help [her] with removing some of the implant volume. &lt;%Include(&quot;base/p_i_h_empty&quot;);%&gt;&#xd;
 &#xd;
 &lt;%MoodShame(50);&#xd;
-sal = proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);&#xd;
-if (sal &lt; 500) {sal = 500;}&#xd;
-proxy.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, sal-500);&#xd;
+proxy.doAction(&quot;ut_implant_empty&quot;);&#xd;
+proxy.doAction(&quot;ut_implant_empty&quot;);&#xd;
 MoodShame(c, 50);&#xd;
  &quot;&quot;;%&gt;</descr>
-  <conditions>proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;) &gt; 100;</conditions>
+  <conditions>self.getStat(&quot;preg_implant.volume&quot;) &gt; 100;</conditions>
   <picturePath>base/sex_room.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>base/sex/u_implant</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -27,6 +25,6 @@ MoodShame(c, 50);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

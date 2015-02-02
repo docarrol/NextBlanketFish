@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>sea/kiana_reply_herself</name>
-  <descr>- Me? As you can see I am not human. Our race usually live in the closed settlements, but some of us do not like this. I&apos;m not very happy in the village, but still not decided if I really want to live here. So I just going here often for now. Almost every day, actually. It&apos;s pretty fun here. 
+  <descr>- Me? As you can see I&apos;m not human. Our race usually lives in closed settlements, but not all of us like this. I&apos;m not very happy in the village, but I still haven&apos;t decided if I really want to live here. So I&apos;m just visiting here occasionally. Almost every day, actually. It&apos;s pretty fun here. 
 &lt;% SetFlag(&quot;kiana_village_know&quot;, 1); &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
   <picturePath>char/kiana.png</picturePath>
@@ -8,7 +8,6 @@
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>sea/kiana_approach_friend</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -16,6 +15,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

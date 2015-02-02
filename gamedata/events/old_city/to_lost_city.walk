@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>old_city/to_lost_city</name>
-  <descr>Climbing up here [proxy] sees a bridge across the gorge. When [proxy] goes out to the bridge, [heshe] was greeted with a wonderful view of an old city. In the haze towers can be seen. From here it is hard to make out any good details about the city.
+  <descr>Climbing up here [proxy] sees a bridge across the gorge. When [proxy] goes out to the bridge, [heshe] is greeted by a wonderful view of the old city. In the haze towers can be seen. It is hard to make out any clear details about the city from here.
 Path leads down to the city.</descr>
   <conditions>1</conditions>
   <picturePath>lost_city/to_lost_city.jpg</picturePath>
@@ -8,12 +8,10 @@ Path leads down to the city.</descr>
     <fetishmaster.engine.WalkChoice>
       <name>To Haze City</name>
       <value>old_city/edge</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>To Edge of Forest</name>
       <value>forest/edge_of_forest</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -21,5 +19,5 @@ Path leads down to the city.</descr>
   <priority>1</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

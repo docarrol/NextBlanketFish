@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/work_stripper_lust</name>
-  <descr>This time &lt;%activePartner.getName();%&gt; gives a very good performance, but in process of dancing &lt;%activePartner.HeShe();%&gt; excites &lt;%activePartner.HimHer();%&gt;self. &lt;%activePartner.HisHer();%&gt; arousal gets higher and higher, and on the planned end of show &lt;%activePartner.HeShe();%&gt; just can&apos;t control herself. &lt;%activePartner.getName();%&gt; begins using &lt;%activePartner.HisHer();%&gt; hands to actively pleasure &lt;%activePartner.HisHer();%&gt; body. But this does not change a thing. In the end &lt;%activePartner.HisHer();%&gt; restraint just gives way, and ,sitting on the stage, begins to please &lt;%activePartner.HimHer();%&gt;self with a hand. The audience gets quite a show with &lt;%activePartner.getName();%&gt; masturbating right on stage in front of everyone. &lt;%activePartner.HeShe();%&gt; has a strong orgasm and the public applauds &lt;%activePartner.HimHer();%&gt;.
+  <descr>This time [proxy] gives a very good performance, but in process of dancing [heshe] excites [himher]self. [HisHer] arousal gets higher and higher, and near the end of show [heshe] just can&apos;t restrain herself. [proxy] begins using [hisher] hands to actively pleasure [himher]self. But this does not change a thing. In the end [hisher] restraint just gives way, and, sitting on the stage, [heshe] begins to please [himher]self with a hand. The audience gets quite a show with [proxy] masturbating right on stage in front of everyone. [HeShe] has a strong orgasm and the public applauds [himher].
 	
-Ms. Tendo pays &lt;%activePartner.getName();%&gt; 50 coins for the show, and says that this kind of performance is good variety from the routine dances, but &lt;%activePartner.getName();%&gt; needs to be more in control of herself, or &lt;%activePartner.HisHer();%&gt; uncontrolled lust can become the source of trouble.
+Ms. Tendo pays [proxy] 50 coins for the show, and says that this kind of performance is good variety from the routine dances, but [proxy] needs to be more in control of herself, or [hisher] uncontrolled lust could become a source of trouble.
 
 &lt;%
 activePartner.inventory.addMoney(50);
@@ -21,5 +21,5 @@ proxy.subStat(&quot;generic.arousal&quot;, 60);
   <priority>3</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

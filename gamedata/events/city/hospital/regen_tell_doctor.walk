@@ -2,7 +2,7 @@
   <name>city/hospital/regen_tell_doctor</name>
   <descr>[Proxy] asks if there is any other way out of this situation?
 
-- Well... I hear that the owner of the shop at the magic street sells a very powerful remedy. It can greatly improve natural regeneration for some time. There is a chance, that with it your body can adapt to such an... unnatural state. But this remedy comes at a high cost.
+- Well... I hear that the owner of the shop at the magic street sells a very powerful remedy. It can greatly improve natural regeneration for some time. There is a chance, that with it your body can adapt to such an... unnatural state. But this remedy is very expensive.
 &lt;%SetFlag(&quot;regen_mix_know&quot;, 1); &quot;&quot;;%&gt;</descr>
   <conditions>GetFlag(&quot;regen_mix_know&quot;) &lt; 1;</conditions>
   <picturePath>city/hospital/doctor_tw.jpg</picturePath>
@@ -12,6 +12,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

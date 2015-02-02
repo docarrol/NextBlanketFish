@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/vag_stretch/massive_dildo_1</name>
-  <descr>[=proxy][Proxy] select the massive dildo that imitate a elephant penis. After some trying [heshe] managed to push it inside [hisher] [vagina] but it&apos;s extremely tight, almost painful to [himher]. Hour of cautious play allow [himher] to become a little more used to this size.
+  <descr>[=proxy][Proxy] selects the massive dildo in shape of elephant penis. After some trying [heshe] manageds to push it inside [hisher] [vagina] but it&apos;s extremely tight, almost painful for [himher]. Hour of cautious play allows [himher] to become a little more used to this size.
 &lt;%Include(&quot;base/vag_stretch_norm&quot;);%&gt;
 &lt;%LustShame(15, 45); &quot;&quot;;%&gt;</descr>
   <conditions>proxy.getStat(&quot;vagina.width&quot;) &gt; 14;</conditions>
@@ -11,6 +11,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

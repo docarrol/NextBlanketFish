@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/manager</name>
-  <descr>[Proxy] talks with the manager of this place about working here.
+  <descr>[Proxy] talks to the manager of this place about working here.
 
 &lt;%Include(&quot;fetish_cafe/manager_response_sex&quot;);%&gt;
 </descr>
@@ -10,7 +10,6 @@
     <fetishmaster.engine.WalkChoice>
       <name>To the cafe room</name>
       <value>city/redlight/cafe/interior</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -18,6 +17,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

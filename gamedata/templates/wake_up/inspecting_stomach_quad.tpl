@@ -1,6 +1,6 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 30;</conditions>
-  <text>It&apos;s impossible to reach [Proxy]&apos;s bellybutton. The gigantic stomach protudes so far she could fit a normal sized person in there.</text>
+  <text>It&apos;s impossible to reach [Proxy]&apos;s bellybutton. [HisHer] gigantic stomach protudes so far [heshe] could fit an average sized person in it.</text>
   <priority>0</priority>
   <picturePath></picturePath>
   <choices/>

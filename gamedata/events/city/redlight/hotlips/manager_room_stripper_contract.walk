@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/manager_room_stripper_contract</name>
-  <descr>Ms. Tendo lookes happy to see &lt;%activePartner.getName();%&gt; again. &#xd;
+  <descr>Ms. Tendo looks happy to see [proxy] again. &#xd;
 &#xd;
 - Clients like your dances a great deal, so I would like to propose a regular contract. You can still work as you like, but now payment will be stable, based on the work time.&#xd;
 &#xd;
-(Now, &lt;%activePartner.getName();%&gt; can work as an exotic dancer. You can set this task in management screen.)&#xd;
+(Now, [proxy] can work as an exotic dancer. You can set this task in management screen.)&#xd;
 &#xd;
 &lt;%&#xd;
 SetPerFlag(&quot;stripper_contract&quot;, 1);&#xd;
@@ -17,7 +17,6 @@ SetPerFlag(&quot;stripper_contract&quot;, 1);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/redlight/hotlips/lounge</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -25,6 +24,6 @@ SetPerFlag(&quot;stripper_contract&quot;, 1);&#xd;
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

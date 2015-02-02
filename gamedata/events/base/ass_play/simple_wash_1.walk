@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/ass_play/simple_wash_1</name>
-  <descr>[Proxy] felt very uncomfortably cleaning [hisher] ass. It definitely did not make [himher] feel any better and [hisher] arousal lowered considerably.&#xd;
+  <descr>[Proxy] felt very uncomfortable cleaning [hisher] ass. It definitely did not make [himher] feel any better and [hisher] arousal lowered considerably.&#xd;
 &#xd;
 &lt;% &#xd;
 gw = proxy.getStat(&quot;generic.lewdness&quot;);&#xd;
@@ -23,5 +23,6 @@ res;&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

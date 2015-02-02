@@ -1,6 +1,6 @@
 <fetishmaster.items.Item>
   <name>Bloated Berries</name>
-  <descr>A handful of round, bloated looking berries found while exploring the forest. You don&apos;t know what it does yet...</descr>
+  <descr>A handful of round, bloated looking berries found while exploring along the coast. You don&apos;t know what it does yet...</descr>
   <hourlyScript></hourlyScript>
   <useScript>res = &quot;The berries taste surprisingly sweet!&quot;;&#xd;
 if (self.hasEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;) &amp;&amp; self.getStat(&quot;uterus.volume&quot;) &gt; 1000)&#xd;

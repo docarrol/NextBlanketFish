@@ -7,7 +7,7 @@ oldsize = proxy.getStat(&quot;neferi.preg_client&quot;);&#xd;
 size = proxy.getStat(&quot;generic.abdomen&quot;);&#xd;
 size_diff = size-oldsize;&#xd;
 money = (Integer) size_diff*500;&#xd;
- &quot;&quot;;%&gt;After some time [t-name] enters the room. [t-HeShe] pauses shortly in the doorway to get a good look at [proxy]&apos;s figure, and how it changes.&#xd;
+ &quot;&quot;;%&gt;After some time [t-name] enters the room. [t-HeShe] pauses shortly in the doorway to get a good look at [proxy]&apos;s figure, and how it changed.&#xd;
 &lt;%Include(&quot;brothel/preg_client_changes&quot;);%&gt;&#xd;
 &#xd;
 &lt;% Include(&quot;brothel/preg_play_payment&quot;);%&gt;&#xd;
@@ -21,7 +21,6 @@ proxy.getStatText(&quot;neferi.preg_client&quot;) != &quot;&quot;;</conditions>
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/brothel/work_room</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -29,6 +28,6 @@ proxy.getStatText(&quot;neferi.preg_client&quot;) != &quot;&quot;;</conditions>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

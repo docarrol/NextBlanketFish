@@ -3,7 +3,7 @@
   <descr>&lt;%Include(&quot;fetish_cafe/change_to_waitress&quot;);%&gt;
 
 [Proxy] works [hisher] shift and is actually enjoying all of the attention [heshe] gets.
-A customer orders a coffee with milk, but none is left in the kitchen! The manager sends one of his staff to get more, but customer needs to be served now! What to do?
+A customer orders a coffee with milk, but none is left in the kitchen! Manager sends one of his staff to get more, but customer needs to be served now! What to do?
 &lt;%MoodShame(20); 
 proxy.inventory.addMoney(5);
 &quot;&quot;;%&gt;</descr>
@@ -13,12 +13,10 @@ proxy.inventory.addMoney(5);
     <fetishmaster.engine.WalkChoice>
       <name>Use Substitute</name>
       <value>city/redlight/cafe/milk_substitute</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Make Excuse</name>
       <value>city/redlight/cafe/milk_excuse</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -26,6 +24,6 @@ proxy.inventory.addMoney(5);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

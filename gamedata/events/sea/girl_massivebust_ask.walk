@@ -2,9 +2,9 @@
   <name>sea/girl_massivebust_ask</name>
   <descr>[Proxy] asks about her the size of her massive boobs.
 
-- Yeah, I guessed someone would ask about that. Well, you see, they are doing new experimentations in the research department of the hospital. They give you an injection that will drastically alter fat distribution in your body, they do offer different options in term of shape and well, a special &quot;Watermellon Special&quot; option if you supply them with the necessary material. You should ask for it, as they not anounce by their own this option yet. I suggest you pay them a visit! I can eat as much as I want now and it only help in growing those beauties, I&apos;m sure you can enjoy that too, don&apos;t you think?
+- Yeah, I guessed you would wonder about that. Well, you see, they are doing new experimentations in the research department of the hospital. They give you an injection that will drastically alter fat distribution in your body, they do offer different options in terms of shape and well, a special &quot;Watermellon Special&quot; option if you supply them with the necessary material. You should ask for it, as they don&apos;t advertise this option yet. I suggest you pay them a visit! I can eat as much as I want now and it only helps in growing these beauties, I&apos;m sure you would enjoy that too, don&apos;t you think?
 
-She winks at [Proxy] as she&apos;s mesmerized by the sheer size, but soon waves her goodbye and gets on her way.
+She winks at [Proxy] as she&apos;s mesmerized by sheer size of her breasts, but soon waves her goodbye and gets on her way.
 &lt;%MoodShame(15); 
 SetPerFlag(&quot;know_about_massive_breasts&quot;, 1);
 &quot;&quot;;%&gt;
@@ -18,6 +18,6 @@ SetPerFlag(&quot;know_about_massive_breasts&quot;, 1);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

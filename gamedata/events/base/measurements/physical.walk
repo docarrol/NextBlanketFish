@@ -2,9 +2,9 @@
   <name>base/measurements/physical</name>
   <descr>[Proxy] takes [hisher] measurements.
 
-Using a height measuring board [heshe] seen a &lt;%(Integer)proxy.getStat(&quot;generic.height&quot;);%&gt; centimeters as the result. Next is the weight... scales show a &lt;% (Integer) proxy.getStat(&quot;generic.weight&quot;) / 1000;%&gt; kilos.
+Using a height measuring board [heshe] measures at &lt;%(Integer)proxy.getStat(&quot;generic.height&quot;);%&gt; centimeters. Next is the weight... scale shows &lt;% (Integer) proxy.getStat(&quot;generic.weight&quot;) / 1000;%&gt; kilos.
 
-Getting a type measure [proxy] managed to get [hisher] breast, waist and hips measurements. It&apos;s &lt;%(Integer)proxy.getStat(&quot;generic.breasts&quot;);%&gt;, &lt;%(Integer)proxy.getStat(&quot;generic.waist&quot;);%&gt;, and &lt;%(Integer)proxy.getStat(&quot;generic.hips&quot;);%&gt; centimeters.
+Getting a tape measure [proxy] manages to get [hisher] breast, waist and hips measurements. It&apos;s &lt;%(Integer)proxy.getStat(&quot;generic.breasts&quot;);%&gt;, &lt;%(Integer)proxy.getStat(&quot;generic.waist&quot;);%&gt;, and &lt;%(Integer)proxy.getStat(&quot;generic.hips&quot;);%&gt; centimeters, accordingly.
 &lt;%Include(&quot;base/hips_size&quot;);%&gt;
 &lt;%MoodShame(10); &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
@@ -15,6 +15,6 @@ Getting a type measure [proxy] managed to get [hisher] breast, waist and hips me
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

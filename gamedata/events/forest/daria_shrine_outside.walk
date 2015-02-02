@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/daria_shrine_outside</name>
-  <descr>Walking onto the temple grounds, [proxy] sees standing before [himher] a very young looking girl in a priestess dress. But something is strange about the girl, besides the fact that she is living alone in a dilapidated temple in mirkwood. After silently staring at each for a moment, the girl using the time to thoughtfully examine [proxy], she finally speaks.
+  <descr>Walking onto the temple grounds, [proxy] sees standing before [himher] a very young looking girl in a priestess dress. But there is something strange about the girl, besides the fact that she is living alone in a dilapidated temple in mirkwood. After silently staring at each other for a moment, girl using the time to thoughtfully examine [proxy], she finally speaks.
 
-- Hello mortal! I do not get many visitors. Even in past times my home has not been very popular. Would you like to rest here and maybe hear my story?
+- Hello mortal! I do not get many visitors. Even in the past my home has not been very popular. Would you like to rest here and hear my story?
 
 &lt;%DisplayChar(&quot;char/daria.png&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>1</conditions>
@@ -11,12 +11,10 @@
     <fetishmaster.engine.WalkChoice>
       <name>Go with girl</name>
       <value>forest/daria_shrine_story1</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>forest/mirkwood</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -24,6 +22,6 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

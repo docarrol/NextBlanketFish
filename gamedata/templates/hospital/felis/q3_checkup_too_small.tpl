@@ -1,6 +1,6 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>1;</conditions>
-  <text>- I may be incorrect [proxy], but I have my doubts that you are letting down a liter of milk. Let us find out what your current lactic output is.
+  <text>- I may be incorrect [proxy], but I doubt that you are letting down a liter of milk. Let us find out what your current lactic output is.
 
 Dr. Felis turns on the nearby electric breast pump before placing the pump cups over [proxy]&apos;s nipples and watches as the bottles attached to the cups are filled. Shutting off the pump, the doctor carefully pulls on the cups until they release with a wet sounding pop.
 

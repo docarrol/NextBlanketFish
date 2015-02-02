@@ -1,18 +1,18 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/neferi_merril_offer_yes</name>
-  <descr>Neferi guide [proxy] into the other work room. It&apos;s decorated in another style than her working room, but [proxy]&apos;s main attention is taken right away by the person that occupy a bed.&#xd;
+  <descr>Neferi guides [proxy] to another work room. It&apos;s decorated in different style from [hisher] own working room, but [proxy]&apos;s attention is immediately grabbed by the person that occupies the bed.&#xd;
 &#xd;
-She is clearly a futa, and very endowed one! As if this not enough she have very prominent set of balls, and swollen belly that looks pregnant. And cat ears on the futa head and tail definitely show that she not human. She is nekomata. Neferi speak again.&#xd;
+She is clearly a futa, and a very well endowed one! And as if this was not enough she has a very prominent set of balls and pregnant-like swollen belly. Cat ears on futas head and a tail would indicate she is a nekomata rather than a human. Neferi speaks again.&#xd;
 &#xd;
-- Let me introduce a Merril. And this is [Proxy]. &#xd;
+- Let me introduce Merril. And this is [Proxy]. &#xd;
 &#xd;
 Then she speak to Merril:&#xd;
 &#xd;
--  You know the rule - no clients before you can contain yourself form pushing too fast. [Proxy] will help you with that.&#xd;
+-  You know the rules - no clients before you can restrain yourself form pushing too fast. [Proxy] will help you with that.&#xd;
 &#xd;
-Merril seems to have light haze in her mind, she nod but her look fixated at the proxy figure. She clearly in some sort of need or distraction. She spread her legs more, take her cock in the hand and says:&#xd;
+Merril seems to be sligtly dazed, but she nods and fixes her eyes onto [proxy]s figure. She is clearly in some sort of need. She spreads her legs more, takes her cock in hand and says:&#xd;
 &#xd;
-- Please! I need to cum! Take my, or give me yours, I just don&apos;t care. Just do it! Please!&#xd;
+- Please! I need to cum! Take mine, or give me yours, I just don&apos;t care. Just do it! Please!&#xd;
 &lt;%Include(&quot;char/merril_init&quot;);&#xd;
 merril.setStat(&quot;generic.arousal&quot;, 52);&#xd;
 &quot;&quot;;%&gt;&#xd;
@@ -27,17 +27,14 @@ SetPerFlag(&quot;neferi_merril_offer&quot;, 1);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Use penis</name>
       <value>city/brothel/merril_penis</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Offer vagina</name>
       <value>city/brothel/merril_vagina</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/brothel/lounge</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -45,6 +42,6 @@ SetPerFlag(&quot;neferi_merril_offer&quot;, 1);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

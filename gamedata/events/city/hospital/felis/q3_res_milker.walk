@@ -2,7 +2,7 @@
   <name>city/hospital/felis/q3_res_milker</name>
   <descr>Her eyes sparkle a little.
 
-- So I was right. You did enjyoy my research, yes? The milking machine is yours to keep. I wish you luck and please visit me in the future. Maybe I will have something interesting for you...
+- So I was right. You did enjoy my research, yes? The milking machine is yours to keep. I wish you luck and please visit me in the future. Maybe I will have something interesting for you later...
 
 &lt;%DisplayChar(&quot;char/felis.png&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
@@ -11,7 +11,6 @@
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/hospital/research_wing</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -19,6 +18,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

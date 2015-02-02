@@ -27,7 +27,7 @@ res += &quot;\n&quot; + proxy.getName()+ &quot; sees a &quot;+ name + &quot; her
 if (c.getFlag(&quot;proxy_reveal&quot;) != 1)&#xd;
 { AddButton(&quot;Approach &quot;+ name, &quot;commoners/approach&quot;, m);}&#xd;
 else&#xd;
-{ res += &quot;But &quot; + c.HeShe() + &quot; is clearly do not pleased to see &quot; + proxy.getName() + &quot;\n&quot;;}&#xd;
+{ res += &quot;But &quot; + c.HeShe() + &quot; is clearly not pleased to see &quot; + proxy.getName() + &quot;\n&quot;;}&#xd;
 &#xd;
 }&#xd;
 &#xd;

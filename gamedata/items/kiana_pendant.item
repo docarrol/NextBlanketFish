@@ -1,6 +1,6 @@
 <fetishmaster.items.Item>
   <name>Kiana&apos;s Pendant</name>
-  <descr>Pendant in the form of the leaf, given to you by the Kiana. This is some sort of the magical pass to the her village.</descr>
+  <descr>Pendant in the form of the leaf, given to you by the Kiana. This is some sort of magical pass to the her village.</descr>
   <hourlyScript></hourlyScript>
   <useScript>false;</useScript>
   <useText></useText>

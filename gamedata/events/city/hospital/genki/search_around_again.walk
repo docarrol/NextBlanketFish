@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/search_around_again</name>
-  <descr>It&apos;s too dangerous to search again right now. It will be better idea to return later...
+  <descr>It&apos;s too risky to search again right now. It might be a better idea to return later...
 </descr>
   <conditions>GetFlag(&quot;genki_last_search&quot;)+12 &gt; clock.getAHours();
 </conditions>
@@ -11,6 +11,6 @@
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

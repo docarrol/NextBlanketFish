@@ -1,27 +1,28 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>proxy.getStat(&quot;belanika.relations&quot;) &gt; 50 &amp;&amp; proxy.getFlag(&quot;romul_quest&quot;) == 1;</conditions>
-  <text>[Proxy] steel fells slightly uneasy, but curious enough to asks Belanika: how she become like this?&#xd;
+  <text>[Proxy] still feels slightly uncomfortable, but curious enough to ask Belanika: how did she become like this?&#xd;
 &#xd;
-Belanika sigh.&#xd;
+Belanika sighs.&#xd;
 &#xd;
-- It&apos;s not very happy story after all. But if you like to hear...&#xd;
+- It is not a happy story. But if you still wish to hear it...&#xd;
 &#xd;
-She sigh again.&#xd;
+She sighs again.&#xd;
 &#xd;
-- As I say earlier, my boyfriend likes lactation, and even after I&apos;m using this drug for lactating, it&apos;s become not enough for him after some time. He tell me that he always have fantasy about girl that can literally surpass a cow in the milk production, and asked me if I can do it for him. I say &quot;no&quot;. It&apos;s a little too much. For some time he not brought this theme anymore, but after some time, I begins to feel as he become more and more distant from me. And one time, about one year ago, I wake up in my bed with very sore breasts. Much more sore than usual. My milk quantity this day almost doubled. Next day this repeated, and my lower belly become sore too... Well, after little more than a week I get this appearance. I was freaked, and demand answers from my boyfriend. I blamed him for drugging me, but he swear that he not did anything. I do not trust him and eventually curse him in the one of the quarrels. &#xd;
+- As I said earlier, my boyfriend likes lactation, and even after I started using this drug for lactation, after some time he started to want more. He told me that he always had a fantasy about girl that could literally surpass a cow in the milk production, and asked me if I can do it for him. I said &quot;no&quot;. It&apos;s a little too much. After this he did not bring it up again, but after some time, I felt like he was becoming more distant. And then one time, about a year ago, I woke up in my bed with very sore breasts. Much more than usual. That day my milk quantity almost doubled. Next day this repeated, and my lower belly become sore too... And, after little more than a week I gained this appearance. I was freaked out, and demanded answers from my boyfriend. I accused him of drugging me, but he swore that he not did not do anything. I did not believe him and eventually swore at him in the one of the quarrels. &#xd;
 &#xd;
-Belanika paused and her sight become unfocused, as if she tries to remember more.&#xd;
+Belanika pauses and her sight becomes unfocused, as if she has difficulty remembering.&#xd;
 &#xd;
-- Little did I know, but Romul really do not did anything at his own. It&apos;s how our world can works sometimes. These days new DS zone opens very close to our farm, and my boyfriend appears to have some abilities of the pathfinder. And very high desire. That was become enough and he changed me unconsciously. But I don&apos;t know it! In this quarrel I cursed him with all my heart. What I exactly say this time: &quot;If you likes cowgirls so much, be a bull youself! Feel it too!&quot;. And if you do not know, in the DS zones strong feelings and desires can materialize. Unfortunately for us, power of my feelings expressed in a curse was been enough become reality. He changed too. Become a minotaur. Only after this we finally understand what happened. But it&apos;s become too late.&#xd;
+- Little did I know, but Romul really didn&apos;t do anything on his own. It&apos;s how our world works sometimes. At that time a new DS zone appeared very close to our farm, and my boyfriend appears to have some abilities of the pathfinder. And a very high desire. That was enough for him to change me subconsciously. But I didn&apos;t know that! In our quarrel I cursed at him with all my heart. What I said was: &quot;If you like cowgirls so much, just become a bull youself! Feel it yourself!&quot;. And if didn&apos;t know, in DS zones strong feelings and desires can materialize. Unfortunately for us, power of my feelings expressed in a curse was strong enough become reality. He changed too. Became a minotaur. Only after this happend di we finally understand what happened. But it was too late.&#xd;
 &#xd;
-Belanika looks depressed but you feels that she feeling better now, after she can tell this to someone. And she continue her story:&#xd;
+Belanika looks depressed but you think that she is feeling better now, after confiding to someone. And she continues her story:&#xd;
 &#xd;
-- Few weeks we try to find a way to undo what we done, but unsuccessful. DS zone vanish. And for Romul it&apos;s become more and more hard to be in the human society. He not lost any of his mind, but my curse press on his libido. It&apos;s become very hard for him to control himself. Eventually he tell me that he can&apos;t stay anymore. He need to avoid peoples, and decided to go and find someone who can help as, or at least to help him to control himself. &#xd;
-Do you know about Kau Tangata? Peoples, that have some of the cow threats in their appearance. Most of this race live in the closed hidden villages, but some decide to live with humans and can be encountered in the small settlements. But even they not like big cities and avoid them. For what I&apos;m know about them, they are emerged almost the same way. And they still live is the wild in their villages, so they know how to deal with the DS effects. Romul decided to find them, and ask for the help. This is a end for our romance. He leave short after this, but not returned. I don&apos;t know what happed to him.&#xd;
+- For a few weeks we tried to find a way to undo our changes, but unsuccessfuly. DS zone has already vanished. And for Romul it was becoming harder and harder to be in the human society. He did not lose his mind, but my curse affected his libido. It has become very hard for him to control himself. Eventually he told me that he couldn&apos;t stay anymore. He needed to avoid people, and decided to search for someone who could help us, or at least to help him to control himself. &#xd;
 &#xd;
-Belanika looks sad but then cheered a little. &#xd;
+Do you know about Kau Tangata? People, that have some of the cow traits in their appearance. Most of this race lives in the closed hidden villages, but few decide to live with humans and can be encountered in the small settlements. But even they dislike big cities and tend to avoid them. From what I know about them, they emerged almost the same way. And they still live in the wild in their villages, so they should know how to deal with the DS effects. Romul decided to find them, and ask for help. This was the end of our romance. He left shortly after this, and didn&apos;t return. I don&apos;t know what happed to him.&#xd;
 &#xd;
-- I&apos;m feeling some regrets, but in general this all is the big coincidence of circumstances. Romul tell me that he not blames me. And I&apos;m not blame him. He leave his farm to me, and says that I not need to wait for him. After all we not married, and we both always feels that it&apos;s not our main and only love in the life. But he promised to return if he find a way to revert me.&#xd;
+Belanika looks sad but then cheers up a little. &#xd;
+&#xd;
+- I feel some regret, but fot the most part this was all an unfortunate coincidence. Romul told me that he does not blame me. And I don&apos;t blame him. He left this farm to me, and said that I should not wait for him. After all we were not married, and we both always felt that we were not real soulmates. But he promised to return if he finds a way to change me back.&#xd;
 &#xd;
 &lt;%proxy.setFlag(&quot;romul_quest&quot;, 2); &quot;&quot;;%&gt;&#xd;
 &lt;%MoodShame(30); &quot;&quot;;%&gt;</text>

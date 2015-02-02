@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/work_stripper_good3</name>
-  <descr>This time &lt;%activePartner.getName();%&gt; captures the attention of &lt;%activePartner.HisHer();%&gt; audience. &lt;%@activePartner.HeShe();%&gt; is very skilled at pole dancing and can parade &lt;%activePartner.HisHer();%&gt; body in the most effective way. The flexibility and grace of &lt;%activePartner.HisHer();%&gt; movements arouse all viewers, and they applaude &lt;%activePartner.HimHer();%&gt;. 
+  <descr>This time [proxy] captures attention of [hisher] audience. [HeShe] is very skilled at pole dancing and can parade [hisher] body in the most effective way. The flexibility and grace of [hisher] movements arouse all viewers, and they applaude [himher]. 
 
-Ms. Tendo is very pleased and says that she hopes to see &lt;%activePartner.getName();%&gt; again soon. She pays her 30 coins.
+Ms. Tendo is very pleased and says that she hopes to see [proxy] again soon. She pays her 30 coins.
 
 &lt;%
 activePartner.inventory.addMoney(30);
@@ -18,5 +18,5 @@ LustShame(10,30);
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

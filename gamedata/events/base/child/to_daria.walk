@@ -5,7 +5,7 @@
 Daria materializes in a soft glow and carefully picks up [proxy]. She tells you:
 
 - Thank you for this. I promise [heshe] will be happy with [hisher] new family, and [hisher] life will be interesting. 
-I&apos;ll keep my promise and respond to you, as you call me to bless someone.
+I&apos;ll keep my promise and answer you when you call me to bless someone.
 
  Then she and [proxy] vanish.
 
@@ -18,7 +18,6 @@ EndContract(proxy);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>system_events/end_of_walking</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -26,6 +25,6 @@ EndContract(proxy);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

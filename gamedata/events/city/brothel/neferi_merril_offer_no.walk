@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/neferi_merril_offer_no</name>
-  <descr>- Okay, I&apos;ll find someone other... After all she not first time in such state... &#xd;
+  <descr>- Okay, I&apos;ll find someone else... After all this is not the first time she is in such a state... &#xd;
 </descr>
   <conditions>1</conditions>
   <picturePath>city/brothel/lounge.jpg</picturePath>
@@ -10,6 +10,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

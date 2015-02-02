@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/neferi_be_better</name>
-  <descr>[Proxy] promises Neferi that [heshe] will be more thorough to avoid these &quot;Accidents&quot; in the future. Neferi looks carefully and [Proxy] and replies: &#xd;
+  <descr>[Proxy] promises Neferi that [heshe] will be more careful to avoid such &quot;Accidents&quot; in the future. Neferi looks carefully at [Proxy] and replies: &#xd;
 &#xd;
-- All right, but keep in mind that you will get only one second chance. You can start working for me again.&#xd;
+- All right, but keep in mind that you get only one more chance. You can continue to work for me.&#xd;
 &#xd;
 ([Proxy] looks into Neferi&apos;s eyes and knows better)&#xd;
 &#xd;
@@ -25,5 +25,6 @@ SetPerFlag(&quot;anal_sex_disgusting&quot;, 2);&#xd;
   <priority>5</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

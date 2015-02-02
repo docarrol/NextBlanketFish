@@ -2,7 +2,7 @@
   <name>city/brothel/ask_about_working</name>
   <descr>[Proxy] asks about the possibility of working here as a... fun provider. Neferi looks at [her] thoughtfully.&#xd;
 &#xd;
-- Yes, it&apos;s possible. Clients like variety, so I hire new faces as part time workers pretty often. But there is some rules that you must abide by. First and most importantly, you better not cause any trouble. Second, I pay you only if the client leaves satisfied. And third, you don&apos;t select the clients, I do. Since you&apos;re not a regular employee, you have the privilege of leaving the client at any time without any repercussions. They will be told this as well before they meet you. Though if a client leaves or is left unsatisfied, there will be no payment.&#xd;
+- Yes, it&apos;s possible. Clients like variety, so I hire new faces as part time workers pretty often. But there are some rules that you must abide by. First and most importantly, you better not cause any trouble. Second, I pay you only if the client leaves satisfied. And third, you don&apos;t select the clients, I do. Since you&apos;re not a regular employee, you have the privilege of leaving the client at any time without any repercussions. They will be told this as well before they meet you. Though if a client leaves or is left unsatisfied, you will not receive payment.&#xd;
 &lt;% DisplayChar(&quot;char/neferi.png&quot;);&#xd;
 SetPerFlag(&quot;brothel_ask_job&quot;, 1);&#xd;
 &quot;&quot;;%&gt;</descr>
@@ -12,7 +12,6 @@ SetPerFlag(&quot;brothel_ask_job&quot;, 1);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/brothel/lounge</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -20,6 +19,6 @@ SetPerFlag(&quot;brothel_ask_job&quot;, 1);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

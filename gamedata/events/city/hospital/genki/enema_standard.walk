@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/enema_standard</name>
-  <descr>- Please try not to move and hold it in says Dr. Genki and inserts the tip of a huge injection into the [Proxy]&apos;s anus slowly depleting its entire content. A moment later a nurse provide a bowl to [Proxy] asking [himher] to completely empty the belly. This procedure repeats until the content of the bowl remains crystal clear. 
+  <descr>- Please try not to move and hold it in. says Dr. Genki and inserts the tip of a huge injection into the [Proxy]&apos;s anus slowly depleting its entire content. A moment later a nurse provides a bowl for [Proxy] asking [himher] to completely empty [hisher] belly. This procedure repeats until the content of the bowl becomes crystal clear.
 
-Dr. Genki slaps [Proxy]&apos;s ass signalising that the procedure is now completed and that [heshe] can dry up and put [hisher] clothes on.
+Dr. Genki slaps [Proxy]&apos;s ass signalizing that the procedure is now completed and that [heshe] can dry up and put [hisher] clothes on.
 
 &lt;%
 RemoveMoney(300);
@@ -22,5 +22,6 @@ SetPerFlag(&quot;anal_sex_disgusting&quot;, 0);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

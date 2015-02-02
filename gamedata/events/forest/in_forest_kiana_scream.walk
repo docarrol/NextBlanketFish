@@ -1,18 +1,16 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/in_forest_kiana_scream</name>
-  <descr>In the woods it&apos;s a little dark, but it seems quiet, save for some birds randomly singing. While walking, after some time [Proxy] hear a scream! Do [heshe] go to see the source or back up?</descr>
+  <descr>Inside the woods is somewhat dark, but it seems quiet, save for some birds singing. While walking for some time [Proxy] hears a scream! Does [heshe] goes to the source or backs away?</descr>
   <conditions>(clock.isEvening() || clock.isMorning()) &amp;&amp; proxy.getFlag(&quot;kiana_scared&quot;) == 1 &amp;&amp; GetFlag(&quot;kiana_friend&quot;) == 0 &amp;&amp; Chance(30);</conditions>
   <picturePath>forest/in_the_forest1.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Look for source</name>
       <value>forest/kiana_attacked</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Quetly leave</name>
       <value>forest/lightwood</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -20,5 +18,5 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

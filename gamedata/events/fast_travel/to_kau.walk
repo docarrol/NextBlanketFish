@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>fast_travel/to_kau</name>
-  <descr>[proxy] traveled to the side of forest and then going around it through path shown by Kiana. There is no road or trail but [proxy] can walk pretty easy. Soil is firm and grass is not too high.</descr>
+  <descr>[proxy] traveled to the side of forest and then went around it following the path shown by Kiana. There is no road or trail but [proxy] can navigate pretty easily. Soil is firm and grass is not too high.</descr>
   <conditions>1;</conditions>
   <picturePath>forest/edge_kt_path.jpg</picturePath>
   <choices>
@@ -14,4 +14,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

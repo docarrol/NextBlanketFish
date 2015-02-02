@@ -4,10 +4,10 @@
 
 - Yes, of course you can help!
 
-Todd continues to explain that there&apos;s two ways on which [heshe] can help him. Either by helping him achieve DNA manipulation or upgrade the gene scanner. However, to unlock one modification, Todd first needs an upgraded version of the scanner. He explains that he needs to be able to scan the body adaptation regarding training and exercises before he can start modifying them. Todd suspects this will be the case with the future upgrades.
+Todd continues to explain that there&apos;s two ways in which [heshe] can help him. Either by helping him achieve DNA manipulation or by upgrading the gene scanner. However, to unlock one modification, Todd first needs an upgraded version of the scanner. He explains that he needs to be able to scan the body&apos;s adaptation to training and exercise before he can start modifying the scanner. Todd suspects this will be the case with any future upgrades as well.
 
 
-Todd tells that [Proxy] needs to be scanned twice, one with a stat untrained and one where it&apos;s trained. Strength will be the focus. He also explains that only one person can do the different scans. With that he&apos;ll be able to upgrade the scanner.
+Todd tells [Proxy] that [heshe] needs to be scanned twice, one scan for an untrained attribute and one when it&apos;s trained. Strength will be the focus. He also explains that he will need the same person for both scans. With that he&apos;ll be able to upgrade the scanner.
 
 &lt;% SetFlag(&quot;todd_started_help&quot;, 2); 
 SetFlag(&quot;todd_in_experiment&quot;, 1); &quot;&quot;;%&gt;
@@ -19,7 +19,6 @@ SetFlag(&quot;todd_in_experiment&quot;, 1); &quot;&quot;;%&gt;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/hospital/todd/walk_in</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -27,6 +26,6 @@ SetFlag(&quot;todd_in_experiment&quot;, 1); &quot;&quot;;%&gt;
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

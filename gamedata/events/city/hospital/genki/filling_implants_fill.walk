@@ -1,0 +1,47 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/filling_implants_fill</name>
+  <descr>[Proxy] explain that [heshe] need a filling session.
+
+- Okay, you know the price. Get ready and process to the seat.
+
+After [proxy] is ready Dr. Genki lead [himher] to the special seat with the IV stand nearby. Then he rubbed sides of [hisher] [=proxy][breasts] with tampons wetted by something. 
+
+- This is for numbing skin and speed up healing.
+
+Then Dr. Genki set up IV stand with the two transparent bags of the solution, and ready needles.
+
+- Now, it&apos;s going in...
+
+He found special spot on the sides of the [breasts] sides and insert needles in them. After setting up a drips he says:
+
+- Procedure will take about two hours. Pleas not touch IV systems or your breast meantime. I will be back near the end of procedure.
+
+...
+
+- I seen, it&apos;s almost ready.
+
+[Proxy] can tell it too - [hisher] [breasts] now feel heavier and tighter then two hours ago.
+
+Dr. Genki remove needles of IV and rub their marks with something.
+
+- This is for speeding up healing even more. Anesthetic will wear off in few hours. You are free to go now.
+
+&lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;
+&lt;%proxy.addStat(&quot;breasts.fill_implant_size&quot;, 2); &quot;&quot;;%&gt;
+&lt;%LustShame(5,30); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasEffect(&quot;breasts.size&quot;, &quot;filling_breasts_implant&quot;) &amp;&amp; HasMoney(300);</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/pets_store/quest1_yes</name>
-  <descr>Okay. I am glad that you accept, but be very careful. If you need help, read this book as it has a good description of them. I will pay you 5000 coins for the 5 liters.
+  <descr>Okay. I am glad that you accepted, but be very careful. If you need help, read this book as it has a good description of them. I will pay you 5000 coins for 5 liters.
 &lt;%DisplayChar(&quot;char/uren.png&quot;); &quot;&quot;;%&gt;
 &lt;%SetPerFlag(&quot;uren_quest&quot;, 1); 
 SetFlag(&quot;book_t_beasts&quot;, 1);
@@ -14,6 +14,6 @@ SetFlag(&quot;book_t_beasts&quot;, 1);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,10 +1,10 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>1</conditions>
-  <text>Its clearly too small for penetration! Merril sigh with distraction and than begins to slide her cockhead on the [proxy] tights, covering them in precum.&#xd;
+  <text>[proxy]&apos;s vagina is clearly too small for penetration! Merril sighs distractedly and begins to slide her cockhead between [proxy]&apos;s thighs, covering them in precum.&#xd;
 &#xd;
-- Please, raise you legs and press them together. This only a way...&#xd;
+- Please, raise your legs and press them together. This is the only way...&#xd;
 &#xd;
-As [proxy] done a request Merril push her monster between. With her size and amount of precum it&apos;s enough to work as surrogate for vagina, and Merril starts her thrusts. She tries not to push too deep so her cockhead will not leave enclosure between [proxy] tights. But eventually Merril convulsing, and giving in to the her instincts, and pushes &quot;deep&quot; inside as her orgasm begins. Merril dick with this last push go through between [proxy] tights, and rested on [her] [belly]. Torrents of cum fly out from the Merril, very quickly covering all [proxy] [breasts] upper body and face in the white milky cover.&#xd;
+[proxy] does as Merril requested and she pushes her monster between. With her size and amount of precum it&apos;s enough to work as surrogate vagina, and Merril starts to thrust. She tries not to push too deep so her cockhead will not leave the enclosure between [proxy] tights. But eventually Merril starts shaking, and giving in to her instincts, she pushes &quot;deep&quot; inside as her orgasm begins. With this last push Merril&apos;s dick goes through between [proxy] thighs, and rests on [hisher] [belly]. Torrents of cum fly out from Merril, very quickly completely covering [proxy]&apos;s [breasts], upper body and face with the white milky cover.&#xd;
 </text>
   <priority>0</priority>
   <picturePath></picturePath>

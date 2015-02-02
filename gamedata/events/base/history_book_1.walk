@@ -1,16 +1,16 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/history_book_1</name>
-  <descr>Due to your amnesia you have decided to read a history book. Most of its contents are either uninteresting or familiar. The following passages, however, is particularly interesting.
+  <descr>Due to your amnesia you have decided to read a history book. Most of its contents are either uninteresting or familiar. The following passages, however, are particularly interesting.
 
 ...One of the greatest events in our history was the Dimension Shift (DS). Before the DS our world was a nice, quiet place. We used science to explore and understand our reality, fossil fuels and electrical engines to travel, transport our goods, and build our cities. As a species, humanity was beginning to consider whether we should start expanding into space...
 
-But, over thirty years ago, the Dimension Shift happened and we still don&apos;t know what caused it. We do know that DS is a natural phenomenon. We don&apos;t understand it, but have learned to coexist with it. Our best scientists believe that DS is a zone, where parallel realities merge into each other.
+But, over thirty years ago, Dimension Shift happened and we still don&apos;t know what caused it. We do know that DS is a natural phenomenon. We don&apos;t understand it, but have learned to coexist with it. Our best scientists believe that DS is a zone, where parallel realities merge into each other.
 
-This is observed as sudden, rapid changes in reality. For example, entirely new areas in a city may appear overnight. A path that has always led to a mountain may suddenly lead to a river. With luck, in just an hour&apos;s time you may even be able to travel across an entire continent! Reality is now a flexible thing. Some people, calling themselves &apos;Pathfinders&apos;, have even learned to control these changes somehow. The public tends to simply call them &apos;Mages&apos;.
+This is observed as sudden, rapid changes in reality. For example, entirely new areas of a city may appear overnight. A path that has always led to a mountain may suddenly lead to a river. With luck, in just an hour&apos;s time you might be able to travel across an entire continent! Reality is now a flexible thing. Some people, calling themselves &apos;Pathfinders&apos;, have even learned to control these changes. The public tends to simply call them &apos;Mages&apos;.
 
-Shortly after the DS happened, strange beings began appearing. Creatures generally considered myths. Elves, Gnomes, Orcs, were the first ones discovered. Later, even stranger creatures appeared. Centaurs, Nagas, Nymphs, and many other beast races... No one knows where they came from, not even the members of the new races we have been able to communicate with. If you ask any of them where they came from before the DS, the answer is always the same, &quot;We don&apos;t remember.&quot; There are those that believe the DS is creating them as a reflection of our imaginations. They are not real but we caused them to exist. For some time after this started to occur, we didn&apos;t know how to handle it. Though, after a few years, everything settled down and now these &quot;mythical&quot; races just live alongside us with full rights, as if it has always been this way. There are a few creatures so dangerous that they are considered only slightly above beasts, thus they have not been granted any rights. Most of these types are non-sentient anyway, though there are a few animals that have a very cunning human like intelligence.
+Shortly after the DS happened, strange beings began appearing. Creatures only found in myths and legends. Elves, Gnomes and Orcs were the first ones discovered. Later, even stranger creatures appeared. Centaurs, Nagas, Nymphs, and many other beast races... No one knows where they came from, not even the members of the new races we have been able to communicate with. If you ask any of them where they came from before the DS, the answer is always the same, &quot;We don&apos;t remember.&quot; There are those that believe the DS is creating them as a reflection of our imagination. They were not real but we caused them to exist. For some time after these events started to occur, we were uncertain on how to handle them. Then, after a few years, things settled down and now these &quot;mythical&quot; races just live alongside us with full rights, as if it has always been this way. There are a few creatures so dangerous that they are considered little more than beasts, thus they have not been granted any rights. Most of these types are non-sentient anyway, though there are a few animals that have a very cunning human-like intelligence.
 
-Closing the book you check the publication date. It was written nearly twenty years ago. Apparently the rest of the information after what you have read is not terribly relevant, as even a short amount of time in the world can cause significant changes. Especially if what is written about the Dimension Shift is true!
+Closing the book you check the publication date. It was written nearly twenty years ago. Apparently the rest of the information after what you have read is not very relevant, as even a short amount of time in the world can cause significant changes. Especially if what is written about the Dimension Shift is true!
 
 </descr>
   <conditions>1</conditions>
@@ -21,5 +21,5 @@ Closing the book you check the publication date. It was written nearly twenty ye
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

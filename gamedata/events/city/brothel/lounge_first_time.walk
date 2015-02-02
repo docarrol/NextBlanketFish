@@ -6,13 +6,13 @@
 
 She winks playfully.
 
-Though what gets [proxy]&apos;s attention at second glance at the Hostesses appearance [heshe] noticed the woman&apos;s secondary main attribute. Red eyes and a medium sized pair of horns on the sides of her head. This is surprising enough for [proxy] to show it.  As she sees &lt;%activePartner.HisHer();%&gt; reaction, and says:
+Though what gets [proxy]&apos;s attention on second glance at the Hostesses appearance are woman&apos;s secondary main attributes. Red eyes and a medium sized pair of horns on the sides of her head. This is surprising enough for [proxy] to show it.  As she sees &lt;%activePartner.HisHer();%&gt; reaction, and says:
 
-- Ah, do not feel repulsed please. Yes - I&apos;m not fully human, but as you can see, I mean no harm to anyone, or the authorities would not allow me to open this place. And one other thing...
+- Ah, do not feel repulsed please. Yes - I&apos;m not fully human, but as you can see, I mean no harm to anyone, or the authorities would not allow me to open this place otherwise. And one other thing...
 
-With these words she raise her hands.. and takes off her horns. It&apos;s just headband!
+With those words she raises her hands.. and takes off her horns. It&apos;s just headband!
 
-- Though they are decorations, I&apos;m not joking about myself. I&apos;m a quarter non human, so it feels right for me to wear them to show it. Oh, and how rude of me - I have forgotten to tell you my name. Call me Neferi please, And be our guest.
+- Though these are decorations, I&apos;m not joking about myself. I&apos;m a quarter non human, so it feels right for me to wear them to show it. Oh, and how rude of me - I have forgotten to tell you my name. Call me Neferi please, And be our guest.
 
 &lt;% DisplayChar(&quot;char/neferi.png&quot;);
 SetFlag(&quot;found_outskirt_brothel&quot;, 2);
@@ -24,12 +24,10 @@ SetPerFlag(&quot;neferi_intro&quot;, 1);
     <fetishmaster.engine.WalkChoice>
       <name>Ask to about working here</name>
       <value>city/brothel/ask_about_working</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/outskirts</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -37,6 +35,6 @@ SetPerFlag(&quot;neferi_intro&quot;, 1);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

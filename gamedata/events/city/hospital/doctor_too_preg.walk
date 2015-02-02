@@ -4,21 +4,17 @@
 
 After examining [proxy] the doctor looks worried:
 
-- Though I&apos;m not a gynaecologist, I must warn you: a normal body can&apos;t bear such size inside for very long. It is not safe and your health is at risk. I suggest giving this problem attention immediately.
-
-</descr>
+- Though I&apos;m not a gynecologist, I must warn you: a normal body can&apos;t bear withstand such size inside for very long. It is not safe and your health is at risk. I suggest giving this problem attention immediately.</descr>
   <conditions>proxy.getStat(&quot;abdomen.max_volume&quot;) &lt; proxy.getStat(&quot;abdomen.volume&quot;);</conditions>
   <picturePath>city/hospital/doctor_tw.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Any other way?</name>
       <value>city/hospital/regen_tell_doctor</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/treatment_wing</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -26,6 +22,6 @@ After examining [proxy] the doctor looks worried:
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

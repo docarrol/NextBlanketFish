@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/interior</name>
-  <descr>On first look it looks like a regular city cafe, but after a second, many rooms and hallways to other rooms can be seen. Some rooms are blocked by curtains and [proxy] can&apos;t see what type of rooms they are. 
+  <descr>At first glance it seems like an ordinary city cafe, but after getting a better look, many rooms and hallways to other rooms can be seen. Some rooms are blocked by curtains and [proxy] can&apos;t see what kind of rooms they are. 
 &lt;%Include(&quot;fetish_cafe/lower_interior&quot;);%&gt;
 &lt;%Include(&quot;fetish_cafe/kitchen_interior&quot;);%&gt;
 &lt;%SetFlag(&quot;fetish_cafe_found&quot;, 1); &quot;&quot;;%&gt;</descr>
@@ -37,5 +37,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

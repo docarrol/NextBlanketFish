@@ -8,6 +8,10 @@
   <picturePath>city/hospital/genki_office_day.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/genki/r_to_cabinet</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
       <name>Install implant (5h, 1000c.)</name>
       <value>city/hospital/genki/preg_implant_normal</value>
     </fetishmaster.engine.WalkChoice>
@@ -28,8 +32,12 @@
       <value>city/hospital/genki/select_saline</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
-      <name>Nevermind</name>
-      <value>city/hospital/genki/r_to_cabinet</value>
+      <name>Any more sizes?</name>
+      <value>city/hospital/genki/intro_implant_stretching</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Stretch implant (300c, 2h.)</name>
+      <value>city/hospital/genki/stretch_implant1</value>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -37,5 +45,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/intro_implant_stretching</name>
+  <descr>[Proxy] asks Dr. Genki - is he has bigger implants?&#xd;
+&#xd;
+- No, I don&apos;t sell bigger versions. I do not like that someone will hurt herself, with my products. But if you really want go further, there is a way. I can expand implant capacity. It&apos;s not too cheap though. Session will cost you 300 coins, and I insist about you hands to be bound through procedure. After one incident with my another patient I don&apos;t like surprises. Also I must warn you - after procedure implant should be emptied. It&apos;s absolutely necessary. It&apos;s will be up to you to fill it again.&#xd;
+&lt;%DisplayChar(&quot;char/genki.png&quot;);&#xd;
+SetPerFlag(&quot;stretch_implant_intro&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>self.hasOrgan(&quot;tmp_uterus_implant&quot;) &amp;&amp; self.getStat(&quot;preg_implant.volume&quot;) &gt;= self.getStat(&quot;preg_implant.max_volume&quot;)-100 &amp;&amp; GetPerFlag(&quot;stretch_implant_intro&quot;) &lt; 1;</conditions>
+  <picturePath>city/hospital/genki_office_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/genki/r_to_cabinet</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Stretch implant (300c, 2h.)</name>
+      <value>city/hospital/genki/stretch_implant1</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

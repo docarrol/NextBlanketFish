@@ -3,7 +3,7 @@
   <descr>You are milking &lt;% activePartner.getName() %&gt; and &lt;% activePartner.get2ndPerson(); %&gt; gives &lt;% a = selectedWorker.doAction(&quot;breasts_milking&quot;);
 MoodShame(15);
 b = a.get(&quot;breasts&quot;);
-(Integer)b.get(&quot;milk&quot;); %&gt;ml. of milk. Not enough was collected to fill a bottle.</descr>
+(Integer)b.get(&quot;milk&quot;); %&gt;ml. of milk. There was not enough to fill a bottle.</descr>
   <conditions>sysprint(activePartner.getName());
      
 if (activePartner.getRNAValue(&quot;breasts.milk_volume&quot;) &gt; 10)
@@ -17,5 +17,5 @@ else
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

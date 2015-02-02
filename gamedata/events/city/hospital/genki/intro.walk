@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/intro</name>
-  <descr>While walking down the hallway, [Proxy] begins to have second thoughts. But [heshe]&apos;s already here, right, so why not go a little further? [HeShe] eventually finds the door marked &quot;Office&quot; and lightly knocks on it. Just as [heshe] is about to knock again after waiting a moment, [heshe] hears someone call out from the office &quot;enter&quot;. Slowly opening the door, [heshe] peeks inside the office and asks hello? Across the room near a set of windows, [proxy] sees an older looking man sitting behind a wooden office desk looking directly at [himher]. His square chin, defined cheek bones, and hawkish nose give him a gruff appearance. And his snow white mustache, hair, and eyebrows do nothing to soften his appearance. Smiling at [himher] as he gets up from the chair he is sitting on, the gentleman beckons [proxy] into the office as he walks from behind the desk.
+  <descr>While walking down the hallway, [Proxy] begins to have second thoughts. But [heshe]&apos;s already here, so why not go a little bit further? [HeShe] eventually finds the door marked &quot;Office&quot; and lightly knocks on it. Just as [heshe] is about to knock again after waiting a moment, [heshe] hears someone call out from the office &quot;Enter!&quot;. Slowly opening the door, [heshe] peeks inside the office and asks hello? Across the room near a set of windows, [proxy] sees an older looking man sitting behind a wooden office desk looking directly at [himher]. His square chin, defined cheek bones, and hawkish nose give him a gruff appearance. And his snow white mustache, hair, and eyebrows do nothing to soften his appearance. Smiling at [himher] as he gets up from the chair he is sitting on, the gentleman beckons [proxy] into the office as he walks from behind the desk.
 
 - Greetings. Please come inside. I have not seen you before, so tell me what brings you to my clinic? 
 
@@ -25,12 +25,10 @@ The man pauses to clear his throat and straighten out the lapels of his coat.
     <fetishmaster.engine.WalkChoice>
       <name>Cosmetic surgery</name>
       <value>city/hospital/genki/cosmetic_surgery</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/research_wing</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -38,6 +36,6 @@ The man pauses to clear his throat and straighten out the lapels of his coat.
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

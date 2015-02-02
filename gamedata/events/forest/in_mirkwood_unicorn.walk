@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/in_mirkwood_unicorn</name>
-  <descr>[Proxy] sees a strange light ahead of [himher]. With slow cautious steps, [heshe] gets closer and closer until finally able to see the source. It&apos;s a Unicorn standing between the trees! Just like the fairytales! Its glowing figure is beautiful. [Proxy] admires it for some time but does not dare to go closer, as [heshe] remembers that in most tales unicorns are powerful magical beings capable of defending themselves from anyone. And they can be aggressive too...</descr>
+  <descr>[Proxy] sees a strange light ahead of [himher]. Stepping cautiously, [Proxy] gets closer and closer until [heshe] is finally able to see the source. There is a Unicorn standing between the trees! Just like the fairytales! Its glowing figure is beautiful. [Proxy] admires it for some time but does not dare to go closer, as [heshe] remembers that in most tales unicorns are powerful magical beings capable of defending themselves from anyone. And they can be aggressive too...</descr>
   <conditions>Chance(10) &amp;&amp; clock.isNight() &amp;&amp; status.isVirgin(proxy);</conditions>
   <picturePath>forest/unicorn.jpg</picturePath>
   <choices/>
@@ -9,5 +9,5 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

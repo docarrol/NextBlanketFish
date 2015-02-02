@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/edge_kt_shrine</name>
-  <descr>[Proxy] feel a little strange on this glade at the forest far edge.
+  <descr>[Proxy] feels a little strange on this glade at the far edge of the forest.
 
 &lt;%Include(&quot;forest/kt_road_shrine&quot;);%&gt;</descr>
   <conditions>1</conditions>
@@ -9,12 +9,10 @@
     <fetishmaster.engine.WalkChoice>
       <name>Back to the city </name>
       <value>forest/edge_kt_path</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Into the forest</name>
       <value>forest/in_forest</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -22,5 +20,5 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

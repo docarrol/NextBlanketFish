@@ -1,6 +1,6 @@
 <fetishmaster.items.Item>
   <name>Regeneration Enancer</name>
-  <descr>This vial contains an alchemical mixture that greatly enhances natural body regeneration for a several days. Some components of it are very rare, and the price is quite high.</descr>
+  <descr>This vial contains an alchemical mixture that greatly enhances natural body regeneration for several days. Some components of it are very rare, and the price is quite high.</descr>
   <hourlyScript></hourlyScript>
   <useScript>self.updateEffect(&quot;generic.regen_rate&quot;, &quot;regen_enhancer&quot;, 80, 300+calc.random(99), &quot;Effect from regen mixture has ended.&quot;);&#xd;
 &#xd;

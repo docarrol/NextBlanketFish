@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/todd/intro_answeryes</name>
-  <descr>- R-really? I&apos;m currently researching the tricks behind manipulating DNA. The problem is that no living person would be open to this kind of modification.They themselves can&apos;t experience the change, only their offsprings. Everyone doesn&apos;t dare to try such a thing. A proxy user however, can easily switch from bodies and use the DNA manipulation to use. So, what do ya say?
+  <descr>- R-really? I&apos;m currently researching the tricks behind manipulating DNA. The problem is that no living person would be open to this kind of modification.They themselves can&apos;t experience the change, only their offspring. Not everyone dares to try such a thing. A proxy user however, can easily switch between bodies and experience results of DNA manipulation. So, what do ya say?
 &lt;% SetFlag(&quot;todd_left_early&quot;, 1); &quot;&quot;;%&gt;
 &lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
@@ -20,6 +20,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -10,7 +10,7 @@ Her expression then turns to despair.
 
 She thinks to herself for a second.
  
-- I know, there is a farms not far from here. It is a strange place, I have never seen any cows. But some high quality milk arrives from it almost everyday... Anyway if you can find source me some cream I would be very grateful.
+- I know, there is a farm not far from here. It is a strange place, I have never seen any cows. But some high quality milk arrives from it almost daily... Anyway, if you can find me a source of some cream I would be very grateful.
 
 &lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;
 &lt;% 
@@ -28,6 +28,6 @@ vicky.addStat(&quot;abdomen.food&quot;, 10);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

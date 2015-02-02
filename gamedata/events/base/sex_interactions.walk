@@ -2,24 +2,21 @@
   <name>base/sex_interactions</name>
   <descr>Getting your contractors to experiment with each other.
 
-(You can mark your current contractor as a partner to others, than select another one and return here)</descr>
+(You can mark your current contractor as a partner for others, then select another one and return here)</descr>
   <conditions>GetFlag(&quot;visit_david&quot;) == 1; </conditions>
   <picturePath>base/sex_room.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Select as Partner</name>
       <value>base/sex/select_as_partner</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>See Partner</name>
       <value>base/sex/see_partner</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Return</name>
       <value>base/training_rooms</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -27,6 +24,6 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

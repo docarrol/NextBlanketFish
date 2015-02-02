@@ -66,10 +66,6 @@
       <value>city/brothel/go_see_elise</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
-      <name>Size Training</name>
-      <value>city/brothel/size_training</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/outskirts</value>
     </fetishmaster.engine.WalkChoice>
@@ -79,5 +75,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

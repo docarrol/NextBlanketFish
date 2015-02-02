@@ -1,6 +1,6 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>1</conditions>
-  <text>But [t-heshe] is very disappointed to see that [proxy] waistline has not changed noticeably from the last time, and leaves.&#xd;
+  <text>But [t-heshe] is very disappointed to see that [proxy]&apos;s waistline has barely changed from the last time, and leaves.&#xd;
 &lt;%&#xd;
 if (Chance(50))&#xd;
 {&#xd;

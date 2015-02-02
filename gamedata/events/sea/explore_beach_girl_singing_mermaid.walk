@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>sea/explore_beach_girl_singing_mermaid</name>
-  <descr>Walking around the beach, [Proxy] gets to the rocks. [HeShe] lies on the edge and looks into the water. The sea is so clear [heshe] can see to the bottom in the moonlight. [HeShe] spends some time like this, but suddenly some movement gets [hisher] attention. It is a mermaid! She gets into moonlight and begins to sing. [Proxy] can&apos;t really hear the mermaids song as [heshe] is not underwater. So [heshe] takes a deep breath and puts [hisher] head under water. [HeShe] can&apos;t hold her breath for the full duration of the mermaids song, but still, the mermaids voice is beautiful. [Proxy] feels as if the mermaids song calls to [hisher] deeper nature. Some time after, the mermaid ends her song, and swims back into the sea. [Proxy] feels a warm feeling around her throat.&#xd;
+  <descr>Walking around the beach, [Proxy] gets to the rocks. [HeShe] lies on the edge and looks into the water. The sea is so clear [heshe] can see to the bottom in the moonlight. [HeShe] spends some time like this, when some movement gets [hisher] attention. It is a mermaid! She swims into moonlight and begins to sing. [Proxy] can&apos;t really hear mermaids song as [heshe] is not underwater. So [heshe] takes a deep breath and puts [hisher] head under water. [HeShe] can&apos;t hold her breath for the full duration of the mermaids song, but still, the mermaids voice is beautiful. [Proxy] feels as if the mermaids song calls to [hisher] deeper nature. Some time later, mermaid ends her song, and swims back into the sea. [Proxy] feels a warm feeling around her throat.&#xd;
 &#xd;
 &lt;%&#xd;
 activePartner.addStat(&quot;skill.sing&quot;, 20);&#xd;
@@ -15,6 +15,6 @@ activePartner.addStat(&quot;skill.swim&quot;, 15);&#xd;
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

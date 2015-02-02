@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/vagina/lick1</name>
+  <descr>[Proxy] expertly licks [target]&apos;s pussy, teasing [t-hisher] clitoris and playfully biting [t-hisher] lips.&lt;%Include(&quot;sex/calc_vagina_lick&quot;);%&gt; &lt;%Include(&quot;sex/generic_t_orgasm&quot;);%&gt;</descr>
+  <conditions>proxy.getStat(&quot;skill.oral&quot;) &gt;= 30 &amp;&amp; iTarget.hasOrgan(&quot;penis&quot;) == false;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

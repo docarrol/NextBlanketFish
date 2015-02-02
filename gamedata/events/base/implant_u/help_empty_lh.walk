@@ -5,30 +5,28 @@ cuid = GetTextFlag(&quot;base_current_partner&quot;);&#xd;
 partner = Character(cuid);&#xd;
 ctv = partner;&#xd;
 c=partner;&#xd;
-&quot;&quot;;%&gt;[Proxy] lies down to relax and wait for [t-name] to do asked job done. As [t-heshe] leans down below [proxy]&apos;s belly, [she] feels [t-name]&apos;s hands on [her] vagina, spreading [her] and inserting nozzle inside. But something is not right... With some effort [proxy] pulls [her]self up enough to see that a tube connected to the huge syringe in [t-name]&apos;s hands and [t-heshe] pushing plunger!&#xd;
+&quot;&quot;;%&gt;[Proxy] lies down to relax and waits for [t-name] to do get the job done. As [t-heshe] leans down below [proxy]&apos;s belly, [she] feels [t-name]&apos;s hands on [her] vagina, spreading [her] and inserting nozzle inside. But something is not right... With some effort [proxy] pulls [her]self up enough to see that a tube connected to the huge syringe in [t-name]&apos;s hands and [t-himher] pushing plunger!&#xd;
 &#xd;
-- Sorry! I couldn&apos;t help myself. I just can&apos;t ruin your appearance! This is for the yours trying to do it. &#xd;
+- Sorry! I just couldn&apos;t help myself. I can&apos;t ruin your appearance!&#xd;
 &#xd;
-[Proxy] feels as the pressure in her uterus grows more.&#xd;
+[Proxy] feels the pressure in her uterus grow more.&#xd;
 &#xd;
-- I&apos;m happens to have suitable saline pack...&#xd;
+- I happened to have a suitable saline pack...&#xd;
 &#xd;
 Seems it was not a good idea to ask for help from such a lewd and horny person...&#xd;
 &#xd;
 &lt;%LustShame(10, 50);&#xd;
-sal = proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);&#xd;
-proxy.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, sal+300);&#xd;
+proxy.doAction(&quot;ut_implant_fill&quot;);&#xd;
 LustShame(c, 5, 50);&#xd;
  &quot;&quot;;%&gt;</descr>
   <conditions>cuid = GetTextFlag(&quot;base_current_partner&quot;);
 partner = Character(cuid);
-proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;) &gt; 6000 &amp;&amp; partner.getStat(&quot;generic.lewdness&quot;) &gt; 50 &amp;&amp; partner.getStat(&quot;generic.arousal&quot;) &gt; 40 &amp;&amp; Chance(50);</conditions>
+self.getStat(&quot;preg_implant.volume&quot;) &gt; 6000 &amp;&amp; partner.getStat(&quot;generic.lewdness&quot;) &gt; 50 &amp;&amp; partner.getStat(&quot;generic.arousal&quot;) &gt; 40 &amp;&amp; Chance(50);</conditions>
   <picturePath>base/sex_room.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>base/sex/u_implant</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -36,6 +34,6 @@ proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;) &gt;
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

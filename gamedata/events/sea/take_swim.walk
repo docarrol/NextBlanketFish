@@ -7,7 +7,7 @@
         proxy.addStat(&quot;generic.dex&quot;, 0.3);
         proxy.addStat(&quot;generic.end&quot;, 1.2);
         proxy.addStat(&quot;generic.cha&quot;, 0.02);
-activePartner.addStat(&quot;generic.swim&quot;, 1);
+activePartner.addStat(&quot;skill.swim&quot;, 1);
 proxy.subStat(&quot;generic.calories&quot;, 400);
 SetFlag(&quot;found_swimming&quot;, 1);
 &quot;&quot;; %&gt;</descr>
@@ -24,6 +24,6 @@ res;</conditions>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

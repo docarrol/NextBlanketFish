@@ -1,14 +1,14 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/inside_about_romul</name>
-  <descr>- You seen him? What happens with him? Tell me, please!
+  <descr>- You have seen him? What happend to him? Tell me, please!
 
-[Proxy] explain about the trip to the Kau Tangata village, meeting with Romul, and his current state.
+[Proxy] explains about the trip to the Kau Tangata village, meeting with Romul, and his current state.
 
-- So, he found another girl... Well. Let&apos;s they be happy. But I&apos;m relieved now, as his fate is bothered me before. Now I can left this behind and live on. 
+- So, he found another girl... Well. I hope they will be happy. But I&apos;m relieved now, as his fate bothered me before. Now I can leave this behind and live on.
 
 She smiles.
 
-- Thank you for finding it all for me. 
+- Thank you for finding him for me. 
 &lt;%proxy.addStat(&quot;belanika.relations&quot;, 30);
 proxy.setFlag(&quot;romul_quest&quot;, 4);
 SetFlag(&quot;romul_quest&quot;, 4);
@@ -19,12 +19,10 @@ SetFlag(&quot;romul_quest&quot;, 4);
     <fetishmaster.engine.WalkChoice>
       <name>Give Phial with Kau Potion</name>
       <value>farms/inside_give_kau_phial</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -32,6 +30,6 @@ SetFlag(&quot;romul_quest&quot;, 4);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

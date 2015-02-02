@@ -2,7 +2,7 @@
   <name>city/redlight/hotlips/manager_room_preg1</name>
   <descr>The manager is a business woman who introduces herself as Ms. Tendo.&#xd;
 &#xd;
-- I&apos;m sorry, but... Do you pregnant? In any case, your figure become... not qualified enough to work in our club. Sorry. Please, take care about youself, and return later.&#xd;
+- I&apos;m sorry, but... are you pregnant? In any case, your figure has become... unsuitable for work in our club. Sorry. Please, take care of yourself, and return later.&#xd;
 </descr>
   <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 2;</conditions>
   <picturePath>city/hotlips/manager.jpg</picturePath>
@@ -10,7 +10,6 @@
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/redlight/hotlips/lounge</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -18,6 +17,6 @@
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

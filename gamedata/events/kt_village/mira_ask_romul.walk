@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>kt_village/mira_ask_romul</name>
-  <descr>- He is not here right now. He is in the forest searching for something, and usually does not come back before sunset. If you really need to talk with him, please return later. I must warn you though, he can be dangerous sometimes.&#xd;
+  <descr>- He is not here right now. He is in the forest searching for something, and usually doesn&apos;t come back before sunset. If you really need to talk with him, please return later. I must warn you though, he can be dangerous sometimes.&#xd;
 &lt;%Include(&quot;char/mira_init&quot;);&#xd;
 Include(&quot;char/romul_init&quot;);&#xd;
 DisplayChar(&quot;char/mira.png&quot;);&#xd;
@@ -14,6 +14,6 @@ DisplayChar(&quot;char/mira.png&quot;);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

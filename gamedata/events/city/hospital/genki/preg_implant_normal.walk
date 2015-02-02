@@ -5,6 +5,7 @@
 implant = &quot;genki_preg_implant_t3&quot;;
 money = 1000;
 max_vol = 14000;
+growing = false;
  &quot;&quot;;%&gt;
 &lt;%Include(&quot;hospital/genki/preg_implant_install&quot;);%&gt;</descr>
   <conditions>status.isVisiblePregnant(proxy) == false &amp;&amp; HasMoney(1000) &amp;&amp;
@@ -16,6 +17,6 @@ proxy.getFlag(&quot;installed_preg_implant&quot;) &lt; 1 &amp;&amp; proxy.hasOrg
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

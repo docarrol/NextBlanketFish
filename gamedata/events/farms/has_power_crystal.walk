@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/has_power_crystal</name>
-  <descr>[proxy] pulls a power crystal out of [hisher] travel satchel and shows it to Belanika, the cowgirl&apos;s eyes lighting up with happiness when seeing it.
+  <descr>[proxy] pulls a power crystal out of [hisher] travel satchel and shows it to Belanika, the cowgirl&apos;s eyes light up with joy when she sees it.
 
 - Oh! Thank you so much [proxy]! You saved me! May you please install the crystal and turn on the machine?
 
-Approaching the milker&apos;s motor, &lt;%activePartner.getName();%&gt; puts the crystal into the auxiliary port on the engine then picks up the teat cups and hands them to Belanika.
+Approaching the milker&apos;s motor, [proxy] puts the crystal into the auxiliary port on the engine then picks up the teat cups and hands them to Belanika.
 
 - Thank you [proxy]. When I say I&apos;m ready, turn on the milker!
 
@@ -12,7 +12,7 @@ Belanika starts working the teat cups onto her turgid nipples. It takes a little
 
 - Turn it on...
 
-&lt;%activePartner.getName();%&gt; switches the milker&apos;s power switch to &quot;ON&quot; then steps to one side of the stall to wait and watch. At first nothing happens. But then, the pump kicks over a couple times before it starts to slowly run at a steady pace. The tubes running out of the milker quiver a few times before beginning to gently rustle. When [proxy] hears Belanika let out a quiet moan, she knows the teat cups are starting to suckle on her nipples.
+[proxy] switches the milker&apos;s power switch to &quot;ON&quot; then steps to the side of the stall to wait and watch. At first nothing happens. But then, the pump kicks over a couple times before it begins to run at a steady pace. The tubes running out of the milker quiver a few times before beginning to gently rustle. When [proxy] hears Belanika let out a quiet moan, [heshe] knows the teat cups are starting to suckle on her nipples.
 
 - Oh, so good...
 
@@ -23,7 +23,6 @@ Belanika starts working the teat cups onto her turgid nipples. It takes a little
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>farms/belanika_milked1</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -31,5 +30,5 @@ Belanika starts working the teat cups onto her turgid nipples. It takes a little
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

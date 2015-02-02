@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/stretch_implant1</name>
+  <descr>- So you ambitious, huh? Okay. I will get ready all that needed, and I want you to strip fully meantime. &#xd;
+&#xd;
+After [Proxy] finished stripping, Dr. Genki returned with the covered tray. &#xd;
+&#xd;
+- Good. Sit on your kneels on the bed, hand back on the headboard. As I says before - I must fixate them.&#xd;
+&#xd;
+He take bandage strips and bound [proxy]&apos;s hand to the headboard, firmly but not too tight. After it&apos;s finished he take from the cover large syringe with the tube attached to it.&#xd;
+&#xd;
+- Now, it goes here...&#xd;
+&#xd;
+Dr. Genki placed and of the tube that has special nozzle into the [proxy] [=proxy][vagina], and connect it to the implant cervix port.&#xd;
+&#xd;
+- This syringe contains special solution. Being slowly injected inside it suppress implant natural ability to reject fluids more than it should. At also contain substance that settles on the internal side of the sack giving possibility to stretch it without breaking. Now, hold still!&#xd;
+&#xd;
+With this words Dr. Genki press plunger. Proxy winces as [heshe] feel fast growing tightness in [hisher] [belly].&#xd;
+&#xd;
+&lt;%SetPerFlag(&quot;implant_stretched&quot;, 1); &quot;&quot;;%&gt;</descr>
+  <conditions>self.hasOrgan(&quot;tmp_uterus_implant&quot;) &amp;&amp; self.getStat(&quot;preg_implant.volume&quot;) &gt;= self.getStat(&quot;preg_implant.max_volume&quot;)-100 &amp;&amp; GetPerFlag(&quot;stretch_implant_intro&quot;) &gt; 0 &amp;&amp; HasMoney(300);</conditions>
+  <picturePath>city/hospital/genki_imp_stretch.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/genki/stretch_implant2</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

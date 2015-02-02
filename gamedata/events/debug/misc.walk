@@ -23,11 +23,15 @@ if ( hour == (Integer) hour)&#xd;
 text;%&gt;&#xd;
 */&#xd;
 &#xd;
+&lt;%&#xd;
+self.addHistory(&quot;Birth&quot;, &quot;test text&quot;, &quot;organs/birth_auto.jpg&quot;);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&#xd;
 &lt;% &#xd;
-c = LoadCharacter(&quot;human_female_agency_worker_hyperbreeder&quot;);&#xd;
-GenerateNewName(c);&#xd;
-RegistryCharacter(c);&#xd;
-c.addToWorkers();&#xd;
+//c = LoadCharacter(&quot;human_female_agency_worker_hyperbreeder&quot;);&#xd;
+//GenerateNewName(c);&#xd;
+//RegistryCharacter(c);&#xd;
+//c.addToWorkers();&#xd;
 &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
   <picturePath></picturePath>

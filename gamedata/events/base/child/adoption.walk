@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/child/adoption</name>
-  <descr>Adoptions are pretty common after the DS. There are many reasons for it - mainly, not everyone wants to raise their chidren, but not all who want them are able to have their own.
+  <descr>Adoptions are pretty common after the DS. There are many reasons for it - mainly, not everyone wants to raise their chidren, but not everyone that wants them is able to have their own.
 
 A good family will be found for [proxy] so do not feel bad about giving them up.
 
@@ -13,7 +13,6 @@ EndContract(proxy);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>system_events/end_of_walking</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -21,6 +20,6 @@ EndContract(proxy);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

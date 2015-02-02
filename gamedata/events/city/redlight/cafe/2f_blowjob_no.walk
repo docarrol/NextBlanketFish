@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/2f_blowjob_no</name>
-  <descr>[Proxy] is offended by such behavior and tries to pretend that [heshe] can not hear the order at all or does not realize that the client has called [himher]. Luckily, [heshe]&apos;s pretty far from the clients table so it turns out well. But at the end of [proxy]&apos;s shift, Manager calls [himher] to the office.
+  <descr>[Proxy] is offended by such behavior and tries to pretend that [heshe] can&apos;t hear the order at all or does not realize that the client has called [himher]. Luckily, [heshe] is pretty far from the clients table so it turns out well. But at the end of [proxy]&apos;s shift, Manager calls [himher] to the office.
 
-- This is unacceptable. You will not be paid. Normally I would need to punish you for such behavior, but the client did not become upset. This time you are off the hook. But I suggest that if such a request is too much for you, it would be better not to try to work on the second floor. I will repeat the rules: in this hall, the clients can demand from you anything beside doing harmful or painful things. They are to expect that their orders will not be turned down.
+- This is unacceptable. You will not be paid. Normally I would punish you for such behavior, but the client was not upset. This time you are off the hook. But if such requests are too much for you, it would be better for you to avoid working on the second floor. I will repeat the rules: in this hall, the clients can demand from you anything that does not cause you harm. They will expect their orders to be obeyed.
 &lt;%MoodShame(30); &quot;&quot;;%&gt;
 </descr>
   <conditions>1;</conditions>
@@ -11,7 +11,6 @@
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/interior</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -19,6 +18,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

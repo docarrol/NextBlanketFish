@@ -4,7 +4,7 @@
 
 [Proxy] asks if Belanika can make some cream from her milk? Belanika frowns for a second. 
 
-- I have not thought about this before. To produce cream from the milk, a separator is needed, but I do not have one. Money is not a problem thanks to the fixed milker and my milk quality and quantity... But... Maybe you can find someone who sell them and order one for me? I do not like to trip in the city these days. Too much... attention I catching with my appearance. And this machine you can&apos;t order in regular shop - this industrial equipment. If you have contact with someone related, it will be more easy. I will refund your spendings later.
+- I have not thought about this before. To produce cream from the milk, a separator is needed, but I do not have one. Money is not a problem thanks to the fixed milker and my milk quality and quantity... But... Maybe you could find someone who sells them and order one for me? I do not like to go into the city these days. I get too much... attention with my appearance. And this isn&apos;t a machine you can order in regular shop - this is industrial equipment. If you have contact with someone related, it will be easier. I will refund what you spend later.
 &lt;%
 SetPerFlag(&quot;belanika_separator_deal&quot;, 1);
 SetFlag(&quot;muffin_top_quest&quot;, 4); &quot;&quot;;
@@ -18,6 +18,6 @@ SetFlag(&quot;muffin_top_quest&quot;, 4); &quot;&quot;;
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/pussysize/elephant</name>
-  <descr>&lt;%activePartner.getName()%&gt; feels horny enough and spends 2 hours masturbating with the elephantine dildo, pushing it as deep as possible, stretching herself to her limit while having some orgasms on while at it. After the ordeal, she does feel like her pussy&apos;s a bit looser.
+  <descr>&lt;%activePartner.getName()%&gt; feels horny enough and spends 2 hours masturbating with the elephantine dildo, pushing it as deep as possible, stretching herself to her limit and having some few orgasms while at it. After the ordeal, she does feel like her pussy&apos;s a bit looser.
 
 &lt;%
 if (activePartner.getStat(&quot;vagina.width&quot;) &lt; 33)
@@ -16,7 +16,6 @@ activePartner.setStat(&quot;generic.arousal&quot;, 0);
     <fetishmaster.engine.WalkChoice>
       <name>Return to training room</name>
       <value>base/s_training</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -24,5 +23,5 @@ activePartner.setStat(&quot;generic.arousal&quot;, 0);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

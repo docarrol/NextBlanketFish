@@ -2,7 +2,7 @@
   <name>commoners/proxy_reveal_ok</name>
   <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;You decided: it&apos;s time to tell &lt;%c.getName();%&gt; about yourself. So [Proxy] takes some time and tells &lt;%c.getName();%&gt; your story, and about [hisher] contract, then you both look at &lt;%c.getName();%&gt; while waiting for &lt;%c.HisHer();%&gt; reaction.
 
-- Oh, it&apos;s definitely a story... I am not even sure how to react... But at least you do it by choice, so maybe it&apos;s okay. In this world there are so many strange things, so this isn&apos;t all that strange. Just trying to understand for the first time is hard...
+- Oh, it&apos;s definitely a story... I am not even sure how to react... But at least you do it by choice, so I guess it&apos;s okay. In this world there are so many strange things, so this isn&apos;t all that strange. Just trying to understand for the first time is hard...
 
 &lt;% c.setFlag(&quot;proxy_reveal&quot;, 2); &quot;&quot;;%&gt;
 
@@ -15,5 +15,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

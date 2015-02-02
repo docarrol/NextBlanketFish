@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/vag_stretch/massive_dildo_2</name>
-  <descr>[=proxy][Proxy] use elephant-like dildo to play with her [vagina]. [HeShe] can stretch and relax enough to allow the massive shaft a decent moving range inside and out. Such stimulation is very hard to ignore, and arousal is raising fast. 
+  <descr>[=proxy][Proxy] uses elephant-like dildo to play with her [vagina]. [HeShe] can stretch and relax enough to allow the massive shaft a decent moving range in and out. Such stimulation is very hard to ignore, and [hisher] arousal is raising fast. 
 &lt;%Include(&quot;base/vag_stretch_norm&quot;);%&gt;
 &lt;%LustShame(15, 45); &quot;&quot;;%&gt;</descr>
   <conditions>proxy.getStat(&quot;vagina.width&quot;) &gt; 20;</conditions>
@@ -11,6 +11,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

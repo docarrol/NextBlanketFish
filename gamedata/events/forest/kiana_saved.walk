@@ -1,28 +1,25 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/kiana_saved</name>
-  <descr>Beast falls on the ground not able to fight anymore. [Proxy] turn to see is girl is okay. [HeShe] surprised to see her almost near the brushes. Though all fight she slowly but steady, and trying not catch attention of the beast crawl to them, and almost got near. As she see that [proxy] closing she looks frightened and scream:&#xd;
+  <descr>Beast falls on the ground, unable to fight anymore. [Proxy] turns to see if the girl is okay. [HeShe] is surprised to see her almost near the brushes. Through the fight she slowly but steadily crawled to the brushes while avoiding attention of the beast, and now she almost reached them. As she sees that [proxy] is closing in she gives frightened look and screams:&#xd;
 &#xd;
-- No! Not come near me, demon!&#xd;
+- No! Don&apos;t come near me, demon!&#xd;
 &#xd;
-You feel big wave of confusion raised from [proxy]. Demon? You feels confused too. Girl, meantime, begins to look slightly unsure as you stop but then speak again:&#xd;
+You feel a wave of confusion raised from [proxy]. Demon? You feels confused too. The girl, in meantime, begins to look slightly unsure as you stop but then speaks again:&#xd;
 &#xd;
 &lt;%Include(&quot;forest/kiana_saved&quot;);%&gt;&#xd;
 &lt;%EndInteraction(); &quot;&quot;;%&gt;&#xd;
 &lt;%DisplayChar(&quot;char/kiana_scared.jpg&quot;); &#xd;
-&quot;&quot;;%&gt;&#xd;
-</descr>
+&quot;&quot;;%&gt;</descr>
   <conditions>1</conditions>
   <picturePath>char/kiana_scared.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Expalin about Youself</name>
       <value>forest/kiana_explain_youself</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Let you Proxy explain</name>
       <value>forest/kiana_explain_proxy</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -30,6 +27,6 @@ You feel big wave of confusion raised from [proxy]. Demon? You feels confused to
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -4,11 +4,11 @@
 
 -Sir, our time is almost up. The body is in terrible condition and vital signs are beginning to fade!
 
--It&apos;s a shame that I wasn&apos;t able to save this person. Now we have no other choice. Prepare the project now! Hopefully it will work.
+-Shame that I wasn&apos;t able to save this person. We have no choice. Prepare the project now! Hopefully it will work.
 
 -Sir, the head has been damaged as well. Are you sure it&apos;s wise to proceed. There might be complications.
 
--Yes. It&apos;s our fault after all. If only we could do something else... But we have no choice. Now, begin!
+-Yes. We are responsible after all. If only we could do something else... But we have no choice. Now, begin!
 
 </descr>
   <conditions>1</conditions>
@@ -17,12 +17,10 @@
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>intro/start_2</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Skip Intro</name>
       <value>end_of_walking</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -30,5 +28,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

@@ -2,7 +2,7 @@
   <name>city/brothel/brothel_fuck_contract</name>
   <descr>Neferi calls [proxy] to her room to speak to [himher] in private. 
 
-- I see that the clients are pleased enough with your skills. I decided to offer you a permanent position of regular part-time worker.
+- I see that the clients are pleased enough with your skills. I decided to offer you a permanent position as regular part-time worker.
 
 (Now, &lt;%activePartner.getName();%&gt; can work as a prostitute in brothel. You can choose this task from the task list in the management screen.)
 
@@ -24,5 +24,6 @@ SetPerFlag(&quot;brothel_fuck_contract&quot;, 1);
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/research_wing1</name>
-  <descr>There are many doors in this corridor, all are closed. [Proxy] doesn&apos;t see anything interesting here. Yet.</descr>
+  <descr>There are many doors in this corridor and all of them are closed. [Proxy] doesn&apos;t see anything interesting here. Yet.</descr>
   <conditions>1</conditions>
   <picturePath>city/hospital/research_wing.jpg</picturePath>
   <choices>
@@ -46,6 +46,6 @@
   <priority>1</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

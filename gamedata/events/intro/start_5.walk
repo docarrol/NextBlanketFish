@@ -6,15 +6,15 @@
 
 You almost pass out from shock. What did this mean? Were you a robot? You ask the doctor to explain.
 
-- It&apos;s a little more complicated than it seems. You&apos;re not a robot. The mind within your new body was copied with the highest possible precision. But it wasn&apos;t just a technical process. It was accomplished through the fusion of technology and magic. We call it, Magitech. It makes it possible to not only transfer the mind, but the soul as well. This process has been researched as a part of project &quot;Sarcophagus&quot;. It was developed to aid with the healing of heavy injuries and to prolong life. The project, when ready, can be used to transfer a person into an artificial body. This way the original body can be preserved and healed without rushing, or be used to clone the body in the future.
+- It&apos;s a little more complicated than it seems. You are not a robot. The mind within your new body was copied with the highest possible precision. But it wasn&apos;t just a technical process. It was accomplished through the fusion of technology and magic. We call it, Magitech. It makes it possible to not only transfer the mind, but the soul as well. This process has been researched as a part of project &quot;Sarcophagus&quot;. It was developed to aid with the healing of heavy injuries and to prolong life. The project, when ready, can be used to transfer a person into an artificial body. This way the original body can be preserved and healed without rushing, or be used to clone the body in the future.
 
 - When the project is ready.
 
-- Erm... yes. The project is not yet complete. As you can see, the artificial body is working, but for now, we have not created an energy source that is convenient enough to implement into the body itself. It only contains a small reserve battery. Due to this, you will be chained to a location. Specifically your home...
+- Erm... yes. The project is not yet complete. As you can see, the artificial body is working, but for now, we have not created an energy source that is convenient enough to implement into the body itself. It only contains a small reserve battery. Due to this, your movement will be limited to a single location. Specifically your home...
 
 - So that means...
 
-- Please understand. As I said, the project is incomplete. While we are not a rich company, we have been devoting most of our research to this. However, the project is not moving as quickly as I had hoped... It will take time, but it will be finished. I promise.
+- Please understand. As I said, the project is incomplete. While we are not a rich company, but we have been devoting most of our research to this. However, the project is not moving as quickly as I had hoped... It will take time, but it will be finished. I promise.
 
 </descr>
   <conditions>1</conditions>
@@ -23,7 +23,6 @@ You almost pass out from shock. What did this mean? Were you a robot? You ask th
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>intro/start_6</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -31,5 +30,5 @@ You almost pass out from shock. What did this mean? Were you a robot? You ask th
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

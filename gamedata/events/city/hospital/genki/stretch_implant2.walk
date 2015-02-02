@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/genki/stretch_implant2</name>
+  <descr>As Dr. Genki pushed all content of the syringe inside, he disconnect it, checks [=proxy][belly]  and tell:&#xd;
+&#xd;
+- Now, we need to wait about forty minutes. I will return as solution finished it&apos;s works.&#xd;
+&#xd;
+After time is passed with his returning he says:&#xd;
+&#xd;
+- Right now I need to empty implant and flush what it lasted of the solution. &#xd;
+&#xd;
+He take another tube, this time without syringe and connected it to the cervix port. Implant is empting pretty fast, and after it&apos;s finished, Dr. Genki take another syringe.&#xd;
+&#xd;
+- Okay, it&apos;s just plain saline to clean implant...&#xd;
+&#xd;
+Content of the syringe go inside rather fast not adding anything to proxy comfort, but after it&apos;s finished and then emptied again Dr Genki unbind [proxy] from the bed&apos;s headboard.&#xd;
+&#xd;
+- Procedure is finished. You can dress up now. I think this will add you form fiteen to twenty five percent to the implant volume. Be careful next time that you fill it.&#xd;
+&lt;% vol = self.getStat(&quot;preg_implant.max_volume&quot;);&#xd;
+vol = calc.percent(vol, 14+calc.random(12));&#xd;
+self.addStat(&quot;preg_implant.max_volume&quot;, vol);&#xd;
+self.setStat(&quot;preg_implant.volume&quot;, 0);&#xd;
+RemoveMoney(300);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/genki_imp_flush.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

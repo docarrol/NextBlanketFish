@@ -2,7 +2,7 @@
   <name>sex/penis/anal_disgusted</name>
   <descr>[Proxy] gets down on [her] knees spreading her ass wide open. 
 
-[target] looks at [proxy]&apos;s &lt;%IncludeRange(proxy.getStat(&quot;ass.cleanness&quot;), &quot;asscleanness&quot;);%&gt; asshole and gets disgusted.  [=target][t-HeShe] rushes to the bathroom. When [t-heshe] returns to the room, the erection has fades away and the [target] hasten not interested to continue.
+[target] looks at [proxy]&apos;s &lt;%IncludeRange(proxy.getStat(&quot;ass.cleanness&quot;), &quot;asscleanness&quot;);%&gt; asshole and gets disgusted.  [=target][t-HeShe] rushes to the bathroom. When [t-heshe] returns to the room, [hisher] erection has faded away and the [target] is not interested to continue.
 
 [target] takes [t-hisher] clothes and leaves disgusted without a payment.
 
@@ -27,5 +27,6 @@ EndInteraction();
   <priority>5</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

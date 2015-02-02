@@ -5,7 +5,7 @@
 So [proxy] does not waste any more time. Taking the suction cup [heshe] inserts [hisher] cock inside and secures it with the straps. Now, time to turn it on! As [heshe] flips the power switch, the apparatus comes alive. It begins to hum and [proxy] feels a gentle sucking around [hisher] cock. To [hisher] surprise it&apos;s not very stimulating. But within a few seconds the reason for this becomes clear. The cup begins to vibrate by itself. This IS stimulating! &lt;%Include(&quot;fetish_cafe/cum_donate_low_lust&quot;);%&gt; With so much arousal [heshe] can&apos;t hold out any longer. [HeShe] cums!
 &lt;% res = proxy.doAction(&quot;orgasm&quot;);&quot;&quot;;%&gt;&lt;%
 Include(&quot;fetish_cafe/cum_donate_count&quot;);%&gt;
-[Proxy] looks on the counter. It shows that the payment for the donation will be &lt;%
+[Proxy] looks on the counter. It shows amount that will be paid for the donation: &lt;%
 c = res.get(&quot;penis&quot;, &quot;cum&quot;);
 pay = (Integer) c/10;
 proxy.inventory.addMoney(pay);
@@ -19,7 +19,6 @@ pay;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/interior</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -27,6 +26,6 @@ pay;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/milker_inspection</name>
-  <descr>&lt;%activePartner.getName();%&gt; looks the milking unit over. You see that the device overall doesn&apos;t look that complicated. It&apos;s a mechanical pump attached to a magical engine with a mana crystal sitting on top in a mount. The crystal has the ability to collect and store mana which is then used to power the motor. Just below the mana crystal&apos;s mount is a hole marked &quot;AUX POWER CRYSTAL PORT&quot; that you assume is used to power the motor in emergencies. When [proxy] looks closer at the mana collector crystal, you see that there is a crack in it.
+  <descr>[proxy] looks the milking unit over. You see that overally device doesn&apos;t look that complicated. It&apos;s a mechanical pump attached to a magical engine with mana crystal sitting in a mount on top. The crystal has the ability to collect and store mana which is then used to power the motor. Just below the mana crystal&apos;s mount is a hole marked &quot;AUX POWER CRYSTAL PORT&quot; that you assume is used to power the motor in emergencies. When [proxy] looks closer at the mana collector crystal, you see that there is a crack in it.
 
-When [proxy] tells Belanika that the collector crystal is cracked, the cowgirl sighs sadly when hearing the news. Deciding that the problem is more complex then you thought, you have [proxy] carefully take the mana collector crystal out of its mount on the engine, [proxy] promising Belanika that [heshe] will try and find someone that can fix it.
+When [proxy] tells Belanika that the collector crystal is cracked, the cowgirl sighs sadly when hearing the news. Deciding that the problem is more complex than you thought, you have [proxy] carefully take the mana collector crystal out of its mount on the engine, [proxy] promising Belanika that [heshe] will try and find someone that can fix it.
 
 - Thank you so much [proxy]! I really appreciate you doing this. The mage in the city might know what to do.
 
@@ -27,12 +27,10 @@ res;
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Give Crystal</name>
       <value>farms/has_power_crystal</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -40,5 +38,5 @@ res;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

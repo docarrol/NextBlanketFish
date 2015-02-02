@@ -2,10 +2,10 @@
   <name>city/hospital/todd/upgrade_fertility_display</name>
   <descr>[Proxy] asks Todd about the fertility display module.
 
-- This is probably the least impactful module. The scanner will be able to scan aspects regarding fertility. For example the fertility for humans and other races, might you be interested in it. There will probably be other nich&apos;s to display, but I&apos;m not sure on which.
+- This module probably has the least impact. The scanner will be able to scan aspects regarding fertility. For example the fertility of humans and other races might be of interested to you. There will probably be other details to display, but I&apos;m not sure which.
 Also, I&apos;ll be able to display and modify the domination of every gene after this. It&apos;ll influence the chance this gene will get picked over the other parent&apos;s.
 
-- As this isn&apos;t such a impactful upgrade, all I need is a female or futa. Two scans, before and during her pregnancy.
+- As this isn&apos;t such a big upgrade, all I need is a female or futa. Two scans, before and during her pregnancy.
 
 &lt;% SetFlag(&quot;todd_in_experiment&quot;, 1); &quot;&quot;;%&gt;
 &lt;% SetFlag(&quot;todd_project_fertility_upgrade&quot;, 1); &quot;&quot;;%&gt;
@@ -23,5 +23,6 @@ Also, I&apos;ll be able to display and modify the domination of every gene after
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

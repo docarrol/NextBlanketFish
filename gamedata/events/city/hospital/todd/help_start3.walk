@@ -2,13 +2,13 @@
   <name>city/hospital/todd/help_start3</name>
   <descr>[Proxy] asks Todd what&apos;s next on the list.
 
-- Well, there&apos;s two methods you can help me out with.
+- Well, there are two ways in which you could help me.
 
-Todd explains that he&apos;s capable of applying the modification of the body adapation. This means that the body will be more capable of retaining physical strength over a long period of time. The other option is to continue upgrading the scanner with modules. Once finished, the scanner will also be able to detect the various body parts and their sizes.
+Todd explains that he&apos;s capable of modifying body adapation. This means that the body will be more capable of retaining physical strength over a long period of time. The other option is to continue upgrading the scanner with modules. Once finished, the scanner will also be able to detect the various body parts and their sizes.
 
-Upgrading will unlock more grounds to scan on, which again allows for Todd to have more ways to modify DNA.
+Upgrading will unlock more detailed attributes to scan, which will allow Todd to modify DNA in more ways.
 
-- Tell me with which method you want to help out first.
+- Tell me with which method you want to help out with first.
 
 &lt;% SetFlag(&quot;todd_unlock_helpmethods&quot;, 1); &quot;&quot;;%&gt;
 &lt;% SetFlag(&quot;todd_started_help&quot;, 3); &quot;&quot;;%&gt;
@@ -24,6 +24,6 @@ SetTextFlag(&quot;todd_current_proxy&quot;, cuid);&quot;&quot;;%&gt;
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

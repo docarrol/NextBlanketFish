@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>kt_village/main_street</name>
-  <descr>This is a magically hidden settlement near the forest. There mostly Kau Tangata living here, but some other persons can be seen here too. Bigger part of the village can be seen openly from the road. Most houses in the center have very simple construction, almost primitive. The main road goes through this part. A smaller part of the village is hidden in the forest foliage. And some more advanced farm-like single buildings can be seen around here and there too. &#xd;
+  <descr>This is a magically hidden settlement near the forest. There are mostly Kau Tangata living here, but other races can be seen here too. Larger part of the village can be seen openly from the road. Most houses in the center have very simple construction, almost primitive. The main road goes through this part. A smaller part of the village is hidden in the forest foliage. And some more advanced farm-like buildings can be seen around here and there. &#xd;
 &#xd;
 You can get to the keystone shrine from here.&#xd;
 &#xd;
@@ -30,5 +30,6 @@ You can get to the keystone shrine from here.&#xd;
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

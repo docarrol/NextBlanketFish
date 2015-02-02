@@ -14,6 +14,7 @@ player.inventory.addMoney(pay);&#xd;
 res = self.getName()+&quot; worked in the club as a singer. The payment was transferred to your account (&quot; + pay +&quot; coins).&quot;;&#xd;
 self.addStat(&quot;generic.tiredness&quot;, 10);&#xd;
 MoveWorkerToReturnList(self, 5);&#xd;
+task_image=&quot;city/hotlips/singer_rock.jpg&quot;;&#xd;
 }&#xd;
 if(isTaskFirstHour() &amp;&amp; (clock.isMorning() || clock.isDay()))&#xd;
 {&#xd;

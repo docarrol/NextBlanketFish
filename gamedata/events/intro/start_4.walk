@@ -2,7 +2,7 @@
   <name>intro/start_4</name>
   <descr>Your vision slowly comes back to you. 
 
-You&apos;re in a strange room with weird-looking scientific equipment you cannot recognize. The bed you&apos;re lying on looks more like an operating table. As you look to one side, you see there is a man in a white robe sitting on a chair nearby. When he notices you are wake, he rises and walks over to you.
+You are in a strange room with weird-looking scientific equipment you can&apos;t recognize. The bed you&apos;re lying on looks more like an operating table. As you look to one side, you see there is a man in a white robe sitting on a chair nearby. When he notices you are wake, he rises and walks over to you.
 
 - Hello. I know you&apos;re disoriented, but please try to remain calm, we need to talk.
 
@@ -12,7 +12,7 @@ The man looks worried and you begin to panic.
 
 The man bows his head with a soft sigh.
 
-- Quiet severely. In fact, we couldn&apos;t save your body. I&apos;m so very sorry.
+- Quite severely. In fact, we couldn&apos;t save your body. I&apos;m so very sorry.
 
 Confused, you begin to wonder what this means...
 
@@ -23,7 +23,6 @@ Confused, you begin to wonder what this means...
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>intro/start_5</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -31,5 +30,5 @@ Confused, you begin to wonder what this means...
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

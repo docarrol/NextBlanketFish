@@ -1,9 +1,9 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/offer_1_yes</name>
-  <descr>- I&apos;m glad that you interested. Now, let me explain what you can do. First type of the special demand from clients - a sex or striptease from the pregnant girl. This fetish actually pretty common. They liked to see or feel gravid girl or futanari forms... And the more the better. &#xd;
+  <descr>- I&apos;m glad that you&apos;re interested. Now, let me explain what you are to do. First type of the special demand from clients - a sex or striptease from a pregnant girl. This fetish is actually pretty common. They like to see or feel gravid girl or futanari forms... the bigger the better. &#xd;
 &lt;%Include(&quot;brothel/preg_offer_talk&quot;);%&gt;&#xd;
 &#xd;
-- There is also another fetish we specialize in... *She cups her breasts to emphasize* It&apos;s huge boobies... REALLY HUGE ones. There is a starting limit to participate in the special show though. I&apos;ll give you more details if you&apos;re interested.&#xd;
+- There is also another fetish we specialize in... *She cups her breasts to emphasize* It&apos;s huge boobies... REALLY HUGE ones. There is a minimum size prerequisite to participate in the special show though. I&apos;ll give you more details if you&apos;re interested.&#xd;
 &lt;% &#xd;
 SetPerFlag(&quot;neferi_preg_offer&quot;, 1);&#xd;
 SetPerFlag(&quot;neferi_oppai_offer&quot;, 1);&#xd;
@@ -22,5 +22,6 @@ DisplayChar(&quot;char/neferi.png&quot;);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/child/daria_bless</name>
-  <descr>You call Daria to bless [proxy] with fast growth.
+  <descr>You call on Daria to bless [proxy] with fast growth.
 
 Daria materializes in a soft glow and gives [himher] a light kiss on the forehead.
 
@@ -15,7 +15,6 @@ proxy.loadEffect(&quot;generic.sex&quot;, &quot;daria_bless&quot;);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>system_events/end_of_walking</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -23,6 +22,6 @@ proxy.loadEffect(&quot;generic.sex&quot;, &quot;daria_bless&quot;);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

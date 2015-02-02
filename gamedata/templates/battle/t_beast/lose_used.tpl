@@ -1,8 +1,8 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>status.isPregnant(proxy) == false &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;) &amp;&amp; proxy.hasOrgan(&quot;vagina&quot;);</conditions>
-  <text>[=target]Beast shot [t-hisher] tentacles to the hands and feet of the [proxy], and take [her] in the air. It definitely know what to do, as [t-hisher] tentacles remove all pieces of clothes that cover the access to the [proxy] privates, and one of the tentacles spray something at [proxy] [vagina]. Very quickly [she] begin to feels intense arousal. And right after this beast forced another tentacle inside! It takes a little time with dozens frictions and [proxy] got on verge of orgasm. Beast feels it, and push [t-hisher] tentacle to the [proxy] cervix. As [she] cumming, tentacle is cumming too! All semen of the beast forced directly in the [proxy] womb and [she] feels as [her] belly swelling.&#xd;
+  <text>[=target]Beast wraps [t-hisher] tentacles around the hands and feet of the [proxy], and lifts [her] in the air. It obviously knows what to do, as [t-hisher] tentacles remove all pieces of clothes that cover the access to the [proxy] privates, and one of the tentacles sprays something at [proxy]&apos;s [vagina]. Soon after [she] begins to feel intense arousal. When the beast sees [she] is ready it forces another tentacle inside! It it doesn&apos;t take long with multiple tentacles stimulating [her] before [proxy] starts to approach climax. Beast feels it, and pushes [t-hisher] tentacle through the [proxy]&apos;s cervix. As [she] is cumming, tentacle is cumming too! All semen from the beast is forced directly into the [proxy]&apos;s womb and [she] feels [her] belly swelling.&#xd;
 &#xd;
-Strange, but [proxy] still not lost consciousness, actually [she] begins to feel a little better now...&#xd;
+Strangely, [proxy] did not lose consciousness, actually [she] is starting to feel a little better now...&#xd;
 &lt;%proxy.addStat(&quot;generic.arousal&quot;, 80);&#xd;
 pact = proxy.doAction(&quot;orgasm&quot;); &quot;&quot;;%&gt;&#xd;
 &lt;%MoodShame(70); &quot;&quot;;%&gt;&#xd;
@@ -24,7 +24,6 @@ proxy.updateEffect(&quot;generic.regen_rate&quot;, &quot;t_beast_semen&quot;, 2,
     <fetishmaster.engine.WalkChoice>
       <name>Collect semen</name>
       <value>battle/t_beast/semen_from_vagina</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <overrideChoices>false</overrideChoices>

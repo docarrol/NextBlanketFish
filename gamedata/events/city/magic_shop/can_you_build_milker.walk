@@ -2,11 +2,11 @@
   <name>city/magic_shop/can_you_build_milker</name>
   <descr>[Proxy] describes the milker that Belanika has, and asks if Christian can build a similar one.
 
-- Hm, that is definitely an interesting task. Maybe I can, but this will be costly. The Power Crystal alone is a very complex and pricey component...
+- Hm, that is definitely an interesting task. Maybe I can, but it will be costly. Power Crystal alone is a very complex and pricey component...
 
-[Proxy] explains that the milker does not need to be portable and can use the regular electric lines in a house.
+[Proxy] explains that the milker does not need to be portable and can use regular electric lines in a house.
 
-- That's easier. But I still need many materials... They are not rare, though, I do need to find and buy them. There is some work too... So... Final price will be 1000 coins. Half of it is needed before I can begin so that I may buy the needed materials. Is this acceptable to you?
+- That&apos;s easier. But I still need many materials... Though they are not rare I do need to find and buy them. There is also time spent building it... So... Final price will be 1000 coins. I need half of it up front for the materials. Is this acceptable for you?
 
 </descr>
   <conditions>GetFlag(&quot;belanika_quest&quot;) &gt;= 1 &amp;&amp; PerGetFlag(&quot;milker_build&quot;) &lt; 1 &amp;&amp; GetFlag(&quot;setup_milking_room&quot;) &lt; 1;</conditions>
@@ -15,12 +15,10 @@
     <fetishmaster.engine.WalkChoice>
       <name>Yes</name>
       <value>city/magic_shop/order_milker</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>No</name>
       <value>city/magic_street</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -28,6 +26,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

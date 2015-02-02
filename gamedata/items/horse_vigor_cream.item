@@ -5,14 +5,14 @@
   <useScript>res = self.getName()+ &quot; takes the special cream&quot;;&#xd;
 if (self.hasOrgan(&quot;penis&quot;))&#xd;
 {&#xd;
-res += &quot; and rubs it all over her cock, which grows warm as cock meat pours out, leaveing her in a slight daze, thinking about taking her bigger appendage for a test drive...&quot;;&#xd;
+res += &quot; and rubs it all over &quot;+self.HisHer()+&quot; cock, which grows warm as cock meat pours out, leaving &quot;+self.HimHer()+&quot; in a slight daze, thinking about taking &quot;+self.HisHer()+&quot; enlarged appendage for a test drive...&quot;;&#xd;
 self.addStat(&quot;penis.length&quot;, 1.5);&#xd;
 self.addStat(&quot;penis.width&quot;, 1);&#xd;
 self.LustShame(20, 40);&#xd;
 }&#xd;
 else&#xd;
 {&#xd;
-res += &quot; and then shrugs and put it back, it&apos;s not like she can make any use of it really.&quot;;&#xd;
+res += &quot; and then shrugs and put it back, it&apos;s not like &quot;+self.HeShe()+&quot; can make any real use of it.&quot;;&#xd;
 AddItem(&quot;horse_vigor_cream&quot;);&#xd;
 }&#xd;
 res;</useScript>

@@ -7,7 +7,7 @@ b = (gha * ap  * -1) - 5;
 MoodShame(a);
 proxy.addStat(&quot;generic.health&quot;, b);
 proxy.addEffectAR(&quot;ass.painful&quot;, &quot;ass_tear&quot;, 1, -time2);
-&quot;&quot;;%&gt;[proxy] tried to stretch the ass too much and it was rather painful. It will take around a day to heal.</text>
+&quot;&quot;;%&gt;[proxy] stretched [hisher] ass too much and it was rather painful. It will take a day or so for [himher] to recover.</text>
   <priority>0</priority>
   <picturePath></picturePath>
   <choices/>

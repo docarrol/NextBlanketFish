@@ -15,6 +15,7 @@ res = self.getName()+&quot; worked in the club as a stripper. The payment was tr
 self.addStat(&quot;skill.stripper&quot;, 0.1);&#xd;
 self.addStat(&quot;generic.tiredness&quot;, 10);&#xd;
 MoveWorkerToReturnList(self, 5);&#xd;
+task_image=&quot;city/hotlips/stripper_good1.jpg&quot;;&#xd;
 }&#xd;
 if(isTaskFirstHour() &amp;&amp; (clock.isMorning() || clock.isDay()))&#xd;
 {&#xd;

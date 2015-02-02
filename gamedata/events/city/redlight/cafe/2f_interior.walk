@@ -1,13 +1,12 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/2f_interior</name>
-  <descr>This is the second, lower floor of the restaurant. This room has decorations that give it a medieval feel. Clients here not only can spend time at the tables with delicious dishes, but can also have any waitress for a dessert. Special requests are also taken here or in the private rooms next to the hall.</descr>
+  <descr>This is the second, lower floor of the restaurant. This room has decorations that give it a medieval feel. Clients here can not only spend time at the tables with delicious dishes, but can also have any waitress for a dessert. Special requests are also taken here or in the private rooms next to the hall.</descr>
   <conditions>GetPerFlag(&quot;cafe_2f_work&quot;) &gt; 0;</conditions>
   <picturePath>city/fcafe/interior_2f.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>return</name>
       <value>city/redlight/cafe/interior</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -15,6 +14,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

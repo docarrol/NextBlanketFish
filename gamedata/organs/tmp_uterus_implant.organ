@@ -1,0 +1,124 @@
+<fetishmaster.bio.organs.ScriptedOrgan>
+  <name>tmp_uterus_implant</name>
+  <hooked class="java.util.Collections$SynchronizedRandomAccessList" resolves-to="java.util.Collections$SynchronizedList" serialization="custom">
+    <java.util.Collections_-SynchronizedCollection>
+      <default>
+        <c class="list"/>
+        <mutex class="java.util.Collections$SynchronizedList" reference="../../.."/>
+      </default>
+    </java.util.Collections_-SynchronizedCollection>
+    <java.util.Collections_-SynchronizedList>
+      <default>
+        <list reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+      </default>
+    </java.util.Collections_-SynchronizedList>
+  </hooked>
+  <actionNames>
+    <string>orgasm</string>
+    <string>ut_implant_recalc</string>
+    <string>ut_implant_grow</string>
+    <string>ut_implant_fill</string>
+    <string>ut_implant_empty</string>
+    <string>ut_implant_emptyall</string>
+    <string>ut_implant_remove</string>
+  </actionNames>
+  <actionScripts>
+    <string>result;</string>
+    <string>// too big?
+if (self.getStat(&quot;preg_implant.volume&quot;) &gt; self.getStat(&quot;preg_implant.max_volume&quot;))
+{
+  self.setStat(&quot;preg_implant.volume&quot;, self.getStat(&quot;preg_implant.max_volume&quot;));
+}
+
+// too small?
+if (self.getStat(&quot;preg_implant.volume&quot;) &lt; 0)
+{
+  self.setStat(&quot;preg_implant.volume&quot;, 0);
+}
+
+// update uterus volume
+self.updateEffect(&quot;uterus.volume&quot;, &quot;preg_implant&quot;, self.getStat(&quot;preg_implant.volume&quot;), 2);
+
+// if some volume is &quot;empty&quot; from postpartum effects...
+if (self.hasEffect(&quot;uterus.volume&quot;, &quot;pregnancy_postpartum&quot;))
+{
+    ppv = self.getEffectValue(&quot;uterus.volume&quot;, &quot;pregnancy_postpartum&quot;);
+    impl = self.getStat(&quot;preg_implant.volume&quot;);
+    if (ppv &gt; impl)
+    {
+      comp = ppv-impl;
+      self.updateEffect(&quot;uterus.volume&quot;, &quot;postpartum_compens&quot;, comp, 2);
+    }
+}
+else if (self.hasEffect(&quot;uterus.volume&quot;, &quot;implant_postpartum&quot;))
+{
+    ppv = self.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_postpartum&quot;);
+    impl = self.getStat(&quot;preg_implant.volume&quot;);
+    if (ppv &gt; impl)
+    {
+      comp = ppv-impl;
+      self.updateEffect(&quot;uterus.volume&quot;, &quot;postpartum_compens&quot;, comp, 2);
+    }
+}
+
+
+self.setStat(&quot;uterus.phase&quot;, 4);
+self.setStat(&quot;uterus.postpartum_time&quot;, 0);
+
+result;
+</string>
+    <string>moist = (self.getStat(&quot;vagina.moist&quot;)+1);
+self.addStat(&quot;preg_implant.volume&quot;, moist/2);
+if (self.hasEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;))
+{
+  cum  = self.getEffectValue(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;) / 5;
+  self.addStat(&quot;preg_implant.volume&quot;, cum);
+  self.updateEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;, cum*4);
+}
+result;</string>
+    <string>self.addStat(&quot;preg_implant.volume&quot;, 300);
+self.doAction(&quot;ut_implant_recalc&quot;);
+
+result;</string>
+    <string>self.subStat(&quot;preg_implant.volume&quot;, 300);
+self.doAction(&quot;ut_implant_recalc&quot;);
+
+result;</string>
+    <string>self.setStat(&quot;preg_implant.volume&quot;, 0);
+self.doAction(&quot;ut_implant_recalc&quot;);
+
+result;</string>
+    <string>//quest flag
+self.setFlag(&quot;installed_preg_implant&quot;, 0);
+
+//adding postpartum effect.
+self.updateEffect(&quot;uterus.volume&quot;, &quot;postpartum_volume&quot;, self.getStat(&quot;preg_implant.volume&quot;)/2);
+self.loadEffect(&quot;uterus.volume&quot;, &quot;genki_implant_postpartum&quot;);
+
+//removing efect from uterus.
+self.setStat(&quot;preg_implant.volume&quot;, 0);
+self.removeEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);
+
+
+//implant type markers removed too.
+self.removeEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant&quot;);
+self.removeEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant_t2&quot;);
+self.removeEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant_t3&quot;);
+self.removeEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant_t4&quot;);
+
+sysprint(&quot;Uterus implant removed.&quot;);
+
+//actually removig this organ.
+self.removeOrgan(&quot;tmp_uterus_implant&quot;);
+
+result;</string>
+  </actionScripts>
+  <nextHourScript>if (self.isRNAactive(&quot;preg_implant.growing&quot;) == true)
+{
+	self.doAction(&quot;ut_implant_grow&quot;);
+	self.setFlag(&quot;installed_preg_implant&quot;, 1);
+}
+self.doAction(&quot;ut_implant_recalc&quot;);
+return false;
+</nextHourScript>
+</fetishmaster.bio.organs.ScriptedOrgan>

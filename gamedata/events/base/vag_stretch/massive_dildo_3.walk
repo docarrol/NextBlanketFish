@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/vag_stretch/massive_dildo_3</name>
-  <descr>[=proxy]Inserting elephant-like dildo in the [vagina] not give [proxy] any troubles at all. [HeShe] can easily stretch [hisher] hole even more. Hour of play passing very fast.
+  <descr>[=proxy]Inserting elephant-like dildo in [hisher] [vagina] doesn&apos;t give [proxy] any trouble at all. [HeShe] can easily stretch [hisher] hole even more. Hour of play passes very fast.
 &lt;%LustShame(15, 45); &quot;&quot;;%&gt;</descr>
   <conditions>proxy.getStat(&quot;vagina.width&quot;) &gt; 30;</conditions>
   <picturePath>base/s_training.jpg</picturePath>
@@ -10,6 +10,6 @@
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

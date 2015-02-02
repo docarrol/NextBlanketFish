@@ -1,0 +1,17 @@
+<fetishmaster.components.StatEffect>
+  <name>filling_breasts_implant</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>csize = self.getStat(&quot;breasts.fill_implant_size&quot;);&#xd;
+iv = geometry.SphereDiameterToMillilites(csize);&#xd;
+&#xd;
+self.updateEffect(&quot;breasts.size&quot;, &quot;breasts_implant&quot;, csize);&#xd;
+self.updateEffect(&quot;breasts.max_lactation&quot;, &quot;breasts_implant&quot;, 0-(iv/15));&#xd;
+self.updateEffect(&quot;breasts.max_volume&quot;, &quot;breasts_implant&quot;, 0-iv);&#xd;
+self.updateEffect(&quot;breasts.weight&quot;, &quot;breasts_implant&quot;, iv);&#xd;
+self.doAction(&quot;breasts_recalc&quot;);</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

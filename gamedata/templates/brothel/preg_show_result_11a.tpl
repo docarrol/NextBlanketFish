@@ -1,6 +1,6 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 11 &amp;&amp; proxy.getStat(&quot;skill.striptease&quot;) &gt; 50;</conditions>
-  <text>[Her] size is enough to look full term pregnant, and with artistic skill [proxy] gets even more benefits from [her] bodies appearance. Dancing with this belly is slightly difficult but [she] manages to excite public with it.&#xd;
+  <text>[Her] size is enough to appear in full term, and with [her] artistic skill [she] makes [her] body even more appealing. Dancing with this belly is somewhat difficult but [she] manages to excite public with it.&#xd;
 &#xd;
 &lt;%Include(&quot;brothel/money_preg_show&quot;);%&gt;</text>
   <priority>4</priority>

@@ -1,11 +1,11 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/todd/mod_gene_domination</name>
-  <descr>[Proxy] asks to Todd what this DNA modification will do.
+  <descr>[Proxy] asks Todd what this DNA modification will do.
 
-- Modifying a gene with this increases the chance it&apos;ll be chosen over the gene of the other parent. To use an example, lets say parent A and B have a child together. A has green hair while B has brown. Increasing the domination of A will result in a higher chance of that child having green hair.
+- Modifying a gene with this increases the chance it will be chosen over the gene of the other parent. For example, lets say parent A and B have a child together. A has green hair while B has brown. Increasing the domination of A will result in a higher chance of that child having green hair.
 
 
-- I call the occurance &apos;Domination&apos;. It&apos;s probably the best way to certify specfic genes.
+- I call this &apos;Domination&apos;. It&apos;s probably the best way to pass on specfic genes.
 &lt;% geneName = GetTextFlag(&quot;gene_mod_selection&quot;); gene = proxy.getDNAGene( geneName ); &quot;&quot;;%&gt;
 &lt;% purity = proxy.getDNAGene(&quot;genes.purity&quot;).getValue(); &quot;&quot;;%&gt;
 Gene Purity:	&lt;% purity;%&gt; (Light Impact)
@@ -24,17 +24,14 @@ Selected gene: 	&lt;% Include(&quot;hospital/todd/text_selected_gene&quot;);%&gt
     <fetishmaster.engine.WalkChoice>
       <name>Nevermind</name>
       <value>city/hospital/todd/modifications</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Select Gene</name>
       <value>city/hospital/todd/select_gene</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Preform Modification (3h)</name>
       <value>city/hospital/todd/start_mod_domination</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -42,6 +39,6 @@ Selected gene: 	&lt;% Include(&quot;hospital/todd/text_selected_gene&quot;);%&gt
   <priority>1</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

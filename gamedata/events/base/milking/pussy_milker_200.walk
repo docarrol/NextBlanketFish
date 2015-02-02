@@ -3,7 +3,7 @@
   <descr>&lt;%
 bottnum = Math.floor(self.getStat(&quot;vagina.goo_vol&quot;) / 200);&quot;&quot;;
 %&gt;
-&lt;%self.getName()%&gt; puts her &lt;%IncludeRange(activePartner.getStat(&quot;vagina.vulva_size&quot;), &quot;vulva&quot;);%&gt; vulva in the suction cup and flips the pussy milker on. The rythmic suction soons get the best of her as she orgasms in not time, spurting her white goo in the cup, the milker sucking it in and giving enough for &lt;%bottnum%&gt; little bottles for safekeeping.
+&lt;%self.getName()%&gt; puts her &lt;%IncludeRange(activePartner.getStat(&quot;vagina.vulva_size&quot;), &quot;vulva&quot;);%&gt; vulva in the suction cup and flips the pussy milker on. The rythmic suction soons get the best of her and she orgasms in no time, spurting her white goo in the cup, the milker sucking it in and giving enough for &lt;%bottnum%&gt; little bottles for safekeeping.
 &lt;%
 AddItem(&quot;pussy_cum_bottle&quot;, bottnum);
 self.setStat(&quot;generic.arousal&quot;, 0);
@@ -25,5 +25,6 @@ else
   <priority>2</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

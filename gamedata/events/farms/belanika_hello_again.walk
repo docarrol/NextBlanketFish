@@ -2,7 +2,7 @@
   <name>farms/belanika_hello_again</name>
   <descr>When [proxy] walks into the stall, [heshe] finds Belanika lying back on the pile of hay and kneading at her milk-bloated, leaking breasts. Noticing [proxy] she smiles at [himher].
 
-- Hello [proxy]. I&apos;m glad to see you. Have you been able to get the mana crystal repaired?
+- Hello [proxy]. I&apos;m glad to see you. Have you been able to get mana crystal repaired?
 
 &lt;%Include (&quot;belanika_not_milked&quot;);%&gt;
 
@@ -18,22 +18,18 @@ res;
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Give power crystal</name>
       <value>farms/has_power_crystal</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Repair Milker</name>
       <value>farms/have_repaired_crystal</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Dr.Felis&apos; Request</name>
       <value>farms/belanika_felis_request</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -41,5 +37,5 @@ res;
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

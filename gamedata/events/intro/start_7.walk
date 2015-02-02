@@ -4,13 +4,13 @@
 
 David shows you an earring, with a small crystal attached.
 
-- This is called a &quot;proxy&quot;. It&apos;s a piece of magitech researched by our company to help doctors quickly reach patients living too far away. Whoever is wearing this earring, their body may be controlled from almost anywhere. If worn by someone near a patient or by the patient themselves, the doctor can examine them as if they were there. The proxy translates almost all feelings. The body of the wearer almost feels as if it were your own. Though you can feel, you can&apos;t control the body directly. You can only &quot;tell&quot; your recipient what to do. 
+- This is called a &quot;proxy&quot;. It&apos;s a piece of magitech researched by our company to help doctors quickly reach patients living far away. Whoever is wearing this earring, their body may be controlled from almost anywhere. If worn by someone near a patient or by the patient themselves, the doctor can examine them as if they were there. The proxy translates almost all feelings. The body of the wearer feels almost as if it were your own. Though you can feel, you can&apos;t control the body directly. You can only &quot;tell&quot; your recipient what to do. 
 
-- As you probably figured out, there is one catch. In order to use a proxy, you need a living person to be your host. And if you can&apos;t recall, full slavery is strictly prohibited by law. So the only way to do it legally is by a contract. Be aware, these contractors are fully aware of your actions and experience all of it. So if you abuse them too much, the contract can be cancelled.
+- As you probably figured out, there is one catch. In order to use a proxy, you need a living person to be your host. And if you can&apos;t recall, slavery is strictly prohibited by law. So the only way to do it legally is by a contract. Be aware, these contractors are fully aware of your actions and experience all of it. So if you abuse them too much, the contract can be cancelled.
 
 - Now rest. Normally with your new body you would not need to sleep, but the synchronization process has not finished. Tomorrow you can begin to live as you like, but for now you must rest.
 
-You decide it would be best to obey and drift into sleep. This may be the last time you sleep in a very long time.
+You decide it would be best to listen and you drift into sleep. This may be the last time you sleep.
 
 </descr>
   <conditions>1</conditions>
@@ -19,7 +19,6 @@ You decide it would be best to obey and drift into sleep. This may be the last t
     <fetishmaster.engine.WalkChoice>
       <name>To the home</name>
       <value>end_of_walking</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -27,5 +26,5 @@ You decide it would be best to obey and drift into sleep. This may be the last t
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

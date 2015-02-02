@@ -2,7 +2,7 @@
   <name>city/hospital/todd/mod_body_adapation</name>
   <descr>[Proxy] asks to Todd what this DNA modification will do.
 
-- You see, after exercising intensely for couple of weeks, your body adapts and makes you stronger. The downside is that the effects will not stay and decay if you stop exercising. This modification aims to lower that effect. 
+- You see, after exercising intensely for couple of weeks, your body adapts and makes you stronger. The downside is that the effects will start to decay if you stop exercising. This modification aims to lower that effect. 
 
 &lt;% geneName = GetTextFlag(&quot;gene_mod_selection&quot;); gene = proxy.getDNAGene( geneName ); &quot;&quot;;%&gt;
 &lt;% rangeMult = gene.getBackforceRangeMult(); simplified = rangeMult * 100; &quot;&quot;;%&gt;
@@ -38,5 +38,6 @@ Value:		&lt;% simplified;%&gt; (-5)
   <priority>1</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

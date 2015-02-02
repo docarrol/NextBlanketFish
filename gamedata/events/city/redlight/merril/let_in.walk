@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/merril/let_in</name>
-  <descr>Merril answer the doorbell and let [Proxy] come in.
+  <descr>Merril answers the doorbell and lets [Proxy] come in.
 
 
 &lt;%Include(&quot;char/merril_init&quot;); Include(&quot;char/merril_display&quot;); &quot;&quot;;%&gt;</descr>
@@ -10,32 +10,26 @@
     <fetishmaster.engine.WalkChoice>
       <name>Appearance</name>
       <value>city/redlight/merril/look</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Talk</name>
       <value>city/redlight/merril/talk</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Sex</name>
       <value>city/redlight/merril/sex</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>B-GROW</name>
       <value>city/redlight/merril/B_GROW</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Merril&apos;s Request</name>
       <value>city/redlight/merril/sexperiment</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/redlight_district</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -43,5 +37,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

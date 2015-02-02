@@ -2,7 +2,7 @@
   <name>city/redlight/cafe/waitress_work_futa</name>
   <descr>&lt;%Include(&quot;fetish_cafe/change_to_waitress&quot;);%&gt;
 
-[Proxy] works [hisher] shift and is actually enjoying all of the attention [heshe] gets. As [proxy] is working, at one point [heshe] feels that it can&apos;t be helped. [HisHer] organ becomes more and more hard, beginning to poke through [hisher] uniform. Trying to hide it, [heshe] walks a little strange and one time even almost drops a tray with plates. The manager gives [himher] some strange looks.&lt;%Include(&quot;fetish_cafe/manager_about_futa&quot;);%&gt;
+[Proxy] works [hisher] shift and is actually enjoying all of the attention [heshe] gets. As [proxy] is working, at one point [heshe] feels that it can&apos;t be helped. [HisHer] shaft becomes more and more erect, beginning to poke through [hisher] uniform. Trying to hide it, [heshe] walks a little strange and once almost drops a tray with plates. The manager gives [himher] some strange looks.&lt;%Include(&quot;fetish_cafe/manager_about_futa&quot;);%&gt;
 &lt;%MoodShame(30); 
 proxy.inventory.addMoney(5);
 &quot;&quot;;%&gt;
@@ -13,7 +13,6 @@ proxy.inventory.addMoney(5);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/interior</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -21,6 +20,6 @@ proxy.inventory.addMoney(5);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

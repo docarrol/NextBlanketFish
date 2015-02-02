@@ -2,7 +2,7 @@
   <name>city/brothel/ask_fake_preg</name>
   <descr>[Proxy] asks Neferi how to obtain a pregnant appearance if [she] currently is not ready to have a baby?&#xd;
 &#xd;
-- There are several ways... Though I don&apos;t think that you&apos;re ready for most of them. But there is one way that is pretty easy, though you will need some significant investment. Right behind the city hospital is the old hospital building. That&apos;s where Dr. Genki&apos;s practice is. Since the entire property has been walled off, the only way to reach it now is to go through the research wing in the city hospital. When you do see him, tell him that I sent you to him. If you don&apos;t, he may ask too much money for his help.&#xd;
+- There are several ways... Though I don&apos;t think that you&apos;re ready for most of them. But there is one way that is pretty easy, though you will need some significant investment. Right behind the city hospital is the old hospital building. That&apos;s where Dr. Genki&apos;s practice is. Since the entire property has been walled off, the only way to reach it now is to go through the research wing in the city hospital. When you see him, tell him that I sent you.&#xd;
 &lt;% DisplayChar(&quot;char/neferi.png&quot;);&#xd;
 SetFlag(&quot;genki_implants_know&quot;, 1);&#xd;
 &quot;&quot;;%&gt;&#xd;
@@ -13,7 +13,6 @@ SetFlag(&quot;genki_implants_know&quot;, 1);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/brothel/lounge</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -21,6 +20,6 @@ SetFlag(&quot;genki_implants_know&quot;, 1);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

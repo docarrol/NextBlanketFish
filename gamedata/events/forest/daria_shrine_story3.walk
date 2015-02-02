@@ -1,14 +1,14 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/daria_shrine_story3</name>
-  <descr>- So let me properly present myself to you. I am Daria, guardian spirit and minor goddess of fertile lands.
+  <descr>- So let me properly introduce myself to you. I am Daria, guardian spirit and minor goddess of fertile lands.
 
 Daria shakes her head and looks sad again.
 
-- Though my power is almost non-existent now, as I have no followers. How powerful a being of my type can become is directly proportionate to a cult&apos;s strength. Right now I can&apos;t even maintain an adult form. All I can do is some minor wonders and few rituals. By the way, you don&apos;t need to be presented yourself. Even if I&apos;m almost powerless, I&apos;m still a goddess. I&apos;ve seen YOUR past. 
+- Though my power is almost non-existent now, as I have no followers. How powerful a being of my kind can become is directly proportionate to a faith of my followers. Right now I can&apos;t even maintain an adult form. All I can do is some minor wonders and few rituals. By the way, you don&apos;t need to be presented yourself. Even if I&apos;m almost powerless, I&apos;m still a goddess. I&apos;ve seen YOUR past. 
 
 Daria looks directly [proxy], but you feel as if she&apos;s looking at you personally, through [proxy]&apos;s link with you.
 
-- I think we can be useful to each other. Please hear me out and decide later. 
+- I think we can be useful to each other. Please hear me out. You can decide later. 
 
 She pauses to drink more from her teacup.
 
@@ -19,7 +19,6 @@ She pauses to drink more from her teacup.
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>forest/daria_shrine_story4</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -27,6 +26,6 @@ She pauses to drink more from her teacup.
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

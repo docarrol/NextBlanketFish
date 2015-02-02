@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/ask_neferi_offer</name>
-  <descr>[proxy] explains to Dr. Genki that [she] is working for Neferi and that the brothel head mistress had offered [her] more money if [she] could look pregnant, recommending that [she] comes and asks him about it. After [proxy] finishes, Dr. Genki chuckles with a grin.
+  <descr>[proxy] explains to Dr. Genki that [she] is working for Neferi and that the brothels head mistress had offered [her] more money if [she] could look pregnant, recommending that [she] comes and asks him about it. After [proxy] finishes, Dr. Genki chuckles with a grin.
 
-- This is not a problem at all [proxy]. To achieve the look of pregnancy, I install an implant in your uterus. It is a special sack that can be filled with a saline solution, making it totally safe. How it works is you fill the implant through a port that is hidden in the cervix. You can continue to fill the implant until you attain your desired appearance. There is also the bonus side effect of the implant working as a contraceptive. And if you become tired of the implant and desire to remove it later, come see me and I will do it for free. So if you are still interested, the procedure will cost you one thousand coins and take about five hours. The saline packs will cost fifty coins each.
+- This is no problem [proxy]. To achieve the look of pregnancy, I can install an implant in your uterus. It is a special sack that can be filled with a saline solution, making it completely safe.You can increase its size by filling the implant through a port that is hidden in the cervix. You can continue to fill the implant until you achieve your desired appearance. There is also the bonus side effect of the implant working as a contraceptive. And if you become tired of the implant and desire to remove it later, come see me and I will do it for free. If you are still interested, the procedure will cost you one thousand coins and will take about five hours. The saline packs cost fifty coins each.
 
 &lt;%Include(&quot;hospital/genki/autopreg_ready&quot;);%&gt;
 &lt;%DisplayChar(&quot;char/genki.png&quot;); 
@@ -26,5 +26,6 @@ SetFlag(&quot;genki_implants_know&quot;, 2);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

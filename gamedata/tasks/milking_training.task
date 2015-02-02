@@ -45,6 +45,7 @@ res.append(&quot;Her nipples seems slightly bigger than before, seems the pumpin
 self.addStat(&quot;generic.tiredness&quot;, milk/100);&#xd;
 &#xd;
 LustShame(self, 20, 30);&#xd;
+task_image=&quot;tasks/milking_train.jpg&quot;;&#xd;
 &#xd;
 }&#xd;
 &#xd;

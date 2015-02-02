@@ -2,9 +2,9 @@
   <name>city/hospital/todd/upgrade_appearance_display</name>
   <descr>[Proxy] asks Todd about the body appearance module.
 
-- Actually, this module is pretty easy. Infact I already have a working version of it installed on the scanner, you might&apos;ve noticed that. Anywho, with the modification with the apperances such as the hair and eye colors, I can actually change the DNA itself! This means you can determine how exactly your child will look, if your gene is dominant enough.
+- Actually, this module is pretty easy. In fact I already have a working version of it installed on the scanner, you might&apos;ve noticed that. Anywho, with the modification of the apperance such as hair and eye color, I can actually change the DNA itself! This means you can determine how exactly your child will look, if your gene is dominant enough.
 
-- To achieve this however, I&apos;m going to need a scan of every possible hair and eye colors. This is a lot of work and I&apos;m not going to blame you for not participating in this. If you wish to rather do another upgrade or modification, let me know.
+- However, to achieve this I&apos;m going to need a scan of every possible hair and eye color. This is a lot of work and I&apos;m not going to blame you for not participating in this. If you would rather do another upgrade or modification, let me know.
 
 &lt;% SetFlag(&quot;todd_in_experiment&quot;, 1); &quot;&quot;;%&gt;
 &lt;% SetFlag(&quot;todd_project_appearance_modification&quot;, 1); &quot;&quot;;%&gt;
@@ -15,7 +15,6 @@
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/hospital/todd/walk_in</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -23,6 +22,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

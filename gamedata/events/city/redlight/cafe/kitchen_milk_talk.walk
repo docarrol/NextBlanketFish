@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/kitchen_milk_talk</name>
-  <descr>[Proxy] talks to Chief about [hisher] lactating breasts. &#xd;
+  <descr>[Proxy] tells Chef about [hisher] lactating breasts. &#xd;
 &#xd;
 - I can see. Yes, breast milk is used in some of our recipes, and we have some equipment to extract it here. If you would like to, you can milk yourself in the backroom. We will pay you for every full bottle.&#xd;
 &lt;%MoodShame(30); &#xd;
@@ -14,7 +14,6 @@ SetPerFlag(&quot;fcafe_kitchen_milk&quot;, 2);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/kitchen_interior</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -22,6 +21,6 @@ SetPerFlag(&quot;fcafe_kitchen_milk&quot;, 2);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

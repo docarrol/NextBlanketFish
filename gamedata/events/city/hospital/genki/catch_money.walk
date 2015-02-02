@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/catch_money</name>
-  <descr>[Proxy] tells the doctor that [heshe] is willing to give him any amount of money he wants, as long as he doesn’t call the police. Dr. Genki continues to quietly look at [himher] until finally sighing once more.
+  <descr>[Proxy] tells the doctor that [heshe] is willing to give him any amount of money he wants, as long as he doesn&apos;t call the police. Dr. Genki continues to quietly look at [himher] until finally sighing once more.
 
 - I will forget this incident for one thousand coins.
 
@@ -12,17 +12,14 @@ Both you and [proxy] flinch when hearing the amount of money he wants.
     <fetishmaster.engine.WalkChoice>
       <name>Pay</name>
       <value>city/hospital/genki/pay_fine</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Police</name>
       <value>city/hospital/genki/catch_police</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>I&apos;ll do anything!</name>
       <value>city/hospital/genki/catch_anything</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -30,6 +27,6 @@ Both you and [proxy] flinch when hearing the amount of money he wants.
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

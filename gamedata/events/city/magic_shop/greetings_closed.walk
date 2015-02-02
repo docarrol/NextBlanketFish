@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/magic_shop/greetings_closed</name>
-  <descr>The shop is closed. On the door is a sign: &quot;Open from 12 to 24 only!&quot;</descr>
+  <descr>The shop is closed. On the door is a sign: &quot;Open from 12 to 24!&quot;</descr>
   <conditions>1</conditions>
   <picturePath>city/magic_street.jpg</picturePath>
   <choices/>
@@ -9,5 +9,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>
