@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_enterance_final</name>
+  <descr>[proxy] enters the shop and soon notices Morgan. What does [proxy] want to do this time.</descr>
+  <conditions>GetPerFlag(&quot;sorceress&quot;)==2 &amp;&amp; GetPerFlag(&quot;morgan_eat&quot;)&lt;1 &amp;&amp; GetPerFlag(&quot;morgan_milk&quot;)&lt;1 &amp;&amp; GetPerFlag(&quot;morgan_preg&quot;)&lt;1 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()
+</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk about bathhouse</name>
+      <value>city/sorceress/sorceress_introduce_bathhouse</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk about Tau</name>
+      <value>city/sorceress/sorceress_introduce_tau</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Learn more about magic</name>
+      <value>city/sorceress/sorceress_teach_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about buying spells</name>
+      <value>city/sorceress/sorceress_buyspells</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/restore_bathhouse_4</name>
+  <descr>[proxy] asks Vulpsia how Celine is performing.&#xd;
+&#xd;
+-I think we have the cleanest bathhouse in the country, Celine cleans so fanatically that we might need to replace the tiles in the future because of wear. &#xd;
+&#xd;
+Any problems with the cleaning of people without permission?&#xd;
+&#xd;
+-At the beginning I received a few complains but it seems she starts to learn her lesson. We already starting to see some extra customers coming for a full body cleaning of Celine, great job in finding her. That brings me to the next improvement; let us provide even more service.&#xd;
+People can receive a good cleaning here but they still need to dress and undress themselves. What if we also provide a dress and undress service performed by a maid. Including that service will make the customer really feels like they are royalty. &#xd;
+&#xd;
+Maybe you can find someone in the hospital who is familiar with dressing and undressing people and is looking for a job.&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,7);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==6</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/start_curtain_3</name>
+  <descr>[proxy] passes the curtain and is greeted by not the usual one dwarf but by three. A very fat dwarf sit in the middle of a large couch accompanied by two less than thin female dwarfs.&#xd;
+&#xd;
+-By Odin’s beard are you here to collect my skull.&#xd;
+&#xd;
+[proxy] explains that she is a friend of Thovila and is here to demonstrate Thovila’s latest corset.&#xd;
+&#xd;
+-Thovila, never heard of that name but I only recently arrived in Ironhill. I hail from Frostmountain that is located to the far north. I managed most of the important external affairs there. Great people those Vikings, especially the mead they drink. Best drink ever, few dwarven beers can even get close to it, but the skulls. The Vikings somehow have the idea that you can only drink mead from the skulls of your fallen enemies. Obtaining a few skulls is easy but drinking from it, that brings us to our little game. You have to drink a mead skull without spillage.&#xd;
+&#xd;
+One of the two female dwarfs taps expertly a skull full of mead and hands it to [proxy].&#xd;
+&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;partycurtain&quot;)==2</conditions>
+  <picturePath>kt_village/dwarfs/dwarf3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Drink the skull</name>
+      <value>kt_village/dwarvenparty/eat_curtain_3</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

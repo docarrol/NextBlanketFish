@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/massage_3</name>
+  <descr>[proxy] meets Chun Li in the massage area. Chun Li has realy become musculare. With every move she makes, [proxy] can see her muscles move. &#xd;
+&#xd;
+-Do you want a massage or do you want to do some training?</descr>
+  <conditions>GetFlag(&quot;chunlitrain&quot;)==1 &amp;&amp; (clock.getDays()-GetFlag(&quot;chunlistart&quot;))&gt;=28</conditions>
+  <picturePath>bathhouse/chunlistrong2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Strong massage</name>
+      <value>city/bathhouse/strong_massage</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Train with Chun Li</name>
+      <value>city/bathhouse/proxy_chunlitrain</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

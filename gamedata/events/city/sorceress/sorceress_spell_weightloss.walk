@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_spell_weightloss</name>
+  <descr>This spell is the result of my little adventure with that crazy goddess of your.&#xd;
+&#xd;
+&lt;%&#xd;
+AddItem(&quot;spell_weightloss&quot;);&#xd;
+RemoveMoney(500); &#xd;
+SetPerFlag(&quot;spell_wl&quot;,1);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(500) &amp;&amp; GetPerFlag(&quot;spell_wl&quot;)&lt;1 &amp;&amp; GetPerFlag(&quot;magic_skill&quot;)&gt;=25 &amp;&amp; GetPerFlag(&quot;fat_spell&quot;)==1</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/sorceress/sorceress_enterance_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

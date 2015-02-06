@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/first_bath_elwing_2</name>
+  <descr>[proxy] talks a bit more with Elwing and is then invited to a bath. In the large tree even a small pool of water is present. The water glows blue in the moonlight. [proxy] is soon joined by Elwing and together they take a bath.&#xd;
+&#xd;
+[proxy] offers Elwing to wash her back. While [proxy] is washing Elwing’s back her eyes suddenly starts to glow.&#xd;
+&#xd;
+-I see a woman with a pointy hat in your future, you will meet her after working enough in a place that pays you for selling your body, she will present you with a gift, it will make you a man while also being a woman, come back here after you received this gift and great rewards are in sight.&#xd;
+&#xd;
+The light in her eyes becomes less bright.&#xd;
+&#xd;
+-It is not often that I receive a vision so clear. I have no idea what it means but valuable lessons can be learned from it.&#xd;
+&#xd;
+The rest of the bath happens without any strange events and after the bath, [proxy] is guided to a small room with a bed where [heshe] sleeps to the next morning. The next morning [proxy] meets Elwing.&#xd;
+&#xd;
+-Judging by my vision your task here is not finished yet. If you want to come back to this village, talk to Arwen. She will bring you to the village. For our protection I must ask you to keep wearing your blindfold, I’m sorry for that.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,1);&#xd;
+self.setStat(&quot;generic.tiredness&quot;, 0);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>self.getStat(&quot;generic.sex&quot;)==2 </conditions>
+  <picturePath>elves/queen2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/walk_back</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

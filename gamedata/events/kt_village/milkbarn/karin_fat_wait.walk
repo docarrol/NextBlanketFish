@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/karin_fat_wait</name>
+  <descr>[proxy] tells Karin that they are not going to milk her today. By letting her breasts completely fill up with milk, they are going to increase in volume.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/heavy.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

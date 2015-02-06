@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_small_eat</name>
+  <descr>[proxy] joins Morgan at the table in the kitchen and soon both are eating the first dish prepared by Morgan.&#xd;
+&#xd;
+During the eating of the dish, Morgan starts talking about food but [proxy] soon managed to divert the subject to Magic. If one dish is finished, Morgan has the next dish ready in no time.&#xd;
+&#xd;
+After a couple of dishes [proxy] stomach is full. [heshe] has now a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly. Morgan’s stomach meanwhile is starting to get visible. The food she ate before [proxy] arrived combined with the meal together with [proxy] gives her belly a nice little round shape.&#xd;
+&#xd;
+[proxy] excuses [himher] to Morgan that [heshe] is really full and cannot eat another bite.&#xd;
+&#xd;
+-Now already, we were just getting started. I have so many new recipes I want to try out. Come back soon so we can test some more.&#xd;
+&#xd;
+[proxy] leaves while Morgan starts eating the next dish. Even without [proxy] she continues sampling her new recipes.&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 9000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 3000);&#xd;
+SetPerFlag(&quot;magic_skill&quot;, GetPerFlag(&quot;magic_skill&quot;)+2;&#xd;
+SetPerFlag(&quot;morgan_eat&quot;, GetPerFlag(&quot;morgan_eat&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=3000 &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&lt;6000</conditions>
+  <picturePath>city/sorceres_home/sorceress_eat.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingparttwo</name>
+  <descr>[proxy] walks to the competition table and notices that the contestens this time consist of 4 housewifes. [proxy] walks to the far side of the table and sits on &lt;%activePartner.HisHer();%&gt; designated spot. While waiting &lt;%activePartner.HeShe();%&gt; overhears the conversation &lt;%activePartner.HisHer();%&gt; two neighbours are having.
+
+-I realy hope it is some low calory food. I have already been dieing for 5 months.
+
+The other housewife anwnsers
+
+-I&apos;m sure it will be fine, besides, eating this one time a bit more should not impact your weight that much.
+
+Before the conversation can continue, Vicky walks to the front of the competition table and states
+
+-Welkom to Vicky&apos;s specialities eating competition. For todays match the goal is to eat as many pancakes as possible. To make sure your mouth doesn&apos;t become dry I also included my own special sirup.  For the winner I already prepaired a special reward. The pancakes are prepaired with my own special recepis with the new sirup they are even better than before, I recomend all of you, to taste some later.
+
+After this anouncment, Vicky retreats to the kitchen and the dyiting wife states:
+
+-panecakes with sirup, oh no, I realy should not eat those. Maby one or two are fine but not more.
+
+At that moment Vicky returnes with the plates with pancakes. Once she places on of the plates infront of [proxy] nose &lt;%activePartner.HeShe();%&gt; notices that the pancakers are swiming in the sirup. Eating these pancakes will be though.
+
+After Vicky has placed the last plate she tells.
+
+-You all can begin and don&apos;t worry if your plate runs out, i have many more prepaired all ready to be eaten.
+</descr>
+  <conditions>GetPerFlag(&quot;eating.comp&quot;)&gt;=3</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Wins</name>
+      <value>muffin_top/eatingparttwo_win</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lose</name>
+      <value>muffin_top/eatingparttwo_lose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

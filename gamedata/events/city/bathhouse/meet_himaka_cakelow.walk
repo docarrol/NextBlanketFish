@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_cakelow</name>
+  <descr>[proxy] asks if Himanka ever ate cake.&#xd;
+&#xd;
+-Only once a really long time ago, an uncle gave me a piece of cake during my 5th birthday. Once my mother discovered he gave me cake he was never allowed to visit me again.&#xd;
+&#xd;
+Himanka looks a bit sad. I know what can cheer you up, let’s eat some cake now.&#xd;
+&#xd;
+[proxy] notices a decent size cake on one of the nearby tables and caries it to their own table. &lt;%activePartner.HeShe();%&gt; then puts the cake between them and starts eating the cake over some small talk.&#xd;
+&#xd;
+Time goes by quickly and before they know it, [proxy] and Himanka ate the entire cake. Once Himanka&apos;s spoon cannot longer be filled by cake she roughly awakes from here eating trance.&#xd;
+&#xd;
+-What, we ate the entire cake. Oh no, I only wanted to eat a single piece. Well what happened cannot be changed. I really need to go now.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 12000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 4000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+12));&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/himanka2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_5_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

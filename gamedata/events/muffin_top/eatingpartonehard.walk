@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartonehard</name>
+  <descr>The moment Vicky starts the match [proxy] attacks the stack of pancakes with a speed if &lt;%activePartner.HeShe();%&gt; did not have anything to eat for the last weeks. The other competitors might be some kids, but this does not stop [proxy] for competing for 100%. Before the kid next to [proxy] has taken the first pancake of his stack, [proxy] starts already eating the second one. 
+The 5 minutes feel like hours for [proxy] while &lt;%activePartner.HeShe();%&gt; shoves pancake after pancake in &lt;%activePartner.HisHer();%&gt; mouth. During this process [proxy] nearly chokes a couple of times, but that can&apos;t spoil the fun.
+
+&lt;% 
+self.addStat(&quot;generic.calories&quot;, 5000);
+self.addStat(&quot;abdomen.food&quot;, 2500);
+AddItem(&quot;pancake&quot;, 10);
+SetPerFlag(&quot;eating.comp&quot;, 2);
+&quot;&quot;;%&gt;
+Finally the bell rings, tired but fulfilled [proxy] shoves her seat back a bit to give &lt;%activePartner.HimHer();%&gt; now visible stomach some extra space. Now that the contest has ended, [proxy] takes the time to measure &lt;%activePartner.HisHer();%&gt; the damage done to &lt;%activePartner.HisHer();%&gt; stomach. &lt;%Include(&quot;muffin_top/stom_cont&quot;);%&gt;
+
+The pancakes eaten by the contesters are counted and [proxy] ate a whopping 25 during these 5 minutes. This is nearly 3 times more than the kid that got second place with 9. Vicky congratulates [proxy] with her landslide win and hands over the price of 10 pancakes.
+
+Sometime later Vicky approaches [proxy].
+
+-The contest was a huge success, I sold more pancakes today than normally in a week. I am going to host a next contest soon, I hope you would also like to join then, what I have seen today is that you have a talent for this.</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=2500</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

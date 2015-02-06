@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/strong_massage</name>
+  <descr>[proxy] lays down on the massaging table and let Chun Li do her magic. Chun Li extremely powerful hands massage and stretch every muscle in [proxy] body. The forces she uses are so high that the massaging table makes some cracking sounds. If Chun Li’s strength increases even more, [proxy] might needs to reinforce that massaging tables, although [heshe] is not sure if massaging with even more force is possible without some damage to the receiver.&#xd;
+&#xd;
+When the massage is finished [proxy] does not feel relaxed at all. The massage on the other hand did make [proxy] muscles a bit stronger and more flexible.&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.str&quot;, 1);&#xd;
+self.addStat(&quot;generic.end&quot;, 0.3);&#xd;
+self.addStat(&quot;generic.dex&quot;, 1.5);&#xd;
+self.addStat(&quot;generic.cha&quot;, 0.01);&#xd;
+self.addStat(&quot;generic.tiredness&quot;, 15);&#xd;
+self.subStat(&quot;generic.mood&quot;, 10);&#xd;
+self.subStat(&quot;generic.calories&quot;, 200);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/chunlistrong2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

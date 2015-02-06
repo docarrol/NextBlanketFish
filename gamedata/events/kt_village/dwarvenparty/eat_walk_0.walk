@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_walk_0</name>
+  <descr>During the walk to the next curtain [proxy] stomach feels empty. [heshe] actually feels a very hungry although [proxy] doubts that [hisher] &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly empty for long. </descr>
+  <conditions>GetPerFlag(&quot;dwarfparty_eat&quot;)&lt;1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/start_curtain</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

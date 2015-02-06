@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_8_final_lose</name>
+  <descr>[proxy] wakes up in a bed in Thovila’s house. Next to the bed Thovila and Christian are present.&#xd;
+&#xd;
+-I warned you to only use the compression once, something must have happened that forced you to use it more. Luckily the corset I made is of high quality and Christians magic circuits had a large safety margin. It managed to compress all the food, although I recommend not trying this again. I’m not sure if the circuits would last another time.&#xd;
+&#xd;
+Christian then starts talking.&#xd;
+&#xd;
+-The compressed food kept it original weight. Because you ate so much food, the weight of the food was hurting your other organs. I managed to add an one time addition to the magic circuits that reduce the weight of the food. Your stomach should have a weight now if it was filled with food or a normal density.&#xd;
+&#xd;
+-[proxy] has now experienced a dwarven party to its fullest, I hope the effect of all that food on your waist is not to extreme. I recommend plenty of exercise of keep your weight a bit in check and try it again once you digested all the food.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;,0);&#xd;
+SetPerFlag(&quot;partycurtain&quot;,0);&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;,(self.getStat(&quot;generic.calories&quot;)/200), 168);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/Blacksmith.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>24</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

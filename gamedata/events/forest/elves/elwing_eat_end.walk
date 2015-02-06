@@ -1,0 +1,43 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_eat_end</name>
+  <descr>[proxy] asks Elwing if [heshe] can have some more of her cum.&#xd;
+&#xd;
+-Are you sure, walking around with my equipment is more trouble than its worth. Trying climbing a stairs while having to spread your legs wide. Well, I have enough cum stored for you and if you don’t mind walking awkwardly, just don’t complain later that I did not warn you.&#xd;
+&#xd;
+Elwing grabs her massive dick with both hands and lifts it from her leg. She then starts stocking it with [proxy] help. Slowly Elwing’s dick starts to get hard but the size nearly stays the same. Elwing notices [proxy] confusion about the lack of growths.&#xd;
+&#xd;
+-My dick has evolved to handle its size compared to my body. If it was operating the same as a normal sized dick, I probably would go unconscious even before it became full size from lack of blood. &#xd;
+&#xd;
+After a few more strokes Elwing’s penis is stiff. No hard and in full view, [proxy] can really see how large it is. It is so long that it comes to the top of Elwings head with the same thickness of her upper legs. [proxy] has to pull Elwing’s dick even down a bit to reach to top of the penis head. This while Elwing is sitting on her special chair and [proxy] is standing. [proxy] keeps stroking the totem pole and licking Elwing’s huge penis head till Elwing screams stop.&#xd;
+&#xd;
+-I’m on the edge now, this way I can provide you with cum without covering the entire room. Get ready for your meal.&#xd;
+&lt;% &#xd;
+cum=(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&#xd;
+self.addStat(&quot;pouch.max_volume&quot;, cum/40);&#xd;
+self. addStat(&quot;balls.size&quot;, cum/4000);&#xd;
+self. addStat(&quot;balls.prod_rate&quot;, cum/2000);&#xd;
+self. addStat(&quot;penis.length&quot;, cum/4000);&#xd;
+self. addStat(&quot;penis.width&quot;, cum/8000);&#xd;
+self.addStat(&quot;generic.calories&quot;, cum*2);&#xd;
+self.addStat(&quot;abdomen.food&quot;, cum);&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+&quot;&quot;;%&gt;&#xd;
+[proxy] tries to cover Elwing urethra but it is simply too big to cover with [proxy] mouth. The first blob of cum travels through Elwing’s dick to the exit. The bulge traveling through her penis is visible from the outside. [proxy] mouth is instantly filled with cum when the first load reaches [hisher] mouth. Opening [hisher] throath and let as much cum inside unhindered is the best approach. Even while doing this, most of the cum ejected by Elwing covers the front of [proxy] body. At [proxy] and Elwing’s feet a rapid expanding puddle of cum is forming. While only part of Elwing’s cum is entering [proxy] stomach, it is still rapidly filling up. Once [proxy] is full [heshe] removes [hisher] mouth and tells Elwing she can stop. Elwing needs a few moments to close the flood gates again and soon only small spurts of cum leave her dick.&#xd;
+&#xd;
+[proxy] thanks Elwing for the meal and start helping the other servants cleaning up the mess they created. The usefulness of [proxy] helping is hindered by her now &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen14.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_breeder_dick_9</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

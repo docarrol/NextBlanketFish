@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/olivia_third</name>
+  <descr>[proxy] walks to Olivia who is training again behind the building. When Olivia notices [proxy] she stops swinging here axe.&#xd;
+&#xd;
+-Welkom back, did you find a solution?&#xd;
+&#xd;
+[proxy] explains Olivia that Felis has found an alternative, Felis might can perform the research with Olivia&apos;s breast milk. [proxy] then shows Olivia the containers &lt;%activePartner.HeShe();%&gt; received from Felis.&#xd;
+&#xd;
+-What, you expect me to milk myself in those containers. I’m not one of those cows seen prancing around trough the village, with their breast out for everyone to see. No, I might be a disgrace to the Tau but I’m still a proud warrior. If you need to have your containers filled, go to the village and throw some coins to those wenches.&#xd;
+&#xd;
+Hmmm, this is going to be harder than [proxy] taught. Maybe Felis has an idea since this is not going to work.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;olivia&quot;,4); &#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;olivia&quot;)==3;</conditions>
+  <picturePath>char/olivia.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_pizzalow</name>
+  <descr>[proxy] asks Himanka if she ever ate pizza?&#xd;
+&#xd;
+-Pizza is that not food from Italy, with cheese and meat on it. My mother never allowed me to eat meat so I never ate pizza.&#xd;
+&#xd;
+[proxy] explains that pizza can have a lot of different types of toppings not only cheese and meat, although those are two common ingredients. Maybe Himanka should have a taste for herself.&#xd;
+&#xd;
+-Oke but I’m not going to eat the meat. Mother told me meat is poisonous and disgusting.&#xd;
+&#xd;
+[proxy] is not surprised as &lt;%activePartner.HeShe();%&gt; notices a nearby table with a stack of boxes containing pizza&apos;s. Edesia seems to have some remarkable skills providing food.&#xd;
+&#xd;
+A moment later both [proxy] and Himanka have a bit greasy pizza salami in front of them and start eating. Himanka eats very slowly to avoid any meat; it seems she is even scared to touch the meat to remove it from the pizza. &#xd;
+Even with the carful eating she managed to get a small piece of meat in her mouth. She is not sure what to do with it; [proxy] seems to eat the meat just fine. She decides to take the risk and swallows it. The meat actually tastes really good; it might be not as bad as her mother told her. She then continues with her pizza eating also the meat.&#xd;
+When both finish their pizza they decide to try some other types of pizza.  &#xd;
+&#xd;
+Sometime later, Himanka leaves fulfilled with a visible stomach even with all her fat.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 24000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 6000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+24));&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/himanka3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_5_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

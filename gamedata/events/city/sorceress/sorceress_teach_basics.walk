@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_teach_basics</name>
+  <descr>[proxy] drops down to [hisher] knees and starts licking Morgan’s pussy. [proxy] feels Morgan’s pussy getting wetter over time. At some point, Morgan grabes [proxy] head to direct where [heshe] is licking. &#xd;
+[proxy] uses [hisher] hands to pleasure other parts of Morgan’s body and soon Morgan orgasms.  During the orgasm, Morgan nearly pushes [proxy] head trough her body. After the orgasm ends, the grip of Morgan on [proxy] head reduces and [proxy] can breathe again.&#xd;
+&#xd;
+-After serving me so well I think you deserve a reward.&#xd;
+&#xd;
+The next couple of minutes Morgan spends explaining some basic stuff about magic and then tells [proxy] to leave.&#xd;
+&#xd;
+-If you want to learn more, come back later. My pussy is satisfied for the moment, but I’m sure it will require more attention at a later time.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;magic_skill&quot;, GetPerFlag(&quot;magic_skill&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/sorceres_home/sorceress_home.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

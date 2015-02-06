@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/olivia_fourth</name>
+  <descr>[proxy] approaches Olivia and tell her about the solution provided by Felis.
+
+-You want to drink my milk? I need to think about that, I have not been milked for a long time.
+
+Olivia thinks for a bit.
+
+-Fine, because you are one of the only people who treat me normal, but before I let you drink my milk I would like something from you. I heard from Kiana about some delicious éclairs from a cafe she sometimes visits. I want 10 of them.
+
+
+&lt;%
+SetPerFlag(&quot;olivia&quot;,6); 
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;olivia&quot;)==5;</conditions>
+  <picturePath>char/olivia.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/olivia_house</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

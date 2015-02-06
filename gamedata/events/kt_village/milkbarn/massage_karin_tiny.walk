@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/massage_karin_tiny</name>
+  <descr>[proxy] tells Karin that they should focus on massaging each other’s breasts again. Soon Karin is expertly massaging [proxy] breasts while [proxy] does [hisher] best massaging Karin’s breasts.&#xd;
+&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/recieve_massage&quot;);%&gt;&#xd;
+&#xd;
+After the massage, Karin’s breasts should produce milk a bit more rapidly. The milk that was stored in the massaged breast is now mainly on the floor. Karin tells [proxy] to not worry and immediately starts cleaning it. &#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)+2));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/tiny_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

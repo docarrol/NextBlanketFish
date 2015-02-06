@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/provided_cream</name>
+  <descr>Vicky tells the [proxy] that she received the first shipments of cream already.&#xd;
+&#xd;
+-The new cream éclairs are a huge success!&#xd;
+&#xd;
+She then goes on:&#xd;
+&#xd;
+-Now that business is running I want to expand. Everyone should know how delicious my food is. Do you have any ideas on how I can promote my place even more?&#xd;
+&#xd;
+[proxy] thinks for a bit and just want to tell Vicky [hisher] idea when Vicky screams.&#xd;
+&#xd;
+-I know, I am going to host an eating contest. People from all over town will come and see who can eat the most of my food. Since your helped me so much, I will reserve a spot for you for the contest.&#xd;
+&#xd;
+Before [proxy] can answer, Vicky runs off.&#xd;
+&#xd;
+&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;&#xd;
+&#xd;
+&lt;%&#xd;
+SetFlag(&quot;eating.comp&quot;, 1);&#xd;
+SetFlag(&quot;muffin_top_next_stage&quot;, clock.getDays()+7);&#xd;
+SetPerFlag(&quot;muffin_top_quest&quot;,7);&#xd;
+vicky.addStat(&quot;generic.calories&quot;, 20000);&#xd;
+vicky.addStat(&quot;abdomen.food&quot;, 10);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;muffin_top_quest&quot;) == 6;</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

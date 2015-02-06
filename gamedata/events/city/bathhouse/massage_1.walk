@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/massage_1</name>
+  <descr>[proxy] meets Chun Li in the massage area.&#xd;
+&#xd;
+-Do you want a massage?</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==15 &amp;&amp; GetFlag(&quot;chunlitrain&quot;)&lt;1</conditions>
+  <picturePath>bathhouse/chunli2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Normal massage</name>
+      <value>city/bathhouse/normal_massage</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about training</name>
+      <value>city/bathhouse/chunli_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

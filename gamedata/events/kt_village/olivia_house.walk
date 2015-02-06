@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/olivia_house</name>
+  <descr>Based on Kiana´s explanation, [proxy] finds a small path leading trough the forest. After some time &lt;%activePartner.HeShe();%&gt; arrives at Olivia&apos;s house. [proxy] hears some noise coming from behind the house.</descr>
+  <conditions>GetPerFlag(&quot;village_friend&quot;)==1;</conditions>
+  <picturePath>kt_village/olivia_house.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Investigate noise</name>
+      <value>kt_village/olivia_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Follow noise</name>
+      <value>kt_village/olivia_second</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meet Olivia</name>
+      <value>kt_village/olivia_third</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Tell Olivia alternative</name>
+      <value>kt_village/olivia_fourth</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Drink more milk</name>
+      <value>kt_village/olivia_drink_moremilk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Drink milk</name>
+      <value>kt_village/olivia_drink_milk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

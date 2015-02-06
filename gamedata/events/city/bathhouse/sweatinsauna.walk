@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/sweatinsauna</name>
+  <descr>[proxy] enters the sauna and is directly sweating because of the high temperature. To burn those traces of the large meals present on [hisher] waist, [heshe] decides to throw some extra water on the hot coals. &#xd;
+Soon the entire sauna is filled by a dense moister and [proxy] feels even hotter than before. &#xd;
+&#xd;
+After a very uncomfortable time, [proxy] leaves to hot sauna out of fear of passing out.&#xd;
+&#xd;
+&lt;% &#xd;
+activePartner.addStat(&quot;generic.tiredness&quot;, 15);&#xd;
+activePartner.subStat(&quot;generic.mood&quot;, 10); &#xd;
+proxy.subStat(&quot;generic.calories&quot;, 500);&#xd;
+&quot;&quot;; %&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/sauna.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/sauna</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

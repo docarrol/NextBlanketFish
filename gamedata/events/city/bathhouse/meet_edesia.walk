@@ -1,0 +1,55 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_edesia</name>
+  <descr>After[proxy] walks in, the doors close behind &lt;%activePartner.HisHer();%&gt; with a loud bang. The shrine looks a lot larger on the inside when [proxy] approached the doors. In a dark corner of the shrine on some pillows [proxy] notices a sleeping figure.&#xd;
+&#xd;
+Hallo?&#xd;
+&#xd;
+The figure roughly wakes up and looks around for a bit. [proxy] watches as how the figure stands up and walks to a chair situated in the center of the shrine. She does not seem to be human; she looks more foxlike than any fox girl you met before. The bra she is wearing is nearly transparent and does not leave much to the imagination. Her crotch is barley covert by some cloth.&#xd;
+&#xd;
+Ignoring [proxy] she sit down and looks around.&#xd;
+&#xd;
+-What are you doing here and where are my servants. I demand you get the head priestess immediately.&#xd;
+&#xd;
+[proxy] response that she has no idea who this head priestesses is and judging how this shrine was situated before, it was most likely not been used in a long time.&#xd;
+&#xd;
+-They dared to leave me, Edesia. I was just taking a brief nap and they abandoned me. I will pay them back for that. But that can wait for a bit, give me my food; I seem to have lost some of my size during my beauty sleep. Who are you by the way?&#xd;
+&#xd;
+[proxy] thinks Edesia is rude but still tells &lt;%activePartner.HisHer();%&gt; name and asks what Edesia is doing here.&#xd;
+&#xd;
+-What I´m doing here, this is my shrine you fool, show me some respect. I&apos;m the goddess that makes sure every party is a huge success, but I already told you to get me some food. Lazy people should be punished.&#xd;
+&#xd;
+Edesia makes some moves with her hand but nothing happens.&#xd;
+&#xd;
+-Wait what is happening, how long was I asleep, too long for my own good it seems. Why did you not wake me up earlier, you caused me to lose most of my powers. &#xd;
+&#xd;
+[proxy] explains that [heshe] only just discovered this shrine and it was hard to enter. The doors would hardly open.&#xd;
+&#xd;
+-That must be the work of that blasted head priestess that left me here. I will have my revenge on her later. I do hope the food did not change too much, hmmm, maybe change is good, so much new tastes to discover. Maybe that baker still exist, they had some good stuff and that restaurant…&#xd;
+&#xd;
+Edesia stops with here monolog and gives [proxy] a visual inspection.&#xd;
+&#xd;
+&lt;%Include(&quot;bathhouse/edesia_check&quot;);%&gt;&#xd;
+&#xd;
+&lt;%Include(&quot;bathhouse/edesia_dig&quot;);%&gt;&#xd;
+&#xd;
+-I allow you to be my new head priestess, serve me well and you will be rewarded. Now leave I have important business to attend to.&#xd;
+&lt;%&#xd;
+SetPerFlag( &quot;edesia&quot;,1);&#xd;
+SetPerFlag(&quot;priestess_weight&quot;,((Integer) proxy.getStat(&quot;generic.weight&quot;) / 1000));&#xd;
+SetFlag( &quot;new_ priestess&quot;,1);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/hotspring</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

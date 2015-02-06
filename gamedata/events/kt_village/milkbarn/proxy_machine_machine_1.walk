@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/proxy_machine_machine_1</name>
+  <descr>Mathilda walks together with [proxy] to her private area behind the milking machines. They enter one of the doors leading to a room that is relative small and only a small amount of equipment is visible.&#xd;
+&#xd;
+Mathilda guides [proxy] to the center of the room and puts [hisher] arms in some sort of handcuffs hanging from the ceiling. &#xd;
+&#xd;
+-sorry for that but you will need those.&#xd;
+&#xd;
+Next Mathilda straps [proxy] breasts in some sort of device. The last step is inserting a large needle in each of [proxy] nipples. The pain [proxy] suffers is immense.&#xd;
+&#xd;
+-You’re ready, now let me explain how this machine works. I have a storage tank with milk that has no customer yet or for some other reason cannot be sent to customers. The milk is absolutely fine so don’t worry about that. This machine is going to pump your breasts completely full of that milk. The harness around your breasts is than tightened to increase the pleasure even more. After a few minutes the harness is loosened and the created space is filled again with milk.&#xd;
+&#xd;
+Mathilda then pushes a button and milk becomes visible in the tubes leading to [proxy] breasts. The feeling of milk being injected in [proxy] breasts feels very strange and before [hisher] own eyes [heshe] can see [hisher] breasts slowly increase in size. The pressure in [proxy] breasts slowly increases while more milk is injected and a small reservoir in the middle of the tubes slowly fills. Once the reservoir is full no more milk is pumped in it. The pressure in [proxy] breasts has become very uncomfortable and [heshe] now understands why [hisher] hands are fixated with handcuffs. [heshe] desperately wants to milk [hisher] own breasts to remove the milk from them. &#xd;
+&#xd;
+With [proxy] breasts no filled to the brim with milk, the harness around [hisher] breasts activates. Nothing could have prepared [proxy] for the pain that causes. It feels like [hisher] breasts are punctured from the inside by a huge number of needless. When [proxy] thinks the pain cannot any more severe, the harness tightens even more. At some point [proxy] simply loses conscious.&#xd;
+&#xd;
+When the connection with [proxy] is restored the machine is in the progress again of pumping the now larger breasts full with more milk. The process of pumping the free space full of milk and then compressing again is repeated a number of times. When the machine is ready Mathilda removes the large needles from [proxy] nipples. Jets of milk blast out. Mathilda then takes [proxy] to another room. It contains a milking machine that gently at a very slow rate milks [hisher] breasts. After the machine is finished and [proxy] breasts are empty of milk.&#xd;
+&#xd;
+-So what did you think of the machine, could be used for torture right. At least the results it produces are good.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;breasts.size&quot;,(1.15*self.getStat(&quot;breasts.size&quot;)));&#xd;
+self.addStat(&quot;generic.tiredness&quot;,40);&#xd;
+self.subStat(&quot;generic.mood&quot;,40);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=2000</conditions>
+  <picturePath>kt_village/milk/train_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

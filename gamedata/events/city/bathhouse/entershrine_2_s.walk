@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entershrine_2_s</name>
+  <descr>[proxy] walks this time directly to the large plate infront of the doors and stands ontop of it.&#xd;
+&#xd;
+-you may enter.&#xd;
+&#xd;
+The doors open and [proxy] goes inside.</descr>
+  <conditions>GetPerFlag(&quot;edesia&quot;)==2 &amp;&amp; GetPerFlag(&quot;priestess_weight&quot;)&lt;((Integer) proxy.getStat(&quot;generic.weight&quot;) / 1000) &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=3000</conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

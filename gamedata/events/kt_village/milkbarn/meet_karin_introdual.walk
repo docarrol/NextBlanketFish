@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_introdual</name>
+  <descr>[proxy] walks to the room where Karin is normally waiting in and spots a large crowed of girls standing in front of it. With some difficulties [proxy] manages to work [hisher] way through the blockage of large breasts and enters the room. In the room even more tau girls are standing with in the center Talia.&#xd;
+&#xd;
+Last time [proxy] saw Talia her breasts where only a tiny bit bigger than the breasts of Karin. In the last couple of days Talia’s breasts nearly doubled in size. [proxy] can clearly see stretch marks on Talia’s breasts indicating the rapid grow.&#xd;
+&#xd;
+-Look who has arrived, that foolish trainer of yours. Maybe [heshe] can make a decision for you because you are too much of a calve to decide your own stuff. Next week the annual milk festival is hosted, I challenge Karin to a milk dual the day before. The loser of that dual will have the traditional milk punishment during the festival. Do you accept or are you also a useless coward.&#xd;
+&#xd;
+Having said that Talia pushes her chest even further out, showing her suddenly larger breasts to the crowed. Behind Talia you notice Mathilda indicating that you should accept the challenge. Mathilda must have a plan so you decide to trust her and accept the milking dual for Karin. After [proxy] accepts the dual a lot of the girls present start laughing because of the breast size difference between Karin and Talia. While talking to each other the girls leave only leaving [proxy], Karin and Mathilda. Karin starts crying.&#xd;
+&#xd;
+-what have you done, have you seen her breasts. I can never win from that.</descr>
+  <conditions>GetPerFlag(&quot;karin_cap&quot;)&gt;=4000 &amp;&amp; GetPerFlag(&quot;Talia_quest&quot;)==3 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/normal.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/introdual_karin_1</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_spell_lballs</name>
+  <descr>-Having more to give is always better. &#xd;
+&#xd;
+-This is currently the highest level spell I have for sale; this might change if my stocks are updated in the future. &#xd;
+&#xd;
+&lt;%&#xd;
+AddItem(&quot;spell_largerballs&quot;);&#xd;
+RemoveMoney(2000); &#xd;
+SetPerFlag(&quot;spell_lb&quot;,1);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(2000) &amp;&amp; GetPerFlag(&quot;spell_lb&quot;)&lt;1 &amp;&amp; GetPerFlag(&quot;magic_skill&quot;)&gt;=50</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/sorceress/sorceress_enterance_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

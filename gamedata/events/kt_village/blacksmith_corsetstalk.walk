@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/blacksmith_corsetstalk</name>
+  <descr>[proxy] asks why Thovia was making corsets for the dwarves.&#xd;
+&#xd;
+-Dwarfs and especially dwarven nobles like a party after a good day of work altough the work of the nobles mainly consist of sitting on their ass and shouting orders to the servants. Because of this slim dwarfs are a rare sight. The normal dwarfs manage to keep their size limited by providing plenty of manual labor. The nobles on the other hand all are a bit on the large side.&#xd;
+&#xd;
+Hold on for a moment, this talking gets me thirsty. Thovia soon returns with a large mug filled with beer.&#xd;
+&#xd;
+-As you can see, dwarves also like their beer. Now where was I? Some time ago an especially well formed female noble got the idea of trying to hide some of her size by wearing a corset to a party. This soon became a trend and most female and some male nobles followed. They enter the party packed tight in the corset and wait a bit for the rest of the guests to get distracted by the food and beer. The corset is then removed so the party can be fully enjoyed. &#xd;
+I have been too a noble party once, trust me; you cannot even make it past the first hour with a corset. I had to leave the party before it even was fully started; a couple of servants had to carry me home. I could not eat for 4 days after that.&#xd;
+I was famous for my mitril corsets. The mitril allowed corsets of a size that metal could no longer handle. Some amateur once tried to copy a corset of mine while using steel, the failure of the corset took the lives of 5 servants.&#xd;
+&#xd;
+[proxy] asks if Thovia is still making corsets.&#xd;
+&#xd;
+-I only make my corsets of mitril, if you can obtain some I might make one.</descr>
+  <conditions>1</conditions>
+  <picturePath>char/Thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

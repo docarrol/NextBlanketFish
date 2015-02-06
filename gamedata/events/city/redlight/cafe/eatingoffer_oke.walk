@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/eatingoffer_oke</name>
+  <descr>[proxy] talks to the manager asking what that offer earlier at Vicky&apos;s place was about.&#xd;
+&#xd;
+-As you might know, we are a cafe specialized to service customers with some particular tastes. One of our most popular sections is where customers pay to have someone eat for them.&#xd;
+&#xd;
+[proxy] replies surprised, they pay to have someone eat for them. Why would they ever do that.&#xd;
+&#xd;
+-for a number of reasons really. Some woman like to feed someone else everything they cannot eat because of their line or their diet. For them it is a good way to blow off steam. Other like to see someone’s belly and eventually their waste grow because of their work. I do not really care about the reason but they pay good money. From what I have seen at Vicky&apos;s you have a good appetite, exactly what my customers require. I am willing to pay your for eating, that sounds like a good deal. The more you eat the more the pay.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;cafe.eating&quot;,3);&#xd;
+SetPerFlag(&quot;start.weight&quot;,(proxy.getStat(&quot;generic.weight&quot;) / 1000));&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;cafe.eating&quot;)==2 &amp;&amp; proxy.getStat(&quot;generic.fat_percent&quot;)&lt;=35
+</conditions>
+  <picturePath>city/fcafe/manager.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_breeder_dick_8</name>
+  <descr>[proxy] enters Elwing’s room. Elwing is standing in the middle of her room. Her balls have become so big that they nearly touch the floor and her dick is longer and much ticker than her arm.&#xd;
+&#xd;
+-Welcome back [proxy]. I hope I did not mistreat you during our past meetings. The chances to my body once I became fertile changed me in a primal beast only thinking about reproducing. Luckily my mind is now restored to its original state although my body has been changed.&#xd;
+&#xd;
+Elwing touches her fat belly that supports her two large breasts.&#xd;
+&#xd;
+-It seems by penis an breast where not the only things that have grown. How much have I eaten during my primal mind state. According of what I have heard, I pumped out enough cum too fill the bath multiple times and provided milk for most of the babies.&#xd;
+&#xd;
+[proxy] tells Elwing that [heshe] has seen her eat a couple of times and that it was madness. Elwing was just shoved complete scales of food in her mouth during that time.&#xd;
+&#xd;
+-Well that could explain this. Losing this extra blubber should be too hard but I also hope the rest of my body shrinks a bit. Try walking around with a dick and balls this size. Let me tell you, always walking with your legs wide is far from comfortable. Sorry that I can’t talk any longer, focus again ongetting the village back to order. My state combined with the baby boom has caused a lot of extra work. Come visit me later when everything is a bit more back to normal.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,11);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays()+2);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==10 &amp;&amp; GetPerFlag(&quot;elwing_wait&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>elves/queen13.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

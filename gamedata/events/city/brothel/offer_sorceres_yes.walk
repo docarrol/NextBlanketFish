@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/offer_sorceres_yes</name>
+  <descr>Neferi guide [proxy] into another section of the brothel. It&apos;s decorated in another style than [hisher] normal working room; this is clearly the VIP area.&#xd;
+&#xd;
+Neferi guides [proxy] in the room and then quickly leaves. In the room a nice looking woman with a rather large stack is present. The hat she is wearing is a quick give away that she is not a normal person, this is purported by the staff she is carrying. [proxy] wonders how to continue but the person already starts talking.&#xd;
+&#xd;
+-I detect something strange in you. Let me look at you closer, hmm, you got two souls instead of one. Multiple personalities or a birth defect, I know, you got cursed.&#xd;
+&#xd;
+[proxy] starts with your help explaining how trough David’s technology you have a certain control over [proxy] body. &#xd;
+&#xd;
+-This situation brings a number of interesting possibilities. Normally people who can perform magic above a certain level are extremely rare. It seems one the two souls inside of that body has some dormant talent, with some guidance you should be able to perform some interesting magic. Depending on your performance I might teach you a bit, just make sure you fulfill my needs.&#xd;
+&#xd;
+The sorceress removes her cloths and lay’s down on the bed.&#xd;
+&#xd;
+-time to show me your skills. &#xd;
+&lt;%Include(&quot;char/mira_init&quot;);&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Demonstrate skills</name>
+      <value>city/brothel/offer_sorceres_sex</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

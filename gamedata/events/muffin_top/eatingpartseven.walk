@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartseven</name>
+  <descr>[proxy] focuses now only on one thing, eat the entire remains of the eclair. With a steady pace, bite after bite, the remaining eclair becomes smaller and smaller. The closer &lt;%activePartner.HeShe();%&gt; comes to the goal of eating the entire eclair, the harder the crowed is shouting. With only a few bites left [proxy] feels full, realy full. So full &lt;%activePartner.HeShe();%&gt; is not sure if &lt;%activePartner.HeShe();%&gt; can keep it inside after the next bite. Vicky walks to [proxy] and start to encourege &lt;%activePartner.HisHer();%&gt; togheter with the crout. 
+Three, two, one, only one more bite remaining. [proxy] put her mind on black and shoves it inside her mouth.
+
+To full to move, [proxy] is sitting behind the competition table. &lt;%activePartner.HeShe();%&gt; had to move her chair back alot since her stomach did not longer fit under the table. In a choclate and cream coma &lt;%activePartner.HeShe();%&gt; hears vicky declair &lt;%activePartner.HisHer();%&gt; the absolute winner and presents the price of 75 extra delicous eclairs.
+At that moment [proxy] is too far gone to notice the price &lt;%activePartner.HeShe();%&gt; just won.
+
+Some time later Vicky aproaches [proxy]
+
+-It seems you have a real talent for eating, if you want to improve your skills even more just ask. I have a few tricks up my sleaves. Meet me later.
+
+&lt;% 
+self.addStat(&quot;generic.calories&quot;, 25000);
+self.addStat(&quot;abdomen.food&quot;, 2500);
+AddItem(&quot;cream_eclair&quot;, 75);
+SetPerFlag(&quot;stomach_train&quot;, 1);
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;abdomen.food&quot;) &lt; proxy.getStat(&quot;abdomen.stomach_volume&quot;)</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

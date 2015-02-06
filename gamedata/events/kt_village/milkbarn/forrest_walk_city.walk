@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/forrest_walk_city</name>
+  <descr>[proxy] walks through the forest following the directions of the arrow closely. It sometimes feels like the card is sending [proxy] the wrong way but [proxy] arrives at [hisher] location without seeing a single creature.</descr>
+  <conditions>GetPerFlag(&quot;mathilda_fastroute&quot;)==1</conditions>
+  <picturePath>forest/in_the_forest1.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>homestreet/in_front_of_home</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

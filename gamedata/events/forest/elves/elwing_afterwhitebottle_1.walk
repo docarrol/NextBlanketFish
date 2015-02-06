@@ -1,0 +1,40 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_afterwhitebottle_1</name>
+  <descr>[proxy] follows the assistant to Elwing’s chamber. Inside Elwing is hosting a orgy with a couple of female elves. When Elwing notices [proxy] entrance with [hisher] balls brink full of cum she immediately realizes what you have done.&#xd;
+&#xd;
+-good, you drank the liquid I had provided, too bad you did not drink the entire bottle, that would have given some really nice results.&#xd;
+&#xd;
+Without paying much attention she pulls her dick from the pussy of a female elf. A decent amount of spunk immediately starts flowing along the female elfs leg. [proxy] can now have a good view of Elwing’s body and notices that she has changed even more. Her skin has become darker and now looks dark blue, she also has two small horns on her head now. Elwing’s dick meanwhile has become longer and thicker.&#xd;
+&#xd;
+Elwing walks to [proxy] and grabs [hisher] dick and shoves it up her pussy. Just entering that tight pussy already pushes [proxy] over the edge. [heshe] blast the first load of sperm in Elwing’s pussy. [proxy] keeps coming and coming while Elwing slowly moves back and forth being rapidly filled up with [proxy] cum. She grabs her slowly expending belly.&#xd;
+&#xd;
+-Yes, shoot all your seed inside me. Make me drown in your cum. Give me more.&#xd;
+&#xd;
+Unfortunately [proxy] balls and pouch are soon empty. Elwing keeps fucking [proxy] more trying to get every last drop of cum from [hisher] body. She also order a female elf standing in the corner to stand before her. Soon [proxy] is fucking Elwing’s pussy while Elwing is fucking the female elf. All three of you orgasms at the same time, making [proxy] shoot a bit more cum in Elwing’s tight and wet pussy. After coming a couple of more times, [proxy] drops down on Elwings bed. The bed is covert in cum, Elwing must have had multiple parties on it since it was cleaned last.&#xd;
+&#xd;
+Elwing meanwhile is closing her legs as much as her large balls and penis allow, she wants to keep as much of your cum inside as possible.&#xd;
+&#xd;
+-That was a lot better than last time. I’m sure I will become pregnant of such a load.&#xd;
+&#xd;
+After [proxy] rested a bit, [heshe] leaves the room while Elwing is already fucking the next elf.&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,6);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays());&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen8.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

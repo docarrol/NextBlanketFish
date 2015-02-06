@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_vwhite_bottle_1</name>
+  <descr>[proxy] decides to drink only a glass of the liquid provided by Elwing. While drinking the content of the glass, [proxy] feels [hisher] breasts slowly become warm. [hisher] breasts meanwhile start producing milk at a very high rate. [proxy] can feel [hisher] breasts slowly filling up with milk. When [hisher] breasts are full the high milk production stops. A few minutes later Elwings assistant walks in. 
+
+-I see your breast are full, good there are a lot of hungry mouth too feed, follow me
+
+
+&lt;%
+self.setStat(&quot;breasts.milk_volume&quot;,self.getStat(&quot;breasts.max_volume&quot;));
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_aftervwhitebottle</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

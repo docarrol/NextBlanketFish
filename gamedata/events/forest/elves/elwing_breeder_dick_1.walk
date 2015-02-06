@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_breeder_dick_1</name>
+  <descr>The assistant has a panicked expression.&#xd;
+&#xd;
+-Come quickly, Elwing has been asking for you for some time already. She locked herself in her room and lets nobody in except you.&#xd;
+&#xd;
+[proxy] follows the assistant to Elwing’s bedroom and enters.&#xd;
+&#xd;
+The first thing [proxy] notices when [heshe] notices Elwing is the dick between her legs accompanied by two large balls.&#xd;
+&#xd;
+-I gave birth to my child and then my crotch became hot. At first only a small bump was visible but it soon grew to this.&#xd;
+&#xd;
+She points to her dick now present between her legs.&#xd;
+&#xd;
+-walking around with it is so strange and those two balls below them hit my legs when walking. Because of this dick I’m even hornier then before, you have dick too, teach me how to use it.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==3 &amp;&amp; GetPerFlag(&quot;elwing_wait&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>elves/queen5.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Teach Elwing</name>
+      <value>forest/elves/elwing_teach_dick</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

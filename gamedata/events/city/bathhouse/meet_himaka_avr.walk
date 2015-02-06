@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_avr</name>
+  <descr>[proxy] rings the bell at Himanka&apos;s house and is soon greeted by Himanka. Would you like to go to another party?&#xd;
+&#xd;
+-Yes, I was waiting already for you to come by.&#xd;
+&#xd;
+While walking to the shrine [proxy] has a good opportunity to inspect Himanka&apos;s growing body. Her once slim body has now traces of a soft layer of fat all over. The fat seems to have concentrated itself mainly in her stomach but it seems her boob’s received a dose as well. Even with their larger size, her breasts still seem perky extending a good bit in front of her body. Her stomach has become so large that her breasts are no longer floating in the air but are now supported by a cushion of fat.&#xd;
+&#xd;
+Himanka and [proxy] go sit on a table in the too restaurant transform shrine.&#xd;
+&#xd;
+After some small talk it is time to eat. What are Himanka and [proxy] going to eat?</descr>
+  <conditions>GetPerFlag(&quot;himanka_eaten&quot;)&gt;40 &amp;&amp; GetPerFlag(&quot;himanka_eaten&quot;)&lt;=90 &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=6000</conditions>
+  <picturePath>bathhouse/himanka3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Cake</name>
+      <value>city/bathhouse/meet_himaka_cakehigh</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pizza</name>
+      <value>city/bathhouse/meet_himaka_pizzalow</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

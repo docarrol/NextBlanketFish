@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_potion_white</name>
+  <descr>Elwing stands up and walks with some difficulties to a nearby room. The tip of her penis scrapes over the floor while walking.&#xd;
+&#xd;
+After a few minutes she comes back caring the potion [proxy] orderd. On the walk to the chair, her dick leaves a bit slimy trail behind on the floor.&#xd;
+&#xd;
+&lt;% &#xd;
+AddItem(&quot;white_potion&quot;);&#xd;
+RemoveMoney(100); &#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(100)</conditions>
+  <picturePath>elves/queen14.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_breeder_dick_9</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

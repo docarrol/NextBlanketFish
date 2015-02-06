@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_celine</name>
+  <descr>[proxy] rings the bell at the address the manager had provided. Only a few seconds later the door is already open.
+
+-Hello, do you want me too clean something for you?
+
+[proxy] explains that &lt;%activePartner.HeShe();%&gt; owns a bathhouse and is looking for a cleaner.
+
+-A bathhouse, so many tiles and the baths, so much cleaning, when can I start?
+
+It seems Celine really likes cleaning. [proxy] asks Celine about what the manager told &lt;%activePartner.HisHer();%&gt; before about the cleaning actions in the man toilets.
+
+-I cannot understand why he fired me for that; I saw dirty stuff so I cleaned it. Most dicks I cleaned really needed some attention; some owners really do not clean their stuff properly. Is cleaning properly a problem at your bathhouse?
+
+[proxy] thinks for a bit, full body cleaning is a nice added service for the bathhouse. Celine, you are allowed to perform a good cleaning but you have to ask for permission of the person you want to clean first. Only clean them if they want you to do it, is that understand.
+
+-I will follow your order boss, but I cannot understand why people want to stay dirty.
+
+[proxy] tells Celine that she has to go to Vulpsia who will fill her in on the details.
+
+&lt;% 
+SetFlag(&quot;bathhouse&quot;,6);
+&quot;&quot;;%&gt;
+
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==5</conditions>
+  <picturePath>bathhouse/cleaning.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/outskirts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

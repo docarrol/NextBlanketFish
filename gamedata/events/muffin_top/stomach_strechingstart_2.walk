@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_strechingstart_2</name>
+  <descr>[proxy] walks to Vicky ready for a trainings session. Stomach empty and ready to go. When [proxy] approaches Vicky and asks for the special training Vicky response with&#xd;
+&#xd;
+-I first want to feel how far you training has progressed, stand still for a moment.&#xd;
+&#xd;
+Vicky touches your belly and starts feeling it all over.&#xd;
+&#xd;
+-Incredible you managed to complete my training. And since you are standing here you are still mobile. My brother was stuck in bed already before he finished halve of the final training. You should be able to beat nearly everyone now in an eating contest. Just make sure you do not fill this stomach completely every day if you want to keep being mobile. &#xd;
+Well, you completed your training. I will keep my eyes open for any interesting eating competitions in the future; so far none are available yet.&#xd;
+</descr>
+  <conditions>GetFlag(&quot;stomach_train&quot;) == 3 &amp;&amp; HasMoney(1000) &amp;&amp; self.getStat(&quot;abdomen.stomach_volume&quot;) &gt; 15000</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

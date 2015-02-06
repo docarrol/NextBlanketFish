@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_forest_dwarf_crash</name>
+  <descr>While walking through the forest [proxy] hears some noise above &lt;%activePartner.HimHer();%&gt;. The noise is soon replaced by the sound of breaking branches. It seems something is crashing through the trees near [proxy].&#xd;
+&#xd;
+More and more branches break and [proxy] hears the sound of a large crash accompanied by a flash of light in the distance. [proxy] only has to follow the glow to reach the crash site. The wreck of some sort of zeppelin is now burning brightly inside a small crater. Judging by the intensity of the fire, any cargo or persons the zeppelin was carrying can be considered as lost. [proxy] hears some sound behind [himher] and a female dwarfs appears out of the bushes. It seems she jumped of the ship before the crash.&#xd;
+&#xd;
+-I should have used the double inverted titanium isolated drive chargers instead of cobalt ones. Well this is what I get for skipping on maintenance.  Oh, do you know where the bloody hell I crashed.&#xd;
+&#xd;
+[proxy] tells the dwarf that they are near the city in the forest.&#xd;
+&#xd;
+-In a forest you say, even as a dwarf I recognize a large collection of trees as a forest. How far are we from Ironhill.&#xd;
+&#xd;
+[proxy] where Ironhill is located&#xd;
+&#xd;
+-You don’t know Ironhill, the capital of the dwarfs. The most beautiful and richest city of the world. The only true home location for any merchant. I must have crashed in some real backwater area.&#xd;
+&#xd;
+[proxy] excuses [himher] for not knowing where Ironhill is located, [heshe] does however know another dwarf.&#xd;
+&#xd;
+-Great, the sooner I’m back home the sooner I can make gold again. Lead the way.</descr>
+  <conditions>GetFlag(&quot;village_blacksmith&quot;)==1 &amp;&amp; GetPerFlag(&quot;dwarf_crash&quot;)&lt;1</conditions>
+  <picturePath>kt_village/dwarven_trader.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/bring_crashed_dwarf</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>4</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

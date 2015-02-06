@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/milkbarn_enterance</name>
+  <descr>[proxy] enters the milkbarn and removes [hisher] cloths. A shower later and [heshe] is in the main area of the building. [proxy] see’s Mathilda overseeing the daily operations.&#xd;
+&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/calc_milk&quot;);&quot;&quot;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;karin_pro&quot;)&gt;1 &amp;&amp; GetPerFlag(&quot;milk_barn&quot;)&lt;2</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meet karin</name>
+      <value>kt_village/milkbarn/meet_karin</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk to Mathilda</name>
+      <value>kt_village/milkbarn/mathilda_talk</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Train breasts using machine</name>
+      <value>kt_village/milkbarn/proxy_machine_start</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Milk breasts</name>
+      <value>kt_village/milkbarn/proxy_milking_start</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/second_part</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

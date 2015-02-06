@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/tree_waiting_preg</name>
+  <descr>[proxy] enters the massive tree and starts walking up the stairs. When [proxy] reaches the peak of the tree [heshe] notices that there are hardly any female elfs around. The few females that can be seen are all in the last stages of their pregnancy. The normal assistant of Elwing has been replaced by another elf. She has an absolutely massive belly and must be pregnant of at least twins.
+
+-Welcome, I’m the temporary assistant of Elwing till her normal assistant is mobile again. Elwing is expecting you, follow me.
+
+The assistant takes [proxy] to Elwing’s room. She has clearly trouble walking because of her large pregnant belly.
+</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==8</conditions>
+  <picturePath>elves/elf2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Vist Elwing</name>
+      <value>forest/elves/elwing_breeder</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>leave</name>
+      <value>forest/elves/village_center</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

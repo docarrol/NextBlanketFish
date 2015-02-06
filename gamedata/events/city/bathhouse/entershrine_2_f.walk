@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entershrine_2_f</name>
+  <descr>[proxy] walks this time directly to the large plate in front of the doors and stands on top of it.&#xd;
+&#xd;
+-you’re not allowed to enter, your have been judged too light too approach Edesia.&#xd;
+&#xd;
+What, [proxy] has to gain weight to allow entry. That reward Edesia promised better is worth the trouble.</descr>
+  <conditions>GetPerFlag(&quot;edesia&quot;)==2 &amp;&amp; GetPerFlag(&quot;priestess_weight&quot;)&gt;((Integer) proxy.getStat(&quot;generic.weight&quot;) / 1000)</conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>city/bathhouse/hotspring</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

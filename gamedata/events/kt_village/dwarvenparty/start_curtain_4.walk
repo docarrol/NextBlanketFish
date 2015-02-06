@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/start_curtain_4</name>
+  <descr>[proxy] passes the curtain and is greeted by a very large but well dressed female dwarf.&#xd;
+&#xd;
+-You are no dwarf, how did you get inside this private party&#xd;
+&#xd;
+[proxy] explains that she is a friend of Thovila and is here to demonstrate Thovila’s latest corset.&#xd;
+&#xd;
+-Thovila, that was a name I did not expect to hear anytime soon, not after that suffocation debacle. Can you belief I once spend weeks trying to negotiate a contract to sell her goods. Well, seeing as she now even uses people like you to show her goods indicates how far she has sunken. Tell her that if she comes begging to me I might consider selling a piece of her in some dark corner of my shop. Let me introduce myself: Dis Goldpocket of the Exclusive Merchants. The best merchants of Ironvile.&#xd;
+&#xd;
+Now I was her to show some of my exclusive products to the high esteemed guests of this party but instead I get some poor fool that is not even a dwarf. I have no idea how you ever got invited to this party but I must honor Casda rules, so we have a little game now.&#xd;
+&#xd;
+She picks a hourglass.&#xd;
+&#xd;
+-A merchant should calculate the customers prices fast and accurate, you have to answer 5 of my questions before the hourglass is empty.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;partycurtain&quot;)==3</conditions>
+  <picturePath>kt_village/dwarfs/dwarf4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Answer questions</name>
+      <value>kt_village/dwarvenparty/eat_curtain_4</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

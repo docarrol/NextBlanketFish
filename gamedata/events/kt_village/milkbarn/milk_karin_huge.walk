@@ -1,0 +1,43 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/milk_karin_huge</name>
+  <descr>[proxy] tells Karin that she should be milked today on the milk machine. Karin follows [proxy] to an empty milk machine and is strapped in with [proxy] help.&#xd;
+&#xd;
+Once the milking is finished Karin puts the feeding tube in her mouth. [proxy] can now decide how much food she is going to eat.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/milk_massive.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Push once</name>
+      <value>kt_village/milkbarn/milk_feed_push_1</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Push twice</name>
+      <value>kt_village/milkbarn/milk_feed_push_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Push three times</name>
+      <value>kt_village/milkbarn/milk_feed_push_3</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Push four times</name>
+      <value>kt_village/milkbarn/milk_feed_push_4</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Push five times</name>
+      <value>kt_village/milkbarn/milk_feed_push_5</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

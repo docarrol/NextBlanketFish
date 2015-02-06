@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/restore_bathhouse_7</name>
+  <descr>[proxy] asks Vulpsia how the customers are liking the sauna.&#xd;
+&#xd;
+-The new sauna is literally a hot addition to the bathhouse. Some customers however stay in the sauna a bit too long in their quest to lose those extra kilos. When they leave the bathhouse they are completely tense, the bathhouse has still an empty room left, let’s transform it to a massage area. After some massaging all the tension and stress is removed from the customer’s bodies.&#xd;
+&#xd;
+A friend of mine has a couple of massaging tables for sale. I think I can buy them for 800 coins, add 200 for redecorating the room. So for 1000 coins the bathhouse have its own massage area.&#xd;
+&#xd;
+&#xd;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==12</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy massage area (1000)</name>
+      <value>city/bathhouse/buildfour</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

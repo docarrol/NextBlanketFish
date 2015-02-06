@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/mathilda_talk_fastroute</name>
+  <descr>[proxy] notices that Mathilda is free for a moment and approaches her. Maybe she can share some tips.&#xd;
+&#xd;
+-Hello, how is the training with Karin progressing.&#xd;
+&#xd;
+[proxy] talks a bit what [heshe] has experienced so far. The only problem whit training Karin is the large distance [proxy] has to travel because [heshe] has to go around the forest.&#xd;
+&#xd;
+ -It never occurred to me, I live in this village already a long time and only really leave it to meet important customers. Wait a moment, I might have something that can help you.&#xd;
+&#xd;
+Sometime later Mathilda comes back holding something that looks like a keycard.&#xd;
+&#xd;
+-This is a special card created by our shaman to guide a repair man from the city to here. When we just installed this new equipment we were lacking the skill to maintain it. Because of that we needed a mechanic from the city. We now know the equipment like the back of our hand so the mechanic is no longer needed. Just follow the arrow on the card and it should provide you with a safe route to the city. Use the other side of the card to find your way to here. This should reduce your travel time a lot.&#xd;
+&#xd;
+Mathilda hands [proxy] the card, who thanks her for this use full gift.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;mathilda_fastroute&quot;,1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;mathilda_fastroute&quot;)&lt;1</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

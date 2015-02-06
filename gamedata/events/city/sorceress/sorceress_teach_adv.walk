@@ -1,0 +1,48 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_teach_adv</name>
+  <descr>[proxy] will for learning more about magic is greater than the shame involved with Morgan’s demand so [heshe] opens her mouth.&#xd;
+&#xd;
+-Are you ready, I should have gone to the bathroom hours ago but I sometimes lose myself in books. Now make sure you drink it all. I don’t like a mess in my shop.&#xd;
+&#xd;
+Morgan grasp [proxy] head and pushes [proxy] mouth against her crotch. Then she opens the floodgates, a stream of pee enters [proxy] mouth. It tastes strange  like apple juice.&#xd;
+&#xd;
+-I changed to taste for you a bit, enjoy. The wonders one can do with a little magic.&#xd;
+&#xd;
+[proxy] quickly starts swallowing the apple juice because her mouth was getting awfully full. Morgan was not kidding when she told [proxy] that she had to go to the bathroom for a long time. For [proxy] it feels like ages before Morgan is finally finished.&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;,500);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 500);&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&#xd;
+-With that taken care of, it is time you take care of my pussy. It could really use your attention.&#xd;
+&#xd;
+[proxy] continues with pleasuring Morgan till she has multiple orgasms.&#xd;
+&#xd;
+-You did your job well, now it is time for your reward.&#xd;
+&#xd;
+Morgan spends a good amount of time telling [proxy] more about magic.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;magic_skill&quot;, GetPerFlag(&quot;magic_skill&quot;)+2);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/sorceres_home/sorceress_home_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

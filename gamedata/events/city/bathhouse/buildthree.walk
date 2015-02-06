@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/buildthree</name>
+  <descr>Vulpsia disappears with your money again and comes back a bit later with her friend. Soon the rebuilding of the sauna is in progress.&#xd;
+&#xd;
+&#xd;
+&lt;% &#xd;
+RemoveMoney(400); &#xd;
+SetFlag(&quot;bathhouse&quot;,12);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(400)</conditions>
+  <picturePath>bathhouse/builder.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

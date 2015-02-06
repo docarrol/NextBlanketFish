@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_training_further</name>
+  <descr>After [proxy] agrees Vicky continues.&#xd;
+&#xd;
+-There are to be honest two methods for improving your skills in competitive eating. The first is for foolish people and works only slowly. During this training you eat and drink as much as possible of low calorie stuff to stretch your stomach. Low calorie stuff is per definition disgusting so I really would not recommend this. The second method and my family’s specialty is using a special combination of dishes designed to make your stomach flexible. Because of this increased flexibility, the stretching of the stomach is far more severe and long lasting. With this method I promise you great results.&#xd;
+&#xd;
+[proxy] is still a bit skeptical about the second method and after a lot of questions and time Vicky finally tells you the rest.&#xd;
+&#xd;
+-The meal is known to contain some calories so people training using this method are know to gain some weight. Noting severe really, only a tiny bit. A high metabolism is recommended else you might follow my brother’s footsteps. Because of the training your stomach becomes a bit more active. All small stuff really, the progress from this training is remarkable. Oh, one last thing, the ingredients for the training are kind of rare and expensive, I have no problem preparing it for you but you got to pay 1000 credits for the costs. So, tell me when you’re ready, I would really like to prepare my families recipe again.&#xd;
+&#xd;
+At the moment [proxy] wants to walk away Vicky suddenly continues.&#xd;
+&#xd;
+-I know someone who would be very interested in your progress. He is always looking for new talent. Make enough progress and he will surly approach you. I heard he likes motivating people by providing them a special scanner that detects the properties of your stomach. I will ask if he installs one in your house, he still owns me some favors.&#xd;
+&lt;%&#xd;
+SetFlag(&quot;stomach_train&quot;, 2);&#xd;
+vicky.addStat(&quot;generic.calories&quot;, 20000);&#xd;
+vicky.addStat(&quot;abdomen.food&quot;, 10);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

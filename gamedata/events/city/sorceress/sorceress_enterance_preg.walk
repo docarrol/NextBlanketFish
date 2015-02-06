@@ -1,0 +1,61 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_enterance_preg</name>
+  <descr>[proxy] walks into the dark store and notices that Morgan is not in the first area again. While exploring the rest of the shop [proxy] hears a strange voice. &#xd;
+&#xd;
+-Go away the shop is closed, come back in a few day’s and it is open again.&#xd;
+&#xd;
+[proxy] is a bit confused and starts walking towards the exit when [heshe] catches a glimpse of Morgan from the corner of [hisher] eyes. Well not really Morgan, a beanbag sized belly that seems to be attached to Morgan. [proxy] is curious about Morgan’s new shape and approaches the room. Before [proxy] has a chance to enter the room, a large muscular woman blocks the door opening.&#xd;
+&#xd;
+-What are you still doing here, I told you to leave.&#xd;
+&#xd;
+Morgan response with&#xd;
+&#xd;
+-Let [himher] trough, [heshe] is the father.&#xd;
+&#xd;
+The woman steps aside and let [proxy] walk in. [proxy] enters the room and get a good chance to look at Morgan. The size of her pregnant belly is unreal, if Morgan stretches her arms, she only reached about half way.&#xd;
+&#xd;
+-I did not order you to stare; I know it is a bit bigger than most, cost of doing high level magic. Hona is of a tribe with which I made a contract to improve my magic. The terms of the contract are that I carry a bit more baby’s as a normal woman and that they belong to the tribe. The advantage is that my pregnancy go’s much faster than normal. Walking around with a belly like this for months would be annoying. Now all that talking and this pregnancy made me horny, I order you to fuck me.&#xd;
+&#xd;
+-I cannot allow you to damage tribe properties. You are going to sit on that chair and wait for our goods to be deliverd.&#xd;
+&#xd;
+-Come on Hona, you expect me to give birth to all these baby’s horny, besides some simulation of the nether regions could induce the delivery sooner.&#xd;
+&#xd;
+Hona thinks for a moment and then suddenly grabs [proxy] shoulder. With her huge strength Hona guides [proxy] to the hobby room.&#xd;
+&#xd;
+-undress.&#xd;
+&#xd;
+Hona meanwhile helps Morgan undress. Because of Morgan’s huge belly she cannot longer do that by herself. She than order [proxy] to lay down in the center of the bed. Hona than lifts Morgan on top of [proxy]. Even with Hona’s high strength, she struggles to lift Morgan with the added weight of her beanbag sized belly. Morgan managed to guide [proxy] already hard &lt;% IncludeRange(proxy.getStat(&quot;penis.length&quot;),&quot;penislength&quot;);%&gt; penis inside her pussy. &#xd;
+&#xd;
+The only part of [proxy] top halve of his body not covered by Morgan’s pregnant belly is [hisher] head. The massive weight makes breathing for [proxy] extremely hard. [proxy] view consist of a wall of flesh hanging partly over [proxy] head. From Morgan’s belly [proxy] feels all kinds of movement, as the size indicates, there must be multiple active baby’s in there.&#xd;
+&#xd;
+With Hona’s help, Morgan starts grinding [proxy] dick. Everything Morgan moves up, [proxy] can take a breath that is quickly pushed out once Morgan moves down again. Because Morgan’s insides are filled to the brim, [proxy] penis is nearly flattened inside Morgan’s pussy. It does not take long for [proxy] to blow his load. Morgan meanwhile had already multiple orgasms. Every organ in her body is compressed and mangled by the huge volume and weight present in her belly, making her come faster than ever. At some point she tells Hona that she feels like giving birth. Without any warning, Hona lifts Morgan from your body.&#xd;
+&#xd;
+-Grab your cloths and leave now; we have private business to attend to. &#xd;
+&#xd;
+[proxy] quickly grabs [hisher] cloths and leaves the hobby room, [heshe] get dressed near the exit while the first screams come from the hobby room. It seems Morgan is already starting to give birth.&#xd;
+&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;morgan_preg&quot;,0);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+&quot;&quot;;%&gt; &#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;morgan_preg&quot;)==1 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

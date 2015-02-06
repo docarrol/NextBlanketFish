@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_huge_bj_1</name>
+  <descr>[proxy] decides to make full use of Elwing’s special cum. Some power full strokes from [proxy] hands on Elwing’s penis and Elwing comes. [proxy] opens [hisher] mouth as far as possible and put it on the tip of Elwing’s penis. [proxy] uses both hands to hold Elwing’s monster dick in place. What came next was even more than [proxy] was expecting. The first blast from Elwing’s dick was so strong that [proxy] head was knocked back and [hisher] face was showered by a stream of cum. Before [proxy] could reposition [hisher]self, Elwing unleashes the second blast that hits the sealing. &#xd;
+&#xd;
+[proxy] manages to put her mouth on Elwing’s dick between the second and the third blast. By holding Elwing’s penis tightly [proxy] manages to catch the third blast. [proxy] mouth is completely filled in less than a second. Fully opening [hisher] throat and let the cum trough to [hisher] stomach with the least amount of resistance seems to be the only way to handle the flow.  [proxy] stomach meanwhile is blown up like a balloon with cum. Each blast of Elwing is more than a liter of concentrated cum so it does not take long for [proxy] stomach to become completely filled with cum. When Elwing release another massive blast of cum in [proxy] mouth, the cum cannot longer flow in [proxy] stomach. A little bit is pushed in trough the pressure but most escapes past the seal formed by [proxy] lips. An bit is even blasted trough [proxy] nose, making [hisher] nose drip small streams of cum.&#xd;
+&#xd;
+[proxy] retrieves back from Elwing’s monster dick who keeps happily blasting cum. The cum hitting the ceiling is spread through the entire room. When Elwing finaly stops cumming, most of the lower half of her room is covert in a thin layer of cum. Below the spot where Elwing’s cum hit the ceiling, a large puddle of cum has been collected.&#xd;
+&#xd;
+-Just look at this, with all this cum no longer inside my body I must be nearly at my old weight again. Thank you [proxy].&#xd;
+&lt;% &#xd;
+cum=(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&#xd;
+self.addStat(&quot;pouch.max_volume&quot;, cum/20);&#xd;
+self. addStat(&quot;balls.size&quot;, cum/2000);&#xd;
+self. addStat(&quot;balls.prod_rate&quot;, cum/1000);&#xd;
+self. addStat(&quot;penis.length&quot;, cum/2000);&#xd;
+self. addStat(&quot;penis.width&quot;, cum/4000);&#xd;
+self.addStat(&quot;generic.calories&quot;, cum*2);&#xd;
+self.addStat(&quot;abdomen.food&quot;, cum);&#xd;
+SetPerFlag(&quot;elf_breed&quot;,9);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays());&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+&quot;&quot;;%&gt;&#xd;
+[proxy] looks to Elwing, her balls are indeed a lot smaller now they are not longer completely full of cum but that fat belly is still present. Elwing picks the last scale that has food remaining that is now completely covert with cum. She puts the scale at her mouth and shoves the food and cum inside.&#xd;
+&#xd;
+When [proxy] leaves the now white room with a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly. [heshe] notices some male servants carrying scales filled with more food. When the first one opens the door and see’s what state Elwing’s room is in, he drops the scale he was carrying. Cleaning the mess created by Elwing is going to take some time.&#xd;
+&#xd;
+While walking [proxy] notices that [hisher] underwear starts to get a bit tight. Elwing’s cum is starting to have an effect on [proxy] body.&#xd;
+&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen11.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/elves/village_center</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

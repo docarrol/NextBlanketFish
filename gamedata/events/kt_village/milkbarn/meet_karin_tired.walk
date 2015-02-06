@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_tired</name>
+  <descr>[proxy] enters the room where Karin is waiting in and finds a very tired Karin. Karin seems to lack the energy to perform any training today. [proxy] can give her a day off to rest up or let her drink a lot of energy drink. The later is full of sugar so it could leave a mark on her waist.</descr>
+  <conditions>GetPerFlag(&quot;karin_ener&quot;)&lt;10 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/sad.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use energy drink</name>
+      <value>kt_village/milkbarn/tired_energy</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Rest</name>
+      <value>kt_village/milkbarn/tired_rest</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

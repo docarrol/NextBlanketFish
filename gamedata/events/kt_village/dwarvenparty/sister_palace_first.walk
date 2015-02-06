@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/sister_palace_first</name>
+  <descr>Another very large female dwarf walks in. Her length is even a bit more than that of Cadha and her belly is roughly the same size. Her cloth look a bit small for her size, the front is a bit open showing some soft white skin.&#xd;
+&#xd;
+-What do you need this time. Some dwarfs actually have to do something instead of playing around all day like you.&#xd;
+&#xd;
+She than notices [proxy].&#xd;
+&#xd;
+-You asked me to come to see some outsider.&#xd;
+&#xd;
+Cadha explains that she asked her sister to come to see the new corset design made by Thovila. [proxy] explains some more details about the corset.&#xd;
+&#xd;
+-I hate to say it but I might going to need a corset in the near future, some large mining houses have the idea to establish a new city in the rocky mountains, the found some new type of ore there. I will have to attend a lot of parties used to discuss the details of the plan. The first effect of those are already visible, this is my favorite dress and it fitted perfectly not too long ago. Father should have given a bit of your training to me instead, it would have been a lot more useful that way.&#xd;
+&#xd;
+You notice that Cadha is looking very sad.&#xd;
+&#xd;
+-I’m sorry sister, this job of mine is lately a bit stressful. You know what, let’s have some food together, that way I can see the corset in action as well.&#xd;
+&#xd;
+Cadha calls a servant and gives an order for some food. They then continue to talk some more about life in a human city. Even Cadha’s sister is interested in it, she also seems to know very little outside of the royal life and nobles. After some time the food arrives. Three large scales all containing a large ox, the favorite meal of Cadha.&#xd;
+&#xd;
+-Serving food in these quantities is one the reason you have so few quests. I know you stomach is big but most people turn in a whale in no time eating all that. That training you received must help you with that since you are still so small. I will eat with you once, this way I can also see that corset in action.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/corset_palace_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

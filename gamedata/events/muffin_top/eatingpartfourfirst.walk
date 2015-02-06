@@ -1,0 +1,47 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartfourfirst</name>
+  <descr>Before [proxy] starts eating the éclair, &lt;%activePartner.HeShe();%&gt; takes a closer look. The chocolate cover is the same thickness of the table and the cream feels like it is solid. It seems Vicky did not learn from her chocking hazard chocolate milk. Even thinking about the calories present in this éclair makes [proxy] shiver. No time for thinking about that now, all concentration is needed to slay the beast called éclair.&#xd;
+&#xd;
+Lifting the éclair to take a bit [proxy] feels how heavy it really is. &lt;%activePartner.HeShe();%&gt; has to pull the plate closer to handle the weight. Vicky must be pretty strong from all the cooking to handle these plates so easy. Taking the first bite, [proxy] mouth is filled with cream and chocolate. After some difficulties swallowing the solid combination &lt;%activePartner.HeShe();%&gt; continues with the next bite. Finishing this éclair is going to be a hard challange.&#xd;
+&#xd;
+The crowd goes silenced while the 5 contestants continue with the éclair, each with his own technique and speed.&#xd;
+&#xd;
+Sometime later, [proxy] has finished halve the éclair. Pushing the chair a bit further back to provide extra room for the now highly visible belly &lt;%activePartner.HeShe();%&gt; takes a moment to catch &lt;%activePartner.HisHer();%&gt; breath.&#xd;
+&#xd;
+One of the contestants has already given up, the other three al seems to be struggling. Vicky was not kidding when she expected it would be hard to finish the entire éclair.&#xd;
+&#xd;
+[proxy] has two options, the save one. Try to eat just a little more than the rest and win that way or go all in. Mind blank and conquer that éclair.&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 25000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, 500, 24);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=5000</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Safe bet</name>
+      <value>muffin_top/eatingpartfoursafe</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Finish the eclair</name>
+      <value>muffin_top/eatingpartfourall</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Too full</name>
+      <value>muffin_top/eatingpartfourclose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

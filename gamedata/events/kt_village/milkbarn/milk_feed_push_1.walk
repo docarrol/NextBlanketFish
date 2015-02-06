@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/milk_feed_push_1</name>
+  <descr>[proxy] pushes the feed button only once. A single serving of milk girl food is deposited in Karin’s stomach.&#xd;
+&#xd;
+&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/milk_produced&quot;);%&gt;&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/push_once&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

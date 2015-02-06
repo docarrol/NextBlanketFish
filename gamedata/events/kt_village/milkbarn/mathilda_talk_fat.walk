@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/mathilda_talk_fat</name>
+  <descr>[proxy] notices that Mathilda is free for a moment and approaches her. Maybe she can share some tips.&#xd;
+&#xd;
+-Hello [proxy], I really need to have a talk with you.&#xd;
+&#xd;
+[proxy] wonder what [heshe] has done wrong.&#xd;
+&#xd;
+-Yesterday I noticed Karin walking around. She is starting to get a bit heavy lately. The milk girls are allowed to have some meat on their bones, but Karin is starting to get more meat than bones if you know what I mean. At some point this is going to influence the quality of her milk. The milk machines are also not designed for very fat girls. I suggest some exercise and less food. That should get her back in shape in no time.  &#xd;
+&#xd;
+For the food provided by the milking machines, one doses is enough to produce 10 liters of milk. Karin’s body also needs some food to function so you can round up. The food provided during the milking is very effective, overfeeding Karin will make her gain weight fast.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karin_fat_first&quot;,2);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;karin_fat_first&quot;)==1</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

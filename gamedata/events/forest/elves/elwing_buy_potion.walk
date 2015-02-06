@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_buy_potion</name>
+  <descr>[proxy] asks Elwing if [heshe] can buy some of her special potions.&#xd;
+&#xd;
+-Sure what kind of potion do you want? All potions cost currenlty 100 coins.&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen14.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>For breasts</name>
+      <value>forest/elves/elwing_potion_vwhite</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>For balls</name>
+      <value>forest/elves/elwing_potion_white</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>For vagina</name>
+      <value>forest/elves/elwing_potion_pink</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

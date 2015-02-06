@@ -15,6 +15,11 @@
       <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
+      <name>Work as Paid Eater</name>
+      <value>city/redlight/cafe/eating/start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
       <name>Exit</name>
       <value>city/redlight/cafe/interior</value>
       <chance>0</chance>

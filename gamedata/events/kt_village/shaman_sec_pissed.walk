@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/shaman_sec_pissed</name>
+  <descr>The shaman looks now absolutely pissed.&#xd;
+&#xd;
+-Even after that warning you continue to object to my decisions, but I agree 16 liters is a bit much. You only have to provide 15 liters. A female has two breasts so that is 15 liters per breast. I don´t care how you do it but to even have the slightest chance of ever passing this test you should provide 30 liters of milk with your breasts. Anymore objections, there is a complete village of thirsty man waiting for that milk of yours so please object more.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>char/Shaman.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Agree with the shaman</name>
+      <value>kt_village/shaman_sec_res_pissed</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_huge_bj_2</name>
+  <descr>[proxy] decides to not swallow Elwing’s special cum. Some power full strokes from [proxy] hands on Elwing’s penis and Elwing comes. [proxy] was prepared from Elwing coming a lot but not this. [proxy] is too late removing [hisher] head from the front of Elwings pennis and [hisher] face is showered by a stream of cum. Before [proxy] could reposition [hisher]self, Elwing unleashes the second blast that hits the ceiling. &#xd;
+&#xd;
+[proxy] quickly retreats to a corner of the room and watches how Elwing’s monster dick keeps blasting cum. The cum hitting the ceiling is spread through the entire room. When Elwing finally stops cumming, most of the lower half of her room is covert in a layer of cum. Below the spot where Elwing’s cum hit the ceiling, a verry large puddle of cum has been collected.&#xd;
+&#xd;
+-Just look at this, with all this cum no longer inside my body I must be nearly at my old weight again. Thank you [proxy].&#xd;
+&#xd;
+[proxy] looks to Elwing, her balls are indeed a lot smaller now they are not longer completely full of cum but that fat belly is still present. Elwing picks the last scale that has food remaining that is now completely covert with cum. She puts the scale at her mouth and shoves the food and cum inside.&#xd;
+&#xd;
+When [proxy] leaves the now white room [heshe] notices some male servants carrying scales filled with more food. When the first one opens the door and see’s what state Elwing’s room is in, he drops the scale he was carrying. Cleaning the mess created by Elwing is going to take some time.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;elf_breed&quot;,9);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays());&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen11.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/elves/village_center</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

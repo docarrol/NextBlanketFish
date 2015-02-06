@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_white_bottle_1</name>
+  <descr>[proxy] decides to drink only a single glass. The liquid taste a bit like sperm mixed with some herbs. After [proxy] drinks the entire glass, [hisher] balls feel a bit hot. [proxy] balls and pouch starts to fill them self up at a rapid rate with sperm. After a few minutes [proxy] balls and pouch is full and [hisher] balls already start to become less active.&#xd;
+&#xd;
+Not much later the assistant enters the room.&#xd;
+&#xd;
+-Follow me, I will take you to Elwing.&#xd;
+&#xd;
+&#xd;
+&lt;% &#xd;
+self.setStat(&quot;balls.sperm_volume&quot;,self.getStat(&quot;balls.max_volume&quot;));&#xd;
+self.setStat(&quot;pouch.sperm_volume&quot;,self.getStat(&quot;pouch.max_volume&quot;));&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_afterwhitebottle_1</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

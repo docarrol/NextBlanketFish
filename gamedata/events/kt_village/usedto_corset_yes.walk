@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/usedto_corset_yes</name>
+  <descr>[proxy] returns to Thovila now a bit more used to wearing the corset.&#xd;
+&#xd;
+-I would like your help with something but first let me check how my corset is functioning.&#xd;
+&#xd;
+Thovila spends a good amount of time checking every part of the corset and pays extra attention to the part located at [proxy] belly.&#xd;
+&#xd;
+-Your stomach seems to be large enough for my plan to work. Now let me tell you my idea. This new corset is something brand new far beyond anything the nobles have ever seen. If I would sell my new corset to just any noble, how rich or famous he or she might be, it becomes the new trend of the nobles and I get bombarded with requests to make more. My work then changes in some sort of production line and I really don’t want that. Now I have tasted progress and new technologies I want to experiment more. For that I need coin and materials, plain and simple.&#xd;
+&#xd;
+My idea is to market my goods as artifacts, extremely rare and costly. This way I can experiment with new technologies and designs without all the nobles breathing in my neck. For this I require your help. The only way to make my goods that exclusive is directly selling to the dwarven royal family. They are known to be extremely private, even for the most power full nobles it is very hard to meet them. I know a method you could use to meet one of them, but it involves going to a dwarven party. Because of this, you require a stomach that is at least your size. The compressing magic should help a bit, but even with that you need a big stomach too even pass the first few guest. If really hope you are willing to help, nearly all my rare materials and goods I had left are now used for your corset.&#xd;
+&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;thovilawait&quot;) &lt; clock.getDays() &amp;&amp; GetPerFlag(&quot;dwarf_crash&quot;)==5 &amp;&amp; self.getStat(&quot;abdomen.stomach_volume&quot;)&gt;=15000 &amp;&amp; GetPerFlag(&quot;cadha&quot;)&lt;1</conditions>
+  <picturePath>kt_village/Blacksmith.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Help Thovila</name>
+      <value>kt_village/dwarvenparty/helpthovila</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

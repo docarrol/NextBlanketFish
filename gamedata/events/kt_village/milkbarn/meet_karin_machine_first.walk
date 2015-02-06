@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_machine_first</name>
+  <descr>[proxy] enters the room where Karin is waiting for [proxy] and together the walk to Mathilda’s office. Mathilda is still in a meeting so they have to wait for a bit. Once Mathilda is finished she tells them to follow her.&#xd;
+&#xd;
+They walk through the milk barn and arrive in the area behind the milking machines. Mathilda enters a door in a corner and they enter a hallway that is normally not used.&#xd;
+&#xd;
+-This is my own private area. Milking and everything surrounding it has been obsession for me for a long time. As a hobby I collect machines used for milking. Many of these machines are either replaced by more effective machines or not used in common practice.&#xd;
+&#xd;
+Because of the transfer of tissue by the shaman, you milk production has been boosted. But to win the dual you do not only need a good milk production but also the storage capacity to use it. We only have a very limited time before the dual and you have to let your breast fill up before the dual leaving us even less time. The machine I’m going to show you can help you with that but I have to warn you. The process is very painful but effective. Although the machine provides great results it is not used anymore because of the pain involved with it.&#xd;
+&#xd;
+I must confess, in my early days of being a milk girl myself I used the machine too. Thinking about it still makes me shiver.&#xd;
+&#xd;
+[proxy] looks at Karin who looks a bit scared.&#xd;
+&#xd;
+-If this can make me win the dual I will do it, how painful it might be.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;Talia_quest&quot;)==4 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/intro_machine_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

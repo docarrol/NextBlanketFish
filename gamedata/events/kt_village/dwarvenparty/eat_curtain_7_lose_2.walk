@@ -1,0 +1,47 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_7_lose_2</name>
+  <descr>The assistant calls the results.&#xd;
+-The other guests have been neglecting you, let me fix that for you. I have some perfect food for this occasion&#xd;
+&#xd;
+Instead of food a hose is brought in by the assistant.&#xd;
+&#xd;
+-I got a nice batch of nectar but storing it can be a bit of a pain, that is why it is served straight from the tank.&#xd;
+&#xd;
+The assistant helps you put the hose in your mouth. The mouth piece suddenly expands preventing [proxy] from removing it. Soon a large stream of a very sweat liquid leaves the hose. Since the hose cannot be removed, [proxy] can only swallow the liquid. For what feels like ages, liquid is pumped inside [proxy] mouth then the flow suddenly stops. [proxy] belly feels very full.&#xd;
+&#xd;
+-I’m sort of a information broker and I heard something very interesting about that corset of yours.&#xd;
+&#xd;
+The assistant starts doing something and soon you feel the compression function of the corset activate. How did she know about that, only three people on this world should have knowledge about it.&#xd;
+&#xd;
+-Remarkable, I might ask Thovila to craft the same thing for me, now let us see how good it works.&#xd;
+&#xd;
+The nectar starts flowing again leaving [proxy] the only option to swallow it to [hisher] stomach that has now room again. For what feels like ages, liquid is pumped inside [proxy] mouth then the flow suddenly stops.&#xd;
+&#xd;
+-I hope you enjoyed the nectar, it loses most of its taste when it comes into contact with air, that why this special drinking method is used.&#xd;
+&#xd;
+[proxy] meanwhile feels a large sloshing mass inside of her stomach. The rest of the time till the gong is used for recovering after the forced drinking method and some small talk with the dwarf. Once the gong sounds, [proxy] leaves for the next curtain.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, (4-GetPerFlag(&quot;dwarfparty_eat&quot;))*1000);&#xd;
+self.setStat(&quot;abdomen.food&quot;, 10000);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;, GetPerFlag(&quot;dwarfparty_eat&quot;)+1);&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;dwarfparty_eat&quot;)&lt;3</conditions>
+  <picturePath>kt_village/dwarfs/dwarf7.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

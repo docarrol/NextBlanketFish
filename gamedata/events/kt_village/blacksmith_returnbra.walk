@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/blacksmith_returnbra</name>
+  <descr>Thovila is hammering on another piece of metal. Without looking she asks you&#xd;
+&#xd;
+-Back again, you better brought enough money with you this time.</descr>
+  <conditions>GetPerFlag(&quot;blacksmith_talk&quot;)==1 &amp;&amp; GetPerFlag(&quot;support_bra&quot;)&lt;1;
+
+</conditions>
+  <picturePath>char/Thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy bra (500)</name>
+      <value>kt_village/blacksmith_buybra</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

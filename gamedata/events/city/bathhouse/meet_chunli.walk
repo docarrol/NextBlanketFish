@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_chunli</name>
+  <descr>[proxy] walks on the beach looking for a person suitable as massager in the bathhouse. At a quite spot &lt;%activePartner.HeShe();%&gt; notices a girl with a good build. She seems to be training in some sort of martial art. [proxy] waits for a bit for the girl to finish her series of moves and then approaches her.&#xd;
+[proxy] introduces [himher] to the girl explains that [heshe] owns a bathhouse and is looking for a strong person to massage some customers. [heshe] wonders if the girl is interested in a job.&#xd;
+&#xd;
+-My name is Chun Li and I’m training to become the strongest martial artist in the country. I think I have the strength part covert and because of my martial art training I also know a lot about the human body. My massaging should really reduce the stress of your customers but I only work under some conditions.&#xd;
+&#xd;
+[proxy] asks Chun Li what her conditions are.&#xd;
+&#xd;
+-My goal is to become the strongest martial artist in the country, because of this I need to spend sufficient time on my training each day. I can work for you part time so I have the necessary funds to reach my dream. Is that fine?&#xd;
+&#xd;
+[proxy] agrees to that and tells her to meet  Vulpsia after she finishes her training who will fill her in on the details.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,15);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==14</conditions>
+  <picturePath>bathhouse/chunli1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>sea/beach</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartfourstart</name>
+  <descr>When [proxy] walks towards the table &lt;%activePartner.HeShe();%&gt; notices that the number of spectators for the eating competition is much higher than previous times. Is that a camera? Looking at the other contestant you noticed one or two familiar faces. Wait, are those not professionals. [proxy] wonders where the hell &lt;%activePartner.HeShe();%&gt; has gotten &lt;%activePartner.HimHer();%&gt; into. The competitors next to [proxy] is doing some kind of yoga while another one is playing loud music trough his headphones. Soon Vicky appears in front of the table.&#xd;
+&#xd;
+&#xd;
+-Welkom to Vicky&apos;s specialties eating competition. People from far and wide come to this shop for my famous éclairs. Some say they are the best in the country, all I know is that they are delicious. During this comment she pats her sizable belly. &#xd;
+For this competition I tried my very best and created 5 extra special super sized éclairs. Even with this high level of competitors I wonder if someone can finish one. That is why I double the price for the person who completely eats my éclair of deliciousness.&#xd;
+&#xd;
+With that said, Vicky moves to the kitchen and comes back with a single plate of the largest éclair [proxy] has ever seen.&#xd;
+&#xd;
+-Sorry guys, you got to wait for a bit, I can only carry one at the time.&#xd;
+&#xd;
+Judging the size that is no surplice. Four more trips later and every contestant has his own éclair. Those 5 éclairs combined could provide a decent meal for a small village.&#xd;
+&#xd;
+-Everyone ready? You can start eating.</descr>
+  <conditions>GetPerFlag(&quot;eating.comp&quot;)&gt;=4</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Eat the first halve</name>
+      <value>muffin_top/eatingpartfourfirst</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Too full</name>
+      <value>muffin_top/eatingpartfourfail</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Too small</name>
+      <value>muffin_top/eatingpartfoursmall</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/use_machine_first</name>
+  <descr>Mathilda guilds [proxy] and Karin to one of the doors and enters. The room is relative small and only a small amount of equipment is visible.&#xd;
+&#xd;
+Mathilda guides Karin to the center of the room and puts her arms in some sort of handcuffs hanging from the ceiling. &#xd;
+&#xd;
+-sorry for that but you will need those.&#xd;
+&#xd;
+Next Mathilda straps Karin’s breasts in some sort of device. The last step is inserting a large needle in each of Karin’s nipples. Karin screams a bit from pain.&#xd;
+&#xd;
+-Your ready, now let me explain how this machine works. I have a storage tank with milk that has no customer yet or for some other reason cannot be sent to customers. The milk is absolutely fine so don’t worry about that. This machine is going to pump your breasts completely full of that milk. The harness around your breasts is than tightened to increase the pleasure even more. After a few minutes the harness is loosened and the created space is filled again with milk.&#xd;
+&#xd;
+Mathilda then pushes a button and milk becomes visible in the tubes leading to Karin’s breasts. Before [proxy] eyes Karin’s breast slowly increase in size till they are completely full of milk. A small reservoir in the middle of the tubes slowly fills, this mass of milk is responsible for the milk pressure in Karin’s breast trough gravity. Once the reservoir is full no more milk is pumped in it and [proxy] notices that the harness around Karin’s breasts is tightening. &#xd;
+&#xd;
+Karin was already looking more and more uncomfortable when more milk was pumped inside her breasts. Now she starts screaming from pain. [proxy] notices that Mathilda also has a painful face and holds both of her large breast with a hand. &#xd;
+&#xd;
+-The first one is the worst, after that you just go numb. Hold on, you can do it.&#xd;
+&#xd;
+The process of pumping the free space full of milk and then compressing again is repeated a number of times. Karin screams from pain multiple times and even loses continuous for a bit once. When the machine is ready Mathilda removes the large needles in Karin’s nipples. Jets of milk blast out. Mathilda then takes Karin to another room. It contains a milking machine that gently at a very slow rate milks Karin’s breasts.&#xd;
+&#xd;
+-This machine is great for painful breasts but useless for normal milking, it is to slow for that.&#xd;
+&#xd;
+After a long while Karin’s breasts are finally empty. [proxy] notices that Karin’s breast look now a bit bigger.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)*0.98));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)*1.2));&#xd;
+SetPerFlag(&quot;karin_ener&quot;,(GetPerFlag(&quot;karin_ener&quot;)-20));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/train_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

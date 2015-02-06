@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_2_win</name>
+  <descr>[proxy] makes a closed fist, the female dwarf makes the pick move.&#xd;
+&#xd;
+-Pick loses from metal, it’s your win. Although to be honest I think you lose, you can’t eat this delicious meal now.&#xd;
+&#xd;
+A giant cooked bird is brought in and the female dwarf starts eating. Once she has finished an the gong sounds, [proxy] walks to the next curtain.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>calc.chance(33)</conditions>
+  <picturePath>kt_village/dwarfs/dwarf2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

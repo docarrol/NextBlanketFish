@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_8_win</name>
+  <descr>[proxy] decides to try to lose. [heshe] switcher the 2 and 5 for two new cards. The final score of [proxy] is 26. Cadha shows her hand and has 19.&#xd;
+&#xd;
+-You won, judging by your cards you actively tried to win. Not many people dare to perform such a feat in front of royalty. I appreciate your guts. I had just ordered the chef to make me an ox marinated in Spring Valley honey. One of my favorite dishes so I知 happy I can eat it myself.&#xd;
+&#xd;
+Two waitresses push a card inside with on top a massive roasted ox. The stomach of Cadha must be absolutely massive if she normally eats this. Without much thought Cadha picks the first large leg of the roasted ox and starts eating. While eating Cadha asks [proxy] about the outside world. Being royalty she spends all her time surrounded by guards inside the royal palace. She seems very interesting about the facts of normal life [proxy] can provide. &#xd;
+&#xd;
+At some point Cadha tells [proxy] to grab a leg of the ox.&#xd;
+&#xd;
+-I know that normaly only the loser may eat but I知 the host of this party, I知 sure the rest don稚 mind if I bent the rules a bit. With all the talking eating the ox by myself takes a bit longer than usual. If you eat a leg too, I should be able to finish it before the gong.&#xd;
+&#xd;
+[proxy] takes a leg of the massive ox, it is large enough to be served as any of the other dishes at this party. [proxy] starts eating the ox leg and soon [hisher] face is a mess because of the honey marinade present on it. Cadha eats meanwhile the rest of the ox in record speed. When the complete ox is finished Cadha talks a bit more with [proxy]&#xd;
+&#xd;
+-I liked your company and you showed some guts, you know what, come to the palace at a later time. I知 sure a sister of mine is interested in the new type of corset you are wearing. We can also talk a little more about the outside world then. I normally only talk to nobles and they are so boring. Since you accomplished your purpose here, use this exit, this should get you outside without anyone disturbing you.&#xd;
+&#xd;
+Cadha points towards the servants entrance for her area. [proxy] thanks Cadha and states that [heshe] will surely visit her in the future. [heshe] then leaves trough the servants entrance and is escorted outside of the restaurant. A servant guides [proxy] back to the zeppelin.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 25000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;, 0);&#xd;
+SetPerFlag(&quot;partycurtain&quot;, 0);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_curtain_8_final_win</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

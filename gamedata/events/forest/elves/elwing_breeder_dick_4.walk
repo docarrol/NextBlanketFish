@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_breeder_dick_4</name>
+  <descr>-The elder has asked me to prepare you for her. Follow me.&#xd;
+&#xd;
+[proxy] follows the assistance the same room as last time.&#xd;
+&#xd;
+-She asked me to ask you if you drink the liquid before you visit here. Drinking only one glass is sufficient but you can drink the entire bottle if you want for some more interesting effects.&#xd;
+&#xd;
+The assistant then leaves the room, leaving [proxy] in the room with the bottle. How much is [proxy] going to drink from the a bit pink white liquid?&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==6 &amp;&amp; GetPerFlag(&quot;elwing_wait&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>The entire bottle</name>
+      <value>forest/elves/elwing_pink_bottle_2</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>One glass</name>
+      <value>forest/elves/elwing_pink_bottle_1</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

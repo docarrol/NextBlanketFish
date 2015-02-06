@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_breeder_dick_6</name>
+  <descr>[proxy] enters Elwing’s room and detects Elwing sitting on the floor surrounded by scales. Some of the still contain food but most are empty. The once thin and fit Elwing has now a decent sized pot belly. Her belly show no signs of pregnancy so it most likely consist of a thick layer of fat. Below her fat belly a penis even thicker and bigger than before is visible. The increase in penis size is negligible compared with the increase of her balls. Each of her two balls has the same size of her head. Once [proxy] has entered the room Elwing stops eating just long enough to talk to [proxy]&#xd;
+&#xd;
+-All the girls are either immobile or too pregnant to have sex with me. Look at what that caused my balls to do. With nowhere to pump their load in they just keep swelling. Do you know how heavy they are. Yesterday is was standing on the scales, do you know what it told me, that I’m over 100kg. Can you belief it, before I met you I was just above 50. These huge balls and dick must weigh 50 kg.&#xd;
+&#xd;
+[proxy] doubts her balls and penis weight together 50 kg. They are extremely large but Elwing completely seems to ignore her now fat belly. If she keeps eating like this [proxy] highly doubt that she is staying her current weight for long.&#xd;
+&#xd;
+-You have to help me lose some of this weight. Come here and let me fuck you, letting out all this stored up sperm will surely makes me a lot lighter.&#xd;
+&#xd;
+Before [proxy] eyes Elwing’s penis starts to get hard. It becomes even longer and thicker. Last time Elwing’s penis barely fitted in [proxy] pussy now there is no chance. The least [proxy] can do is try giving Elwing a blowjob. [proxy] approaches Elwing and starts stroking her massive dick with both [hisher] hands, meanwhile [heshe] starts licking Elwing’s penis head. When Elwing notices [proxy] has no intension of catch her dick with [proxy] vagina, she starts to cry and shove even more food in her mouth&#xd;
+&#xd;
+-I have become too big to fuck anyone. Why is my body doing this to me. First it makes me so horny and now it stops me from even having a good fuck.&#xd;
+&#xd;
+From Elwing’s penis the first load of pre cum erupts. While continuing to lick Elwing’s penis head, [proxy] taste some of the pre cum. It tastes a lot like the liquids Elwing had [proxy] drink before without the herbs. Because of the special effects those two liquids had, [proxy] strongly suspect that Elwing’s cum has some special properties. Elwing’s balls are completely filled with thick cum. [proxy] can either swallow as much cum as [hisher] stomach allows. This will most likely have some effect on [hisher] body. Or let Elwing cover the room in her sperm, a bit of a loss but it will have no effect on [proxy].</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==8 &amp;&amp; GetPerFlag(&quot;elwing_wait&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>elves/queen11.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Swallow it</name>
+      <value>forest/elves/elwing_huge_bj_1</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Let Elwing paint the room</name>
+      <value>forest/elves/elwing_huge_bj_2</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

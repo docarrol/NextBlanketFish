@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>kt_village/second_part</name>
-  <descr>This part of the village is mostly hidden in the forest foliage. Houses here have more advanced architecture. [Proxy] can see large stone pillar with sculpted decorations raising here.  Is this a totem, or something else, related to the Kau&apos;s culture?
+  <descr>This part of the village mostly hidden in the forest foliage. Houses here more advanced by architecture. [Proxy] can see large stone pillar with sculpted decorations raising here.  Maybe this is totem, or something other, related to the Kau&apos;s culture.
 
-&lt;%location = &quot;kau_second_part&quot;; chars = &quot;kau_village_members&quot;;  AddObject(&quot;continue_event_return&quot;, &quot;kt_village/second_part&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;commoners/street&quot;);%&gt;</descr>
+&lt;%location = &quot;kau_second_part&quot;; chars = &quot;kau_village_members&quot;; bgimage = &quot;kt_village/second_part.jpg&quot;; AddObject(&quot;continue_event_return&quot;, &quot;kt_village/second_part&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;commoners/street&quot;);%&gt;</descr>
   <conditions>1</conditions>
   <picturePath>kt_village/second_part.jpg</picturePath>
   <choices>
@@ -18,12 +18,23 @@
       <name>Shaman House</name>
       <value>kt_village/second_shaman_house</value>
     </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Inspect modern looking building</name>
+      <value>kt_village/milkbarn/first_time</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enter milkbarn</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use card to return to village (2h)</name>
+      <value>kt_village/milkbarn/forrest_walk_city</value>
+    </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
   <time>0</time>
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

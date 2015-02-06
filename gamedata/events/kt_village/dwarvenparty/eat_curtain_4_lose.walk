@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_4_lose</name>
+  <descr>The female dwarf tells the first question. Somewhere between inverse and cube root [proxy] completely lost the question. When [proxy] tells the dwarf that [heshe] has no idea what the answer is, she starts smiling.&#xd;
+&#xd;
+-Of course you don’t. Only a true fool would work for Thovila. I had prepared a exclusive meal made of camel flavored with seaweed and I have to let you eat it. You should remember every bite and moment of it, because this is the best meal you will ever eat.&#xd;
+&#xd;
+A large plate with a large chunk of meat is brought in. When [proxy] tastes it if actually is rather bland and tasteless. It might be a lot of meat but [proxy] has eaten much better meals already. When [proxy] has finished the large chunk of meat the gong sounds, [proxy] leaves before the dwarf can make any more annoying comments.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 20000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;, GetPerFlag(&quot;dwarfparty_eat&quot;)+1);&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

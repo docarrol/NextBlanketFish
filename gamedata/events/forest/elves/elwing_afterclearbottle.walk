@@ -1,0 +1,58 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_afterclearbottle</name>
+  <descr>[proxy] enters Elwing’s room and is greeted by the intense smell of sperm. Elwing is stoking her massive dick with one hand while eating food with another. She sports a clearly pregnant belly. The huge load you dumped inside her seem to have done it job.&#xd;
+&#xd;
+-Hello [proxy], how do you like my new dick. Impressive is it not. This larger dick makes me even hornier than before and somehow I have become very hungry also. Must be because of the baby  and all the cum I’m producing.&#xd;
+&#xd;
+At that moment the door of Elwing’s room is opened an three visible pregnant elfs bring a couple of large scales of food inside the room. Elwing let her dick alone for a moment and set one of the scales at her mouth. She then let the entire content of the scale slide in her waiting mouth. It seems she does not even chews but swallows the food right away. She might be pregnant and a cum fountain but you highly doubt that that is going to take all the calories she just shoved in her mouth.&#xd;
+&#xd;
+-come here and try this beast out. I’m sure it will be your best sex ever.&#xd;
+&#xd;
+[proxy] walks to Elwing who has just taken the next scale of food and is starting to eat again and slowly lowers [hisher] self on Elwing huge dick. [proxy] pussy is already dripping wet of the idea of fucking that huge dick so it faces little resistance when [proxy] shoves it inside. [proxy] manage to take a little over half the dick inside before [hisher] cervix blocks any further entry. [proxy] want to go up again to start fucking Elwing’s penis but Elwing has other ideas. With two smooth moves with her legs, Elwing kick away the legs under [proxy] body. [proxy] drops down on Elwing’s penis who shoots trough [proxy] cervix. [proxy] guesses that the liquid [heshe] drunk earlier must have made [hisher] cervix more flexible or else this would not be possible.&#xd;
+&#xd;
+Elwing’s tip of her penis is now located deep in [proxy] uterus. Elwing immediately starts to cum, pumping her sperm right inside [proxy] uterus. The feeling of getting a dick hammered in [hisher] uterus also makes [proxy] come. Because of [proxy] own orgasm [heshe] hardly notices the huge amount of cum Elwing is depositing in [hisher] uterus. [proxy] belly is rapidly selling with all the cum Elwing is pumping in it.&#xd;
+&#xd;
+-you must know I saved a complete day of cum for this. Being so horny and not cumming is really a challenge but seeing you like this makes it all worth it.&#xd;
+&#xd;
+While Elwing is talking, [proxy] feels her pumping even more cum in [hisher] uterus. [proxy] uterus is now completely filled with cum but Elwing shows no signs of slowing down. [proxy] cervix is blocked by Elwing’s huge dick so the cum has nowhere to go. Every available millimeter of [proxy] uterus is filled with Elwing’s cum and [proxy] even feels [hisher] uterus stretch a bit to hold more. Even at Elwing’s large balls comes an end and finally she stops cumming. She keeps her dick inside blocking the exit of [proxy] uterus.&#xd;
+&#xd;
+-You know, I found it unfair that I’m the only one of us two that is pregnant. And this is the second time you knocked me up. Now I made sure I did the same with you. The liquid you drank made you release some eggs, I hope you drank the entire bottle, than your baby will have friends inside.&#xd;
+&#xd;
+It seems Elwing just knocked you up good with at least one elven baby. Judging by your belly and the fact that your cervix is still plugged by Elwing, you know that every available egg in your body must have been fertilized by the liters of cum in your uterus.&#xd;
+&#xd;
+After Elwing finishes two more scales with food, girl got to eat after pumping so much cum, she allows [proxy] to leave. When Elwing removes her large dick from [proxy] pussy a jet of cum follows. The large pressure in [proxy] uterus is gone but it is still swimming in cum. Before [proxy] leaves Elwing tells her that the next two weeks Elwing is going to have to focus on her pregnancy, also, the trip through the forest is not recommended while pregnant. Come back after you delivered your just fertilized eggs.&#xd;
+&#xd;
+&lt;% &#xd;
+Include(&quot;char/elwing_init&quot;);&#xd;
+elwing.setStat(&quot;generic.arousal&quot;, 52);&#xd;
+proxy.setStat(&quot;uterus.phase&quot;, 1);&#xd;
+proxy.setStat(&quot;uterus.cycle&quot;, 0);&#xd;
+proxy.addEffect(&quot;fertility.human&quot;, &quot;tmp_effect&quot;, 100, 24);&#xd;
+&#xd;
+act = elwing.doAction(&quot;orgasm&quot;);&#xd;
+vol = act.get(&quot;penis&quot;, &quot;cum&quot;);&#xd;
+InjectSperm(elwing, proxy, vol);&#xd;
+taker = proxy;&#xd;
+giver = elwing;&#xd;
+volume = vol;&#xd;
+&#xd;
+SetPerFlag(&quot;elf_breed&quot;,8);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays()+14);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;% Include(&quot;sex/cumshot/vaginal&quot;);&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen10.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/walk_back</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

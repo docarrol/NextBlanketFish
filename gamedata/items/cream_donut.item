@@ -1,0 +1,20 @@
+<fetishmaster.items.Item>
+  <name> Edesia&apos;s cream donut</name>
+  <descr>A donut filled with cream provided by a goddess and the taste is proof of that.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addStat(&quot;generic.health&quot;, 10);&#xd;
+self.subStat(&quot;generic.tiredness&quot;, 20);&#xd;
+self.addStat(&quot;generic.calories&quot;, 2000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 200);&#xd;
+self.addStat(&quot;generic.arousal&quot;, 10);&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+&quot;&quot;;</useScript>
+  <useText>The Cream Donut tast delicious and is gone before you know it. It does feel rather heavy in your stomach.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1</value>
+  <sellValue>0</sellValue>
+  <weight>0.1</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/neferi_special_offer_sorceress</name>
+  <descr>-You have served a good number of my customers. I have a regular who can be a bit more demanding than a normal customer. Rumors are that she is a sorceress, because of this; some workers don’t like to serve her. Are you interested?&#xd;
+&lt;% DisplayChar(&quot;char/neferi.png&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>city/brothel/offer_sorceres_yes</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>city/brothel/offer_1_no</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

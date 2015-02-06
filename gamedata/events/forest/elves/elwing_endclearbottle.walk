@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_endclearbottle</name>
+  <descr>&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen10.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

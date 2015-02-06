@@ -1,0 +1,51 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_enterance_milk_end</name>
+  <descr>[proxy] enters Morgan’s shop and after getting used to the darkness, notices that Morgan is not in the shopping area. In a room in the back [proxy] finds Morgan with boobs of a much larger size than normal.&#xd;
+&#xd;
+-Good you are just in time. I managed to perfect my spell to make my boobs provide milk but this new size is a bit annoying.  They are also starting to get a bit full; you are going to help me with that. Now follow me.&#xd;
+&#xd;
+[proxy] follows Morgan to her hobby room where both [proxy] and Morgan start to undress. &#xd;
+&#xd;
+-Lay down on the bed.&#xd;
+&#xd;
+[proxy] lays down on the large bed positioned in the center of the room and Morgan starts stroking and sucking [proxy] &lt;% IncludeRange(proxy.getStat(&quot;penis.length&quot;),&quot;penislength&quot;);%&gt; penis. She soon switches the focus of one of her hands to [proxy]  &lt;% IncludeRange(proxy.getStat(&quot;balls.size&quot;),&quot;ballssize&quot;);%&gt; balls. Once [proxy] penis has reached its maximum size, Morgan stops sucking it.&#xd;
+&#xd;
+Without any preparations from [proxy] Morgan shoves [proxy] &lt;% IncludeRange(proxy.getStat(&quot;penis.length&quot;),&quot;penislength&quot;);%&gt; penis inside her pussy. The horny sorceress is already so wet that [proxy] hardly feels any resistance. With [proxy] dick now inside, Morgan starts moving. Morgan grabs [proxy] hands and guides them to her boobs. &#xd;
+&#xd;
+-My breasts are so full, milk them now.&#xd;
+&#xd;
+proxy] starts massaging Morgan’s boated tits. The nipples on Morgan’s breast start to get hard while nearly doubling in size, small droplets of milk appear on her nipples. [proxy] grabs both nibbles between [hisher] fingers and starts playing with them. Small milk streams shoot from Morgan’s swollen nipples, the pressure in Morgan’s boobs must be high.  The process of milking Morgan’s is extremely arousing because it does not take long for her to come for the first time. Even after Morgan has come, she keeps riding [proxy] on a steady pace while being milked. [proxy] and the bed are slowly getting covert in Morgan’s breast milk, not much later [proxy] is ready to blow his load.&#xd;
+&#xd;
+&lt;%Include(&quot;morgan/cum&quot;);%&gt;&#xd;
+&#xd;
+-Coming from being milked is great, but I really don’t like the mess it creates. Well it was an interesting experiment and I can probably transform this spell in something other people can use. I sell it to you in the future if you are interested.&#xd;
+&#xd;
+Morgan takes [proxy] to the library where she teaches [proxy] magic for a bit. &#xd;
+&#xd;
+-If you want to learn more, come back later.&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;magic_skill&quot;, GetPerFlag(&quot;magic_skill&quot;)+3);&#xd;
+SetPerFlag(&quot;morgan_milk&quot;,0);&#xd;
+SetPerFlag(&quot;spell_milk&quot;,1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;morgan_milk&quot;)==2 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

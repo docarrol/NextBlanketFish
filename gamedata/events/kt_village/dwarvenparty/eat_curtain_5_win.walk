@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_5_win</name>
+  <descr>Even with her now larger size, it is very clear that the dwarf was an expert fighter. [proxy] and the female dwarf are closely matched for the first couple of minutes but then the dwarf starts to slow down. She has clearly trouble breathing and drops of sweat are collecting all over. [proxy] makes a combination of swift moves, the first few hits the dwarf managed to block but then the first hit connects. A few hits latter and the dwarf surrenders. She drops down on a chair an take a moment to catch her breath.&#xd;
+&#xd;
+-A month ago I would have beaten your easy, but look at me now. A little sparring match and I’m out of breath and my drop in speed. &#xd;
+&#xd;
+The dwarf keeps complaining for a bit while showing [proxy] all her recently added fat rolls than the food arrives. To [proxy] surprise it is a massive slap of fat. She was complaining about her own fat and now she is serving fat, WTF. She eats it while still complaining about all recently added weight. The gong sound and [proxy] leaves for the next curtain.&#xd;
+&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>(self.getStat(&quot;generic.spd&quot;)+self.getStat(&quot;generic.end&quot;))&gt;90</conditions>
+  <picturePath>kt_village/dwarfs/dwarf5.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

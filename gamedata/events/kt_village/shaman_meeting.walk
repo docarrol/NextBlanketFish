@@ -1,0 +1,48 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/shaman_meeting</name>
+  <descr>[proxy] follows Kiana who does not seems to want to talk any more. Soon they leave the main road and follow an barley existing path trough the forest. At the moment [proxy] wants to ask how long they still have too walk &lt;%activePartner.HeShe();%&gt; sees a clearing in the forest. A large tau is standing in the middle of the clearing humming a strange melody with a white wolf at his feet.&#xd;
+&#xd;
+Kiana approaches the man.&#xd;
+&#xd;
+-Father I want talk with you.&#xd;
+&#xd;
+With a loud voice the Tau answers.&#xd;
+&#xd;
+-First you sneak continuously out of the village to see some idiotic peasants and now this. You brought a stanger to the village without permission and you dared too even take &lt;%activePartner.HisHer();%&gt; to this holy place. I did not raise my daughter like this. I deal with you later, now you better have a good reason why you brought that stranger here.&#xd;
+&#xd;
+Kiana quickly tells how you saved her and how nice you are. Finally she tells her father that you want to know more about the village.&#xd;
+&#xd;
+-You saved my daughter therefore you have my gratitude because of this I will allow you to perform the test of joining. Complete this trail and you might find the answer you’re looking for. The first trail is the trail of usefulness. This is completed by provide a useful service to the village you already passed this by saving my daughter. The next trail is the trail of fertility. For this you need to receive the blessing of the Diara, if you even managed to find her, give her this.&#xd;
+&#xd;
+[proxy] recieves a small bag filled with a combination of herbs.&#xd;
+&#xd;
+-Don&apos;t you dare to come back here before you finished it. You don&apos;t need to bring proof, I know if you succeeded when a see you. Now go and leave me to my meditation.&#xd;
+&#xd;
+[proxy] returns with the help of Kiana back to the main road.&#xd;
+&#xd;
+I&apos;m sorry for any trouble I caused you Kiana.&#xd;
+&#xd;
+-Don&apos;t worry, that is what friends do for each other.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;diara_herbs&quot;, 1);&#xd;
+SetPerFlag(&quot;dense_breast&quot;, 2);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>char/Shaman.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

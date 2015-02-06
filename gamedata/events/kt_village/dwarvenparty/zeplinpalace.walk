@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/zeplinpalace</name>
+  <descr>[proxy] approaches Thovila and asks if she can arrange transportation to the royal palace. Thovila walks to a strange device and pulls some levers and pushes some buttons.
+
+-You have to wait for a bit till a zeppelin arrives. Care for some beer.
+
+[proxy] and Thovila drink a mug of beer togheter while making small talk. After some time has passed a horn sounds from the strange device.
+
+-your ride is here.
+
+[proxy] walks outside and not far away a merchant zeppelin has landed. When [proxy] go’s onboard the captain tells [proxy] that it is an honor to transport a friend of the royal family. A couple of hours the zeppelin arrives at Ironvile. 
+
+[proxy] is greeted by a servant from the royal palace who takes [himher] straight too it. Near the entrance they meet the captain of the guard.
+
+-Although you are a royal guest I still have to search your, sorry safety first. 
+
+After a quick search [proxy] is guided to the large palace to Cadha’s room.
+
+[proxy] and Caha make some small talk and they arrive at the subject of Caha’s boddy.
+
+-I can show you it a bit better this time, follow me.
+</descr>
+  <conditions>GetPerFlag(&quot;cadha&quot;)==4 &amp;&amp; self.getStat(&quot;abdomen.food&quot;)&lt;=0</conditions>
+  <picturePath>kt_village/dwarfs/ironhill.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/princess_bedroom</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>4</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

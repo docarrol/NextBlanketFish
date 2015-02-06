@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat3_palace_end</name>
+  <descr>[proxy] wakes up in a bed in Thovila’s house.&#xd;
+&#xd;
+-Welcome back, it seems you managed to impress Cadha’s sister because I already received an appointment with a assistance to discuss the details about her new corset. Judging by the state of the special magic circuits you must have eaten a lot with them to convince them. Luckily Christian managed to created that magic circuit that made your stomach a normal weight else it might have crushed every organ in your body.&#xd;
+&#xd;
+[proxy] remembers the food eaten first with Cadha and her sister and after that with Cadha alone and shivers.&#xd;
+&#xd;
+-You ate so much, it seems you completely worn out the  new magic circuits. It should last till you have digested this meal but after that I fear the compression magic cannot longer be used.&#xd;
+A servant that brought you to the zeppelin told me that you managed to befriend Cadha. If you want to visit her you should talk to me, I can arrange transportation for you, although I would wait for all that food to digest first. I hope you are still mobile after that.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;cadha&quot;,4);&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;,(self.getStat(&quot;generic.calories&quot;)/200), 168);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>char/thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>12</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

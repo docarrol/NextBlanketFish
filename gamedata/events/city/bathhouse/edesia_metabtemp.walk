@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_metabtemp</name>
+  <descr>[proxy] asks Edesia if she can make &lt;%activePartner.HisHer();%&gt; body temporary more active so &lt;%activePartner.HeShe();%&gt; can party more without becoming a whale.&#xd;
+&#xd;
+-sure, stand still for a moment.&#xd;
+&#xd;
+[proxy] notices a pink cloud leaving &lt;%activePartner.HisHer();%&gt; body and feels a bit lighter. The cloud disappears in Edesia who lets out a small moan.&#xd;
+&#xd;
+-That was some good stuff.&#xd;
+&#xd;
+[proxy] then feels &lt;%activePartner.HisHer();%&gt; body become a lot more active.&#xd;
+&#xd;
+-The blessing should last for a week. Have some fun with it.&#xd;
+&#xd;
+&lt;% &#xd;
+proxy.subStat(&quot;generic.fat&quot;,5000);&#xd;
+SetFlag(&quot;edesia_blessing&quot;,(GetFlag(&quot;edesia_blessing&quot;)+1));&#xd;
+self.addEffect(&quot;generic.metabolism&quot;, &quot;boostup&quot;,(0.8*(100-proxy.getStat(&quot;generic.metabolism&quot;))), 168);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.fat&quot;)&gt;5000</conditions>
+  <picturePath>bathhouse/edesia10.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/exitshrine</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

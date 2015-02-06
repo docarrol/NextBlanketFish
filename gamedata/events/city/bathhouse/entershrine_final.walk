@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entershrine_final</name>
+  <descr>[proxy] arrives at the shrine and notices that the large doors are already open. &lt;%activePartner.HeShe();%&gt; can enter the shrine unhindered.</descr>
+  <conditions>GetFlag(&quot;new_ priestess&quot;)==2</conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_end</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

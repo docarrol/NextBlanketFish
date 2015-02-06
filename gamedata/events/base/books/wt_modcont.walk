@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/books/wt_modcont</name>
+  <descr>The content added by this mod has some gender or content requirements. Below a short overview is given how to start each quest chain and what is needed.
+
+1. Vicky’s quest continuation, continues Vicky’s original quest.
+
+2. Fellis quest continuation, continues Fellis original quest.
+
+3. Bathhouse, unlocks trough rumor, same as brothel, for the shrine quest inside the bathhouse Vicky’s quest is required till the point you unlock stomach training.
+
+4. Sorceress, unlocks trough sufficient customers in brothel, female proxy has to change to futa to finish quest. Some extra events are unlocked by finishing Fellis and shrine quest.
+
+5. milk barn quest, located at second part of tau village, need to finish Fellis quest till you become friend of the tau. Female/futa only.
+
+6. Elven quest, search forest for start, only futa but female can do the first part, need sorceress quest to transform from female to futa.
+
+7. dwarven quest, search forest for start, need to finish most of the shrine quest in the bath house for large stomach and Fellis quest to become friend of the village.
+</descr>
+  <conditions>1</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

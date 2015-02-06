@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/proxy_machine_start</name>
+  <descr>[proxy] notices that Mathilda is free for a moment and approaches her. [proxy] asks if Mathilda has time available to help [himher] with one of the machines.&#xd;
+-You’re in luck; I have some free time now. Let me warn you again that the same side effects as when Karin was using the machines also happen to you. I suggest you make sure you are fully rested and in a good mood if you use one of the machines.&#xd;
+&#xd;
+One last thing you should keep into mind, it seems the milk volume in your breasts is based on another method than the volume of Karin. Must have something to do with being a proxy and much more complex organ’s then Karin. The result is that the volume of your breast will grow faster the larger it gets. If you don’t want to get stuck by your breast weight I suggest you keep that in mind. The only way I currently know of reducing breast size is using the milk of Olivia to decrease the size.&#xd;
+&#xd;
+So what training do you want to do today.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;karin_end&quot;)==2</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use machine for larger breasts</name>
+      <value>kt_village/milkbarn/proxy_machine_machine_1</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use machine for more productive breasts</name>
+      <value>kt_village/milkbarn/proxy_machine_machine_2</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use machine for both</name>
+      <value>kt_village/milkbarn/proxy_machine_machine_3</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/shaman_sec_res_weak</name>
+  <descr>[proxy] and Kiana then leave the clearing and return to the village. When they reach the main road again Kiana tells [proxy].&#xd;
+&#xd;
+-Good luck on with your next test. I doubt you need it but you might want to visit the blacksmith.&#xd;
+&#xd;
+[proxy] thinks it is a good time to return to Felis to give her a update.&#xd;
+&#xd;
+&lt;%&#xd;
+SetFlag(&quot;village_blacksmith&quot;,1);&#xd;
+SetPerFlag(&quot;dense_breast&quot;,4);&#xd;
+SetPerFlag(&quot;trail_milk&quot;,10);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

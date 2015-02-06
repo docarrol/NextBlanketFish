@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/shaman_sec_res_pissed</name>
+  <descr>[proxy] and Kiana leave the clearing quickly to avoid angering the shaman even more. . When they reach the main road again Kiana tells [proxy].&#xd;
+&#xd;
+-30 liters, you really made my dad mad. Even for Tau that amount is extreme. I suggest you go Thovila the blacksmith. She lives a bit the north of here. She might can help.&#xd;
+&#xd;
+Hopefully Felis has an idea how you could ever pass this task. Checking that blacksmith out also cannot harm.&#xd;
+&#xd;
+&lt;%&#xd;
+SetFlag(&quot;village_blacksmith&quot;,1);&#xd;
+SetPerFlag(&quot;dense_breast&quot;,4);&#xd;
+SetPerFlag(&quot;trail_milk&quot;,30);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

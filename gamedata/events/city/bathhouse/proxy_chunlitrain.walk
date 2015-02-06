@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/proxy_chunlitrain</name>
+  <descr>[proxy] follows Chun Li to the basement where a large number of very heavy training equipment is present. Chun Li help [proxy] with the first machine where [proxy] is nearly crushed by the weights.&#xd;
+&#xd;
+-Sorry, the machine setting is a bit too high for you. I sometimes forget my own strength.&#xd;
+&#xd;
+She removes the bulk of the weights of the machine and let [proxy] try again. This time [heshe] is not crushed but the weights are still very heavy. Chun Li helps [proxy] from machine to machine giving [proxy] an good training.&#xd;
+After the training [proxy] feels very tired and every muscle hurts. &#xd;
+&#xd;
+-With great pain comes great progress.&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.str&quot;, 7.5);&#xd;
+self.addStat(&quot;generic.spd&quot;, 2.5);&#xd;
+self.addStat(&quot;generic.end&quot;, 3.5);&#xd;
+self.addStat(&quot;generic.cha&quot;, 0.1);&#xd;
+self.addStat(&quot;generic.tiredness&quot;, 30);&#xd;
+self.subStat(&quot;generic.calories&quot;, 1750);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/chunlitrain.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

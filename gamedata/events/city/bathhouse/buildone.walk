@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/buildone</name>
+  <descr>Vulpsia takes [proxy] money and disappears. A hour later she comes back with her friend.&#xd;
+&#xd;
+They talk a bit about how the new layout of the bath area is going to be. Out of curtesy she involves [proxy] in this process but it is soon clear she knows what she is doing. Not much later the restoration of the bathing area is underway.&#xd;
+&#xd;
+&lt;% &#xd;
+RemoveMoney(2500); &#xd;
+SetFlag(&quot;bathhouse&quot;,2);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(2500)</conditions>
+  <picturePath>bathhouse/builder.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

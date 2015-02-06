@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/in_forest_arrow</name>
+  <descr>In the woods it&apos;s a little bit dark, but it seems quiet. [proxy] thinks [heshe] saw something in the forest. [heshe] leaves the path through the forest and walks through some bushes. Suddenly [heshe] feels a sharp pain from [hisher] arm. 
+
+[proxy] just got shot with an arrow. Maybe a hunter though [heshe] was wildlife or an attempt on [hisher] life. When looking closer where the arrow originated from [proxy] notices a person in a tree readying another arrow.
+
+[proxy] quickly hides behind the nearest tree and shouts: Don’t shoot, I’m a person and unarmed.
+</descr>
+  <conditions>Chance(30) &amp;&amp; self.getStat(&quot;generic.sex&quot;)&gt;=2 &amp;&amp; GetPerFlag(&quot;elf_breed&quot;)&lt;1</conditions>
+  <picturePath>elves/archer0.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/first_walk_village</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

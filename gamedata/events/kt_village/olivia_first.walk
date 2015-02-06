@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/olivia_first</name>
+  <descr>[proxy] follows the noise. Behind to the house [proxy] notices a woman swinging around a dangerous looking axe. Slowly approaching her [proxy] notices the breasts of the woman or more the lack of breasts. Every woman in the village so far had either large or huge breasts, these seem really small. They look like human breasts. The woman then notices [proxy] and shouts&#xd;
+&#xd;
+-Halt who is there. Come even one step closer and you will meet my axe.&#xd;
+&#xd;
+[proxy] immediately stops and starts explaining &lt;%activePartner.HisHer();%&gt; dealing with the village so far.&#xd;
+&#xd;
+-So you are a friend of Kiana. Nice girl, one of the only people that ever visits me. I belong to a part of the Tau history that most want to forget so they avoid me. I tried living in the village for a bit but I could not stand all the hostility.&#xd;
+&#xd;
+[proxy] tries to ask in the nicest possible way why the other Tau hate her so much.&#xd;
+&#xd;
+-The Tau is a proud race. The parts they are most proud of are their strength closely followed by the size of the female breasts. As you can see I’m lacking in that department.&#xd;
+A long time ago the Tau and another civilization fought a war. Because of the Tau&apos;s high strength woman also fought at the front lines. During war those large breasts we normally have proved to be a bit of a disadvantage. Lots of flesh too hit for the enemy if you know what I mean.&#xd;
+A crazy shaman taught of a solution. Our breasts are so large to provide plenty of milk once we have a child. Tau children are famous for their appetite. To reduce the size of the breasts he somehow managed to increase the milk production of our breasts. He then reduced the size so our output was equal to normal. I have no idea how he did it but those properties are transferred from mother to daughter.&#xd;
+Because of his curse our family is detested by the other Tau for generations already.&#xd;
+&#xd;
+Olivia looks a little sad and starts swinging her axe around again. It might be a good idea to come back later.&#xd;
+&#xd;
+&lt;%SetPerFlag(&quot;olivia&quot;,1); &#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;olivia&quot;)&lt;1;</conditions>
+  <picturePath>char/olivia.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

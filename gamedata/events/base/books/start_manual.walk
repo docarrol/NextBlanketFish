@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/books/start_manual</name>
+  <descr>Starters manual.
+
+-the proxy can currently be of three different genders, it is recomended to use a woman or futa as first proxy since a lot of content of the game involves females.
+
+-After you visited David and returned home, I suggest you start doing mental training first. This can be found in the trainings room of home. Start reading erotica till the mood bar on the left side no longer decreases or increases, then read hentai. While reading watch the tiredness meter above the mood meter don’t let your proxy become too tired or he/she leaves.
+
+-proxy cannot die in game but they will leave if they find their treatment to bad. They leave if their mood becomes too low. The mood drops either by doing stuff they don’t like, work in brothel without above mentioned training, or if they get too tired. They main reason why they leave in my experience is that they become too tired. If you setup tasks, keep in mind that the proxy is going to carry them out unless he/she is extremely tired. Taking a tired proxy home and then use next day while the proxy has other tasks then sleep is a sure way to make the proxy leave.
+
+-Save often. A small mistake can make your proxy leave and once he/she is gone, there is no way of getting him/her back. Save manually often to prevent losing a lot of progress.
+
+-Try doing most of the content with a single proxy. A lot of the events in this game are based around flags, for example: if you meet person X, SetPerFlag(X) to 1. A lot of these flags are recorded for the proxy you are playing with at the moment. If you try to continue the quest with another proxy at a later time there is a high chance this proxy misses the needed flag making the quest unplayable for another proxy than that started the quest.
+
+-Training only works for a limited amount of time. Unlike nearly any other game, stats decay to their original state after a short time if the proxy stops training. So if you are going to the forest to fight, train your stats till you see little chance and then immediately go there to fight.
+
+-The game can be started in dev. mode. This way you can find out yourself what you have to do if you get stuck somewhere. If you go to the developments tap in dev. Mode, you notice a number of buttons. The most important once are events editor and template editor. These two are used to make all the events and quests in game. Some other buttons like organ editor and DNA editor are often very complex; these are used to simulate the body as good as possible. Unless you want to mod the game yourself, I suggest that you mostly focus on the event and template editor.
+</descr>
+  <conditions>1</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Walktrough vicky</name>
+      <value>base/books/wt_vicky</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Walktrough mod content</name>
+      <value>base/books/wt_modcont</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>base/library1</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

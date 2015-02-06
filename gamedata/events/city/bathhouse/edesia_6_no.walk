@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_6_no</name>
+  <descr>[proxy] declines the offer and leaves the shrine.</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia9.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/exitshrine</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

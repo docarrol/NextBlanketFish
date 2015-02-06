@@ -1,0 +1,43 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/chunli_training</name>
+  <descr>[proxy] asks Chun Li how her training goes will still working at the bathhouse.&#xd;
+&#xd;
+-Working at the bathhouse is fun but I feel my training is stagnating a bit. If I want to train I need to walk to the beach, do a little training and rush back here for my next shift. I could train much better if I could do my training here. &#xd;
+&#xd;
+I noticed that below this room there is a basement that is not used. I could place some training gear there and train between massaging sessions of the customers. That way I’m always available and still do better training than now. I also noticed that shrine behind the hot springs, maybe I could perform my training there.&#xd;
+&#xd;
+&#xd;
+[proxy] thinks, the basement is currently not used so Chun Li might as well use it as training area. [proxy] might can do some training there once Chun Li sets it up properly. Training with a martial artist should really provide some good training.&#xd;
+&#xd;
+Sending Chun Li to the shire could provide some interesting results. Knowing Edesia the dream of Chun Li of becoming the strongest martial artist will be ruined but a chubby Chun Li might be worth the sacrifice.&#xd;
+&#xd;
+&#xd;
+Once the decision is made, it is fixed so [proxy] needs to choose well.&#xd;
+</descr>
+  <conditions>GetFlag(&quot;new_ priestess&quot;)==2 &amp;&amp; GetFlag(&quot;bathhouse&quot;)==15 &amp;&amp; GetFlag(&quot;chunlitrain&quot;)&lt;1</conditions>
+  <picturePath>bathhouse/chunli2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Allow training basement</name>
+      <value>city/bathhouse/chunli_basement</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sent Chun Li to shrine</name>
+      <value>city/bathhouse/chunli_shrine</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

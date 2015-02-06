@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/proxy_chunlisnack</name>
+  <descr>Chun Li walks to a corner of the massage area and comes back with a large box filled with cream donuts.&#xd;
+&#xd;
+-That nice lady of the shrine gave them to me, they really are delicious, here have some.&#xd;
+&#xd;
+[proxy] and Chun Li make some small talk while [proxy] eats 5 donuts. [proxy] then tells Chun Li it is time to leave.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 10000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 1000);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/chunlifat2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

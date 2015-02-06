@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/use_hotspring</name>
+  <descr>[proxy] takes a refreshing dip in the hot springs. The mystic waters soon starts to have an effect on [proxy] and &lt;%activePartner.HisHer();%&gt; stomach feel much more active.&#xd;
+&#xd;
+&lt;%&#xd;
+       activePartner.subStat(&quot;generic.tiredness&quot;, 25);&#xd;
+       activePartner.addStat(&quot;generic.mood&quot;, 20); &#xd;
+       self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, 100+ 0.15*activePartner.getStat(&quot;generic.calories&quot;), 2);&#xd;
+&quot;&quot;; %&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/hotspring.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/hotspring</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

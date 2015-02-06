@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/first_time_fail</name>
+  <descr>[proxy] notices a very modern looking building hidden behind some bushes. After closer inspection some large stainless steel storage containers can be seen behind the building. When [proxy] approaches the building a door opens and two large breasted tau girls exit from it.&#xd;
+&#xd;
+[proxy] has gotten curious and peeks inside to door. Before [proxy] has a chance to look inside, the door is opened. A middle aged women with very large breasts is standing in the door opening. She is wearing the bare minimum of cloth and has her breast completely out in the open.&#xd;
+&#xd;
+-What are you doing here? This is private property and no entrance is allowed for strangers.&#xd;
+&#xd;
+[proxy] explains that [heshe] was just curious what such a modern looking building is doing in this hidden village.&#xd;
+&#xd;
+-This is used by most of the female tau to make a living and that is all you get to know. No access is allowed to man. &#xd;
+&#xd;
+The door of the building is then closed by the woman with a loud bang. [proxy] doubts he is allowed entry, a female proxy has probably a better chance.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;village_friend&quot;)==1 &amp;&amp; GetPerFlag(&quot;karin_pro&quot;)&lt;1 &amp;&amp; self.getStat(&quot;generic.sex&quot;)==1</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Aks for job</name>
+      <value>kt_village/milkbarn/intro_karin_1</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/second_part</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

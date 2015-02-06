@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/mattie_milk_low</name>
+  <descr>When [proxy] aproaches Mattie, &lt;%activePartner.HeShe();%&gt; notices that the top she is wearing is under heavy strain.&#xd;
+&#xd;
+-You came to relieve me of some of my milk?</descr>
+  <conditions>GetFlag(&quot;mattie_milk&quot;)==2</conditions>
+  <picturePath>bathhouse/mattie3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Drink milk</name>
+      <value>city/bathhouse/milk_mattie_low</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

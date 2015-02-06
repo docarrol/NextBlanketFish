@@ -9,27 +9,26 @@
     <fetishmaster.engine.WalkChoice>
       <name>To the Main Hall</name>
       <value>in_the_base</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Read History Book</name>
       <value>base/history_book_1</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Read Informative Books</name>
       <value>base/books/informative_books</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Read About Futanari</name>
       <value>base/anatomy_book_1</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Search for Recipes</name>
       <value>base/search_recipes</value>
-      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Read Manual</name>
+      <value>base/books/start_manual</value>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New Event</defaultNext>
@@ -37,5 +36,4 @@
   <priority>1</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

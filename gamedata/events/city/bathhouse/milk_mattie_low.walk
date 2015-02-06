@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/milk_mattie_low</name>
+  <descr>[proxy] looks at Mattie’s large breasts that put some strain on the shirt she is wearing and decides to help her. Before milking Mattie to her empty size, [proxy] decides to take a quick look at [hisher] &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly containing a stomach that feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;.  [heshe] then places one of Mattie’s nipples in [hisher] mouth and starts sucking. &#xd;
+[heshe] has to work a little to get the milk from Mattie’s breasts but soon a decent flow enters [hisher] mouth.&#xd;
+[proxy] switches from breasts on a regular interval, reducing them both to a nearly empty state. After drinking multiple liters of milk, Mattie tells [proxy] he can stop now. Mattie’s breasts are nearly empty and the remaining milk should be reserved for the bath house guests.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 3000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 3000);&#xd;
+SetFlag(&quot;mattie_milk&quot;,1);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+The milk that was once present in Mattie’s breasts has provided [proxy] with a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly and [hisher] stomach feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;.&#xd;
+</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=3000</conditions>
+  <picturePath>bathhouse/mattie3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_end</name>
+  <descr>[proxy] enters the room where Karin is waiting in. Karin is already waiting for [proxy]. Her once flat breasts have grown under [proxy] supervision to two absolutely massive breasts. Her breasts are so large that they cover her upper legs.&#xd;
+&#xd;
+-We need to talk. My breasts have become so big and large that they are starting to hinder me. If we continue this training longer I fear I will become immobile. Not that I do not want to continue training. Your training has been great, but I should really stop now. I already talked with Mathilda, according to her I now belong to the top milk girls of the village. I could not have done it without you.&#xd;
+&#xd;
+Karin then stands up; [proxy] notices that lifting her huge breasts takes some serious effort. She then walks to [proxy] and starts hugging [himher]. [proxy] front half of [hisher] body is covert in boobs. After a long hug Karin lets go and starts thanking [proxy] again.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karin_end&quot;,1)&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;karin_cap&quot;)&gt;30000  &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/end.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

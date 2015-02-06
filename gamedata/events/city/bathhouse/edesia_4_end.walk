@@ -1,0 +1,51 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_4_end</name>
+  <descr>Once Edesia is dressed she orders [proxy] to stand before her.&#xd;
+&#xd;
+-I have now enough power available to set my plan on taking revenge on the previous head priestess in motion. She has long died already but that does not matter. I will just take my revenge on a descendant from her. We are going to have some fun with that girl and in the same time remove the seal that head priestess placed on me. The strength of the seal seems directly proportional to the state of the female descendant.&#xd;
+&#xd;
+[proxy] asks what &lt;%activePartner.HisHer();%&gt; roll is in this.&#xd;
+&#xd;
+-That head priestess managed to place a seal on me while I was asleep; I can&apos;t use my full power nor directly influence a decedent of her. But I found a way to remove this seal and that is where you come in. The decedent of the previous head priestess is called Himanka. You are going to approach her and change her as how she should be trough some epic parties.&#xd;
+&#xd;
+[proxy] is still confused what exactly here roll in this is and why Edesia was wanted to get &lt;%activePartner.HisHer();%&gt;  so fat, &lt;%activePartner.HeShe();%&gt; could have simply approached the girl and brought her here.&#xd;
+&#xd;
+-Don&apos;t question a god. My powers seems to work better on people that visually show that they like having fun, for my power to fully work in you, your current state is required. Now hold still I’m going to bless you now.&#xd;
+&#xd;
+Edesia starts talking in a strange language while waving her staff around during which she performs a complicated dance around [proxy]&#xd;
+&#xd;
+[proxy] body glows for a second but no lasting effect is visible.&#xd;
+&#xd;
+Edesia seems out of breath for a bit. Performing that dance while the only labor she lately has performed was shoving food in her mouth seems to be a bit intensive with her current size.&#xd;
+&#xd;
+-The blessing I put on you works two fold. First of all it allows you to convince Himanka much easier, but even that is not enough too truly change her. It seems her mother managed to imprint some iron determination to avoid anything funs. To break this determination the second part of the blessing comes in.&#xd;
+This is my favorite part to be honest; if you party together [proxy] and Himaka’s mind become linked at a certain level. So if you think of something hard enough, Himaka starts thinking about it too. As a bonus I also linked your stomachs, everything you eat will also appear in her stomach and the other way around. Now go use my blessing to the fullest and have fun.&#xd;
+&#xd;
+Edesia tells you that Himanka lives at a house in Hilltown and that you should bring her here soon.&#xd;
+&#xd;
+-Before you go, keep standing still for a bit. I need to recharge my energy and it will make it much easier for convincing Himanka of your good intensions.&#xd;
+&#xd;
+Edesia starts talking in a strange language while waving her staff and [proxy] body starts too feel strange. Slowly but surely the fat present on [proxy] body disappears in some sort of pink cloud that floats to Edesia. Once all [proxy] fat is gone Edesia leaves out a number of small moans.&#xd;
+&#xd;
+&lt;%&#xd;
+proxy.subStat(&quot;generic.fat&quot;,proxy.getStat(&quot;generic.fat&quot;));&#xd;
+SetPerFlag(&quot;edesia&quot;,4);&#xd;
+&quot;&quot;;%&gt;&#xd;
+-Leave now, I need to process this energy.</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia7.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/hotspring</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

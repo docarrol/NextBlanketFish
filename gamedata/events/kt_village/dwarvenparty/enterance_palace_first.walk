@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/enterance_palace_first</name>
+  <descr>A bit further the decorated entrance of the palace is visible. [proxy] starts walking towards the entrance but is in no time surrounded by a group of heavily armed soldiers.&#xd;
+&#xd;
+-Not one more step, this area is not available for your kind. Now quietly follow me or I will gut you without any hesitation.&#xd;
+&#xd;
+[proxy] tells that [heshe] was invited by Cadha. As a response [heshe] get hit on the head.&#xd;
+&#xd;
+-How dare you mention princess Cadha’s name, I will make sure you receive a slow an painful death for that.&#xd;
+&#xd;
+At that moment one of the other dwarfs says something.&#xd;
+&#xd;
+-Captain, did you remember that order we received some time ago about that strange visitor.&#xd;
+&#xd;
+-It was a bit odd, something about a visitor for Cadha, she normally never receives anyone. What was the visitors name again, something like [proxy].&#xd;
+&#xd;
+[proxy] tells that is [hisher] name and that she was invited to show the corset [heshe] is wearing to Cadha.&#xd;
+&#xd;
+-That corset is clearly dwarven made and the name matches, it seem you were telling the truth. I’m very sorry about my behavior before. We get lots of nut jobs trying to sneak or talk their way into the royal palace. I will personally escort you to princess Cadha, but even as a guest I first have to search you.&#xd;
+&#xd;
+The captain give [proxy] an extensive search and then takes [himher] to the palace.</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf_palace.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/walk_palace_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

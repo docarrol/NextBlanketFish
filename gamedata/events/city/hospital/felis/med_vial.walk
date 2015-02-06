@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/med_vial</name>
+  <descr>[proxy] takes the vial from Felis and drinks it in one sip.
+
+Both [proxy] and Felis inspect [proxy] &lt;% IncludeRange(self.getStat(&quot;breasts.size&quot;),&quot;breastsize&quot;);%&gt; breasts for any change.
+
+At first noting happens but then [proxy] breasts feel like they are on fire.
+
+Before Felis and [proxy] eyes &lt;%activePartner.HisHer();%&gt; breasts begin to shrink slowly.
+
+&lt;%Include(&quot;hospital/felis/milk_in_breasts&quot;);%&gt;
+
+The process is extremely arousing for [proxy].
+
+After a couple of minutes the shrinking seems to have stopped.
+
+&lt;% 
+proxy.addStat(&quot;generic.arousal&quot;, 90);
+proxy.addStat(&quot;breasts.max_lactation&quot;,(10*0.8*proxy.getStat(&quot;breasts.size&quot;)));
+proxy.subStat(&quot;breasts.size&quot;,(0.8*proxy.getStat(&quot;breasts.size&quot;)));
+&quot;&quot;;%&gt;
+
+[proxy] have shrunken to &lt;% IncludeRange(self.getStat(&quot;breasts.size&quot;),&quot;breastsize&quot;);%&gt; breasts. Felis meanwhile can’t hide her enthusiasm.
+
+-It worked, it really worked, now let me do some test for science.
+
+Felis performs a wide array of tests on [proxy] breasts.
+
+-It seems the increase in maximum milk production is proportional with the shrinking in size. Very interesting, this explains why it worked so well for Olivia. I´m sorry but I really need to get back to my research. So much data too process.
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

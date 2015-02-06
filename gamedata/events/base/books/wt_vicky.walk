@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/books/wt_vicky</name>
+  <descr>A small walkthrough for the first part of Vicky’s quest made by H.Coder since a lot of people have trouble with this quest.
+
+1. See cafe at the seafront.
+2. After ~ one week Vicky become depressed - ask what wrong?
+3. Get recipe from home library. Give it to Vicky.
+4. Get access to the kitchen of the Fetish Cafe at Red Light District. (You proxy need to have lactating breasts through working or be aroused futanari at the first meeting with manager)
+5. Get 20 milk bottles in the items shop at the city edge. (Not breast milk).
+6. Be sure to have at least 50 INT. (Coffee can give temporary boost.)
+7. Get recipe from the kitchen of the Fetish Cafe and give it to Vicky. Vicky tell that she can&apos;t use recipe - she has no cream. And suggest where to find it.
+8. Go to the farm and knock at the door. If Belanika&apos;s milker fixed, and she let you in, you should see option &quot;Vicky needs&quot;.
+</descr>
+  <conditions>1</conditions>
+  <picturePath>base/library.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

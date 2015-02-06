@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_huge</name>
+  <descr>[proxy] rings the door but the door is neither opened nor does &lt;%activePartner.HeShe();%&gt; hear anything. Himanka is probably not home or stuck in a door opening. Maybe Edesia knows where Himanka is.&#xd;
+&#xd;
+Entering the shrine [proxy] soon discovers where Himanka is. The once slim Himanka has turned into a blob of fat that is currently surrounded by food. She is now naked, most likely because she has outgrown all of her cloths.&#xd;
+&#xd;
+When [proxy] approaches her, she keeps eating. [proxy] feels the food Himanka is eating appearing in &lt;%activePartner.HisHer();%&gt; stomach, it seems Edesia&apos;s blessing is still working.&#xd;
+&#xd;
+-Hey [proxy], are you here to have some dinner with me again. Sorry that I already started without you but I was a bit hungry. I decided by the way to live here, last time it took me over an hour to leave my house. The really should build houses with some larger doors. The nice lady who owns this place seems to like my presents and is even feeding me, she even joints me now and then for some food. The donuts she brings are so delicious, I could swear they are godly.&#xd;
+&#xd;
+[proxy] asks how Himanka is feeling and makes some other friendly conversation during which Himanka keeps stuffing her face. She seems to have developed a method of stuffing her mouth full and talking at the same time. &#xd;
+&#xd;
+During the conversation with Himanka [proxy] notices a decent amount of food has already been stuffed inside her stomach. To prevent getting stuffed full again like before &lt;%activePartner.HeShe();%&gt; leaves Himanka&apos;s company and starts looking for Edesia.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 25000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;himanka_eaten&quot;)&gt;350 &amp;&amp; self.getStat(&quot;abdomen.food&quot;)&lt;=0 &amp;&amp;  
+GetFlag(&quot;new_ priestess&quot;)&lt;2</conditions>
+  <picturePath>bathhouse/himanka6.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_7</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

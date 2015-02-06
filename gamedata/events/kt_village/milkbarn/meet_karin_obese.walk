@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_obese</name>
+  <descr>[proxy] enters the room where Karin is waiting. Al the food Karin has been eating has made her obese. Large fat rolls are present all over her body.&#xd;
+&#xd;
+Milking Karin on a milking machine is not longer possible. The machines are not designed for Karin’s weight. The only thing left to do is milk Karin by hand. Hopefully the production of new milk takes enough calories to let her lose some weight.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;karin_food&quot;)&gt;=140 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/vh.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Milk Karin</name>
+      <value>kt_village/milkbarn/karin_obese_milk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

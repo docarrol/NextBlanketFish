@@ -1,0 +1,22 @@
+<fetishmaster.items.Item>
+  <name>Spell: sperm tank</name>
+  <descr>A spell designed by Morgan to make the caster able to store more of his load ready for action.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addStat(&quot;balls.size&quot;, (0.1*self.getStat(&quot;balls.size&quot;)));&#xd;
+&#xd;
+if (self.hasOrgan(&quot;pouch&quot;)) {&#xd;
+self.addStat(&quot;pouch.max_volume&quot;, (0.1*self.getStat(&quot;pouch.max_volume&quot;)));&#xd;
+}&#xd;
+&#xd;
+AddItem(&quot;spell_largerballs&quot;);&#xd;
+&#xd;
+self.addStat(&quot;generic.tiredness&quot;, (4000/GetPerFlag(&quot;magic_skill&quot;))+10);</useScript>
+  <useText>[proxy] cast the spell and immediately feels the effect. A greet amount of energy is drawn from [proxy] body, using [hisher] magic skill [heshe] managed to reduce the effect. Meanwhile [proxy] balls slowly start to grow.</useText>
+  <count>1</count>
+  <canBeStacked>false</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>2000</value>
+  <sellValue>500</sellValue>
+  <weight>0.0</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

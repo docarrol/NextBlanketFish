@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/zeplinflight</name>
+  <descr>Thovila and [proxy] board the zeppelin.&#xd;
+&#xd;
+-You can take a rest there, it will take a couple of hours before we reach Ironhill.&#xd;
+&#xd;
+Thovila then turns to the captain of the zeppelin and starts talking about dwarven stuff. After a couple of hours it is time to eat. Thovila and the captain both grab a tankard of beer and some meat. [proxy] asks if [heshe] also gets something to eat and drink.&#xd;
+&#xd;
+-You should keep your stomach empty for Cadha’s party. You are going to need every last bit of it. Let me tell you the details about this party.&#xd;
+&#xd;
+Cadha has developed her own style of parties. Normal dwarven parties are just a lot of dwarfs in a large room with lot of food and drink. They try to impress each other by their clothes and jewels. Cadha found those parties a bit boring and created her own style. During her parties the cloth a dwarf is wearing matters less, during Cadha’s parties dwarves try to impress each other by the food they are serving. To make things interesting they play a little game to decide who is going to eat the food. The party crowed is split in two groups, the game masters and the players. The game masters each have their own area where they try to impress the players with the food they serve. Because they decide the game, they have a large influence on who gets to eat the food. Once an hour a gong is sound and the player move to the next table. Dwarven dishes are not only about quality but also about quantity. That’s why you are going to need all the room in your stomach.&#xd;
+&#xd;
+[proxy] asks how this is going to show Cadha the corset.&#xd;
+&#xd;
+-Since Cadha host this very exclusive party, she is one of the game masters. Your task is to get on her table as player. I don’t know what table she is on, so you must try to visit as many game masters as possible till you find her. Cadha is a very private dwarf so this is the only time you can get a face to face with her to show the corset.&#xd;
+&#xd;
+[proxy] wonders how Thovila managed to get [hisher] access to this very exclusive party.&#xd;
+&#xd;
+-Because of security reasons and general inconvenience, Cadha can’t host the parties at the palace. That is why she is using a high class establishment. I made for the owner of that establishment a corset for a friendly price when she was forced to attend a couple of these parties. By providing your access she returns me the favor.</descr>
+  <conditions>GetPerFlag(&quot;cadha&quot;)==1 &amp;&amp; self.getStat(&quot;abdomen.food&quot;)&lt;=0</conditions>
+  <picturePath>kt_village/dwarfs/ironhill.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/restaurantenterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>4</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

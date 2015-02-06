@@ -1,0 +1,48 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_dual</name>
+  <descr>[proxy] enters the room where Karin is waiting for [himher]. Karin’s breasts are completely full of milk and are much bigger than a week ago. [proxy] asks Karin if she is ready.&#xd;
+&#xd;
+-Yes, I’m sure these breasts can beat Talia. I do hope the dual is soon, my breasts are so full they hurt.&#xd;
+&#xd;
+Not much later the milk dual between Talia and Karin starts. To dual is hold on two milking machines next to each other and the winner is the one that delivers the most milk. [proxy] walks in front of Karin to the milking machines. When [heshe] arrives at the machines, Talia is already standing in the center of a large crowed. Since their last meeting her breasts have shrunken a bit. The effect of the dangerous doses of herbs she took must begin to wear out.&#xd;
+&#xd;
+When Talia notices [proxy] presents she pushes her breasts out trying to make them look bigger.&#xd;
+&#xd;
+-Ready to lose.&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;karin_milk&quot;,GetPerFlag(&quot;karin_cap&quot;));&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+At that moment Karin arrives from behind [proxy]. The self fulfilled smirk on Talia’s face disappears instantly once she see’s Karin’s breasts. They are only a tiny bit smaller then her own breast and Karin’s breasts look absolutely bloated with milk while Talia’s breasts are simply rather large. Mathilda is present to serve as judge during the dual.&#xd;
+&#xd;
+[proxy] helps Karin to equip the suction cups. Even before the machine is turned on, large steams of milk escape Karin’s nipples. The two milking machines are started at the same time and both Karin and Talia are milked at the same time. At some point Talia’s milking machine switches off because it is finished milking, Karin’s machine meanwhile is still milking Karin’s breasts. The end result is 4 liters of milk for Talia and &lt;%(Integer)(GetPerFlag(&quot;karin_milk&quot;)/1000)%&gt; liters for Karin.&#xd;
+&#xd;
+Talia had already removed the milking equipment from her body and quickly runs away after she heard she lost. The group of girls watching the match meanwhile all look a bit confused and start talking with each other. Based on Talia’s stories they came here to watch Talia decimate Karin, not to lose.&#xd;
+&#xd;
+Mathilda approaches Karin and [proxy]&#xd;
+&#xd;
+-good job, I know you could do it. Hopefully this teaches Talia a bit else the punishment tomorrow surly will. A terrible waste of milk if you ask me, but it will probably put her on her place. Karin should go and rest now, she will need all her milk tomorrow again.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+SetPerFlag(&quot;Talia_quest&quot;,7);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;Talia_quest&quot;)==6 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/dual.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

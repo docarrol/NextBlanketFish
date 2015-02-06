@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/bath</name>
+  <descr>[proxy] enters the now shared bath area.</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)&gt;=2</conditions>
+  <picturePath>bathhouse/bath.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>back</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Get cleaned</name>
+      <value>city/bathhouse/celine_cleaning</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/restore_bathhouse_1</name>
+  <descr>[proxy] asks Vulpsia where too start. The entire bathhouse is a mess.&#xd;
+&#xd;
+-Well I would suggest restoring the primary function first. I know someone that could fixed the bath for 2500 coins. While restoring it, I would also suggest some changes.&#xd;
+Currently the man and woman are separated, no interaction between each other, this means safe but boring. Why would anyone even come to this place if it’s the same as home. No, we must provide an interesting bathing experience that triggers the customer to come back for more. The first step of my plan is shared bathing.&#xd;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==1</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Make the baths more interesting (2500)</name>
+      <value>city/bathhouse/buildone</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -9,22 +9,46 @@
     <fetishmaster.engine.WalkChoice>
       <name>Lane Down</name>
       <value>city/to_hilltown</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Lane to the Sea</name>
       <value>city/lane_to_seafront</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Footpath to Hospital</name>
       <value>city/footpath_to_hospital</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Visit David S. Rif</name>
       <value>city/hilltown/david_home</value>
-      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Himanka</name>
+      <value>city/bathhouse/meet_himaka_new</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Himanka</name>
+      <value>city/bathhouse/meet_himaka_small</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Himanka</name>
+      <value>city/bathhouse/meet_himaka_noticable</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Himanka</name>
+      <value>city/bathhouse/meet_himaka_avr</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Himanka</name>
+      <value>city/bathhouse/meet_himaka_big</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Himanka</name>
+      <value>city/bathhouse/meet_himaka_large</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Himanka</name>
+      <value>city/bathhouse/meet_himaka_huge</value>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -32,5 +56,4 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/measure_karin</name>
+  <descr>[proxy] gets a measuring tape and a breast scanner and starts collecting information on Karin’s breasts.&#xd;
+&#xd;
+Karin&apos;s breasts can hold up to  &lt;%(Integer)GetPerFlag(&quot;karin_cap&quot;)%&gt; ml.&#xd;
+They produce milk at a rate of  &lt;%(Integer)GetPerFlag(&quot;karin_pro&quot;)%&gt; ml/h.&#xd;
+Karin&apos;s breast currenly hold &lt;%(Integer)GetPerFlag(&quot;karin_milk&quot;)%&gt; ml of milk.</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/measure.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/meet_karin</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

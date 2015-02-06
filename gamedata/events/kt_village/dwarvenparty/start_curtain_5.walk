@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/start_curtain_5</name>
+  <descr>[proxy] passes the curtain and is greeted by an armored female dwarf&#xd;
+&#xd;
+-Hey you are not a dwarf.&#xd;
+&#xd;
+The armored dwarf jumps up and grabs with a smooth move the sword that is hanging at her waist belt. At least, that was her plan. The result however was very different. The jump up part still goes according to plan although a bit slower than anticipated, the smooth move towards the sword that is not present at her waist belt completely fails. Instead of her sword, the hand hits her fat swollen belly. The end result is that [proxy] has to grab her to avoid the dwarf falling. &#xd;
+With here balance found again she gives [proxy] a closer inspection and recognizes the dwarven made corset.&#xd;
+&#xd;
+-Can you believe it, a month ago I was still a real female warrior ready to fight anything but look at me now. I don’t even have my sword with me because the sword belt had to be made larger.&#xd;
+&#xd;
+She grabs her stomach showing the large fat rolls present there.&#xd;
+&#xd;
+-I wanted to become one of the finest warriors around but my father demands that I find a suitable husband trough these blasted parties. This is the effect that one month of dwarven parties has on once waist. Soon I will need one of those corsets too, I hated those things. &#xd;
+&#xd;
+Now for our little game, a friendly match seems like a good idea. That way I can do a little bit of training. She walks to a corner and comes back with two wooden swords.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;partycurtain&quot;)==4</conditions>
+  <picturePath>kt_village/dwarfs/dwarf5.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Start match</name>
+      <value>kt_village/dwarvenparty/eat_curtain_5</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

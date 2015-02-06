@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/celine_cleaning</name>
+  <descr>[proxy] enters the bath and soon is approached by Celine. 
+
+-Does master want a full cleaning?
+
+[proxy] agrees and Celine runs off to get her cleaning supplies.
+
+Soon Celine is carefully cleaning every surface and opening present on [proxy] body. When Celine is ready she asks if [proxy] wants the extra cleaning. Extra cleaning, what is that?
+-So far I only cleaned your outside; some customers also want their insides cleaned. I have become very good at that.
+[proxy] decides to keep it to the outside cleaning, maybe in the future someone implements the extra cleaning.
+
+
+&lt;%
+       activePartner.subStat(&quot;generic.tiredness&quot;, 5);
+       activePartner.addStat(&quot;generic.mood&quot;, 15); 
+&quot;&quot;; %&gt;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)&gt;=6</conditions>
+  <picturePath>bathhouse/cleaning.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

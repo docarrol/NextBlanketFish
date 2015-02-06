@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_transform_futanari</name>
+  <descr>-Now stand still, I need to concentrate. Unless you want an extra ball I suggest you keep standing still how strange it might feel.&#xd;
+&#xd;
+Morgan starts talking in a strange language while making complicated patterns with her staff. Her staff slowly starts to glow while [proxy] nether area starts to tinkle. Slowly a form shaped like a pinky finger grows in [proxy] crotch. Below the pinky finger the skin becomes a bit lose and is filled by two small knickers. [proxy] stomach feels also a bit strange, organs are pushed aside a bit to make place for an internal storage pouch. &#xd;
+Slowly but surely the new penis with two balls take shape. The growing feeling in [proxy] stomach suddenly stops meaning that the pouch has reached is maximum size. Not much later the growth of both [proxy] balls and penis stop. &#xd;
+&#xd;
+Morgan looks a bit exhausted from the spell. It seems a spell of this scope requires a lot of energy. &#xd;
+&#xd;
+-Everything looks good, just a final finishing touch.&#xd;
+&#xd;
+Without any warning Morgan slams her still slightly glowing staff right in [proxy] crotch. Being still a woman 5 min ago, [proxy] had no idea how much that would hurt. With both hands covering [hisher] crotch [heshe] falls on the ground from the pain. Between [hisher] legs [heshe] can feel [hisher] penis growing. Morgan must have put another wave of grow energy in it with the hit.&#xd;
+&#xd;
+Soon both [proxy] with a painful crotch and Morgan tired from the spell are resting on the large bed. After some time Morgan has cached her breath again.&#xd;
+&#xd;
+-It is time you pay for that spell with your body. Lie on the center of the bed and prepare yourself.&#xd;
+&#xd;
+&lt;% &#xd;
+self.setStat(&quot;generic.sex&quot;,3);&#xd;
+self.addOrgan(&quot;penis&quot;);&#xd;
+self.addOrgan(&quot;balls&quot;);&#xd;
+self.addOrgan(&quot;pouch&quot;);&#xd;
+self.setStat(&quot;pouch.max_volume&quot;, (calc.random(400)+900));&#xd;
+self.setStat(&quot;balls.size&quot;, (calc.random(7)+5));&#xd;
+self.setStat(&quot;balls.prod_rate&quot;, (calc.random(5)+5));&#xd;
+self.setStat(&quot;penis.length&quot;, (calc.random(10)+10));&#xd;
+self.setStat(&quot;penis.width&quot;, (calc.random(5)+5));&#xd;
+self.setStat(&quot;penis.head&quot;, (calc.random(0.5)+1));&#xd;
+self.setStat(&quot;penis.erectrate&quot;,0.7);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/sorceress/sorceress_timefirstsex</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

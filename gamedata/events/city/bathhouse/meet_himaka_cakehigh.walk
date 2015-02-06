@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_cakehigh</name>
+  <descr>-I want to eat some more cake. Eating that brings back some of my best childhood memories.&#xd;
+&#xd;
+[proxy] stands up to get a cake but notices that Himanka also is walking to a cake. It seems the size of her body is not the only thing increasing.&#xd;
+&#xd;
+When [proxy] arrives at the table with the cakes [heshe] notices that the cakes are a little bit smaller than the cake they eat together earlier. With both their own cake, [proxy] and Himanka walk back to their table and start eating. &#xd;
+&#xd;
+The amount of talk during the eating process of the cake is a lot lower than before. It seems Himanka wants to give her full attention on eating the cake. Soon both cakes are gone and thanks to Edesia&apos;s blessing both Himanaka and [proyx] stomach contain now two cakes.&#xd;
+&#xd;
+Himanka leaves out a small burb.&#xd;
+&#xd;
+-ahh, that was delicious. I really have to go now but we should do this again soon.&#xd;
+&#xd;
+Even with all that fat, [proxy] detects Himanka&apos;s swollen stomach when she walks by.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 18000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 6000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+18));&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/himanka3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_5_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

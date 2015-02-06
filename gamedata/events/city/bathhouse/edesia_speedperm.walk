@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_speedperm</name>
+  <descr>[proxy] asks Edesia if she can make &lt;%activePartner.HisHer();%&gt; stomach permanently more active.&#xd;
+&#xd;
+-sure, stand still for a moment.&#xd;
+&#xd;
+[proxy] notices a pink cloud leaving &lt;%activePartner.HisHer();%&gt; body and feels a bit lighter. The cloud disappears in Edesia who lets out a small moan.&#xd;
+&#xd;
+-That was some good stuff.&#xd;
+&#xd;
+[proxy] then feels &lt;%activePartner.HisHer();%&gt; stomach become a bit more active.&#xd;
+&#xd;
+&lt;% &#xd;
+proxy.subStat(&quot;generic.fat&quot;,5000);&#xd;
+SetFlag(&quot;edesia_blessing&quot;,(GetFlag(&quot;edesia_blessing&quot;)+1));&#xd;
+proxy.addStat(&quot;generic.calories_rate&quot;,20);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.fat&quot;)&gt;5000</conditions>
+  <picturePath>bathhouse/edesia10.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/exitshrine</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

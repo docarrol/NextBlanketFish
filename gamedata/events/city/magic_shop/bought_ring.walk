@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/bought_ring</name>
+  <descr>-Smart purchase, now let me put it on your finger. I need to calibrate it especially for your body. This means that if someone else puts it on, it has no effect.&#xd;
+&#xd;
+&lt;%&#xd;
+proxy.setStat(&quot;fat.to.milk&quot;,1)&#xd;
+RemoveMoney(1000); &#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(1000)</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>
