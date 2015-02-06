@@ -28,10 +28,10 @@ self.addHistory(&quot;Birth&quot;, &quot;test text&quot;, &quot;organs/birth_aut
  &quot;&quot;;%&gt;&#xd;
 &#xd;
 &lt;% &#xd;
-//c = LoadCharacter(&quot;human_female_agency_worker_hyperbreeder&quot;);&#xd;
-//GenerateNewName(c);&#xd;
-//RegistryCharacter(c);&#xd;
-//c.addToWorkers();&#xd;
+c = LoadCharacter(&quot;human_female_agency_worker_hyperbreeder&quot;);&#xd;
+GenerateNewName(c);&#xd;
+RegistryCharacter(c);&#xd;
+c.addToWorkers();&#xd;
 &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
   <picturePath></picturePath>

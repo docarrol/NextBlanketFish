@@ -7,31 +7,31 @@
 SetFlag(&quot;david_talk_about_hold&quot;, 1);
 SetFlag(&quot;visit_david&quot;, 1);
 SetFlag(&quot;found_hot_lips&quot;, 1);
-SetFlag(&quot;home_breast_scanner&quot;, 1);
-SetFlag(&quot;hospital_buy_milk&quot;, 1);
-SetFlag(&quot;home_breast_scanner&quot;, 1);
-SetFlag(&quot;setup_milking_room&quot;, 1);
-SetFlag(&quot;now_about_fcafe&quot;, 1);
+//SetFlag(&quot;home_breast_scanner&quot;, 1);
+//SetFlag(&quot;hospital_buy_milk&quot;, 1);
+//SetFlag(&quot;home_breast_scanner&quot;, 1);
+//SetFlag(&quot;setup_milking_room&quot;, 1);
+//SetFlag(&quot;now_about_fcafe&quot;, 1);
 SetFlag(&quot;found_outskirt_brothel&quot;, 1);
 
-SetFlag(&quot;found_genki&quot;, 1);
+//SetFlag(&quot;found_genki&quot;, 1);
 //SetPerFlag(&quot;genki_quest&quot;, 3);
-SetFlag(&quot;genki_catched&quot;, 1); 
-SetFlag(&quot;genki_patients&quot;, 5);
+//SetFlag(&quot;genki_catched&quot;, 1); 
+//SetFlag(&quot;genki_patients&quot;, 5);
 SetFlag(&quot;daria_blessing&quot;, 10);
 SetFlag(&quot;daria_pendant&quot;, 1);
-SetFlag(&quot;t_beast_semen_quest&quot;, 1);
+//SetFlag(&quot;t_beast_semen_quest&quot;, 1);
 
 SetPerFlag(&quot;brothel_clients_satisfed&quot;, 9);
 SetPerFlag(&quot;stripper_contract&quot;, 1);
 SetPerFlag(&quot;singer_contract&quot;, 1);
 SetPerFlag(&quot;brothel_fuck_contract&quot;, 1);
-SetPerFlag(&quot;merril_home&quot;, 1);
+//SetPerFlag(&quot;merril_home&quot;, 1);
 
 //belanika fist part finished:
-SetFlag(&quot;know_lactaids&quot;, 1); 
-SetFlag(&quot;romul_quest&quot;, 1); &quot;&quot;;
-SetFlag(&quot;belanika_quest&quot;, 3);
+//SetFlag(&quot;know_lactaids&quot;, 1); 
+//SetFlag(&quot;romul_quest&quot;, 1); &quot;&quot;;
+//SetFlag(&quot;belanika_quest&quot;, 3);
 &quot;&quot;;
 %&gt;</descr>
   <conditions>1</conditions>
@@ -42,5 +42,6 @@ SetFlag(&quot;belanika_quest&quot;, 3);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

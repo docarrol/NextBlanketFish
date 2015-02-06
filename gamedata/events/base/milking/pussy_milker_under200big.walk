@@ -6,7 +6,7 @@ self.setStat(&quot;generic.arousal&quot;, 0);
 self.updateEffect(&quot;vagina.vulva_size&quot;,&quot;pumped&quot;, 1, 24);
 %&gt;</descr>
   <conditions>
-if (activePartner.getRNAValue(&quot;generic.arousal&quot;) &gt;= 75 &amp;&amp; GetFlag(&quot;neferi_pussy_pump&quot;) == 1 &amp;&amp; activePartner.getStat(&quot;vagina.vulva_size&quot;) &gt;= 20)
+if (activePartner.hasOrgan(&quot;vagina&quot;) &amp;&amp; activePartner.getRNAValue(&quot;generic.arousal&quot;) &gt;= 75 &amp;&amp; GetFlag(&quot;neferi_pussy_pump&quot;) == 1 &amp;&amp; activePartner.getStat(&quot;vagina.vulva_size&quot;) &gt;= 20)
 	true;
 else
 	false;</conditions>

@@ -21,9 +21,9 @@ if (GetPerFlag(&quot;fcafe_milk_to_cofe&quot;) &lt; 1)
   </choices>
   <defaultNext>New event</defaultNext>
   <time>0</time>
-  <priority>0</priority>
+  <priority>1</priority>
   <returnPoint>false</returnPoint>
-  <bypassInternalChecks>false</bypassInternalChecks>
+  <bypassInternalChecks>true</bypassInternalChecks>
   <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>
