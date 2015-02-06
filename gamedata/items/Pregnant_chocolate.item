@@ -1,0 +1,24 @@
+<fetishmaster.items.Item>
+  <name>A mother&apos;s chocolate bar TM</name>
+  <descr>A specialty chocolate designed for pregnant women to deal with cravings and distract them from self image issues. Made with the richest and highest quality ingredients to make a product that will make you feel amazing
+
+Warning: May affect your mood and your perception of your body.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addStat(&quot;generic.health&quot;, 5);&#xd;
+self.subStat(&quot;generic.tiredness&quot;, 20);&#xd;
+self.addStat(&quot;generic.calories&quot;, 500);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 100);&#xd;
+self.addStat(&quot;generic.arousal&quot;, 20);&#xd;
+self.addStat(&quot;skill.desireforfat&quot;, 1);&#xd;
+self.addStat(&quot;generic.lewdness&quot;, 1);&#xd;
+self.doAction(&quot;eat&quot;);&#xd;
+&quot;&quot;;</useScript>
+  <useText>The chocolate bar is delicious. You feel as if all your troubles are melting away as the chocolate melts in your mouth. You feel a strong warming sensation in your belly as you finish the bar.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>200</value>
+  <sellValue>20</sellValue>
+  <weight>0.3</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

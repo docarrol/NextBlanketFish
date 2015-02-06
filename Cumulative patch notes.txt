@@ -1,0 +1,64 @@
+To install just move the contents of this folder into your fetishmaster folder.
+
+The content of this patch is very much related to bellies 
+
+///////////////////////////////////////////////////////////////////////////////////
+Patch notes for FM_985cp5 release
+///////////////////////////////////////////////////////////////////////////////////
+-Updated fire framework to make use of the merged events feature
+
+-Redid the casual talk files relating to proxy's opinion about the size of their belly. It's now much more modular and supports other body parts. Breasts and belly both have content but hips do not yet. The new talk files are unlocked by the coresponding body fat modification events in the hospital
+
+#note# There are a few bugs that im aware of but just havn't had the time to fix. You can let me know about an bugs or sugestions on my deviant art: dohavocom.deviantart.com
+
+
+///////////////////////////////////////////////////////////////////////////////////
+Patch notes for FM_985 release
+///////////////////////////////////////////////////////////////////////////////////
+
+-Removed the ability to get stuff to eat at the fetish cafe; another mod added something that fills the purpose in a better way.
+
+-Fixed a number of spelling isses (i'm sure some remain)
+
+-Fixed Julia not showing up
+
+-Further fleshed out conversing with Julia. It's now done via a talk button that can choose from a number of specific and generic responses (similar to the cow girl in the base game)
+
+-Made the patch compatible with the new mod integration release
+
+-Removed Files that apear with other mods unless i modified them in some way
+
+#note# There are a few bugs that im aware of but just havn't had the time to fix. You can let me know about an bugs or sugestions on my deviant art: dohavocom.deviantart.com
+
+////////initial release notes ////////////
+
+*i'd like to say that i wrote all this mostly for myself. So if it comes off as a bit fan ficy that's why.*
+
+-Changed the belly descriptions file. I moved it towards a description of size independent of pregnancy state. I also addedsome descriptions for absurdly huge bellies. Those ones aren't calibrated well but they're just there to aspire to i supose.
+
+-Added a new sex position for females( girl on top) and added a bunch of descriptions that take into account belly size.
+
+-Added more things to do with a proxy's belly. You can rub it at home, if a sex partner has a belly you can rub it. During sex you can smother people with your belly.
+
+-Added fat women clients in the brothel
+
+- I made more locations recognize when you have a big belly. comments from strangers. The headmaster of the brothel will offer you the pregnancy stuff if you have a huge belly (like twin sized or higher. I figured if you were already that big she wouldn't want to wait for you to please a bunch of people)
+
+-I added the ability to get frod from the fetish cafe. everything from a normal meal to a huge forced feeding.
+
+-Your proxy now has a stat that tells you how much a proxy wants to have a belly. This score goes up by interacting with bellies (yours or otherwise). I've added a ton of casual talk files that respect this variable As the stat goes up the bigger a belly they're happy with. You might have isses where the new dialogue is taken over by other existing fat related casual talks. In my copy of the game i've removed most of them so i don't have that problem. you may wish to do it too
+
+-Added a rather large roaming character named julia(she can be found at the beach). The content with her is a fraction of what i have planned but you can do some things with her.
+
+-Added the ability to purchase a high grade medical regeneration machine for you house. It's very expensive and adds a task the heal your proxys. to unlock it you have to go to the hospital and trigger the conversation where they tell you about the regeneration mix 
+
+- added a specialty chocolate bar that increases your desire for a belly.
+
+
+
+*Disclaimer*
+
+I'm sure you'll find a bunch of spelling, grammer, and scripting errors around. Sorry, i try to stamp them out when i can
+
+
+Enjoy

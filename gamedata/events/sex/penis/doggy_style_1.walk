@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/doggy_style_1</name>
+  <descr>&lt;% c = proxy &quot;&quot;;%&gt;&#xd;
+[Proxy] gets down on [her] knees allowing [target] to push [=target][t-hisher] [penis] inside [her]. &lt;%Include(&quot;sex/virginity_lost&quot;);%&gt;[t-He] fucks [her] while spanking [her] ass.&lt;%&#xd;
+taker=proxy;&#xd;
+giver=iTarget;&#xd;
+&quot;&quot;;%&gt;&lt;%Include(&quot;sex/vaginal_sex/calc_sex&quot;);%&gt; &lt;%proxy.doAction(&quot;vaginal_enter&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;sex/about_to_cum_in_p_vagina&quot;);%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;vagina&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &lt; 9 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; status.VaginalIsPossible(proxy, iTarget);</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>true</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/Belly/rub_2_skill_2</name>
+  <descr>[Proxy] grabs a handfull of [Target]&apos;s belly and pushes [=target][t-HimHer] down on the bed so that [=target][t-HisHer] belly flops onto [target]&apos;s lap. [Proxy] looks into [target]&apos;s [=target][eyes] and teases [=target][t-HimHer] about how fat [=target][t-heshe] is. At the same time she skillfully rubs and massages [target]&apos;s big belly. [Proxy] rubs the under side of the belly; lifting it up and dropping it again in [target&apos;s] lap.
+
+[Target] is in a state of bliss from this sensual belly rub
+
+&lt;%Include(&quot;sex/calc_rub_belly&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>iTarget.getStat(&quot;generic.abdomen&quot;) &gt; 9 &amp;&amp; iTarget.getStat(&quot;generic.abdomen&quot;) &lt;= 19 &amp;&amp; proxy.getStat(&quot;skill.massage&quot;)&gt; 60 ;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

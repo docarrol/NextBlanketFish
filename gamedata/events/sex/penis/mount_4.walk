@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/mount_4</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;[Proxy] pushes [target] onto the bed and climbs on top of [target]. &lt;%activePartner.HisHer();%&gt; [belly] immediately covers most of [target]. [proxy] shoves  [target]&apos;s cock into &lt;%activePartner.HisHer();%&gt; vagina and rides [target] while [=target][t-heshe] struggles in vain wraps [t-hisher] arms around [proxy]&apos;s [belly]
+
+
+&lt;%Include(&quot;sex/calc_smother_belly&quot;); &quot;&quot;;%&gt;
+&lt;%
+taker=proxy;
+giver=iTarget;
+&quot;&quot;;%&gt;&lt;%Include(&quot;sex/vaginal_sex/calc_sex&quot;);%&gt; &lt;%proxy.doAction(&quot;vaginal_enter&quot;);&quot;&quot;;%&gt;&lt;%Include(&quot;sex/about_to_cum_in_p_vagina&quot;);%&gt;
+
+</descr>
+  <conditions>proxy.hasOrgan(&quot;vagina&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;) &gt; 70 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;) &gt; 50 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &gt;= 38.1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

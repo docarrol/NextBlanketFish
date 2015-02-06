@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/Belly/smother_1</name>
+  <descr>&lt;% c = proxy &quot;&quot;;%&gt;
+[Proxy] mounts climbs on top of [target] and arches &lt;%activePartner.HisHer();%&gt; back so &lt;%activePartner.HisHer();%&gt; [=proxy][belly] rests on [target]&apos;s chest. [proxy] leans forward to try and cover [target]&apos;s face with &lt;%activePartner.HisHer();%&gt; [=proxy][belly].
+&lt;%Include(&quot;sex/calc_smother_belly&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 9 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &lt;= 19;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,8 +1,9 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>1</conditions>
-  <text>With [her] relatively small belly [proxy] can&apos;t even try to interest audience with [her] size, so [she] tries a different strategy. [She] tries to appear as innocent as [she] can and to tease about further changes [her] body will go through. This seems to work and [she] earns some tips.&#xd;
+  <text>With [her] currently small belly [proxy] can&apos;t even try to interest auditory with [her] size, so [she] tries another strategy. [She] tries to look as innocent as [she] can to tease not about [her] current appearance but about [her] body further changes. This seems to works somehow, at lest [she] gets some tips.&#xd;
 &#xd;
-&lt;%Include(&quot;brothel/money_preg_show&quot;);%&gt;</text>
+&lt;%Include(&quot;brothel/money_preg_show&quot;);%&gt;&#xd;
+self.addStat(&quot;skill.desireforbelly&quot;, 0.1);</text>
   <priority>0</priority>
   <picturePath>brothel/preg_show_promise.jpg</picturePath>
   <choices/>

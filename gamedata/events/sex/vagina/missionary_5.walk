@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/vagina/missionary_5</name>
+  <descr>&lt;%c = target &quot;&quot;;%&gt;
+[Target] lays down and spreads [t-hisher] legs and [proxy] tries in vain to lift [t-hisher] [belly] out of the way to reach [t-hisher] vagina. [proxy] tries for awhile but it just turns into a belly massage for [target]
+
+&lt;%Include(&quot;sex/calc_rub_belly&quot;);%&gt;
+
+</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; status.VaginalIsPossible(iTarget, proxy) &amp;&amp; iTarget.getStat(&quot;generic.abdomen&quot;) &gt; 44.5 ;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/regen_perm</name>
+  <descr>[Proxy] asks if there is a more long term solution&#xd;
+&#xd;
+-Without fixing the underlying problem? ... Well i supose you could purchase a regeneration device, but you would have to be rich. I supose you could order one through the hospital if you had the means and the desire.&#xd;
+&#xd;
+&lt;%SetFlag(&quot;regen_machine_know&quot;, 1) &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;regen_machine_know&quot;) &lt; 1;</conditions>
+  <picturePath>city/hospital/doctor_tw.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

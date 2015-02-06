@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/girl_talk</name>
+  <descr>&lt;%Include(&quot;char/julia_init&quot;);%&gt;
+&lt;%c = julia &quot;&quot;;%&gt;
+
+[Proxy] decides to strike up conversation with Julia
+
+
+&lt;%Include(&quot;char/julia/casual_talk&quot;);%&gt;
+
+
+
+
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>cm___elven_fertility_priestess_neru_by_marrazan-d6v737e.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>sea/hub_belly_girl</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>sea/beach</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

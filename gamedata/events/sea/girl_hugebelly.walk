@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/girl_hugebelly</name>
+  <descr>&lt;%Include(&quot;char/julia/greeting&quot;);%&gt;
+
+Julia sits on the ground and continues to rub lotion onto her massive belly while she waits for your response</descr>
+  <conditions>(clock.isDay() || clock.isMorning() ) ;</conditions>
+  <picturePath>cm___elven_fertility_priestess_neru_by_marrazan-d6v737e.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to Beach</name>
+      <value>sea/beach</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>sea/hub_belly_girl</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

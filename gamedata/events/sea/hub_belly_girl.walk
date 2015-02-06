@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/hub_belly_girl</name>
+  <descr>&#xd;
+&lt;%Include(&quot;char/julia_init&quot;);%&gt;&#xd;
+&lt;%c = julia &quot;&quot;;%&gt;&#xd;
+&#xd;
+Julia continues to rub lotion on her [belly].&#xd;
+&#xd;
+-Is there anything else you wanted?&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>cm___elven_fertility_priestess_neru_by_marrazan-d6v737e.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk</name>
+      <value>sea/girl_talk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Help lotion belly</name>
+      <value>sea/girl_lotion_belly</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return to Beach</name>
+      <value>sea/beach</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

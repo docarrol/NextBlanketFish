@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/purchase_confirm</name>
+  <descr>[Proxy] talks to the doctor and hands over the money for the machine&#xd;
+&#xd;
+-I...really? Well i&apos;ll get the order in right away&#xd;
+&lt;% &#xd;
+ proxy.inventory.removeMoney(500000) &quot;&quot;;%&gt;&#xd;
+&lt;% SetFlag(&quot;setup_regen_room&quot;,1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>proxy.inventory.moneyCount() &gt;= 500000;</conditions>
+  <picturePath>city/hospital/doctor_tw.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

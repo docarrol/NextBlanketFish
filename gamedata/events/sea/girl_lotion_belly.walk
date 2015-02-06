@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/girl_lotion_belly</name>
+  <descr>The girl gets a huge smile on her face then rubs her belly lustfully
+
+-I would love it if you helped rub lotion on my belly!
+
+The girl reaches into a basket and grabs another large bottle of lotion and hands it to [proxy].
+
+[Proxy] starts at the top of her belly and begins to rub the lotion into her pale skin. The longer [proxy] rubs the more the girl seems to enjoy it.
+
+-I love it! rub down my big fat belly.
+
+[proxy] slowly rubs every inch untill &lt;%activePartner.HeShe();%&gt; gets to where the belly touches the ground. [Proxy] finds &lt;%activePartner.HimHer();%&gt; increasingly liking the idea of having a huge belly. &lt;%activePartner.HeShe();%&gt; thinks to &lt;%activePartner.HimHer();%&gt;self &quot;Is this okay? Should i keep going? She&apos;s enjoying this alot.&quot;.
+
+-It doesnt need lotion but could you run the bottom of my belly? it would feel so good (she smiles lustfully)
+
+&lt;%MoodShame(15);
+proxy.addStat(&quot;skill.massage&quot;,1); 
+&quot;&quot;;%&gt;
+&lt;%proxy.addStat(&quot;skill.desireforfat&quot;,1); &quot;&quot;;%&gt;
+
+</descr>
+  <conditions>ShameCheck(40) == 0;</conditions>
+  <picturePath>cm___elven_fertility_priestess_neru_by_marrazan-d6v737e.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue belly rub</name>
+      <value>sea/girl_lotion_bottom_belly</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about something else</name>
+      <value>sea/hub_belly_girl</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>sea/beach</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

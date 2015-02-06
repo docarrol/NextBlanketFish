@@ -1,0 +1,47 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/client_fat_woman</name>
+  <descr>&lt;%&#xd;
+client = Character(&quot;Client&quot;, &quot;human_female_agency_worker&quot;);&#xd;
+client.addStat(&quot;generic.lewdness&quot;, calc.random(10)+20);&#xd;
+&#xd;
+//Making this girl fat&#xd;
+client.addStat(&quot;generic.abdomen&quot;, calc.random(4)+10);&#xd;
+client.addStat(&quot;abdomen.size&quot;, calc.random(10) + 17);&#xd;
+client.addStat(&quot;abdomen.volume&quot;, calc.random(200) + 6000);&#xd;
+client.addStat(&quot;hips.fat&quot;, calc.random(200) + 4000);&#xd;
+client.addStat(&quot;generic.hips&quot;, calc.random(20) + 70);&#xd;
+client.addStat(&quot;abdomen.streched&quot;, calc.random(70) + 10);&#xd;
+client.addStat(&quot;generic.cup_size&quot;, calc.random(10) + 10);&#xd;
+client.addStat(&quot;generic.waist&quot;, calc.random(10) + 33);&#xd;
+client.addStat(&quot;generic.fat_percent&quot;, calc.random(10) + 23);&#xd;
+client.addStat(&quot;generic.weight&quot;, calc.random(1000) + 54000);&#xd;
+client.addStat(&quot;generic.fat&quot;, calc.random(1000) + 58000);&#xd;
+client.addStat(&quot;abdomen.fat&quot;, calc.random(100) + 5750);&#xd;
+client.addStat(&quot;generic.fat_in_organs&quot;, calc.random(1000) + 17800);&#xd;
+client.addStat(&quot;breasts.fat&quot;, calc.random(100) + 5680);&#xd;
+client.addStat(&quot;generic.breasts&quot;, calc.random(5) + 17);&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+//client.setStat(&quot;generic.arousal&quot;, 90);&#xd;
+//client.setStat(&quot;balls.sperm_volume&quot;, 1000);&#xd;
+//proxy.addStat(&quot;generic.arousal&quot;, 30);&#xd;
+SetInteractionTarget(client);&#xd;
+BeginInteraction(&quot;sex/turn&quot;);&#xd;
+AddIState(&quot;sex&quot;, &quot;sex/turn&quot;);&#xd;
+AddIState(&quot;t_satisfed&quot;, &quot;city/brothel/client_t_satisfed&quot;);&#xd;
+AddIState(&quot;t_tired&quot;, &quot;city/brothel/client_t_tired&quot;);&#xd;
+AddIState(&quot;p_leave&quot;, &quot;city/brothel/proxy_p_leave&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/Bellyplay</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;[proxy] looks down at &lt;%activePartner.HisHer();%&gt; [belly]. What should &lt;%activePartner.HeShe();%&gt; do with it?</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/s_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Rub Belly</name>
+      <value>base/Bellyplayf/rub_belly</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

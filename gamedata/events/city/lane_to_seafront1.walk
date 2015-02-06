@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/lane_to_seafront1</name>
+  <descr>&lt;%Include(&quot;seafront/julia_walking&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>true</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>
