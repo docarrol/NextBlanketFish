@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_1_win</name>
+  <descr>The slingshot fits confortobaly in [proxy] hand. [proxy] release the projectile that hits the target only a couple of cm from the center. Domari was clearly not expecting this. His turn is next but [proxy] shot puts him at great stress. He takes aim and nearly misses the target.&#xd;
+&#xd;
+-You cheated, there is no other way that you could beat the great Domari otherwise. &#xd;
+&#xd;
+[proxy] explains that he gave [himher] all the equipment so there was no way to cheat.&#xd;
+&#xd;
+-You were just lucky. He then calls the staff and a large pig arrives soon that he starts eating. When the gong sound, [proxy] go’s to the next curtain,.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>(self.getStat(&quot;generic.dex&quot;)+self.getStat(&quot;generic.str&quot;))&gt;90</conditions>
+  <picturePath>kt_village/dwarfs/dwarf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

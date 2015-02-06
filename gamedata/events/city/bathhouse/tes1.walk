@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/tes1</name>
+  <descr>[proxy] takes the next box of donuts and starts eating but is too full to continue. [proxy] stomach feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt; and &lt;%activePartner.HeShe();%&gt; has a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly. &lt;%activePartner.HeShe();%&gt; keeps talking to the still eating Edesia but soon drifts to sleep.&#xd;
+Edesia watches how [proxy] is slowly falling asleep.&#xd;
+&#xd;
+-You are starting to act as a head priestess just yet.&#xd;
+&#xd;
+She then makes some strange moves with her hands and proxy&apos;s stomach glows for a second.&#xd;
+&#xd;
+-Got to make sure we can continue this party latter.&#xd;
+&lt;%&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, 2500, 8);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>proxy.getStat(&quot;abdomen.food&quot;)&gt;proxy.getStat(&quot;abdomen.stomach_volume&quot;)</conditions>
+  <picturePath>bathhouse/edesia4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>city/bathhouse/tes2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

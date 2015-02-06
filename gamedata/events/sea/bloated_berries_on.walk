@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/bloated_berries_on</name>
+  <descr>[proxy] can now find Bloated Berries.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bloated_berries_active&quot;,1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>sea/beach.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

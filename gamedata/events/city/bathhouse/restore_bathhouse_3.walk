@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/restore_bathhouse_3</name>
+  <descr>[proxy] asks Vulpsia what should be improved next.&#xd;
+&#xd;
+-Before restoring anymore areas of the bathhouse I would make sure the current areas are properly cleaned. I removed the worst mess with a mop a couple of times but I did not agree to become a cleaning lady.&#xd;
+&#xd;
+ I recommend you ask around in the red light district if they know someone who could clean this place. She should not be afraid of some naked body’s if you want cleaning during operating hours.&#xd;
+&#xd;
+If you find someone, just sent her this way and I will put her to work.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,4);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==3</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

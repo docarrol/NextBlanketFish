@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/start_curtain_7</name>
+  <descr>[proxy] passes the curtain and is greeted by an nearly round dwarf.&#xd;
+&#xd;
+-You are no dwarf, an intruder, I got to run.&#xd;
+&#xd;
+The dwarf than starts to laugh loudly causing waves to spread over her round belly.&#xd;
+&#xd;
+-I have not walked by my own for years so the best I could do was roll away. I recognize that handy work you are wearing, made by Thovila I assume.&#xd;
+&#xd;
+[proxy] explains that she is a friend of Thovila and is here to demonstrate Thovila’s latest corset.&#xd;
+&#xd;
+-I have not longer any use for a corset, hiding this mass is impossible. Now let’s start with our little game. It is very simple, who’s stomach is filled more. &#xd;
+&#xd;
+A assistant dwarf comes in with a complicated looking device and starts scanning both your bellies.&#xd;
+&#xd;
+-I need a extra strong scanner, has to pass a mountain of fat to reach my stomach.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;partycurtain&quot;)==6</conditions>
+  <picturePath>kt_village/dwarfs/dwarf7.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Listen to scanner results</name>
+      <value>kt_village/dwarvenparty/eat_curtain_7</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

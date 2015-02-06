@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/princess_catch</name>
+  <descr>[proxy] tells Cadha that [heshe] is going to pitch that monster penis.&#xd;
+&#xd;
+-Are you sure it will fit, I don’t want to hurt you. I know I’m a bit larger than most.&#xd;
+&#xd;
+[proxy] tells Cadha to lay down on her bed so [proxy] can lower [himher] on the tower of meat. But first they are going to need some lube. Cadha walks to a nightstand and hands [proxy] a large tube, then she lays down on the bed, the thought of fucking [proxy] already made her rock hard. &#xd;
+[proxy] uses the tube to cover every cm of Cadha’s penis in a layer of lube. Then [heshe] lowers [himher] self slowly on the massive penis, the large head of Cadha’s penis only fits in [proxy] pussy when it is completely stretched. With the head in, [proxy] slower lowers [hisher] body to let more of Cadha’s large dick disappear in [hisher] vagina. &#xd;
+&#xd;
+Once Cadha’s dick has reached the maximum depth of [proxy] pussy, [proxy] lifts [hisher] body again. [proxy] then starts pumping Cadha’s dick, it does not take long for Cadha to come. [proxy] feels Cadha’s dick become even larger when a jet of cum travels through it. Cadha’s penis erupts with cum, since the large head of Cadha’s penis blocks [proxy] vagina, the cum is blasted in [proxy] uterus.&#xd;
+&#xd;
+Cumming inside a vagina makes Cadha pump out every bit of cum collected in her body. The stream of cum she pumps in [proxy] vagina does not seem to slow down after multiple large blasts. At some point [proxy] uterus is completely filled up by Cadha’s cum and because of the increase in pressure, cum escapes from [proxy] plugged vagina. With a last large blast Cadha pumps the last of her sperm in [proxy]. [proxy] slowly stands up, removing Cadha’s dick from [hisher] pussy. No longer blocked a large quantity of sperm pours out. Tired, [proxy] drops next to Cadha on the large bed.&#xd;
+&#xd;
+&lt;% &#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;vagina&quot;)</conditions>
+  <picturePath>kt_village/dwarfs/princess_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

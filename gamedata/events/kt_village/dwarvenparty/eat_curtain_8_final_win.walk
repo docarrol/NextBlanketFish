@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_8_final_win</name>
+  <descr>When [proxy] arives back at the zeppelin [heshe] is quickly greeted by Thovila.&#xd;
+&#xd;
+-You can sit here and give that swollen belly of yours some rest. Did you meet Cadha?&#xd;
+&#xd;
+[proxy] tells Thovila that [heshe] had a nice talk with Cadha and that [heshe] is invited to the palace. &#xd;
+&#xd;
+-You got invited to the palace, do you even realize what an honor that is. The royal family is really private, most dwarven nobles dream of the chance to set a foot inside the palace. But what did she think of my corset.&#xd;
+&#xd;
+[proxy] explains that she was not really interested but liked how it looked, she promised however to show it to one of her sisters when [proxy] visited her in the palace.&#xd;
+&#xd;
+-This result was far better than I would ever expect. I’m so proud of you, now just relax and focus on digesting that food baby. I guess you are going to need your full capacity stomach again when you meet Cadha again in the palace.&#xd;
+&#xd;
+[proxy] then asks why Cadha was so much larger than the other dwarfs.&#xd;
+&#xd;
+-So the rumor is true, I never met a royal in person so I was not sure. According to the rumors they belong to a ancient sub race of the dwarfs called the Dwemer. They are extremely rare and as far as I know only members of the royal family are Dwemer. I belief they are larger and grow much older than normal dwarfs but this is all based on rumors I heard.&#xd;
+&#xd;
+Sleepy from all the food in [hisher] stomach, [proxy] falls asleep. When [heshe] wakes up [heshe] is lying in a bed in Thovila’s home.&#xd;
+&#xd;
+-I let you sleep, you looked so peaceful with that bloated stomach of yours. The compression spell of the corset is slowly expanding the food so you can digest it. I hope the effect of this dwarven party is not to severe on your waste. A lot of dwarven nobles visit these kind of parties at an decent interval, that explains the obesity of most of them.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;cadha&quot;,2);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;,0);&#xd;
+SetPerFlag(&quot;partycurtain&quot;,0);&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;,(self.getStat(&quot;generic.calories&quot;)/200), 168);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/Blacksmith.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>12</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

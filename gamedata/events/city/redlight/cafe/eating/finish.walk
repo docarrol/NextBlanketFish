@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/eating/finish</name>
+  <descr>&lt;%Include(&quot;fetish_cafe/eating/finish_start&quot;);%&gt;&#xd;
+&#xd;
+Near the exit the manager is already waiting for [proxy]&#xd;
+&#xd;
+&lt;%Include(&quot;fetish_cafe/eating/finish_pay&quot;);%&gt;&#xd;
+&#xd;
+&lt;%Include(&quot;fetish_cafe/eating/finish_weight&quot;);%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;total_eaten&quot;,(GetPerFlag(&quot;total_eaten&quot;)+GetPerFlag(&quot;dish_eaten&quot;)));&#xd;
+SetPerFlag(&quot;dish_eaten&quot;,0);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>proxy.getStat(&quot;abdomen.food&quot;)&gt;(0.6*proxy.getStat(&quot;abdomen.stomach_volume&quot;))</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

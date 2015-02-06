@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_berta</name>
+  <descr>[proxy] approaches Berta&apos;s house and rings the door. Nothing happens so &lt;%activePartner.HeShe();%&gt; rings again.&#xd;
+&#xd;
+-Go away. You are just here to laugh at me.&#xd;
+&#xd;
+[proxy] wonders what type of test drug Berta used at the hospital. After a couple of more rings Berta finally opens the door.&#xd;
+&#xd;
+-Go away and stop bothering me.&#xd;
+&#xd;
+It is for [proxy] not hard to see what kind of drug Berta took. She has two massive breasts. [proxy] managed to calm Berta down a bit and tells her the job offer.&#xd;
+&#xd;
+-You want me to dress and undress people with these things, impossible. Nobody even allows them near me with these freaks let alone undress them. Your wasting your time, go find someone else and leave me to my misery.&#xd;
+&#xd;
+[proxy] tells Berta that [heshe] actually thinks her breasts are great and is sure most of the visitors of the bathhouse would agree. It is better hand sitting holed up in her home.&#xd;
+&#xd;
+Much convincing later Berta agrees to work in the bathhouse; she really needs the money to buy new cloths because her old ones do not longer fit for two large reasons.&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,9);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==8</conditions>
+  <picturePath>bathhouse/maid.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/lane_to_seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

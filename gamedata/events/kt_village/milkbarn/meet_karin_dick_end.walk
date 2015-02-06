@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_dick_end</name>
+  <descr>[proxy] enters the room where Karin is waiting in at least that is normally the case. This time the room is empty. [proxy] to the unused room [heshe] found Karin last time. Since their last meeting Karin’s dick has doubled in size. When [proxy] enters the room Karin is receiving a blow job from another girl. All over the room small spots of cum are visible. A few moments later Mathilda enters the room.&#xd;
+&#xd;
+-What again, you received your last warning already. Out, both of you. And you [proxy], I asked you to help Karin to become a milk girl, not a breeding stud. You ruined the life of Karin, I never want to see you again.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;milk_barn&quot;,2);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;Talia_quest&quot;)==2 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/dick_cow_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/second_part</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

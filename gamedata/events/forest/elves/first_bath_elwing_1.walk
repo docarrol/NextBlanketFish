@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/first_bath_elwing_1</name>
+  <descr>[proxy] talks a bit more with Elwing and is then invited to a bath. In the large tree even a small pool of water is present. The water glows blue in the moonlight. [proxy] is soon joined by Elwing and together they take a bath. When Elwing see’s [proxy] naked body she simply states.&#xd;
+&#xd;
+-your also a futanari, they have become a lot more common after the Dimension Shift.&#xd;
+&#xd;
+[proxy] offers Elwing to wash her back. While [proxy] is washing Elwing’s back she suddenly starts to breath heavier.&#xd;
+&#xd;
+-What is this, I’m getting horny, how can this be.&#xd;
+&#xd;
+[proxy] asks what is wrong. Getting horny is noting strange although getting horny from a back rub might be a bit over the top.&#xd;
+&#xd;
+-As you might have noticed, I look different than the other elves. I belong to the night elf race. We have even for elves a long lifespan and normally live in secluded villages deep in the ancient forests of altazure. I left my home village to see more of the world, some other elves saw me as a guide. I saved a village with my wisdom and soon I had a following. I decided to found this village to bring some peace to lost elves in this troubled time.&#xd;
+&#xd;
+Now about getting horny, normally dark elves are infertile and not interested in any physical relationships unless they find a strong mate. Normally this happens only once or twice every century for every village. Because of our long life time we don’t face the fear of becoming extinct through our low fertility unless many of us are killed in battle. We are a peaceful race that lives in one of the most hidden areas of the world so that chance of that is very small.&#xd;
+&#xd;
+It seems my body found a mate in you. I’m not sure what is going to happen with me but the foresight of learning more is greatly exciting me.&#xd;
+&#xd;
+Follow me to somewhere more private.&#xd;
+</descr>
+  <conditions>self.getStat(&quot;generic.sex&quot;)==3</conditions>
+  <picturePath>elves/queen2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/first_elwing_sex</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

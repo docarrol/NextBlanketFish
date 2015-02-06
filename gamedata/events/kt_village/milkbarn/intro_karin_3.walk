@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/intro_karin_3</name>
+  <descr>Karin looks a bit scared now she is left alone with [proxy]. [proxy] tells her that [heshe] won’t bite unless it are Karin’s nipples to get some milk out. Karin seems to completely miss the joke and looks even more scared. [proxy] thinks of a way to break the ice and then tells Karin that they should massage each other’s breasts.&#xd;
+&#xd;
+Karin and [proxy] start massaging each other breast although [proxy] has very little to work with. Karin meanwhile is a real expert in massaging. It seems one of the odd jobs Mathilda had her perform was massaging boobs because she is an expert in it.&#xd;
+&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/recieve_massage&quot;);%&gt;&#xd;
+&#xd;
+[proxy] own far less skill full massage also has some effect. [proxy] notices small drips of milk on Karin’s tiny nipples.&#xd;
+&#xd;
+[proxy] has no idea what to do next and notices the milking equipment from the corner of [hisher] eyes. Wright, milking is next. [proxy] tells Karin to use a milking machine.&#xd;
+&#xd;
+-Those milking machines are only for real milk girls, not a fake like me.&#xd;
+&#xd;
+[proxy] tells Karin that she has also milk in her breasts so that she is also a milk girl.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/tiny_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/intro_karin_4</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/intro_karin_4</name>
+  <descr>[proxy] guides Karin to one of the milk machines and helps her setup. Next to Karin’s milk machine another tau girl is being milked. She has decently sized breast and is producing a good amount of milk.&#xd;
+&#xd;
+When [proxy] activates the machine a couple of extremely small streams of milk leave Karin’s barely visible breasts. After a couple of seconds the machine auto stops and gives the error. Please place breasts in the suction cups. Karin quickly removes the equipment of her body and runs away crying. The girl on the other machine is meanwhile laughing hard.&#xd;
+&#xd;
+-You can’t use these machines on planks. Maybe in 100 years she grows breasts that fit in the smallest cup. Here look at mine, this are real breasts. My name is Talia, just ask around if you need someone with real breasts.&#xd;
+&#xd;
+[proxy] then walks back to the room where [heshe] was talking with Karin earlier. Karin is sitting in a corner crying. [proxy] apologizes for [hisher] horrible mistake and promises that next time it will go better but they need to start a bit smaller first.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;karin_pro&quot;,5);&#xd;
+SetPerFlag(&quot;karin_cap&quot;,250);&#xd;
+SetPerFlag(&quot;karin_ener&quot;,100);&#xd;
+SetPerFlag(&quot;karin_food&quot;,40);&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/milk_tiny_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/second_part</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

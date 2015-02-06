@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_end_small</name>
+  <descr>After [proxy] enters the shrine &lt;%activePartner.HeShe();%&gt; notices Edesia sitting against some a large pillow, stuffing her face with donuts. In a far corner of the shrine Himanka is busy stuffing her face with the food surrounding her.&#xd;
+&#xd;
+Edesia takes a small break from her donut eating.&#xd;
+&#xd;
+-What do you want? Here for a blessing?</descr>
+  <conditions>GetFlag(&quot;edesia_blessing&quot;)&lt;=10</conditions>
+  <picturePath>bathhouse/edesia10.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Perm boost metabolism (5kg)</name>
+      <value>city/bathhouse/edesia_metabperm</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Perm boost digest speed (5kg)</name>
+      <value>city/bathhouse/edesia_speedperm</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Temp boost metabolism (5kg)</name>
+      <value>city/bathhouse/edesia_metabtemp</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Temp boost digest speed (5kg)</name>
+      <value>city/bathhouse/edesia_speedtemp</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lower metabolism (5kg)</name>
+      <value>city/bathhouse/edesia_metablower</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/exitshrine</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

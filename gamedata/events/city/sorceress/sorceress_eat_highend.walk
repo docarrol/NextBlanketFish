@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_eat_highend</name>
+  <descr>[proxy] enters Morgan’s shop with a bit of dislike. The idea of being squads again under Morgan’s fat is not very appealing. By keeping out of reach this time, [proxy] might can learn some more magic from her. After [proxy] eyes get used to the darkness of the shop [heshe] notices Morgan. &#xd;
+&#xd;
+[proxy] is not sure what happened but Morgan has returned to her previous size. [proxy] asks what happened to her obese body.&#xd;
+&#xd;
+-How dare you to tell me that I was fat, I was only a tiny bit heavier for a magical experiment.&#xd;
+&#xd;
+A tiny bit heavier, she had trouble walking through a door. &#xd;
+&#xd;
+-Thanks to my determination I managed to complete a spell to reduce ones weight. The sacrifices I make for the benefit of humanity.If your magic training is sufficient I might allow you to buy it because of the service you have provided during my experiment. I don’t have to tell you that I have knowledge of some interesting spells that will most certainly hit you if anyone learns of my sacrifices for the good of magic.&#xd;
+&#xd;
+[proxy] asks if Morgan is still visiting the bathhouse.&#xd;
+&#xd;
+-Places like that are not up to my standards, besides you have a crazy goddess in there, because of her recipes I gained a tinny bit of weight. &#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;fat_spell&quot;,1);&#xd;
+SetPerFlag(&quot;morgan_eat&quot;,0);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;morgan_eat&quot;)==8 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/sorceress/sorceress_enterance_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

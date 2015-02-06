@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingparttwo_lose</name>
+  <descr>[proxy] tries &lt;%activePartner.HisHer();%&gt; best but loses while eating pancakes from a couple of housewife’s.
+
+At the end Vicky walks to [proxy]
+
+-Maybe next time do not snack as much before the competition.</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&lt;=3000;</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartonefail</name>
+  <descr>Once Vicky starts the competition [proxy] takes the first pancake for the stack. Slowly &lt;%activePartner.HeShe();%&gt; start eating the pancake. This process continues for the rest of the match time. Once the 5 minutes are up, Vicky calls out the results. &#xd;
+&#xd;
+The winner of the match with 9 pancakes is contestant number 3, [proxy] somehow lost to a kid.&#xd;
+&#xd;
+Trying to leave the competition table without being noticed, [proxy] is approached by Vicky.&#xd;
+&#xd;
+-Losing to a kid, I really hope next time you put some more effort in this.</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&lt;1000</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

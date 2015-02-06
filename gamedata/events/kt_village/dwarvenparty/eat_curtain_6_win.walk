@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_6_win</name>
+  <descr>-Another person that has seen the light. Perfect chocolate with rich cream combined food of the gods is indeed the shortest possible way to describe it. Because you won you won’t get to eat it but I will make sure to describe every last detail to you when eating it.&#xd;
+&#xd;
+A large scale of éclairs are brought in, the look a bit familiar. The dwarf starts explaining every facest of the éclairs in great detail while eating them. At some point [proxy] had to ask if they are made by Vicky.&#xd;
+&#xd;
+-You know the person who made this foods of the gods, you must be blessed.&#xd;
+&#xd;
+The rest of the time is filled with the dwarf eating the stack of éclairs from the scale while bombarded [proxy] with questions about Vicky. When the gong sound, [proxy] leaves to the next curtain.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf6.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/restore_bathhouse_6</name>
+  <descr>[proxy] asks Vulpsia how Mattie is handling the fresh milk for the customers.&#xd;
+&#xd;
+-I really doubted your decision when she came to me for the milk job. I mean, just look at her tits. Berta has breasts that you would expect to provide milk, her breasts on the other hand are large than average for a human but as milk factories I was not so sure.&#xd;
+After seeing here in action I got to say I’m impressed. I really hope we get a lot of thirsty customers because I have seen what those puppies can do. She told me you would take care of them if they got full, I promised to update you on the status of those milk fountains when you come in.&#xd;
+&#xd;
+About the next improvement, I have seen a lot of customers leave with bloated bellies full of fresh milk. Combined with the increased digestion blessing of the hot springs some customers are starting to complain about too thigh cloth. Let us restore the sauna next to let them sweat out all those calories. The timber of the current sauna cannot even be used as firewood so we got to replace it all. We can use the wood left over from the hot springs job, I would say, 400 credits for labor and other costs.</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==11</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pay (400)</name>
+      <value>city/bathhouse/buildthree</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

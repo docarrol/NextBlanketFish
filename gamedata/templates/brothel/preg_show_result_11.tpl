@@ -1,8 +1,9 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 11;</conditions>
-  <text>As [proxy] carries the belly large enough to seem nine months pregnant, audience definitely pays attention to [her], and [proxy]&apos;s performance can be named a success.&#xd;
+  <text>As [proxy] carry the belly of size that close enough to represent nine month pregnancy, auditory definitely paying attention to [her], and [proxy] performance can be named somewhat a success.&#xd;
 &#xd;
-&lt;%Include(&quot;brothel/money_preg_show&quot;);%&gt;</text>
+&lt;%Include(&quot;brothel/money_preg_show&quot;);%&gt;&#xd;
+&lt;% proxy.addStat(&quot;skill.desireforfat&quot;, 1); &quot;&quot;;%&gt;</text>
   <priority>3</priority>
   <picturePath>brothel/preg_show_b1_t1.jpg</picturePath>
   <choices/>

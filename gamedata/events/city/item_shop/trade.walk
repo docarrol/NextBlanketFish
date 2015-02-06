@@ -7,6 +7,7 @@ ItemToShop(&quot;utice&quot;);
 ItemToShop(&quot;utice_pack&quot;);
 ItemToShop(&quot;home_preg_test&quot;);
 ItemToShop(&quot;digestup&quot;);
+ItemToShop(&quot;Pregnant_chocolate&quot;);
 &quot;&quot;;
 %&gt;</descr>
   <conditions>1</conditions>
@@ -17,6 +18,6 @@ ItemToShop(&quot;digestup&quot;);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

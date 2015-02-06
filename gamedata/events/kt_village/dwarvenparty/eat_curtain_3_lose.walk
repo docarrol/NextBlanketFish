@@ -1,0 +1,44 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_3_lose</name>
+  <descr>[proxy] takes the skull full of mead, when the female dwarf removes her grip, the jaw comes lose and drops. In an attempt to prevent the jaw from dropping, [proxy] changes [hisher] grip but this only leads to the spillage of some mead. During the attempt to drink from the skull, [proxy] performs not much better, a lot of mead is spilled.&#xd;
+&#xd;
+-No suprice there, only a true Viking can drink from a skull without a tremendous amount of training, I surly had during my time up north.&#xd;
+&#xd;
+With that said the dwarf grabs the fat bellies of the two female dwarfs.&#xd;
+&#xd;
+-As you can see, I was not the only one doing the training, now let me teach you how a real Viking drinks.&#xd;
+&#xd;
+The two female dwarfs stand up and start assisting [proxy] with drinking from a skull. Soon [proxy] managed to drink [hisher] first skull without spillages.&#xd;
+&#xd;
+-Now you know how you should drink, with sufficient training you might even can do it by yourself. For a starter like you it much easier to learn how a real dwarf drinks beer.&#xd;
+&#xd;
+The two female dwarfs pick the keg they where tapping the mead from and with some struggle lift it. The then carry it to [proxy], the male dwarf even becomes active and takes [proxy] head. He forces [proxy] mouth under the tap and opens it.&#xd;
+&#xd;
+-A real dwarf should be able to drink straight from the tap.&#xd;
+&#xd;
+[proxy] is saved when the gong sounds, with a sloshing belly [heshe] leaves the three dwarves behind.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 5000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;, GetPerFlag(&quot;dwarfparty_eat&quot;)+1);&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

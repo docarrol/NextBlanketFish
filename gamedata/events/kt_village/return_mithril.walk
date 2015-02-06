@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/return_mithril</name>
+  <descr>[proxy] returns to Thovila to see how far the mystery item is she is creating from the Mithril bought by [proxy]. When [proxy] approaches Thovila [heshe] notices she is working on a plain axe.&#xd;
+&#xd;
+-Hello again [proxy], give me a minute, I need to finish this axe first.&#xd;
+&#xd;
+[proxy] waits for a bit till Thovila is finished with the axe.&#xd;
+&#xd;
+-Sorry for that, because of the work on your special piece I have a backlog of my other work. Been hammering on axes for the last couple of hours. About the piece I made for you, it became even better than expected but before I hand it to you, I have to ask another favor from you. A trader came by looking to buy and sell some of his wares, I noticed that he had some items where technology and magic where combined. I believed he called it technomagic. Magic is something completely foreign to dwarfs. The impact this new piece could have if I combined the Dwarven technology with magic could be immense. Most crafting dwarfs would not even look at magic, we are doing fine without it, but I see opportunities for progress.&#xd;
+&#xd;
+Do you know by any chance someone who has knowledge of technomagic? I’m sure I can make your item even better with that incorporated in it.&#xd;
+&#xd;
+Maybe Christian from the magic shop can help Thovila.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;dwarf_crash&quot;,3);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;thovilawait&quot;)&lt;clock.getDays() &amp;&amp; GetPerFlag(&quot;dwarf_crash&quot;)==2</conditions>
+  <picturePath>char/thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

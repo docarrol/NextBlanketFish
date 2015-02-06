@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_enterance_continue</name>
+  <descr>[proxy] enters the shop and soon discovers that Morgan is not present in the first area. [proxy] walks to the door to the library and finds Morgan sitting on her comfortable chair.&#xd;
+&#xd;
+-Good you are here again. That means I don’t need to waste energy again. Come here, I need to relieve some apple juice again.&#xd;
+&#xd;
+Morgan opens her legs again and shows [proxy] her naked pussy.</descr>
+  <conditions>GetPerFlag(&quot;magic_skill&quot;)&gt;5 &amp;&amp; GetPerFlag(&quot;magic_skill&quot;)&lt;11 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_home_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/sorceress/sorceress_teach_adv</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

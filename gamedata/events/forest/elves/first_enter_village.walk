@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/first_enter_village</name>
+  <descr>[proxy] is standing on a well hidden path in the forest floor. In the distance a very large tree can be seen with some buildings at its foot. &#xd;
+&#xd;
+-This is my village, never wander in the surrounding woods by yourself. To protect its location guards will shoot you without second thought. The next arrow can hit you on a much more important place then your arm. Now follow me, I will take you to the elder.&#xd;
+&#xd;
+[proxy] follows the elf to the village. The village contains elves of all kinds and shapes. The elf guiding [proxy] notices the strange looks [proxy] makes too all the different kinds of elves.&#xd;
+&#xd;
+-We are a collection of elves who have flocked together to the wisdom of the elder. Race and origin does not matter here, as long as you follow the wisdom of the elder you are welcome here.&#xd;
+&#xd;
+She then guides [proxy] to some stairs that lead up the massive tree. After climbing a lot of steps, [proxy] and the elf arrive at an impressive looking door.&#xd;
+&#xd;
+-Wait here, I will look if she has time for you.&#xd;
+&#xd;
+A few moments later the elf is back and guides you in a room incorporated in the tree. The elf then quickly leaves.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/City_entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/first_meet_elwing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

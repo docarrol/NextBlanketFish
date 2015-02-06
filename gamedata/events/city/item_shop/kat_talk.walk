@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/item_shop/kat_talk</name>
+  <descr>you talk to kat
+&lt;%Include(&quot;char/kat_init&quot;);%&gt;
+
+
+
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/item_shop/shop.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Trade</name>
+      <value>city/item_shop/trade</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Exit</name>
+      <value>city/edge_of_city</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

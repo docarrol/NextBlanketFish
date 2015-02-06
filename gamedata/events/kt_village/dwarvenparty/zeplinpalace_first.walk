@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/zeplinpalace_first</name>
+  <descr>[proxy] asks Thovila if she can arrange some transportation to Ironhill. While waiting for the zeppelin Thovila starts working on the corset.
+
+-I created with Christian an improved version of the compression magic circuit. It should now lower the weight of the compressed food and allows more compression. Extensive use however will wear down the circuits fast. Depending on how much Cadha wants you to eat, it will only last once so make it count.
+
+ Sometime later a zeppelin arrives who takes both Thovila and [proxy] to Ironhill. The zeppelin docks near the upper regions of Ironhill and [proxy] is taken towards the palace by a guide. Thovila stays behind near the zeppelin because she is officially not allowed to enter Ironhill.
+
+While [proxy] walks through Ironhill with the guide [heshe] notices that the buildings and surroundings are getting more and more elaborate and expensive the deeper they enter the top of the mountain. They arrive at a small plaza with what looks like a golden fountain in the middle. The guides tells [proxy] that the palace is on the other side and then quickly leaves.
+</descr>
+  <conditions>GetPerFlag(&quot;cadha&quot;)==2 &amp;&amp; self.getStat(&quot;abdomen.food&quot;)&lt;=0</conditions>
+  <picturePath>kt_village/dwarfs/ironhill.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/enterance_palace_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>4</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

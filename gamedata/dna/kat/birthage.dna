@@ -1,0 +1,33 @@
+<fetishmaster.bio.DNAGenePool>
+  <pool>
+    <entry>
+      <string>generic.birthage</string>
+      <fetishmaster.bio.DNAGene>
+        <organname>generic</organname>
+        <statname>birthage</statname>
+        <value>144635.0</value>
+        <changerate>0.0</changerate>
+        <pubertyage>0.0</pubertyage>
+        <maturetime>0.0</maturetime>
+        <mutationrate>0.0</mutationrate>
+        <oneTimeMutation>0.0</oneTimeMutation>
+        <active>true</active>
+        <geneForce>0</geneForce>
+        <sexTraits>0</sexTraits>
+        <script></script>
+        <passOnFastTime>false</passOnFastTime>
+        <runAsDNA>false</runAsDNA>
+        <runAsRNA>false</runAsRNA>
+        <checkRange>false</checkRange>
+        <minValue>0.0</minValue>
+        <maxValue>0.0</maxValue>
+        <textValue></textValue>
+        <returnToNatural>false</returnToNatural>
+        <backforce>0.0</backforce>
+        <backforceRangeMult>0.0</backforceRangeMult>
+        <scriptRunOnlyAsActive>false</scriptRunOnlyAsActive>
+        <chrate>0.0</chrate>
+      </fetishmaster.bio.DNAGene>
+    </entry>
+  </pool>
+</fetishmaster.bio.DNAGenePool>

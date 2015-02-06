@@ -7,17 +7,22 @@
     <fetishmaster.engine.WalkChoice>
       <name>Seafront</name>
       <value>city/seafront</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Explore beach (1h)</name>
       <value>sea/explore_beach</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Swim (1h)</name>
       <value>sea/take_swim</value>
-      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meet strong girl</name>
+      <value>city/bathhouse/meet_chunli</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sign on beach</name>
+      <value>sea/sign</value>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -26,5 +31,4 @@
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

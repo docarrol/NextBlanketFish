@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/start_curtain_2</name>
+  <descr>[proxy] passes the curtain and is greeted by an armored female dwarf&#xd;
+&#xd;
+-Who are you, I don’t recognize you, what are you doing here.&#xd;
+&#xd;
+[proxy] explains that she is a friend of Thovila and is here to demonstrate Thovila’s latest corset. &#xd;
+&#xd;
+-Thovila, I have heard of her. I think I might need her service in the future, lately this armor got a bit tight.&#xd;
+&#xd;
+Tight is a mild expressing for the state of her armor. Most of it just disappears under the overhanging fat. The maker of the armor must have been skilled because every piece of it is under great stress. [proxy] wonders how she even managed to get the armor on. The metal bra is at least 2 times too small for her fat breasts. She did not bother to wear the stomach plate, even if it would fit it would prevent her from eating.&#xd;
+&#xd;
+-Now for our little game. I was always a huge fan of games and I know the perfect game for this occasion.  Pick, metal, forge. Metal is a closed fist, pick is putting your hand like your holding a pick handle and fire is an open hand. Pick is useless against solid metal, metal melts in forge and a forge is destroyed with a pick.&#xd;
+&#xd;
+[proxy] asks what happens if they both use the same hand. &#xd;
+&#xd;
+-Then we use castes, since you are not even a dwarf you will lose. You understand the rules, get ready and we start.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;partycurtain&quot;)==1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Play pick, metal, forge</name>
+      <value>kt_village/dwarvenparty/eat_curtain_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_afterwhitebottle_2</name>
+  <descr>[proxy] follows the assistant to Elwing’s chamber. Inside Elwing is hosting a orgy with a couple of female elves. When Elwing notices [proxy] entrance with [hisher] extremely swollen balls brink full of cum she immediately realizes what you have done.&#xd;
+&#xd;
+-You drank the entire bottle, I like your way of thinking. Now come here and let me help you, that pressure must be unbearable.&#xd;
+&#xd;
+Without paying much attention she pulls her dick from the pussy of a female elf. A decent amount of spunk immediately starts flowing along the female elfs leg. [proxy] nearly losing [hisher] mind stopping [hisher]self from cumming notices that Elwing’s body has changed even more. Her skin has become darker and now looks dark blue, she also has two small horns on her head now. Elwing’s dick meanwhile has become longer and thicker.&#xd;
+&#xd;
+Elwing’s grabs [proxy] dick and shoves it up her pussy. Just entering that tight pussy already pushes [proxy] over the edge. [heshe] blast the first huge load of sperm in Elwing’s pussy. [proxy] keeps coming and coming while Elwing slowly moves back and forth being rapidly filled up with [proxy] cum. She grabs her slowly expending belly.&#xd;
+&#xd;
+-Yes, shoot all your seed inside me. Make me drown in your cum. Give me more.&#xd;
+&#xd;
+[proxy] balls and pouch meanwhile are far from empty and keep pumping cum in Elwing’s pussy. When her belly is deformed to a state that looks like she ready to give birth to at least twins, Elwing’s uterus is finally completely filled with cum. Large streams of cum are now escaping Elwing’s pussy passed [proxy] dick. Elwing pushes her ass as hard as she can against [proxy] crotch nearly causing [proxy] to lose [hisher] balance. She want even more cum in her body while it is already completely filled up. Finally [proxy] balls and pouch are ready cumming. With the feeling of [proxy] just ran a marathon [heshe] drops down on Elwings bed. The bed is covert in cum, Elwing must have had multiple parties on it since it was cleaned last.&#xd;
+&#xd;
+Elwing meanwhile is closing her legs as much as her large balls and penis allow, she wants to keep as much of your cum inside as possible.&#xd;
+&#xd;
+-This feels incredible, I wonder if I will have the same output in the future. Well, one thing I know from sure, from such a load I must have become pregnant again.&#xd;
+&#xd;
+When lying on the bed [proxy] feels his balls returning to normal. The liquid in the bottle seems to have finally lost its effect. Since Elwing is preoccupied with her twin bearing belly filled with cum one of the elves is approaching [proxy]. She was the only one not serviced yet by Elwing and seem to be incredibly turned on by the previous display. You can see the liquid dripping from her pussy. You not sure what it is but Elwing’s recent changes might also influence the elfs around her. &#xd;
+&#xd;
+The elf inserts [proxy] penis in her extremely wet pussy and starts pumping [proxy]. It does not take long for [proxy] to pump [hisher] remaining seed in the elfs eagerly waiting pussy. With [hisher] balls now empty, [proxy] can see the lasting effect of drinking the entire bottle. [hisher] balls and pouch are no longer as ridiculously large as a while back but are now at least 2 times bigger than before.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,6);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays());&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen8.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

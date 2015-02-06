@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/milk_feed_push_5</name>
+  <descr>[proxy] pushing the button for the first time hardly makes a dent in Karin’s stomach. Before the serving of food is finished [proxy] pushes a second and then third time. Even after [proxy] pushed the button a fourth time, Karin’s bottomless stomach is not filled. [proxy] pushes the button a fifth time and another doses of milk girl food joins the rest. When the flow stops Karin has a full term belly. With the amount of food inside that Karin should be able to make lots of milk.&#xd;
+&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/milk_produced&quot;);%&gt;&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/push_five&quot;);%&gt;</descr>
+  <conditions>GetPerFlag(&quot;karin_stom&quot;)&gt;40</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

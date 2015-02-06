@@ -14,6 +14,11 @@
       <value>city/hilltown</value>
       <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Berta</name>
+      <value>city/bathhouse/meet_berta</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
   <time>0</time>

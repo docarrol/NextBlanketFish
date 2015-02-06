@@ -1,0 +1,48 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_pizzahigh</name>
+  <descr>-Can we try some more types of pizzas again?&#xd;
+&#xd;
+[proxy] agrees and soon both [proxy] and Himanka have their own pizza. Before [proxy] is even half way trough &lt;%activePartner.HisHer();%&gt; own pizza, Himanka gets the next pizza already. She brings this time a stack of pizza boxes.&#xd;
+&#xd;
+-Standing up for each getting a pizza one at the time is not useful.&#xd;
+&#xd;
+Himanka then continues eating one pizza after the other. [proxy] tries to make some small talk but is only answer very briefly by Himanka who seems far more interested in eating pizza. Because of Edesia&apos;s blessing, Himanka&apos;s stomach is not the only one getting filled by her rapid eating of pizza&apos;s. [proxy] notices that &lt;%activePartner.HisHer();%&gt; stomach content is also increasing at an alarming rate. Soon she will be full so [proxy] continues eating &lt;%activePartner.HisHer();%&gt; own pizza.&#xd;
+&#xd;
+After some time [proxy] stomach starts to feel awfully full, when is Himanka ever going to stop eating. Does she have no limit? At the moment proxy&apos;s stomach really starts to get full, Himanka finally stops eating.&#xd;
+&#xd;
+She starts massaging her fat belly for a bit and lets out some burbs.&#xd;
+&#xd;
+-That hit the spot; I don’t think I could eat another bite. I really don&apos;t know why I never did this before, this feeling is pure bliss.&#xd;
+&#xd;
+Both [proxy] and Himanka sit back on their chairs for a bit, giving time for their huge overloaded stomach to digest some of its content so they can move again.&#xd;
+&#xd;
+-This was so much fun, let’s do it again soon.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 40000);&#xd;
+self.addStat(&quot;abdomen.food&quot;,10000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+40));&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/himanka4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_5_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_6_small</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

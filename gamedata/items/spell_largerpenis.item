@@ -1,0 +1,19 @@
+<fetishmaster.items.Item>
+  <name>Spell: improved performance</name>
+  <descr>A spell designed by Morgan to increase the size of the caster penis.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addStat(&quot;penis.length&quot;, (0.1*self.getStat(&quot;penis.length&quot;)));&#xd;
+self.addStat(&quot;penis.width&quot;, (0.1*self.getStat(&quot;penis.width&quot;)));&#xd;
+&#xd;
+AddItem(&quot;spell_largerpenis&quot;);&#xd;
+&#xd;
+self.addStat(&quot;generic.tiredness&quot;, (2500/GetPerFlag(&quot;magic_skill&quot;))+10);</useScript>
+  <useText>[proxy] cast the spell and immediately feels the effect. A greet amount of energy is drawn from [proxy] body, using [hisher] magic skill [heshe] managed to reduce the effect. Meanwhile [proxy] penis slowly starts to grow.</useText>
+  <count>1</count>
+  <canBeStacked>false</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1000</value>
+  <sellValue>150</sellValue>
+  <weight>0.0</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

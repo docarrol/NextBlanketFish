@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/bring_crashed_dwarf</name>
+  <descr>[proxy] introduces the crashed dwarf to Thovila. The two dwarfs start to talk completely ignoring [proxy]. After not much time the crashed dwarf angry leaves.&#xd;
+&#xd;
+-Sorry for that, it seems she expected that I would drop down all my business and brings her straight to Ironhill. Her name is Breeda Ironbladder, a second tier merchant of Ironhill.&#xd;
+&#xd;
+[proxy] asks why Breeda expected to be brought to Ironhill straight away.&#xd;
+&#xd;
+-For that I have to explain a bit about the Dwarven community structure. The Dwarves culture is based on castes. The main principle on which the caste system works is that dwarves inherit their caste from their same-sex parent. This means that if a woman is married to a man of a different caste, her son would be the same caste as his father, while her daughter will inherit her mother&apos;s caste. In such cases, however, the family would normally live in the house of the parent who belongs to a higher caste. Only on rare occasions a dwarf can improve their caste. I managed to go from blacksmith second class to blacksmith first class because of my skill creating corsets. Even that did not prevent me from getting kicked out. Dwarfs from a higher caste are allowed to give orders to dwarfs of a lower caste that they should carry out. The bigger the caste difference, the more extensive the order can be. Dwarfs that live outside of the main dwarf cities are most of the time castles, the lowest caste. Breeda assumed I was also castles so she could order me around. I’m however a higher caste than her so that was a bit of a disappointment for her. It seems she needs to find her own way back to Ironhill. You followed me so far?&#xd;
+&#xd;
+[proxy] tells Thovila that the caste system is a bit complicated and not very fair.&#xd;
+&#xd;
+-It has been used for a long time already and a lot of dwarfs profit from it. It is very unlikely that it is going to change in the near future. &#xd;
+&#xd;
+Breeda’s arrival did bring an interesting opportunity. She is a trader so it is likely she could obtain some Mithril. With Mithril I could make  a lot more interesting stuff then those bloody axes. Breeda is currently probably hating me to the center of the rock she is standing on. You, after helping her, might get a bit more reasonable price for Mithril from her. If you bring me some Mithril I will make something from it for you, you can’t buy anywhere, even in Ironhill.&#xd;
+&#xd;
+I noticed Breeda renting the empty house next door, you can probably find her there.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;dwarf_crash&quot;,1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>char/thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/blacksmith_entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/mathilda_talk_end</name>
+  <descr>[proxy] notices that Mathilda is free for a moment and approaches her. [proxy] tells Mathilda that [heshe] has finished Karin’s training.&#xd;
+&#xd;
+-Karin approached me earlier, you really did a great job training her. Her is your reward.&#xd;
+&#xd;
+Mathilda hands [proxy] 5000 coins.&#xd;
+&#xd;
+-I really enjoyed our time together, don’t tell Karin this, but I’m actually a bit sad her training ended already. Seeing my private machines used, you know what, only rewarding you with some cash is not fair. If you ever want to train your own breast and I have time, I let you use my machines.&#xd;
+&#xd;
+I would like to chat longer but I have a very important meeting now. Come see me if you want to do some training yourself.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karin_end&quot;,2)&#xd;
+AddMoney(&quot;5000&quot;);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;karin_end&quot;)==1</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,39 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>stomachcontent</name>
+  <min>
+    <double>0.0</double>
+    <double>0.1</double>
+    <double>0.25</double>
+    <double>0.4</double>
+    <double>0.6</double>
+    <double>0.75</double>
+    <double>0.85</double>
+    <double>0.9</double>
+    <double>0.95</double>
+    <double>1.0</double>
+  </min>
+  <max>
+    <double>0.1</double>
+    <double>0.25</double>
+    <double>0.4</double>
+    <double>0.6</double>
+    <double>0.75</double>
+    <double>0.85</double>
+    <double>0.9</double>
+    <double>0.95</double>
+    <double>1.0</double>
+    <double>99999.0</double>
+  </max>
+  <descr>
+    <string>empty</string>
+    <string>nearly empty</string>
+    <string>starting to have some filling</string>
+    <string>half full</string>
+    <string>starting to fill up</string>
+    <string>nearly full</string>
+    <string>realy full</string>
+    <string>full</string>
+    <string>filled too the maximum</string>
+    <string>painfully streched</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

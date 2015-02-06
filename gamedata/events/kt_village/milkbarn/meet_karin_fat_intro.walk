@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_fat_intro</name>
+  <descr>[proxy] enters the room where Karin is waiting. All the food that Karin has been eating extra is starting to show its mark. When [proxy] grabs Karins waist a fat roll is present between [hisher] fingers.&#xd;
+&#xd;
+-My cloths have become a bit tight lately it, I’m eating more than my milk production takes. I probably should eat a bit less or else I’m going to turn into a whale. &#xd;
+&#xd;
+Before [proxy] has a chance to respond Talia walk by.&#xd;
+&#xd;
+-What you are lacking in the chest department you are compensating at your waist. Look at how fat she is, soon they are going to need to reinforce the machines for her.&#xd;
+&#xd;
+Karin storms out and claims one of the milking machines. Based on how she is pushing the feed button she has resorted to binge eating after Talia’s commends. [proxy] doubts this is going to help her current large size.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karin_fat_first&quot;,1);&#xd;
+SetPerFlag(&quot;karin_stom&quot;,(GetPerFlag(&quot;karin_stom&quot;)+6));&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)+6));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)+150));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+SetPerFlag(&quot;karin_food&quot;,(GetPerFlag(&quot;karin_food&quot;)+20));&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;karin_food&quot;)&gt;=80 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays() &amp;&amp; GetPerFlag(&quot;karin_fat_first&quot;)&lt;1</conditions>
+  <picturePath>kt_village/milk/gain_weight.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

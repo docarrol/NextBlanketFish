@@ -1,0 +1,15 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/lounge</name>
+  <descr>&lt;%Include(&quot;brothel/belly&quot;);%&gt;
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/brothel/lounge.jpg</picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>true</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

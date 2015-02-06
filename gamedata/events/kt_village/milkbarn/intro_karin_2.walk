@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/intro_karin_2</name>
+  <descr>[proxy] agrees to become Karin’s trainer. Karin jumps up and starts hugging [proxy], with tears in her eyes.&#xd;
+&#xd;
+-Thank you master, I promise I will follow every order of you and I will make you proud.&#xd;
+&#xd;
+Mathilda watches how events unfold and then continues.&#xd;
+&#xd;
+-I will keep an eye on your training and give you some directions if you need them. Now let me explain the details of the training before I have to go to an meeting.&#xd;
+&#xd;
+For the trainer you have to take care of three stats. Milk production, milk capacity and energy. Milk production and capacity can be increased by massaging, milking and the special food that is served. During each milking the girls receive a meal filled with grains and supplements to offset the calories they use for producing the milk. This food contains a special combination of herbs that boosts both the milk production as the capacity of the breasts. Energy is only important if you have Karin do special types of training, these take more energy than normal. Letting her rest a bit should take care of her lack of energy.&#xd;
+&#xd;
+I think this should cover the basics. I don’t want to overload you with information during this meeting. Once you need to know more I will explain it to you. Now good luck with training, I have a meeting now.&#xd;
+&#xd;
+Mathilda walks of leaving [proxy] and Karin behind.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/tiny_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/intro_karin_3</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

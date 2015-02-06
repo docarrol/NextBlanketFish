@@ -1,0 +1,10 @@
+<fetishmaster.engine.TextTemplate>
+  <conditions>GetFlag(&quot;bathhouse&quot;)&lt;11&#xd;
+&#xd;
+</conditions>
+  <text></text>
+  <priority>0</priority>
+  <picturePath></picturePath>
+  <choices/>
+  <overrideChoices>false</overrideChoices>
+</fetishmaster.engine.TextTemplate>

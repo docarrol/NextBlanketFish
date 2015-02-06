@@ -1,0 +1,40 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_eat_small</name>
+  <descr>[proxy] enters the dark shop and does not detect Morgan in the first area again. [heshe] walks to the library but no Morgan is present there either. [proxy] hears Morgan’s voice coming from another room and enters a kitchen. In the kitchen Morgan just finished a large plate full of food. Judging from the dishes this was not the first plate Morgan ate.&#xd;
+&#xd;
+-Good you are here; I visited that bathhouse of yours. During this visit I felled some strange energy coming from a shrine in the back. After closer inspection you seem to have your own goddess. I talked with her a bit, but she seems to be a bit focused on food to be honest. She did share a great number of recipes I wish to try out. Sit there and taste some food with me. Eating alone can be a bit boring.&#xd;
+&#xd;
+Without waiting for your response, Morgan stands up and starts preparing the next dish. It seems she can even use magic for preparing food since the cooking progresses much faster than normally possible. With her belly no longer hidden by the table, [proxy] can now see that it is already slightly swollen. There must already be a decent amount of food present in there.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;morgan_eat&quot;)==1 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_eat.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Try dishes with Morgan</name>
+      <value>city/sorceress/sorceress_small_eat</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Try dishes with Morgan</name>
+      <value>city/sorceress/sorceress_med_eat</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Try dishes with Morgan</name>
+      <value>city/sorceress/sorceress_large_eat</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

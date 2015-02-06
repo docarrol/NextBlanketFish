@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/beach1</name>
+  <descr>&lt;%Include(&quot;char/julia_init&quot;);&quot;&quot;;%&gt;
+ &lt;%Include(&quot;sea/julia&quot;);&quot;&quot;;%&gt;
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>true</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

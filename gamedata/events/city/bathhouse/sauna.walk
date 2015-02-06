@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/sauna</name>
+  <descr>[proxy] is inside the sauna.</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)&gt;=12</conditions>
+  <picturePath>bathhouse/sauna.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sweat that fat off</name>
+      <value>city/bathhouse/sweatinsauna</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

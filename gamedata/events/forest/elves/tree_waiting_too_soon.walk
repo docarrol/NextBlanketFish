@@ -1,0 +1,21 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/tree_waiting_too_soon</name>
+  <descr>[proxy] enters the massive tree and walks the lengthy stairs till [heshe] reaches the area situated at the peak of the tree. There [heshe] is greeted by the assistant of Elwing.
+
+-I’m sorry but Elwing is not ready for you yet. I suggest you come back another day to see if she is ready to receive your.
+</descr>
+  <conditions>GetPerFlag(&quot;elwing_wait&quot;)&gt;= clock.getDays()</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>leave</name>
+      <value>forest/elves/village_center</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

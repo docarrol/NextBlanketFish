@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_timefirstsex</name>
+  <descr>Morgan removes her cloths in record speed and jumps on the bed. She starts stroking and sucking your &lt;% IncludeRange(proxy.getStat(&quot;penis.length&quot;),&quot;penislength&quot;);%&gt; penis. She soon switches the focus of one of her hands to [proxy]  &lt;% IncludeRange(proxy.getStat(&quot;balls.size&quot;),&quot;ballssize&quot;);%&gt; balls. Once [proxy] penis has reached its maximum size, Morgan stops sucking it.&#xd;
+Morgan sits up and shoves [proxy] dick straight in her pussy. Morgan’s pussy is very wet so there is no shortage of lubrication. For the next couple of minutes Morgan is hammering [proxy] dick with great intensity. Once [proxy] comes Morgan’s pussy sucks the sperm up like a vacuum. After the orgasm, Morgan does not allow [proxy] to have a break but instead keeps moving by herself. &#xd;
+&#xd;
+After Morgan has come a number of times she finally is too tired to continue. She lays next to [proxy] on the large bed and simply falls asleep.&#xd;
+&#xd;
+It seems [proxy] is not getting any magic training today.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;sorceress&quot;,2);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/sorceres_home/sorceress_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

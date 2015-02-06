@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/Belly/rub_3</name>
+  <descr>[Proxy] rubs [target]&apos;s belly to give [=target][t-HisHer] pleasure, despite being an amateur.
+
+
+&lt;%Include(&quot;sex/calc_rub_belly&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>iTarget.getStat(&quot;generic.abdomen&quot;) &gt; 19 &amp;&amp; iTarget.getStat(&quot;generic.abdomen&quot;) &lt;= 31.8;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_spell_larger_penis</name>
+  <descr>-I hope you use this spell a couple of times; a larger rod to fill me up is always nice. As a bonus I give you a spell to reduce the size again for free. For some people the usage of the spell can be a bit addictive. Let me tell you this great story.&#xd;
+&#xd;
+I knew once a wizard who had a tiny penis and if I mean tiny I really mean tiny. He had to completely undress to pee because else he couldn’t find his wiener. He taught me some interesting stuff so I returned the favor and thought him the spell I just sold you. You’re not going to belief this but three days later everyone wakes up from a horrible noise in the middle of the night. Everyone jumps out of his bed a hurried downstairs only to find that wizard lying in a chaos that was once the dining room. He had used my spell so much that his penis got so large and heavy that he broke through the floor. He managed to smash the dining table in the length with his dick. It was an absolute monster. He was stuck there for 3 weeks before we managed to shrink it down again. Good times.&#xd;
+&#xd;
+&lt;%&#xd;
+AddItem(&quot;spell_largerpenis&quot;);&#xd;
+AddItem(&quot;spell_smallerpenis&quot;);&#xd;
+RemoveMoney(500); &#xd;
+SetPerFlag(&quot;spell_lp&quot;,1);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(1000) &amp;&amp; GetPerFlag(&quot;spell_lp&quot;)&lt;1 &amp;&amp; GetPerFlag(&quot;magic_skill&quot;)&gt;=30</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/sorceress/sorceress_enterance_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

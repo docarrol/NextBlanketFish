@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/kiana_thirdtrail</name>
+  <descr>[proxy] aproaches Kiana with &lt;%activePartner.HisHer();%&gt; &lt;% IncludeRange(self.getStat(&quot;breasts.size&quot;), &quot;breastsize&quot;);%&gt; breasts. [proxy] breasts are at this moment &lt;% IncludeRange((self.getStat(&quot;breasts.milk_volume&quot;)/self.getStat(&quot;breasts.max_volume&quot;)), &quot;milkamount&quot;);%&gt; I&apos;m ready for the final test.&#xd;
+&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;dense_breast&quot;)==5 &amp;&amp; (self.getStat(&quot;breasts.milk_volume&quot;)/1000)&gt;GetPerFlag(&quot;trail_milk&quot;)</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/shaman_third</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

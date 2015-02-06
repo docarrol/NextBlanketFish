@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/outskirts</name>
-  <descr>Here you are reminded of a more simple life. It feels like the DS had almost no impact on local daily life.
+  <descr>Here, you are reminded of a more simple life. It feels like the DS had almost no impact on local daily life.
 
 &lt;%Include(&quot;brothel/outside&quot;);%&gt;
 &lt;%Include(&quot;rumors/common&quot;);%&gt;</descr>
@@ -20,6 +20,21 @@
     <fetishmaster.engine.WalkChoice>
       <name>Road to Sea</name>
       <value>city/path_to_seafront</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Enter Bathhouse</name>
+      <value>city/bathhouse/buy_bathhouse</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit  Bathhouse</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Celine</name>
+      <value>city/bathhouse/meet_celine</value>
       <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>

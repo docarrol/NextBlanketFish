@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/walk_palace_first</name>
+  <descr>The captain takes [proxy] to a side wing of the palace. Every hallway and room [proxy] walks through his highly decorated. It feels like walking to a museum with every available spot filled by an expensive decoration. Finally the reach a large door in a quite hallway, the captain knocks on the door and then opens it for you. The room [proxy] enters if filled with very comfortable furniture of rather large size. It is clearly made for dwarfs the size of Cadha, [proxy] spots Cadha sitting in one of the large chairs.&#xd;
+&#xd;
+-Welcome to my room, so nice that you actually decided to visit me. I hope your journey was not to harsh. The guards can be a bit overprotective at times.&#xd;
+&#xd;
+[proxy] and Cadha talk a bit about the outside world while Cadha sends a servant to fetch her sister. Sometime later the large door opens and another large female dwarf walks in.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/sister_palace_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

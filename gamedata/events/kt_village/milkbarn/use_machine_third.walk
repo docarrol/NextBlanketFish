@@ -1,0 +1,51 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/use_machine_third</name>
+  <descr>[proxy], Karin and Mathilda enter the last door of the hallway. The room is dominated by a large chair surrounded with hoses and equipment. This is by far the most complex machine so far.&#xd;
+&#xd;
+[proxy] helps Mathilda to strap Karin on the chair. The next step is inserting a large nozzle in Karin’s mouth. It looks far larger and complex then the hose used on the previous machine.&#xd;
+&#xd;
+-This machine uses a combination of different foods. Sensors monitor real time what the body needs to produce more milk.&#xd;
+&#xd;
+The next step is inserting huge needle shaped contraptions in Karin’s nipples.&#xd;
+&#xd;
+-These needles not only extract milk but also can inject it to optimize the growth of the milk capacity.&#xd;
+&#xd;
+When inserting the needle’s [proxy] notices that there are some type of balloons at its ends. It makes itself bigger to block any milk from leaking. A dildo shaped object is inserted in Karin’s pussy, Mathilda wanted some pleasure during business. Finally a hose is put in Karin’s asshole to remove the used food. With everything in place, Mathilda flips the switch.&#xd;
+&#xd;
+Before [proxy] eyes, Karin’s stomach and breasts are inflated like balloons. Karin’s breasts are pumped full beyond their natural limit with milk. After a few minutes her breasts are completely sucked dry after which milk is injected again.&#xd;
+&#xd;
+-It is actually working as intended. I just wanted to use it once. Since I can’t use it the least I can do is let Karin use it. That way I can at least watch someone receiving the machines training. You know what, if you want to train Karin again while using one of my machines just ask me. If I have time available I will let you use them as long as I can help an watch.&#xd;
+&#xd;
+[proxy] agrees to that offer, it are her machines so it is not more than fair that she is present.&#xd;
+&#xd;
+-One last warning, using these machines is extremely intensive and uses a lot of energy. Using the too often and Karin becomes too tired for training. Also keep the extra food added by the last to machines into account. Before you know it, Karin becomes too fat to use any of the machines.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_stom&quot;,(GetPerFlag(&quot;karin_stom&quot;)+6));&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)*1.15));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)*1.15));&#xd;
+SetPerFlag(&quot;karin_ener&quot;,(GetPerFlag(&quot;karin_ener&quot;)-60));&#xd;
+SetPerFlag(&quot;karin_food&quot;,(GetPerFlag(&quot;karin_food&quot;)+30));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/train_3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

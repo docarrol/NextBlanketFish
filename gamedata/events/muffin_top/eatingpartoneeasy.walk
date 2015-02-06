@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartoneeasy</name>
+  <descr>[proxy] decides to take it easy. Going full force against some kids is just wrong. &lt;%activePartner.HeShe();%&gt; keeps track of the 4 kids and makes sure &lt;%activePartner.HeShe();%&gt; is one pancake ahead of the rest.&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 2000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 1000);&#xd;
+AddItem(&quot;pancake&quot;, 10);&#xd;
+SetPerFlag(&quot;eating.comp&quot;, 2);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+After 5 minutes the bell rings and the contestants stop eating. The final score for [proxy] is 10 pancakes, as planned one more than the best kid who ate 9. Now that the contest has ended, [proxy] takes the time to measure &lt;%activePartner.HisHer();%&gt; visible belly. &lt;%Include(&quot;muffin_top/stom_cont&quot;);%&gt;&#xd;
+&#xd;
+Vicky congratulates [proxy] with &lt;%activePartner.HisHer();%&gt; win, but looks a bit disappointed that [proxy] did not put much effort in it. The price of the contest was 10 freshly baked pancakes.&#xd;
+&#xd;
+At that moment [proxy] stomach feels &lt;%Include(&quot;muffin_top/stomach&quot;);%&gt;&#xd;
+&#xd;
+Sometime later Vicky approaches [proxy].&#xd;
+&#xd;
+-The contest was a huge success, I sold more pancakes today than normally in a week. I am going to host a next contest soon, I hope you would also like to join then, but please try a bit harder next time.</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=1000</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

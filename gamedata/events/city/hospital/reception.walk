@@ -23,6 +23,10 @@
       <name>Return to Home</name>
       <value>in_the_base</value>
     </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask for maid</name>
+      <value>city/hospital/ask_maid</value>
+    </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
   <time>0</time>

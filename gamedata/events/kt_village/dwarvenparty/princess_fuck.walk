@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/princess_fuck</name>
+  <descr>[proxy] tells Cadha that [heshe] is going to fuck her brains out. [proxy] possessions Cadha on her bed and has her spread her legs. Below her massive dick and large balls a also large pussy is present. [proxy] starts licking Cadha’s pussy and soon it is extremely wet. [proxy] positions [hisher]self and insert [hisher] dick in Cadha’s pussy. Cadha’s pussy feels like a large endless meat tunnel, it is clearly made for dicks of her size. &#xd;
+&#xd;
+[proxy] starts fucking Cadha, although [hisher] penis is feeling lost in Cadha’s massive pussy, Cadha’s pussy seems to be extremely sensitive judging by her breathing that’s get heavier over time. Cadha’s large dick meanwhile is stuck between [proxy] body and Cadha’s fat belly. [proxy] face is meanwhile at the height of Cadha’s large fat breasts. [proxy] takes one of her nipples in [hisher] mouth and starts playing with it. &#xd;
+&#xd;
+Sometime later [proxy] comes in Cadha’s pussy, but [proxy] is not the only one who comes. [proxy] is nearly thrown back by Cadha’s dick when it suddenly jumps up. This is followed by a massive stream of cum that paints everything located in front of it white. When Cadha finally stops coming a the head end of the bed and part of the wall above it is covert in cum.&#xd;
+&#xd;
+-It seems the cleaners have some work to do today.&#xd;
+&#xd;
+&lt;% &#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;)</conditions>
+  <picturePath>kt_village/dwarfs/princess_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

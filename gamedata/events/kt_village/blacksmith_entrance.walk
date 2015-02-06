@@ -1,0 +1,59 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/blacksmith_entrance</name>
+  <descr>[proxy] walks to a rather large building at the edge of the village. Black smoke escapes from a chimney located on the roof. The door opens and &lt;%activePartner.HeShe();%&gt; walks in.&#xd;
+&#xd;
+Hello, anyone here?&#xd;
+&#xd;
+No answer but [proxy] hears some noise in the back. &lt;%activePartner.HeShe();%&gt; decides to check it out.&#xd;
+</descr>
+  <conditions>GetFlag(&quot;village_blacksmith&quot;)==1</conditions>
+  <picturePath>kt_village/Blacksmith.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Walk to back</name>
+      <value>kt_village/blacksmith_first</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Walk to Thovia</name>
+      <value>kt_village/blacksmith_returnbra</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk to Thovia</name>
+      <value>kt_village/blacksmith_talk</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Breeda</name>
+      <value>kt_village/ask_mithril</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask Thovila about corset</name>
+      <value>kt_village/recieve_corset_1</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about item</name>
+      <value>kt_village/return_mithril</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about help needed</name>
+      <value>kt_village/usedto_corset</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Go to dwarven party</name>
+      <value>kt_village/dwarvenparty/zeplinflight</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit royal palace</name>
+      <value>kt_village/dwarvenparty/zeplinpalace</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

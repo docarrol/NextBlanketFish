@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/shaman_sec_anger</name>
+  <descr>The shaman looks angered.
+
+-You dare to object to my decision. A woman should listen to a man and follow his orders to the letter. The amount is according to you not high enough. Well since you want to provide more service to man supply 16 liters of fresh milk.</descr>
+  <conditions>1</conditions>
+  <picturePath>char/Shaman.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>16 liters is too much</name>
+      <value>kt_village/shaman_sec_pissed</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Say you do anything to please a man</name>
+      <value>kt_village/shaman_sec_res_anger</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

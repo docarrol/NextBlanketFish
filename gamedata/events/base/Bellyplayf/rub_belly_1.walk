@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/Bellyplayf/rub_belly_1</name>
+  <descr>belly 1
+&lt;%c=proxy; &quot;&quot;;%&gt; [Proxy] pulls [hisher] shirt over [hisher] [belly] and begins to massage [hisher]self. [Heshe] finds that it&apos;s quite soft but it&apos;s not much better than anyother sensual rubbing.
+
+&lt;% activePartner.addStat(&quot;generic.lewdness&quot;, 0.1);%&gt;
+&lt;% activePartner.addStat(&quot;generic.arousal&quot;, 0.5);%&gt;
+&lt;% activePartner.addStat(&quot;generic.mood&quot;, 0.1);%&gt;
+&lt;% activePartner.addStat(&quot;skill.desireforfat&quot;, 0.1);%&gt;
+
+</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 1.2 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &lt;= 3.8</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/Bellyplay</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

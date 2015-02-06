@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_afterdual</name>
+  <descr>[proxy] enters the room where Karin is waiting in. Karin has a huge smile on her face after the events yesterday.&#xd;
+&#xd;
+-It is time you get your full breasts back. I’m sure the breast tissue you let me borrow caused my victory over Talia.&#xd;
+&#xd;
+You follow Karin to Mathilda’s office.&#xd;
+&#xd;
+-Congratulations on your win of the dual and the punishment of Talia. I hope she has learned her lesson. You’re in luck, I have no appointments, lets visit the shaman to restore [proxy] breasts.&#xd;
+&#xd;
+The three of you walk to the clearing in the forest where the shaman is holding his rituals.&#xd;
+&#xd;
+-I heard Talia suffered her punishment, hopefully that teaches her a lesson. Now let me restore [proxy] breasts.&#xd;
+&#xd;
+[proxy] and Karin lie again on their sides with their breasts pressed against each other in the middle of the clearing. </descr>
+  <conditions>GetPerFlag(&quot;Talia_quest&quot;)==8 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>char/shaman.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/enddual_karin</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

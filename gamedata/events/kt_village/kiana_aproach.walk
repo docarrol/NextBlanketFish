@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/kiana_aproach</name>
+  <descr>[proxy] meets Kiana while walking on the main street.</descr>
+  <conditions>GetFlag(&quot;kiana_friend&quot;) &gt; 0</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask Kiana abouth milk production</name>
+      <value>kt_village/kiana_ask_dense</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Tell Kiana your ready for the last test</name>
+      <value>kt_village/kiana_second</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Tell Kiana your ready for the last trail</name>
+      <value>kt_village/kiana_thirdtrail</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Remembers Felis</name>
+      <value>kt_village/kiana_felis</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about someone for milk job</name>
+      <value>kt_village/kiana_milkjob</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

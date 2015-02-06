@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_enterance_man</name>
+  <descr>[proxy] enters the shop and soon discovers that Morgan is sitting in a corner of the shop.&#xd;
+&#xd;
+&#xd;
+-Are you back to learn more, in that case follow me.&#xd;
+&#xd;
+Morgan, stands up and walks to a different door then the door of the library.  Before she opens it, [proxy] hears her speak some strange words. It seems to be magically locked. When [proxy] enters the room, [heshe] notices that the centerpiece if the room is formed by a large bed. The bed is surrounded by collection of sex toys in all kinds of shapes and sizes.&#xd;
+&#xd;
+-This room is for my hobby. The kind of magic I have specialized in is making me horny most of the time. The mouth work you have done so far was a decent beginning but if you want to learn the good stuff you got to pay me with that dick of yours. Now lay down on the bed and prepare yourself.&#xd;
+&#xd;
+</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; GetPerFlag(&quot;magic_skill&quot;)==11  &amp;&amp; GetPerFlag(&quot;sorceress&quot;)==1 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/sorceress/sorceress_timefirstsex</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

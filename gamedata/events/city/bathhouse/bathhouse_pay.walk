@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/bathhouse_pay</name>
+  <descr>[proxy] approaches Vulpsia to collect the profit of the bathhouse.&#xd;
+&#xd;
+-The bathhouse earned you &lt;%(( clock.getDays()-GetFlag(&quot;pay_bathhouse&quot;))*GetFlag(&quot;bathhouse&quot;))%&gt; coins.&#xd;
+&#xd;
+&lt;%&#xd;
+AddMoney(( clock.getDays()-GetFlag(&quot;pay_bathhouse&quot;))*GetFlag(&quot;bathhouse&quot;));&#xd;
+SetFlag(&quot;pay_bathhouse&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>(clock.getDays()-GetFlag(&quot;pay_bathhouse&quot;))&gt;0</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

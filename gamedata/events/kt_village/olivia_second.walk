@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/olivia_second</name>
+  <descr> [proxy] walks to Olivia who is training again behind the building. When Olivia notices [proxy] she stops swinging here axe.&#xd;
+&#xd;
+-Back again to humiliate me.&#xd;
+&#xd;
+[proxy] explains that &lt;%activePartner.HeShe();%&gt; never had the intension to humiliate her and that &lt;%activePartner.HeShe();%&gt; is here for science.&#xd;
+&#xd;
+-Science you say, I can&apos;t understand why someone would want to research getting smaller breasts. So what you need for me.&#xd;
+&#xd;
+[proxy] asks Olivia if she could visit Felis in the hospital in the city.&#xd;
+&#xd;
+-What the city, there are lots of people there all waiting to make fun of me. No way I’m going to leave this forest.&#xd;
+&#xd;
+[proxy] tries to explain that there are mainly humans in the city and that Olivia has a breast size than is normal for humans but Olivia does not give in. Maybe Felis can come to Olivia.&#xd;
+&#xd;
+-You know that if you want to bring that researcher here, she needs permission of the shaman. Seems you got lucky because Kaira brought you to the village. I&apos;m sure the shaman is not going to make that exception twice.&#xd;
+&#xd;
+[proxy] needs to discuss the next course of action with Felis.&#xd;
+&#xd;
+-You seem like a nice person, if you are interested and can keep up we might can train together for a bit.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;olivia&quot;,2); &#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;olivia&quot;)==1;</conditions>
+  <picturePath>char/olivia.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

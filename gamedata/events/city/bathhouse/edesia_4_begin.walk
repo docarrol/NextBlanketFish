@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_4_begin</name>
+  <descr>When [proxy] enters the shrine &lt;%activePartner.HeShe();%&gt; is greeted by Edesia naked pussy full in sight. Above Edesia&apos;s pussy a large belly is now clearly visible. Since meeting her for the first time Edesia must have at least tripped in weight but she is not the only one that gained some weight. [proxy] slim body has mainly because of Edesia increased to a &lt;%IncludeRange(proxy.getStat(&quot;generic.fat_percent&quot;), &quot;body_fat_percent&quot;);%&gt;  body. Because of [proxy] parties with Edesia &lt;%activePartner.HeShe();%&gt; must has at least doubled in weight.&#xd;
+&#xd;
+When Edesia notices your presents she pats here large belly a couple of times.&#xd;
+&#xd;
+-seems I’m making progress, a bit more and I&apos;m back to my old strength. Speaking of strength, I got enough of my power back to set my plan in motion.&#xd;
+&#xd;
+Considering her size Edesia walks strangely smooth to a chest in the corner. From this container she takes a couple of items and calls [proxy] over to help her get dressed.</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia6.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Help Edesia get dressed</name>
+      <value>city/bathhouse/edesia_4_end</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

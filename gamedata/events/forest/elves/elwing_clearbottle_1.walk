@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_clearbottle_1</name>
+  <descr>[proxy] decides to drink the entire bottle. After [proxy] has drunken the entire bottle of the liquid, [hisher] uterus feels strange for a bit. It is a strange but not unpleasant feeling and after a couple of minutes it disappears again. [proxy] waits a bit till the assistant comes back who brings [proxy] to Elwing. 
+
+&lt;%
+//this might be a bit extreme, for balancing issues H.Coder might want to turn it down a bit.
+proxy.addStat(&quot;fertility.ovulation_ova&quot;,2);
+proxy.addStat(&quot;fertility.extra_ova&quot;,50);
+proxy.addStat(&quot;foetus.split_chance&quot;,25);
+Ovulation(self);
+self.setStat(&quot;uterus.cycle&quot;,self.getStat(&quot;uterus.lut_phase&quot;));
+ &quot;&quot;;%&gt;
+
+&lt;%Include(&quot;char/elwing_init&quot;);%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_afterclearbottle</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

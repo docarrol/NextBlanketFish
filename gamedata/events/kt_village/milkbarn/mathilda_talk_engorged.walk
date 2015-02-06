@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/mathilda_talk_engorged</name>
+  <descr>[proxy] notices that Mathilda is free for a moment and approaches her. Maybe she can share some tips.&#xd;
+&#xd;
+-Hello [proxy], how is the training with Karin progressing.&#xd;
+&#xd;
+Mathilda and [proxy] talk for a bit about Karins training till Mathilda notices [proxy] breasts.&#xd;
+&#xd;
+-Those breasts of yours look awfully full, the left most milking machine is used for trails and other situations when the milk cannot be used for customers. If you want to milk your breasts, you could do it on that machine.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;proxy_milker&quot;,1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;breasts.max_volume&quot;)-proxy.getStat(&quot;breasts.milk_volume&quot;))&lt;=50 &amp;&amp; proxy.getStat(&quot;breasts.max_volume&quot;)&gt;=1100 &amp;&amp; GetPerFlag(&quot;proxy_milker&quot;)&lt;1</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/daria_shrine_ritual</name>
+  <descr>Diara leaves the room and comes back with a decorated teapot. She then starts preparing the herbs and puts them in the teapot. Soon a wonderful smell is filling the room. Once the tea is finished, Diara pours herself a large cup and starts slowly drinking it.&#xd;
+&#xd;
+-Remove your cloths and go lay down there. I am soon ready to perform the ritual.&#xd;
+&#xd;
+[proxy] lies down at the designated spot and soon loses continues.&#xd;
+&#xd;
+Sometime later &lt;%activePartner.HeShe();%&gt; wakes up with a strange feeling in &lt;%activePartner.HisHer();%&gt; belly.&#xd;
+&#xd;
+-I&apos;m happy to tell you that the ritual was a success. Now leave, I need to rest for a bit.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;fertility.ovulation_ova&quot;,1);&#xd;
+SetPerFlag(&quot;diara_herbs&quot;, 0);&#xd;
+SetPerFlag(&quot;dense_breast&quot;, 3);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&#xd;
+&lt;%DisplayChar(&quot;char/daria.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>forest/daria_shrine_int.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/mirkwood</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

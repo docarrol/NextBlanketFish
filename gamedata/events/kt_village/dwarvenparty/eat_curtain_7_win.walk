@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_7_win</name>
+  <descr>The assistant calls the results.&#xd;
+-It seems the other guests of the party already gave you plenty to eat. Well I could use some more food, have to keep this belly intact you know.&#xd;
+&#xd;
+Instead of food a hose is brought in by the assistant.&#xd;
+&#xd;
+-I got a nice batch of nectar but storing it can be a bit of a pain, that is why it is served straight from the tank.&#xd;
+&#xd;
+She then puts the hose in her mouth and [proxy] can hear a liquid flowing through the hose. After a bit [proxy] starts to notice that the massive ball shaped belly is getting even larger. The amount of liquid that is pumped in her belly must be massive. After few minutes she removes the hose again.&#xd;
+&#xd;
+-That hit the spot, although I fear my stomach is going to feel like the contents of a bathtub is present in my belly on the way back home. &#xd;
+&#xd;
+[proxy] and the dwarf continue talking for a bit and then the gong sound, [proxy] leaves for the next curtain.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;dwarfparty_eat&quot;)==4</conditions>
+  <picturePath>kt_village/dwarfs/dwarf7.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

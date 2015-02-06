@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/female_massage</name>
+  <descr>[proxy] wants the extra service provided by Chun Li. Chun Li takes starts licking [proxy] pussy. It seems all that eating in the shrine has increased her skill of her tong because in no time [proxy] reaches [hisher] peak.&#xd;
+&#xd;
+[proxy] leaves the massaging table after this extra service, [hisher] body is still not fully relaxed but [heshe] is no longer aroused.&#xd;
+&#xd;
+&lt;%proxy.doAction(&quot;orgasm&quot;); &#xd;
+proxy.setStat(&quot;generic.arousal&quot;, 0); &#xd;
+proxy.subStat(&quot;generic.calories&quot;, 50);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.hasOrgan(&quot;uterus&quot;)</conditions>
+  <picturePath>bathhouse/chunlifat2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

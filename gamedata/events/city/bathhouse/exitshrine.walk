@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/exitshrine</name>
+  <descr>[proxy] &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachwalk&quot;);%&gt; trough the entrance doors of the shrine with a stomach that is &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;. 
+
+Once [proxy] passes the doors with &lt;%activePartner.HimHer();%&gt; &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly the doors close with a loud bang.</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Coninue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

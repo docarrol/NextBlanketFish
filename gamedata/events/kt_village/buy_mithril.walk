@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/buy_mithril</name>
+  <descr>[proxy] hands Breeda the coins.&#xd;
+&#xd;
+-Thank you for your purchase, I have the Mithril delivered to Thovila as soon as possible.&#xd;
+&#xd;
+&lt;%&#xd;
+RemoveMoney(5000); &#xd;
+SetPerFlag(&quot;dwarf_crash&quot;,2);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;thovilawait&quot;,clock.getDays()+6);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(5000)</conditions>
+  <picturePath>kt_village/dwarven_trader.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/bought_mithril</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/Bellyplayf/rub_belly_5</name>
+  <descr>belly 5
+
+&lt;%c=proxy; &quot;&quot;;%&gt;
+
+[Proxy] waddles into the room with [hisher] [belly] already hanging out. [hisher] arms completly outstreched, [heshe] carries [hisher] belly like you would a large TV. [HeShe] has to be very careful how [heshe] walks because [heshe] could easily get stuck in a doorway. [HeShe] waddles and climbs onto the bed so that [hisher] back is against the headboard. Knees bent; [hisher] [belly] sits in front of [himher] on the bed. One hand at a time [proxy] pulls [hisher] belly toward [himher] using belly fat as hand holds; [HeShe] lifts [hisher] belly, hefts it up and down a few times then let its drop onto the bed sending waves of pleasure through [himher] and leaving [himher] out of breath.
+
+&lt;% activePartner.addStat(&quot;generic.lewdness&quot;, 3);%&gt;
+&lt;% activePartner.addStat(&quot;generic.str&quot;, 5 );%&gt;
+&lt;% activePartner.addStat(&quot;generic.arousal&quot;, 10);%&gt;
+&lt;% activePartner.addStat(&quot;generic.health&quot;, 3);%&gt;
+&lt;% activePartner.addStat(&quot;generic.mood&quot;, 10);%&gt;
+&lt;% activePartner.addStat(&quot;skill.desireforfat&quot;, 0.5);%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 31.8 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &lt;= 44.5</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/Bellyplay</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

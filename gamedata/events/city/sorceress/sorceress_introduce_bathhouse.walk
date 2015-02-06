@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_introduce_bathhouse</name>
+  <descr>[proxy] decides to introduce Morgan to the bathhouse [heshe] owns. With a regular bath Morgan might get a bit less horny giving her more time to teach [proxy] magic.&#xd;
+&#xd;
+-You want me to go to a bathhouse. I made sure by magic that I don’t stink so I’m not sure what you are complaining about. But you said that it are all mixed baths, I might find a nice stud there to relief some tension. I might check it out in the future.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;morgan_eat&quot;,1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;new_ priestess&quot;)==2 &amp;&amp; GetPerFlag(&quot;fat_spell&quot;)&lt;1</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

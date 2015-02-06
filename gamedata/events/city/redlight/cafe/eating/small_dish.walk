@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/eating/small_dish</name>
+  <descr>[proxy] orders a small dish only consisting of a single plate. &lt;%Include(&quot;fetish_cafe/eating/small_start&quot;);%&gt;&#xd;
+&#xd;
+After a few moments the single plate arrives. &#xd;
+&#xd;
+&lt;%Include(&quot;fetish_cafe/eating/small_eat&quot;);%&gt;&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 750);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 250);&#xd;
+SetPerFlag(&quot;dish_eaten&quot;, GetPerFlag(&quot;dish_eaten&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+[proxy] has to wait for a bit for the waitress to pick up the empty plate and take the next order. &lt;%activePartner.HeShe();%&gt; decides to take a moment to determine the damage done to &lt;%activePartner.HisHer();%&gt; stomach so far.&#xd;
+&#xd;
+&lt;%Include(&quot;fetish_cafe/eating/stomach&quot;);%&gt;&#xd;
+&#xd;
+The waitress arrives and [proxy] can order more food. &#xd;
+What does &lt;%activePartner.HeShe();%&gt; do?</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;250</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Small meal</name>
+      <value>city/redlight/cafe/eating/small_dish</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Medium meal</name>
+      <value>city/redlight/cafe/eating/medium_dish</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Large meal</name>
+      <value>city/redlight/cafe/eating/large_dish</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Stop eating</name>
+      <value>city/redlight/cafe/eating/finish</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/proxy_milking_start</name>
+  <descr>[proxy] walks to the far end of the milking area. The last machine is behind a small fence indicating that it should not be used normally. [proxy] opens the fence and approaches the milking machine. After setting the equipment up, [heshe] starts the machine and milk is extracted from [hisher] breasts. [proxy] breasts are drained in rapid speed from their milk, once the milking is done, [proxy] notices the feeding tube.&#xd;
+&#xd;
+The food is created for the milk girls but [proxy] doubts it would present any harm to [hisher]. One thing to keep in mind is that the food is created to provide the calories used by the milk girls to produce their high volumes of milk. Eating too much of it and the effect will not be limited to [proxy] breast.&#xd;
+&#xd;
+Is [proxy] going to use the feeding tube.&#xd;
+&#xd;
+&#xd;
+&lt;% a = selectedWorker.doAction(&quot;milking&quot;);&#xd;
+MoodShame(20);&#xd;
+self.addStat(&quot;generic.arousal&quot;, 14);&#xd;
+if (self.getStat(&quot;generic.arousal&quot;) &gt; 100)&#xd;
+{&#xd;
+self.setStat(&quot;generic.arousal&quot;, 100);&#xd;
+}&#xd;
+ %&gt;</descr>
+  <conditions>proxy.getStat(&quot;breasts.milk_volume&quot;)&gt;=1000 &amp;&amp; GetPerFlag(&quot;proxy_milker&quot;)==1</conditions>
+  <picturePath>kt_village/milk/milk_normal.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use feeding tube</name>
+      <value>kt_village/milkbarn/proxy_milking_feed_1</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

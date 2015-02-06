@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/princess_sister</name>
+  <descr>[proxy] just want to decide what fun they are going to have today when the door of Cadha’s bed room opens. Cadha’s sister enters the room.&#xd;
+&#xd;
+She is wearing the same dress as last time but now it absolutely stretched to the limit. The opening at the front of her dress has now a second belly shaped in fat hanging from it. Her breasts also have increased in size, now they are overflowing the top of her dress.&#xd;
+&#xd;
+-I heard rumors of the servants about this, so it is true. I won’t tell father anything if you let me join. Those bloody miners can’t decide where the new city should be located so they host one party after the other to show who is most important. &#xd;
+&#xd;
+[proxy] looks at Cadha and asks what would happen if he father knew about this.&#xd;
+&#xd;
+-Father is still trying to find someone to marry me off too, if he finds out about this little adventures he is probably not going to be very happy. Sister, you can join if you promise to tell nothing to father. &#xd;
+&#xd;
+Cadha’s sister then starts to undress. [proxy] and Cadha have to help with that because every strap on the dress is under huge tension. When Cadha’s sister is also standing naked, [proxy] can really see how much weight she got since their last meeting. She must have been to a lot of parties lately. &#xd;
+&#xd;
+You tell Cadha’s sister to lie down on the bed as high as possible and spread her legs. [proxy] positions [himher]self between her legs and starts licking her pussy. Cadha meanwhile starts fingering [proxy] pussy while lubing her own large dick in the mean time. Once Cadha’s sister is sufficiently wet, [proxy] insert [hisher] dick inside her pussy. Cadha meanwhile possessions herself behind [proxy] and inserts her own dick in [proxy] pussy.&#xd;
+&#xd;
+[proxy] is being pancaked between the two fat bellies of  the two large woman’s. With every pump movement of Cadha, [proxy] penis is pulled backwards and pushed back again in Cadha’s sisters pussy.  It does not take long for all three to come. [proxy] uterus is again filled to the brim by Cadha’s cum. Tired [proxy] drops down on the bed between the two large woman. From [proxy] viewpoint [heshe] is now surrounded by walls of fat. &#xd;
+&lt;% &#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>proxy.hasOrgan(&quot;penis&quot;) &amp;&amp; proxy.hasOrgan(&quot;vagina&quot;)</conditions>
+  <picturePath>kt_village/dwarfs/princess_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

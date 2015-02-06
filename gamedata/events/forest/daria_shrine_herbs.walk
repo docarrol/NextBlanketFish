@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/daria_shrine_herbs</name>
+  <descr>[Proxy] and Daria enter the temple and Daria start making tea again in her teapot.&#xd;
+&#xd;
+-I sense you are here for a purpose.&#xd;
+&#xd;
+[proxy] asks Diara of she could perform the ritual of blessing.&#xd;
+&#xd;
+-I realy wish I could help you but in my current state I can’t perform that ritual. The power required is just too much.&#xd;
+&#xd;
+[proxy] remembers the bag &lt;%activePartner.HeShe();%&gt; received and hands it over.&#xd;
+&#xd;
+-Oh this are some rare and powerful herbs. If I do this and that, use a bit of such. You know what, with these herbs I can actually perform that ritual. These are only enough herbs for performing the ritual once so I will make sure it counts.&#xd;
+Are your ready for the ritual?&#xd;
+&#xd;
+&lt;%DisplayChar(&quot;char/daria.png&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;diara_herbs&quot;)== 1;</conditions>
+  <picturePath>forest/daria_shrine_int.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>forest/daria_shrine_ritual</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/mirkwood</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

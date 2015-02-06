@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/machine_training</name>
+  <descr>[proxy] and Karin walk to Mathilda who is currently available. [proxy] asks Mathilda if they can use one of her personal machines for training. Mathilda thinks for a moment.&#xd;
+&#xd;
+-The next hour I have no appointments, which machine do you want to use?</descr>
+  <conditions>GetPerFlag(&quot;milkbarn_mach&quot;)==3</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Train capacity</name>
+      <value>kt_village/milkbarn/use_machine_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Train production</name>
+      <value>kt_village/milkbarn/use_machine_second</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Train both</name>
+      <value>kt_village/milkbarn/use_machine_third</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

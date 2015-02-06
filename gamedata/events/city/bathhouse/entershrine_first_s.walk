@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entershrine_first_s</name>
+  <descr>[proxy] arrives at the shrine and notices the large closed doors. Located before the doors is a large flat plate. [proxy] tries standing on it but nothing happens. &lt;%activePartner.HeShe();%&gt; then tries to open the large doors by pulling the handles but the door does not move. A second even harder pull managed to open the doors a bit. There is a sound like a vacuum is broken and air rushes past [proxy] trough the crack between the doors. &lt;%activePartner.HeShe();%&gt; ties to pull the doors open further but they do not bulge.&#xd;
+&#xd;
+&lt;%activePartner.HeShe();%&gt; then tries to worm &lt;%activePartner.HisHer();%&gt; way through the doors. For some unexplainable reason the narrow opening between the two doors only seems to block &lt;%activePartner.HimHer();%&gt;&lt;%IncludeRange(proxy.getStat(&quot;generic.fat_percent&quot;), &quot;body_fat_percent&quot;);%&gt; belly. Luckily [proxy] is slim engage to wring through the narrow opening.</descr>
+  <conditions>proxy.getStat(&quot;generic.fat_percent&quot;)&lt;=10 &amp;&amp; GetPerFlag(&quot;edesia&quot;)&lt;1 &amp;&amp; GetFlag(&quot;new_ priestess&quot;)&lt;1</conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/meet_edesia</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

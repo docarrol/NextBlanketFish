@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_advstrechingend</name>
+  <descr>[proxy] is stuck because of &lt;%activePartner.HisHer();%&gt; stomach for a complete day. It seems the witch was kind enough to put some spell on [proxy] avoiding the need to use the bathroom. Since [proxy] is stuck it otherwise could have become nasty.&#xd;
+&#xd;
+When [proxy] wakes up again, &lt;%activePartner.HisHer();%&gt; has shrunken enough to allow movement again.&#xd;
+&#xd;
+Standing up proves to be a challenge. [proxy] legs are a bit stiff from not being used for some time. They also have to carry the extra weight provided by [proxy] still filled stomach and the extra padding added by the digested food so far.</descr>
+  <conditions>1</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>24</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

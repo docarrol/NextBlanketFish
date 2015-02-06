@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/chunli_shrine</name>
+  <descr>[proxy] tells Chun Li to go to the shrine and talk to the woman there, she can help Chun Li with her training.&#xd;
+&#xd;
+-Thank you, you are the best boss ever. With extra help I’m sure I can fulfill my dream of becoming the strongest martial artist. Thank you again. I’m going to meet her straight away.&#xd;
+&#xd;
+When Chun Li walks of [proxy] thinks, poor girl, she will never become the strongest martial artist after this. She probably can’t even perform martial arts after spending sometime in the shrine.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;chunlitrain&quot;,2);&#xd;
+SetFlag(&quot;chunlistart&quot;, clock.getDays());&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/chunli2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

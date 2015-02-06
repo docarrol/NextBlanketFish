@@ -1,0 +1,40 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/bough_bathhouse</name>
+  <descr>-Thanks for your purchase. Time to leave this dump behind. Cocktails and sunny beaches, here we come.&#xd;
+&#xd;
+[proxy] asks the couple of &lt;%activePartner.HeShe();%&gt; can get the key of the place.&#xd;
+&#xd;
+-You don&apos;t need one; the door lock broke years ago.&#xd;
+&#xd;
+Before [proxy] has time to response the elderly couple is arleady gone followed by the appearance of girl soon after.&#xd;
+&#xd;
+The girl has white hair with two ears on top of her head. On closer inspection she also has a large white tail, it seems a fox girl stumbled in.&#xd;
+&#xd;
+-Hello my name is Vulpsia. I heard you just bought this place. Need any help running it? I just left home and looking for some work. My parents run a dinner so I know how to run a business.&#xd;
+&#xd;
+[proxy] has little knowledge about running a bathhouse so help is appreciated. The bathhouse is really a dump so [proxy] cannot pay Vulpsia yet.&#xd;
+&#xd;
+-Don&apos;t worry about paying me, if I’m allowed to use the entrance area as my own shop I will keep an eye on business for free. I&apos;m sure together we can restore this place to its former glory. I have some ideas already to improve this place. Talk to me if you wish to know more.&#xd;
+&#xd;
+&lt;% &#xd;
+RemoveMoney(5000); &#xd;
+SetFlag(&quot;bathhouse&quot;,1);&#xd;
+SetFlag(&quot;found_outskirt_bathhouse&quot;, 2);&#xd;
+SetFlag(&quot;pay_bathhouse&quot;, clock.getDays());&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>HasMoney(2500)</conditions>
+  <picturePath>bathhouse/old_owners.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>city/outskirts</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

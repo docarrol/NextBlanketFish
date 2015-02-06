@@ -1,0 +1,49 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/blacksmith_first</name>
+  <descr>In the back an impressive but short woman is buzzy hammering some metal on an anvil.&#xd;
+&#xd;
+-Hold on a bit, I’m right with you.&#xd;
+&#xd;
+Even as novice [proxy] detects the skill of the blacksmith.&#xd;
+&#xd;
+-Hello what do you what this time? You broke your axe again trying to cut a rock. I will repeat it again for you, get me mithril and I get you a axe that can cut a bloody rock. &#xd;
+Wait you’re not one of those brutes, I’m sorry for that rant. The best dwarven corset crafter in the world and forced too craft some simple farm tools and axes, so many bloody axes.&#xd;
+&#xd;
+[proxy] asks what happened.&#xd;
+&#xd;
+- I Thovila was the best corset crafter of Ironvile. Noble dwarfs came from far and wide too obtain one of my creations. Ah, that where the times. The gems and the mithril, those nobles sure knew how to spent their wealth. Some stupid wench decided to wear the corset of her sister to a party, she might have fit in it 20 parties earlier but not at her current state. She died from constriction and guess what, she was the bloody daughter of the sister of the king. They kicked me out for that so now I’m stuck in this hole. Now that was my story. What can I do for you? You must want something different than another axe.&#xd;
+&#xd;
+[proxy] tells her that &lt;%activePartner.HeShe();%&gt; needs to provide a ridiculous amount of milk at the same time and &lt;%activePartner.HeShe();%&gt; got to store it inside.&#xd;
+&#xd;
+-Hmmm, I might be able to help you with that. When first coming to this village I decided to create some extra supporting bra seeing how woman have there breasts full of milk most of the time. Seems they didn´t need it so selling them was a bust. I probably have still one in the back. You want to buy it, 10.000 coins, special price for you.&#xd;
+&#xd;
+What 10.000 coins that is too much, even if it was of solid gold.&#xd;
+&#xd;
+-damm, that worked on those nobles every bloody time. Since this is some hellhole you can have it for 500 but you have to promise me you come to me if your require anything more interesting than a another one of those bloody axes.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;blacksmith_talk&quot;,1);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;blacksmith_talk&quot;)&lt;1</conditions>
+  <picturePath>char/Thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pay (500)</name>
+      <value>kt_village/blacksmith_buybra</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

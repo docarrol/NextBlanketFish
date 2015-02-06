@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/tease_female_fat</name>
+  <descr>[Proxy] seductively rubs [her] [=proxy][belly] and [hips] while licking [her] lips...&#xd;
+&lt;%Include(&quot;sex/calc_tease&quot;);%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>proxy.isFemale() &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &gt;= 9 ;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

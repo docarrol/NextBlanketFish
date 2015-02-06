@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/start_curtain_1</name>
+  <descr>[proxy] passes the curtain and is greeted by a fat male dwarf.&#xd;
+&#xd;
+-Who are you, I don’t recognize you, what are you doing here.&#xd;
+&#xd;
+[proxy] explains that she is a friend of Thovila and is here to demonstrate Thovila’s latest corset. &#xd;
+&#xd;
+-Thovila, a fine artist indeed. I paid a lot of gold to a so called master smith to make me this armor and look at it, I hit something once and it cracks already. My name is Domari Sharpeye, the greatest ballistics expert of this time.&#xd;
+&#xd;
+The cracks in Domari armor are most likely caused by the pressure the armor is subjected too. Between each crack and opening in the armor fat bulges out. The dwarven parties had a noticeable impact on his body.&#xd;
+- Now for our little game. &#xd;
+&#xd;
+Domari hands [proxy] a slingshot.&#xd;
+&#xd;
+-you see the target over there, the one closest to the center wins.&#xd;
+&#xd;
+[proxy] takes the slingshot and aims.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;partycurtain&quot;)&lt;1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Shoot slingshot</name>
+      <value>kt_village/dwarvenparty/eat_curtain_1</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

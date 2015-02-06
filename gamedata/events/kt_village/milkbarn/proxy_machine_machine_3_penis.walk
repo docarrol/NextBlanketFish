@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/proxy_machine_machine_3_penis</name>
+  <descr>Mathilda walks together with [proxy] to her private area behind the milking machines. They enter one of the rooms in the hallway. The room is dominated by a large chair surrounded with hoses and equipment. &#xd;
+&#xd;
+[proxy] is helped by Mathilda sit in the chair and is then strapped to chair preventing any movement. Mathilda then inserts a feeding nozzle in [proxy] mouth and fixated it so it cannot be removed. An extraction tube is then inserted in [proxy] asshole. The end of the tube is inflated making sure it cannot slip out. The final step is inserting a large contraption in each of [proxy] nipples. They look far too big to fit but somehow Mathilda manages to insert them. [proxy] nipples feel like they get torn in half, the end of the contraption inserted in each nipple expands keeping it in place.&#xd;
+&#xd;
+-You are ready now, first let me tell you again what this machine does. This is the crown jewel of my collection; I designed it my self-based on the other machines. It does not only increase your maximum lactation rate but also the capacity of your breasts. A special solution is pumped through your system providing your body with everything its needs to produce milk. Your breast are meanwhile overfilled and then completely emptied with milk. The large differences in milk present in your breast will trigger both growths as higher production.&#xd;
+&#xd;
+Mathilda checks again if all the equipment is inserted correctly and then flips a switch on the machine. Immediately [proxy] feels a large quantity of the special solution being pumped inside [hisher] stomach. [hisher] breasts also start to expand because of the milk getting pumped inside. The machine keeps pumping milk inside [proxy] breasts although they are already more than full. [hisher] breasts start to get extremely painful because of all the extra milk present in there. After a short while the machine suddenly starts to extract the milk at a rapid rate. The machine keeps sucking till [hisher] breasts are more than dry. The machine keeps repeating the process of pumping [proxy] breast overfull and then sucking them completely dry.&#xd;
+&#xd;
+Mathilda meanwhile is watching how the machine is servicing [proxy]. The process has made her extremely horny and her crotch is already dripping. She looks at [proxy] hard penis and can’t stop herself. Mathilda walks to the end of the chair [proxy] is sitting on and starts giving [proxy] a blow job. After only a few moves with her head she can’t resist any longer. While avoiding the tubes and equipment surrounding the chair, Mathilda manages to climb on top of the chair.&#xd;
+&#xd;
+Getting [proxy] cock in her dripping wet pussy is a bit of a challenge; [proxy] belly is completely swollen because of all the solution pumped in. It does not take long for Mathilda to come, after she has come another couple of times, she climbs from the chair again. She then quickly leaves to room leaving a trail of her own liquid combined with sperm of [proxy] behind.&#xd;
+&#xd;
+A couple of hours later Mathilda returns and stops the machine. [proxy] body has become very tired because of all the work her body has performed. For multiple hours [hisher] breasts have been tortured by the rapid overfilling and emptying of milk. The rest of [hisher] body meanwhile has been very busy processing the very rich solution being pumped inside it. Even now the first effects of the solution are already visible.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 10*1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;))));&#xd;
+self.addStat(&quot;abdomen.food&quot;, (1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;)))));&#xd;
+self.addStat(&quot;breasts.max_lactation&quot;,(1.1*self.getStat(&quot;breasts.max_lactation&quot;)));&#xd;
+self.addStat(&quot;breasts.size&quot;,(1.1*self.getStat(&quot;breasts.size&quot;)));&#xd;
+self.addStat(&quot;generic.fat&quot;, 5000);&#xd;
+self.addStat(&quot;generic.tiredness&quot;,40);&#xd;
+self.subStat(&quot;generic.mood&quot;,40);&#xd;
+self.setStat(&quot;generic.arousal&quot;,0);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=2000</conditions>
+  <picturePath>kt_village/milk/train_3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

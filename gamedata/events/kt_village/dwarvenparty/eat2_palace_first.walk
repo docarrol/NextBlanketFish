@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat2_palace_first</name>
+  <descr>With [proxy] being taken care of by her servants Cadha continues.&#xd;
+&#xd;
+-To prevent the same thing happening in the future, I was only allowed to visit a very limited number of parties. Because of my condition I was not allowed to do anything else so I resorted to binge eating. Because of the training I received from a young age, this binge eating caused my stomach to increase to a incredible size. As you might have noticed already, I can eat at least twice as much as my sister who is probably already the family member with the largest stomach. This increase of size caused problems on a whole new level. The amount of food I could eat compared to the other dwarfs at parties was so large that soon some tried to do some crazy stuff to eat the same amount. A couple got injured and when the first two died, father forbade me to attend any official parties. &#xd;
+&#xd;
+During the monolog of Cadha, [proxy] was being stuffed with ox meat. A good half of the ox had already disappeared in [proxy] stomach. The compression spell combined with the onetime magic circuit that Christian added to take care of the added weight worked so far. But [proxy] did not think the spell was designed for this amount of food. Cadha takes a couple of large bites of her rapidly shrinking ox and continues her story.&#xd;
+&#xd;
+-Since I could no longer be used for parties, father decided to marry me to some powerful person. With a bit luck he would accept my defect. The first few husbands he tried to marry me too where no success, my eating rubbed off on them and all where soon unable to move. One even tried to match my eating, that did not end well. At some point he banned me from all food except a small sized ration. When I had a dinner with my future husband I ate so much that the kitchen ran out of food. You should have seen my belly that day, it was impressive. After that he simply leaves me be, hopping that he finds some purpose for me some day and that was my story.&#xd;
+&#xd;
+Cadha takes the last piece of meat from her scale and shoves it in her mouth. Her belly has swollen to an absolute massive state thanks to all the food. [proxy] did not think it was possible but there must be at least 100 kg of meat in her belly. The main problem, the servants just finished pushing the last pieces of meat inside of [proxy] mouth so [proxy] stomach now also contained 100 kg of meat. The meat was extremely compressed by the spell and only weight a fraction of the 100 kg but it was still there. Losing the fat added by this single meal is going to acquire a serious amount of exercise.&#xd;
+&#xd;
+-This is the most I have eaten in a long time. Normally a binge eat of mine only consist of eating one large ox. There must be some serious magic in that corset of yours, I don’t think there are many people alive who could eat the same amount.&#xd;
+&#xd;
+Even though [proxy] is tired from the forceful eating and the extreme amount of food present in [hisher] stomach, [heshe] decides to ask the question that is on [hisher] mouth for all the time. What is the defect that caused Cadha to be only suitable as an party eater.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 250000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 10);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat3_palace_first</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

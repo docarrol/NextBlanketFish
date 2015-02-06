@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/menu_belly</name>
+  <descr>[Proxy] switches attention to [target]&apos;s [=target][belly]. </descr>
+  <conditions>iTarget.getStat(&quot;generic.abdomen&quot;) &gt; 3.8;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Rub belly</name>
+      <value>sex/Belly/rub</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>sex/turn</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

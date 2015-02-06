@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/recieve_corset_1</name>
+  <descr>[proxy] asks Thovila how it went with Christian.&#xd;
+&#xd;
+-He really knew a lot about technomagic. Combining our knowledge led to a creation that will shake the very foundations of the Dwarven corset craft. If only I had access to the fires of mount bloom, I really could have made the one corset that would fit all. The creation I made for you together with Christian is truly one of a kind. Let me get it for you.&#xd;
+&#xd;
+Thovila walks to a room in the back and soon comes back wearing a beautiful looking corset.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;thovilawait&quot;) &lt; clock.getDays() &amp;&amp; GetPerFlag(&quot;dwarf_crash&quot;)==4</conditions>
+  <picturePath>char/Thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/recieve_corset_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

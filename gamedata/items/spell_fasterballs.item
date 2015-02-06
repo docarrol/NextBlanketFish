@@ -1,0 +1,19 @@
+<fetishmaster.items.Item>
+  <name>Spell: breeding stud</name>
+  <descr>A spell designed by Morgan to make the caster able to restore his load faster.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addStat(&quot;balls.prod_rate&quot;, (0.1*self.getStat(&quot;balls.prod_rate&quot;)));&#xd;
+&#xd;
+AddItem(&quot;spell_fasterballs&quot;);&#xd;
+&#xd;
+self.addStat(&quot;generic.tiredness&quot;, (3500/GetPerFlag(&quot;magic_skill&quot;))+10);&#xd;
+</useScript>
+  <useText>[proxy] cast the spell and immediately feels the effect. A greet amount of energy is drawn from [proxy] body, using [hisher] magic skill [heshe] managed to reduce the effect. Meanwhile [proxy] balls feel hot for a moment.</useText>
+  <count>1</count>
+  <canBeStacked>false</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>1500</value>
+  <sellValue>400</sellValue>
+  <weight>0.0</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/inn_sleep</name>
+  <descr>[proxy] asks for a bed.&#xd;
+&#xd;
+-You are the honored guest of the elder, I won’t charge you for recharging you energy to serve the elder.&#xd;
+&#xd;
+She then guides [proxy] to a small room containing a comfortable Bed. [proxy] takes a power nap of a couple of hours and is back to full energy.&#xd;
+&#xd;
+&lt;% &#xd;
+self.setStat(&quot;generic.tiredness&quot;, 0);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/barkeep.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/inn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>4</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

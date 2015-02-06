@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entershrine_3_s</name>
+  <descr>[proxy] walks this time directly to the large plate in front of the doors and stands on top of it.&#xd;
+&#xd;
+-Welcome you are ready for Edesia.&#xd;
+&#xd;
+The doors open and [proxy] enters the shrine.</descr>
+  <conditions>GetPerFlag(&quot;edesia&quot;)==3 &amp;&amp; (GetPerFlag(&quot;priestess_weight&quot;)+10)&lt;((Integer) proxy.getStat(&quot;generic.weight&quot;) / 1000) &amp;&amp; (GetPerFlag(&quot;priestess_weight&quot;)*2)&gt;((Integer) proxy.getStat(&quot;generic.weight&quot;) / 1000)&amp;&amp; proxy.getStat(&quot;abdomen.food&quot;)&lt;=0 &amp;&amp; proxy.getStat(&quot;abdomen.stomach_volume&quot;)&gt;=5000</conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_3_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

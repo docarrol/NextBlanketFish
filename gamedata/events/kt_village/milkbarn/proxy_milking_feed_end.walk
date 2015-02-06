@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/proxy_milking_feed_end</name>
+  <descr>[proxy] pushes the button for a third time but does not release the button this time. [hisher] stomach is going to be filled to the brim with the heavy food. [proxy] feels the hose moving with the food traveling through it and prepares [hisher] self for the blast of food. The food is deposited again in the back of [hisher] throat by the hose only this time the food stream does not stop after a few seconds. A continues flow of heavy food is deposited in [hisher] stomach.
+
+Once [hisher] stomach is starting to get full, [proxy] releases the button. The food stream however keeps continuing. It takes some time for the machine to register that the feed button is no longer pushed and to stop the food stream. When the feeding hose is also completely emptied in [proxy] stomach, [hisher] stomach is overfull. It takes a couple of tries to stand up with [hisher] very heavy  &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly. Slowly [proxy] walks towards the dressing room, receiving a couple of looks from the milk girls present in the barn. Luckely [proxy] does not meet Mathilda, [heshe] is not sure how she would react after stuffing [himher] so full of the milk girl food.
+
+&lt;%
+self.addStat(&quot;generic.calories&quot;, 3*1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;))));
+self.addStat(&quot;abdomen.food&quot;, (1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;)))));
+self.addStat(&quot;breasts.max_lactation&quot;,((1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;))))/500));
+ &quot;&quot;;%&gt;
+</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=2000</conditions>
+  <picturePath>kt_village/milk/milk_normal.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

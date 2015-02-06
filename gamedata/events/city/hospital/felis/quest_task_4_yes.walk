@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/quest_task_4_yes</name>
+  <descr>-Great, let me know if you locate her or obtain usefull information.&#xd;
+&#xd;
+&lt;%SetPerFlag(&quot;felis_quest&quot;, 8);&#xd;
+SetPerFlag(&quot;dense_breast&quot;, 1);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

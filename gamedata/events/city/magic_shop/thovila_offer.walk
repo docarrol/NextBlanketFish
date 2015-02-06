@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/thovila_offer</name>
+  <descr>[proxy] asks Christian how much he knows about technomagic.&#xd;
+&#xd;
+-A new and very interesting new development. Tinkering with and inventing all sorts of new devices is a hobby of mine so I know a good deal about technomagic. I belief we so far only have scratched the surface of the possibilities available, but why do you ask?&#xd;
+&#xd;
+[proxy] explains that a dwarf name Thovila is looking for someone who can help her with technomagic.&#xd;
+&#xd;
+-A dwarf you say, very interesting. I heard dwarfs are completely technology based and have shown no interest in magic at all. Their technology however is on some areas miles ahead of the rest. Where does this dwarf live.&#xd;
+&#xd;
+[proxy] tells that the dwarf lives in a hidden village, getting there can be hard.&#xd;
+&#xd;
+-That village filled with Tau people, I have been there a couple of times. I maintained their equipment when they lacked to knowledge to do it their selves. I have still a few contacts there so I should have no trouble visiting that dwarf. After closing time I will visit her, working together with a dwarf sounds very interesting.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;thovilawait&quot;,clock.getDays()+1);&#xd;
+SetPerFlag(&quot;dwarf_crash&quot;,4);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;dwarf_crash&quot;)==3</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_shop/greetings</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

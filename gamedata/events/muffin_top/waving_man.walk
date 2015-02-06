@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/waving_man</name>
+  <descr>[proxy]  notices a man waving to &lt;%activePartner.HisHer();%&gt; and walks towards him.&#xd;
+&#xd;
+-I&apos;m not sure of you reconise me, but i&apos;m the manager of the Cafe in the city. If you want too make some extra money, come and see me there. I could use someone of your talents.&#xd;
+&#xd;
+[proxy] is a bit confused abouth what talent the man was talking about but it might be worth checking out.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;cafe.eating&quot;,2);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;eating.comp&quot;)== 5 &amp;&amp; GetPerFlag(&quot;cafe.eating&quot;)&lt;2</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

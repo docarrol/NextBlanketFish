@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/massage_5</name>
+  <descr>[proxy] meets Chun Li in the massage area. Her once strong and trained body has changed by the many visits to the shrine. The belly of Chun Li was once shaped like a washboard, now a decent pot belly is visible. Somewhere under that fat there are still some rapidly shrinking muscles present but with the lack of training those will soon also disappear. Chun Li’s dream of becoming the strongest martial artist has become highly unlikely.&#xd;
+&#xd;
+-Do you want a massage or are you joining me for a quick snack?</descr>
+  <conditions>GetFlag(&quot;chunlitrain&quot;)==2 &amp;&amp; (clock.getDays()-GetFlag(&quot;chunlistart&quot;))&gt;=28</conditions>
+  <picturePath>bathhouse/chunlifat2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Weak massage</name>
+      <value>city/bathhouse/weak_massage</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Have a snack</name>
+      <value>city/bathhouse/proxy_chunlisnack</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

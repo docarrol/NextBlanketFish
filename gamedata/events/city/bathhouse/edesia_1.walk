@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_1</name>
+  <descr>[proxy] enters the shrine and notices Edesia sitting in the middle of the shrine now naked.&#xd;
+&#xd;
+-Good, you have returned. I starting to like this time period, have you tasted these donuts. They are filled with cream, so good.&#xd;
+&#xd;
+[proxy] asks why she is naked.&#xd;
+&#xd;
+-Seeing as you are my only priestess there is now need for modesty and besides a goddess pussy should not be covert. Now come here and join me for some of these donuts, I don´t like eating alone.&#xd;
+&#xd;
+[proxy] makes some small talk with the goddess mainly about food during which &lt;%activePartner.HeShe();%&gt; empties a box containing 6 cream donuts. The taste more delicious than any donut [proxy] has eaten ever before. They are very easy to eat even though they are brink full of sugary cream. [proxy] is surprised how heavy they full in &lt;%activePartner.HisHer();%&gt; stomach.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 18000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 1200);&#xd;
+SetPerFlag( &quot;edesia&quot;,2);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+&lt;%activePartner.HeShe();%&gt; decides then it is time to go.&#xd;
+&#xd;
+-What you’re leaving already, we were just getting started. Here some more donuts, i hope you eat them before you visit again.&#xd;
+&#xd;
+Edesia hands a box of donuts too [proxy].&#xd;
+&#xd;
+&lt;% &#xd;
+AddItem(&quot;cream_donut&quot;,6);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/exitshrine</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/Bellyplayf/rub_belly_3</name>
+  <descr>belly 3
+
+&lt;%c=proxy; &quot;&quot;;%&gt; [Proxy] walks into the room having already let loose [hisher] [belly] and sits down heavily on the edge of the bed so that [hisher] belly falls into [hisher] lap. [HeShe] takes [HisHer] time and lovingly rubs ever bit of [HisHer] gut. [HisHer] belly seems to have become very sensative to touch and every ripple and rub seems to ask for another. [Proxy] happily obliges!
+
+
+&lt;% activePartner.addStat(&quot;generic.lewdness&quot;, 5);%&gt;
+&lt;% activePartner.addStat(&quot;generic.str&quot;, 0.3);%&gt;
+&lt;% activePartner.addStat(&quot;generic.dex&quot;, 0.3);%&gt;
+&lt;% activePartner.addStat(&quot;generic.end&quot;, 0.1);%&gt;
+&lt;% activePartner.addStat(&quot;generic.arousal&quot;, 3);%&gt;
+&lt;% activePartner.addStat(&quot;generic.health&quot;, 0.5);%&gt;
+&lt;% activePartner.addStat(&quot;generic.mood&quot;, 1.5);%&gt;
+&lt;% activePartner.addStat(&quot;skill.desireforfat&quot;, 0.2);%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 9 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &lt;= 19 </conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/Bellyplay</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

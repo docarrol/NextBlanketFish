@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/Bellyplayf/rub_belly_6</name>
+  <descr>Belly 6
+How did you even get here?
+
+&lt;%c=proxy; &quot;&quot;;%&gt;
+
+Using apparant super strength, [Proxy] carries [hisher] [belly] and drops it onto the bed. 
+
+&lt;% activePartner.addStat(&quot;generic.lewdness&quot;, 1);%&gt;
+&lt;% activePartner.addStat(&quot;generic.str&quot;, 5);%&gt;
+&lt;% activePartner.addStat(&quot;generic.arousal&quot;, 10);%&gt;
+&lt;% activePartner.addStat(&quot;generic.health&quot;, 5);%&gt;
+&lt;% activePartner.addStat(&quot;generic.mood&quot;, 10);%&gt;
+&lt;% activePartner.addStat(&quot;skill.desireforfat&quot;, 0.5);%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 44.5 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &lt;= 60</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/Bellyplay</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

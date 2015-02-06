@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_afterpinkbottle_1</name>
+  <descr>[proxy] enters Elwing’s room and finds Elwing on her bed together with another elf. The elf looks near the end of a pregnancy because of all the cum Elwing has pumped in her. When Elwing notices [proxy] arrival, she removes her dick from the elfs pussy. A torrent of cum escapes from the now no longer blocked pussy. Now that Elwing’s dick is no longer in the elfs pussy, [proxy] can see how much larger it has become.&#xd;
+&#xd;
+-Welcome, I hope you have taken your drink so you’re prepared for this bad boy.&#xd;
+&#xd;
+With that said she grabs her dick to show how much larger it has become. She gives the elf in her bed a small push indicating that she has to leave. On the way to the door the elf leaves a trail of cum behind.&#xd;
+&#xd;
+-That is the elf with the largest cunt around, soon she won’t even fit on this meat stick. Now let’s get that pussy of yours plenty of lubricated.&#xd;
+&#xd;
+Elwing guides [proxy] to her bed and starts licking [proxy] pussy with great skill. With one of her hands she is meanwhile stocking [proxy] dick. Once [proxy] is sufficiently lubricated Elwing sits up. [proxy] lets herself lower on Elwing’s dick with [hisher] face towards Elwing.&#xd;
+&#xd;
+Because of the glass of liquid [proxy] drunk earlier, Elwing’s large penis fits in her now rather large pussy. Once Elwing’s dick is completely inside, [proxy] starts pumping her dick. [hisher] own dick meanwhile is trapped between the two body’s. With [proxy] moving it does not take long from Elwing to come for the first time, as a reaction on Elwing, [proxy] also comes. The two continue fucking for a bit till they are both fulfilled. Elwing managed to pump a decent amount of cum in [proxy] pussy.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,7);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays());&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen9.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

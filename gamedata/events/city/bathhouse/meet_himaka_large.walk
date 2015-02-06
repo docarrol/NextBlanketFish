@@ -1,0 +1,70 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_large</name>
+  <descr>[proxy] rings the door and has to wait a long time for an answer.&#xd;
+&#xd;
+-Hold one; I come as soon as I can.&#xd;
+&#xd;
+When the door finally opens it is completely filled with Himanka. Himanaka&apos;s top seems to have mostly disappeared under her huge breasts. Her stomach has become massive over time. [proxy] guesses that the old Himanka would easily fit in her current belly with plenty of room to spare.&#xd;
+&#xd;
+-Sorry it took so long. The doors in my house are just so narrow; I really have trouble passing them. Now let’s go and have something to eat, I’m hungry.&#xd;
+&#xd;
+The trip to the shrine takes a long time because Himanka has to rest a couple of times. [proxy] wonders what her mother would do if she meets Himanak in this state.&#xd;
+&#xd;
+When Himanka and [proxy] finaly enter the shrine, Himanak sits down at the first chair she spots. The weight now present on the chair makes it creak.&#xd;
+&#xd;
+[proxy] asks what Himanaka wants to eat followed by a short answer:&#xd;
+&#xd;
+-meat, lots of meat.&#xd;
+&#xd;
+Himaka seems to think it is completely normal that suddenly they are surrounded by towers of large roasted pork legs. [proxy] looks at the towers of meat, are we really going to eat all that. [proxy] &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly is going to be tested to the limit. This amount of food will have some serious impact on &lt;%activePartner.HisHer();%&gt; &lt;%IncludeRange(proxy.getStat(&quot;generic.fat_percent&quot;), &quot;body_fat_percent&quot;);%&gt;  body. The reward promised by Edesia better be worth it.&#xd;
+&#xd;
+Himanka picks the first roasted pork leg and starts eating it. [proxy] follows her example and starts eating the first roasted pork leg. Soon [proxy] &lt;%activePartner.HisHer();%&gt; belly starts to fill up with the meat eaten by both of them.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 50000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 10000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+50));&#xd;
+&quot;&quot;;%&gt;&#xd;
+Over time the first few stacks of meat is transformed in a pile of bones.  [proxy] stomach mean while starts to get full with the massive amount of meat that disappeared trough both [proxy] and Himanka mouth. Under influence of all the food [proxy] has now a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly.&#xd;
+&#xd;
+Because of Himanka’s current size, the large amount of meat present is hardly noticeable. Her stomach seems to be a bottom less pit, waiting for more meat arrives. It seems she does not like to keep her stomach waiting and picks up the next roasted pork leg. [proxy] stomach starts to slowly get full be [heshe] also keeps eating.&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 25000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+25));&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+Finally there is only a single meat stack left. [proxy] stomach feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt; and &lt;%activePartner.HeShe();%&gt; has now a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly. Himanka also seems to finally reached the limit of her stomach, her eating speed has slowed down considerably. [proxy] decides that &lt;%activePartner.HeShe();%&gt; really chewed enough meat for the day. Himanka meanwhile looks with determination to the remaining stack of meat. It seems she really wants to finish it all. Slowly but surely the remaining stack of meat disappears only leaving empty bones behind. Finally she tosses the last bone on the pile.&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 5000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 1000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+5));&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+&#xd;
+-I really let myself go this time. Well it seems you enjoyed the meal too. &#xd;
+&#xd;
+Himanka looks at your  &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly&lt;%IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;  with food.&#xd;
+&#xd;
+Both of you are too full. After some time Himanka managed to get her legs below her body.&#xd;
+&#xd;
+-This was so great, come by soon again.&#xd;
+&#xd;
+[proxy] wonders if Himanka is even going to fit through the door of her own house in her current state. </descr>
+  <conditions>GetPerFlag(&quot;himanka_eaten&quot;)&gt;200 &amp;&amp; GetPerFlag(&quot;himanka_eaten&quot;)&lt;=350 &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=15000</conditions>
+  <picturePath>bathhouse/himanka5.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_6_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

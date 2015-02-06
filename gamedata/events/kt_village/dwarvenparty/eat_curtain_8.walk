@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_8</name>
+  <descr>[proxy] passes the curtain and is greeted by an very large female dwarf.&#xd;
+Compared with the previous dwarfs [proxy] has seen, she is at least twice their size. That size is not only her massive belly with large boobs above it but also her length. [proxy] feels small compared to the woman what is odd since most dwarfs are shorter than [hisher].&#xd;
+&#xd;
+-I was fairly sure I only invited dwarfs to this party. How did you get in here.&#xd;
+&#xd;
+[proxy] finally meets Cadha and quickly starts explaining the purpose of [hisher] visit.&#xd;
+&#xd;
+-Thovila you say, I must confess I have heard of that name. If I remember correctly she got kicked out because of that stupid cow Dwonna. No loss there if you ask me, I allowed her once to come to a party of mine, never again. But enough talk, it is time for the main event. &#xd;
+Cadha looks at a number of items on a table and picks the game of cards. &#xd;
+&#xd;
+-A very simple game, each pick four cards, you then have to opportunity to switch the some of the cards in your hand for new ones. The person with the highest combined score wins. &#xd;
+&#xd;
+Cadha gives [proxy] the deck of cards, [heshe] draws 4. A 2, 5, 8 and a 10, then Cadha draws her cards.&#xd;
+[proxy] has two possibilities, either try to win or purposely lose.  [proxy] has no idea how Cadha would react in each situation, being a royalty normally nobody would want to offend her. If [proxy] loses however, [proxy] has to eat the food, maybe Cadha wants to eat the food herself. Well time to choose.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Try to win</name>
+      <value>kt_village/dwarvenparty/eat_curtain_8_win</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Try to lose</name>
+      <value>kt_village/dwarvenparty/eat_curtain_8_lose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

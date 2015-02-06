@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/normal_massage</name>
+  <descr>[proxy] lays down on the massaging table and let Chun Li do her magic. During the massage [proxy] feels the tension disappears from her muscles under the influence of Chun Li’s skilled and powerful hands. &#xd;
+&#xd;
+After the massage [proxy] feels completely relaxed.&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.end&quot;, 0.1);&#xd;
+self.addStat(&quot;generic.dex&quot;, 0.3);&#xd;
+self.addStat(&quot;generic.cha&quot;, 0.02);&#xd;
+self.subStat(&quot;generic.tiredness&quot;, 5);&#xd;
+self.addStat(&quot;generic.mood&quot;, 10);&#xd;
+self.subStat(&quot;generic.calories&quot;, 100);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/chunli2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

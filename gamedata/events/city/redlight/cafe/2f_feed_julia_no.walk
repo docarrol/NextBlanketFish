@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/2f_feed_julia_no</name>
+  <descr>&lt;%Include(&quot;char/julia.init&quot;);%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/fcafe/interior_2f.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

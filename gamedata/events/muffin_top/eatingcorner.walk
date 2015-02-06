@@ -1,0 +1,40 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingcorner</name>
+  <descr>In the corner of the restaurant [proxy] notices a large table under a sign reading Vicky&apos;s Eating Competition. [proxy] decided to have a closer look too sea if anyting is going on there.</descr>
+  <conditions>GetFlag(&quot;eating.comp&quot;)&gt;= 1</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>childeren pancake</name>
+      <value>muffin_top/eatingpartonestart</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>pancakes</name>
+      <value>muffin_top/eatingparttwostart</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Chocolate Milk</name>
+      <value>muffin_top/eatingpartthreestart</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Eclaire</name>
+      <value>muffin_top/eatingpartfourstart</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

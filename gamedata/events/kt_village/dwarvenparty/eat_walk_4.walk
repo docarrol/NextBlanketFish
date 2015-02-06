@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_walk_4</name>
+  <descr>During the walk to the next curtain [proxy] stomach starts to feel a bit full. [hisher] &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly is starting to get full of food again even after using the compression feature on the corset.</descr>
+  <conditions>GetPerFlag(&quot;dwarfparty_eat&quot;)==4</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>kt_village/dwarvenparty/start_curtain</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

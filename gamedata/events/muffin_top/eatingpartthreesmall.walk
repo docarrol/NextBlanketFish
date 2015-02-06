@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartthreesmall</name>
+  <descr>[proxy] starts full enthusiasm at the pitcher but at some point &lt;%activePartner.HeShe();%&gt; just has to give up. &lt;%activePartner.HisHer();%&gt; stomach is filled to the brink and there is still chocolate milk left in the pitcher.&#xd;
+&#xd;
+After the match [proxy] is approached by Vicky.&#xd;
+&#xd;
+-I noticed you did your very best but still could not finish it. I recommend you do some training before trying again.</descr>
+  <conditions>proxy.getStat(&quot;abdomen.stomach_volume&quot;)&lt;4500</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

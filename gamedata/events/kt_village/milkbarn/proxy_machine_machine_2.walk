@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/proxy_machine_machine_2</name>
+  <descr>Mathilda walks together with [proxy] to her private area behind the milking machines. They enter one of the rooms in the hallway.&#xd;
+Mathilda tells [proxy] to sit on the floor in front of the machine in the room. She then attaches two sucking cups on [proxy] breasts. A feeding tube is then inserted in [proxy] mouth, the design is a bit different form the feeding tubes used at the normal milking machines. This feeding tube cannot be removed without external help. The final step is shoving a removal tube in [proxy] asshole.&#xd;
+&#xd;
+-Let me give you a short description of what this machine does. The suction cups at your breasts will make sure that all the milk is been removed from your breasts. Any new milk your breasts produce will immediately extracted by the machine. Your body is this way triggered to produce milk at a faster rate to fulfill the demand. Meanwhile a special solution is pumped inside your stomach. This solution contains all the nutrients and stuff your body needs to produce milk. It has been designed in such a way that your body can easily extract all the useful stuff inside the solution. This leads to a body that is overloaded with the required ingredients for producing milk. Are you ready, I will start the machine now.&#xd;
+&#xd;
+[proxy] cannot do much more than nod since her mouth is stuffed with the feeding tube. Mathilda then activates the machine. The two suction cups immediate start sucking all the milk from [proxy] breasts. The hose in [hisher] mouth meanwhile starts pumping out the solution. [proxy] feels how her stomach is being filled with the extremely rich solution. Once her stomach is full, the machine keeps pumping in more of the solution forcing it with great speed trough [hisher] entire system. After some time the first of the used solution is removed by the tube on the other end.&#xd;
+&#xd;
+While [proxy] is being served by the machine, [heshe] can see Mathilda get a bit red. She seems to be become very horny because of the machine that [proxy] is using. When she notices that her hand is going automatically to her crotch she quickly tells.&#xd;
+&#xd;
+-you have to stay in the machine for a couple of hours. It is all full automatic so I will be back in a couple of hours after the meeting I now have.&#xd;
+&#xd;
+Mathilda quickly walks off, leaving [proxy] behind in the machine.&#xd;
+&#xd;
+A couple of hours later Mathilda returns and stops the machine. [proxy] body has become very tired because of all the work her body has performed. For multiple hours [hisher] breasts have been in overdrive trying to fulfill the never ending demand of milk. The rest of [hisher] body meanwhile has been very busy processing the very rich solution being pumped inside it. Even now the first effects of the solution are already visible.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, (10*1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;)))));&#xd;
+self.addStat(&quot;abdomen.food&quot;, (1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;)))));&#xd;
+self.addStat(&quot;breasts.max_lactation&quot;,(1.15*self.getStat(&quot;breasts.max_lactation&quot;)));&#xd;
+self.addStat(&quot;generic.fat&quot;, 5000);&#xd;
+self.addStat(&quot;generic.tiredness&quot;,40);&#xd;
+self.subStat(&quot;generic.mood&quot;,40);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=2000</conditions>
+  <picturePath>kt_village/milk/train_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

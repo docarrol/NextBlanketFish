@@ -1,0 +1,56 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/introdual_karin_2</name>
+  <descr>Mathilda, Karin and [proxy] walk the hidden path through the forest to the clearing where the shaman is performing his rituals.&#xd;
+&#xd;
+When the enter the clearing Mathilda walks to the shaman and quickly starts explaining the situation.&#xd;
+&#xd;
+-I see, so that is the source and she is the target. Now both of you come here and lay down on your side and push your breasts against each other.&#xd;
+&#xd;
+Both [proxy] and Karin look confused at the shaman, what is he going to do.&#xd;
+&#xd;
+-hmmm, normally people just follow their shaman’s orders but since you are an outsider I let this one slide once.&#xd;
+&#xd;
+I’m going to use a ritual to temporary transfer some of [proxy] breast tissue to Karin. This way Karin has more breast tissue to deliver milk which should enable her to beat Talia in the match. Now, do you have any more questions or can I finally start.&#xd;
+&#xd;
+[proxy] has a lot of questions but decide to limited it. How much of [hisher] breast tissue is going to be transferred and are there any lasting effects.&#xd;
+&#xd;
+-I was going to transfer just enough for Karin to win the dual based on Mathilda’s information. The breast tissue of [proxy] breasts has an slightly different structure than that of Karin as far as I can detect. While [proxy] breast tissue is temporary incorporated in Karin’s breasts, it will most likely assume some of its properties. Once I transfer the breast tissue back it should have a much higher maximum lactation rate than before. &#xd;
+&#xd;
+You know what, I’m in a good mood today. Based on Mathilda’s information, Karin needs an amount of breast tissue equal to a for you 100 ml max lactation rate. I have to leave at least an amount of breast tissue equal to 10 ml max lactation rate behind to form a basis for the tissue once I place it back. I estimate that if you truly want to humiliate Talia, Karin needs at least 200 ml max lactation rate in extra tissue. Now let me detect your current amount of breast tissue.&#xd;
+&#xd;
+Without waiting for permission the shaman grabs [proxy] breasts.&#xd;
+&#xd;
+- your max lactation rate is currently &lt;%(Integer)activePartner.getRNAValue(&quot;breasts.max_lactation&quot;)%&gt; ml.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>char/shaman.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lend Karin 100 ml</name>
+      <value>kt_village/milkbarn/introdual_karin_100</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lend Karin 200 ml</name>
+      <value>kt_village/milkbarn/introdual_karin_200</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lend Karin as much as possible</name>
+      <value>kt_village/milkbarn/introdual_karin_all</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/second_part</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

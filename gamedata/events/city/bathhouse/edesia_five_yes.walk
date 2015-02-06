@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_five_yes</name>
+  <descr>[proxy] agrees to the offer.&#xd;
+&#xd;
+Edesia says a couple of words in a strange language combined with some hand moments and [proxy] stomach suddenly starts to feel hot and active. [proxy] body meanwhile feels slower than normal, the amount of calories it will burn to sustain itself has been lowered.&#xd;
+&#xd;
+-A wise decision, I&apos;m looking forward to seeing the effect of my little bless the next time we meet.&#xd;
+&#xd;
+Edesia has a large grimace on her face. [proxy] wonders if it is really wise to accept Edesia&apos;s offer.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, (self.getStat(&quot;generic.calories&quot;)/30), 24);&#xd;
+self.addEffect(&quot;generic.metabolism&quot;, &quot;boostdown&quot;,-(self.getStat(&quot;generic.metabolism&quot;)/3), 24);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia8.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/exitshrine</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

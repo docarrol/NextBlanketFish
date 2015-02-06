@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/kiana_milkjob</name>
+  <descr>[proxy] meets Kiara to asks if she know someone that requires a job. One of the women in the village might be able to supply the fresh milk required for the bath house.&#xd;
+&#xd;
+-I might know someone. Mattie is a good friend of mine who would like to visit the city. Only she is too scared to leave the village without some job security. If you promise to take care of her I can recommend this job to her. I should warn you, once she starts producing milk she should be milked regularly. Also, because of Tau rules, Mattie is not allowed to be milked by machines outside of this village. You still want to hire her?</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==10 &amp;&amp; GetPerFlag(&quot;village_friend&quot;)==1</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Yes</name>
+      <value>city/bathhouse/meet_mattie</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

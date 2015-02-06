@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/eating/start_heavy</name>
+  <descr>[proxy] enters the staff room and is approached by the Manager. I&apos;m sorry; you have become too large to work here. Lose some weight and I allow you to work again.</descr>
+  <conditions>GetPerFlag(&quot;cafe.eating&quot;)==3 &amp;&amp; (GetPerFlag(&quot;start.weight&quot;)+75)&lt;(proxy.getStat(&quot;generic.weight&quot;) / 1000)</conditions>
+  <picturePath>city/fcafe/staff_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

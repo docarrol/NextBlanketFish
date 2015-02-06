@@ -1,0 +1,18 @@
+<fetishmaster.items.Item>
+  <name>spell: weight gone</name>
+  <descr>A spell designed by Morgan to reduce the weight of the caster.</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.subStat(&quot;generic.fat&quot;,0.1*self.getStat(&quot;generic.fat&quot;));&#xd;
+&#xd;
+AddItem(&quot;spell_weightloss&quot;);&#xd;
+&#xd;
+self.addStat(&quot;generic.tiredness&quot;, (2000/GetPerFlag(&quot;magic_skill&quot;))+10);</useScript>
+  <useText>[proxy] cast the spell and immediately feels the effect. A greet amount of energy is drawn from [proxy] body, using [hisher] magic skill [heshe] managed to reduce the effect. Meanwhile [proxy] body is slowly getting lighter.</useText>
+  <count>1</count>
+  <canBeStacked>false</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>500</value>
+  <sellValue>100</sellValue>
+  <weight>0.5</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

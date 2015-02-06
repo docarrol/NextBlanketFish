@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_3_start</name>
+  <descr>[proxy] enters the shrine and notices Edesia sitting against a wall. When approaching her [proxy] notices she is moaning.&#xd;
+&#xd;
+-I just received the next batch of donuts, they really are delicious but I might have eaten one to many. I wish I had my old power back again, then that amount would not even be a starter. But good that you are here, massage my stomach for a bit.&#xd;
+&#xd;
+[proxy] walks to Edesia and starts massaging her stomach. In the meantime Edessa starts feeding donuts to [proxy]. I&apos;m not the only one who should enjoy them. [proxy] keeps massaging Edesia&apos;s belly while &lt;%activePartner.HisHer();%&gt; own belly get slowly filled with donuts.&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 36000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 2400);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+-You may stop now; I got some room available again. You really are skilled with massaging, seems I made the right choice making you my priestess.&#xd;
+Well where are you waiting for, let us hold a party, plenty of donuts left.&#xd;
+&#xd;
+[proxy] has no idea where Edesia got all those boxes of donuts from but suddenly they are surrounded by them. Edesia starts talking about food again and soon both [proxy] and Edesia starts eating donuts from the first box. [proxy] is enjoying &lt;%activePartner.HisHer();%&gt; so much that &lt;%activePartner.HeShe();%&gt; does not notice that donut after donut disappears in &lt;%activePartner.HisHer();%&gt; mouth.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 18000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 1200);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_3_continue</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

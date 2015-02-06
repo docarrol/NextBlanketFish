@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/first_elwing_sex</name>
+  <descr>[proxy] follows Elwing to her bedroom. The bedroom of Elwing is sparsely decorated. Elwing sits down on her bed, confused what to do next. She might have a huge knowledge about the world and other stuff but she seems to know very little about sex.&#xd;
+&#xd;
+[proxy] tells her to lay down on her bed and starts simulating her pussy. Elwing looks very confused at what [proxy] is doing but according to the blush on her face it feels great. [proxy] keeps licking and fingering Elwing’s pussy till it is sufficiently lubricated. [heshe] than inserts [hisher] penis in Elwing’s pussy. Her pussy is extremely tight. [proxy] then starts kissing Elwing while using [hisher] hands to fondle with Elwing’s breasts.&#xd;
+&#xd;
+Confused but very aroused by what is happening, Elwing lets [proxy] do [hisher] things. Because of Elwing’s very tight pussy, it does not take long for [proxy] to come. [proxy] pumps a nice load of sperm in Elwing’s waiting pussy. [proxy] is not sure if [heshe] is going to become father of a couple of elven children now, the idea of that makes [proxy] come a second time. Elwing meanwhile has her own orgasm. She never expected that an action like this could make her feel so good. When [proxy] is catching [hisher] breath a moment after the first two orgasms Elwing asks if they can do it again.&#xd;
+&#xd;
+The rest of the night is spend with [proxy] teaching Elwing the basics of sex. When [proxy] leaves the next morning for the trip back to the city [proxy] hopes [heshe] did not create some sex monster.&#xd;
+&#xd;
+Before [proxy] left Elwin told [himher] that if you want to come back to this village, [proxy] just has to aks Arwen. She will bring you to the village. For our protection I must ask you to keep wearing your blindfold, I’m sorry for that.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,2);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays()+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/walk_back</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

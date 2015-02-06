@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/corset_palace_last</name>
+  <descr>[proxy] is brought back to the zeppelin by a servant from the palace.&#xd;
+&#xd;
+Thovila hardly gives [proxy] time to drop down on chair to rest [hisher] legs after the walk back to the zeppelin with [hisher] painfully full stomach.&#xd;
+&#xd;
+-How did it go, judging by your stomach you had another meal with Cadha but was her sister interested.&#xd;
+&#xd;
+[proxy] tells Thovila that Cadha’s sister was impressed by the corset and that she would sent a assistant soon to determine the details for a corset for her.&#xd;
+&#xd;
+-That is excellent news, now you rest till we get back to the city again. &#xd;
+&#xd;
+[proxy] wakes up inside Thovila’s house.&#xd;
+&#xd;
+-Good morning, how do you feel. While you were sleeping I removed part of the compression magic circuit. I received the first details about the corset I have to make for Cadha’s sister and she also wants that feature. Using the part of the magic circuit from your corset I should be able to build it in her corset. The rest of the corset still functions as normal but the compression function does not work anymore till I have time to rebuild it.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;cadha&quot;,3);&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;,(self.getStat(&quot;generic.calories&quot;)/200), 168);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/Blacksmith.png</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,35 +1,56 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/interior</name>
-  <descr>At first glance it seems like an ordinary city cafe, but after getting a better look, many rooms and hallways to other rooms can be seen. Some rooms are blocked by curtains and [proxy] can&apos;t see what kind of rooms they are. 
+  <descr>On first look it looks like a regular city cafe, but after a second, many rooms and hallways to other rooms can be seen. Some rooms are blocked by curtains and [proxy] can&apos;t see what type of rooms they are. 
 &lt;%Include(&quot;fetish_cafe/lower_interior&quot;);%&gt;
 &lt;%Include(&quot;fetish_cafe/kitchen_interior&quot;);%&gt;
-&lt;%SetFlag(&quot;fetish_cafe_found&quot;, 1); &quot;&quot;;%&gt;</descr>
+</descr>
   <conditions>(clock.isDay()||clock.isEvening()||clock.isNight()) &amp;&amp; GetFlag(&quot;now_about_fcafe&quot;) &gt; 0;</conditions>
   <picturePath>city/fcafe/interior_1f.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Talk to Manager</name>
       <value>city/redlight/cafe/manager</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Work as Waiter (1h)</name>
       <value>city/redlight/cafe/work_as_waiter</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Staff Room</name>
       <value>city/redlight/cafe/staff_room</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Go to 2nd floor</name>
       <value>city/redlight/cafe/2f_interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Kitchen</name>
       <value>city/redlight/cafe/kitchen_interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Exit</name>
       <value>city/redlight_district</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Talk to Manager about offer</name>
+      <value>city/redlight/cafe/eatingoffer</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>test</name>
+      <value>city/redlight/cafe/test</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about cleaner</name>
+      <value>city/redlight/cafe/aks_cleaner</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -37,6 +58,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

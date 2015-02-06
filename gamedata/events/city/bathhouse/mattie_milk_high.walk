@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/mattie_milk_high</name>
+  <descr>[proxy] has waited so long with drinking Mattie’s milk, that she is now stuck on the ground.&#xd;
+&#xd;
+-You promised me that you would take care of me. Just look at me, stuck on the ground because of you. I hope you are happy.&#xd;
+&#xd;
+[proxy] starts apologizing, promise is promise so &lt;%activePartner.HeShe();%&gt; begins milking Mattie. [proxy] is going to need a large stomach to store all of this milk.&#xd;
+</descr>
+  <conditions>GetFlag(&quot;mattie_milk&quot;)==4</conditions>
+  <picturePath>bathhouse/mattie5.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Drink milk</name>
+      <value>city/bathhouse/milk_mattie_high</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave Mattie suffering on the ground</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

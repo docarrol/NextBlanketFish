@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_3_continue</name>
+  <descr>&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 3600);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 1200);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+[proxy] takes the next box of donuts and starts eating more donuts not caring what effect it has on &lt;%activePartner.HisHer();%&gt; &lt;%IncludeRange(proxy.getStat(&quot;generic.fat_percent&quot;), &quot;body_fat_percent&quot;);%&gt;  body. &#xd;
+&#xd;
+Meanwile [proxy] stomach feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt; while donut after donut disappears in &lt;%activePartner.HisHer();%&gt; slowly expanding &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly. &#xd;
+&#xd;
+It does not take long for [proxy] to finish the box of donuts.&#xd;
+</descr>
+  <conditions>proxy.getStat(&quot;abdomen.food&quot;)&lt;proxy.getStat(&quot;abdomen.stomach_volume&quot;)</conditions>
+  <picturePath>bathhouse/edesia4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_3_continue</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_3_full</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entershrine_1_s</name>
+  <descr>[proxy] arrives at the shrine and tries opening the large doors. How hard &lt;%activePartner.HeShe();%&gt; tries, the doors wont open. &lt;%activePartner.HeShe();%&gt; decides to give it one last shot and walks a bit back to look of something is bloking the door. Sudenly &lt;%activePartner.HeShe();%&gt; hears a voice inside &lt;%activePartner.HisHer();%&gt; head.&#xd;
+&#xd;
+-You are allowed to enter.&#xd;
+&#xd;
+The doors open automaticly. [proxy] notices that &lt;%activePartner.HeShe();%&gt; is standing on the large plate infront of the now open door. This plate seems to be the opening mechanism, usefull to know. &lt;%activePartner.HeShe();%&gt; then enter the shrine.</descr>
+  <conditions>GetPerFlag(&quot;edesia&quot;)==1 &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=1200</conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_1</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

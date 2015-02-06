@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_2</name>
+  <descr>[proxy] enters the shrine but does not sees Edesia on her chair. &lt;%activePartner.HeShe();%&gt; then notices some sound from the corner and finds Edesia lying naked on some pillows in a corner.&#xd;
+&#xd;
+-Welcome back, now join me with these hamburgers. Before my little nap they did not exist, your commoners really made some progress.&#xd;
+&#xd;
+On closer inspection [proxy] notices that Edesia looks a bit larger and is that a little pot belly. Before &lt;%activePartner.HeShe();%&gt; has the chance to look closer, Edesia already pushes a hamburger in [proxy] hand.&#xd;
+&#xd;
+-Eat, they not going to disappear by them self.&#xd;
+&#xd;
+[proxy] sit next to Edesia and starts eating. For every hamburger [proxy] eats, Edesia eats at least two. After 15 hamburgers [proxy] find it time to go.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 6000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 3000);&#xd;
+SetPerFlag( &quot;edesia&quot;,3);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&#xd;
+-What, you’re leaving again so soon. We were just starting. You really need some training to serve as my head priestess, here two more boxes of donuts. &#xd;
+&lt;% &#xd;
+AddItem(&quot;cream_donut&quot;,12);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/exitshrine</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

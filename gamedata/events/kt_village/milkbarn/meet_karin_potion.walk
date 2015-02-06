@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_potion</name>
+  <descr>[proxy] enters the room where Karin is waiting. Karin is holding a small bottle in her hand.&#xd;
+&#xd;
+-Talia just gave me this potion, she told me that this would boost my milk production. So far Talia has done nothing else then trying to hurt me, I’m not sure if this potion is really doing what she is implying. Before I drink it I first want your opinion.&#xd;
+&#xd;
+Karin hands [proxy] the small bottle. [proxy] closely inspects the bottle and notices some words written on it. One of the words is phallus what makes [proxy] think this potion can indeed help Karin with producing a white liquid but not from her breasts. Talia has been a bitch so far, making Karin a dick girl would be something she would exploit to the fullest. None of the tau girls [proxy] has seen in the milk barn so far had a dick so feeding Karin this potion would most likely end her life as milk girl.&#xd;
+&#xd;
+If [proxy] lets Karin become a dick girl, Mathilda will be less than happy. [proxy] highly doubts that [heshe] receives a reward for training Karin after that. &#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;karin_cap&quot;)&gt;=3000 &amp;&amp; GetPerFlag(&quot;Talia_quest&quot;)&lt;1 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/normal.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Let Karin drink potion</name>
+      <value>kt_village/milkbarn/dickpotion_drink</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Do not let Karin drink potion</name>
+      <value>kt_village/milkbarn/dickpotion_talk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

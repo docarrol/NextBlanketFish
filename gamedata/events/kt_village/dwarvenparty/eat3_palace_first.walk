@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat3_palace_first</name>
+  <descr>-You have kept me company during my entire story and even ate the same amount of food as me. I might as well show you the reason for all this. Promise me that you do not spread this information, only very few people know of it.&#xd;
+&#xd;
+[proxy] promises that she will not go around telling everyone about what is to come. Cadha then calls the servants again to help her undress.&#xd;
+&#xd;
+-With a stomach so full it is difficult to move.&#xd;
+&#xd;
+When she is naked you notice noting strange at first, except that ridiculously large belly of her brim full of meat. She then grabs her belly and lifts it a bit, with some trouble you can see something. She has a dick.&#xd;
+&#xd;
+-I’m the first person in the royal family that has both the male as female organs, because of this I have been treated as a freak of nature since I was young. Do you think I’m a freak of nature as well.&#xd;
+&#xd;
+[proxy] disagrees and tells Cadha that [heshe] would like to inspect it a bit closer and maybe even more once both their stomach are a bit more empty. &#xd;
+&#xd;
+-I would love that, come visit me again once your stomach is a bit more empty. I hope I can still recognize you after all the food you have eaten today.&#xd;
+&#xd;
+[proxy] tries to stand up, but [heshe] is to tired and [hisher] stomach is too full too move. Cadha immediately recognizes the state of which [proxy] is in and orders a couple of servants to take him to the zeppelin.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat3_palace_end</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

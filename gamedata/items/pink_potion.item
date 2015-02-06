@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>Pink potion</name>
+  <descr>A pink potion produced by Elwing</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.addStat(&quot;vagina.width&quot;,2);</useScript>
+  <useText>After drinking the potion, &lt;%self.getName();%&gt; vagina feels very warm. When the potion wears of, it has increased in size a little.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>100</value>
+  <sellValue>10</sellValue>
+  <weight>0.5</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

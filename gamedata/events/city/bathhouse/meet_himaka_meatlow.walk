@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_meatlow</name>
+  <descr>[proxy] asks Himanka if she would like to eat some meat.&#xd;
+&#xd;
+-The meat on the pizzas did not taste bad, actually it tasted really good. I wonder what meat without pizza taste likes.&#xd;
+&#xd;
+[proxy] walks to a nearby table and picks up some plates containing some large roasted pork legs.&#xd;
+&#xd;
+Himanka first takes a small bite of the meat, after she tastes how delicious it is she continues eating the roasted pork leg with large bites. [proxy] tries to make some small talk with Himanka but she seems to be in some kind of food trance. She only seems to be interested in the quickly disappearing roasted pork leg. Soon only the bone is left and Himanka gets the next one.&#xd;
+&#xd;
+While [proxy] is enjoying the food, Himanka is rapidly eating roasted pork legs one after the other. Because of Edesia&apos;s blessing Himanka&apos;s stomach is not the only one getting filled with the meat that was once attached to the heap of now empty bones besides her. At the moment [proxy] stomach starts to get really full, Himanka puts another bone on top of the heap and lets a oud belch.&#xd;
+&#xd;
+-That was good. My mother really tried to make my life miserable by forbidding me to eat meat but not anymore. I’m a grown woman now.&#xd;
+&#xd;
+After resting a couple of minutes, Himanka leaves. She has a bit of trouble standing up because of the extra weight present in here stomach. She then slowly walks towards the exit.&#xd;
+&#xd;
+-Come visit me soon, we really need to repeat this.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 50000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 10000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+50));&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/himanka4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_5_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_6_small</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

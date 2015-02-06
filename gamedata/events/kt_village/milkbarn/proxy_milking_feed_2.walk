@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/proxy_milking_feed_2</name>
+  <descr>[proxy] pushes the button for a second time. A few seconds later [proxy] feels the tube moving while a portion of food travels through it. Now prepared for the sudden dump of food, the process is a bit less uncomfortable. With two portions of the heavy food now present in [proxy] stomach, it feels like [heshe] has swallowed a stone.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 5000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 2000);&#xd;
+self.addStat(&quot;breasts.max_lactation&quot;,4);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=2000</conditions>
+  <picturePath>kt_village/milk/milk_normal.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Fill stomach completely </name>
+      <value>kt_village/milkbarn/proxy_milking_feed_end</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

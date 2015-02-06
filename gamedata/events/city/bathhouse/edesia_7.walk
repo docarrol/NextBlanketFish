@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_7</name>
+  <descr>[proxy] finds Edesia stuffing herself with donuts again. The donuts fly to her mouth automatically. It seems Edesia has managed to limit the amount of exercise needed for stuffing herself to chewing and swallowing.&#xd;
+&#xd;
+-Good job [proxy], you managed to change Himanka from a slim health nut to someone who enjoys life to the fullest. She has become the perfect priestess for me. The change of size also seems to have broken the seal her ancestor placed on me completely.  I waited so long to finally be able to do this again.&#xd;
+&#xd;
+Edesia makes a small move with her hand and two dozen donuts float up and go straight for [proxy] mouth. Some strange force opens &lt;%activePartner.HisHer();%&gt; mouth and donut after donut disappears in [proxy] stomach.&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 14400);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 4800);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+&#xd;
+-I really going to have some fun with this, now with for your reward. I think the best reward for you is allowing you to enjoy parties to the fullest.&#xd;
+&#xd;
+Edesia pats her fat stomach a couple of times.&#xd;
+&#xd;
+-would not want to lose any of this so for each blessing I’m going to need 5 kg of your fat, sounds fair to me. I can bless your metabolism if you don&apos;t want to get too much weight from the parties temporary or permanent. I can also boost your processing rate of your stomach if you want to go to the next party quicker.  With my full powers back I also decided to open my shrine for public again.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag( &quot;new_ priestess&quot;,2);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia10.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/exitshrine</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,34 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/kiana_ask_dense</name>
+  <descr>[proxy] approaches Kiana and starts some small talk. At some point during the conversation &lt;%activePartner.HeShe();%&gt; asks about the woman described by Felis.&#xd;
+&#xd;
+-Oh Olivia. I&apos;m sorry can really not talk about that.&#xd;
+&#xd;
+[proxy]: you already told me her name, please tell the rest to.&#xd;
+&#xd;
+-You are a good friend but really can’t. The laws of the village won&apos;t allow me.&#xd;
+&#xd;
+Is there anyone who could tell me more?&#xd;
+&#xd;
+-No. Unless, I’m sure you don’t want.&#xd;
+&#xd;
+What is it Kiana, please tell me.&#xd;
+&#xd;
+-I&apos;m not going to like but let’s see father.</descr>
+  <conditions>GetPerFlag(&quot;dense_breast&quot;)==1</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/shaman_meeting</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

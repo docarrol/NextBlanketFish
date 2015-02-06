@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_end_large</name>
+  <descr>After [proxy] enters the shrine &lt;%activePartner.HeShe();%&gt; and is greeted by an massive Edesia.&#xd;
+It seems the blessings she performed combined with her continues donut eating have had a effect on her body. Edesia&apos;s stomach is so large that is extending far beyond the reach of her legs. [proxy] wonders if she can still move or is stuck on that spot. Edesia&apos;s breasts hang as large bags filled with fat on each side of her stomach.&#xd;
+&#xd;
+ In a far corner of the shrine Himanka is busy stuffing her face with the food surrounding her.&#xd;
+&#xd;
+&#xd;
+-It seems those donuts are a bit too tasty for my own good. As a result my powers are stronger than ever. Here for another blessing? They have become a lot more powerful but they also require more power.&#xd;
+</descr>
+  <conditions>GetFlag(&quot;edesia_blessing&quot;)&gt;10</conditions>
+  <picturePath>bathhouse/edesia11.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Perm boost metabolism (10kg)</name>
+      <value>city/bathhouse/edesia_highmetabperm</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Perm boost digest speed (10kg)</name>
+      <value>city/bathhouse/edesia_highspeedperm</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Temp boost metabolism (10kg)</name>
+      <value>city/bathhouse/edesia_highmetabtemp</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Temp boost digest speed (10kg)</name>
+      <value>city/bathhouse/edesia_highspeedtemp</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Lower metabolism (10kg)</name>
+      <value>city/bathhouse/edesia_highmetablower</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/exitshrine</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

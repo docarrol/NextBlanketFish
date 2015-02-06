@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_breeder_dick_9</name>
+  <descr>[proxy] enters the main room where Elwing receivers her guests. Elwing is sitting on large chair. Before the chair some pillows are located who support Elwing’s mindboggling large balls. Her huge soft dick is laying over one of her legs. [proxy] guesses that if Elwing dick was not supported by her leg, her dick would lay with the top bit on the ground. Above Elwing’s massive dick two decent sized breasts are visible. They are much larger than the breasts she had when she originally met [proxy] but have reduced in size severely after not longer being milked. Elwing’s fat belly has completely disapeard, maybe all the fat has been transformed in sperm that is now stored in her Skippy ball sized balls.&#xd;
+&#xd;
+-Welcome back. Everything is slowly staring to operate as normal again. Most of my body has returned to normal again except my penis and balls. One advantage of this dick, impregnating anyone will be hard. The number of people who can fit this monster of mine are very limited. Except its weight and size during normal movements it brought a completely new problem. Have you ever tried to pee with a dick of more than a meter long.&#xd;
+&#xd;
+Now that everything is settled the least I could do is find some way to repay you. During my primal period I had you drink some potions of mine. I guess you figured already out what the main ingredient of those where. If you want I can make some more of those potions for you. The will be a bit less potent that the potions I made that time. My body is now in a far more stable state. I will have to ask a tiny amount of money for them for some of the ingredients and materials. We are only a small village that is already stretched thin thanks to the baby boom I caused.&#xd;
+&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==11 &amp;&amp; GetPerFlag(&quot;elwing_wait&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>elves/queen14.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy potion</name>
+      <value>forest/elves/elwing_buy_potion</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Have some more cum</name>
+      <value>forest/elves/elwing_eat_end</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/elves/village_center</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

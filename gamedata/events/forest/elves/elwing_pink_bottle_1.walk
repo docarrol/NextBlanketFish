@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_pink_bottle_1</name>
+  <descr>[proxy] decides to drink only a glass of the liquid provided by Elwing. While drinking the content of the glass, [proxy] feels [hisher] vagina become a bit warm. [heshe] inserts a finger in [hisher] vagina and notices that it has become larger than before. Still trying to find out how much larger it has become the assistant comes in. 
+
+-It seems the liquid has had its effect. You are now ready for master.
+
+&lt;% 
+proxy.addStat(&quot;vagina.width&quot;,10);
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_afterpinkbottle_1</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/Belly/smother_3</name>
+  <descr>&lt;% c = proxy &quot;&quot;;%&gt;
+[Proxy] had [target] lay down so &lt;%activePartner.HeShe();%&gt; can prepare to bury  [=target][t-himher] with &lt;%activePartner.HisHer();%&gt; [=proxy][belly]. &lt;%activePartner.HeShe();%&gt; builds up the anticipation by talking about how heavy &lt;%activePartner.HisHer();%&gt; belly is. [proxy] waddles to the edge of the bed and lifts &lt;%activePartner.HisHer();%&gt;  [=proxy][belly] over [target]. [proxy] laughs and drops it on  [=target][t-himher] with a great flopping noise. [proxy] can easily completely cover [target] with &lt;%activePartner.HisHer();%&gt; massive belly.
+&lt;%Include(&quot;sex/calc_smother_belly&quot;); &quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 31.8;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

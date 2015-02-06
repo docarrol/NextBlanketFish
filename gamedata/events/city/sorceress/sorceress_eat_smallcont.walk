@@ -1,0 +1,40 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_eat_smallcont</name>
+  <descr>[proxy] enters the dark shop and does not detect Morgan in the first area again. [proxy] only have to follow the smell to get to the kitchen. Morgan is buzzy again testing more recipes&#xd;
+&#xd;
+-Good you are here; sit there I have more recipes I want to try out.&#xd;
+&#xd;
+Without waiting for your response, Morgan stands up and starts preparing the next dish. It seems she can even use magic for preparing food since the cooking progresses much faster than normally possible. With her belly no longer hidden by the table, [proxy] can now see that it is already slightly swollen. There must already be a decent amount of food present in there.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;morgan_eat&quot;)==2 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()|| GetPerFlag(&quot;morgan_eat&quot;)==3 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_eat.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sit at the table</name>
+      <value>city/sorceress/sorceress_large_eat</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sit at the table</name>
+      <value>city/sorceress/sorceress_med_eat</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sit at the table</name>
+      <value>city/sorceress/sorceress_small_eat</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

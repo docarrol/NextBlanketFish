@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_punishment</name>
+  <descr>[proxy] enters the room where Karin is waiting for [himher]. [proxy] asks how Karin is feeling after her match yesterday.&#xd;
+&#xd;
+-Great, a lot of girls congratulated me and some even talked to me. So far most completely ignored me or treated me as a servant.&#xd;
+&#xd;
+[proxy] and Karin talk a bit more when a girl appears in the door opening. It is time for the main event, you’re up Karin. [proxy] and Karin walk to the main milking area where it is much busier as normal. Tau females of both young and old age are present celebrating the annual milking festival. A large group is waiting for Karin to arrive. In the center of the circle Talia can be seen. At Talia’s feet a old looking box is present. When Karin arrives Mathilda walks to the center of the circle.&#xd;
+&#xd;
+-Based on a milking dual hold yesterday, Talia standing here for you is receiving the milk punishment provided by the yesterdays winner Karin.&#xd;
+&#xd;
+Mathilda then removes the cover of the box and shows a large inflatable but plug with a rubber hose on it. The rubber hose ends in two milking cups. She then puts a good amount of lube on the but plug and shoves it up Talia’s ass. A small pump is used to inflate it so the back door is completely closed and the plug has nowhere to go. The final step is attaching the two milking cups to Karin’s breasts.&#xd;
+&#xd;
+Karin then begins massaging her breasts. Soon a decent stream of milk is entering the milking cups. The rubber hose transport the milks up to Talia’s ass. It seems that taking revenge for all the times Talia humiliated Karin boosts Karin’s milk output because soon the rubber hose has trouble handling all the milk coming from Karin’s nipples. Talia is slowly inflating with milk. Her once flat belly slowly stats to expand because of all the milk pushed in it. Karin meanwhile is still milking her breasts furiously.&#xd;
+&#xd;
+At some point Talia starts crying asking Karin to stop. Her belly is now completely bloated with milk. Talia’s cries snap Karin from her milking frenzy. She looks confused for a moment and looks at [proxy].&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;Talia_quest&quot;)==7 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/bet_res.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Stop</name>
+      <value>kt_village/milkbarn/punishment_stop</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue milking</name>
+      <value>kt_village/milkbarn/punishment_cont</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

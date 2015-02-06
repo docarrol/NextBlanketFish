@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/stomach_training</name>
+  <descr>[proxy] starts prepairing &lt;%activePartner.HisHer();%&gt; meal. Even with all the low calorie stuff that is acording to Vicky disgusting, [proxy] tries &lt;%activePartner.HisHer();%&gt; best to include some flayvor too it. Once all the cooking is finished [proxy] takes place at a table with a couple of large panns with food. Combined with a large pitcher fulled with water too flush the food too the stomach, [proxy] starts eating.&#xd;
+&#xd;
+Even while trying for the best, [proxy] food is rather bland. Spoon after spoon of food disapears in [proxy] tummy. Combined with lots of water to remove some of the drieness of the food, [proxy] belly soons starts too show the result. First a small bump is vissible, over time this bump increases too a belly of decent size.&#xd;
+&#xd;
+&lt;%Include(&quot;base/stom&quot;);%&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</descr>
+  <conditions>HasMoney(100) &amp;&amp; proxy.getStat(&quot;abdomen.food&quot;)&lt;(0.1*proxy.getStat(&quot;abdomen.stomach_volume&quot;))</conditions>
+  <picturePath>base/p_training.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>base/p_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>4</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -2,7 +2,7 @@
   <name>homestreet/in_front_of_home</name>
   <descr>&lt;%activePartner.getName();%&gt; is standing in front of your home, although, now you could probably call it your base. 
 
-You think you are pretty lucky to live in this mansion for free. This is a very expensive neighborhood.
+You think you are pretty lucky to live in this home for free. This is a very expensive neighbourhood.
 &lt;% if (Chance(2))
 	AddButton(&quot;Something on sidewalk&quot;, &quot;homestreet/money_on_street&quot;); 
 &quot;&quot;;
@@ -13,14 +13,27 @@ You think you are pretty lucky to live in this mansion for free. This is a very 
     <fetishmaster.engine.WalkChoice>
       <name>To Up Lane</name>
       <value>city/to_hilltown</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Outskirts</name>
       <value>city/outskirts</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Enter Home</name>
       <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use card to go to hidden village (2h)</name>
+      <value>kt_village/milkbarn/forrest_walk_village</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Test</name>
+      <value>homestreet/test</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -28,5 +41,5 @@ You think you are pretty lucky to live in this mansion for free. This is a very 
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,51 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_new</name>
+  <descr>With the directions of Edesia Himaka&apos;s house is not hard to find. [proxy] rings the bell and an cute woman opens the door. Her breasts are rather large for her tiny waist.&#xd;
+&#xd;
+-Hello, what do you want?&#xd;
+&#xd;
+[proxy] explains Himaka that &lt;%activePartner.HeShe();%&gt; would like to bring her to a party.&#xd;
+&#xd;
+-A party, mom always told me to never go to parties. They are not healthy.&#xd;
+&#xd;
+[proxy] promises that this is a very quiet and healthy party so no harm could possibly be done.&#xd;
+&#xd;
+-Oke, show me the way.&#xd;
+&#xd;
+Well that went rather easy, with Himaka in tow [proxy] walks to Edesia&apos;s shrine.&#xd;
+&#xd;
+-Are you sure a party is here?&#xd;
+&#xd;
+Yes, just wait and you will see. The doors of the shrine are already open so [proxy] and Himaka can walk right in.&#xd;
+&#xd;
+The decor of the shrine has changed a lot. It looks more like a high class restaurant with only a couple of tables. Near one of the tables a large salad bar is present. Himaka walks straight to that table and sits down. Soon Himaka and [proxy] are both eating a plate filled with salads. [proxy] asked Himaka if she did not like to eat anything else but her mother forbid her to eat anything more than one salad palate.&#xd;
+The feeling of the salad both eaten by [proxy] and Himaka arriving in [proxy] stomach feels a bit strange at first but soon becomes rather pleasant. Himaka meanwhile does not seem to notice her stomach is filling at double the normal rate. Once both of you finnises thier plates, you keep talking for a bit. [proxy] focuses her mind completly at ice cream and than asks of Himaka wants a some ice cream.&#xd;
+&#xd;
+-I realy shoudn&apos;t but this one time it might just do it. I can&apos;t remeber how long ago it was my mother allowed me too eat ice cream, i must have forgoten the tast already.&#xd;
+&#xd;
+[proxy] get for both an large cone of ice cream. Durring some more small talk Himanka eats hers competly. Once you both done those Himaka tells you she really needs to leave. As she stands up you try to see any effect on her stomach but her waist is still as small as earlier.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 4000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 2000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,4);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;himanka_eaten&quot;)&lt;1 &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=2000 &amp;&amp; GetPerFlag(&quot;edesia&quot;)==4;</conditions>
+  <picturePath>bathhouse/himanka1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_5</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

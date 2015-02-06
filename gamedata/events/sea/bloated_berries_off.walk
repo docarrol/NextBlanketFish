@@ -1,0 +1,16 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/bloated_berries_off</name>
+  <descr>All bloated berries on the beach have washed away and the current wind direction prevents any new berries washing on the beach.&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bloated_berries_active&quot;,0);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>sea/beach.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

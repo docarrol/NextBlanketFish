@@ -14,9 +14,12 @@
     <double>38.1</double>
     <double>44.5</double>
     <double>50.8</double>
-    <double>59.2</double>
-    <double>70.1</double>
+    <double>300.0</double>
+    <double>60.0</double>
+    <double>80.0</double>
     <double>100.0</double>
+    <double>150.0</double>
+    <double>200.0</double>
   </min>
   <max>
     <double>1.3</double>
@@ -31,10 +34,13 @@
     <double>38.1</double>
     <double>44.5</double>
     <double>50.8</double>
-    <double>59.2</double>
-    <double>70.1</double>
-    <double>100.0</double>
+    <double>60.0</double>
     <double>9999.0</double>
+    <double>80.0</double>
+    <double>100.0</double>
+    <double>150.0</double>
+    <double>200.0</double>
+    <double>300.0</double>
   </max>
   <descr>
     <string>flat</string>
@@ -43,15 +49,18 @@
     <string>obviously bulging</string>
     <string>cradleable</string>
     <string>greatly protruding</string>
-    <string>full term</string>
-    <string>swollen with twins</string>
-    <string>swollen with triplets</string>
-    <string>excessively large</string>
+    <string>beachball sized</string>
+    <string>lap filling</string>
+    <string>lap overflowing</string>
+    <string>excersie-ball sized</string>
     <string>doorway-crowding</string>
-    <string>exercise ball-sized</string>
-    <string>massively inflated</string>
-    <string>gigantic person-sized</string>
-    <string>breeding factory</string>
-    <string>supersized, ridiculously inflated</string>
+    <string>person sized</string>
+    <string>furniture sized</string>
+    <string>Ridiculously huge</string>
+    <string>wheelbarrow overflowing</string>
+    <string>Bed filling</string>
+    <string>hallway filling</string>
+    <string>car sized</string>
+    <string>SUV sized</string>
   </descr>
 </fetishmaster.components.ValueTextDescriptor>

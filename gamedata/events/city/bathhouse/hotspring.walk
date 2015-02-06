@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/hotspring</name>
+  <descr>In the hot spring a group of woman is enjoying themselves.&#xd;
+&#xd;
+[proxy] notices a small shrine in the corner of the hot spring area.</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)&gt;=3</conditions>
+  <picturePath>bathhouse/hotspring.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use hot spring</name>
+      <value>city/bathhouse/use_hotspring</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit shrine</name>
+      <value>city/bathhouse/entershrine</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

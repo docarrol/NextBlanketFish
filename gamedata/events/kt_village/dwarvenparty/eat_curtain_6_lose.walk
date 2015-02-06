@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_6_lose</name>
+  <descr>-Wrong, food of this caliber cannot be described by one word. The shortest way to describe such perfection is: perfect chocolate with rich cream combined food of the gods. Because you lost you have the owner to taste this food for yourself and get your mind blown.&#xd;
+&#xd;
+A large scale of éclairs are brought in, the look a bit familiar. A bit later and [proxy] is sure, this are Vicky’s éclairs, how did they end up here.&#xd;
+&#xd;
+-You know the person who made this foods of the gods, you must be blessed.&#xd;
+&#xd;
+The rest of the time is filled with [proxy] eating the stack of éclairs from the scale while being bombarded by questions about Vicky. When the gong sound, [proxy] leaves to the next curtain, sure to eat no more éclairs in the near future.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 40000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;, GetPerFlag(&quot;dwarfparty_eat&quot;)+1);&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf6.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

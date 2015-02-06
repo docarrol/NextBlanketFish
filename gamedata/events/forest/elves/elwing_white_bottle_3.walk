@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_white_bottle_3</name>
+  <descr>[proxy] decides to drink the entire bottle. The bottle is rather large and contains around 1.5 liter of the milky white liquid. The liquid taste a bit like sperm mixed with some herbs. When [proxy] has drunken around half the bottle, [hisher] balls start to feel a bit warm. [proxy] ignores the feeling and continues drinking the rest of the bottle. [hisher] balls go from a bit warm to feeling like burning. [proxy] balls start producing sperm add an incredible rate. It does not take long for [proxy] balls and pouch too completely fill up with sperm. [hisher] balls however show no signs of slowing down. [proxy] feels how the pressure in [hisher] balls and pouch becomes unbearable. Before [hisher] eyes [hisher] balls increase in size to try to store all the cum [hisher] balls are producing but it is just too much. &#xd;
+&#xd;
+[proxy] releases the first massive blast of cum from [hisher] penis. After the first blast the floodgates are open and wave after wave of cum leaves [proxy] penis. Soon a large puddle of cum is collecting in front of [proxy]. The pressure in [proxy] balls and pouch has only been slightly reduced by the continues coming of [proxy]. To store the large quantity of cum [proxy] balls are still rapidly producing, they continue to grow in size. [proxy] can also feel [hisher] pouch increasing in size to store more cum&#xd;
+&#xd;
+At that moment the assistant walks in.&#xd;
+&#xd;
+-Interesting choice to drink the entire bottle. Quickly follow me I will take you to Elwing. Please try to keep the mess in the hallways to a minimum. Elwing is currently claiming most of the time of the cleaners.&#xd;
+&#xd;
+[proxy] lets out another massive blast of cum and then quickly follows the assistant trying to avoid cumming more on the floor.&#xd;
+&#xd;
+&lt;% &#xd;
+self.setStat(&quot;pouch.max_volume&quot;,(2*self.getStat(&quot;pouch.max_volume&quot;)));&#xd;
+self.setStat(&quot;balls.size&quot;,(2.5*self.getStat(&quot;balls.size&quot;)));&#xd;
+self.setStat(&quot;balls.sperm_volume&quot;,self.getStat(&quot;balls.max_volume&quot;));&#xd;
+self.setStat(&quot;pouch.sperm_volume&quot;,self.getStat(&quot;pouch.max_volume&quot;));&#xd;
+self.setStat(&quot;balls.prod_rate&quot;,(2*self.getStat(&quot;balls.prod_rate&quot;)));&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_afterwhitebottle_2</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

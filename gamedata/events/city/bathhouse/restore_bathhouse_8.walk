@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/restore_bathhouse_8</name>
+  <descr>[proxy] asks Vulpsia why the new massage area is not open yet.&#xd;
+&#xd;
+-Those tables do not massage customers themselves; we need someone to operate them. I think it is best to start with only one employee, if the massaging becomes a success we can always hire more.&#xd;
+For the massaging I think we need someone with strength to loosen even the tensest muscle. You could look at the beach; swimsuits should provide a good view of someone’s body.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,14);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==13</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartfourclose</name>
+  <descr>[proxy] finished the first halve of the éclair but is now starting to struggle. &lt;%activePartner.HisHer();%&gt; eating speed slows down and at a certain moment [proxy] just has to give up.&#xd;
+&#xd;
+When passing Vicky she tells&#xd;
+&#xd;
+-You did your best, next time you can do it.</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&lt;5000</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

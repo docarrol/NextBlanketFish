@@ -1,0 +1,18 @@
+<fetishmaster.items.Item>
+  <name>Very white potion</name>
+  <descr>A very white potion produced by Elwing</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.setRNAactive(&quot;breasts.lact_rate&quot;, true);&#xd;
+self.addStat(&quot;breasts.size&quot;, (0.1*self.getStat(&quot;breasts.size&quot;)));&#xd;
+self.addStat(&quot;breasts.max_lactation&quot;, (0.05*self.getStat(&quot;breasts.max_lactation&quot;)));&#xd;
+self.setStat(&quot;breasts.lact_rate&quot;,(0.1*self.getStat(&quot;breasts.max_lactation&quot;)));&#xd;
+self.setStat(&quot;breasts.milk_volume&quot;,self.getStat(&quot;breasts.max_volume&quot;));</useScript>
+  <useText>After drinking the potion, &lt;%self.getName();%&gt; breasts feel warm and start producing milk at a incredible rate till they are full. They stay a bit large and more active when the potion wears off.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>100</value>
+  <sellValue>10</sellValue>
+  <weight>0.5</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

@@ -1,0 +1,54 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/princess_bedroom</name>
+  <descr>[proxy] enters Cadha’s bedroom. The room is dominated by literally a princess sized bed. Since their stomach are not full this time, both Cadha and [proxy] undress them self.&#xd;
+&#xd;
+Now Cadha is naked without a belly filled with the extreme amount of food like the first time, [proxy] can have a good look at her body. She has a thick layer of fat all over with large breasts. Between her legs a penis is visible. Now the penis is not hidden by view by her belly, [proxy] can see how large it actually is. It is so thick that it won’t even completely fit in Cadha’s massive hands. [proxy] estimates that it has the same thickness as an average persons leg, it’s a real monster.&#xd;
+&#xd;
+Cadha notices [proxy] looking at her penis and tries to hide it with her hands, what is impossible because of the size of it.&#xd;
+&#xd;
+-Not only do I have this crazy thing, it is also so large. All the servants are surprised when they see it the first time, I’m really a freak of nature.&#xd;
+&#xd;
+[proxy] tries to comfort her that it is indeed large but that it is not her fault.  The sight of Cacha’s naked body [proxy] a bit horny. What is [heshe] going to do.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Provide BJ</name>
+      <value>kt_village/dwarvenparty/princess_bj</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Fuck her</name>
+      <value>kt_village/dwarvenparty/princess_fuck</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Let her fuck you</name>
+      <value>kt_village/dwarvenparty/princess_catch</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sex with food</name>
+      <value>kt_village/dwarvenparty/princess_eatfuck</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Sister joins</name>
+      <value>kt_village/dwarvenparty/princess_sister</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>
