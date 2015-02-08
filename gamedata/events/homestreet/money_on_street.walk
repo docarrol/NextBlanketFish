@@ -5,11 +5,16 @@ AddItem(&quot;coin&quot;, count); &quot;&quot;;%&gt;
 You find a small pouch containing money on the street. Inside it are &lt;%(Integer) count;%&gt; coins. Lucky!</descr>
   <conditions>1;</conditions>
   <picturePath>home_outside.jpg</picturePath>
-  <choices/>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>homestreet/in_front_of_home</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
   <defaultNext>Event</defaultNext>
   <time>1</time>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>
