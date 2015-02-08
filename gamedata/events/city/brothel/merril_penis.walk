@@ -1,12 +1,12 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/merril_penis</name>
-  <descr>&lt;%Include(&quot;char/merril_init&quot;); c=proxy; &quot;&quot;;%&gt;[Proxy] looks over Merril one more time. She clearly very ready, no foreplay needed. &lt;%Include(&quot;brothel/merrils_scene_arousal&quot;);%&gt;&#xd;
+  <descr>&lt;%Include(&quot;char/merril_init&quot;); c=proxy; &quot;&quot;;%&gt;[Proxy] oversee Merril one more time. She clearly very ready, no any prelude needed for her. &lt;%Include(&quot;brothel/merrils_scene_arousal&quot;);%&gt;&#xd;
 &#xd;
-With current size of Merrils cock and balls missionary position is out of question. [Proxy] gently pulls Merril to her knees and elbows, and then puts hands on her hips to fixate her trembling form. With single quick motion [proxy] inserts [hisher] [penis] inside, and begins pistoning.&#xd;
+With current size of Merril cock and balls missionary position is out of question. [Proxy] gently pull Merril to the knees and elbows, and than put hand on the hips to fixate her form the trembling. With single quick motion [proxy] insert [hisher] [penis] inside, and begins [hisher] motions.&#xd;
 &#xd;
-Merrils vagina responds with series of the convulsive contractions that raise [proxy]s arousal even more. And Merril seems to be on the verge too. They cum together!&#xd;
+Merril vagina respond with series of the convulsive contractions that raise [proxy] arousal even more. And Merril seems to be on the verge too. They cum together!&#xd;
 &#xd;
-Powerful torrents of cum shoot out from Merrils dick, covering sheets, floor, and even wall in front of her. Belly of nekomata starts to shrink, and [proxy] realizes that she is not pregnant. She just had a very full pouch! But [proxy]&apos;s own orgasm quickly attracts [hisher] attention. &lt;%&#xd;
+Powerful torrents of cum shots out from the Merril dick, covering sheets, floor, and even wall in front of her. Belly of nekomata start so shrink, and [proxy] realizes that she is not pregnant. She just been have very full pouch! But [proxy]&apos;s own orgasm quickly distract [himher] for [hisher] own feeling. &lt;%&#xd;
 act = proxy.doAction(&quot;orgasm&quot;);&#xd;
 vol = act.get(&quot;penis&quot;, &quot;cum&quot;);&#xd;
 InjectSperm(proxy, merril, vol);&#xd;
@@ -24,6 +24,7 @@ merril.setStat(&quot;generic.arousal&quot;, 0); &quot;&quot;;%&gt;&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/brothel/merril_scene_final</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -31,6 +32,6 @@ merril.setStat(&quot;generic.arousal&quot;, 0); &quot;&quot;;%&gt;&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

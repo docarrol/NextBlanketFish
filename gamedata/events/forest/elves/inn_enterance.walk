@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/inn_enterance</name>
+  <descr>[proxy] enters the inn and soon spots the owner. It is a female elf who is clearly sporting a rather large dick. [proxy] approaches the elf to order something.</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/barkeep.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Rest</name>
+      <value>forest/elves/inn_sleep</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/elves/village_center</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

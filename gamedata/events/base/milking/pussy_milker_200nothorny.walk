@@ -2,12 +2,13 @@
   <name>base/milking/pussy_milker_200nothorny</name>
   <descr>&lt;%self.getName()%&gt; isn&apos;t horny enough to use the device!.
 </descr>
-  <conditions>activePartner.getRNAValue(&quot;generic.arousal&quot;) &lt; 75 &amp;&amp; GetFlag(&quot;neferi_pussy_pump&quot;) == 1 &amp;&amp; activePartner.hasOrgan(&quot;vagina&quot;);</conditions>
+  <conditions>activePartner.getRNAValue(&quot;generic.arousal&quot;) &lt; 75 &amp;&amp; GetFlag(&quot;neferi_pussy_pump&quot;) == 1;</conditions>
   <picturePath>base/sex_room.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Return</name>
       <value>base/s_training</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -15,6 +16,6 @@
   <priority>2</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

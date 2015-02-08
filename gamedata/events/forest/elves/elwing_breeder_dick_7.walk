@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_breeder_dick_7</name>
+  <descr>[proxy] is greeted by the normal assistant of Elwing. [proxy] takes a good look at her. No visual effects are visible from her pregnancy, she does not even have larger breasts to provide milk for her babies.&#xd;
+&#xd;
+-The elder has asked me to prepare you for her. Please follow me.&#xd;
+&#xd;
+[proxy] thinks, another of those strange liquids from her. Well at least she will not knock [proxy] up again since her dick is now far too big for that. Unless she managed to shrink it or made some potion that allows [proxy] vagina to stretch out so far that [heshe] can fit the entire thing. The assistance guides [proxy] to the same room as last time. On a table a large bottle is standing containing a very white liquid.&#xd;
+&#xd;
+-She wants you to help her feed the small ones. &#xd;
+&#xd;
+She point at her own same sized breasts.&#xd;
+&#xd;
+-A lot of elfs are unable to feed their baby’s. Our wise and great elder has sacrificed herself to take care of it.&#xd;
+&#xd;
+The assistant then leaves. The bottle contains a liquid that will help [proxy] produce milk. [proxy] can either go safe with drinking a single glass or drink the entire bottle.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==9 &amp;&amp; GetPerFlag(&quot;elwing_wait&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Drink only a glass</name>
+      <value>forest/elves/elwing_vwhite_bottle_1</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Drink bottle</name>
+      <value>forest/elves/elwing_vwhite_bottle_2</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -10,22 +10,27 @@
     <fetishmaster.engine.WalkChoice>
       <name>500 cc (500 coins).</name>
       <value>city/hospital/genki/implants_500</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>1000 cc. (800 coins)</name>
       <value>city/hospital/genki/implants_1000</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>1500 cc. (1000 coins)</name>
       <value>city/hospital/genki/implants_1500</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
-      <name>Filling implants (5000 coins)</name>
+      <name>Filling implants. (2000 coins)</name>
       <value>city/hospital/genki/implants_custom</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Nevermind</name>
       <value>city/hospital/genki/r_to_cabinet</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -33,6 +38,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

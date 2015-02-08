@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/village_center</name>
+  <descr>[proxy] removes the blindfold and walks the last bit to the small village under the massive tree.</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/city_center.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit tree</name>
+      <value>forest/elves/tree_waiting</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>forest/elves/walk_back</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit inn</name>
+      <value>forest/elves/inn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartfoursmall</name>
+  <descr>[proxy] picks up the massive éclair but at some point just has to stop eating. &lt;%activePartner.HisHer();%&gt; stomach is more than full.&#xd;
+&#xd;
+While leaving, [proxy] is approached by Vicky&#xd;
+&#xd;
+-Your stomach has just a bit too little capacity to compete with the pro&apos;s. Nothing a little training can&apos;t fix.</descr>
+  <conditions>proxy.getStat(&quot;abdomen.stomach_volume&quot;)&lt;7500</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

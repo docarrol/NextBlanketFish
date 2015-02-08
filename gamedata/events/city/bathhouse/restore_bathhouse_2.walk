@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/restore_bathhouse_2</name>
+  <descr>With the baths now restores [proxy] asks Vulpsia what to improve next.&#xd;
+&#xd;
+-Customers now only come to clean themselves. We also want them to come to relax and enjoy. The next logical step is to reopen the hot springs. While exploring this pace I came upon some documents about some misterious properties of the natural hot springs behind this bathhouse. According to a scroll, the water in the hot springs improves the digestion of its users. The previous owners did not do anything with this unique opportunity. &#xd;
+&#xd;
+Rebuilding the hot spring will require 2000 coins. We need to remove the rubbish and vegetation, restore the surroundings, you know the drill.</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==2</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pay 2000 for hotsprings</name>
+      <value>city/bathhouse/buildtwo</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

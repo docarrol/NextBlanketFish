@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/merril_request_craft</name>
-  <descr>[Proxy] hands the Dr.Genki the ingredients and after about an hour he returns with the item, handing it to [Proxy].
+  <descr>[Proxy] hands the Dr.Genki the ingredients and after about an hour he returns with the item, handing it to you.
 
 
 &lt;%
@@ -16,5 +16,5 @@ AddItem(&quot;b_grow&quot;); &quot;&quot;;%&gt;
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

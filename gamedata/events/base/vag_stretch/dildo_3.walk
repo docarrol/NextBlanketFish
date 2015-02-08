@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/vag_stretch/dildo_3</name>
-  <descr>[proxy] spends a full hour playing with dildo. It&apos;s seems that [hisher] [vagina] is so loose that dildo just falls out of [himher] if [heshe] releases it from [hisher] hand.&#xd;
+  <descr>[=proxy]A full hour [proxy] spend playing with dildo. It&apos;s seems that [hisher] [vagina] can be so loose that dildo just fall out of [himher] if [heshe] release it from the hand.&#xd;
 &#xd;
 &lt;%LustShame(10, 35); &quot;&quot;;%&gt;</descr>
   <conditions>proxy.getStat(&quot;vagina.width&quot;) &gt; 8;</conditions>
@@ -11,6 +11,6 @@
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

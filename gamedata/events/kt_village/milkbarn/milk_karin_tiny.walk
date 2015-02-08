@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/milk_karin_tiny</name>
+  <descr>[proxy] tells Karin that she should be milked. Karin guides [proxy] to a backroom where a small milking machine is located. [proxy] helps attaching the suction cups to Karin’s small breasts and soon a small stream of milk leaves them.&#xd;
+&#xd;
+The milk is collected in a cup in the machine. Once Karin is finished milking the result is barely a cup. Although Karin produced only a small bit of milk, she still eats a bit of the milk girl’s food mix.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)+2));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)+50));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/milk_tiny_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_1_lose</name>
+  <descr>Being unfamiliar with using a slingshot, [proxy] is already happy that [heshe] managed to hit the target. Domari has no trouble shooting closer to the center than [proxy]. &#xd;
+-Nobody can beat an expert like me. Now for your meal: Albino earth pig roasted on at least 1000 year old dirata trees, with a single piece truffle.&#xd;
+&#xd;
+[proxy] starts eating the pig and manages to finish just in time for the gong to ring again.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 25000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;, GetPerFlag(&quot;dwarfparty_eat&quot;)+1);&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

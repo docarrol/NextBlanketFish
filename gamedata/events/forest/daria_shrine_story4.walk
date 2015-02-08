@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/daria_shrine_story4</name>
-  <descr>- What I need are followers, though not just ordinary ones. Regular priests need initiations with their god&apos;s power. And as weak as I am now, it is impossible. What, or more properly, who I need, is a miko, natively trained priests and priestess of my cult. They need to be raised from a very early age to have their own power compatible with mine, and only miko with their own powers will be able to resurrect my religion.
+  <descr>- What I need are followers, though not just ordinary ones. Regular priests need initiations with their god&apos;s power. And as weak as I am now, it is impossible. What, or more properly, who I need, is a miko, natively trained priests and priestess of my cult. They need to be raised from a very early age to have their own power compatible with mine, and only miko with their own powers will be able to resurrect my cult.
 
 Daria looks at you, the edges of her eyes seeming to softly glow.
 
--As for what you need, I lack the power to see clearly into your future, but one thing does look clear to me. The possibility to raise children quickly could be very useful to you. I can give this boon to you. With my blessing children can grow fast and become adults in just a few months. But this ritual requires much power from me, almost too much in my weakened state. But I&apos;ll do it for you, as a trade for what I need.
+- What you need, I can not see in your hazed future, as I do not have enough power. But one thing does look clear to me. The possibility to raise children quickly can be very useful to you. I can give this boon to you. With my blessing kids can grow fast and become adults in a few months. But this ritual requires much power from me, almost to exhaustion in my weakened state. But I&apos;ll do it for you, as a trade for what I need.
 
 The goddess looks through [proxy] and speaks directly into your mind.
 
@@ -24,6 +24,7 @@ SetFlag(&quot;daria_pendant&quot;,1);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>forest/mirkwood</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -31,6 +32,6 @@ SetFlag(&quot;daria_pendant&quot;,1);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/mathilda_talk_thirdmachine</name>
+  <descr>[proxy] notices that Mathilda is free for a moment and approaches her. Maybe she can share some tips. They talk for a bit on how Karin’s training is progressing and how Karin has improved from being flat to beating Talia.&#xd;
+&#xd;
+-If you are interested, I have another machine that can help Karin with her training. The machine was largely designed by me based on the other machines in my collection. I only had enough money to build it once I was running this company. I was going to use it at least once myself, but I can’t.  Since Karin has already used the other two machines, I hope she also wants to test this last machine for me. I really wishes to know if and how well it works.&#xd;
+&#xd;
+[proxy] tells Mathilda that [heshe] cannot make this decision for Karin. Together they walk to the room where Karin is waiting in. Mathilda briefly explains what she previously discussed with [proxy] to Karin. Karin immediately agrees since Mathilda has already helped her so much. Together they walk to Mathilda’s private area again behind the milking machines.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;milkbarn_mach&quot;)==2 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/intro_machine_third</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/wake_up_later</name>
-  <descr>[Proxy]&apos;s eyes slowly opens as [she] awakens some time later. Looking around, [she] tries to get [her] bearings then suddenly remembers where [she] is. [She] quickly feels around [her] body, both of you wanting to see what Dr. Genki did to her. [proxy] doesn&apos;t find anything unusual, but she does feel some soreness in her vagina and womb. At this moment Dr. Genki enters the room.
+  <descr>[Proxy]&apos;s eyes slowly opens as [she] awakens some time later. Looking around, [she] tries to get her bearings then suddenly remembers where [she] is at. [She] quickly feels around [her] body, both of you wanting to see what Dr. Genki did to her. [proxy] doesn&apos;t find anything unusual, but she does feel some soreness in her cunt and womb. At this moment Dr. Genki enters the room.
 
 - Ah [proxy], you are already awake.
 
@@ -9,9 +9,7 @@
 - That would be telling. Return here in a couple of days for an exam. We will find out then if the experiment is a success. Until then you are free to leave.
 
 With that Dr. Genki turns around and leaves. [proxy] sits there for a moment, staring blankly at the empty doorway, wondering what [she] has gotten [her]self into. Gently sighing, [she] climbs out of the bed, finds her clothes, and promptly dresses before quickly heading for the exit.
-&lt;%proxy.loadOrgan(&quot;tmp_uterus_implant&quot;);
-proxy.setStat(&quot;preg_implant.max_volume&quot;, 3000);
-proxy.setRNAactive(&quot;preg_implant.growing&quot;, true);
+&lt;%proxy.loadEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant&quot;); 
 SetPerFlag(&quot;genki_quest&quot;, 1);
 SetPerFlag(&quot;genki_last_visit&quot;, clock.getAHours());
 AllowDisconnect();
@@ -26,6 +24,6 @@ AllowDisconnect();
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

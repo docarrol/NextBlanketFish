@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/masturbation/vagina_play_2</name>
-  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;Lying on &lt;%activePartner.HisHer();%&gt; [belly], &lt;%activePartner.getName();%&gt; instinctively placed both hands between &lt;%activePartner.HisHer();%&gt; legs and pushed against [hisher] crotch. &lt;%@activePartner.HeShe();%&gt; felt a delicious rush of naughty pleasure emanating from between &lt;%activePartner.HisHer();%&gt; legs.
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;Lying on &lt;%activePartner.HisHer();%&gt; [belly], &lt;%activePartner.getName();%&gt; instinctively placed both hands between &lt;%activePartner.HisHer();%&gt; legs and pushed against the crotch. &lt;%@activePartner.HeShe();%&gt; felt a delicious rush of naughty pleasure emanating from between &lt;%activePartner.HisHer();%&gt; legs.
 
 The &lt;%IncludeRange((int)proxy.getStat(&quot;generic.haircolor&quot;), &quot;colors&quot;);%&gt;-haired &lt;%
 sex = &quot;creature&quot;;
@@ -25,6 +25,6 @@ proxy.addStat(&quot;skill.striptease&quot;, 1);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

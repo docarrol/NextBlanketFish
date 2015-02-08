@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/research_get_pill</name>
-  <descr>[Proxy] takes one pill from the case. There are so many, surely no one will notice one missing. [HeShe] carefully leaves the lab before anyone arrives.
+  <descr>[Proxy] takes one pill from the case. In such chaos, surely no one will notice. [HeShe] carefully leaves the lab before anyone arrives.
 
 &lt;%
 AddItem(&quot;lac_unknown_pill&quot;);
@@ -16,6 +16,6 @@ SetPerFlag(&quot;get_unknown_pill&quot;, 1);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,43 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/girl_lotion_bottom_belly</name>
+  <descr>-You&apos;re the best!
+
+-I can roll onto my side so you can get access to it
+
+She tries to lift her belly to push it to her side but struggles to get any grip on her now slippery lotioned belly. She doesn&apos;t look botyher by it though; rather she looks excited by it.
+
+-Can you help me lift my belly over?
+
+&lt;%Include(&quot;lift_belly&quot;);%&gt;
+
+-Put the lotion on the bottom hehehe
+
+[Proxy] obliges and begins to rub lotion onto the botton of her belly. The girl gets more and more excited as she rubs giving moans of sexual pleasure.
+
+-Oh! More!...Rub my belly...Grab it! shake it! Slap it
+
+&lt;%MoodShame(15);
+proxy.addStat(&quot;skill.massage&quot;,1); 
+&quot;&quot;;%&gt;
+&lt;%proxy.addStat(&quot;skill.desireforfat&quot;,1); &quot;&quot;;%&gt;
+
+</descr>
+  <conditions>ShameCheck(40) == 0;</conditions>
+  <picturePath>cm___elven_fertility_priestess_neru_by_marrazan-d6v737e.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about something else</name>
+      <value>sea/hub_belly_girl</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>sea/beach</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

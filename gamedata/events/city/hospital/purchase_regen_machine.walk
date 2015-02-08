@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/purchase_regen_machine</name>
+  <descr>[Proxy] tells the doctor that &lt;%activePartner.HeShe();%&gt; wants to purchase a regeneration machine.
+
+Really? well it&apos;s not cheap. I can get you a wholesale discount because we&apos;re a medical facility but with instalation and the cost of the device it will run you about $500,000.
+
+Is that really what you want?</descr>
+  <conditions>GetFlag(&quot;setup_regen_room&quot;) &lt; 1 &amp;&amp; GetFlag(&quot;regen_machine_know&quot;) &gt;= 1;</conditions>
+  <picturePath>city/hospital/doctor_tw.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Nevermind</name>
+      <value>city/hospital/treatment_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Purchase device</name>
+      <value>city/hospital/purchase_confirm</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

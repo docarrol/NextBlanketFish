@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/blacksmith_buybra</name>
+  <descr>Thovila disappears in a back room and soon returns with a complicated looking bra.&#xd;
+&#xd;
+-Because of the variation in sizes I made one that would fit all.&#xd;
+&#xd;
+She then continues by showing how [proxy] can tweak each part of the bra to fit &lt;%activePartner.HisHer();%&gt; perfectly.&#xd;
+&#xd;
+-Good luck and come back soon. Bring an interesting project with you next time.&#xd;
+&#xd;
+&lt;%&#xd;
+RemoveMoney(500); &#xd;
+SetPerFlag(&quot;support_bra&quot;,1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(500) &amp;&amp; GetPerFlag(&quot;support_bra&quot;)&lt;1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

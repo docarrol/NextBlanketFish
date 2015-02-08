@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/felis/quest_task_1</name>
-  <descr>- I currently have someone from the farm assisting me with a study involving lactation. If I am correct, she may be unable to return to the labs to help me complete it. Can you please check on her to insure she is well and if she is unable to return here, to obtain a lactic sample from her?
+  <descr>- I currently have someone from the farm assisting me with a study involving lactation. If I am correct, she may be unable to return to the labs to help me complete it. Can you please check on her to insure she is well and if she is unable to return here, may you then obtain a lactic sample from her?
 
 Dr. Felis picks up a vial from the table she is working at and hands it to [proxy] who walks over to take it then puts it into [hisher] travel satchel.
 
-- When you arrive at the farm, look for a girl named Belanika. I must warn you that she has a rather... unusual appearance. If you are going to collect a sample, just tell her that it is for me and you should not have any trouble.
+- When you arrive at the farm, search for a girl named Belanika. I must warn you that she has a rather... unusual appearance. If you are going to collect a sample, just tell her that it is for me and you should not have any trouble.
 
 &lt;%SetPerFlag(&quot;felis_quest&quot;, 1);
  &quot;&quot;;%&gt;
@@ -15,6 +15,7 @@ Dr. Felis picks up a vial from the table she is working at and hands it to [prox
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -22,6 +23,6 @@ Dr. Felis picks up a vial from the table she is working at and hands it to [prox
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

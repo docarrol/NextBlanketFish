@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/punishment_cont_high</name>
+  <descr>[proxy] tells Karin to continue. Karin continues milking with a large smile on her face. Payback for all the times Talia made her suffer is sweat. Not much later the milk cups located at Karin’s breasts are no longer emptied by gravity. Talia is really starting to get full of milk. When Mathilda notices this she tells Karin to stop for a bit. Mathilda gets a small hand pump from the box that she inserts in the rubber hose.&#xd;
+&#xd;
+-I did not expect needing the hand pump, you should try to be a bit more friendly to other Talia, that would have prevented this.&#xd;
+&#xd;
+Mathilda then starts pumping the milk from the breast cups. Because of the extra suction provided by the pump it is even easier for Karin to get the remaining milk from her breasts. When Karin’s breasts are nearly empty she hears a some noise from Talia.&#xd;
+&#xd;
+Because of all the milk that is now forced inside Talia with a pump, she has now a full term belly. The milk must have been pushed through her entire body in her stomach because she threw some milk up. An older tau lady with absolutely massive breasts walks to Talia.&#xd;
+&#xd;
+-How dares a daughter of mine spoil our family name. I already heard of your despicable behavior, now you should suffer the consequences.&#xd;
+&#xd;
+She then picks her daughters head and shoves one of her large nipples inside Talia’s mouth. Judging by the movement of Talia’s throat, her mother is now also pumping milk inside Talia’s stomach. Confused by what just happened Karin starts milking herself again. When Karin’s breasts are completely empty Talia’s belly has increased to a size of two to three full term babies inside. Talia’s mum must have also dumped a large quantity of milk inside Talia. When Talia’s mum notices Karin stopped milking she also removes her breast from Talia’s face. Small drips of milk fall from her large nipple.&#xd;
+&#xd;
+Talia meanwhile struggles with keeping the huge quantity of milk inside. Every move she makes results in a wave traveling through her milk filled body. Mathilda walks to Talia with a huge smile on her face. She rotates a valve at the entrance of the butt plug and removes the rubber hose. Talia has to lie around for the rest of the day with her huge milk tummy.&#xd;
+&#xd;
+Tired but fulfilled Karin thanks Mathilda and [proxy] for the help on getting back on Talia. Tomorrow they have to visit the shaman again to restore [proxy] breasts.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;Talia_quest&quot;,8);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/bet_res.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

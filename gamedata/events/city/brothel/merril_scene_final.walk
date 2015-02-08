@@ -2,7 +2,7 @@
   <name>city/brothel/merril_scene_final</name>
   <descr>After [proxy] and Merril calm down, Merril begins to speak.&#xd;
 &#xd;
-- Wow! This was intense. Not many peoples allow me to be active partner, they are usually afraid of my endowments. Not that I can complain, they have a good reason as you can see. But sometimes I&apos;m so horny that she don&apos;t even let me work here. Even on the taking side! Neferi takes precautions. Just because one time my self control slipped a little! Thank you for helping me. If you like, come to my house sometime, and we can play more.&#xd;
+- Wow! This is intense. Not many peoples allow me to be active partner, they usually afraid of my endowments. Not that I can complain, they have a good reason as you can see. But sometimes I just in so intense needs that even here I do not allowed to serve. Even as receiver side! Neferi take cautions. Just from one time of my little slip of self control! Thank you for helping me. If you like, come to my house sometime, and we can play more.&#xd;
 &#xd;
 She give [proxy] her address in the Red Light District. Pretty obvious that nekomata not feel any discomfort about her body or abandon it long time ago.&#xd;
 &lt;% SetPerFlag(&quot;merril_home&quot;, 1); &quot;&quot;;%&gt;</descr>
@@ -14,6 +14,6 @@ She give [proxy] her address in the Red Light District. Pretty obvious that neko
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

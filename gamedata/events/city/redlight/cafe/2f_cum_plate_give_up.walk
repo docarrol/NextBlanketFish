@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/2f_cum_plate_give_up</name>
-  <descr>This is too much. [Proxy] can&apos;t control [himher]self with all this stimulation, and cums!&lt;%res = proxy.doAction(&quot;orgasm&quot;); &quot;&quot;;%&gt; [HeShe] tries to hold still, and manages not to trash the food still on [hisher] body. Then one of client sets their sticks aside, and starts picking up food with their mouth. Others soon follow his example. They began to lick [hisher] skin occasionally. As the rest of the food is being finished, their licking happens more often, when finally the clients decide to openly enjoy [hisher] body. They give [proxy] some teasing, and bring [himher] to the verge of orgasm, and then stop. They clearly enjoy the view of [hisher] body being excited to the edge and but not enough to give [himher] release. After some time spent playing with [proxy], they decide to leave, and [proxy]&apos;s shift comes to an end, leaving [himher] very frustrated and aroused.
+  <descr>This is too much. [Proxy] can&apos;t control [himher]self with this stimulation, and cums!&lt;%res = proxy.doAction(&quot;orgasm&quot;); &quot;&quot;;%&gt; [HeShe] tries to hold still, and manages not to trash the food still on [hisher] body. Then one of client sets their sticks aside, and starts picking up food with their mouth. Others soon follow his example. They began to lick [hisher] skin occasionally. As the rest of the food is being finished, their licking happens more often, when finally the clients decide to openly enjoy [hisher] body. They give [proxy] some teasing, and bring [himher] to the verge of orgasm, and then stop. They clearly enjoy the view of [hisher] body being excited to the edge and but not enough to give [himher] release. After some time spent playing with [proxy], they decide to leave, and [proxy]&apos;s shift comes to an end, leaving [himher] very frustrated and aroused.
 &lt;%proxy.setStat(&quot;generic.arousal&quot;, 95);
 AddMoney(100); &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
@@ -9,6 +9,7 @@ AddMoney(100); &quot;&quot;;%&gt;</descr>
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -16,6 +17,6 @@ AddMoney(100); &quot;&quot;;%&gt;</descr>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

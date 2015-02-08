@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/chunli_basement</name>
+  <descr>[proxy] tells Chun Li she can transform part of the unused basement in a training area.&#xd;
+&#xd;
+-Thank you, this will improve my training significantly. Thanks to your help I’m sure I will fulfill my dream of becoming the strongest martial artist. You know what, once I have set it up I also can provide you with some training.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;chunlitrain&quot;,1);&#xd;
+SetFlag(&quot;chunlistart&quot;, clock.getDays());&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/chunli2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

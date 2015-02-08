@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartfoursafe</name>
+  <descr>[proxy] is not sure if &lt;%activePartner.HeShe();%&gt; could finish the entire éclair and plays it safe.&#xd;
+&#xd;
+A couple of rather large bites later and &lt;%activePartner.HeShe();%&gt; has eaten a equal amount as the current leader. Keeping the same pace it is just a matter of time before either stomach give up. The other two remaining competitors have fallen behind and are struggling with each bite. Not much treat can be expected from them.&#xd;
+&#xd;
+Bite after bite the remaining éclair becomes smaller and smaller. [proxys] stomach on the other hand becomes fuller and fuller. The content of &lt;%activePartner.HisHer();%&gt; stomach is a solid ball of mostly cream and chocolate. [proxy] tries to make a dent in her belly with her hand but it has no effect. The only thing left to do is eat and hope the stomach of the other competitor gives up earlier. The pressure in [proxy] stomach increases from noticeable to unpleasant. One of the benefits of Vicky&apos;s solid concoction is that throwing the mass up is close to impossible. Once it is in, it stays in.&#xd;
+&#xd;
+Just before [proxy] wants to stop of fear of a stomach rupture, the other competitor quits. Just one more bites and [proxy] wins. After a couple of breaths, deep breaths are not longer possible because of insufficient room, [proxy] takes the last bite.&#xd;
+&#xd;
+Vicky sheers we have a winner and tries to pulls [proxy] of &lt;%activePartner.HisHer();%&gt; seat to celebrates. [proxy] stomach is too heavy and full to even move. With around a quarter of the éclair left, [proxy] beats the other competitors and can now share &lt;%activePartner.HisHer();%&gt; among the top eaters of the country.&#xd;
+&#xd;
+Stuck on the chair, [proxy] receives the price from Vicky. 25 creamy éclairs.&#xd;
+[proxy] takes them but does not want to think of any food in a while.&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 12500);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 2500);&#xd;
+SetPerFlag(&quot;eating.comp&quot;, 5);&#xd;
+AddItem(&quot;cream_eclair&quot;, 25);&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, 500, 24);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=2500</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/todd/reconsider</name>
-  <descr>[Proxy] enters Todd&apos;s lab. He seems to notice you rather quickly and greets you.
+  <descr>[Proxy] enters into Todd&apos;s lab. He seems to notice you rather quickly and greets you.
 
 &lt;%Include(&quot;hospital/todd/greet&quot;);%&gt;
 
@@ -12,10 +12,12 @@
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Reconsider helping</name>
       <value>city/hospital/todd/reconsider</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -23,6 +25,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

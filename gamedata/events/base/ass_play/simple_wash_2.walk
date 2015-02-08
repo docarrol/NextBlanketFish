@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/ass_play/simple_wash_2</name>
-  <descr>[Proxy] is getting more comfortable with the procedure, but it is still far from being pleasant. [HeShe] starts to understand the benefits and the drop in [hisher] mood and lust is much smaller.&#xd;
+  <descr>[Proxy] is getting more comfortably with the procedure, but it is still far from being pleasant. [HeShe] starts to understand the benefits and the drop in [hisher] mood and lust is much smaller.&#xd;
 &#xd;
 &lt;% &#xd;
 cl = 0.7;&#xd;
@@ -22,6 +22,5 @@ res;&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

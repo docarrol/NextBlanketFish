@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/corset_palace_first</name>
+  <descr>[proxy] takes one of scales containing an complete ox and starts eating. The two female dwarfs have a size advantage and are clearly used at eating large quantities, [proxy] has to try [hisher] hardest to keep up with their eating speed. Slowly the ox disappears in [proxy] stomach while [hisher] belly clearly grows. &#xd;
+&#xd;
+The corset provides just enough space for [proxy] stomach to eat more but at some point [proxy] stomach is simply full. The two dwarfs look intensely how [proxy] activate the special function of the corset and [hisher] belly clearly shrinks. The food in [proxy] stomach is mean while compressed to take less space. After the compression is finished [proxy] continues eating. With an second use of the compression magic, [proxy] manages to eat the entire ox.&#xd;
+&#xd;
+While [proxy] is still eating Cadha has already finished her ox long ago, her sister takes a bit longer but also finishes well ahead of [proxy].&#xd;
+&#xd;
+-The food you serve is always top notch, I sometimes wish I could eat it every day like you.&#xd;
+&#xd;
+The dress of Cadha sister is clearly subjected to a lot of tension. It was already tight before an entire ox disappeared in her stomach, now it clearly much too small.  The opening at the front of the dress has become much larger and a large flab of fat is sticking out. She than faces [proxy].&#xd;
+&#xd;
+-What I have seen of that corset interests me greatly, tell Thovila that I want to place an order. I will send a assistant to discuss the details. Now I have to get back to work.&#xd;
+&#xd;
+She faces Cadha again.&#xd;
+&#xd;
+-Some people can’t stuff their face full of food everyday without getting fat. See you later sister and next time I will skip the meal.&#xd;
+&#xd;
+With some difficulties the female dwarf stands up and leaves the room. [proxy] is left with a sad looking Cadha. [heshe] can either stay and asks more about her, [proxy] is fairly sure that this involves more food but could result in a friendship with Cadha. Or [proxy] could simply leave, the main task is done but [heshe] doubts that [heshe] could visit Cadha at a later time while leaving this way.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 150000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 15000);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Stay with Cadha</name>
+      <value>kt_village/dwarvenparty/eat1_palace_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave palace</name>
+      <value>kt_village/dwarvenparty/corset_palace_last</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

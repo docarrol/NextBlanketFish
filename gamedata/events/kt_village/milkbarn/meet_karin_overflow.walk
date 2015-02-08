@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_overflow</name>
+  <descr>[proxy] enters the room where Karin is waiting in. Karin looks very uncomfortable, her breasts are overfull with milk. It seems she did her best holding as much milk in her breasts as she could because when she see’s [proxy] small streams of milk shoot from her nipples.&#xd;
+&#xd;
+[proxy] tells Karin she did a great job holding all that milk in for so long and then takes her to a milking machine to stop the torture caused by her overflowing breasts. Soon Karin’s breasts are empty again but they are clearly a bit larger than before. Because her body thought there was no more demand for milk, the production rate has decreased a little bit.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)+2));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)+50));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)*0.95));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)*1.1));&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;karin_cap&quot;)&lt;GetPerFlag(&quot;karin_milk&quot;)&amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/pressure.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,54 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_eat_med</name>
+  <descr>[proxy] enters the dark shop and does not detect Morgan in the first area again. She is probably in the kitchen cooking some more food. [proxy] starts walking towards the kitchen but is called by Morgan.&#xd;
+&#xd;
+[proxy] enters the basement that contains a relative large open area. Faint writing on the floor indicates that this area of the shop is used for rituals. [proxy] hardly recognizes Morgan. The once slim sorceress has changed under influence of all the food she has been eating to a chubby woman. A great deal of the added mass has concentrated itself in Morgan’s now cup overflowing boobs. But also the rest of her body received a thick layer of extra padding.&#xd;
+&#xd;
+-Look at what your bathhouse made me. Go relax a bit, you said. There will be man to fuck, you said. The result is a lot more of me. You are going to help me get my old shape back.&#xd;
+&#xd;
+[proxy] asks Morgan how [heshe] is expected to help Morgan lose weight.&#xd;
+&#xd;
+-Simple, we are going to do some combat magic training. I teach you a simple spell that only provides a little pain once it hits a living object. We are going to shoot these spells to each other while trying to dodge the spells of the opponent. A little exercise should make this fat disappear in no time.&#xd;
+&#xd;
+Morgan grapes the side of her waist, between her fingers a roll of fat is clearly visible. She then teaches [proxy] a very simple spell and both [proxy] and Morgan walk to their own side of the basement. Soon white colored sparkling balls fly through the basement providing a decent amount of pain if they hit someone. &#xd;
+&#xd;
+Morgan managed to dodge the first couple of spells but is soon hit one after the other. A minute later Morgan scream at [proxy] to stop. Morgan’s condition was normally already low because she liked to keep exercise to a minimum. That barely existing condition combined with the extra weight now present on Morgan’s body is really killing for her. Completely out of breath, Morgan drops down on a chair.&#xd;
+&#xd;
+-You are better than I expected, let me catch my breath for a moment and then we continue. You know what, dogging spells is a requirement of a good mage, you should train a bit more.&#xd;
+&#xd;
+From her chair Morgan starts shooting spells again to [proxy]. [proxy] can only try to dodge the spells as good as possible. Hiding behind objects seemed like a good idea at first, but soon spells are starting to curve their way around them. Morgan meanwhile managed to get food from somewhere; she is now eating while shooting spells at [proxy] at the same time.&#xd;
+&#xd;
+After some time Morgan is satisfied with [proxy] dodge training. When [proxy] approaches Morgan [heshe] notices that her belly has swollen in size again because of the food present in there. Morgan sure knows how to eat.&#xd;
+&#xd;
+The dodge training from Morgan was more of a fitness exercise than magic training for [proxy] but [heshe] did learn some more about the usage magic spells.&#xd;
+&#xd;
+&lt;% &#xd;
+        self.addStat(&quot;generic.str&quot;, 0.5);&#xd;
+        self.addStat(&quot;generic.end&quot;, 0.6);&#xd;
+        self.addStat(&quot;generic.dex&quot;, 1.8);&#xd;
+        self.addStat(&quot;generic.cha&quot;, 0.02);&#xd;
+        self.addStat(&quot;generic.tiredness&quot;, 10);&#xd;
+self.subStat(&quot;generic.calories&quot;, 200);&#xd;
+SetPerFlag(&quot;magic_skill&quot;, GetPerFlag(&quot;magic_skill&quot;)+2);&#xd;
+SetPerFlag(&quot;morgan_eat&quot;, GetPerFlag(&quot;morgan_eat&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;morgan_eat&quot;)==4 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_fat_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -4,11 +4,11 @@
 
 Christian carefully takes the crystal, and begins to study it. After a while, he replies:
 
-- An interesting item and quite complex. Yes, I can repair it, but it will cost you. However, I do not need the money itself, but a service.
+- An interesting instance and quite complex. Yes, I can repair it, but it will cost you very dearly. However, I do not need the money itself, but a service.
 
 [Proxy] continues to listen.
 
-- As you know, after the DS the development of technology stalled and getting electronic components has now become quite difficult and expensive. But if you don&apos;t want anything too specific, you can get the necessary parts from items in the old abandoned towns. However, this is risky. People have left them for a reason. If the town is abandoned, its probably because DS activity in it is too great, so you might encounter... anything. But I am an inventor, and quickly go through my parts stock. If I were to order new ones, I would quickly go bankrupt, and going to the old city is something that I&apos;d rather not risk - I&apos;m not a fighter by nature. Therefore I&apos;ll offer you a deal - I repair the crystal, in exchange for 15 printed circuit boards of old technology. Yes, you will have to get them in the old cities, and yes, it can be dangerous. I&apos;m not asking you to answer &quot;Yes&quot; or &quot;No&quot;, but rather I promise you a repaired crystal in exchange for the these components.
+- As you know, after the DS the development of technology stalled somehow and getting some components now has become quite difficult and expensive. But if you don&apos;t want anything too specific, you can get the necessary pieces from items in the old abandoned towns. However, this is not very safe. People have left them for a reason. If the town is abandoned, then DS activity in it is too great, so you might find... anything. But I am an experimenter, and stocks of parts come to an end pretty quickly for me. If I just order new, then I&apos;m going to go bankrupt, and going to the old city is something that I would not like - I&apos;m not a fighter by nature. Therefore I offer you a deal - I repair the crystal, in exchange for 15 printed circuit boards of old technology. Yes, you will have to get them in the old cities, and yes, it can be dangerous. I&apos;m not asking you to answer &quot;Yes&quot; or &quot;No&quot;, but rather I firmly promise you a repaired crystal in exchange for the these components.
 &lt;% PerSetFlag(&quot;christian_quest&quot;, 1); &quot;&quot;; %&gt;
 </descr>
   <conditions>res = 0;
@@ -20,6 +20,7 @@ res;</conditions>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/magic_street</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -27,5 +28,5 @@ res;</conditions>
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

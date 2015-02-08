@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>sea/kiana_approach</name>
-  <descr>[Proxy] approaches the girl and tries to say &quot;hello&quot;, but when girl turns to the [proxy] and see who is talking to her, she looks very worried, maybe even scared. The girl doesn&apos;t say anything, so [proxy] decides to leave her alone.
+  <descr>[Proxy] come to the girl and try to say &quot;hello&quot;, but after girl turns to the [proxy] and see who talks, she looks very worried and maybe even scared. The girl does not say anything, so [proxy] decides to leave her alone.
 &lt;%proxy.setFlag(&quot;kiana_scared&quot;, 1); &quot;&quot;;%&gt;</descr>
   <conditions>1</conditions>
   <picturePath>char/kiana.png</picturePath>
@@ -8,10 +8,12 @@
     <fetishmaster.engine.WalkChoice>
       <name>Follow the Girl</name>
       <value>city/kiana_follow</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Do nothing</name>
       <value>city/seafront</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -19,6 +21,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

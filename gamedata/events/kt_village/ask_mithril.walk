@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/ask_mithril</name>
+  <descr>[proxy] enters Breeda&apos;s home and is quickly approached by the dwarf.&#xd;
+&#xd;
+-thank you for being a guide last time. If everything had worked out as planned I would not be stuck in this village in the middle of nowhere. Because Thovila did not take me to Ironhill I had to contact someone there. They are not pleased with me losing a zeppelin with its cargo. As punishment I have to establish a trading outpost here. Let me repeat that again, a trading outpost here. This village is mostly cows who are only interested in milk. They neither have the money nor the sophistication to purchase fine dwarven craft. So what brings you here?&#xd;
+&#xd;
+[proxy] tells Breeda that [heshe] would like to buy a Mithril.&#xd;
+&#xd;
+-Mithril you say, expensive but interesting taste you have. Let me guess, Thovila asked you to buy Mithril for her because she is too scared to do it by herself. You did help me in the forest although you knowledge of the world is minimal at least.&#xd;
+ &#xd;
+Now about the Mithril, that stuff is rare and expensive. I know a dwarf who has a small private mine somewhere. He can deliver me some Mithril for a price even someone like you could possibly pay. It is however raw Mithril of low density. I’m sure Thovila can make use of it, just pay me and I will make sure she gets the stuff. The special price for you is 5000 coins, that is cost price. &#xd;
+&#xd;
+Let me be honest with you, this is something that you will hear a merchant say very often but is never true except this time. Those 5000 coins are excluding shipping fees and a lot of other costs. The reason I’m doing this is trying to get Thovila back at making her famous Corsets. The are some of the most desired products for those fat nobles, the margin I could make on them selling them is huge. Thovila is properly also the reason my family is forcing me to stay in this hell hole. &#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;dwarf_crash&quot;)==1</conditions>
+  <picturePath>kt_village/dwarven_trader.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy Mithril (5000)</name>
+      <value>kt_village/buy_mithril</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

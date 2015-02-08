@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_3_end</name>
+  <descr>[proxy] wakes up hungry. This surprises &lt;%activePartner.HisHer();%&gt; a bit thinking back to the previous eating session with Edesia. Overnight [proxy] belly has become &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; and &lt;%activePartner.HisHer();%&gt; stomach feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;.
+
+-Good you are awake. I was just planning on waking you up, breakfast is ready.
+
+Before [proxy] has the chance to stand up, Edesia shoves the first donut in &lt;%activePartner.HisHer();%&gt; mouth.
+
+-Lets continue where we left of.
+
+The stack of empty donut boxes in the corner of the shrine soon starts to grow in size again. The same can be said for [proxy] belly.
+
+Edesia is enjoying herself so much with feeding [proxy] that [proxy] finally managed to get some straight answers from her.
+
+-I&apos;m feeding you up for two reasons, the first one is that I don&apos;t like skinny priestesses but more important it is for my plan. I will tell you more about it when we are ready. I will promise you this, once I have my full power back you will not go unrewarded.
+
+Edesia then fully focuses again on shoving donuts both in [proxy] as her own mouth.
+
+Sometime later, [proxy] stomach is loaded again to the brim.
+
+&lt;%
+self.addStat(&quot;generic.calories&quot;, 3*1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;))));
+self.addStat(&quot;abdomen.food&quot;, (1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;)))));
+ &quot;&quot;;%&gt;
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/edesia5.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/exitshrine</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

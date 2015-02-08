@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/second_meet_elwing</name>
+  <descr>[proxy] meets Elwing and talks some more about the outside world and the new technological marvels. Before [proxy] notices it, it is already evening. Elwing invites [proxy] to stay for the night and first have a bath together.</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==1</conditions>
+  <picturePath>elves/queen1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/first_bath_elwing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_small_first</name>
+  <descr>[proxy] enters the room where Karin is waiting in. Karin’s breast have grown under [proxy] guidance from nonexistent to slightly visible. Karin looks very happy. &#xd;
+&#xd;
+-I just talked with Mathilda, she told me that I can use the real milking machines now. I will have to use the smallest cups but I belong finally to the real milk girls.&#xd;
+&#xd;
+[proxy] follows Karin to the milking machines. [proxy] helps Karin with installing the small suction cups. On the machine next to Karin a tau girl with very large breasts is being milked. [proxy] notices how she puts a hose in her mouth an pushes a button. The hose deposits a load of food in her waiting stomach. She then pushes the button a second time and a second doses of food is provided.&#xd;
+&#xd;
+Karin meanwhile is already finished milking. She then also takes the hose and shoves it in her mouth. If [proxy] remembers correctly, the food provided was to balance the milk produced but also to stimulate the milk production. If Karin eats more food, her milk production should also increase harder.&#xd;
+&#xd;
+Karin seems to wait for [proxy] to push the feed button, what does [proxy] do.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;karin_cap&quot;)&gt;=500 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays() &amp;&amp; GetPerFlag(&quot;karin_explain&quot;)&lt;1</conditions>
+  <picturePath>kt_village/milk/milk_small.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Push once</name>
+      <value>kt_village/milkbarn/milk_feed_intro_1</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Push twice</name>
+      <value>kt_village/milkbarn/milk_feed_intro_2</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

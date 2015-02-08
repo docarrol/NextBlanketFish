@@ -2,7 +2,7 @@
   <name>commoners/offer_sex</name>
   <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;[Proxy] spends some time talking with &lt;% c.getName();%&gt;. [HeShe] begins to flirt with &lt;% c.HimHer();%&gt; and manages to seduce &lt;% c.getName();%&gt; into having sex.
 
-- Well, shall we go find a place where no one will interrupt us?
+- Well, shall we find a place where no one can interrupt us?
 &lt;%AddButton(&quot;Go with a &quot;+ c.getName(), c.getStatText(&quot;generic.sex_place&quot;)); &quot;&quot;;%&gt;
 &lt;%LustShame(5,35); &quot;&quot;;%&gt;
 &lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
@@ -19,6 +19,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

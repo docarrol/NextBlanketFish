@@ -1,0 +1,48 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/felis/small_vial</name>
+  <descr>[proxy] takes the small vial from Felis and drinks it in one sip.&#xd;
+&#xd;
+Both [proxy] and Felis inspect [proxy] &lt;% IncludeRange(self.getStat(&quot;breasts.size&quot;),&quot;breastsize&quot;);%&gt; breasts for any change.&#xd;
+&#xd;
+At first noting happens but then [proxy] breasts start to feel warm.&#xd;
+&#xd;
+Before Felis and [proxy] eyes &lt;%activePartner.HisHer();%&gt; breasts begin to shrink slowly.&#xd;
+&#xd;
+&lt;%Include(&quot;hospital/felis/milk_in_breasts&quot;);%&gt;&#xd;
+&#xd;
+This process is arousing for [proxy].&#xd;
+&#xd;
+Before the shrinking process has realy started it stops already.&#xd;
+&#xd;
+&lt;% &#xd;
+proxy.addStat(&quot;generic.arousal&quot;, 90);&#xd;
+proxy.addStat(&quot;breasts.max_lactation&quot;,(10*0.3*proxy.getStat(&quot;breasts.size&quot;)));&#xd;
+proxy.subStat(&quot;breasts.size&quot;,(0.3*proxy.getStat(&quot;breasts.size&quot;)));&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+[proxy] have shrunken to &lt;% IncludeRange(self.getStat(&quot;breasts.size&quot;),&quot;breastsize&quot;);%&gt; breasts. Felis meanwhile can’t hide her enthusiasm.&#xd;
+&#xd;
+-It worked, it really worked, now let me do some test for science.&#xd;
+&#xd;
+Felis performs a wide array of tests on [proyx] breasts.&#xd;
+&#xd;
+-It seems the increase in maximum milk production is proportional with the shrinking in size. Very interesting, this explains why it worked so well for Olivia. I wonder what would happen if i could run the full batch of experiments, mabey you could bring more milk next time.&#xd;
+I´m sorry but I really need to get back to my research. So much data too process.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/hospital/felis_bg.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>city/hospital/research_wing</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

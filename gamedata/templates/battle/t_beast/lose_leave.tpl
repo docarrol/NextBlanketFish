@@ -1,7 +1,7 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>1;</conditions>
   <text>
-[=target]Beast wraps [t-hisher] tentacles around the [proxy]&apos;s lying body, but after a few touches [t-heshe] withdraws them and returns to the brushes. Rustling indicates that [t-heshe] is leaving... </text>
+[=target]Beast shot [t-hisher] tentacles to the [proxy] lying body, but after few touches [t-heshe] withdraw them and retries to the brushes. Rustling indicates that [t-heshe] leaves from here completely... </text>
   <priority>0</priority>
   <picturePath></picturePath>
   <choices/>

@@ -1,7 +1,7 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/2f_live_plate_yes</name>
   <descr>After [proxy] accepts this offer, Chief sends [himher] to shower to prepare [himher]self. Returning from it, [heshe] lies on the table. Chief warns [proxy] about not moving, as it can ruin the placement of the food on [her]. [She] spends some time as Chief and her helpers lay out food in a beautiful manner on [hisher] skin. Mostly seafood and some cold served meat pieces, so it&apos;s no trouble to just lie there. After setting the food is finished, the table is rolled into the room where the clients are already waiting. They cheer on seeing such a beautiful &quot;plate&quot;.
-Dinner begins and food is taken using sticks, so [proxy] is not worried about being cut accidentally. After some time [heshe] begins to get aroused as the clients start to grab more food from the areas close to her private parts and breasts, and touch of their sticks becomes more and more arousing. [HeShe] tries to lie still and not make any sound but few gasps and moans escape [hisher] mouth. The clients begin to take notice and spend more time trying to arouse [himher]. 
+Dinner begins and food is taken using sticks, so [proxy] is not worried about being cut accidentally. After some time [heshe] begins to get aroused as the clients start to grab more food from the areas close to her private parts and breasts, their sticks touching become more and more arousing. [HeShe] tries to lie still and not make sounds but some occasional gasps and moans escape [hisher] mouth. The clients begin to take notice spend more time trying to arouse [himher]. 
 What to do?
 &lt;%LustShame(20,35); &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
@@ -10,10 +10,12 @@ What to do?
     <fetishmaster.engine.WalkChoice>
       <name>Try to Hold</name>
       <value>city/redlight/cafe/2f_cum_plate_hold</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Give Up</name>
       <value>city/redlight/cafe/2f_cum_plate_give_up</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -21,6 +23,6 @@ What to do?
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

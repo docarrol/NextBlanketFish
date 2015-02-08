@@ -2,7 +2,7 @@
   <name>system_events/start_walking_kiana</name>
   <descr>You call [proxy] and ask [himher] what happened in the forest after you closed the link?
 
-- You made the right choice Master. Right after you closed the link, girl became very confused, and was not frightened of me anymore. We talked a little. Her name is Kiana, she is the daughter of the shaman. And though she does not have magic abilities she can &quot;see things through&quot; as she tell. But she inexperienced, and doesn&apos;t always understand what it is she is seeing. Usually she can avoid any dangers in the forest, but this time she been too scattered and tentacle beast managed to attack her. So, after we talked, I helped her to get to the her village. It&apos;s pretty far through the forest, and I spent day in it, before I felt rested enough to return. Kiana says that she is sorry for calling you a demon, and will be glad to talk with you in the seaside sometimes.
+- You decided the right thing Master. Right after you close the link, girl become very confused, and not frighten by me anymore. We talked a little. Her name is Kiana, she is the daughter of the shaman. And though she do not have magic abilities she can &quot;see things through&quot; as she tell. But she inexperienced, and not always can understand what exactly she see. Usually she can avoid any dangers in the forest, but this time she been too scattered and tentacle beast managed to attack her. So, after we talked, I helped her to get to the her village. It&apos;s pretty far through the forest, and I spent day in it, before feel rested enough to return. Kiana says that she a sorry for calling you a demon, and will be glad to talk with you in the seaside sometimes.
 
 &lt;% proxy.setFlag(&quot;kiana_tell_disco&quot;, 0); 
 SetFlag(&quot;kiana_friend&quot;, 1);
@@ -24,5 +24,4 @@ proxy.setFlag(&quot;kiana_scared&quot;, 0); &quot;&quot;;%&gt;</descr>
   <priority>3</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>true</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

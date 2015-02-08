@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingparttwo_win</name>
+  <descr>[proxy] slowly makes &lt;%activePartner.HisHer();%&gt; way through the stack of pancakes. The pancakes are hard to eat because of the huge amount of sticky syrup present. Finally [proxy] picks the last pancake of the plate. During this moment &lt;%activePartner.HeShe();%&gt; decided to look at how the other contestants are performing. &#xd;
+&#xd;
+The woman next to &lt;%activePartner.HisHer();%&gt; has already given up with more than a halve the stack of pancakes remaining. The two contestants on the other end of the table have also already quite, although with a much smaller stack remaining. The only contestant left is the woman on the diet who was only going to eat one or two pancakes. Completely ignoring here diet so already started at the second plate and was still going strong.&#xd;
+&#xd;
+[proxy] decided to focus again on her own eating to make a dent in the stack of pancakes on her second plate. [proxy] was now really starting to get full, but decided to carry own. Some dieting house wife will not beat &lt;%activePartner.HisHer();%&gt;. &#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 9000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 3000);&#xd;
+AddItem(&quot;pancake&quot;, 25);&#xd;
+SetPerFlag(&quot;eating.comp&quot;, 3);&#xd;
+if(GetFlag(&quot;stomach_train&quot;) &lt;1)&#xd;
+{SetFlag(&quot;stomach_train&quot;, 1);}&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, 500, 24);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+A couple of syrup soaked pancakes later and the last remaining contestant finally gives up. This contestant had built a little lead on the amount of pancakes eaten so far thus [proxy] has to eat a bit more to win. [proxy] stomach start to slosh a bit with every move through all the syrup eaten so far. Finally with &lt;%activePartner.HeShe();%&gt; eats the final pancake and wins the match.  &lt;%Include(&quot;muffin_top/stom_cont&quot;);%&gt;&#xd;
+With a bloated stomach [proxy] slowly stands up and walks to Vicky to collect &lt;%activePartner.HisHer();%&gt; price.  During this walk [proxy] hears some sniffing behind &lt;%activePartner.HisHer();%&gt;. The dieting woman is now rubbing her swollen stomach, mumbling there goes my 5 months of struggle. I just bought a new dress, that is now never going to fit. &#xd;
+[proxy] thinks, I am going to sweat syrup for the next couple of days. [proxy] stomach reacts to the overdose of syrup by going into overdrive, might be a effect of Vicky&apos;s special recipe.&#xd;
+&#xd;
+Vicky congratulates [proxy] with her victory and gives her the price of 25 pancakes without syrup.&#xd;
+&#xd;
+-Sorry, I have not found a way yet to make pancakes with syrup that can easily be transported.&#xd;
+&#xd;
+Sometime later Vicky approaches [proxy]&#xd;
+&#xd;
+-It seems you have a real talent for eating, if you want to improve your skills even more just ask. I have a few tricks up my sleeves. Meet me later.</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=3000</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

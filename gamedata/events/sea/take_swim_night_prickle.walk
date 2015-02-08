@@ -1,13 +1,13 @@
 <fetishmaster.engine.WalkEvent>
   <name>sea/take_swim_night_prickle</name>
-  <descr>[Proxy] goes for a nude midnight swim. [HeShe] feels good and refreshed, but as [heshe] swam and since it was dark, [heshe] didn&apos;t notice the prickly plant and [heshe] stung [himher]self on it, right in [hisher] &lt;%IncludeRange(proxy.getStat(&quot;balls.size&quot;), &quot;ballssize&quot;);%&gt; testicles. [HeShe] easily removes the small needle but something doesn&apos;t feel quite right as [heshe] feels [hisher] balls warming up a bit... and they also feel a bit swollen for some reason... Maybe a good masturbation session would be nice too, as [heshe] feels strangely aroused all of a sudden!
+  <descr>[Proxy] goes for a nude midnight swim. [HeShe] feels good and refreshed, but as she swam and since it was dark, [heshe] didn&apos;t notice the prickly plant and [heshe] stung [himher]self on it, right in [hisher] &lt;%IncludeRange(proxy.getStat(&quot;balls.size&quot;), &quot;ballssize&quot;);%&gt; testicles. [HeShe] easily removes the small needle but something doesn&apos;t feel quite right as [heshe] feels [hisher] balls warming up a bit... and they also feel a bit swollen for some reason... A good masturbation session would be nice too as [heshe] feels strangely aroused all of a sudden!
 &lt;% activePartner.addStat(&quot;generic.str&quot;, 1);
         proxy.addStat(&quot;generic.tiredness&quot;, 10);
         proxy.addStat(&quot;generic.spd&quot;, 0.7);
         proxy.addStat(&quot;generic.dex&quot;, 0.3);
         proxy.addStat(&quot;generic.end&quot;, 1.2);
         proxy.addStat(&quot;generic.cha&quot;, 0.02);
-activePartner.addStat(&quot;skill.swim&quot;, 1);
+activePartner.addStat(&quot;generic.swim&quot;, 1);
 proxy.subStat(&quot;generic.calories&quot;, 400);
 
 //bloating venom code moved to special tmp organ, it&apos;s too complex:
@@ -29,6 +29,6 @@ res;</conditions>
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

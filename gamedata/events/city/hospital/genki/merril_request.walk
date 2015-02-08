@@ -2,7 +2,7 @@
   <name>city/hospital/genki/merril_request</name>
   <descr>[Proxy] explains and hands him the note and sample. He looks at it and gives a nod.
 
-- Alright then, some farmers do something like that for the bulls. Though, to make this drug they use horse beans from  the forest, but they are dangerously addictive for humans... or neko&apos;s. I&apos;ve done some research on it under her request. Now, I can create special variant, safe for the owner of the specific genetic sample, but I need at least 3 horse beans as active component. And something as a catalyst... I think, &quot;Gestamin&quot; that guy from the Pet Shop invented recently will fit.
+- Alright then, some farmers do something like that for the bulls. Though, to make this drug they use horse beans from forest, but they are dangerously addictive for humans... or neko&apos;s. But I&apos;ve done a research on it under her request. I can create special variant, safe for the owner of the specific genetic sample, but I need at least 3 horse beans as active component. And something as a catalyst... I think, &quot;Gestamin&quot; that Mitch from Pet Shop invented recently will fit.
 
 &lt;%SetPerFlag(&quot;merril_sexperiment_prep&quot; , 2); &quot;&quot;;%&gt;
 &lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
@@ -23,5 +23,5 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

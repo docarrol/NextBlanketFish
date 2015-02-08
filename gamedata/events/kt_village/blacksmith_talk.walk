@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/blacksmith_talk</name>
+  <descr>[proxy] waits for Thovila to stop hammering and asks her if she has a little time to talk.&#xd;
+&#xd;
+-Give me a minute, need to strike the iron while it is hot. Sit there and I’m right with you.&#xd;
+&#xd;
+Sometime later Thovia is finished and walks to [proxy].&#xd;
+&#xd;
+Where does [proxy] want to talk about?</descr>
+  <conditions>GetPerFlag(&quot;blacksmith_talk&quot;)&gt;=1;
+
+</conditions>
+  <picturePath>char/Thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Dwarven corsets</name>
+      <value>kt_village/blacksmith_corsetstalk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

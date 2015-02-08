@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/belanika_hello_again_3</name>
-  <descr>When [proxy] walks into the stall, [heshe] finds Belanika lying down. You see that although her assets are still large, she no longer has difficulty moving around. Seeing [proxy], she greets [himher] with a smile.
+  <descr>When [proxy] walks into the stall, [heshe] finds Belanika lying down. You see that although her assets are still large, she doesn&apos;t have a problem with moving around. Seeing &lt;%activePartner.getName();%&gt;, she greets &lt;%activePartner.get3dPerson();%&gt; with a smile.
 
 - Ah, hello again [proxy]! How are you doing?
 
@@ -16,10 +16,12 @@ res;
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Dr.Felis&apos; Request</name>
       <value>farms/belanika_felis_request</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -27,5 +29,5 @@ res;
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

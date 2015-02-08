@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/eating/start_oke</name>
+  <descr>[proxy] enters the staff room and waits for a customer to require &lt;%activePartner.HisHer();%&gt; service.</descr>
+  <conditions>GetPerFlag(&quot;cafe.eating&quot;)==3 &amp;&amp; proxy.getStat(&quot;abdomen.food&quot;)&lt;(0.5*proxy.getStat(&quot;abdomen.stomach_volume&quot;))</conditions>
+  <picturePath>city/fcafe/staff_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meet customer</name>
+      <value>city/redlight/cafe/eating/cust_wife</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

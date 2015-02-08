@@ -2,9 +2,9 @@
   <name>base/home_birth_tb_flee</name>
   <descr>[Proxy] is in labour! What do you do?
 
-[proxy]&apos;s pregnancy is not a natural one. Tentacle beasts have adapted extremely well to the reproduction, in most cases hosts aren&apos;t harmed even by birth. After the first few contractions, [proxy] begins to feel less and less pain, as it is converted to pleasure. At the time of the actual birth, [she] is felling almost orgasmic. Baby tentacle passes through her vagina without trouble, and after this, [proxy] passes out in a massive pleasure wave.
+Pregnancy that [proxy] have is not natural. Tentacle beasts very good adapted to the reproduction, hosts in most cases aren&apos;t harmed even by birth. After the first few contractions, [proxy] begins to feel less and less pain, as it is converted to pleasure. At the time of the actual birth, [she] was felling almost orgasmic. Baby tentacle passing through her vagina without trouble, and after this, [proxy] passed out from massive pleasure wave.
 
-Small tentacle beast is fully self aware right after birth, and it escapes outside before you can even think to catch it.
+Small tentacles is fully self aware right after birth, so, without special measures they easily flee outside. You can&apos;t catch it.
 [=proxy]
 &lt;%Include(&quot;system/c_generic_birth&quot;); &quot;&quot;;%&gt;
 &lt;%LustShame(50,50); &quot;&quot;;%&gt;</descr>
@@ -21,6 +21,6 @@ Small tentacle beast is fully self aware right after birth, and it escapes outsi
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

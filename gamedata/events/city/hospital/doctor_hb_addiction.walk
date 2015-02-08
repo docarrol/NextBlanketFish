@@ -4,8 +4,8 @@
 
 The doctor gives [proxy] a full medical exam.
 
-- Examination results show that you are experiencing withdrawal syndrome from a chemical of vegetable origin. Most likely it&apos;s caused by the forest fruit known as the &quot;Horse bean&quot;. It&apos;s a pretty common case, as this fruit has some benefits for males and futanari... It&apos;s very addictive and is likely to cause addiction from just a single use. There is no such thing as a &quot;safe dose&quot; of it. Withdrawal symptoms are tiredness and a sick feeling, but fortunately it&apos;s not life threatening. It takes about a month for withdrawal symptoms to wear off on their own...
-I can give you a shot with an antitoxin that removes most of the negative effects. It will cost you 500 coins. 
+- These analyses show that you are experiencing withdrawal syndrome from a chemical of vegetable origin. Most likely it&apos;s caused by the forest fruit known as the &quot;Horse bean&quot;. It&apos;s a pretty common case, as this fruit has some benefits for males or futanari... Though it&apos;s very addicting and can cause addiction after only the first use. There is no such thing as a &quot;safe dose&quot; of it. Withdrawal syndrome causes tiredness and a sick feeling, but luckily - it&apos;s not life threatening. By itself this syndrome will wear off in about a month, or so...
+I can give you a shot with an antitoxin that removes most of the negative effects, but it&apos;s pretty costly - 500 coins. 
 &lt;%SetPerFlag(&quot;now_horse_beans&quot;, 1);&quot;&quot;;%&gt;
 </descr>
   <conditions>proxy.hasEffect(&quot;generic.end&quot;, &quot;horse_bean_addict&quot;);</conditions>
@@ -14,10 +14,12 @@ I can give you a shot with an antitoxin that removes most of the negative effect
     <fetishmaster.engine.WalkChoice>
       <name>Yes (500c.)</name>
       <value>city/hospital/hb_anitoxin_shot</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>No</name>
       <value>city/hospital/treatment_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -25,6 +27,6 @@ I can give you a shot with an antitoxin that removes most of the negative effect
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

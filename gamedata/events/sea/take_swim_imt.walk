@@ -7,12 +7,12 @@
         proxy.addStat(&quot;generic.dex&quot;, 0.3);
         proxy.addStat(&quot;generic.end&quot;, 1.2);
         proxy.addStat(&quot;generic.cha&quot;, 0.02);
-activePartner.addStat(&quot;skill.swim&quot;, 1);
+activePartner.addStat(&quot;generic.swim&quot;, 1);
 proxy.subStat(&quot;generic.calories&quot;, 400);
 SetFlag(&quot;found_swimming&quot;, 1);
 v = proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);
-v =  calc.percent(v, 5);
-proxy.addStat(&quot;preg_implant.volume&quot;, v);
+v = v + calc.percent(v, 5);
+proxy.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, v);
 &quot;&quot;; %&gt;</descr>
   <conditions>res = 0;
 if (clock.isDay()||clock.isMorning()||clock.isEvening())
@@ -29,6 +29,6 @@ res;</conditions>
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

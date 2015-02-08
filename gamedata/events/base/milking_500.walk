@@ -2,7 +2,7 @@
   <name>base/milking_500</name>
   <descr>You are milking &lt;% activePartner.getName() %&gt; and &lt;% activePartner.get2ndPerson(); %&gt; gives &lt;% a = selectedWorker.doAction(&quot;breasts_milking&quot;);
 LustShame(5,20);
-       (Integer)a.get(&quot;breasts&quot;).get(&quot;milk&quot;); %&gt;ml. of milk. There was enough to fill a bottle. 
+       (Integer)a.get(&quot;breasts&quot;).get(&quot;milk&quot;); %&gt;ml. of milk. Enough was collected to fill a bottle. 
 &lt;%AddItem(self, &quot;breast_milk&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>sysprint(activePartner.getName());
      
@@ -17,5 +17,5 @@ else
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

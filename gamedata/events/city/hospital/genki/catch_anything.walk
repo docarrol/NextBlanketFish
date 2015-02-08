@@ -2,7 +2,7 @@
   <name>city/hospital/genki/catch_anything</name>
   <descr>[proxy] looks wide-eyed at Dr. Genki and fidgets while asking him if there isn&apos;t anything else [heshe] can do. The doctor strokes his chin a few times before answering.
 
-- I will offer you a deal. In exchange for disregarding your trespassing, you participate in my experiment. By law, I can not actually force you to do it, but I will not let you off the hook for free. I will require one thousand coins to make me turn a blind eye to this little transgression. So decide now. Is it the police, the experiment, or the money?
+- I will offer you a deal. In exchange for disregarding your trespassing, you participate in my experiments. By law, I can not actually force you to do it, but I will not let you off the hook for free. I will require one thousand coins to make me turn a blind eye to this little transgression. So decide now. Is it the police, the experiments, or the money?
 &lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>proxy.hasOrgan(&quot;uterus&quot;);</conditions>
   <picturePath>city/hospital/genki_office_night.jpg</picturePath>
@@ -10,14 +10,17 @@
     <fetishmaster.engine.WalkChoice>
       <name>I&apos;ll do it!</name>
       <value>city/hospital/genki/begin_quest</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Pay</name>
       <value>city/hospital/genki/pay_fine</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Police</name>
       <value>city/hospital/genki/catch_police</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -25,6 +28,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -65,6 +65,12 @@ self.setStat(&quot;generic.cup_size&quot;, gb+10 - ct);
 str = self.getStat(&quot;generic.str&quot;);
 pen = self.getStat(&quot;breasts.weight&quot;);
 
+if(self.getFlag(&quot;support_bra&quot;)==1)
+
+{
+pen = (0.2* self.getStat(&quot;breasts.weight&quot;));
+}
+
 self.updateEffect(&quot;generic.dex&quot;, &quot;breasts_size&quot;, 0-pen /(str*10));
 self.updateEffect(&quot;generic.spd&quot;, &quot;breasts_size&quot;, 0-pen/(str*10));
 
@@ -89,7 +95,7 @@ self.addStat(&quot;breasts.milk_volume&quot;, rate);
 if (self.getStat(&quot;breasts.milk_volume&quot;) &gt; calc.percent(self.getStat(&quot;breasts.max_volume&quot;), 80))
 {
 self.updateEffect(&quot;breasts.size&quot;, &quot;engorged&quot;, calc.percent(self.getCleanStat(&quot;breasts.size&quot;), 5));
-self.addHistory(&quot;Lactating&quot;, &quot;Breasts engorged with milk&quot;, &quot;organs/breasts_engorged.jpg&quot;);
+self.addHistory(&quot;Lactating&quot;, &quot;Breasts engorged with milk&quot;);
 }
 
 if (self.getStat(&quot;breasts.milk_volume&quot;) &lt; calc.percent(self.getStat(&quot;breasts.max_volume&quot;), 65))
@@ -104,16 +110,33 @@ excess = self.getStat(&quot;breasts.milk_volume&quot;) - self.getStat(&quot;brea
 if (excess &gt; 0)
 {
 self.subStat(&quot;breasts.milk_volume&quot;, excess);
-self.addHistory(&quot;Milk&quot;, &quot;Milk leaked from the breasts&quot;, &quot;organs/breasts_leaking2.jpg&quot;);
+self.addHistory(&quot;Milk&quot;, &quot;Milk leaked from the breasts&quot;);
 }
 
 result;</string>
-    <string>//Full breasts can grow premanently a little.
+    <string>//Full breasts can grow permanently a little. The grow code has been changed a bit to try to reduce the extreme volume size when breast dia. becomes larger.
+
 if (self.hasEffect(&quot;breasts.size&quot;, &quot;engorged&quot;) &amp;&amp; Chance(5) )
+{
+//grow gets a bit too fast at larger sizes
+if(self.getStat(&quot;breasts.milk_volume&quot;)&lt;=5000)
 {
 	size = self.getCleanStat(&quot;breasts.size&quot;);
 	self.addStat(&quot;breasts.size&quot;, calc.percent(size, 5));
-	self.addHistory(&quot;Breasts&quot;, &quot;Breasts grow a little, to hold better all this milk...&quot;, &quot;organs/breasts_grow.jpg&quot;);
+	self.addHistory(&quot;Breasts&quot;, &quot;Breasts grow a little, to hold better all this milk...&quot;);
+}
+if(self.getStat(&quot;breasts.milk_volume&quot;)&gt;5000 &amp;&amp; self.getStat(&quot;breasts.milk_volume&quot;)&lt;=10000)
+{
+	size = self.getCleanStat(&quot;breasts.size&quot;);
+	self.addStat(&quot;breasts.size&quot;, calc.percent(size, 3));
+	self.addHistory(&quot;Breasts&quot;, &quot;Breasts grow a little, to hold better all this milk...&quot;);
+}
+if(self.getStat(&quot;breasts.milk_volume&quot;)&gt;10000)
+{
+	size = self.getCleanStat(&quot;breasts.size&quot;);
+	self.addStat(&quot;breasts.size&quot;, calc.percent(size, 1));
+	self.addHistory(&quot;Breasts&quot;, &quot;Breasts grow a little, to hold better all this milk...&quot;);
+}
 }
 
 //lactation down if breasts too full

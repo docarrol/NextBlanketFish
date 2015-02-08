@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/first_meet_elwing</name>
+  <descr>In the center of the room a elf stands holding a large scepter. Instead of the archers human colored skin, she has a purple skin tone.&#xd;
+&#xd;
+-Greetings, my name is Elwing, elder and leader of this small village. It seems Arwen had mistaken you for one of the creatures now lurking in these woods. Let me look at your wounds, I will probably look strange to you but I mean no harm.&#xd;
+&#xd;
+[proxy] approaches Elwing who suddenly shoots in an offensive stance.&#xd;
+&#xd;
+-What foul creature is lurking inside your. How could Arwen bring such an abomination to the village, guards!!!!&#xd;
+&#xd;
+[proxy] thinks quickly and realizes that Elwing is probably sensing your extra soul in [proxy] body. [proxy] quickly raises [hisher] hands in the air and tells, I’m no abomination nor a monster, let me explain what you detect.&#xd;
+&#xd;
+[proxy] is meanwhile surrounded by some angry looking guards, [proxy] has no idea where they suddenly came from but that does not matter now. &#xd;
+&#xd;
+-Speak and don’t try to lie to me, I far more knowledgeable than you could imagine.&#xd;
+&#xd;
+With your help, [proxy] begins to explain about the accident and the technology of Dr. David.&#xd;
+&#xd;
+-You story is very strange but I detect no lies. It seems the outside civilization is progressing at a rapid speed, living isolated like this makes you sometimes forget what is happening outside. Now let me look at that wound of yours.&#xd;
+&#xd;
+Elwing looks at you wound and walks to a side room. A bit latter she comes back with an vial with a green liquid. She applies the liquid on [proxy] wound that is starting to heal immediately.&#xd;
+&#xd;
+-Stay a bit longer and let us talk a bit about how the outside world has changed.&#xd;
+&#xd;
+[proxy] keeps Elwing company for a bit longer and talks about some of the new technologies available. At some point [proxy] tells Elwing that [heshe] really has to go.&#xd;
+&#xd;
+-I did not realize it but it has already become dark outside. Strange creatures lurk in these woods during the night. Be my guest for the night, tomorrow I will have you escorted back to your city.</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/first_bath_elwing</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>3</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

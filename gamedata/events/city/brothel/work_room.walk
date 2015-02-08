@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/work_room</name>
-  <descr>[Proxy] enters a room where Neferi expects [her] to work. Changing into a provocative outfit [heshe] readies [himher]self for the clients. &lt;%Include(&quot;brothel/preg_service_desc&quot;);%&gt;</descr>
+  <descr>[Proxy] enters a room where Neferi expects [her] to work. Changing into a provocative outfit [she] readies [her]self for the clients. &lt;%Include(&quot;brothel/preg_service_desc&quot;);%&gt;</descr>
   <conditions>GetPerFlag(&quot;brothel_ask_job&quot;) &gt; 0  &amp;&amp; GetPerFlag(&quot;nefri_warning&quot;) &lt; 2</conditions>
   <picturePath>city/brothel/work_room.jpg</picturePath>
   <choices>
@@ -30,6 +30,5 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

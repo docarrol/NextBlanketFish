@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/magic_shop/weight_loss</name>
+  <descr>-Oh, he sends another person, risk of the job if you ask me. Well the last girl he sent performed beyond my expectations on my prototype. &#xd;
+&#xd;
+I like to tinker a bit in my spare time and I made a machine that uses exercise of the human body to get rid of all the excess fat. With the bulk your caring that would take a long time without my invention. My machine could do it in only a couple of days. It did have an unexpected side effect however. The last girl that used it lost all her fat but turned in some kind of she Hulk, muscles all over. Back to the drawing board with that one, I have however a new prototype you are allowed to test.&#xd;
+&#xd;
+Christian disappears through a door in the corner of the shop and comes back carrying a normal looking ring.&#xd;
+&#xd;
+-I call this the ring of Fat Milk, I’m really bad at naming stuff. If your body is producing milk, this ring will boost the amount of calories used for creating the milk with a huge amount. The resulting milk might be a bit concentrated but it should provide no real harm to the drinkers of it. Earn cash by sell milk and lose weight at the same time, one of my best inventions ever if you ask me. I can sell you this miracle of modern science for 1000 coins, a real bargain of you ask me.</descr>
+  <conditions>GetPerFlag(&quot;weight.loss&quot;)==1;</conditions>
+  <picturePath>city/magic_shop/christian.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy ring (1000)</name>
+      <value>city/magic_shop/bought_ring</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

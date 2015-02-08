@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartthree</name>
+  <descr>[proxy] walks towards &lt;%activePartner.HisHer();%&gt; familair spot at the far end of the competition table. The other compatotors look a lot stronger and hungerier than those house wifes. [proxy] sits next to a rather heavy woman who makes the chair she sits on, creack with every move she makes. Before [proxy] can get conforable on her seat, Vicky apears infront of the table.
+
+-Welkom to Vicky&apos;s specialities eating competition. For todays match my brand new choclate milk is used. I created this choclate milk from a ancient famaly recipy using only the best ingrediants. The competition to day is simple, the first one who complets his or her drink wins. I hope you are all ready and emptied your bladder since this is going to be the best choclate milk you have ever drinkt so far.
+
+After the anouncement, Vicky enters the kitchen and comes back with 5 massive pitchers. She puts a pitcher down for every contestant togheter with a drinking glass that normaly could be used as pitcher and tells everyon to get ready.
+</descr>
+  <conditions>GetPerFlag(&quot;eating.comp&quot;)&gt;=4</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Drink the pitcher</name>
+      <value>muffin_top/eatingpartthreewin</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>To much milk</name>
+      <value>muffin_top/eatingpartthreelose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Stomach size to small</name>
+      <value>muffin_top/eatingpartthreelose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

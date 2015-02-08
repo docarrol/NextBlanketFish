@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hilltown/return_from_david</name>
-  <descr>As [proxy] is heading home, you think about it a little more. That&apos;s it; you can&apos;t do anything outside, but your contractors can! So you just need to find them some work, and train them to do it. Or, you can go on adventures with them... 
+  <descr>As [proxy] is going home, you think about it a little more. That&apos;s it; you can&apos;t do anything outside, but your contractors can! So you just need to find them some work, and train them to do it. Or, you can go on adventures with them... 
 
-Just now, [proxy] passed the entrance to the Red Light District. This might be a solution! The &quot;Entertainment industry&quot;! It is always in high demand, and if you can satisfy rare or unique demands, you can probably earn big money, rather quickly. 
+Just now, [proxy] passed the entrance to the Red Light District. This might be a solution! The &quot;Entertainment industry&quot;! It is always in high demand, and if you can satisfy rare or unique demands, you can probably earn big money, in a rather fast way. 
 
-The more you think about it, the more you realize that &quot;Yes, this can work&quot;. But you need to be careful; your contractors may not be so excited about all of this. So, first you will need to relax them enough to accept such things. And second, you need to train them physically to able to satisfy such tastes and accomplish their tasks. It&apos;s already looking like a plan!
+The more you think about it, the more you realize that &quot;Yes, this can work&quot;. But you need to be careful; your contractors may not be so excited about all of this. So, at first you need to relax them enough to accept such things. And second, you need to train them physically to able to satisfy such tastes and accomplish their tasks. It&apos;s already looking like a plan!
 &lt;%SetFlag(&quot;visit_david&quot;, 1); 
 SetFlag(&quot;auto_talk_at_start_walking&quot;, 1);
 &quot;&quot;%&gt;
@@ -22,6 +22,5 @@ SetFlag(&quot;auto_talk_at_start_walking&quot;, 1);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

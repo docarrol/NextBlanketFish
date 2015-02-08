@@ -1,7 +1,7 @@
 <fetishmaster.items.Item>
   <name>Adv. Lactaids Prototype</name>
   <descr>Test version of a new Lactaids invented by Dr. Felis.
-This pill is supposed to both trigger lactation and maintain consumer&apos;s current lactation if already lactating. The effect lasts for about one week.</descr>
+This pill is supposed to both trigger lactation and maintains the consumer&apos;s current lactation if already lactating. The effect lasts for about one week.</descr>
   <hourlyScript></hourlyScript>
   <useScript>self.setRNAactive(&quot;breasts.lact_rate&quot;, true);&#xd;
 self.updateEffect(&quot;breasts.lact_rate&quot;, &quot;lactaids&quot;, 100, 160, self.getName()+&quot;&apos;s breasts do not feel as warm anymore...&quot;);&#xd;

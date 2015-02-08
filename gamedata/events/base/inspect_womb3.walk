@@ -13,7 +13,7 @@ Belly Fat Volume: &lt;%(int)activePartner.getRNAValue(&quot;abdomen.fat&quot;);%
 
 
 </descr>
-  <conditions>activePartner.getRNAValue(&quot;abdomen.size&quot;) &gt;= 40 &amp;&amp; activePartner.getRNAValue(&quot;abdomen.size&quot;) &lt; 50 &amp;&amp; GetFlag(&quot;base_uterus_scanner&quot;) == 1 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
+  <conditions>activePartner.getRNAValue(&quot;abdomen.size&quot;) &gt;= 40 &amp;&amp; activePartner.getRNAValue(&quot;abdomen.size&quot;) &lt; 50 &amp;&amp; GetFlag(&quot;base_uterus_scanner&quot;) == 1) &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
   <picturePath>base/belly/enormousbelly.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>

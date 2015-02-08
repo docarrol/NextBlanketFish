@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_big</name>
+  <descr>[proxy] rings the bell at Himanka&apos;s house but the door is not opend. After a bit &lt;%activePartner.HeShe();%&gt; hears Himanka voice.&#xd;
+&#xd;
+-Hold on, I will be right with you.&#xd;
+&#xd;
+Soon the door is opens and Himanka comes into view. The changes to her shape are remarkable. Instead of her once small and firm waist now a large flab of fat is coming from under her to tight cloths. Her breasts have grown from large to massive and have become much softer over time. They require now support of her belly.&#xd;
+&#xd;
+-Oh, it you. Sorry that took so long, it seems that lately I seems to have a bit of trouble moving. Let go to that great restaurant again.&#xd;
+&#xd;
+The walk to the shrine takes a bit longer than usual because of Himanka&apos;s size.</descr>
+  <conditions>GetPerFlag(&quot;himanka_eaten&quot;)&gt;90 &amp;&amp; GetPerFlag(&quot;himanka_eaten&quot;)&lt;=200 &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=10000</conditions>
+  <picturePath>bathhouse/himanka4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Pizza</name>
+      <value>city/bathhouse/meet_himaka_pizzahigh</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meat</name>
+      <value>city/bathhouse/meet_himaka_meatlow</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

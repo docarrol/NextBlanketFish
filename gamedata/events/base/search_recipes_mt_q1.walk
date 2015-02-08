@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/search_recipes_mt_q1</name>
-  <descr>Leafing through the weighty tomes, [proxy] sees a small piece of paper slip out. On closer inspection [heshe] discovers it is a recipe for pancakes. A simple recipe, so it shouldn&apos;t require any special ingredients.
+  <descr>Leafing through the weighty tombs, [proxy] sees a small piece of paper flutter out. On closer inspection it is for pancakes. A simple recipe, it shouldn&apos;t require any special ingredients.
 &lt;%
 SetPerFlag(&quot;muffin_top_quest&quot; , 2);
  &quot;&quot;;%&gt;</descr>
@@ -12,6 +12,6 @@ SetPerFlag(&quot;muffin_top_quest&quot; , 2);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/bought_mithril</name>
+  <descr>[proxy] returns to Thovila and tells her that [heshe] managed to buy some raw Mithril of low density for her.&#xd;
+&#xd;
+-At Ironhill I only worked with the top grade stuff but those nobles spent money like water. Hammering out the imperfections from the Mithril will be a nice distraction for this place. Making your item will take a bit longer but I can assure you, the quality will be the same. &#xd;
+&#xd;
+Come back in about a week, hopefully I have finished your item by then.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>char/thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

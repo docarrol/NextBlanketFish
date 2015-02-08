@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/walk_back</name>
+  <descr>[proxy] notices Arwen standing near the village exit. [proxy] asks if Arwen can take [himher] back to the city.&#xd;
+&#xd;
+-You know the drill, here is the blindfold.&#xd;
+&#xd;
+[proxy] puts on the blindfold and a long blind walk later, [heshe] is back in the forest near the city.</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/archer2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/lightwood</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

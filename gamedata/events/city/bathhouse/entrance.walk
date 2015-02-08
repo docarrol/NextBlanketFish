@@ -1,0 +1,57 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entrance</name>
+  <descr>[proxy] is at the entrance area of the bathhouse.
+
+&lt;%Include(&quot;bathhouse/mattie&quot;);%&gt;</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)&gt;=1</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about restoring Bathhouse</name>
+      <value>city/bathhouse/restore_bathhouse</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Baths</name>
+      <value>city/bathhouse/bath</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit hot spring</name>
+      <value>city/bathhouse/hotspring</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Sauna</name>
+      <value>city/bathhouse/sauna</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit massage area</name>
+      <value>city/bathhouse/massage</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Collect profit</name>
+      <value>city/bathhouse/bathhouse_pay</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meet Mattie</name>
+      <value>city/bathhouse/mattie_milk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/outskirts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/enddual_karin_all</name>
+  <descr>The shaman start walking around them while talking in a strange language. He then starts to burn strange herbs in a small fire covering [proxy] and Karin in a strange smoke. He burns a large amount of herbs and when the smoke lifts. Karin’s breast have become a lot smaller while [proxy] breasts have dramasticly increased in size.&#xd;
+&#xd;
+[proxy] breasts feel very dense and heavy while walking back to the village. &#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)-(2*GetPerFlag(&quot;karin_extra&quot;))));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)-(4*GetPerFlag(&quot;karin_extra&quot;))));&#xd;
+self.addStat(&quot;breasts.size&quot;, (0.8*self.getStat(&quot;breasts.size&quot;)));&#xd;
+self.addStat(&quot;breasts.max_lactation&quot;, (2*GetPerFlag(&quot;karin_extra&quot;)));&#xd;
+self.setStat(&quot;breasts.lact_rate&quot;,0.1*self.getStat(&quot;breasts.max_lactation&quot;));&#xd;
+self.setRNAactive(&quot;breasts.lact_rate&quot;, true);&#xd;
+SetPerFlag(&quot;Talia_quest&quot;,8);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;karin_extra&quot;)&gt;200</conditions>
+  <picturePath>char/shaman.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/intro_machine_second_1</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

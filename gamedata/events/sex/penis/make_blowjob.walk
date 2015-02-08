@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>sex/penis/make_blowjob</name>
-  <descr>&lt;%Include(&quot;sex/calc_blowjob&quot;); &quot;&quot;;%&gt;With [hisher] limited skill, [Proxy] tries to give [Target] a blowjob, licking and sucking on [Target]&apos;s glans &lt;%Include(&quot;sex/blowjob_cum&quot;);%&gt;&#xd;
+  <descr>&lt;%Include(&quot;sex/calc_blowjob&quot;); &quot;&quot;;%&gt;With [her] little bit of skill, [Proxy] tries to give [Target] a blowjob, licking and sucking on [Target]&apos;s glans &lt;%Include(&quot;sex/blowjob_cum&quot;);%&gt;&#xd;
 </descr>
   <conditions>1</conditions>
   <picturePath>sex/blowjob.jpg</picturePath>
@@ -10,6 +10,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

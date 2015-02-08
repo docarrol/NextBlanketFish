@@ -1,12 +1,12 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hilltown/david_home_mt_quest1</name>
-  <descr>After greetings and some usual polite talk, you ask David if he could use his ties to order some special equipment even if it&apos;s not medical? 
+  <descr>After a greetings and some usual polite talks, you ask David, can he use his ties to order some special equipment even if it&apos;s not medical? 
 
 - I should be able to, as long as you can pay. What do you needed?
 
-You explain about separator for a farm. David goes to the next room and [proxy] hears him talking with someone over the phone. Few minutes later he returns.
+You explain about separator for a farm. David goes to the next room and [proxy] hears as he talking with someone through a phone. After few minutes he returns.
 
-- It will take a few days, and price will be 3000 coins. My contact is asking for a forward payment. Do you accept these terms?
+- This will take a few days, and price will be 3000 coins. My contact asking for a forward payment. Do you accept such terms?
 </descr>
   <conditions>GetFlag(&quot;muffin_top_quest&quot;)==4;</conditions>
   <picturePath>intro/doctor.jpg</picturePath>
@@ -14,10 +14,12 @@ You explain about separator for a farm. David goes to the next room and [proxy] 
     <fetishmaster.engine.WalkChoice>
       <name>Yes</name>
       <value>city/hilltown/david_mtq1_yes</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hilltown</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -25,5 +27,5 @@ You explain about separator for a farm. David goes to the next room and [proxy] 
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

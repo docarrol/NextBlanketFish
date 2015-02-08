@@ -4,7 +4,7 @@
 
 [Proxy] apologizes for not yet having the sample she has requested.
 
-- Sorry if I forgot to tell you how to get to the farm. You can reach it by going to the outskirts then heading towards the edge of the city. There you will see a small shop that sits near the road to the farm. I know it&apos;s a bit out of the way, but this is important to me and I appreciate your assistance with this task.
+- I apologize [proxy] if I forgot to inform you about how to get to the farm. You can reach it by going to the outskirts then head towards the edge of the city. There you will see a small shop that sits near a road to the farm. I know it&apos;s a little out of the way, but it is important to me and I appreciate you helping me with this task.
 
 
 </text>

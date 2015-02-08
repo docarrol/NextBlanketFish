@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/shaman_second</name>
+  <descr>After a long walk through the forest [proxy] and Kiana enter the clearing again. Before [proxy] has the chance to speak the loud voice of the shaman sounds.&#xd;
+&#xd;
+-I can feel the blessing which means that you completed the second trail. The final trail is the trail of bounty. A real female can provide a well-deserved drink for the man. Your final task is serving at least, mhh, 10 liters of fresh milk. A real man does not drink from bottles so make sure you store the milk in your breasts.&#xd;
+&#xd;
+[proxy] awnsers with the following:&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>char/Shaman.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Object to this trail</name>
+      <value>kt_village/shaman_sec_anger</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Agree to this ridiculous trail</name>
+      <value>kt_village/shaman_sec_res_weak</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

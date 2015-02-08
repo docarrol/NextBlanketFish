@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/merril/talk</name>
-  <descr>&lt;%Include(&quot;char/merril_init&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;char/merril_display&quot;); &quot;&quot;;%&gt;[proxy] has a friendly chat with Merril for some time, and Merril tells [proxy]:
+  <descr>&lt;%Include(&quot;char/merril_init&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;char/merril_display&quot;); &quot;&quot;;%&gt;[proxy] have some friendly chat with Merril for some time, and Merril tell [proxy]:
 
 &lt;%Include(&quot;merril_home/talk&quot;);%&gt;
 &lt;%LustShame(5, 30); &quot;&quot;;%&gt;
@@ -13,5 +13,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

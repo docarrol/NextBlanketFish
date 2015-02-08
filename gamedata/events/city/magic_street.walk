@@ -17,6 +17,21 @@
       <value>city/magic_shop/greetings</value>
       <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Morgan</name>
+      <value>city/sorceress/sorceress_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Morgan</name>
+      <value>city/sorceress/sorceress_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit Morgan</name>
+      <value>city/sorceress/sorceress_eat</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
   <time>0</time>

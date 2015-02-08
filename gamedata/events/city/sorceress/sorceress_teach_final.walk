@@ -1,0 +1,44 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_teach_final</name>
+  <descr>[proxy] approaches Morgan and asks if [heshe] can learn more about magic.&#xd;
+&#xd;
+-Sure, but my pussy needs some attention first, follow me.&#xd;
+&#xd;
+[proxy] follows Morgan to her hobby room where both [proxy] and Morgan start to undress. &#xd;
+&#xd;
+-Lay down on the bed.&#xd;
+&#xd;
+[proxy] lays down on the large bed positioned in the center of the room and Morgan starts stroking and sucking [proxy] &lt;% IncludeRange(proxy.getStat(&quot;penis.length&quot;),&quot;penislength&quot;);%&gt; penis. She soon switches the focus of one of her hands to [proxy]  &lt;% IncludeRange(proxy.getStat(&quot;balls.size&quot;),&quot;ballssize&quot;);%&gt; balls. Once [proxy] penis has reached its maximum size, Morgan stops sucking it.&#xd;
+Without any preperations from [proxy] Morgan shoves [proxy] &lt;% IncludeRange(proxy.getStat(&quot;penis.length&quot;),&quot;penislength&quot;);%&gt; penis inside her pussy. The horny sorceress is already so wet that [proxy] hardly feels any resistance. With [proxy] dick now inside, Morgan starts moving. It does not take long for [proxy] to come.&#xd;
+&#xd;
+&lt;%Include(&quot;morgan/cum&quot;);%&gt;&#xd;
+&#xd;
+-Since you have done your part, follow me.&#xd;
+&#xd;
+Morgan takes [proxy] to the library where she teaches [proxy] magic for a bit. &#xd;
+&#xd;
+-If you want to learn more, come back later.&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;magic_skill&quot;, GetPerFlag(&quot;magic_skill&quot;)+3);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/sorceres_home/sorceress_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>3</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

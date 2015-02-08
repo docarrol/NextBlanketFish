@@ -2,7 +2,7 @@
   <name>commoners/offer_sex_no_not_ready</name>
   <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;[Proxy] spends some time talking with &lt;% c.getName();%&gt;. [HeShe] begins to flirt with &lt;% c.HimHer();%&gt; and tries to seduce &lt;% c.getName();%&gt; into having sex, but &lt;% c.HeShe();%&gt; refuses.
 
-- No. I don&apos;t feel like it...
+- No. I&apos;m not feel like this...
 &lt;%LustShame(5,35); &quot;&quot;;%&gt;&lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
   <conditions>(proxy.getStat(ctv.getUID()+ &quot;.relations&quot;) &gt;= 20) &amp;&amp; ctv.getStatText(&quot;generic.sex_place&quot;) != &quot;&quot; &amp;&amp; (ctv.getStat(&quot;generic.lewdness&quot;) &lt; 50);</conditions>
   <picturePath></picturePath>
@@ -17,6 +17,5 @@
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

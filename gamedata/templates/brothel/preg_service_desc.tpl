@@ -1,6 +1,6 @@
 <fetishmaster.engine.TextTemplate>
   <conditions>GetPerFlag(&quot;neferi_preg_play_intro&quot;) &gt; 0;</conditions>
-  <text>[She] can also call a client for special service. Though [she] needs to decide: get a new client, or continue with the current one?</text>
+  <text>Also [she] can call a client for the special service. Though [she] need to decide: get new one, or show [her]self to the previous?</text>
   <priority>0</priority>
   <picturePath></picturePath>
   <choices/>

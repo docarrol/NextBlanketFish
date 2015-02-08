@@ -1,0 +1,49 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/buy_bathhouse</name>
+  <descr>[proxy] decides to take a shortcut and gets horribly lost in the outskirts. At some point &lt;%activePartner.HeShe();%&gt; stands for a rundown bathhouse &lt;%activePartner.HeShe();%&gt; never knew that existed.&#xd;
+&#xd;
+Out of curiosity [proxy] enters the bathhouse and is greeted by an elderly couple.&#xd;
+&#xd;
+-Hey Ficky, welcome back, how are you today.&#xd;
+&#xd;
+What??&#xd;
+&#xd;
+-Put on your glasses your old fool. &lt;%activePartner.HeShe();%&gt; does not even look close like Ficky.&#xd;
+&#xd;
+The old man put on his glasses.&#xd;
+&#xd;
+-Oh, sorry, how can I be of service?&#xd;
+&#xd;
+[proxy] asks why they are still running this bathhouse at their old age.&#xd;
+&#xd;
+-That old tart gambled away our money, so we are stuck managing this dump. Interested in owning a bathhouse?&#xd;
+&#xd;
+[proxy] knows very little about running a bathhouse but it might be fun.&#xd;
+&#xd;
+How much?&#xd;
+&#xd;
+-For this shithole we want let say, 5000 coins. A real bargain. Great real state value to be honest, I’m sure the prices doubles in 5 to 10 years when we are already dead.&#xd;
+&#xd;
+</descr>
+  <conditions>GetFlag(&quot;found_outskirt_bathhouse&quot;)== 1 &amp;&amp; GetFlag(&quot;bathhouse&quot;)&lt;1</conditions>
+  <picturePath>bathhouse/old_owners.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy bathhouse (5000)</name>
+      <value>city/bathhouse/bough_bathhouse</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/outskirts</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

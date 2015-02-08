@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_small</name>
+  <descr>[proxy] enters the room where Karin is waiting in.&#xd;
+&#xd;
+What type of training are [proxy] and Karin going to do this time.</descr>
+  <conditions>GetPerFlag(&quot;karin_cap&quot;)&gt;=500 &amp;&amp; GetPerFlag(&quot;karin_cap&quot;)&lt;3000  &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/small.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Use milker</name>
+      <value>kt_village/milkbarn/milk_karin_small</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Massage breasts</name>
+      <value>kt_village/milkbarn/massage_karin_normal</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Let breasts fill up</name>
+      <value>kt_village/milkbarn/letfill_karin_small</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Measure breasts</name>
+      <value>kt_village/milkbarn/measure_karin</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

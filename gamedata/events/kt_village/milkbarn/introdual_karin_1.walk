@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/introdual_karin_1</name>
+  <descr>Mathilda comes closer and tells Karin&#xd;
+&#xd;
+-Do not worry I will make sure you will win but I’m going to need your help [proxy]&#xd;
+&#xd;
+Before Mathilda continues [proxy] asks what the huge increase in breast size of Talia caused and if they could do the same.&#xd;
+&#xd;
+-I know what caused it and you really do not want to do the same. You know the special mixture of herbs that are mixed trough the milk girls food. A large doses of it has recently disappeared from storage, I now know who took it but I have no proof. What she done is more than dangerous, the herbs make the body think it is expecting a baby. That way the body is actively trying to provide more milk for the baby it is expecting. The doses in the food is just high enough to trick the body but low enough to prevent any side effects. Because it is mixed with the food it is slowly absorbed inside of the body.&#xd;
+&#xd;
+Taking a large doses like Talia did gives a huge boost but nearly always causes extreme side effects. The last case of someone taking such a doses, caused her death. The large doses caused her mind to think she had a baby, she did not eat, sleep or do anything else till she found the not existing baby, it ended badly. &#xd;
+&#xd;
+[proxy] and Karin agree that taking a doses like Talia might not best idea. [proxy] then asks how Karin is then going to beat Talia.&#xd;
+&#xd;
+-Talia’s breast just became a lot bigger. Such a huge change takes time to process. She is only able to use part of her new larger breasts to produce milk. To match this extra capacity we are going to need the help of the shaman. He knows how important this place is for the village and was not too happy about the potion Talia gave Karin. Luckily I have no appointments now, let’s go see him right away. The more time we have for the dual the better.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/introdual_karin_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>2</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

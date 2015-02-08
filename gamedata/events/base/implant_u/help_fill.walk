@@ -9,7 +9,8 @@ c=partner;&#xd;
 &lt;%Include(&quot;base/p_i_h_fill&quot;);%&gt;&#xd;
 &lt;%LustShame(10, 50);&#xd;
 RemoveItem(&quot;saline_pack&quot;);&#xd;
-proxy.doAction(&quot;ut_implant_fill&quot;);&#xd;
+sal = proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);&#xd;
+proxy.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, sal+300);&#xd;
 LustShame(c, 5, 50);&#xd;
  &quot;&quot;;%&gt;</descr>
   <conditions>HasItem(&quot;saline_pack&quot;);</conditions>
@@ -18,6 +19,7 @@ LustShame(c, 5, 50);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>base/sex/u_implant</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -25,6 +27,6 @@ LustShame(c, 5, 50);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

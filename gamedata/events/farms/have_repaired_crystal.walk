@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/have_repaired_crystal</name>
-  <descr>Not saying a word, [proxy] smiles at Belanika as [heshe] unslings [hisher] travel satchel and opens it. Reaching into it, [heshe] finds what [heshe] is looking for and slowly pulls it out. Belanika&apos;s eyes open wide when she sees [proxy] pulling the repaired mana crystal out of [hisher] satchel, squealing with delight.
+  <descr>Not saying a word, [proxy] smiles at Belanika as [heshe] unslings [hisher] travel satchel and opens it. Reaching into it, [heshe] finds what [heshe] is looking for and slowly pulls it out. Belanika&apos;s eyes begin to open wide when seeing [proxy] pulling the repaired mana crystal out of [hisher] satchel, squealing with delight.
 
 - Oh, you did it [proxy]! Thank you thank you, thank you! Please hurry and put it in!
 
@@ -16,10 +16,12 @@ res;</conditions>
     <fetishmaster.engine.WalkChoice>
       <name>Repair Milker</name>
       <value>farms/bealnika_milker_repaired</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -27,5 +29,5 @@ res;</conditions>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_breeder_start</name>
+  <descr>-I’m sorry, the elder is currently not receiving any visitors, come back in a couple of days. Oh, wait, it is you. You are responsible for this, I think the elder wants to meet you. She is in the bath.&#xd;
+&#xd;
+[proxy] follows the assistant, she guides you to a room where [proxy] can undresses before entering the bath. When [proxy] starts to undress, the assistant starts helping. Very efficiently she helps undress [proxy] and then leaves. [proxy] enters the bath and detects Elwing.&#xd;
+&#xd;
+Elwing is clearly pregnant. Her belly has a nice little dome shape and some milk is dripping from he nipples. When Elwing notices your presents.&#xd;
+&#xd;
+-Your back, come join me in bath. I don’t know what you did last time but, in a short time I got such a large belly and my breasts feel so full. I also feel so horny most of the time. I want you to help like last time.&#xd;
+&#xd;
+[proxy] sits next to Elwing and uses one of [hisher] hands to start fingering Elwing. With [hisher] other hand [heshe] takes one of Elwing’s breasts and puts the nipple in [hisher] mouth. [heshe] then starts sucking and a stream of milk enters [proxy] mouth.&#xd;
+&#xd;
+After Elwing has come the first time [proxy] guides her to sit on [hisher] lap with their faces faced to eachother. Inserting [proxy] dick in her pussy is a bit of a challenge because Elwing’s pregnant belly is in the way. But soon Elwing is moving slowly up and down, fucking [proxy] dick. Elwing’s pussy is even tighter than before because of her pregnant belly. [proxy] meanwhile is massaging Elwing’s breasts, small streams of milk shoot from them that mix with the bath water. After both [proxy] and Elwing has come they rest for a bit in the bath. Small quantities of milk and cum float trough the bath water.&#xd;
+&#xd;
+-Thank you for your help. I have never experienced anything like this before. I would have never thought that I would become pregnant, but I fear this is only the beginning.&#xd;
+&#xd;
+[proxy] asks what she means by that.&#xd;
+&#xd;
+-As I told you before, dark elves are only fertile in very rare occasions, but once they are fertile a baby boom happens. A lot of new elves are born in a for us short period of time. I never met another fertile dark elf so I have no idea what happens next. I hope you come visit me soon again, you are knowledgeable on some area’s I’m severely lacking in.&#xd;
+&#xd;
+[proxy] asks why she does not ask help of the other elves, not that [heshe] minds the fucking her.&#xd;
+&#xd;
+-They see me as a guide, how can I uphold their beliefs if I don’t even know basic stuff like this.&#xd;
+&#xd;
+[proxy] and Elwing stay a bit longer in the bath, while [proxy] teaches Elwing how she could milk her breasts by herself. Soon even more milk is flowing through the bathwater.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,3);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays()+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==2 &amp;&amp; GetPerFlag(&quot;elwing_wait&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>elves/queen4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>3</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

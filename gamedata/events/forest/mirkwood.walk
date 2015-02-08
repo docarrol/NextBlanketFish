@@ -1,12 +1,13 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/mirkwood</name>
-  <descr>This is mirkwood, the darker forest zone. If you&apos;re unlucky, you can encounter very dangerous beasts while wandering these woods. But many truly valuable alchemical and magical ingredients can be found only here.</descr>
+  <descr>This is mirkwood, the darker forest zone. If you&apos;re unlucky, there&apos;s the possibility of encountering very dangerous beasts while wandering the woods. But many truly valuable alchemical and magical ingredients can be found only here.</descr>
   <conditions>1</conditions>
   <picturePath>forest/mirkwood.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Search around (1h)</name>
       <value>forest/in_mirkwood</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -14,5 +15,5 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

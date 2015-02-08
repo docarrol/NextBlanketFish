@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/belanika_felis_request</name>
-  <descr>[proxy] explains to Belanika that Dr. Felis from the city hospital asked [himher] to come check on her plus get a sample. Belanika laughs and smiles at the mention of the doctor&apos;s name.
+  <descr>[proxy] explains to Belanika that Dr. Felis from the city hospital asked them to come check on her plus get a sample. Belanika laughs and smiles at the mention of the doctor&apos;s name.
 
 - Ah, my long time friend. She&apos;s always been pretty interested in me, but I don&apos;t feel... Oops! I guess you&apos;re here to collect a sample, not gossip.
 
-Smiling at [proxy], cowgirl begins to knead the sides of her upper pair of breasts, stifling a moan as small beads of milk begin to form on her distended nipples. After calming back down, Belanika giggles softly and looks at [himher].
+Smiling at [proxy], the cowgirl begins to knead the sides of her upper pair of breasts, stifling a moan as small beads of milk begin to form on her turgid nipples. After calming back down, Belanika giggles softly and looks at [himher].
 
 - Be my guest. Take what you need.
 
@@ -28,6 +28,6 @@ AddItem(&quot;belanika_milk_sample&quot;);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

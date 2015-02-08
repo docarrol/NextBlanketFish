@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_buyspells</name>
+  <descr>[proxy] asks Morgan if [heshe] can learn some useful spells.&#xd;
+&#xd;
+-I can teach you small spell but they are not fun to use. Instead I can sell you tablets containing much more interesting spells. These spells require depending on their properties a large amount of energy. My lessons are teaching you to provide this energy more efficient. I will sell you these tablets at a point I deem safe for you to use them. You can however give these tables to another untrained person. I’m not responsible for the effect such foolish actions can have.&#xd;
+&#xd;
+So do you see any spells you like to buy.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>city/sorceress/sorceress_enterance_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy weight loss spell (500)</name>
+      <value>city/sorceress/sorceress_spell_weightloss</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy larger penis spell (1000)</name>
+      <value>city/sorceress/sorceress_spell_larger_penis</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy milky boobs spell (1000)</name>
+      <value>city/sorceress/sorceress_spell_milk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy faster balls spell (1500)</name>
+      <value>city/sorceress/sorceress_spell_fballs</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Buy larger balls spell (2000)</name>
+      <value>city/sorceress/sorceress_spell_lballs</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

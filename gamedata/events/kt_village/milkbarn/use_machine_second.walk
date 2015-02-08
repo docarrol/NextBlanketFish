@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/use_machine_second</name>
+  <descr>Mathilda guides them to her private hallway behind the milking machines. She opens another door this time and all three enter.&#xd;
+&#xd;
+-The machine in this room was designed to increase the milk production of breasts. Special suction cups draw every last drop of milk from the users breasts and make sure they stay dry. Meanwhile a special solution is pumped in the users stomach to provide nutrients for producing more milk. The overload of nutrients combined with empty breasts will cause your milk production to rise. &#xd;
+&#xd;
+[proxy] helps Mathilda strap Karin in the machine.&#xd;
+Mathilda then activates the machine. The two suction cups immediate start sucking all the milk from Karin´s breasts. The hose in her mouth meanwhile starts pumping out food. It does not take long for Karin´s belly to become bloated by all the food. &#xd;
+&#xd;
+Karin will have to stay in the machines for a couple of hours. I will help her then so you don’t have to wait for hours. Look at the time, I have a meeting to attend too. See you later.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)*1.2));&#xd;
+SetPerFlag(&quot;karin_stom&quot;,(GetPerFlag(&quot;karin_stom&quot;)+6));&#xd;
+SetPerFlag(&quot;karin_ener&quot;,(GetPerFlag(&quot;karin_ener&quot;)-40));&#xd;
+SetPerFlag(&quot;karin_food&quot;,(GetPerFlag(&quot;karin_food&quot;)+30));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/train_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

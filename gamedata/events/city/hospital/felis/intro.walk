@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/felis/intro</name>
-  <descr>After wandering for a bit, [Proxy] finds a door that is not completely closed leading to a rather large lab. Curiosity getting the better of [himher], [she] looks through the open doorway and sees a woman in a doctor&apos;s robe working on something. Before [proxy] can duck out of sight, the woman inside the room notices [proxy], stops what she is working on, and smiles at [himher].&#xd;
+  <descr>After wandering for a bit, [Proxy] finds a door in the rather large lab that is not closed all the way. Curiosity getting the better of [himher], she looks through the open doorway and sees a woman in a doctor&apos;s robe working on something. Before [proxy] can duck out of sight, the woman inside the room notices [proxy], stops what she is working on, and smiles at [himher].&#xd;
 &#xd;
 - Hello. I am doctor Andrea Felis. Are you lost or looking for something?&#xd;
 &#xd;
-[Proxy] blushes and stammers that [heshe] got lost and apologizes for interrupting her work. As [heshe] turns to leave, Dr. Felis asks [himher] to wait.&#xd;
+[Proxy] blushes while stammering that [heshe] got lost and apologizes for interrupting her work. As [heshe] turns to leave, Dr. Felis asks [himher] to wait.&#xd;
 &#xd;
 &lt;%DisplayChar(&quot;char/felis.png&quot;); &quot;&quot;;%&gt;&#xd;
 &lt;%Include(&quot;hospital/felis/in_lab_say&quot;);%&gt;&#xd;
@@ -16,6 +16,7 @@
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -23,6 +24,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_walk_5</name>
+  <descr> [proxy] &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly is completely full of food. A ball of compressed food is surrounded by the food [proxy] recently ate. Thovila told [proxy] to only use the compression magic once and it sounds smart to follow that advice.
+
+With a swollen stomach [proxy] slowly makes his way back to the zeppelin. After dropping down at the first available chair on the zeppelin [proxy] tells Thovila the bad news.
+
+-I really wished you managed to reach her, but at least now you know what you have to do next time. Come meet me again once your stomach is empty again, I should be able to get you access for another try.
+
+&lt;%
+SetPerFlag(&quot;dwarfparty_eat&quot;,0);
+SetPerFlag(&quot;partycurtain&quot;,0);
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;,(self.getStat(&quot;generic.calories&quot;)/200), 168);
+&quot;&quot;;%&gt;
+
+</descr>
+  <conditions>GetPerFlag(&quot;dwarfparty_eat&quot;)==5</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

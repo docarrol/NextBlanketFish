@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/start_curtain_6</name>
+  <descr>[proxy] passes the curtain and is greeted by an noble female dwarf.&#xd;
+&#xd;
+-Oh a foreigner, how interesting.&#xd;
+&#xd;
+[proxy] explains that she is a friend of Thovila and is here to demonstrate Thovila’s latest corset.&#xd;
+&#xd;
+-I managed to avoid enough parties so far to not requiring a corset yet but I heard Thovila’s corsets are the best available. I’m happy she is making them again after that mess she got in. The reason why I’m at this party is to spread this new food of mine. Some contacts of mine went to extreme length to obtain this food. I made it my task to spread this food trough the entire dwarven kingdom. Since you are a outsider you might have heard of it, you foreigners call it éclairs. My game for you is, give the one word that describes the this food.</descr>
+  <conditions>GetPerFlag(&quot;partycurtain&quot;)==5</conditions>
+  <picturePath>kt_village/dwarfs/dwarf6.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Delicious</name>
+      <value>kt_village/dwarvenparty/eat_curtain_6_lose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Godly</name>
+      <value>kt_village/dwarvenparty/eat_curtain_6_lose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Irresistible</name>
+      <value>kt_village/dwarvenparty/eat_curtain_6_lose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Mouthwatering</name>
+      <value>kt_village/dwarvenparty/eat_curtain_6_lose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Perfect chocolate with rich cream combined food of the gods</name>
+      <value>kt_village/dwarvenparty/eat_curtain_6_win</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

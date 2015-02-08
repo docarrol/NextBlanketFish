@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/learn_recipe</name>
-  <descr>[proxy] asks Elise how her pussy grew this impossibly large.
+  <descr>[proxy] ask Elise how her pussy grew this impossibly large.
 
 - That&apos;s from a special cream I discovered, if you have an alchemy set, you could easily do it yourself. It takes a hefty dose of pussy goo - about 50 bottles, 2 Gestamins - go see the pet shop guy for this, and 2 horse beans - you can find those in the forest. Brew all of this together and there you go, just lather up you pussy with the mixture and watch it grow!
 
@@ -20,6 +20,5 @@ SetFlag(&quot;know_special_recipe&quot;, 1);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entershrine_first_b</name>
+  <descr>[proxy] arrives at the shrine and notices the large closed doors. Located before the doors is a large flat plate. [proxy] tries standing on it but nothing happens. &lt;%activePartner.HeShe();%&gt;  then tries to open the large doors by pulling the handles but the door does not move.  &lt;%activePartner.HeShe();%&gt; then hears a voice in [hisher] head.&#xd;
+&#xd;
+-There is already a priestess in training, come back once the training is finished.</descr>
+  <conditions>GetFlag(&quot;new_ priestess&quot;)==1 &amp;&amp; GetPerFlag(&quot;edesia&quot;)&lt;1 </conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>city/bathhouse/hotspring</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

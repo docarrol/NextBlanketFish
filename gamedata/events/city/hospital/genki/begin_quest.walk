@@ -31,14 +31,14 @@ After [proxy] is lying back on the chair with her legs in the stirrups, Dr. Genk
 - Even though you have volunteered for this, there is still the possibility that you will give me some trouble. I apologize, but this will just make it easier for the both of us.
 
 Before [proxy] can ask Dr. Genki how much more [she] can cooperate, he places the gas mask over [her] nose and mouth. After a few breaths from it, [her] consciousness begins to fade...
-&lt;%SetFlag(&quot;genki_experiment&quot;,1);
-SetPerFlag(&quot;genki_experiment&quot;,1); &quot;&quot;;%&gt;</descr>
+</descr>
   <conditions>1;</conditions>
   <picturePath>city/hospital/genki_gyno.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/hospital/genki/wake_up_later</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -46,6 +46,6 @@ SetPerFlag(&quot;genki_experiment&quot;,1); &quot;&quot;;%&gt;</descr>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -43,6 +43,16 @@ res;</conditions>
       <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
+      <name>Ask about losing weight </name>
+      <value>city/magic_shop/weight_loss</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ask about Technomagic </name>
+      <value>city/magic_shop/thovila_offer</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/magic_street</value>
       <chance>0</chance>

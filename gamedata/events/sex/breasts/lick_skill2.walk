@@ -2,7 +2,7 @@
   <name>sex/breasts/lick_skill2</name>
   <descr>[Proxy] kisses and licks [target]&apos;s breasts. Sucking on the nipples while kneading [target]&apos;s breasts to the tune of [t-hisher] moans, [Proxy] suddenly gives a gentle bite, making [target] scream out in bliss.
 &lt;%Include(&quot;sex/calc_breasts_lick&quot;); &quot;&quot;;%&gt;</descr>
-  <conditions>proxy.getStat(&quot;skill.oral&quot;)&gt;60;</conditions>
+  <conditions>proxy.getStat(&quot;generic.kiss&quot;)&gt;60;</conditions>
   <picturePath></picturePath>
   <choices/>
   <defaultNext>New event</defaultNext>

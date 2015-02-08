@@ -2,11 +2,11 @@
   <name>city/hospital/genki/in_cabinet_q3</name>
   <descr>When [proxy] knocks on the door and walks into Dr. Genki&apos;s office, [she] finds him sitting on the couch closing some folders as [she] enters and shuffling them together. Afterwards, he stands and gestures towards the examination room.
 
-- Hello [proxy], after you. You know the procedure by now. Except this time you don&apos;t need to put on a gown, you will also need to step on the scale.
+- Hello [proxy], after you. You know the procedure by now. Except this time do not put on a gown and step onto the scale.
 
 [proxy] grows wide-eyed and blushes, rubbing her [=proxy][belly] and nodding a couple times before walking ahead of Dr. Genki into the examination room. [She] wonders to [her]self how much more of this indignity [she] has to suffer before the doctor is satisfied as [she] takes off her clothes and nervously stands on the scale. After taking down her current weight he then uses the cloth measuring tape to carefully measure her belly and hips, jotting the numbers down onto a notepad, before putting it back down and picking up a camera to take some photos. [Proxy] remembers the photos [she] saw in the doctor&apos;s files and asks him to please not take any pictures.
 
-- It is only your belly I am interested in. But since you have been so cooperative [proxy], I will make sure that your face is not in any of the photographs. When I am done taking them, please take a seat on the exam table so we can finish.
+- It is only your belly I am interested in. But since you have been so cooperative [proxy], I will insure that your face is not in any of the photographs. When I am done taking them, please take a seat on the exam table so we can finish.
 
 After Dr. Genki snaps a few pictures, [proxy] goes to sit down on the table like he had asked while he puts the camera down and wheels a machine over.
 
@@ -24,6 +24,7 @@ Turning on the machine, Dr. Genki smears a cool, clear, lotion around her [belly
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -31,6 +32,6 @@ Turning on the machine, Dr. Genki smears a cool, clear, lotion around her [belly
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

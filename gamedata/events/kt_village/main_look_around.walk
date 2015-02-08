@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>kt_village/main_look_around</name>
-  <descr>You don&apos;t see anything interesting happening around here.</descr>
+  <descr>You see nothing interesting happening around the area.</descr>
   <conditions>1;</conditions>
   <picturePath>kt_village/village.jpg</picturePath>
   <choices/>
@@ -9,6 +9,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

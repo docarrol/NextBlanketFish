@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/seafront</name>
-  <descr>You have entered the Seafront. This is a small district separated from the rest of the city that grew from the coastal fishing village. Although people do visit, most would not consider this a tourist area.
+  <descr>You have entered the Seafront. This is a small separate part of the city founded on the coast that grew from a fishing village. Although people do visit, most would not consider it a tourist area.
 
-Far up the coast you can see a main harbour used by the whole city. It does not affect the life here. The sea is clean and this place is quiet.
+Very far from here up the coast you can see a harbour used by the whole city. It does not affect life here. The sea is clean and this place is quiet.
 
 &lt;%Include(&quot;seafront/muffin&quot;);%&gt;&lt;%Include(&quot;seafront/kiana_walk&quot;);%&gt;
   </descr>
@@ -12,14 +12,17 @@ Far up the coast you can see a main harbour used by the whole city. It does not 
     <fetishmaster.engine.WalkChoice>
       <name>Road to Outskirts</name>
       <value>city/path_to_seafront</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Lane to Hilltown</name>
       <value>city/lane_to_seafront</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>To the Beach</name>
       <value>sea/beach</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -27,6 +30,6 @@ Far up the coast you can see a main harbour used by the whole city. It does not 
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

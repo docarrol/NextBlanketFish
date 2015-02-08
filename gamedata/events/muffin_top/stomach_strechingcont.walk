@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_strechingcont</name>
+  <descr>[proxy] ask Vicky, that was only the starter? I am filled to the brink, how do you expect me too eat even more.&#xd;
+&#xd;
+-No worries, I told you earlier already that my family has some secret recipes to improve the training. Here drink this; it will help with the rest of the training.&#xd;
+&#xd;
+Vicky hands [proxy] a large glass filled with a white liquid. Before drinking it [proxy] smell the content of the glass, the smell is a bit like milk with some other unfamiliar scents mixed in. Drinking the entire glass proves a challenge for [proxy], &lt;%activePartner.HisHer();%&gt; stomach is already filled too its capacity. Vicky in the meantime collects the now empty plates and retreats to the kitchen.&#xd;
+&#xd;
+While waiting for Vicky to return [proxy] starts to get a bit sleepy, &lt;%activePartner.HisHer();%&gt; stomach filled to the brim with enough calories to provide a health nut a heart attack. Before [proxy] is completely sleeping, &lt;%activePartner.HeShe();%&gt; is waked up by Vicky. In front of [proxy] Vicky placed the largest plate &lt;%activePartner.HeShe();%&gt; has ever seen. A plate might not be the best description; it looks more like a satellite dish. The dish is stacked with food; one could play a game of Jenga with it. To [proxy] surplice it seems that the tower of food brought friends. On the table multiple of these food towers where placed by Vicky. &#xd;
+&#xd;
+-Enjoy the main course. I worked hard creating it so I expect you to finish it all.&#xd;
+&#xd;
+What is Vicky thinking, no human could possibly eat this all. Surely not [proxy] with an already more than full stomach. This would require a large family, no the complete restaurant to eat all. Vicky notices your confusion.&#xd;
+&#xd;
+-Why are you waiting to start eating, let me help you, just sit back and enjoy.&#xd;
+&#xd;
+Before [proxy] has a chance to response Vicky takes the first large section of food from the top of the first pile and shoves it in your mouth. Chocolate brownies, Vicky really seems to like Chocolate. Vicky places food in a high pace in [proxy] mouth. She seems to be an expert at it, [proxy] tries to struggle at first but soon gives up. &lt;%activePartner.HeShe();%&gt; can only swallow the food fast enough to avoid cocking in it. Vicky seems to enjoy this and show zero mercy.&#xd;
+&#xd;
+The feeding process feels like taking ages, finally Vicky stops for a bit. It seems [proxy] cleared the first plate. &lt;%activePartner.HisHer();%&gt; stomach went from full and painful to nonexistent. The mixture of ingredients used by Vicky somehow blocked all the signals to the brain from the stomach. Looking down [proxy] notices that her stomach went from big to simply huge. &lt;%activePartner.HeShe();%&gt;&lt;%activePartner.HeShe();%&gt; had no idea that a stomach of this size was even possible. Before &lt;%activePartner.HeShe();%&gt; can give much more thought about this, Vicky continues feeding.&#xd;
+&#xd;
+Over time the number of food tower on the table slowly decreases while [proxy] stomach passes the state of huge and arrive in the domain of impossible. Somewhere along this process [proxy] loses consciousness and continues to eat based on natural reflexes.</descr>
+  <conditions>1</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Wake up</name>
+      <value>base/after_vicky_train</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

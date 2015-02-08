@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_first_meeting</name>
+  <descr>[proxy] has to ask directions multiple times to find Morgan’s shop. Nearly no one has even heard about it let alone know where it is located. Finally someone points [proxy] in the direction of a door hidden down a stairs in some side street. When [proxy] opens the door, [heshe] is greeted by darkness. &#xd;
+&#xd;
+After a few moments, [proxy] eyes start to get used to the lack of light and [heshe] can see shelves filled with books and skulls, lots of skulls. [proxy] notices Morgan sitting in a corner with a glowing skull in her hand.&#xd;
+&#xd;
+-what do you want to buy. A potion to kill that annoying neighbor without anyone knowing it was you or a simple spell that makes the word slut appear on your cheating friend………… Oh wait it is you.&#xd;
+Sorry for my sells pitch, most customers come for that kind of goods. I guess you are here to learn some more about magic. &#xd;
+&#xd;
+She spreads here legs even further showing her pussy only covert by a small black string.&#xd;
+&#xd;
+-Make me feel good on this boring day and I might tell you some useful things.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;sorceress&quot;)==1 &amp;&amp; GetPerFlag(&quot;magic_skill&quot;)&lt;1</conditions>
+  <picturePath>city/sorceres_home/sorceress_home.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Service Morgan</name>
+      <value>city/sorceress/sorceress_teach_basics</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

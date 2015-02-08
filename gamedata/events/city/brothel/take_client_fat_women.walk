@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/take_client_fat_women</name>
+  <descr>&#xd;
+A fat woman walks into [Proxy]&apos;s room and starts to undress and prompts you to do the same. Her body jiggles all over as she disrobes. She rubs the sides of her belly and says:&#xd;
+&#xd;
+-I want you to make me feel amazing</descr>
+  <conditions>res=false; 
+if (proxy.hasOrgan(&quot;penis&quot;))
+{res=Chance(70);}
+else 
+{res=Chance(30);}
+res;</conditions>
+  <picturePath>city/brothel/work_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/brothel/client_fat_woman</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

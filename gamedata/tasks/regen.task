@@ -1,0 +1,9 @@
+<fetishmaster.engine.ManagmentTask>
+  <name>Use regeneration machine</name>
+  <conditions>GetFlag(&quot;setup_regen_room&quot;) &gt;= 1;</conditions>
+  <script>&#xd;
+mh = self.getStat(&quot;generic.maxhealth&quot;);&#xd;
+&#xd;
+self.setStat(&quot;generic.health&quot;, mh);</script>
+  <decription>Have proxy spend time in the healing machine</decription>
+</fetishmaster.engine.ManagmentTask>

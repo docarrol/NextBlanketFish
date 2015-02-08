@@ -7,7 +7,7 @@
 
 Because of [Proxy]&apos;s rather high intelligence, [heshe] recognises what Todd is attempting to achieve. Reading the books in the library did pay off after all! [HeShe] tells Todd the alternative method that does not require any crystals.
 
-- O-oh wow! You&apos;re totally right, how could I have missed that. Well, with this approach, I&apos;m going to need a few days to reconfigure the device.
+- O-oh wow! You&apos;re totally right, how could I&apos;ve missed that. Well with this knowledge, I&apos;m going to need a few days rounding this up.
 
 &lt;% SetFlag(&quot;todd_started_help&quot;, 1); &quot;&quot;; %&gt;
 &lt;% SetFlag(&quot;todd_need_crystals&quot;, 0); 
@@ -21,6 +21,7 @@ SetFlag(&quot;gene_scanner_ready&quot;, clock.getAHours() + calc.PlusMinusXProce
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -28,6 +29,6 @@ SetFlag(&quot;gene_scanner_ready&quot;, clock.getAHours() + calc.PlusMinusXProce
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

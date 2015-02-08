@@ -1,28 +1,33 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/vagina_stretch</name>
-  <descr>Having a tight vagina can be a good thing but sometimes things just can&apos;t fit. The best way to fix that is with training.</descr>
+  <descr>Having a tight vagina can be a good thing but sometimes things just won&apos;t fit. The best way to fix that is with training.</descr>
   <conditions>proxy.getStat(&quot;generic.lewdness&quot;) &gt; 25 &amp;&amp; proxy.hasOrgan(&quot;vagina&quot;); </conditions>
   <picturePath>base/s_training.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Return</name>
       <value>base/s_training</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Dildo</name>
       <value>base/vag_stretch/dildo</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Horse Dildo</name>
       <value>base/vag_stretch/horse_dildo</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Inflantable Dildo</name>
       <value>base/vag_stretch/inf_dildo</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Magic Dildo</name>
       <value>base/vag_stretch/magic_dildo</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -30,6 +35,6 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

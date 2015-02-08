@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/milker_look</name>
-  <descr>Belanika once again looks at [proxy].
+  <descr>Belanika once again looks at &lt;%activePartner.getName();%&gt;.
 
 - Maybe you could help me? Can you see what&apos;s wrong with the milker&apos;s motor? I&apos;m hoping it&apos;s an easy fix.
 
@@ -11,10 +11,12 @@
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Look at Milker</name>
       <value>farms/milker_inspection</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -22,5 +24,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,16 +1,18 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/in_cabinet_night</name>
-  <descr>It seems that no one is in the building right now. This might be a good time to satisfy your curiosity about this place.</descr>
+  <descr>It seems that no one is in the building right now. Maybe this is a good time to satisfy some of your curiosity about this place.</descr>
   <conditions>GetFlag(&quot;found_genki&quot;)==1 &amp;&amp; (clock.getHours() &gt; 20 || clock.getHours() &lt; 8);</conditions>
   <picturePath>city/hospital/genki_outside_night.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Search around (2h)</name>
       <value>city/hospital/genki/search_around</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -18,6 +20,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

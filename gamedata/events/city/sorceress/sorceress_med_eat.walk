@@ -1,0 +1,40 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_med_eat</name>
+  <descr>[proxy] joins Morgan at the table in the kitchen and soon both are eating the first dish prepared by Morgan.&#xd;
+During the eating of the dish, Morgan starts talking about food but [proxy] soon managed to divert the subject to Magic. If one dish is finished, Morgan has the next dish ready in no time.&#xd;
+&#xd;
+Morgan prepares a large number of different dishes most of them are absolutely delicious. The sound produced by the eating of the food and the discussion about magic is at some point disturbed by the sound of a ripping dress.&#xd;
+&#xd;
+-What just happened?&#xd;
+&#xd;
+Morgan’s belly had transformed from small and soft to a dome shape. The food Morgan had already eaten before [proxy] arrived together whit the food she just ate made her belly look like she is pregnant. To prevent the rest of the dress from becoming destroyed and reduce the pressure on her belly, Morgan undresses. It is a bit hard to get the remainder of the dress over her swollen belly, after the seams tears a bit more she managed to undress. Morgan is not wearing anything under her dress so she is now eating naked.&#xd;
+&#xd;
+-I liked that dress, well noting a little magic can’t fix.&#xd;
+&#xd;
+Morgan starts preparing the next dish now naked. Soon [proxy] stomach is full of all the dishes prepared by Morgan. [heshe] has now a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; stomach. [proxy] excuses [himher] to Morgan that [heshe] is really full and cannot eat another bite.&#xd;
+&#xd;
+-Too bad, I still have so many new recipes I want to try out. Come back soon so we can test some more.&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 18000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 6000);&#xd;
+SetPerFlag(&quot;magic_skill&quot;, GetPerFlag(&quot;magic_skill&quot;)+5);&#xd;
+SetPerFlag(&quot;morgan_eat&quot;, GetPerFlag(&quot;morgan_eat&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=6000 &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&lt;9000</conditions>
+  <picturePath>city/sorceres_home/sorceress_eat.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

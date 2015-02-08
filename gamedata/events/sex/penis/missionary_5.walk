@@ -1,0 +1,18 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/penis/missionary_5</name>
+  <descr>&lt;% c = proxy &quot;&quot;;%&gt;
+[Proxy] lays down and spreads [her] legs, and [target] tries to lift [proxy]&apos;s [belly] out of the way to reach &lt;%activePartner.HisHer();%&gt; vagina but is unable to. [proxy]&apos;s belly is just too huge they struggle in vain for a while to do so but are unsuccessful for a while.
+&lt;%Include(&quot;sex/calc_belly_too_big&quot;);%&gt;
+
+</descr>
+  <conditions>proxy.hasOrgan(&quot;vagina&quot;) &amp;&amp; proxy.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; iTarget.getStat(&quot;generic.arousal&quot;)&gt;50 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &gt; 44.5 ;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

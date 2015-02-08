@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/belanika_talk_1_2</name>
-  <descr>Belanika once again looks at [proxy].
+  <descr>Belanika once again looked at &lt;%activePartner.getName();%&gt;.
 
-- Maybe you could help me? See if you can fix the machine? Or maybe you can get me a magic crystal?
+- And maybe you could help me? Check, maybe you can fix the machine? Or, maybe you can get me a magic crystal?
 
 &lt;%DisplayChar(&quot;char/cowgirl2.png&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>1</conditions>
@@ -11,16 +11,15 @@
     <fetishmaster.engine.WalkChoice>
       <name>Look at Milker</name>
       <value>farms/belanika_quest_2</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
   <time>0</time>
   <priority>0</priority>
-  <returnPoint>false</returnPoint>
-  <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

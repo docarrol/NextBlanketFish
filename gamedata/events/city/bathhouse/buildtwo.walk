@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/buildtwo</name>
+  <descr>Vulpsia disappears with your money again and comes back a bit later with her friend. Soon the rebuilding of the hot spring is in progress.&#xd;
+&#xd;
+At some point Vulpsia approaches [proxy]&#xd;
+&#xd;
+-when clearing the vegetation we found a hidden path to some sort of shrine. We tried to open the doors but they did not move. You might want to take a look yourself.&#xd;
+&#xd;
+&lt;% &#xd;
+RemoveMoney(2000); &#xd;
+SetFlag(&quot;bathhouse&quot;,3);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(2000)</conditions>
+  <picturePath>bathhouse/builder.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

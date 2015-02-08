@@ -41,9 +41,6 @@ self.addStat(&quot;generic.arousal&quot;, 10);&#xd;
 self.addStat(&quot;generic.tiredness&quot;, 30);&#xd;
 LustShame(self, 20, 30);&#xd;
 &#xd;
-task_image=&quot;tasks/milking_1.jpg&quot;;&#xd;
-if (milk &gt; 1000)&#xd;
-{task_image=&quot;tasks/milking_3.jpg&quot;;}&#xd;
 }&#xd;
 &#xd;
 res;</script>

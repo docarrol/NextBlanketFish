@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/after_vicky_train</name>
+  <descr>When [proxy] wakes up &lt;%activePartner.HeShe();%&gt; is somehow back inside &lt;%activePartner.HisHer();%&gt; own home. The first thing &lt;%activePartner.HeShe();%&gt; noticed is the belly in front of &lt;%activePartner.HisHer();%&gt;. How the hell did it ever get so big. It so massive and heavy that [proxy] struggles to even move. &#xd;
+&#xd;
+One though imminently springs to [proxy] mind, this going to leave a mark on my waist. Losing the damage done by Vicky is going to require some serious exercise. &#xd;
+&#xd;
+I hope Vicky&apos;s training was worth it.&#xd;
+&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, (self.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))*5);&#xd;
+self.addStat(&quot;abdomen.max_volume&quot;,0.15*self.getStat(&quot;abdomen.max_volume&quot;));&#xd;
+self.addStat(&quot;abdomen.food&quot;,(self.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;)));&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, (self.getStat(&quot;generic.calories&quot;)/24), 24);&#xd;
+;&quot;&quot;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>base/hall_day.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>in_the_base</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

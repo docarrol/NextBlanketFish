@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/bshape_test_descwmelonsp</name>
-  <descr>- I see you heard about our special breast experiment... Well, if you want to participate, we&apos;ll need you to bring us 50L of breast milk, needed for synthesizing the injection. It will make it so that the calories you take will be sent directly into your breasts, a perfect alternative to surgery really!
+  <descr>- I see you heard about our breast special experiment... Well, if you want to participate, we&apos;ll need you to bring us 50L of breast milk, needed for synthesising the injection. It will make so that the calories you take will be sent directly into your breasts, perfect alternative to surgery really!
 
-So, what will it be? Still interested?</descr>
+So, what will it be? Do you still want to or not?</descr>
   <conditions>GetPerFlag(&quot;know_about_massive_breasts&quot;) == 1;
 </conditions>
   <picturePath>city/hospital/research_wing.jpg</picturePath>
@@ -21,6 +21,6 @@ So, what will it be? Still interested?</descr>
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

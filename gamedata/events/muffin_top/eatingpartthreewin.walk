@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartthreewin</name>
+  <descr>[proxy]  reaches for the massive pitcher. &lt;%activePartner.HeShe();%&gt; than tries to pour some of the content of this pitcher in the drinking glass but that does not work well. The chocolate milk is so thick that it hardly flows. The only method of drinking the content of the massive pitcher is by drinking straight from the pitcher.
+
+[proxy] puts the pitcher to [hisher] mouth and starts drinking. Once the first, creamy thick chocolate milk hits [hisher] mouth [heshe] can only think of one thing: the effect this chocolate milk is going to have on [hisher] &lt;%IncludeRange(proxy.getStat(&quot;generic.fat_percent&quot;), &quot;body_fat_percent&quot;);%&gt;  body.
+Seeing as how this chocolate milk is based on Vicky’s family recipe, [proxy] starts to understand the resent change in Vicky’s build. Well no time to think about that now, let’s first focus on drinking this nearly solid chocolate milk.
+
+[proxy] does [hisher]  best to swallow as much chocolate milk as possible but nearly chokes in the near solid liquid a couple of times. When the pitcher is finally empty, it seems [proxy] is the only one who managed to drink the chocolate milk. The rest of the contestants are either struggling with pouring the milk I the glass stopped because of chocking hazard. [proxy] decides to check the state of [hisher] now rock hard stomach. &lt;%Include(&quot;muffin_top/stom_cont&quot;);%&gt;
+
+Vicky declares [proxy] the winner but cannot give the price yet.
+
+-Before providing my new chocolate milk to the public I first need to tweak the recipe a bit. It seems that it is currently a bit dangerous to drink for most people. Once the new recipe is finished, you receiver your price.
+
+&lt;% 
+self.addStat(&quot;generic.calories&quot;, 25000);
+self.addStat(&quot;abdomen.food&quot;, 4500);
+SetPerFlag(&quot;eating.comp&quot;, 4);
+&quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=4500</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/inside</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

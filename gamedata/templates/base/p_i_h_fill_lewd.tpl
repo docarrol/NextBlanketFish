@@ -4,7 +4,7 @@
 res = &quot;&quot;;&#xd;
 if (c.hasOrgan(&quot;uterus&quot;))&#xd;
 {res = &quot; It even gives some thoughts about how it would feel if &quot;+ c.HimHer()+&quot; was like that instead of &quot;+ proxy.getName() + &quot;?&quot;;}&#xd;
-res;%&gt; But [proxy] is waiting, so [t-name] takes the nozzle, and after finding implant&apos;s cervix port inserts it. Then [t-heshe] opens the IV drip and waits for all of the saline to transfer inside of [proxy], gently caressing [her] belly through this time...&#xd;
+res;%&gt; But [proxy] is waiting, so [t-name] takes a special nozzle, inserts it, and found cervix port of the implant with it. Then [t-heshe] opens the IV drip and wait for all of the saline to transfer inside of [proxy], giving [her] belly skin gently caressing through this time...&#xd;
 </text>
   <priority>1</priority>
   <picturePath></picturePath>

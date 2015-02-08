@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/intro_karin_1</name>
+  <descr>Mathilda guides [proxy] to a back room where a flat tau girl is present.&#xd;
+&#xd;
+-let me introduce you to Karin. She visits this place every day and is currently performing some odd jobs for me. Her dream is to become one of the milk girls like most of the other girls from the village. Normally a Tau girls breast grow in size and start producing a decent amount of milk after some simulation but for Karin this is not the case. &#xd;
+&#xd;
+My guts tell me she has the potential to become a top class milk girl, but this requires a lot of training. I have a company to run so I have insufficient time available to do it myself. If you are interested you can become her trainer.&#xd;
+Becoming her trainer carries a lot of responsibility and time, but I promise I will try to make it worth it if you succeed. Are you interested?&#xd;
+&#xd;
+When Mathilda asks the last question, Karin’s expression changes to begging. She really wants [proxy] to help her become a milk girl.</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/tiny_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Become Karin&apos;s trainer</name>
+      <value>kt_village/milkbarn/intro_karin_2</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/second_part</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

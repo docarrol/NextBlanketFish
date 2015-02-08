@@ -1,14 +1,14 @@
 <fetishmaster.engine.WalkEvent>
   <name>kt_village/romul_tell_belanika</name>
-  <descr>[Proxy] explains about [hisher] frendship with Belanika.&#xd;
+  <descr>[Proxy] explain about [hisher] frendship with Belanika.&#xd;
 &#xd;
-Romul changes his pose. He looks relieved about something.&#xd;
+Romul changed his pose. He looked more relieved about something.&#xd;
 &#xd;
-- So, she still not forget me. But you says, she not feel heart broken. It&apos;s good, as I can&apos;t return to her now, even after I find a way to remove this curse. You see Mira here. She is... helped me a lot, and now I not like to leave her. But my promise must be fulfilled. I do not know how to revert myself, but I finds a possible way out for Belanika. Shaman of this village has recipe for potion that can turn human to the member of the Kau race. It do not work for me, but Belanika still mostly human, so it&apos;s supposed to work. It&apos;s will be much easier for her to be Kau, than being in the form that she been in the times that I&apos;m forced to leave her.&#xd;
+- So, she still not forget me. But you says, she not feel heart broken. It&apos;s good, as I&apos;m can&apos;t return to her now, even after I will find a way to remove this curse. You see Mira here. She is... helped me a lot, and now I not like to leave her. But my promise must be fulfilled. I do not know how to revert myself, but I&apos;m finds a possible way out for Belanika. Shaman of this village has recipe for potion that can turn human to the member of the Kau race. It&apos;s do not work for me, but Belanika still mostly human, so it&apos;s supposed to work. It&apos;s will be much easier for her to be Kau, than being in the form that she been in the times that I&apos;m forced to leave her.&#xd;
 &#xd;
 Romul go out of the room, and after retuning after a minute or two, he give [proxy] a phial with the green fluid inside.&#xd;
 &#xd;
-- Please take this, and deliver it to the Belanika. I can&apos;t do it by myself. It&apos;s a long trip, and without Mira presence for the few hours I become so... well... &quot;in need&quot;, so I can attack anyone. I can&apos;t risk this to happen.&#xd;
+- Please take this, and deliver it to the Belanika. I can&apos;t do it by myself. It&apos;s a long trip, and without Mira presence for the few hours I become so... well... &quot;in needs&quot;, so I can attack anyone. I can&apos;t risk this to happens.&#xd;
 &#xd;
 &lt;%Include(&quot;char/mira_init&quot;);&#xd;
 Include(&quot;char/romul_init&quot;);&#xd;
@@ -26,6 +26,6 @@ AddItem(&quot;kau_transform_potion&quot;);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

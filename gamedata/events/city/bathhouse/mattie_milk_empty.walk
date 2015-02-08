@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/mattie_milk_empty</name>
+  <descr>[proxy] meets Mattie who is just drinking some water after serving a customer. Her breasts are only a bit larger than when you first met her.&#xd;
+&#xd;
+-Sorry, you can’t have any milk now; have to save it for the customers.</descr>
+  <conditions>GetFlag(&quot;mattie_milk&quot;)==1</conditions>
+  <picturePath>bathhouse/mattie2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

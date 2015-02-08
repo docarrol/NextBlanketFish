@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/kiana_second</name>
+  <descr>Hello Kiana, can you please take me too your father again. I think I finished the second trial. Kiana answers with&#xd;
+&#xd;
+-I knew you do it. Follow me, I take him to you.</descr>
+  <conditions>GetPerFlag(&quot;dense_breast&quot;)==3;</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/shaman_second</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

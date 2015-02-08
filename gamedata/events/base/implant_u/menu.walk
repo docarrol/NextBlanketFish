@@ -1,20 +1,23 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/implant_u/menu</name>
   <descr>Implant Management</descr>
-  <conditions>(proxy.hasEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant_t2&quot;) || proxy.hasEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant_t3&quot;))&amp;&amp; GetFlag(&quot;genki_implants_know&quot;) &gt; 1;</conditions>
+  <conditions>proxy.hasEffect(&quot;uterus.volume&quot;, &quot;preg_implant_t2&quot;) || proxy.hasEffect(&quot;uterus.volume&quot;, &quot;preg_implant_t3&quot;);</conditions>
   <picturePath>base/s_training.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Return</name>
       <value>base/training_rooms</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Fill</name>
       <value>base/implant_u/fill</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Empty</name>
       <value>base/implant_u/empty</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -22,6 +25,6 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

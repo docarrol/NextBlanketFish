@@ -1,16 +1,14 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/milking/pussy_milker</name>
   <descr>&lt;%self.getName()%&gt; isn&apos;t horny enough to use the device.;%&gt;</descr>
-  <conditions>if (GetFlag(&quot;neferi_pussy_pump&quot;) == 1 &amp;&amp; activePartner.hasOrgan(&quot;vagina&quot;))
-    true; 
-else 
-    false;
+  <conditions>GetFlag(&quot;neferi_pussy_pump&quot;) == 1;
 </conditions>
   <picturePath>base/sex_room.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Return</name>
       <value>base/s_training</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -18,6 +16,6 @@ else
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

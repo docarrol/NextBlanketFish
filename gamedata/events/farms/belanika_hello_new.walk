@@ -2,30 +2,30 @@
   <name>farms/belanika_hello_new</name>
   <descr>Walking into the barn, [proxy] finds in the far stall Belanika back lying on the floor and still completely naked. Even though [heshe] was told about the cowgirl, [proxy] still stands there just staring at the woman on the floor, mildly shocked at the sight of her four immense breasts and ponderous looking udder. The cowgirl&apos;s eyes are closed and her hands are slowly stroking her huge tits while she uses her legs to massage her vast udder, occasionally whimpering and moaning wantonly.
 
-Only when the hay rustles as [proxy] tries to get a better look does the cowgirl snap out of her self indulgence. When she notices [proxy], she smiles at [himher], apparently not embarrassed about her current state.
+When the hay rustles underfoot of &lt;%activePartner.getName();%&gt; as [heshe] moves to get a better look does the cowgirl snap out of her self indulgence and opens her eyes to look and see who it is. When she notices [proxy], she smiles at [himher], still seemingly not embarrassed about her current position.
 
 - Hi! Not a bad show, right? Liked it?
 
-[proxy], in [hisher] confusion, does not know what to say.
+&lt;%activePartner.getName();%&gt;, in [hisher] confusion, does not know what to say.
 
 - Come on, don&apos;t be shy. I like that you were looking at me. By the way, my name is Belanika.
 
-[proxy] introduces [himher]self to the cowgirl. When Belanika begins to shuffle back, making her massive boobs and udder bounce and sway with each little movement, [proxy] averts [hisher] head and blushes slightly. After settling her back against a large stack of hay, Belanika fishes around in the pile of cloth sitting on a nearby hay bale and pulls out glasses which she promptly puts on.
+&lt;%activePartner.getName();%&gt; introduces [himher]self to the cowgirl. When Belanika begins to shuffle back, making her massive boobs and udder bounce and sway with each little movement, [proxy] slightly turns [hisher] head and blushes gently. After settling her back against a large stack of hay, Belanika fishes around in the pile of cloth sitting on a nearby hay bale until finally pulling out her glasses which she promptly puts on.
 
-- Phew, that&apos;s better... It&apos;s nice to meet you [proxy]. I live here on the farm with my boyfriend, who is the owner. He recently had to leave to try and find some hired hands for help in the upcoming season. Even if I wasn&apos;t so bloated with milk, it would still be difficult for me to go with him due to my condition. Besides, someone has to stay behind and keep an eye on things. 
+- Phew, that&apos;s better... It&apos;s nice to meet you [proxy]. I live here on the farm with my boyfriend, who is the owner. He recently had to leave for a week or two to try to find some hired hands to help with the upcoming season. Even if I wasn&apos;t so bloated with milk, it would have been difficult for me to go with him due to my condition. Besides, someone has to stay behind and keep an eye on things.
 &lt;%Include(&quot;farm/belanika_lie&quot;);%&gt;
 
-[proxy] notices that Belanika&apos;s vast chest and udder are practically pinning her to the floor. And a moment ago, [heshe] saw how hard it was for the cowgirl to move even the amount she did.
+&lt;%activePartner.getName();%&gt; notices that Belanika&apos;s vast chest and udder are nearly pinning her to the floor. And a moment ago, [heshe] saw how hard it was for the cowgirl to move even the amount she did.
 
 - It does get a little boring around here, though. Don&apos;t get me wrong [proxy], I&apos;m really happy with my body. But sometimes it can be somewhat inconvenient.
 
 Belanika rubs and kneads at the sides of her breasts while at the same time she flexes her legs to squish her udder between them.
 
-- I haven&apos;t  been able to milk myself for three days. And since they are so engorged, my tits and udder have swollen up even bigger to hold even more. It&apos;s gotten to the point that it&apos;s hard to move and I can&apos;t even put on a bathrobe, much less fit into my regular clothes. Though on one hand, the sensations from it... Mmm... is wonderful.
+- Right now I have been unable to get rid of all this milk for a few days. And because they are so engorged, my tits and udder has swollen up even bigger to hold even more. It&apos;s gotten to the point that it&apos;s hard to move and I can&apos;t even put on a bathrobe, much less fit into my regular clothes. Though on one hand, the sensations from it... Mmm... is wonderful.
 
-Her eyes roll back in her head and she groans softly as she kneads her doughy boobs with her fingers. [proxy] thinks to [himher]self that Belanika really does enjoy being so swollen with milk. After a moment, the cowgirl blinks a few times as if waking out of a dream and looks back at [proxy].
+Her eyes roll back in her head and she groans softly as she kneads her doughy boobs with her fingers. &lt;%activePartner.getName();%&gt; thinks to [himher]self that Belanika really does enjoy being so swollen with milk. After a moment, the cowgirl blinks a few times as if waking out of a dream and looks back at [proxy].
 
-- But on the other hand, I&apos;m afraid that if I don&apos;t milk myself soon there will be too much for my breasts and udder to hold and will begin to hurt me. Unfortunately, the motor for the milker has stopped working. And I&apos;ve run out of my supply of power crystals to keep the milker running in an emergency. Now that my body is too big to easily move, all I can do is lie here and hope for someone to help me since my boyfriend won&apos;t be back for awhile.
+- But on the other, I&apos;m afraid that if I don&apos;t milk myself soon there will be too much for my breasts and udder to hold and will begin to hurt me. Unfortunately, the motor for the milker has stopped working. And I&apos;ve run out of my supply of power crystals to keep the milker running in an emergency. Now that my body is too big to easily move, all I can do is lie here and hope for someone to help me since my boyfriend won&apos;t be back for awhile yet.
 
 &lt;%DisplayChar(&quot;char/cowgirl2.png&quot;); &quot;&quot;;%&gt;
 &lt;%SetFlag(&quot;belanika_intro&quot;, 1); &quot;&quot;;%&gt;
@@ -45,14 +45,17 @@ res;</conditions>
     <fetishmaster.engine.WalkChoice>
       <name>Look at Milker</name>
       <value>farms/milker_look</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Dr.Felis&apos; Request</name>
       <value>farms/belanika_felis_request</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -60,5 +63,5 @@ res;</conditions>
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

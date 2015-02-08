@@ -1,7 +1,7 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/work_stripper_bad</name>
-  <descr>[proxy] tries to work as a stripper. [HeShe] has no skill in this, and is embarrased to reveal her body in public. They quickly get bored with her.
-Ms. Tendo is not pleased but pays [proxy] 5 coins. She says that, as club manager, she expects a better performance next time.
+  <descr>&lt;%activePartner.getName();%&gt; tries to work as a stripper. &lt;%@activePartner.HeShe();%&gt; has no skill in this, and is ashamed to openly present her body to the public. They quickly get bored by her.
+Ms. Tendo is not pleased but pays &lt;%activePartner.getName();%&gt; 5 coins. She says that, as club manager, she expects a better performance next time.
 
 &lt;%
 activePartner.inventory.addMoney(5);
@@ -17,5 +17,5 @@ MoodShame(30);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

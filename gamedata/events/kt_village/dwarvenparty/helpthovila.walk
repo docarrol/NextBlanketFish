@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/helpthovila</name>
+  <descr>[proxy] agrees to help Thovila with presenting the corset to the royal family.&#xd;
+&#xd;
+-Great, let me know when you are really, I will arrange a zeppelin for transportation to Ironhill then. Make sure you stomach is completely empty when you go. You will need all its capacity for the party.&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;cadha&quot;,1);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>char/thovila.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/blacksmith_entrance</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/masturbation/vagina_play_1</name>
-  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;Lying on [hisher] [belly], [proxy] instinctively places both hands between [hisher] legs and pushes against [hisher] crotch. [HeShe] feels a delicious rush of naughty pleasure emanating from between [hisher] legs.
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;Lying on &lt;%activePartner.HisHer();%&gt; [belly], &lt;%activePartner.getName();%&gt; instinctively placed both hands between &lt;%activePartner.HisHer();%&gt; legs and pushed against the crotch. &lt;%@activePartner.HeShe();%&gt; felt a delicious rush of naughty pleasure emanating from between &lt;%activePartner.HisHer();%&gt; legs.
 
 The &lt;%IncludeRange((Integer)proxy.getStat(&quot;generic.haircolor&quot;), &quot;colors&quot;);%&gt;-haired &lt;%
 sex = &quot;creature&quot;;
@@ -10,9 +10,9 @@ if (c.getStat(&quot;generic.sex&quot;) == 2)
 	sex=&quot;girl&quot;;
 if (c.getStat(&quot;generic.sex&quot;) == 3)
 	sex=&quot;futanari&quot;;
-sex;%&gt; continues to push and grind [hisher] [vagina] against [hisher] hands for several minutes, as [heshe] closes [hisher] eyes and drifts back into thoughts and scenes from [hisher] past dreams.  All the while, [heshe] is becoming more and more excited and wet. All that matters is the growing feeling of pure sexual pleasure in [hisher] [vagina]. The longer [heshe] continues pressing against [hisher] [vagina], the better and better the feeling is. It is feeding on itself. It is becoming uncontrollable.  
+sex;%&gt; continued to push and grind &lt;%activePartner.HisHer();%&gt; [vagina] against &lt;%activePartner.HisHer();%&gt; hands for several minutes, as &lt;%activePartner.HeShe();%&gt; closed &lt;%activePartner.HisHer();%&gt; eyes and drifted back into thoughts and scenes from &lt;%activePartner.HisHer();%&gt; past dreams.  All the while, &lt;%activePartner.HeShe();%&gt; was becoming more and more excited and wet. All that mattered was the growing feeling of pure sexual pleasure in &lt;%activePartner.HisHer();%&gt; [vagina]. The longer &lt;%activePartner.HeShe();%&gt; continued pressing against &lt;%activePartner.HisHer();%&gt; [vagina], the better and better it was feeling. It was feeding on itself. It was becoming uncontrollable.  
 
-[HeShe] continues rubbing [himher]self, grinding [hisher] ass and [vagina] against her hands, instinctively masturbating [hisher] [vagina] for several more minutes, as [heshe] pants more and more heavily, and then finally, with a shudder, [heshe] reaches an enormous climax! As [heshe] continues to grind [hisher] cunt against [hisher] hands, [proxy] whimperes quietly as [hisher] body shakes and shivers with the first of what would be many hot climaxes, brought about by [hisher] own soft, sexy hands and [hisher] own imagination.
+&lt;%@activePartner.HeShe();%&gt; continued rubbing [her]self, grinding &lt;%@activePartner.HisHer();%&gt; ass and [vagina] against her hands, instinctively masturbating &lt;%activePartner.HisHer();%&gt; [vagina] for several more minutes, as &lt;%activePartner.HeShe();%&gt; panted heavier and heavier, and then finally, with a shudder, &lt;%activePartner.HeShe();%&gt; reached an enormous climax! As &lt;%activePartner.HeShe();%&gt; continued to grind &lt;%activePartner.HisHer();%&gt; cunt against &lt;%activePartner.HisHer();%&gt; rubbing hands, &lt;%activePartner.getName();%&gt; whimpered quietly as &lt;%activePartner.HisHer();%&gt; body shook and shivered with the first of what would be many hot climaxes, brought about by &lt;%activePartner.HisHer();%&gt; own soft, sexy hands and &lt;%activePartner.HisHer();%&gt; own imagination.
 &lt;%proxy.doAction(&quot;orgasm&quot;); 
 proxy.setStat(&quot;generic.arousal&quot;, 0); 
 proxy.addStat(&quot;skill.striptease&quot;, 1);
@@ -26,6 +26,6 @@ proxy.subStat(&quot;generic.calories&quot;, 50);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -2,7 +2,7 @@
   <name>sea/girl_hb_ask</name>
   <descr>[Proxy] asks about her size.
 
-- Ah yes, it&apos;s not my natural size. Two years ago they were ordinary C-cups, but I needed money to go to college. The only job that I could find to get the necessary amount of money in time was as a test subject in the research department of the hospital. They needed to test some artificial hormones... Maybe I&apos;m a little perverted, but I like the attention. So, after explaining what they wanted me to test, I agreed to it. There were some complications, as you can see.
+- Ah yes, it&apos;s not my natural size. Two years ago they were only ordinary C-cups, but I needed money to go to college. The only job that I could find to get the necessary amount of money in time was a test subject in the research department of the hospital. They needed to test some artificial hormones... Maybe I'm a little perverted, but I like attention. So, after explaining what they wanted me to test, I agreed to it. There were some complications, as you can see.
 &lt;%MoodShame(15); 
 SetFlag(&quot;hospital_be_research&quot;, 1);
 SetPerFlag(&quot;now_about_hb_breasts&quot;, 1);
@@ -17,6 +17,6 @@ SetPerFlag(&quot;now_about_hb_breasts&quot;, 1);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

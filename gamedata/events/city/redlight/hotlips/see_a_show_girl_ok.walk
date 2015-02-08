@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/see_a_show_girl_ok</name>
-  <descr>[proxy] is having a good time watching the show. It&apos;s rather interesting, though not focused on anything sexual. On the main stage, striptease acts are changing out with singers, and even a few comedians. [proxy] thinks she can learn some tricks for herself to use.
+  <descr>&lt;%activePartner.getName();%&gt; is having a good time seeing the show. It&apos;s rather interesting, though not focused on anything sexual. On the main stage, striptease acts are changing out with singers, and even some humorous artists. &lt;%activePartner.getName();%&gt; thinks she can learn some tricks for herself to use.
 &lt;%LustShame(5, 20); 
 proxy.addStat(&quot;generic.cha&quot;, 1);
 proxy.addStat(&quot;skill.striptease&quot;, 4);
@@ -14,6 +14,7 @@ proxy.addStat(&quot;generic.mood&quot;, 10);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -21,6 +22,6 @@ proxy.addStat(&quot;generic.mood&quot;, 10);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

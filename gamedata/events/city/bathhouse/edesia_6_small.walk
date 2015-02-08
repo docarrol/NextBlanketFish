@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_6_small</name>
+  <descr>[proxy] approaches Edesia who is laying on a comfortable couch.&#xd;
+&#xd;
+-You have done well, my priestess. My plan for revenge is nearly completed but it seems we have reached a hurdle. You are starting to limit the growth of Himanka and we can have that, can we. You are going to need more training before we can continue and no I&apos;m not going to train you even more. I spent enough energy on you earlier. Go meet a human called Vicky, she knows what to do.&#xd;
+Now go and finish what we started.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;stomach_train&quot;, 3);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;himanka_eaten&quot;)&gt;200 &amp;&amp; GetFlag(&quot;stomach_train&quot;) == 2</conditions>
+  <picturePath>bathhouse/edesia9.png</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>3</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

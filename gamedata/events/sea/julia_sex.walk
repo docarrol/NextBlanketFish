@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/julia_sex</name>
+  <descr>&lt;%Include(&quot;char/julia_init&quot;);&#xd;
+julia.setFlag(&quot;clothed&quot;, 0);&#xd;
+SetInteractionTarget(julia);&#xd;
+BeginInteraction(&quot;sex/turn&quot;);&#xd;
+AddIState(&quot;sex&quot;, &quot;sex/turn&quot;);&#xd;
+AddIState(&quot;t_satisfed&quot;, &quot;sex/t_satisfed&quot;);&#xd;
+AddIState(&quot;t_tired&quot;, &quot;sex/t_tired&quot;);&#xd;
+AddIState(&quot;p_leave&quot;, &quot;sex/p_leave&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>cm___elven_fertility_priestess_neru_by_marrazan-d6v737e.jpg</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

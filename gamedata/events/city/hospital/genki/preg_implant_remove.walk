@@ -1,8 +1,9 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/preg_implant_remove</name>
   <descr>&lt;% 
-proxy.doAction(&quot;ut_implant_remove&quot;);
+proxy.loadEffect(&quot;uterus.volume&quot;, &quot;genki_implant_postpartum&quot;);
 proxy.nextHour();
+proxy.setFlag(&quot;installed_preg_implant&quot;, 0);
 &quot;&quot;;%&gt;[proxy] rubs her [=proxy][belly] a couple more times before nodding, saying that [she] is absolutely sure [she] wants the pregnant implant removed. Dr. Genki nods as he walks over and gently pats [her] shoulder.
 
 - I am sorry to hear you are unhappy with the implant [proxy], but I completely understand. You are not the first to tire of it, and I am sure you will not be the last. You are in luck. My schedule is empty today so I will be able to remove the implant immediately. Head into the examination room and get changed. As before, just remove your lower clothing and use a gown to cover your lower half before lying back on the gynecology chair. I will be with you momentarily.
@@ -18,7 +19,7 @@ It doesn&apos;t take long for [proxy] to black out from the anesthesia...
 - Ah, just in time [proxy]. Congratulations. The operation went well without any complications.&lt;%Include(&quot;hospital/genki/preg_implant_postpartum&quot;);%&gt; Though there is a slight problem if you planned on getting pregnant immediately. A side effect of removing the implant that I failed to mention is that it will take time for you body to reestablish your normal menstrual cycle. Depending on the individual, it may take one to two months. So, rest as long as you like [proxy]. If you need anything I will be in my office.
 
 Once Dr. Genki leaves the room, [proxy] begins to prod at [her] [belly]. [She] isn&apos;t sore, but does feel some emptiness in [her] womb. [proxy] reasons that the feeling is normal. Deciding that the sensation will be gone in time, [proxy] gets out of bed, dresses, and leaves Dr. Genki&apos;s clinic.</descr>
-  <conditions>proxy.hasOrgan(&quot;tmp_uterus_implant&quot;) &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
+  <conditions>proxy.getFlag(&quot;installed_preg_implant&quot;) &gt; 0 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
   <picturePath>city/hospital/genki_ward.jpg</picturePath>
   <choices/>
   <defaultNext>New event</defaultNext>
@@ -26,6 +27,6 @@ Once Dr. Genki leaves the room, [proxy] begins to prod at [her] [belly]. [She] i
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

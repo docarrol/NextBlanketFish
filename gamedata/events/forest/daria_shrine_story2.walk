@@ -1,14 +1,14 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/daria_shrine_story2</name>
-  <descr>- But not everyone was content to simply leave. Some tried to counter the forest&apos;s expansion as best as they could. Luckily for them, their elder advised them not to do it by force or the forest would swallow them. The elder was a wise man, and perhaps he even knew what was causing changes to the forest. So he concentrated on the old faith. They prayed to Great Nature and her servants...
+  <descr>- But not everyone simply left. Some tried to counter the forest&apos;s expansion as best as they could. Luckily for them, their elder advised them not to do it by force or the forest would crush them. The elder was a wise man, and maybe he knew what was causing the forest&apos;s changes. So he concentrated on the old faith. They prayed to Great Nature and her servants...
 
 The girl sighs softly.
 
-- It&apos;s not an easy thing to do. What they wanted was a big change. Even a single person can cause small changes in the DS. The more they opposed the will of other people, the subconscious will, the more the DS pushed back. It was almost doomed to fail...
+- It&apos;s not an easy thing to do. They wanted was a big change. But even one person can cause small changes in the DS. The more they opposed the will of other people, the unconscious will, the more the DS pushed back. It was almost doomed to fail...
 
 The girl sighs softly again and shakes her head.
 
--Their elder will never know how close they were to reaching their goal. He eventually surrendered and led his followers to live in other lands. I don&apos;t know where. But just before it happened... I awakened here.
+-Their elder will never know how close they were to their goal. He eventually surrendered and withdrew his followers to live in other lands. I don&apos;t know where. But just before it happened... I awakened here.
 
 She finally looks back up and smiles at [proxy].
 
@@ -19,6 +19,7 @@ She finally looks back up and smiles at [proxy].
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>forest/daria_shrine_story3</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -26,6 +27,6 @@ She finally looks back up and smiles at [proxy].
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

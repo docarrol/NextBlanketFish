@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/milk_substitute</name>
-  <descr>[=proxy]&lt;%activePartner.getName();%&gt; tells the manager, that [heshe] can use a substitute for cows milk. Manager is about to question what [heshe] might mean and but [proxy] simply points to [hisher] own breasts. Manager pauses for a moment, but soon agrees. [Proxy] opens [hisher] uniform and squeezes some milk from [hisher] [breasts] into the cup, and carries the order to client. He doesn&apos;t seem to notice any difference. The manager gives [proxy] bonus pay and a strange look.
+  <descr>[=proxy]&lt;%activePartner.getName();%&gt; tells the manager, that [heshe] can use a substitute for cows milk. Manager is about to question what [heshe] might mean and but [proxy] simply points to [hisher] own breasts. Manager pauses for a moment, but soon agrees. [Proxy] opens [hisher] uniform and squeezes some milk from [hisher] [breasts] into the cup, and carries the order to client. He seems to not notice any difference. The manager gives [proxy] bonus pay and a strange look.
 &lt;%LustShame(5,35); 
 proxy.inventory.addMoney(20);
 if (GetPerFlag(&quot;fcafe_milk_to_cofe&quot;) &lt; 1)
@@ -17,13 +17,14 @@ if (GetPerFlag(&quot;fcafe_milk_to_cofe&quot;) &lt; 1)
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
   <time>0</time>
-  <priority>1</priority>
+  <priority>0</priority>
   <returnPoint>false</returnPoint>
-  <bypassInternalChecks>true</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <bypassInternalChecks>false</bypassInternalChecks>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

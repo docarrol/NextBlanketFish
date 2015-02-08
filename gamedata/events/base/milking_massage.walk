@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/milking_massage</name>
-  <descr>You are massaging &lt;% activePartner.getName() %&gt; breasts. This might have a more practical use than just pleasure.
+  <descr>You are massaging &lt;% activePartner.getName() %&gt; breasts. Maybe this has a more practical use, not just used for pleasure.
 &lt;%activePartner.doAction(&quot;milking&quot;);
 LustShame(5,10);
 &quot;&quot;;%&gt;</descr>
@@ -12,5 +12,5 @@ LustShame(5,10);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

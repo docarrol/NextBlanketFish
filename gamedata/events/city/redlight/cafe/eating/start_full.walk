@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/eating/start_full</name>
+  <descr>Before [proxy] can prepare &lt;%activePartner.HisHer();%&gt; for a customer, the manager arrives.&#xd;
+&#xd;
+-Our customers deserve you on your best. Come back once your stomach is not full already.</descr>
+  <conditions>GetPerFlag(&quot;cafe.eating&quot;)==3 &amp;&amp; proxy.getStat(&quot;abdomen.food&quot;)&gt;(0.5*proxy.getStat(&quot;abdomen.stomach_volume&quot;))</conditions>
+  <picturePath>city/fcafe/staff_room.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

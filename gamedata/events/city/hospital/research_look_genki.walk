@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/research_look_genki</name>
-  <descr>Walking around the research wing, [proxy] discovers a small set of stairs leading down to a door marked &quot;Private Hospital Garden&quot;. Heading down the stairs and going through the door, [heshe] finds the garden as well as another building sitting behind the hospital. It&apos;s a nice looking two story building that is walled off on the other three sides. No wonder it was hard to see from the street. Both of you are intrigued by the discovery, [heshe] walks through the garden and up to the covered entrance of the building where [she] finds a large metal plaque on the door. &quot;Doctor Otto Genki. Private Practice&quot;. The building looks rather large for a private practice. So this Dr. Genki must either be successful or just plain rich.
+  <descr>Walking around the research wing, [proxy] discovers a small set of stairs leading down to a door marked &quot;Private Hospital Garden&quot;. Heading down the stairs and going through the door, [heshe] finds the garden as well as another building sitting behind the hospital. It&apos;s a nice looking two story building that is walled off on the other three sides. No wonder it was hard to see from the street. The both of you are intrigued by the discovery, [heshe] walks through the garden and up to the covered entrance of the building where [she] finds a large metal plaque on the door. &quot;Doctor Otto Genki. Private Practice&quot;. The building looks rather large for a private practice. So this Dr. Genki must either be successful or just plain rich.
 
 Entering the building, [proxy] finds it unusually quiet inside. There is no receptionist, just a sign in the shape of an arrow sitting on the receptionist desk marked &quot;Office&quot; pointing down a long, door filled, hallway.
 </descr>
@@ -10,10 +10,12 @@ Entering the building, [proxy] finds it unusually quiet inside. There is no rece
     <fetishmaster.engine.WalkChoice>
       <name>Look for Office</name>
       <value>city/hospital/genki/intro</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -21,6 +23,6 @@ Entering the building, [proxy] finds it unusually quiet inside. There is no rece
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

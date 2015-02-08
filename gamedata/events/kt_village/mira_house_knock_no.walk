@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>kt_village/mira_house_knock_no</name>
-  <descr>No one is answering. Nobody home?</descr>
+  <descr>No one answering. Do anyone home?</descr>
   <conditions>1</conditions>
   <picturePath>kt_village/mira_house.jpg</picturePath>
   <choices/>
@@ -9,6 +9,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/2f_feed_julia_yes</name>
+  <descr>&lt;%Include(&quot;char/julia.init&quot;);%&gt;
+
+-Fantastic! Hurry and put my order in please!
+
+[proxy] goes and makes sure the order gets to the kitchen. The kitchen staff doesnt even bat an eye at the size; julia must be a regular.
+
+[Proxy] carefully brings out all the food and sets it on a table near Julia. 
+
+With a look of near glee Julia says:
+
+-I want you to stuff me [proxy].
+
+[Proxy] uses her hands to feed julia the feast of food she ordered. Rather quickly plates start piling up as their food is shoved into Julia&apos;s mouth. julia is beside herself; she lays back and just slowly rubs her belly while she&apos;s fed.
+
+For desert julia just says:
+
+-I want you to rub my belly, it will be so relaxing.
+
+Julia lifts her shirt to reveal her massive belly
+
+[Proxy] proceeds to rub the belly for a decent ammout of time. Julia lightly moans the whole time
+
+By the end of [proxy]&apos;s shift, Julia is left fat, full, and happy and [proxy] is left tired but with a nice tip.
+&lt;%AddMoney(200); &quot;&quot;;%&gt;
+&lt;%proxy.addStat(&quot;skill.desireforfat&quot;,1); &quot;&quot;;%&gt;
+&lt;%proxy.addStat(&quot;skill.massage&quot;,1); &quot;&quot;;%&gt;
+&lt;%proxy.addStat(&quot;generic.tiredness&quot;,10); &quot;&quot;;%&gt;
+&lt;%julia.addStat(&quot;generic.calories&quot;, 3000); &quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath>city/fcafe/interior_2f.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

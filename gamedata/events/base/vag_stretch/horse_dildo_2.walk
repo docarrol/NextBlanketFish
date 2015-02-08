@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/vag_stretch/horse_dildo_2</name>
-  <descr>[=proxy][Proxy] uses the horse-like dildo to play with [hisher] [vagina]. [HeShe] can stretch and relax enough to allow the big shaft to move a decent amount in and out. The action is very stimulating and is very hard to ignore, [hisher] arousal rises fast. &#xd;
+  <descr>[=proxy][Proxy] uses the horse-like dildo to play with [hisher] [vagina]. [HeShe] can stretch and relax enough to allow the big shaft to move a decent amount inside and out. The action is very stimulating and is very hard to ignore, [hisher] arousal rises fast. &#xd;
 &lt;%Include(&quot;base/vag_stretch_norm&quot;);%&gt;&#xd;
 &lt;%LustShame(15, 40); &quot;&quot;;%&gt;</descr>
   <conditions>proxy.getStat(&quot;vagina.width&quot;) &gt; 9;</conditions>
@@ -11,6 +11,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

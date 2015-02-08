@@ -1,0 +1,47 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_mattie</name>
+  <descr>Kiara takes [proxy] to a house down the street and tells [proxy] that this is the house of Mattie. Kiara has in important errant for her dad to run so she got to go now. She will talk to Mattie later.&#xd;
+&#xd;
+Once Kiara is gone [proxy] rings the door. Noting happens, two rings later and still no answer. At that moment a woman with small breasts for tau standards arrives carrying groceries.&#xd;
+&#xd;
+-Who are you and what are you doing in front of my house.&#xd;
+&#xd;
+[proxy] explains that [heshe] is a friend of Kiara and is here for a job offer for Mattie.&#xd;
+&#xd;
+-A job for me in the city, what kind of job is it?&#xd;
+&#xd;
+[proxy] continues that [heshe] owns a bath house and want to provide their customers some fresh milk.&#xd;
+&#xd;
+-The job sounds interesting but I don’t really know you, I will have to talk with Kiara first. &#xd;
+&#xd;
+[proxy] asks if Mattie could produce sufficient milk seeing the size of her breasts.&#xd;
+&#xd;
+-Don’t worry about that, my breasts are currently in their idle stance, once I start milking them they are soon back to full capacity. Did Kiara tell you already about the rules of the Tau of no machine milking outside of their own villages? This means that you are responsible for drinking all my milk if the bathhouse customers do not drink enough. My breasts know only two stances, idle or full speed so I hope you have some thirsty customers.&#xd;
+&#xd;
+[proxy] tells Mattie that [heshe] will take care of her and that when she is ready, she should go to Vulpsia who can set her up.&#xd;
+&#xd;
+-Oke, you got me nearly convinced but I do like to talk to Kiara first.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,11);&#xd;
+SetFlag(&quot;mattie_milk&quot;,1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/mattie1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

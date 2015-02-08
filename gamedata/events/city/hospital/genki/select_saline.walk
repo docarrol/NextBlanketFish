@@ -2,7 +2,7 @@
   <name>city/hospital/genki/select_saline</name>
   <descr>[Proxy] tells Dr. Genki that [heshe] would like to buy some saline. Nodding, he leads her into the examination room where he then opens a large cabinet filled with boxes of saline bags.&#xd;
 &#xd;
-- No problem. You can buy a single bag, pack of five, or ten. If you buy ten of them at once I will give you a small discount.&#xd;
+- That is not a problem [proxy]. You can either buy a single bag, five bags, or ten at once. If you buy ten of them at once I will give you a small discount.&#xd;
 &lt;%DisplayChar(&quot;char/genki.png&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>GetFlag(&quot;genki_implants_know&quot;) &gt; 1 &amp;&amp; proxy.hasOrgan(&quot;uterus&quot;);</conditions>
   <picturePath>city/hospital/genki_office_day.jpg</picturePath>
@@ -10,18 +10,22 @@
     <fetishmaster.engine.WalkChoice>
       <name>One pack (50 c.)</name>
       <value>city/hospital/genki/saline_1</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Five packs (250 c.)</name>
       <value>city/hospital/genki/saline_5</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Ten packs (450 c.)</name>
       <value>city/hospital/genki/saline_10</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Nevermind</name>
       <value>city/hospital/genki/r_to_cabinet</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -29,6 +33,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/preg_test_p</name>
-  <descr>After using the test and waiting a required amount of time, [proxy] looks at the stick...
+  <descr>After using the test and waiting the sufficient amount of time, [proxy] looks at the stick...
 
 Two lines! Test is positive.
 &lt;%
@@ -14,6 +14,6 @@ RemoveItem(&quot;home_preg_test&quot;);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

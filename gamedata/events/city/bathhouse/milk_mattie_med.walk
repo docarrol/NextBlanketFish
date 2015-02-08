@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/milk_mattie_med</name>
+  <descr>[proxy] looks at Mattie’s large breasts that causes her problems buttoning down her shirt and decides to help her. Before solving the problem, [proxy] decides to take a quick look at [hisher] &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly containing a stomach that feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;. &#xd;
+ [heshe] then places one of Mattie’s nipples in [hisher] mouth and starts sucking. The weight of the large quantity of milk inside Mattie’s breasts ensures a smooth stream of milk entering [proxy] mouth.&#xd;
+ &#xd;
+[proxy] switches from breasts on a regular interval, reducing them both to a size where they fit again in Mattie’s shirt. After drinking multiple liters of milk, [proxy] decides to take a small break.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 3000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 3000);&#xd;
+SetFlag(&quot;mattie_milk&quot;,2);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+The milk that was causing Mattie shirt to not fit anymore has provided [proxy] with a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly and [hisher] stomach feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;.&#xd;
+</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=3000</conditions>
+  <picturePath>bathhouse/mattie4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue drinking</name>
+      <value>city/bathhouse/milk_mattie_low</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/mattie_milk_med</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

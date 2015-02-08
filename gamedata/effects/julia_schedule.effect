@@ -1,0 +1,31 @@
+<fetishmaster.components.StatEffect>
+  <name>julia_schedule</name>
+  <value>0.0</value>
+  <timer>0</timer>
+  <script>if (clock.getHours() &gt;= 7 &amp;&amp; clock.getHours() &lt; 12)
+{
+SetTextFlag(&quot;julia_place&quot;, &quot;beach&quot;);
+}
+
+if (clock.getHours() &gt;= 12 &amp;&amp; clock.getHours() &lt; 14)
+{
+SetTextFlag(&quot;julia_place&quot;, &quot;travel&quot;);
+}
+
+
+if (clock.getHours() &gt;= 14 &amp;&amp; clock.getHours() &lt; 19)
+{
+SetTextFlag(&quot;julia_place&quot;, &quot;fetish_cafe&quot;);
+}
+
+if (clock.getHours() == 19)
+{
+SetTextFlag(&quot;julia_place&quot;, &quot;home&quot;);
+self.setStat(&quot;generic.health&quot;, self.getStat(&quot;generic.maxhealth&quot;));
+}
+</script>
+  <tmp>false</tmp>
+  <endText></endText>
+  <rForce>0.0</rForce>
+  <expired>false</expired>
+</fetishmaster.components.StatEffect>

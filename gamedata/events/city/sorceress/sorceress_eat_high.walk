@@ -1,0 +1,44 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_eat_high</name>
+  <descr>[proxy] enters the dark shop and notices the door to Morgan’s hobby room is open. When [proxy] enters the room [heshe] notices Morgan now completely using the large bed located in the center of the room. She must weigh at least 200 kg. The breasts of Morgan have increased in size to Skippy balls made of fat and her fat hips are so wide that they do not fit anymore trough a normal door opening. Rolls of fat are visible over her entire body.&#xd;
+&#xd;
+-Look what you made me. Because of you I now have this body. Come here, have a closer look at what you did.&#xd;
+&#xd;
+[proxy] approaches the now obese Morgan. When [proxy] is close enough, Morgan suddenly pulls [proxy] on the bed and starts removing [proxy] cloth.&#xd;
+&#xd;
+-Thanks so all this fat I’m so horny. Since you are responsible, you are going to help me with that.&#xd;
+&#xd;
+Morgan moves the now naked [proxy] to the center of the bed and sits on top of [himher].&#xd;
+&#xd;
+ Because of all of Morgan’s fat, it is a bit of a search to find the correct hole but finally [proxy] penis is inside of Morgan’s pussy.&#xd;
+&#xd;
+&lt;%Include(&quot;morgan/fat_penis_grow&quot;);%&gt;&#xd;
+&#xd;
+Morgan starts pumping [proxy] &lt;% IncludeRange(proxy.getStat(&quot;penis.length&quot;),&quot;penislength&quot;);%&gt; penis using here entire weight. At the end of each downward movement of Morgan, [proxy] is buried under a decelerating mass of fat. A shockwave travels through [proxy] body pushing the air from [hisher] longs. It does not take long for Morgan’s horrible condition combined with her now massive weight to catch up. Soon she is out of breath and needs to resort to smaller movements.&#xd;
+&#xd;
+After Morgan’s first orgasm, she lies down on top of [proxy] who is no fully buried in fat rolls. Morgan’s massive breasts serve as two pillows. [proxy] has to use his hands to prevent Morgan’s breasts of fully covering [hisher] face. Morgan keeps riding [proxy] dick till she is fulfilled. She then rolls a bit to the side allowing [proxy] to free [himher] from the position under her. With Morgan’s weight now no longer on top of [proxy] body, [proxy] takes a couple of deep breaths. Finally [heshe] can breathe normally again.&#xd;
+&#xd;
+Morgan meanwhile has fallen asleep already. Tired from the sex and her lust fulfilled she passed out from exhaustion.&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morgan_eat&quot;, GetPerFlag(&quot;morgan_eat&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;morgan_eat&quot;)==7 &amp;&amp; PerGetFlag(&quot;morganvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>city/sorceres_home/sorceress_fat_2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

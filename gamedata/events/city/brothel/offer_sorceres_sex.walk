@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/brothel/offer_sorceres_sex</name>
+  <descr>[proxy] removes the cloths [heshe] is wearing and joins the sorceress in bed. She really is a beast in bed and although her body feels a bit soft all over, she has a tremendous stamina. The little muscles she has seem to be designed to perform in bed. After a combined orgasm of both [proxy] and the sorceress, she is finally done.&#xd;
+&#xd;
+-You can handle yourself decently in bed. Come find me at my shop in the magic lane and I might teach you some fun stuff. My name is Morgan by the way.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;sorceress&quot;,1);&#xd;
+self.addStat(&quot;generic.tiredness&quot;,70);&#xd;
+self.setStat(&quot;generic.arousal&quot;,0);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

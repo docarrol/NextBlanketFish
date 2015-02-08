@@ -1,0 +1,42 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_salad</name>
+  <descr>[proxy] and Himanka both load the plate full at the salad bar. Soon both of them back to small talk again during which the plates slowly empty.&#xd;
+&#xd;
+-My plate is already empty but I’m still hungry, mother told me to never eat more than one plate. What should I do?&#xd;
+&#xd;
+It seems Himanka did not even notice that because of Edeisa&apos;s blessing there are already two plates of salad in her tummy but she still wants more. After a little convincing Himanka agrees that eating a bit more now and then cannot really harm.&#xd;
+&#xd;
+Both of you walk to the salad bar again and load your plate full for the second time.&#xd;
+&#xd;
+-That was great, eating a bit more really feels good. Do you want some desert?&#xd;
+&#xd;
+[proxy] agrees and both of you have a large cone of ice cream.&#xd;
+&#xd;
+-I really have to go now.&#xd;
+&#xd;
+Both of you notice Himanka&apos;s now slightly visual belly.&#xd;
+&#xd;
+-I really ate too much to day. If I was still living with my mother she would punish me so much. Well I’m sure it won&apos;t happen again.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 4000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 3000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+4));&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/himanka1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_5_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

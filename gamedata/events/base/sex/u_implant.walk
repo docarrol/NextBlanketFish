@@ -5,20 +5,23 @@ cuid = GetTextFlag(&quot;base_current_partner&quot;);
 partner = Character(cuid);
 ctv = partner;
 c=partner;&quot;&quot;;%&gt;&lt;%Include(&quot;cview/full_description&quot;);%&gt;What does [t-name] need to help [proxy] with?</descr>
-  <conditions>(proxy.hasEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant_t2&quot;) || proxy.hasEffect(&quot;uterus.volume&quot;, &quot;genki_preg_implant_t3&quot;)) &amp;&amp; GetFlag(&quot;genki_implants_know&quot;) &gt; 1;</conditions>
+  <conditions>proxy.hasEffect(&quot;uterus.volume&quot;, &quot;preg_implant_t2&quot;) || proxy.hasEffect(&quot;uterus.volume&quot;, &quot;preg_implant_t3&quot;);</conditions>
   <picturePath>base/sex_room.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Help with filling</name>
       <value>base/implant_u/help_fill</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Help with emptying</name>
       <value>base/implant_u/help_empty</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Return</name>
       <value>base/sex_interactions</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -26,6 +29,6 @@ c=partner;&quot;&quot;;%&gt;&lt;%Include(&quot;cview/full_description&quot;);%&g
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

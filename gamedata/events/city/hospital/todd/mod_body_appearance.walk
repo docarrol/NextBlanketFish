@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/todd/mod_body_appearance</name>
-  <descr>[Proxy] asks Todd what this DNA modification will do.
+  <descr>[Proxy] asks to Todd what this DNA modification will do.
 
 - Hair and eye colors are the only genes I&apos;m capable of changing directly. So that&apos;s what this modification will do. Just tell me which color on which part you would like to have.
 
@@ -17,18 +17,22 @@ Selected part: &lt;% Include(&quot;hospital/todd/text_selected_part&quot;);%&gt;
     <fetishmaster.engine.WalkChoice>
       <name>Nevermind</name>
       <value>city/hospital/todd/modifications</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Select Color</name>
       <value>city/hospital/todd/select_color</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Select Part</name>
       <value>city/hospital/todd/select_part</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Preform Modification (3h)</name>
       <value>city/hospital/todd/start_mod_appearance</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -36,6 +40,6 @@ Selected part: &lt;% Include(&quot;hospital/todd/text_selected_part&quot;);%&gt;
   <priority>1</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

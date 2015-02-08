@@ -1,0 +1,37 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/introdual_karin_200</name>
+  <descr>[proxy] tells the shaman to transfer an amount of breast tissue equal to 200 ml max lactation rate.&#xd;
+&#xd;
+[proxy] and Karin lie with their breast pressed against each other in the middle of the clearing. The shaman start walking around them while talking in a strange language. He then starts to burn some strange herbs in a small fire covering [proxy] and Karin in a strange smoke. He only burns a small amount of herbs and soon the smoke lifts. Karin’s breast have become a noticeable amount larger while [proxy] breasts have shrunken.&#xd;
+&#xd;
+[proxy] breasts feel a empty when walking back to the village.&#xd;
+&#xd;
+Before Mathilda leaves she tells [proxy] and Karin to meet her tomorrow. She has something to help Karin. &#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)+400));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)+800));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+self.subStat(&quot;breasts.size&quot;, (0.2*self.getStat(&quot;breasts.size&quot;)));&#xd;
+self.subStat(&quot;breasts.max_lactation&quot;, 200);&#xd;
+SetPerFlag(&quot;karin_extra&quot;,200);&#xd;
+SetPerFlag(&quot;Talia_quest&quot;,4);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>self.getStat(&quot;breasts.max_lactation&quot;)&gt;210</conditions>
+  <picturePath>char/shaman.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/second_part</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

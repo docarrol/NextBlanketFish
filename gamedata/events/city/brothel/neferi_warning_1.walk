@@ -14,9 +14,9 @@ Neferi takes a deep worrying breath and continues: &#xd;
 &#xd;
 Watching [Proxy]&apos;s worried face, Neferi adds: &#xd;
 &#xd;
-- You will need to pay for the free session, 200 coins. And if this happens again, you need not come back. Is that clear?&#xd;
+- You will need to pay for the free session, it will cost you 200 coins. And if this happens againg, you don&apos;t need to come back. Is that clear?&#xd;
 &#xd;
-[Proxy] nods staring at the floor. [HeShe] quickly pays 200 coins and leaves.&#xd;
+[Proxy] nods staring into the floor. [HeShe] pays quickly 200 coins and leaves.&#xd;
 &#xd;
 &lt;% DisplayChar(&quot;char/neferi.png&quot;);&#xd;
 RemoveMoney(200);&#xd;
@@ -40,6 +40,5 @@ GetPerFlag(&quot;anal_sex_disgusting&quot;) == 1 &amp;&amp; GetPerFlag(&quot;nef
   <priority>3</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

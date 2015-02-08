@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/kitchen_futa_talk</name>
-  <descr>[Proxy] is blushing, but tells Chef about [himher]self being a futanari like the manager wanted. Womans eyes spark as she takes [proxy] by the hand into another room.
+  <descr>[Proxy] is blushing, but tells Chief about [himher]self being a futanari like the manager wanted. The womans eyes spark as she takes [proxy] by the hand into another room.
 
-- There. Futanari, who agree to work here are very valuable to us! I&apos;m not sure how to tell you... But what we need - is your cum. You see, it&apos;s one of the ingredients that we use in some of our dishes. And the quantity we needed is not small. Sure, we could just use any cum, men&apos;s semen would do just fine, but they usually produce very little compared to a futanari! Only a true futa can give donate a large quantity in one session. And cooking semen can&apos;t be stored for long, so it is always in demand. We will pay you by volume, if you donate. Do we have a deal? You don&apos;t have an answer right away. Come talk to me if you decide to donate!
+- There. Futanari, who agree to work here are very valuable to us! I&apos;m not sure how to tell you... But what we need - is you cum. See, it&apos;s one of the ingredients that we use in some of our dishes. And the quantity we needed is not small. Sure, we could just use any cum, men&apos;s semen would do just fine, but they usually produce very little! Only a true futa can give a large donation at one time. And cooking semen can&apos;t be stored for too long, so it is always in demand. We will pay you by volume, if you will donate, if we have a deal? You do not have to give an answer immediately. Come talk to me if you decide to donate!
 &lt;%SetPerFlag(&quot;fcafe_kitchen_futa&quot;, 2); &quot;&quot;;%&gt;
 </descr>
   <conditions>GetPerFlag(&quot;fcafe_kitchen_futa&quot;) == 1 &amp;&amp; ShameCheck(30) &lt; 1;</conditions>
@@ -11,6 +11,7 @@
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/kitchen_interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -18,6 +19,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

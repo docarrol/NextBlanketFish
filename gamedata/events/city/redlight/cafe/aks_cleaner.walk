@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/aks_cleaner</name>
+  <descr>[proxy] asks the manager if he knows someone who could clean &lt;%activePartner.HisHer();%&gt; bathhouse.&#xd;
+&#xd;
+-You’re lucky, I might know someone. I hired a cleaning lady Celine some time ago but I had to let her go. If she did not find a new job already, she might be able to work for you.&#xd;
+&#xd;
+[proxy] inquires why he fired Celine.&#xd;
+&#xd;
+-Celine was a very good cleaner and I did not fire here for her bad work but she was sometimes a bit to enthusiastic. At some point she sneaked in the man’s toilet and was cleaning there private parts without permission. This place allows most stuff, but I got some complains about her so I had no option to let her go. &#xd;
+&#xd;
+[proxy] thanks the manager for the information, he even gives [proxy] Celine’s address. She lives in the outskirts.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,5);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==4</conditions>
+  <picturePath>city/fcafe/manager.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,0 +1,22 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/take_to_elven</name>
+  <descr>[proxy] walks towards the location where [heshe] was shot the first time by Arwen. Very slowly [heshe] approaches the tree where Arwen is keeping watch in and asks if she can take him to the village.
+
+Arwen hands [proxy] a blindfold that [heshe] wears and then takes [himher] to the village.
+</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)&gt;0</conditions>
+  <picturePath>elves/archer1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/village_center</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

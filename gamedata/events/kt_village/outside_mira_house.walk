@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>kt_village/outside_mira_house</name>
-  <descr>This is the lone farm-like house that Kiana mentioned. Seems to be a little quiet here, but small household is well cared for.
+  <descr>This is the single farm-like house that Kiana mentioned. Seems to be a little quiet here, but small household around is well cared.
 &lt;% Include(&quot;char/mira_init&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>GetFlag(&quot;mira_house_know&quot;) &gt; 0;</conditions>
   <picturePath>kt_village/mira_house.jpg</picturePath>
@@ -8,14 +8,17 @@
     <fetishmaster.engine.WalkChoice>
       <name>To the Village</name>
       <value>kt_village/main_street</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Knock at Door</name>
       <value>kt_village/mira_house_knock</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Look Around (1h)</name>
       <value>kt_village/mira_look_around</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -23,6 +26,6 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

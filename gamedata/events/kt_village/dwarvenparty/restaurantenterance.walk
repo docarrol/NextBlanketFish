@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/restaurantenterance</name>
+  <descr>The zeppelin docks near the upper part of Ironvile. Judging from the houses and decorations this is clearly the rich part of town. Thovila guides [proxy] trough some streets when they arrive at an expensive looking restaurant. Near the entrance of the restaurant a couple of heavily armed guards are present. Thovila takes [proxy] to a side street and soon they are at the back of the restaurant. A large crowed of servants is waiting in the back ally, probably to carry their master home after the party. Thovila approaches the back entrance and sends [proxy] through the door.&#xd;
+&#xd;
+-Just follow that maid; she will take you to the dining hall.&#xd;
+&#xd;
+[proxy] follows the maid trough the large kitchen and some hallway’s and enters the dining hall. The dining hall is separated in sections by large curtains. There is no way for [proxy] to know behind which curtain Cadha is. The only method to find out is try the curtains one by one and hope [heshe] gets lucky. Now [proxy] thinks about is, Thovila did not even give a description of Cadha.&#xd;
+&#xd;
+[proxy] waits for a couple of minutes and the gong sound, time to find the first curtain to try out.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/start_curtain_1</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

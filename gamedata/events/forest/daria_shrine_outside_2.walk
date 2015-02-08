@@ -15,6 +15,11 @@
       <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
+      <name>Ask about ritual</name>
+      <value>forest/daria_shrine_herbs</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>forest/mirkwood</value>
       <chance>0</chance>

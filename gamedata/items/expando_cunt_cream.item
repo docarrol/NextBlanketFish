@@ -1,6 +1,6 @@
 <fetishmaster.items.Item>
   <name>Expando-Cunt Cream</name>
-  <descr>This container contains a hefty dose of expando-cunt cream, which will expand your vulva, deepen your pussy, and boost it&apos;s juice belching! For those who want literally everything possible inside them...</descr>
+  <descr>This container contains a hefty dose of expando-cunt cream, which will expand your vulva, deepen your pussy, and boosting it&apos;s juice belching! For those who want literally everything possible inside them...</descr>
   <hourlyScript></hourlyScript>
   <useScript>res = self.getName() + &quot; takes the special cream and starts massaging her vulva, fingering inside too to get the cream everywhere...&quot;;&#xd;
 if (GetPerFlag(&quot;cunt_overload&quot;) &gt; 0)&#xd;

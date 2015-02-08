@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/manager_room_singer_contract</name>
-  <descr>Ms. Tendo looks happy to see [proxy] again. &#xd;
+  <descr>Ms. Tendo lookes happy to see &lt;%activePartner.getName();%&gt; again. &#xd;
 &#xd;
-- I&apos;m very pleased with your performance, and would like to propose a regular singing contract. You would still be free to work as you like, but this would guarantee you a stable payment for the hours you work.&#xd;
+- I&apos;m very pleased with you performance, and would like to propose a regular singing contract. You would still be free to work as you like, but this would guarantee you stable payment for the hours you work .&#xd;
 &#xd;
-(Now, [proxy] can work as a singer. You can set this task in management screen.)&#xd;
+(Now, &lt;%activePartner.getName();%&gt; can work as singer. You can set this task in management screen.)&#xd;
 &#xd;
 &lt;%&#xd;
 SetPerFlag(&quot;singer_contract&quot;, 1);&#xd;
@@ -17,6 +17,7 @@ SetPerFlag(&quot;singer_contract&quot;, 1);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -24,6 +25,6 @@ SetPerFlag(&quot;singer_contract&quot;, 1);&#xd;
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

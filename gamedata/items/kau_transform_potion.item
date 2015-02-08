@@ -1,6 +1,6 @@
 <fetishmaster.items.Item>
   <name>Kau Tangata Potion</name>
-  <descr>Made by the Shaman of the Kau Tangata village, this potion can transform Human into Kau Tangata.</descr>
+  <descr>Produced by the Shaman of the Kau Tangata village, this potion can transform Human to the Kau Tangata.</descr>
   <hourlyScript></hourlyScript>
   <useScript>if (consumer.getStatText(&quot;generic.race&quot;) == &quot;human&quot;)&#xd;
 {&#xd;
@@ -33,7 +33,7 @@ consumer.setStatText(&quot;generic.race&quot;, &quot;kau&quot;);&#xd;
 consumer.addStat(&quot;fertility.kau&quot;, 30);&#xd;
 consumer.subStat(&quot;fertility.human&quot;, 30);&#xd;
 }</useScript>
-  <useText>After drinking the Potion [proxy]&apos;s body starts to feel very hot and [hisher] consciousness slips away.</useText>
+  <useText>After drinking of the Potion body become very hot and consciousness slip away.</useText>
   <count>1</count>
   <canBeStacked>true</canBeStacked>
   <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>

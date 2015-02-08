@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/go_see_elise</name>
-  <descr>[proxy] knocks on the door to Elise&apos;s room and hears a voice that invites [himher] to enter. Elise still has a pregnant looking belly, probably full of watermelons, and her gigantic vulva are barely covered by her oversized panties.
+  <descr>[proxy] knock on the door to Elise&apos;s room and hear a voice that invites [himher] to enter. Elise still has a pregnant looking belly, probably full of watermelons, and her gigantic vulva is barely covered by her oversized panties.
 
 - Hi there! What do you need from me today?
 
@@ -23,6 +23,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

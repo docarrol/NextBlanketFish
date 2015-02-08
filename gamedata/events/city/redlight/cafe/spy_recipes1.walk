@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/spy_recipes1</name>
-  <descr>[Proxy] tries to find a way to learn some recipes from the cook books. Chef is always here... But maybe she will go out to the cold room if she receives delivery of some goods? It&apos;s should be something that kitchen uses regularly, and is perishable...  Milk maybe? But [proxy] will need to deliver enough bottles to get Chef distracted moving them into the cold room. Twenty will probably be enough.</descr>
+  <descr>[Proxy] try to find a way to get some recipes from the cook books. Chief is always here... But maybe she will go out to the cool room if she receive delivery of some goods? It&apos;s should be something that kitchen use regularly, and with short storage terms...  Milk maybe? But [proxy] need to deliver enough bottles to give Chief enough work to settle them in cool room. Twenty will be enough [heshe] think.</descr>
   <conditions>GetFlag(&quot;muffin_top_quest&quot;) == 2 &amp;&amp; GetPerFlag(&quot;muffin_top_quest&quot;) &lt; 4;
 </conditions>
   <picturePath>city/fcafe/kitchen_interior.jpg</picturePath>
@@ -8,6 +8,7 @@
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/kitchen_interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -15,6 +16,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

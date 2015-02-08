@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/todd/walk_in</name>
-  <descr>[Proxy] enters Todd&apos;s lab. He seems to notice you rather quickly and greets you.
+  <descr>[Proxy] enters into Todd&apos;s lab. He seems to notice you rather quickly and greets you.
 
 &lt;%Include(&quot;hospital/todd/greet&quot;);%&gt;
 &lt;%// sysprint(clock.getAHours());
@@ -55,6 +55,5 @@ if (gnt == null) {  proxy.loadDNA(&quot;genetic_traits/genes_purity&quot;); }
   <priority>1</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

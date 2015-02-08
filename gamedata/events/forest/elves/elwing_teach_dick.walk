@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_teach_dick</name>
+  <descr>[proxy] explains Elwing how she can masturbate with her new penis, not that it is very hard and soon she is busy stroking her dick.&#xd;
+&#xd;
+After she has come a number of times, [proxy] continues with teaching her the next step. [proxy] lies down on Elwing’s bed and spreads [hisher] legs, [heshe] then tells Elwing to start licking and fingering [proxy] pussy. Once [proxy] pussy has become wet enough, [heshe] tells Elwing to now put her dick inside [proxy] pussy. [proxy] helps guiding Elwing’s dick to the correct hole and soon Elwin is slowly fucking [proxy]. After the first few strokes Elwing starts to speed up and soon a torrent of Elwin’s cum fills [proxy] vagina.&#xd;
+&#xd;
+-This is so much better than doing it yourself.&#xd;
+&#xd;
+Even after having the orgasm, Elwing is still hard and continues fucking [proxy]. [proxy] own dick is meanwhile squeezed between [hisher] own body and the body of Elwing. An number of orgasms of both [proxy] and Elwing later and Elwing drops on the bed next to [proxy].&#xd;
+&#xd;
+-Having the tools of both sexes makes this much more interesting. Thank you for your lesson.&#xd;
+&#xd;
+[proxy] leaves Elwing behind to play with her new tool, [proxy] wonder how soon she is going to use it on one of the elves in the village.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,4);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays());&#xd;
+&quot;&quot;;%&gt;&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen6.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

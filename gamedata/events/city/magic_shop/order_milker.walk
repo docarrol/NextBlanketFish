@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/magic_shop/order_milker</name>
-  <descr>- Good. Your machine will be ready by the next week. I don&apos;t set firm deadlines, just visit me and ask.
+  <descr>- Good. Your machine will be ready in the next week. I do not setup firm dates, just visit me and ask.
 &lt;%
 activePartner.inventory.removeMoney(500);
 PerSetFlag(&quot;milker_build&quot;,1);
@@ -15,6 +15,6 @@ PerSetFlag(&quot;time_to_milker_build&quot;, clock.getDays()+5);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

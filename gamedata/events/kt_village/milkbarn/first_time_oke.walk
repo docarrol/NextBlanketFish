@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/first_time_oke</name>
+  <descr>[proxy] notices a very modern looking building hidden behind some bushes. After closer inspection some large stainless steel storage containers can be seen behind the building. When [proxy] approaches the building a door opens and two large breasted tau girls exit from it.&#xd;
+&#xd;
+[proxy] has gotten curious and peeks inside to door. Before [proxy] has a chance to look inside, the door is opened. A middle aged women with very large breasts is standing in the door opening. She is wearing the bare minimum of cloth and has her breast completely out in the open.&#xd;
+&#xd;
+-What are you doing here? This is private property and no entrance is allowed for strangers.&#xd;
+&#xd;
+[proxy] explains that [heshe] was just curious what such a modern looking building is doing in this hidden village.&#xd;
+&#xd;
+-Wait a second, are you by any chance that stranger that Kiana brought. A friend of her is a friend of mine, please come in and I show you what this place is.&#xd;
+&#xd;
+[proxy] follows the woman inside and enters some kind of dressing area. In the area some Tau girls are either dressing or undressing them self. The woman tells [proxy] that [heshe] has to undress to prodceed further. [proxy] quickly removes [hisher] cloths and even has to take a shower before the woman allows [proxy] to proceed. &#xd;
+&#xd;
+The next area contains a large number of milking stalls. The large room is spotless and every piece of equipment is made of stainless steel. Although the room is clearly designed to be as hygienically as possible it is clear that some attention has been given to comforting the users of the milking stalls.&#xd;
+&#xd;
+-What you see here is the main income source of our village. I’m the owner and director of Taumilkium, the top supplier of milk in the country. Everything drop of milk collected and processed here is done using the highest possible standards. We deliver milk to some of the most exclusive restaurants and households in the country. Some of our milk is even exported worldwide. Oh, sorry, I was starting my sales pitch on you. My name is Mathilda, I provide work for most of the females in the village.&#xd;
+&#xd;
+[proxy] asks if [heshe] also could work here.&#xd;
+&#xd;
+-I’m sorry but I cannot buy your milk. The girls that supply the milk are on a special diet and are full tau, since I know too little of you, I can’t guarantee your milk is up to the high standards. But I like your eagerness to work. I have something you could help with if you are interested.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;village_friend&quot;)==1 &amp;&amp; GetPerFlag(&quot;karin_pro&quot;)&lt;1 &amp;&amp; self.getStat(&quot;generic.sex&quot;)&gt;=2</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Aks for job</name>
+      <value>kt_village/milkbarn/intro_karin_1</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>kt_village/second_part</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

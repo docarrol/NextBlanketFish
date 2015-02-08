@@ -1,7 +1,7 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/see_private_dance_girl_not_ok</name>
   <descr>&lt;%Include(&quot;hotlips/private_dance_begin&quot;);%&gt;
-The girl starts her dance. At first she just dancing as if this is a usual show, but at some point, her motions begin to get more and more sensual. [proxy] is staring to get increasingly more uneasy with this, and her feelings are evident on her face. The dancer is professional though, as seeing the expression on [proxy]&apos;s face does not intensify her dance any further, so [proxy] can relax again. By the end of the show, [proxy] is relaxed enough to almost start to enjoying this.
+The girl starts her dance. At first she just dancing as if this is a usual show, but at some point, her motions begin to get more and more sensual. &lt;%activePartner.getName();%&gt; is staring to get progressively more uneasy with this, and on her face, her feelings are obvious. The dancer is professional though, as she sees the emotions on &lt;%activePartner.getName();%&gt;'s face and does not intensify her dance any further, so &lt;%activePartner.getName();%&gt; can relax again. By the end of the show, &lt;%activePartner.getName();%&gt; is relaxed enough to almost begin to enjoy this.
 &lt;%RelaxShame(3); 
 proxy.addStat(&quot;generic.cha&quot;, 1);
 proxy.addStat(&quot;skill.striptease&quot;, 1);
@@ -13,6 +13,7 @@ proxy.inventory.removeMoney(100);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -20,6 +21,6 @@ proxy.inventory.removeMoney(100);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

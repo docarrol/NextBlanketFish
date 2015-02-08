@@ -2,9 +2,9 @@
   <name>city/hospital/genki/in_cabinet_q1</name>
   <descr>Dr. Genki looks up from the papers on his desk when [proxy] knocks on his door and walks into his office.
 
-- Hello [proxy]. Please go into the examination room and get dressed in a gown. I will be with you momentarily.
+- Hello [proxy]. Please go into the examination room and get dressed into a gown. I will be with you momentarily.
 
-Without another word [Proxy] goes to the other room connected to Dr. Genki&apos;s office and proceeds to strip out of [her] clothes. As [she] is putting on a hospital gown, the doctor walks in without knocking.
+Without another word [Proxy] goes into the other room connected to Dr. Genki&apos;s office and proceeds to undress out of her clothes. As [she] is putting on a hospital gown, the doctor walks in without knocking.
 
 - Please take a seat on the examination table and we will get started.
 
@@ -18,9 +18,9 @@ When [proxy] shakes her head, Dr. Genki seems to smile just a bit as he is putti
 
 Doing as he asks, [proxy] stands back up and heads over to the gynecology chair. After settling back onto it and placing her legs into the stirrups, Dr. Genki walks over and draws a curtain across the top of [her] belly so [she] can&apos;t see what he is doing. But [she] definitely feels where he is looking at, stifling a squeak of surprise when the cold steel of a speculum is quickly inserted into her &lt;%IncludeRange(proxy.getStat(&quot;vagina.width&quot;), &quot;vaginawidth&quot;);%&gt; vagina. [proxy] continues to bite her lower lip as Dr. Genki opens and closes the invading instrument a few times. Nearly a minute after he began, the doctor removes the speculum and pulls back the curtain.
 
-- Everything is looking good. There seems to be no bruises or complications. Come back after a few days or if you feel anything unusual.
+- Everything is looking good. There seems to be no bruises or complications. Be here in the next few days or if you feel anything unusual.
 
-Dr. Genki drops the speculum in a container marked with a biohazard symbol then walks out of the room back into his office without saying anything more. Guessing that he is done, [proxy] dresses into [her] regular clothes before walking out of the door leading to the hallway and heading for the clinic&apos;s exit.
+Dr. Genki drops the speculum in a container marked with a biohazard symbol then walks out of the room back into his office without saying anything more. Guessing that he is done, [proxy] redresses into [her] regular clothes before walking out of the door leading to the hallway and heading for the clinic&apos;s exit.
 &lt;%SetPerFlag(&quot;genki_last_visit&quot;, clock.getAHours()); &quot;&quot;;%&gt;
 &lt;%LustShame(10,30); &quot;&quot;;%&gt;
 </descr>
@@ -30,6 +30,7 @@ Dr. Genki drops the speculum in a container marked with a biohazard symbol then 
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -37,6 +38,6 @@ Dr. Genki drops the speculum in a container marked with a biohazard symbol then 
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

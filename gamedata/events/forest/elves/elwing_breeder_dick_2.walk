@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_breeder_dick_2</name>
+  <descr>-The elder has currently already a visitor, pleas wait a bit till she is finished.&#xd;
+&#xd;
+[proxy] waits for a bit and hears some soft screams coming from behind the door. At some point the assistant tells you to go in if you want, she is not sure how long the current visitor of Elwing is going to stay.&#xd;
+&#xd;
+[proxy] only has to follow the sound to find Elwing. She is busy fucking the brains out of a female elf. The elf has another orgasms accompanied by some loud screams. When Elwing notices [proxy] presents she pulls her dick from the pussy of the elf. A large stream of cum flows from her pussy.&#xd;
+&#xd;
+-Hello again, back for some more fun. Lately I’m just so extremely horny, luckily some of my followers are happy to help me with that. Now come and have some fun.&#xd;
+&#xd;
+The next hour [proxy] and Elwing spend fucking each other.  After coming for the 6th time, [proxy] balls and pouch is completely empty. Tired, [proxy] drops down on the bed. Elwing looks a bit disappointed.&#xd;
+&#xd;
+-You are finished already, I was just getting started. I have to think of a solution for that for the next time.&#xd;
+&#xd;
+They talk for a bit but the main subject is sex. Elwing seems to be obsessed by it. When [proxy] leaves Elwing’s bedroom [heshe] notices that the next female elf is already waiting to service Elwing.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,5);&#xd;
+proxy.doAction(&quot;orgasm&quot;);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays());&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;elf_breed&quot;)==4 &amp;&amp; GetPerFlag(&quot;elwing_wait&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>elves/queen7.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

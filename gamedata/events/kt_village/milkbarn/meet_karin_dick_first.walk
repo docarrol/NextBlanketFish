@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/meet_karin_dick_first</name>
+  <descr>[proxy] enters the room where Karin is waiting in at least that is normally the case. This time the room is empty. [proxy] walks around a finally finds Karin in a room that is normally barely used. The potion gave Karin a dick as the text on it already has suggested. Based on the pool of cum in front of Karin she is already putting it to good use. [proxy] asks Karin if she wants to do more milk girl training but she does not even notices [proxy] presents. She is far to busy stroking her dick. &#xd;
+&#xd;
+[proxy] leaves her be, hopefully Karin comes back to her senses once she has played with her new dick enough.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;Talia_quest&quot;,2);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;Talia_quest&quot;)==1 &amp;&amp; GetPerFlag(&quot;karinvisit&quot;) &lt; clock.getDays()</conditions>
+  <picturePath>kt_village/milk/dick_cow_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>old_city/explore_dark_street_magbot</name>
-  <descr>[Proxy] searches around dark street. Suddenly, from around the corner a Magbot appears! 
+  <descr>[Proxy] searched around dark street. Suddenly, from around a corner a Magbot appeared! 
 &lt;%DisplayChar(&quot;lost_city/magbot.png&quot;); &quot;&quot;;%&gt;
 
 </descr>
@@ -10,6 +10,7 @@
     <fetishmaster.engine.WalkChoice>
       <name>Fight!</name>
       <value>battle/magbot/start</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -17,5 +18,5 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

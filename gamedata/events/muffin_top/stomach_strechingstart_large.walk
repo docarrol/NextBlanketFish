@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_strechingstart_large</name>
+  <descr>[proxy] asks if Vicky could train her stomach to contain more food.&#xd;
+&#xd;
+-Yes, I received a strange package in the mail earlier that contained the ingredients I where missing. I can now give you the full set of training methods developed by my family. I do hope you can complete the training unlike my brother.&#xd;
+&#xd;
+[proxy] inquires what happened to her brother.&#xd;
+&#xd;
+-I was telling you earlier about how my brother got a bit too big for travel, that kind of happened mostly during the last part of the training.&#xd;
+&#xd;
+[proxy] wonders if this is really a good idea. Vicky meanwhile has already walked to the entrance of her cafe and changed the sing from open to closed. It seems this is going to need her full attention. She also makes some calls with her phone; she is going to need help with this.&#xd;
+&#xd;
+-Go sit there and relax, soon your get the meal of your life.&#xd;
+&#xd;
+[proxy] sits down on the largest table in the cafe and waits what is going to happen. Vicky meanwhile disapears to the kitchen and starts cooking.&#xd;
+&#xd;
+</descr>
+  <conditions>GetFlag(&quot;stomach_train&quot;) == 3 &amp;&amp; HasMoney(1000) &amp;&amp; self.getStat(&quot;abdomen.stomach_volume&quot;) &lt; 15000 &amp;&amp; self.getStat(&quot;abdomen.food&quot;)&lt;=1 &amp;&amp; self.getStat(&quot;abdomen.stomach_volume&quot;) &gt;= 10000
+</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/stomach_advstrechingcont</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

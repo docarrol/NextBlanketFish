@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/meet_himaka_icelow</name>
+  <descr>[proxy] asks how the ice cream was they ate during their first meeting.&#xd;
+&#xd;
+-Really delicious, I was never allowed to eat that kind of stuff by mother.&#xd;
+&#xd;
+[proxy] explains that last time you both ate vanilla ice cream, there are many more tastes available, want to try some out?&#xd;
+&#xd;
+-That would be wonderful; I want to taste more flavors.&#xd;
+&#xd;
+Soon [proxy] and Himanka are busy eating ice creams of many different flavors. At some point Himanka notices her now slightly visible stomach.&#xd;
+&#xd;
+-I really need to stop eating. If I was still living with my mother and she found out what I did, she probably would kill me.&#xd;
+&#xd;
+With a red blush on her face, Himanka quickly leaves the shrine.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 6000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 3000);&#xd;
+SetPerFlag( &quot;himanka_eaten&quot;,(GetPerFlag( &quot;himanka_eaten&quot;)+6));&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/himanka1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/edesia_5_start</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

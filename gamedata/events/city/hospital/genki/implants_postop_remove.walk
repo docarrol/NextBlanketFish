@@ -16,7 +16,6 @@ proxy.removeEffect(&quot;breasts.size&quot;, &quot;breasts_implant&quot;);
 proxy.removeEffect(&quot;breasts.max_lactation&quot;, &quot;breasts_implant&quot;);
 proxy.removeEffect(&quot;breasts.max_volume&quot;, &quot;breasts_implant&quot;);
 proxy.removeEffect(&quot;breasts.weight&quot;, &quot;breasts_implant&quot;);
-proxy.removeEffect(&quot;breasts.size&quot;, &quot;filling_breasts_implant&quot;);
 &quot;&quot;;%&gt;
 &lt;%MoodShame(30); &quot;&quot;;%&gt;
 </descr>
@@ -28,6 +27,6 @@ proxy.removeEffect(&quot;breasts.size&quot;, &quot;filling_breasts_implant&quot;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

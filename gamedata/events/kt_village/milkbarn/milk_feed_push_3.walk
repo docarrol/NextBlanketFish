@@ -1,0 +1,23 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/milk_feed_push_3</name>
+  <descr>[proxy] pushes the feed button the first time. A serving of milk girl food is deposited in Karin’s stomach. Just as the last bit of food leaves the feeding tube, [proxy] pushes again. A second serving of food is now put in Karin’s stomach. With a final push the third serving of milk girl foods disappears in Karin’s stomach. Karin’s belly is now clearly bloated by all the food in it.&#xd;
+&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/milk_produced&quot;);%&gt;&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/push_three&quot;);%&gt;</descr>
+  <conditions>GetPerFlag(&quot;karin_stom&quot;)&gt;20</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

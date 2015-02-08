@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight_district</name>
-  <descr>The Red Light District. It&apos;s pretty big and has several streets of various types and styles. After the DS, public morality has not been very high, but here it&apos;s lower than anywhere else in the city. There&apos;s only one rule to work here - prohibition on coercion by force. Almost anything can be found here. For the right price.
+  <descr>The Red Light District. It&apos;s pretty big and has several streets of various types and styles. After the DS, public morality has not been very high, but here it&apos;s lower than anywhere else in the city. There&apos;s only one rule to the work here - prohibition on coercion by force. Almost anything can be found here. For the right price.
 
 &lt;%Include(&quot;rumors/common&quot;);%&gt;</descr>
   <conditions>1</conditions>
@@ -9,22 +9,27 @@
     <fetishmaster.engine.WalkChoice>
       <name>Down Lane</name>
       <value>city/to_hilltown</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Hot Lips</name>
       <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Fetish Cafe</name>
       <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Search Around (1h)</name>
       <value>city/redlight/search_around</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Visit Merril</name>
       <value>city/redlight/merril/let_in</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -32,5 +37,5 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

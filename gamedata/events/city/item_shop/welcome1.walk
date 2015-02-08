@@ -1,0 +1,17 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/item_shop/welcome1</name>
+  <descr>&lt;%Include(&quot;char/kat_init&quot;);%&gt;
+&lt;%Include(&quot;item_shop/kat&quot;);%&gt;
+
+</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>true</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

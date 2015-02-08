@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/punishment_stop</name>
+  <descr>[proxy] tells Karin that Talia is punished enough. Mathilda looks slightly disappointed but walks to Talia. She rotates a valve at the entrance of the butt plug and removes the rubber hose. Talia has to walk around the rest of the day with her milk tummy.&#xd;
+&#xd;
+Karin thanks Mathilda and [proxy] for the help on getting back on Talia. Tomorrow they have to visit the shaman again to restore [proxy] breasts.&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;Talia_quest&quot;,8);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/bet_res.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

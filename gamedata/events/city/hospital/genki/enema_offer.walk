@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/genki/enema_offer</name>
-  <descr>[Proxy] explains to Dr. Genki that [heshe] is working for Neferi and that [heshe] had an accident with a customer who was curious about anal sex. When [proxy] spoke to Neferi, she suggested, that doctor might be able to help [himher] clean it.
+  <descr>[Proxy] explains to Dr. Genki that [she] is working for Neferi and that she had an accident with a customer who was curious about anal sex. When I spoke to Neferi, she suggested, that you might be able to help me to clean it.
 
 - Well, said Dr. Genki with a grim, after inspecting [Proxy]&apos;s ass with a long stare, I might be able to help you. To fully enjoy the pleasure of anal sex some preparations are required. To help you with the hygiene, I can offer you an enema. The procedure is painless and takes about and hour.
 
@@ -8,7 +8,7 @@ The standard procedure costs 300 coins and the effect will last up to two days. 
 
 - What other ingredients? [Proxy] asks curiously. 
 
-- That&apos;s not important! replays Dr. Genki firmly. The important thing is that the effect will last a week before it wears off. However, these ingredients are much harder to come by and so the procedure costs 1001 coins.
+- That&apos;s not important! replays Dr. Genki firmly. The important thing is that the effect will last a week, before it wears off. However, these ingredients are much harder to come by and so the procedure costs 1001 coins.
 
 Are you interested? asks Dr. Genki.
 
@@ -33,6 +33,5 @@ Are you interested? asks Dr. Genki.
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

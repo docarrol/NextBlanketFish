@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/todd/upgrades</name>
-  <descr>[Proxy] reads the list of potiental modules the scanner can receive as upgrades.
+  <descr>[Proxy] reads a list of the potiental modules the scanner can receive as upgrades.
 
 &lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>GetFlag(&quot;todd_unlock_helpmethods&quot;) == 1 &amp;&amp; GetFlag(&quot;todd_waiting&quot;) != 1 &amp;&amp; GetFlag(&quot;todd_in_experiment&quot;) == 0 &amp;&amp; (GetFlag(&quot;installed_adapation_upgrade&quot;) == 1 &amp;&amp; GetFlag(&quot;installed_display_upgrade&quot;) == 1 &amp;&amp; GetFlag(&quot;installed_display_upgrade&quot;) == 1 &amp;&amp; GetFlag(&quot;installed_fertility_upgrade&quot;) == 1) == false
@@ -12,18 +12,22 @@
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/todd/walk_in</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Body Display Module</name>
       <value>city/hospital/todd/upgrade_body_display</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Appearance Display Module</name>
       <value>city/hospital/todd/upgrade_appearance_display</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Fertility Display Module</name>
       <value>city/hospital/todd/upgrade_fertility_display</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -31,6 +35,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

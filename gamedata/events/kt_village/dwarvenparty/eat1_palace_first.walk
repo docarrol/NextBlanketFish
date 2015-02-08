@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat1_palace_first</name>
+  <descr>[proxy] decides to stay and asks Cadha what her sister was talking about. Before Cadha respond she calls a servant and seems to order more food, just as [proxy] had feared.&#xd;
+&#xd;
+-We are larger than most dwarfs but are also not immune to the large qualities of food eaten at dwarven parties, as you noticed with my sister. My father decided for a reason that the only task I could carry out was attending parties. Because of this, some of the best cooks and alchemist of the dwarven kingdom where ordered to give me a special training. From a young age I was trained and prepared to attend dwarven parties so the rest of the royal family does not have to bother with it. They made me a eating machine that could go to multiple parties in a single week and even managed to make sure my weight stayed low. That is why I still have this size.&#xd;
+&#xd;
+At that moment the food arrives, two more scales each containing a ox that is a lot bigger than the last ones.&#xd;
+&#xd;
+-Sorry I turn to eating when I’m upset. You should eat your meal too, I don’t like eating alone.&#xd;
+&#xd;
+So where was I, thanks to fathers training I turned into a eating machine. At the beginning I visited party after party entertaining the guests and keeping the royal’s name high. The nobles where delighted because normally a royal at a party was something extremely rare. The parties got larger and more often because of my presents. Soon most or the nobles where too fat to even move and the upper houses faced a crises. Making new nobles is a bit hard when both involved are too big to move. Some crazy stuff was done during that period to assure offspring was created.&#xd;
+&#xd;
+Cadha managed to eat the first two legs of her ox and was already halfway through the third one when she noticed that [proxy] did not even completely eat [hisher] first leg.&#xd;
+&#xd;
+-With that eating speed of yours I might as well eat alone, I know I eat a bit faster than most so let me provide you with some help.&#xd;
+&#xd;
+Cadha calls a couple of servant who begin feeding [proxy] the ox meat at an very quick rate.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat2_palace_first</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

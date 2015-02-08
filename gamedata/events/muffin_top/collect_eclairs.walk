@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>muffin_top/collect_eclairs</name>
-  <descr>&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;[proxy] collects 10 eclairs, old saying &quot;a moment on the lips, a lifetime on the hips&quot; seems all too appropriate.&#xd;
+  <descr>&lt;%Include(&quot;muffin_top/vicky_init&quot;);%&gt;[proxy] collects 10 eclairs, an ancient saying &quot;a moment on the lips, a lifetime on the hips&quot; seems all too appropriate.&#xd;
 &lt;% &#xd;
 AddItem(&quot;cream_eclair&quot;, 10);&#xd;
 SetPerFlag(&quot;mt_collected_eclairs&quot;, 1);&#xd;
@@ -13,6 +13,6 @@ SetPerFlag(&quot;mt_collected_eclairs&quot;, 1);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

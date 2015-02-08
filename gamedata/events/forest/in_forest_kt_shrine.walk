@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/in_forest_kt_shrine</name>
-  <descr>[proxy] found another forest edge, but this is not the path into the city. 
+  <descr>[proxy] found another forest edge, but this is not the place where is road from city to the forest. 
 
 &lt;%Include(&quot;forest/kt_road_shrine&quot;);%&gt;</descr>
   <conditions>Chance(5);</conditions>
@@ -9,10 +9,12 @@
     <fetishmaster.engine.WalkChoice>
       <name>Along the forest edge</name>
       <value>forest/edge_kt_path</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Into the forest</name>
       <value>forest/in_forest</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -20,5 +22,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -28,7 +28,7 @@ dna.setValue(2);&#xd;
 &#xd;
 }&#xd;
 </useScript>
-  <useText>After eating fruit &lt;%self.getName()%&gt; loses consciousness...</useText>
+  <useText>After eating fruit &lt;%self.getName()%&gt; losing consciousness...</useText>
   <count>1</count>
   <canBeStacked>true</canBeStacked>
   <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>

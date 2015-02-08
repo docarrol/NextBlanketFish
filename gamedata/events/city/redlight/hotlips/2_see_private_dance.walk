@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/2_see_private_dance</name>
-  <descr>Her dance around the pole now begins to look more sensual and swaying, giving &lt;%activePartner.getName();%&gt; a sense of feline grace.  After some time &lt;%activePartner.getName();%&gt; can clearly see a wet stain on the dancing girl&apos;s thighs - she is very aroused by having her dance watched! Finally, the dancer lays down on the floor, tenses for a second, and then arches her back and goes stiff, with small shuddering gasps. You can clearly see how the girl&apos;s body shakes in small waves of muscle contractions. She is having orgasm, without touching herself at all!
+  <descr>Her dance around the pole now begins to look more sensual and swaying, giving &lt;%activePartner.getName();%&gt; a sense of feline grace.  After some time &lt;%activePartner.getName();%&gt; can clearly see a wet stain on the dancing girl&apos;s thighs - she is very aroused by having her dance watched! Finally, the dancer lay down on the floor, froze for a second, and then arched her back and froze, with small shuddering gasps. You can clearly see how the girl&apos;s body shakes in small waves of muscle contractions. She is having orgasm, not touching herself at all!
 
 After her orgasm subsides, the dancer gracefully gets to her feet and stretches out, indeed looking like a cat. Giving a last smile to &lt;%activePartner.getName();%&gt;, she leaves the room.
 
@@ -18,6 +18,7 @@ proxy.inventory.removeMoney(100);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -25,6 +26,6 @@ proxy.inventory.removeMoney(100);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

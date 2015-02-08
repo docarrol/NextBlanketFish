@@ -2,13 +2,11 @@
   <name>city/hospital/genki/after_quest1</name>
   <descr>A few minutes after [proxy] awakens in the recovery room, Dr. Genki enters.
 
-- The test has been successfully completed. You are free of your obligations to me, but I wish to propose something to you. It seems you are not weak minded and capable of adapting to unusual situations. I am almost always in need of new test subjects. If you think that one thousand coins is adequate payment for some discomfort caused to you, you know where my clinic is.
+- The test has been successfully completed. You are free of your obligations to me, but I wish to propose something to you. It seems you are not weak minded and capable at adapting to unusual situations. I am almost always in need of new test subjects. If you think that one thousand coins is adequate payment for some discomfort caused to you, you know where my clinic is. 
 
-Once Dr. Genki leaves the room, [proxy] begins to prod at [her] [=proxy][belly]. [She] isn&apos;t sore, but does feel some emptiness inside [her] womb. [proxy] reasons that the feeling is normal. After all, [she] was stretched for some time, and even actually pregnant women have a postpartum period. Deciding that the sensation will be gone in time, [proxy] gets out of bed, dresses, and leaves Dr. Genki&apos;s clinic.
+Once Dr. Genki leaves the room, [proxy] begins to prod at [her] [=proxy][belly]. [She] isn&apos;t sore, but does feel some emptiness in [her] womb. [proxy] reasons that the feeling is normal. After all, [she] was stretched for some time, and even true pregnant women have a postpartum period. Deciding that the sensation will be gone in time, [proxy] gets out of bed, dresses, and leaves Dr. Genki&apos;s clinic.
 &lt;%LustShame(10,30); &quot;&quot;;%&gt;
-&lt;%SetPerFlag(&quot;genki_quest&quot;, 3);
-SetFlag(&quot;genki_experiment&quot; , 3);
-SetPerFlag(&quot;genki_experiment&quot; , 3); &quot;&quot;;%&gt;
+&lt;%SetPerFlag(&quot;genki_quest&quot;, 3); &quot;&quot;;%&gt;
 </descr>
   <conditions>1;</conditions>
   <picturePath>city/hospital/genki_ward.jpg</picturePath>
@@ -18,6 +16,6 @@ SetPerFlag(&quot;genki_experiment&quot; , 3); &quot;&quot;;%&gt;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

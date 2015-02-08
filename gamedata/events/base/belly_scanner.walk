@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base\belly_scanner</name>
+  <descr>You inspect &lt;%activePartner.getName()%&gt;&apos;s belly with the scanner:&#xd;
+&#xd;
+Food Volume Inside: &lt;%(Integer)activePartner.getRNAValue(&quot;abdomen.food&quot;)%&gt; ml.&#xd;
+Maximum Volume &lt;%(Integer)activePartner.getRNAValue(&quot;abdomen.stomach_volume&quot;)%&gt; ml.&#xd;
+Calories rate &lt;%(Integer)activePartner.getRNAValue(&quot;generic.calories_rate&quot;)%&gt;&#xd;
+Metabolism rate &lt;%(Integer)activePartner.getRNAValue(&quot;generic.metabolism&quot;)%&gt;&#xd;
+&#xd;
+The scanner provides some extra information about metabolism rate: this is the percentage of calories the body uses for its normal functioning. So eat 100 calories wit metabolism of 70, will add 30 calories worth of fat.&#xd;
+</descr>
+  <conditions>GetFlag(&quot;stomach_train&quot;) &gt;= 2</conditions>
+  <picturePath>base/train_rooms.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/p_training</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

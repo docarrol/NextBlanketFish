@@ -1,0 +1,20 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/kiana_felis</name>
+  <descr>Seeing Kiana remembers [proxy] that &lt;%activePartner.HeShe();%&gt; still has to go to Felis for an status update.</descr>
+  <conditions>GetPerFlag(&quot;dense_breast&quot;)==4 &amp;&amp; GetPerFlag(&quot;trail_milk&quot;)&gt;0</conditions>
+  <picturePath>char/kiana.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

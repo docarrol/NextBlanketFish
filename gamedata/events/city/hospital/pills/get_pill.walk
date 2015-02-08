@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/pills/get_pill</name>
-  <descr>- Good. Please undress,  I first need to give you a checkup. You will also need to fill out these forms...&#xd;
+  <descr>- Good. First I need to give you a checkup and then you should fill out these forms...&#xd;
 &#xd;
 After filling out the forms, the nurse gives [proxy] a pill. &#xd;
 &#xd;
@@ -11,6 +11,7 @@ After filling out the forms, the nurse gives [proxy] a pill. &#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -18,6 +19,6 @@ After filling out the forms, the nurse gives [proxy] a pill. &#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

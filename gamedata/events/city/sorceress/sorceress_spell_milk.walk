@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_spell_milk</name>
+  <descr>This spell is the result of that visit to the Tau village.&#xd;
+&#xd;
+&lt;%&#xd;
+AddItem(&quot;spell_milkboobs&quot;);&#xd;
+RemoveMoney(1000); &#xd;
+SetPerFlag(&quot;spell_mb&quot;,1);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>HasMoney(1000) &amp;&amp; GetPerFlag(&quot;spell_mb&quot;)&lt;1 &amp;&amp; GetPerFlag(&quot;magic_skill&quot;)&gt;=25 &amp;&amp; GetPerFlag(&quot;spell_milk&quot;)==1</conditions>
+  <picturePath>city/sorceres_home/sorceress_meet.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/sorceress/sorceress_enterance_final</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

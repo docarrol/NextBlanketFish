@@ -2,13 +2,13 @@
   <name>city/hospital/genki/enema_special_constraint_two</name>
   <descr>After emptying the entire bag, [Proxy]&apos;s belly starts to feel full. Dr. Genki asks to hold as long as possible. When it becomes unbearable, Dr. Genki quickly removes the panties and hose. Nothing comes out, but [hisher] belly suddenly feels empty and clean.
 
-Dr. Genki inserts a finger into [Proxy]&apos;s anus circling around it twice. Then he stops, watching [Proxy] unable to move held tight by the belts. Suddenly he feels the anus tightening around his finger. Genki smiles devilishly and slaps [Proxy]&apos;s ass as he takes the finger out. He then tells [himher] that the procedure was successful. Dr. Genki instructs his nurse to pull up [Proxy]&apos;s panties and unclasp the belts.
+Dr. Genki inserts a finger into [Proxy]&apos;s anal circling twice around. Then he stops, watching [Proxy] unable to move held tight by the belts. Suddenly he feels the anal tightening around his finger.With a slightly evilish smile and slaps [Proxy]&apos;s ass as he takes the finger out. He then advices that the procedure was successful and is now over. Dr. Genki instructs his nurse to pull up [Proxy]&apos;s panties and unclasp the belts.
 
 &lt;% 
 SetPerFlag(&quot;special_enema_first_step&quot;, 0);
 if(GetPerFlag(&quot;bonus_enema&quot;) &gt; 0)
 {
-&quot;- That was fun, don&apos;t you think? If you wish, we can have a bottle of wine and make another enema...&quot;
+&quot;- It was actually fun, don&apos;t you think? If you desire, we can have a bottle of wine and make another enema...&quot;
 } else &quot;&quot;;%&gt;</descr>
   <conditions>GetPerFlag(&quot;special_enema_first_step&quot;) &gt; 0 </conditions>
   <picturePath>city/hospital/enema_special_restraint.jpg</picturePath>
@@ -27,6 +27,5 @@ if(GetPerFlag(&quot;bonus_enema&quot;) &gt; 0)
   <priority>4</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

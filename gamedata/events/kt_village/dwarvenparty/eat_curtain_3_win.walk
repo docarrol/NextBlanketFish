@@ -1,0 +1,28 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_3_win</name>
+  <descr>[proxy] takes the skull full of mead and manages to position [hisher] hand just in time in such a matter that the skull does not completely disintegrate. [heshe] than slowly moves the skull to [hisher] mouth and starts drinking. The mead tastes delicious and with a couple of swift adjustments, [proxy] managed to drink the content of the skull without any spillage.&#xd;
+&#xd;
+-Are you by any chance a Viking, not many other people can drink from a skull without messing it up. Well you won, lucky me, I was just getting a dry throat. &#xd;
+&#xd;
+The three dwarfs start drinking skull after skull with mead but soon switch to normal tankards to drink from. Sometime later the gong sounds and [proxy] leaves for the next curtain.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>(self.getStat(&quot;generic.dex&quot;)+self.getStat(&quot;generic.spd&quot;))&gt;90</conditions>
+  <picturePath>kt_village/dwarfs/dwarf3.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

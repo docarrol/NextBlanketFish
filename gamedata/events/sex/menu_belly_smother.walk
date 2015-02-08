@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sex/menu_belly_smother</name>
+  <descr>[Proxy] grabs &lt;%activePartner.HisHer();%&gt; [=proxy][belly] with both hands and thinks of what she could do with it</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 9;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Smother with belly</name>
+      <value>sex/Belly/smother</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>sex/turn</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

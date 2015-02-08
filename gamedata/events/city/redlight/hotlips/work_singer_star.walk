@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/work_singer_star</name>
-  <descr>[proxy] had an outstanding performance. Her charming singing made her truly the star of the show.
+  <descr>&lt;%activePartner.getName();%&gt; had an outstanding performance. Her charming singing made her truly the star of the show.
 
-Ms. Tendo pays [proxy] 40 coins for [hisher] work.
+Ms. Tendo payed &lt;%activePartner.getName();%&gt; 40 coins for the work.
 
 &lt;%
 activePartner.inventory.addMoney(40);
@@ -17,5 +17,5 @@ activePartner.addStat(&quot;skill.sing&quot;, 1);
   <priority>2</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

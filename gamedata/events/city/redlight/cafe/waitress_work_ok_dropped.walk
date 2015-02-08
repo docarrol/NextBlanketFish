@@ -2,7 +2,7 @@
   <name>city/redlight/cafe/waitress_work_ok_dropped</name>
   <descr>&lt;%Include(&quot;fetish_cafe/change_to_waitress&quot;);%&gt;
 
-[Proxy] works [hisher] shift and is actually enjoying all of the attention [heshe] gets. [Proxy] is too clumsy though, and drops some trays. Manager is not too angry, but does not pay [himher] for the bad performance.
+[Proxy] works [hisher] shift and is actually enjoying all of the attention [heshe] gets. [Proxy] is too clumsy though, and drops some trays. Manager is not too angry, but does not pay [himher] for the bad work.
 &lt;%MoodShame(20); 
 proxy.inventory.addMoney(0);
 &quot;&quot;;%&gt;</descr>
@@ -12,6 +12,7 @@ proxy.inventory.addMoney(0);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -19,6 +20,6 @@ proxy.inventory.addMoney(0);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

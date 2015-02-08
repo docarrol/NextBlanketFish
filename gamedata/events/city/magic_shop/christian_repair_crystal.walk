@@ -4,7 +4,7 @@
 
 Christian takes the crystal and asks [proxy] to wait and goes into the next room. [Proxy] waits for about an hour, and finally Christian appears again. He looks exhausted, but happy. Returning [proxy] a crystal, he says:
 
-- I finished it. The crystal is fully reconstructed, though, I confess, it was more difficult than I expected. However, working on a challenge is always interesting. Hopefully, you will be happy with the result, and you will contact me in the future if you are in need of magical assistance.
+- I finished it. The crystal is fully reconstructed, though, I confess, it was honestly more difficult than I expected. However, working on a major challenge is always interesting. Hopefully, you will be happy with the result, and you will contact me in the future if you are in need of magical assistance.
 &lt;% SetFlag(&quot;belanika_quest&quot;, 2);
 RemoveItem(&quot;old_parts&quot;, 15);
  &quot;&quot;; %&gt;</descr>
@@ -17,6 +17,7 @@ res;</conditions>
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/magic_street</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -24,5 +25,5 @@ res;</conditions>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

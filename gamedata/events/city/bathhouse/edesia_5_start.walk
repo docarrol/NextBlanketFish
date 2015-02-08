@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/edesia_5_start</name>
+  <descr>Once Himanka leave [proxy] decides to check out Edesia.&#xd;
+&#xd;
+&lt;%activePartner.HeShe();%&gt; find Edesia being lazy as usual on some pillows.&#xd;
+&#xd;
+-I seem you finished your party with Himanka.&#xd;
+&#xd;
+&lt;%Include(&quot;bathhouse/himanks_range&quot;);%&gt;&#xd;
+&#xd;
+She looks at you &lt;%IncludeRange(proxy.getStat(&quot;generic.fat_percent&quot;), &quot;body_fat_percent&quot;);%&gt;  body.&#xd;
+&#xd;
+-Let me help you with that &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt; stomach of yours. I can increase your bodies processing speed for a bit, I’m sure your  &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly would not mind some extra fat. Just look at how beautiful I am.&#xd;
+&#xd;
+With that said she moves here behind making her fat bum wobble for a bit.&#xd;
+&#xd;
+-You can of course also let nature take its course but I hate waiting. So much time between parties, that cannot be fun.</descr>
+  <conditions>GetPerFlag(&quot;himanka_eaten&quot;)&lt;=200</conditions>
+  <picturePath>bathhouse/edesia8.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Decline offer</name>
+      <value>city/bathhouse/edesia_five_no</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Accept offer</name>
+      <value>city/bathhouse/edesia_five_yes</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

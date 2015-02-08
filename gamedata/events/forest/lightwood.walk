@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/lightwood</name>
-  <descr>Lightwood. This is the outer part of the magic forest. Nothing really dangerous lives here, but encounters with hostile creatures are still possible. There are no visible trails going deeper into the forest.
+  <descr>Lightwood. This is the outer part of the magic forests. Nothing really dangerous lives here, but encounters with hostile creatures are still possible. There are no visible trails going deeper into the forest.
 </descr>
   <conditions>1</conditions>
   <picturePath>forest/in_the_forest1.jpg</picturePath>
@@ -8,10 +8,17 @@
     <fetishmaster.engine.WalkChoice>
       <name>Out of forest</name>
       <value>forest/edge_of_forest</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Search around (1h)</name>
       <value>forest/in_forest</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Visit elves</name>
+      <value>forest/take_to_elven</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -19,5 +26,5 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/belanika_milked1</name>
-  <descr>At first, only few trickles of milk run through the tubes to the pump. But the flow quickly grows from a trickle to a strong flow of milk that makes the tubes shudder and distend with the influx.
+  <descr>At first, just trickles of milk run through the tubes to the pump. But the flow quickly grows from a trickle to a strong flow of milk that makes the tubes shudder and distend larger with the influx.
 
 Belanika lolls softly as her eyes roll with delight. Her arousal is steadily growing with every pulse of the milker cups suckling at her teats until with a lusty moan she tries to reach for her sodden, throbbing femmesex. In her increased lust the horny cowgirl forgot about her oversized breasts and massive undulating udder being in the way and preventing her from reaching her goal. She resigns herself to rocking her udder and kneading it with her legs to rub at her swollen snatch. With all the attention she is paying to her udder now, droplets of milk begin to well up from the tips of the cola bottle sized teats.
 
@@ -17,6 +17,7 @@ After several minutes the flow of milk from Belanika finally peaks and quickly d
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>farms/belanika_milked2</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -24,5 +25,5 @@ After several minutes the flow of milk from Belanika finally peaks and quickly d
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

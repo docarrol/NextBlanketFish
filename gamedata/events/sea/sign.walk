@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>sea/sign</name>
+  <descr>[proxy] walks towards the strange sign present on the beach.
+
+-A item called Bloated Berries can be found on the beach, this item will increase the abdomen size of the user. The size of the abdomen directly correlates with the size of [proxy] stomach. The mod is balanced around the fact that there were no other methods available to increase stomach size other than the training introduced by the mod. Activating the bloated berries can lead to strange situations and skipping of some of the contend by the mod. The mod is also designed with a maximum stomach capacity in mind, bloated berries have no maximum.
+
+Do you want to activate the bloated berries; you can always turn them on at a later moment.
+</descr>
+  <conditions>1;</conditions>
+  <picturePath>sea/beach.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Bloated Berries off</name>
+      <value>sea/bloated_berries_off</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Bloated Berries on</name>
+      <value>sea/bloated_berries_on</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

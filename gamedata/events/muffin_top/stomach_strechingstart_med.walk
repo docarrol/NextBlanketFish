@@ -1,0 +1,47 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_strechingstart_med</name>
+  <descr>[proxy] walks to Vicky ready for a trainings session. Stomach empty and ready to go. When [proxy] approaches Vicky and asks for the special training Vicky response with
+
+-Pleas take a seat at that table there in the corner, I will be right with you with the first dish.
+
+[Proxy] walks to a large table in the corner, not much time later Vicky arrives with the first dish. The first dish is already so big it does not fit on a single plate. Vicky puts a couple of large plates in front of [proxy].
+
+-here is a bit of an appetizer just to build up some hunger.
+
+Making the best of the training [proxy] starts at the first set of plates. Only a few plates later, Vicky arrives again with even a large collection of plates. [proxy] also notices that every dish contains either a hefty dose of chocolate or cream, more often than not both. The food also seems to stimulates [proxy] stomach, its feels much more active than normal. This is probably caused by the special ingredients Vicky was talking about.
+
+Slowly working through the plates, [proxy] starts to get rather full. The plates of fatty and sugary goodness are doing their job perfectly of stuffing [proxy] stomach full too the brink. The food is so solid that it is impossible for &lt;%activePartner.HisHer();%&gt; stomach to compress. Finally [proxy] arrives at the last plate. A huge chocolate cake, bite by bite it disappears in [proxy] painfully overfilled stomach. After [proxy] eats the last part of the cake, &lt;%activePartner.HeShe();%&gt; licks the remaining chocolate from &lt;%activePartner.HisHer();%&gt; fingers, happy that &lt;%activePartner.HeShe();%&gt; managed to complete the training.
+
+Will [proxy] is rubbing &lt;%activePartner.HisHer();%&gt; overfilled stomach and slides a little more back on &lt;%activePartner.HisHer();%&gt; chair to provide the painful stomach more room Vicky arrives.
+
+-Good, it seems you finished the starter, lets continue with the main course.
+
+
+&lt;% 
+self.addStat(&quot;generic.calories&quot;, (self.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))*5);
+self.addStat(&quot;abdomen.max_volume&quot;,0.1*self.getStat(&quot;abdomen.max_volume&quot;));
+self.addStat(&quot;abdomen.food&quot;,(self.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;)));
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, (self.getStat(&quot;generic.calories&quot;)/24), 24);
+RemoveMoney(1000); 
+;&quot;&quot;%&gt;
+</descr>
+  <conditions>GetFlag(&quot;stomach_train&quot;) &gt;= 2 &amp;&amp; HasMoney(1000) &amp;&amp; self.getStat(&quot;abdomen.stomach_volume&quot;) &lt; 10000 &amp;&amp; self.getStat(&quot;abdomen.food&quot;)&lt;=1
+</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/stomach_strechingcont</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>muffin_top/inside</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

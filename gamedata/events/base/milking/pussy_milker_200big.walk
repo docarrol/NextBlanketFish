@@ -3,13 +3,13 @@
   <descr>&lt;%
 bottnum = Math.floor(self.getStat(&quot;vagina.goo_vol&quot;) / 200);&quot;&quot;;
 %&gt;
-&lt;%self.getName()%&gt; puts her &lt;%IncludeRange(activePartner.getStat(&quot;vagina.vulva_size&quot;), &quot;vulva&quot;);%&gt; vulva in the suction cup and flips the pussy milker on. The rythmic suction soons get the best of her and she orgasms in no time, spurting her white goo in the cup, the milker sucking it in and giving enough for &lt;%bottnum%&gt; little bottles for safekeeping.
+&lt;%self.getName()%&gt; puts her &lt;%IncludeRange(activePartner.getStat(&quot;vagina.vulva_size&quot;), &quot;vulva&quot;);%&gt; vulva in the suction cup and flips the pussy milker on. The rythmic suction soons get the best of her as she orgasms in not time, spurting her white goo in the cup, the milker sucking it in and giving enough for &lt;%bottnum%&gt; little bottles for safekeeping.
 &lt;%
 AddItem(&quot;pussy_cum_bottle&quot;, bottnum);
 self.setStat(&quot;generic.arousal&quot;, 0);
 self.updateEffect(&quot;vagina.vulva_size&quot;,&quot;pumped&quot;, 1, 24); &quot;&quot;;
 %&gt;</descr>
-  <conditions>if (activePartner.hasOrgan(&quot;vagina&quot;) &amp;&amp; activePartner.getRNAValue(&quot;vagina.goo_vol&quot;) &gt;= 200 &amp;&amp; activePartner.getRNAValue(&quot;generic.arousal&quot;) &gt;= 75 &amp;&amp; GetFlag(&quot;neferi_pussy_pump&quot;) == 1 &amp;&amp; activePartner.getStat(&quot;vagina.vulva_size&quot;) &gt;= 20)
+  <conditions>if (activePartner.getRNAValue(&quot;vagina.goo_vol&quot;) &gt;= 200 &amp;&amp; activePartner.getRNAValue(&quot;generic.arousal&quot;) &gt;= 75 &amp;&amp; GetFlag(&quot;neferi_pussy_pump&quot;) == 1 &amp;&amp; activePartner.getStat(&quot;vagina.vulva_size&quot;) &gt;= 20)
 	true;
 else
 	false;</conditions>
@@ -25,6 +25,5 @@ else
   <priority>2</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

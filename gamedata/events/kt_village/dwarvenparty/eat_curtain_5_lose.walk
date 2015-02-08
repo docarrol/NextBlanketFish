@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_5_lose</name>
+  <descr>Even with her now larger size, it is very clear that the dwarf was an expert fighter. [proxy] tries [hisher] best but has no chance. After receiving a couple of hard painful hits from the female dwarfs wooden sword, [proxy] gives up.&#xd;
+&#xd;
+-I seems I can still fight a bit but a month ago you would have been down within 10 sec. I wonder how many parties it takes to rob me of my last skill. Since you have lost I had a special meal prepared for you: The belly fat of a magolian fire lizard.&#xd;
+&#xd;
+A large scale is brought in containing a huge slab of fat. Following the rules of the party [proxy] has to eat the fat. It actually tastes rather nice but the calories in it, no wonder that dwarf got so much weigh in only a month.&#xd;
+Chewing the fat had little use, the best way for [proxy] to eat it was simply letting it slide in. Soon the gong sounds and [proxy] leaves for the next curtain.&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 50000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;, GetPerFlag(&quot;dwarfparty_eat&quot;)+1);&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/dwarf5.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

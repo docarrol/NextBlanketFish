@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/see_private_dance_not_girl</name>
-  <descr>No, you dont think it&apos;s a good idea to spend money this way. After all, your current proxy is not a girl, and can&apos;t work here. So if [proxy] gets a private dance, this is will be only for [hisher] enjoyment. No, this will not do.
+  <descr>No, you dont think it&apos;s a good idea to spend money this way. After all, your current proxy is not a girl, and can&apos;t work here. So if &lt;%activePartner.HeShe();%&gt; get a private dance, this is will be only for &lt;%activePartner.HisHer();%&gt; enjoyment. No, this will not do.
 </descr>
   <conditions>proxy.getStat(&quot;generic.sex&quot;)!=2 &amp;&amp; proxy.inventory.moneyCount() &gt;= 100;</conditions>
   <picturePath></picturePath>
@@ -8,6 +8,7 @@
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/hotlips/dance_hall</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -15,6 +16,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

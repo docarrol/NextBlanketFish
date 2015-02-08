@@ -1,0 +1,14 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/search_around_huge_belly_1</name>
+  <descr>&lt;%c=proxy; &quot;&quot;;%&gt;[Proxy] searches around for awhile. &lt;%activePartner.HeShe();%&gt; doesn&apos;t find anything of note, but her [belly] draws the stares of many people on the street.</descr>
+  <conditions> proxy.getStat(&quot;generic.abdomen&quot;) &gt; 19 &amp;&amp;  proxy.getStat(&quot;generic.abdomen&quot;) &lt;= 25.4 &amp;&amp; Chance(20);</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

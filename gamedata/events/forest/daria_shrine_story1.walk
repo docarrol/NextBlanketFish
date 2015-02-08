@@ -1,18 +1,18 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/daria_shrine_story1</name>
-  <descr>When [proxy] nods the girl invites [himher] inside the temple. It&apos;s hard to see in the dimly lit temple as they walk along in silence, but what you see as [proxy] looks around is that the temple seems like it&apos;s falling apart. [HeShe] continues to silently follow the girl until she leads [himher] into a small, lit room. This one room looks completely different. It is clean and orderly.  In the center of the room is a small fire pit that is providing light for it, over which a teapot is currently being warmed. On either side of the pit are a couple of straw mats that look worn with age. Along one wall is a low table upon which a lone candle is currently burning while along another one sits a bucket and various old urns.
+  <descr>When [proxy] nods the girl invites [himher] inside the temple. It&apos;s hard to see in the dimly lit temple as they walk along in silence, but what you can see as [proxy] looks around is that the temple looks like it&apos;s falling apart. [HeShe] continues to silently follow the girl until she leads [himher] into a small, lit, room. This one room looks completely different. It is clean and orderly.  In the center of the room is a small fire pit that is providing light for it, over which a teapot is currently being warmed. On either side of the pit are a couple of straw mats that look worn with age. Along one wall is a low table upon which a lone candle is currently burning while along another, various old urns and a bucket sit along it.
 
-While proxy was looking around the room, the girl pulled a couple of tea cups from somewhere and gives one to [Proxy]. While the girl is pulling the kettle off the fire, [proxy] looks inside the cup and sees some kind of leaves. Before [heshe] can smell them, the girl is filling both cups and setting the kettle back over the fire. Gesturing towards a mat, the girl then settles on her knees staring at [proxy]. Sitting on the mat facing her, [proxy] uncomfortably looks back at the mysterious girl in silence for a moment until finally taking a sip from her teacup to break the awkward atmosphere. Taking a sip of her own teacup, the girl lowers her head and begins to speak.
+While proxy had been looking around the room, the girl had pulled a couple of tea cups from somewhere and gives one to [Proxy]. While the girl is pulling the kettle off the fire, [proxy] looks inside the cup and sees some kind of leaves. Before [heshe] can smell them, the girl is filling both cups and setting the kettle back over the fire. Gesturing towards a mat, the girl then settles on her knees staring at [proxy]. Sitting on the mat facing her, [proxy] uncomfortably looks back at the mysterious girl in silence for a moment until finally taking a sip from her teacup to break the awkward atmosphere. Taking a sip of her own teacup, the girl lowers her head and begins to speak.
 
-- This temple stood here long before what you people are calling Dimension Shift happened. In those times it was fields, not forests, that surrounded the temple and peasants lived nearby in many small villages. I don&apos;t now why, but the people held in great regard a strange faith of nature and fertility. They believed in the Great Nature as a main force in the universe and many personalized minor spirits that served Nature in their places. 
+- This temple stood here long before what you people is calling a Dimension Shift. In those times it was fields, not forests, that surrounded the temple and peasants lived nearby in many small villages. I don&apos;t now why, but the people held in great regard a strange faith of nature and fertility. They believed in the Great Nature as a main force in the universe and many small personalized minor spirits that served Nature in their places. 
 
 The girl pauses and sips from her teacup again before sitting silently for a few moments.
 
-- Those had been peaceful times. But then, the Dimension Shift happened. There was heavy activity in this region. Though the center of it settled some distance away from here in a small forest, it was enough. The forest began to change and quickly expanded. Changes gave rise to rumors. Rumors gave rise to a faith. And faith fed into DS caused more changes. 
+- That had been peaceful times. But then, the Dimension Shift happened. The heavy activity was in this region. Though the center of it settled some distance away from here in a small forest, it was enough. The forest began to change and quickly expanded. Changes gave rise to rumors. Rumors gave rise to a faith. And faith fed into the DS to do more changes. 
 
-At this the girl smiles sadly.
+At this the girl slightly smiles sadly.
 
-- Your mages theories are correct. In the DS zones new things are created based on the expectations of the mortals living nearby. So, ordinary small forest became a legendary Magic Forest. It expanded and occupied land, displacing the peasants living here. But after they left process stabilized and the forest ceased to expand.
+- Your mages theories are correct. In the DS zones new things were created based on the expectations of the mortals living nearby. So, the ordinary small forest became a legendary Magic Forest. It expanded and occupied land, displacing the peasants living here. But after they left the process stabilized and the forest ceased to expand.
 
 &lt;%DisplayChar(&quot;char/daria.png&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>1</conditions>
@@ -21,6 +21,7 @@ At this the girl smiles sadly.
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>forest/daria_shrine_story2</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -28,6 +29,6 @@ At this the girl smiles sadly.
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

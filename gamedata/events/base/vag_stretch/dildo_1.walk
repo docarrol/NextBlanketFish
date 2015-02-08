@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/vag_stretch/dildo_1</name>
-  <descr>To start [proxy] selects an average sized dildo and spends full hour playing with it. At the end of [hisher] session [heshe] feels the dildo is easier to move in and out.&#xd;
+  <descr>To start [proxy] selects a normal average sized dildo and spends a full hour playing with it. At the end of [hisher] session [heshe] feels the dildo is easier to move in and out.&#xd;
 &lt;%Include(&quot;base/vag_stretch_norm&quot;);%&gt;&#xd;
 &lt;%LustShame(10, 30); &quot;&quot;;%&gt;</descr>
   <conditions>1;</conditions>
@@ -11,6 +11,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

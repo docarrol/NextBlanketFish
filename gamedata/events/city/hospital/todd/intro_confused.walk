@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/todd/intro_confused</name>
-  <descr>You tell [Proxy] do to act like [heshe] doesn&apos;t know of the proxy earring and say its only a decoration.
+  <descr>You tell [Proxy] do to act like [heshe] doesn’t know of the proxy earring and say its only a decoration.
 
-- Oh okay. I thought you were part of some project, I&apos;m sorry.  If you would be so kind to leave, I&apos;m in the middle of a research project.
+- Oh okay. I thought you were part of some project, I’m sorry.  If you would be so kind to leave, I’m in the middle of a research project.
 
 &lt;% SetFlag(&quot;todd_left_early&quot;, 1); &quot;&quot;;%&gt;
 &lt;%DisplayChar(&quot;char/todd.png&quot;); &quot;&quot;;%&gt;</descr>
@@ -12,6 +12,7 @@
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -19,6 +20,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,27 @@
+<fetishmaster.components.ValueTextDescriptor>
+  <name>milkamount</name>
+  <min>
+    <double>0.0</double>
+    <double>0.9</double>
+    <double>0.8</double>
+    <double>0.6</double>
+    <double>0.3</double>
+    <double>0.1</double>
+  </min>
+  <max>
+    <double>0.1</double>
+    <double>1.0</double>
+    <double>0.9</double>
+    <double>0.8</double>
+    <double>0.5</double>
+    <double>0.3</double>
+  </max>
+  <descr>
+    <string>empty</string>
+    <string>filled to the max</string>
+    <string>filled</string>
+    <string>noticeable filled</string>
+    <string>half full</string>
+    <string>mostly empty</string>
+  </descr>
+</fetishmaster.components.ValueTextDescriptor>

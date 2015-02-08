@@ -1,12 +1,13 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/kiana_explain_proxy</name>
-  <descr>You give [proxy] instructions to tell this girl all about you, proxy device, and how this works. After this you turn off the link, and hope that [proxy] can convince the strange girl now. At least if she is truly able to see the link, she will also be able to see that it now gone and [proxy] is completely free.</descr>
+  <descr>You give [proxy] instructions to tell this girl all about you, proxy device, and how this works. After this you turn off link, and only hope that [proxy] can conceive this strange girl now. At least if she truly see a link, she also will see that it now gone and [proxy] is completely free.</descr>
   <conditions>1</conditions>
   <picturePath>char/kiana_scared.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>forest/kiana_disconnect</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -14,6 +15,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

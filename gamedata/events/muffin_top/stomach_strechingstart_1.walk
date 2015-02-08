@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_strechingstart_1</name>
+  <descr>[proxy] walks to Vicky and asks if &lt;%activePartner.HeShe();%&gt; can have a stomach training session. Vicky takes a good look at [proxy].&#xd;
+&#xd;
+-stand still for a minute.&#xd;
+&#xd;
+Without explanation Vicky suddenly starts feeling [proxy] belly. After a few moments.&#xd;
+&#xd;
+-Just as I feared, you reached a level where basic ingredients no longer work properly. To continue training I would require some special stuff. I might get access to it in the future.&#xd;
+&#xd;
+A bit disappointed [proxy] walks away.</descr>
+  <conditions>GetFlag(&quot;stomach_train&quot;) == 2 &amp;&amp; HasMoney(1000) &amp;&amp; self.getStat(&quot;abdomen.stomach_volume&quot;) &gt; 10000</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>muffin_top/inside</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

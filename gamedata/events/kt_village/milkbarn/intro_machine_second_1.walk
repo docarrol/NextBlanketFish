@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/intro_machine_second_1</name>
+  <descr>When they arrive back at the milk barn [proxy] notices that Mathilda hesitates for a moment.&#xd;
+&#xd;
+-I have an appointment later but I think we still have enough time to try out another of my personal machines.&#xd;
+&#xd;
+Karin immediately has a scarred expression on her face.&#xd;
+&#xd;
+-don’t worry, this one is far less painful then the last one.&#xd;
+&#xd;
+Mathilda guides them to her private hallway behind the milking machines. She opens another door this time and all three enter.&#xd;
+&#xd;
+-Since the shaman has transferred [proxy] breast tissue back to [hisher] own breasts, Karin’s breast have now a much slower production rate. The machine in this room was designed to increase the milk production of breasts. Special suction cups draw every last drop of milk from the users breasts and make sure they stay dry. Meanwhile a special solution is pumped in the users stomach to provide nutrients for producing more milk. The overload of nutrients combined with empty breasts will cause your milk production to rise. &#xd;
+&#xd;
+[proxy] asks why this machine is not normally used.&#xd;
+&#xd;
+-For its full effect, the users body is overloaded with nutrients. Users are known to gain a little weight when they use it. I’m sure this one time will not impact Karin’s body too much.&#xd;
+&#xd;
+[proxy] helps Mathilda strap Karin in the machine.&#xd;
+&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/intro_machine_second_2</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

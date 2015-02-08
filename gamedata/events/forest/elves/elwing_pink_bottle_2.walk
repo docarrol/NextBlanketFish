@@ -1,0 +1,25 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_pink_bottle_2</name>
+  <descr>[proxy] decides to drink the entire bottle. [proxy] feels her vagina becoming a bit warm, this soon changes in a burning heat. It feels like someone shoved some burning coals in there. [proxy] tries to feel what the heck is going on with [hisher] pussy and to [hisher] surprise [hisher] hand disappears easily inside. The liquid from the bottle has made [proxy] pussy absolutely huge. The heat spreads and [proxy] can feel [hisher] hips become wider to make room for the increase in vagina size. [proxy] is still buzzy feeling the now huge pussy when the assistant enters.
+
+-You are ready for master, follow me.
+
+&lt;% 
+proxy.addStat(&quot;vagina.width&quot;,25);
+proxy.addStat(&quot;generic.hips&quot;,10);
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_afterpinkbottle_2</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

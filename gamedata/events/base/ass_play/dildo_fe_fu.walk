@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/ass_play/dildo_fe_fu</name>
-  <descr>For a start [proxy] selected an average sized dildo and spent a full hour playing with it. A the end of [hisher] session [heshe] feels like dildo insertion became easier.&#xd;
+  <descr>For a start [proxy] selected a normal average size dildo and spend a full hour playing with it. A the end of [hisher] session [heshe] feels as dildo insertion become easier.&#xd;
 &#xd;
 &lt;%Include(&quot;base/ass_stretch_norm&quot;);res;%&gt;&#xd;
 &#xd;
@@ -14,6 +14,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

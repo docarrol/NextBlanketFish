@@ -2,7 +2,7 @@
   <name>city/hospital/genki/implants_pre_op</name>
   <descr>- Alright, now that you have chosen your implant, I need to give you a physical examination to determine if you have any health issues. Please sit down and we will start.
 
-When [proxy] sits on a nearby chair, Dr. Genki rolls a cart that is loaded with some examination equipment from against the wall, pulls up a chair to sit on, and begins to look [himher] over. After almost an hour Dr. Genki finishes and starts to put away his equipment.
+When [proxy] sits on a nearby chair, Dr. Genki rolls a cart that is loaded with some examination equipment from against the wall, pulls up a chair to sit on as well, and begins to look [himher] over. After almost an hour Dr. Genki finishes and starts to put away his equipment.
 
 - You seem to be in good enough health [proxy]. I did not find any potential problems. So, if you are ready, go through the doors over there into the next room and get dressed in one of the gowns you will find hanging on some hooks. A nurse will be by in a few minutes to take you to the operating room. Meanwhile I will be prepping for your implant surgery.
 &lt;%LustShame(5,20); &quot;&quot;;%&gt;
@@ -13,10 +13,12 @@ When [proxy] sits on a nearby chair, Dr. Genki rolls a cart that is loaded with 
     <fetishmaster.engine.WalkChoice>
       <name>Yes (5h, money)</name>
       <value>city/hospital/genki/implants_operation</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>No</name>
       <value>city/hospital/genki/implants_last_moment_no</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -24,6 +26,6 @@ When [proxy] sits on a nearby chair, Dr. Genki rolls a cart that is loaded with 
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

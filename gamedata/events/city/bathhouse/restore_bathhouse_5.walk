@@ -1,0 +1,31 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/restore_bathhouse_5</name>
+  <descr>[proxy] asks Vulpsia how the new maid Berta is performing.&#xd;
+&#xd;
+-When she walked in I was a bit surprised to be honest. I’m not sure how she manages to dress and undress the customers but they seem to like it. But her large breasts caused a new demand of the customers so far unfilled.&#xd;
+&#xd;
+It seems some of the customers want to drink fresh milk after their dip in the hot springs. Berta’s breasts are large but do not seem to produce any milk, to great disappointment of some customers. For you the task to find someone who can fulfill this demand.&#xd;
+&#xd;
+While I was traveling around I stumbled on a hidden village nearby, you can try there. They are not very friendly to strangers so you might have to convince them first. If you have not done so, so far, Felis was talking a while back about needing some help with getting in that village.&#xd;
+&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,10);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==9</conditions>
+  <picturePath>bathhouse/entrance.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

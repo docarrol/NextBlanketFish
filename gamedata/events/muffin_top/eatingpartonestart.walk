@@ -1,0 +1,39 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartonestart</name>
+  <descr>[proxy] walks to the competition table and notices the other consistence’s. 4 kids, hardly fair for [proxy] to compete against them. Not wanting to disappoint Vicky, [proxy] takes &lt;%activePartner.HisHer();%&gt; place at the far end of the table. Now that all contestants are present Vicky walks to the front of the table and states.&#xd;
+&#xd;
+-Welkom to the first Vicky&apos;s specialties eating competition. For today’s match the goal is to eat as many pancakes in 5 minutes as possible. For the winner I already prepared a special reward. The pancakes are prepared with my own special recipes, I recommend all of you, to taste some later.&#xd;
+&#xd;
+After this speech, Vicky comes back from the kitchen with 5 plates filled with a tower of pancakes. Once Vicky places a plate for every contestant she says.&#xd;
+&#xd;
+-Ready, set, goooo, the 5 minutes are now running.&#xd;
+&#xd;
+[proxy] has to decide how eat.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Eat at full speed</name>
+      <value>muffin_top/eatingpartonehard</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Take it easy</name>
+      <value>muffin_top/eatingpartoneeasy</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Too full to beat some kids</name>
+      <value>muffin_top/eatingpartonefail</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

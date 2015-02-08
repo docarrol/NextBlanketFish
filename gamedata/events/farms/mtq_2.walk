@@ -2,11 +2,11 @@
   <name>farms/mtq_2</name>
   <descr>&lt;%Include(&quot;farm/greetings_in_farm&quot;);%&gt; 
 
-It seems Belanika is quite pleased with the separator. She can now supply skimmed milk and cream to her customers. This is bringing even more money into the farm, keeping it more easily out of the black. Belanika thanks [proxy] and gives [himher] 3000 coins spent on the forward payment.
+It seems Belanika is quite pleased with the separator. She can now supply skimmed milk and cream to her customers. This is bringing even more money into the farm, keeping it more easily in the black. Belanika with thanks refund [proxy] 3000 coins spent on the forward payment.
 
 [Proxy] asks if Belanika can supply some cream to Vicky?
 
-- Oh that nice girl that opened a cafe at seafront? I&apos;ve heard of her, if only I were more mobile I would certainly pay her a visit. She already orders milk from me sometimes. I&apos;ll make sure she is aware of the new products.
+- Oh that nice girl that opened a cafe at seafront? I&apos;ve heard of her, if only I were more mobile I would certainly pay her a visit. She orders milk from me already some times. I&apos;ll make sure she is aware of the new products.
 
 &lt;%
 SetFlag(&quot;muffin_top_quest&quot;, 6);
@@ -26,6 +26,6 @@ AddMoney(3000);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

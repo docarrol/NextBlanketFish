@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/eating/cust_wife</name>
+  <descr>[proxy] is called for, &lt;%activePartner.HeShe();%&gt; has a customer. [proxy] enters the dining area filled with tables that provide both the customers as the employees some privacy.&#xd;
+&#xd;
+The table with [proxy] customer contains a very slim woman. Before [proxy] can sit the woman already starts.&#xd;
+&#xd;
+-I hate this diet, I want to eat all kinds of nice things but i can&apos;t. It not fair!!&#xd;
+&#xd;
+After reducing some her pent up stress the woman allows [proxy] the first dish.&#xd;
+&#xd;
+[proxy] picks the menu used for ordering and looks at what to order first.</descr>
+  <conditions>1</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Small dish</name>
+      <value>city/redlight/cafe/eating/small_dish</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Medium dish</name>
+      <value>city/redlight/cafe/eating/medium_dish</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Large dish</name>
+      <value>city/redlight/cafe/eating/large_dish</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

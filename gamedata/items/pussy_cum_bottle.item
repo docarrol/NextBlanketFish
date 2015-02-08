@@ -1,10 +1,10 @@
 <fetishmaster.items.Item>
   <name>Pussy Goo Bottle</name>
-  <descr>A bottle of woman&apos;s or futa&apos;s goo produced from their vagina when they orgasm. No specification on it&apos;s properties yet.</descr>
+  <descr>A bottle of a women&apos;s or futa&apos;s white goo produced from their vagina when they orgasm. No specification on it&apos;s properties yet.</descr>
   <hourlyScript></hourlyScript>
   <useScript>false;
 </useScript>
-  <useText>This can only be used as alchemy reagent.</useText>
+  <useText>This can only be used for eventual alchemy recipes.</useText>
   <count>1</count>
   <canBeStacked>true</canBeStacked>
   <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>

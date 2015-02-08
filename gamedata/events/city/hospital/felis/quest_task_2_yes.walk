@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/hospital/felis/quest_task_2_yes</name>
-  <descr>- [proxy], I am pleased that you are willing to assist me in this experiment. Now please swallow this. It is a new version of the lactation enhancing drug.
+  <descr>- [proxy], I am glad that you are willing to assist me with this experiment. Now please swallow this. It is a new version of the lactation enhancing drug.
 
 Dr. Felis holds out a pill to [proxy], who immediately takes and swallows it down.
 
@@ -18,6 +18,7 @@ proxy.MoodShame(35);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -25,6 +26,6 @@ proxy.MoodShame(35);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

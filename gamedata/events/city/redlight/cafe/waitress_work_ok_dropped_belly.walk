@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/redlight/cafe/waitress_work_ok_dropped_belly</name>
+  <descr>&lt;%Include(&quot;fetish_cafe/change_to_waitress&quot;);%&gt;
+&lt;%c=proxy; &quot;&quot;;%&gt;
+
+[Proxy] works [hisher] shift and is actually enjoying all of the attention [heshe] gets. [Proxy]&apos;s [Belly] gets in the way and causes &lt;%activePartner.HimHer();%&gt; to drop some dishes
+&lt;%MoodShame(20); 
+proxy.inventory.addMoney(0);
+&quot;&quot;;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 14;</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

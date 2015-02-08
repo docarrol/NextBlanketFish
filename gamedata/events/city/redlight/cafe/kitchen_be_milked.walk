@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/kitchen_be_milked</name>
-  <descr>[Proxy] goes to the backroom. There sits an industrial looking milking machine. [HeShe] opens [hisher] clothes, connects the suction cups to [himher]self and starts the apparatus. &lt;% res = proxy.doAction(&quot;milking&quot;);&quot;&quot;;%&gt;&lt;%&#xd;
+  <descr>[Proxy] goes to the backroom. There sits an industrial looking milking machine. [HeShe] open [hisher] clothes, connects the suction cups to [himher]self and starts the apparatus. &lt;% res = proxy.doAction(&quot;milking&quot;);&quot;&quot;;%&gt;&lt;%&#xd;
 Include(&quot;fetish_cafe/backroom_milking_vol&quot;);%&gt; After the milking ends, [proxy] checks the milked amount. It displays &lt;%Include(&quot;fetish_cafe/milking_res&quot;);%&gt;&#xd;
 </descr>
   <conditions>PerGetFlag(&quot;fcafe_kitchen_milk&quot;) == 2 &amp;&amp; proxy.isRNAactive(&quot;breasts.lact_rate&quot;);</conditions>
@@ -9,6 +9,7 @@ Include(&quot;fetish_cafe/backroom_milking_vol&quot;);%&gt; After the milking en
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -16,6 +17,6 @@ Include(&quot;fetish_cafe/backroom_milking_vol&quot;);%&gt; After the milking en
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

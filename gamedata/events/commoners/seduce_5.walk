@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>commoners/seduce_5</name>
-  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;[proxy] needs drop but few hints in while speaking with &lt;% c.getName();%&gt; and &lt;%c.HeShe();%&gt; begins to actively flirt with [proxy]. It&apos;s quite obvious - &lt;% c.getName();%&gt; is ready to &quot;play&quot; with [proxy] almost any time now.
+  <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;It&apos;s only needed a few hints in the speaking with &lt;% c.getName();%&gt; and &lt;%c.HeShe();%&gt; begin a active flirt with [proxy]. It&apos;s quite obvious - &lt;% c.getName();%&gt; ready to &quot;play&quot; with [proxy] at almost any times now.
 
 &lt;%Include(&quot;commoners/calc_seduce&quot;); &quot;&quot;;%&gt;
 
@@ -13,6 +13,5 @@
   <priority>5</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

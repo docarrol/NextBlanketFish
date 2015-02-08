@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/see_a_show_girl_notok</name>
-  <descr>[proxy] feels dirty in such a place and does not enjoy it at all. Sure, next time she will be more used to such an atmosphere, but for now [heshe] can hardly wait for the end of the show. You feel that [heshe] does is not paying much attention to it, being too focused on [hisher] feelings.
+  <descr>&lt;%activePartner.getName();%&gt; feels dirty in such a place and does not enjoy it at all. Sure, next time she will be more used to such an atmosphere, but for now she hardly wait for the end of the show. You feel that she does not pay much attention to it, being too focused on her feelings.
 &lt;%MoodShame(20); 
 proxy.inventory.removeMoney(20);
 &quot;&quot;;%&gt;</descr>
@@ -10,6 +10,7 @@ proxy.inventory.removeMoney(20);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/hotlips/lounge</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -17,6 +18,6 @@ proxy.inventory.removeMoney(20);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

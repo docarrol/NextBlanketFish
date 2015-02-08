@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/karin_obese_milk</name>
+  <descr>[proxy] helps Karin milking her fat breasts by hand. [proxy] hands nearly disappear in all the fat now present on Karin’s breasts. [heshe] must confess that these soft breasts of Karin feel great.&#xd;
+&#xd;
+When Karin’s breasts are finished milking [proxy] doubts this had any useful effect on her training. Karin’s breasts are now to fat to milk completely so some milk is still left over. If Karin wants to continue training she better loses this extra weight fast.&#xd;
+&#xd;
+&lt;%Include(&quot;kt_village/milkbarn/milk_produced&quot;);%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_milk&quot;,500);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/vh_large.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

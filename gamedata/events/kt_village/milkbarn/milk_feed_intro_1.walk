@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/milk_feed_intro_1</name>
+  <descr>[proxy] pushes the button once and a portion of milk girl food is deposited in Karin’s tummy. When Karin has removed the tube and the suction cups from her breasts she happily tells [proxy].&#xd;
+&#xd;
+-Now I’m finally a real milk girl.&#xd;
+&#xd;
+At that moment Talia walks by. Her breasts are clearly a bit larger then last time.&#xd;
+&#xd;
+-What are you doing here, this is no place for amateur, go back to your back room and start cleaning stuff. &#xd;
+&#xd;
+Karin storms of, when [proxy] finds her, she is sitting in a corner crying. [proxy] tries to comfort Karin by telling her that Talia just feels treated by Karin’s rapid improvements.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_pro&quot;,(GetPerFlag(&quot;karin_pro&quot;)+2));&#xd;
+SetPerFlag(&quot;karin_cap&quot;,(GetPerFlag(&quot;karin_cap&quot;)+50));&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+SetPerFlag(&quot;karin_explain&quot;,1);&#xd;
+SetPerFlag(&quot;karin_stom&quot;,10);&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/milk_small.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

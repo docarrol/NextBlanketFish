@@ -1,11 +1,11 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/belanika_quest_2_1</name>
-  <descr>[proxy] inspects the unit. The device is rather complicated - a mechanical pump is attached to a magical engine. As designed by its maker apparatus can be charged by collecting magical energy. Unfortunately the part that is responsible for it is broken. In addition, the apparatus has a receiver for ordinary crystals.
-Looking more closely, [proxy] concludes that the problem with the charger is the complex crystal. 
+  <descr>&lt;%activePartner.getName();%&gt; inspects the unit. The device is rather complicated - a mechanical pump is attached to a magical engine. As planned by the author apparatus he might be charged by collecting magical energy. Unfortunately the part that is responsible for it, is broken. In addition, the apparatus has a receiver for ordinary crystals.
+Looking more closely, &lt;%activePartner.getName();%&gt; concludes that the problem of the charger is the complex crystal. 
 
-- The crystal from the charger is broken. I was promised a fix for it, but it is unclear if it will work - Belanika says.
+- The crystal from the charger is broken. I was promised try to fix it, but it is unclear if it will work - Belanika say.
 
-It&apos;s possible to find the magic crystals. You could also buy them from a shop, but this can be rather expensive. Either way, ordinary crystals are only a temporary solution.
+It&apos;s possible to try to find the magic crystals. You could also buy them from a shop, but this can be rather expensive. Either way, ordinary crystals will only be a temporary solution.
 </descr>
   <conditions>1</conditions>
   <picturePath>farms/barn.jpg</picturePath>
@@ -13,12 +13,10 @@ It&apos;s possible to find the magic crystals. You could also buy them from a sh
     <fetishmaster.engine.WalkChoice>
       <name>Leave</name>
       <value>farms/on_the_farm</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
   <time>1</time>
   <priority>0</priority>
-  <returnPoint>false</returnPoint>
-  <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

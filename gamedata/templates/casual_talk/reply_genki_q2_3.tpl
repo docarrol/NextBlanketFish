@@ -1,5 +1,6 @@
 <fetishmaster.engine.TextTemplate>
-  <conditions>proxy.hasEffect(&quot;uterus.volume&quot;, &quot;preg_implant&quot;) &amp;&amp; proxy.getStat(&quot;uterus.volume&quot;) &gt; 1300 &amp;&amp; proxy.getStat(&quot;uterus.volume&quot;) &lt;= 10000 &amp;&amp; GetFlag(&quot;genki_experiment&quot;) == 1 &amp;&amp; GetPerFlag(&quot;genki_experiment&quot;) == 1;
+  <conditions>proxy.hasEffect(&quot;uterus.volume&quot;, &quot;preg_implant&quot;) &amp;&amp; proxy.getStat(&quot;uterus.volume&quot;) &gt; 1300 &amp;&amp; proxy.getStat(&quot;uterus.volume&quot;) &lt;= 10000 &amp;&amp; GetPerFlag(&quot;now_genki_implant&quot;) == 0;
+
 </conditions>
   <text>- Master, please take me back to that freak doctor, my stomach feels like it is going to pop!
   

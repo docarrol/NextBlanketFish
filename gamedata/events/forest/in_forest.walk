@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/in_forest</name>
-  <descr>Inside the woods is somewhat dark, but it seems quiet, save for some birds singing. While walking, &lt;%activePartner.getName();%&gt; does not find anything interesting.</descr>
+  <descr>In the woods it&apos;s a little dark, but it seems quiet, save for some birds randomly singing. While walking, &lt;%activePartner.getName();%&gt; does not find anything interesting.</descr>
   <conditions>1</conditions>
   <picturePath>forest/in_the_forest1.jpg</picturePath>
   <choices/>
@@ -9,5 +9,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

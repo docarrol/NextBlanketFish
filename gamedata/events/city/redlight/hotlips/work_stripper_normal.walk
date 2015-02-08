@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/work_stripper_normal</name>
-  <descr>[proxy] is getting used to this, and can dance without much trouble. But [heshe] doesn&apos;t have much artistic skill yet, so the audience is neither impressed nor bored with [himher]. 
+  <descr>&lt;%activePartner.getName();%&gt; is getting used to this, and can dance without much trouble. But &lt;%activePartner.HeShe();%&gt; does not have much artistic skill yet, so the audience is not impressed, but not bored either. 
 
-Ms. Tendo encourages [proxy] a little, and says that next time this kind of work will be easier for her. She pays [himher] 20 coins.
+Ms. Tendo praises &lt;%activePartner.getName();%&gt; a little, and says that next time this work will be easier for her. She pays &lt;%activePartner.HimHer();%&gt; 20 coins.
 
 &lt;%
 activePartner.inventory.addMoney(20);
@@ -18,5 +18,5 @@ MoodShame(30);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

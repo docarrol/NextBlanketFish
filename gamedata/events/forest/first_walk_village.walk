@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/first_walk_village</name>
+  <descr>[proxy] hears a beautiful voice originating from the tree where the person holding the bow was hiding in.&#xd;
+&#xd;
+-What you are a person, I thought you where another of those tentacle monsters. Come to me and I will look at your wound, I promise I won’t shoot anymore.&#xd;
+&#xd;
+[proxy] thinks over his chances. Getting out in the open provides the archer with another shoot opportunity. The arrow that penetrated [proxy] arm and even caused a wound on [hisher] chest is bleeding a lot. [proxy] highly doubt that [heshe] would last long because of the blood lose. Let’s hope the archer is friendly. &#xd;
+&#xd;
+[proxy] comes from behind the tree and walks towards the tree whit the archer. The archer was not what [proxy] was expecting, a beautiful elf with a large bow is sitting on one of the branches.&#xd;
+&#xd;
+-you are bleeding a lot, let me look at your wound.&#xd;
+&#xd;
+The elf knows some first aid and removes the arrow. She also managed to reduce the bleeding by a lot.&#xd;
+&#xd;
+-Because of all the new threads in the forest I was using special arrows. My limited skill are not sufficient to heal a wound like this. I fear that if it is left untreated you could lose mobility in your arm. The village elder could help with this but I will have to take you to our village for that. No outsiders are allowed to know the location so I will have to blindfold you on the journey too it.&#xd;
+&#xd;
+[proxy] does not like the idea of walking blind trough the forest but losing mobility in [hisher] arm sounds even less ideal. [heshe] agrees to the blindfold an soon is guided blindly trough the forest. The female elf does her best to guide [proxy] but cannot avoid that [proxy] trips a number of times over roots and uneven ground. After a long walk [proxy] blindfold is taken off.&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/archer1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name></name>
+      <value></value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

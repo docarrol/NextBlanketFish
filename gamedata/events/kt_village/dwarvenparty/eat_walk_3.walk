@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_walk_3</name>
+  <descr>During the walk to the next curtain [proxy] has to stop for a bit. [hisher] &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly is completely full with the food served by the guests. It is time to activate Thovila’s special feature on the corset. [proxy] activates the magic compress spell and feels the food in [hisher] stomach slowly decrease in volume. The strange thing is that the weight of the food stay’s the same so when the compression finally finishes it feels like a cannon ball is present in [proxy] stomach. 
+
+A bit uncomfortable, [proxy] walks to the next curtain.
+
+&lt;% 
+self.setStat(&quot;abdomen.food&quot;, 5000);
+&quot;&quot;;%&gt;</descr>
+  <conditions>GetPerFlag(&quot;dwarfparty_eat&quot;)==3</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/start_curtain</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

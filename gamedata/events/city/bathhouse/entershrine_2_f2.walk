@@ -1,0 +1,24 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/entershrine_2_f2</name>
+  <descr>[proxy] walks this time directly to the large plate in front of the doors and stands on top of it.&#xd;
+&#xd;
+-you’re not allowed to enter, your have been judged too full too approach Edesia.&#xd;
+&#xd;
+It seems [proxy] has to wait for her stomach to become empty to allow entry.</descr>
+  <conditions>GetPerFlag(&quot;edesia&quot;)==2 &amp;&amp; (proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&lt;3000</conditions>
+  <picturePath>bathhouse/shrine.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/bathhouse/hotspring</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

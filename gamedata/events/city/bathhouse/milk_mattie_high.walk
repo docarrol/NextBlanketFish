@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/milk_mattie_high</name>
+  <descr>[proxy] has to lay down on the ground with a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly to reach Mattie&apos;s breasts. [hisher] stomach feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;.  After a bit of maneuvering one of Mattie’s nipples are inside [proxy] mouth. [proxy] does not even need to suck for the milk to start flowing. Mattie leaves out a sight when the pressure in her overfilled breast starts lowering a bit. [proxy] soon switches to the other breast to relieve some of the pressure caused by the excess amount of milk present there. &#xd;
+&#xd;
+Once the painful pressure on Mattie&apos;s breasts are relieved a bit, [proxy] can start focusing on getting her movement limiting breasts back to a bit more manageable size. During the milking process [proxy] switches regularly from breast to keep the size a bit equal. After drinking multiple liters of milk, [proxy] decides to take a small break.&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 3000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 3000);&#xd;
+SetFlag(&quot;mattie_milk&quot;,3);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+The milk that was causing Mattie to be stuck on the ground has provided [proxy] with a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly and [hisher] stomach feels &lt;% IncludeRange((proxy.getStat(&quot;abdomen.food&quot;)/proxy.getStat(&quot;abdomen.stomach_volume&quot;)),&quot;stomachcontent&quot;);%&gt;. </descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=3000</conditions>
+  <picturePath>bathhouse/mattie5.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue drinking</name>
+      <value>city/bathhouse/milk_mattie_med</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/mattie_milk_med</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

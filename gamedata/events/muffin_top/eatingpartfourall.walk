@@ -1,0 +1,45 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/eatingpartfourall</name>
+  <descr>[proxy] looks at the remaining halve of the éclair. It is big, very big, but bigger than the left over space in &lt;%activePartner.HisHer();%&gt; stomach, only one way to find out.&#xd;
+&#xd;
+Ignoring the other competitors [proxy] takes bite after bite from the remaining éclair. The bites get larger and larger to eat as much as possible before &lt;%activePartner.HisHer();%&gt; stomach says, I’m full. [proxy] highly visible belly grows even larger. Between one of &lt;%activePartner.HisHer();%&gt; bites, [proxy] feels her stomach. The feeling could best be described as pregnant with a concrete wrecking ball. The combination of chocolate and dens cream has solidified in &lt;%activePartner.HisHer();%&gt; stomach. &#xd;
+&#xd;
+Even with the large bites &lt;%activePartner.HisHer();%&gt; stomach soon arrives at the point where it gives the signal full. With pure will [proxy] removes this barrier and continues eating.&#xd;
+The crowed starts to notice the goal [proxy] set and starts encouraging. Soon the other competitors notice the lead of [proxy] and simply give up. There is now way they could ever hope to catch up to you.&#xd;
+&#xd;
+Some large bites later and the barrier stomach very full arrives. Pure will power might can stretch this barrier a bit but there is still a decent amount of éclair left. Suddenly you feel something touching your stomach. A spectator sneaked under the table and starts massaging the overfull stomach of [proxy]. Vicky notices this and approaches you. The massaging of [proxy] belt seems to help a tinny bit and &lt;%activePartner.HeShe();%&gt; decided to join in this massage a bit to create more room.&#xd;
+&#xd;
+Vicky arrives and notices that both [proxy] and the spectator are massaging your oversized belly. Vicky hesitates for a moment and then suddenly picks a piece of the remaining éclair and starts feeding it to [proxy]. The next couple of minutes are a blur with Vicky feeding [proxy] and the massaging from even more helping hand.&#xd;
+&#xd;
+Hours later [proxy] wakes up with an painfully stretched belly in front of &lt;%activePartner.HisHer();%&gt; house. It feels like her stomach has been torn apart.&#xd;
+Next to &lt;%activePartner.HisHer();%&gt; is a large box containing 50 éclairs with a node&#xd;
+&#xd;
+-you did it, you really did it. You are now a professional completive eater.&#xd;
+&#xd;
+Because of the quantity of Vicky’s food in [proxy] stomach, it jumped into overdrive for the next 24 hours.&#xd;
+&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 25000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag(&quot;eating.comp&quot;, 5);&#xd;
+AddItem(&quot;cream_eclair&quot;, 50);&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;, 750, 24);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=5000</conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>continue</name>
+      <value>homestreet/in_front_of_home</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

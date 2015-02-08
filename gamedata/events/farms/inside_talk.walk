@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/inside_talk</name>
-  <descr>[Proxy] spends some time talking with Belanika.&#xd;
+  <descr>[Proxy] some time talking with Belanika.&#xd;
 &#xd;
 &lt;%proxy.addStat(&quot;belanika.relations&quot;, proxy.getStat(&quot;generic.int&quot;)/20);&#xd;
 Include(&quot;farm/casual_talk&quot;);%&gt;</descr>
@@ -12,6 +12,6 @@ Include(&quot;farm/casual_talk&quot;);%&gt;</descr>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

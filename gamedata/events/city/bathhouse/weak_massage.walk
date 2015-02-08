@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/bathhouse/weak_massage</name>
+  <descr>[proxy] lays down on the massaging table and let Chun Li do her magic. Chun Li does her best to massage [proxy] as well as possible but she is just too weak to massage all the muscle. The lack of training combined with the regular visits to the shrine had a severe effect on Chun Li’s body.&#xd;
+&#xd;
+Her increase mass and larger breasts cause a lot of contact with [proxy] during the massaging.  When Chun Li is finished [proxy] body feels a bit more relaxed but also aroused.&#xd;
+&#xd;
+Chun Li notices the effect her full contact massage had on your body and asks if she should help you with it.&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.cha&quot;, 0.01);&#xd;
+self.subStat(&quot;generic.tiredness&quot;, 5);&#xd;
+self.addStat(&quot;generic.mood&quot;, 10);&#xd;
+self.addStat(&quot;generic.arousal&quot;,80);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/chunlifat2.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Happy ending blowjob</name>
+      <value>city/bathhouse/male_massage</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Happy ending</name>
+      <value>city/bathhouse/female_massage</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Leave</name>
+      <value>city/bathhouse/entrance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

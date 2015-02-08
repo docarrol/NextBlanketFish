@@ -1,0 +1,29 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/Bellyplayf/rub_belly_2</name>
+  <descr>belly 2
+
+&lt;%c=proxy; &quot;&quot;;%&gt;
+ [Proxy] slowly pulls the tight shirt up over [hisher] [belly]. Something about it triggers a rush of arrousal and [heshe] puts [hisher] hands on it. [heshe] spends time time jiggleing and caressing [hisher] ball of fat and finds it rather pleasurable.
+
+&lt;% activePartner.addStat(&quot;generic.lewdness&quot;, 0.5);%&gt;
+&lt;% activePartner.addStat(&quot;generic.str&quot;, 0.01);%&gt;
+&lt;% activePartner.addStat(&quot;generic.dex&quot;, 0.1);%&gt;
+&lt;% activePartner.addStat(&quot;generic.arousal&quot;, 1);%&gt;
+&lt;% activePartner.addStat(&quot;generic.health&quot;, 0.1);%&gt;
+&lt;% activePartner.addStat(&quot;generic.mood&quot;, 0.5);%&gt;
+&lt;% activePartner.addStat(&quot;skill.desireforfat&quot;, 0.1);%&gt;</descr>
+  <conditions>proxy.getStat(&quot;generic.abdomen&quot;) &gt; 3.8 &amp;&amp; proxy.getStat(&quot;generic.abdomen&quot;) &lt;= 9</conditions>
+  <picturePath></picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>base/Bellyplay</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>New event</defaultNext>
+  <time>1</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

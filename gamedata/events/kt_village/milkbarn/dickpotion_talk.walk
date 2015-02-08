@@ -1,0 +1,41 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/dickpotion_talk</name>
+  <descr>[proxy] tells Karin to not drink the potion. Based on the text on it [heshe] highly doubt it does what Talia told Karin. In the distance [proxy] notices Mathilda, maybe she knows what the potion really does.&#xd;
+&#xd;
+[proxy] walks to Mathilda and asks if she knows what this potion does.&#xd;
+&#xd;
+-I’m sorry I have a important meeting right now, can you come back later. Wait a potion you said, you have a miraculous timing, I’m just going to my meeting with the local pharmacist, she can probably tell you what this potion does.&#xd;
+&#xd;
+[proxy] follows Mathilda to her office, Mathilda sits on a large chair behind a impressive looking desk. [proxy] meanwhile sits on a couch position against the wall. A few moments later the door of Mathilda’s office opens and the pharmacist enters. After exchanging some pleasantries and introducing [proxy] as Karin’s trainer, Mathilda hands the pharmacist the small bottle.&#xd;
+&#xd;
+-A very interesting but dangerous potion you have here. Drinking this will cause the drinker to grow male reproduction tools if not present or greatly increase their size when they already exist. This potion has been banned because of its severe side effects. After someone drinks this potion, his or her lust will increase over time. Over time the person will change in a horny monster that can only think of sex.&#xd;
+&#xd;
+Mathilda asks where [proxy] got the potion from. [heshe] explains that it was given to Karin by Talia.&#xd;
+&#xd;
+-Talia’s family is one known for their large and plenty full breasts. They are also the first family that started a milking company like mine. They are better at providing milk then running businesses. Talia is the eldest daughter and is under a lot of pressure to perform. Not that I’m fine with her behavior, far from it. She targets Karin because she was a easy target, because of your training, Karin becomes closer and closer to her own capacities. I can tell her to back off, but that is only going to make Karin the laughing stock off all the other girls. Just keep training Karin as you are doing and soon she is better than Talia.&#xd;
+&#xd;
+After their talk, [proxy] leaves Mathilda’s office, ready to train Karin to become even a better milk girl. &#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;Talia_quest&quot;,3);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/milk_owner.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

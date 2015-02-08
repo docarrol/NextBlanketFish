@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>kt_village/main_street</name>
-  <descr>This is a magically hidden settlement near the forest. There are mostly Kau Tangata living here, but other races can be seen here too. Larger part of the village can be seen openly from the road. Most houses in the center have very simple construction, almost primitive. The main road goes through this part. A smaller part of the village is hidden in the forest foliage. And some more advanced farm-like buildings can be seen around here and there. &#xd;
+  <descr>This is magically hidden settlement near the forest. There live mostly Kau Tangata, but some other persons can be seen to live here too. Bigger part of the village can be seen openly from the road. Most houses in the center have very simple construction, almost primitive. Main road go through this part. Smaller part of the village hidden in the forest foliage. And some more advanced farm-like single buildings can be seen around here and there too. &#xd;
 &#xd;
-You can get to the keystone shrine from here.&#xd;
+Road going through glades to the keystone shrine from here.&#xd;
 &#xd;
 &lt;%location = &quot;kau_main_street&quot;; chars = &quot;kau_village_members&quot;; bgimage = &quot;kt_village/village.jpg&quot;; AddObject(&quot;continue_event_return&quot;, &quot;kt_village/main_street&quot;); &quot;&quot;;%&gt;&lt;%Include(&quot;commoners/street&quot;);%&gt;</descr>
   <conditions>1</conditions>
@@ -21,8 +21,20 @@ You can get to the keystone shrine from here.&#xd;
       <value>kt_village/outside_mira_house</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
+      <name>To the Blacksmith</name>
+      <value>kt_village/blacksmith_entrance</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>To Olivia</name>
+      <value>kt_village/olivia_house</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
       <name>Look Around (1h)</name>
       <value>kt_village/main_look_around</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meet Kiana</name>
+      <value>kt_village/kiana_aproach</value>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -30,6 +42,5 @@ You can get to the keystone shrine from here.&#xd;
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,30 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_aftervwhitebottle</name>
+  <descr>[proxy] enters Elwing’s room with [hisher] breast full of milk. Elwing is sitting in a chair while an assistant is stroking her massive cock. It has become even larger then last time. Her balls have also increased in size, they are now the size of two large watermelons. The main feature that has grown since [proxy] last visit are Elwing’s breasts. They are now absolutely massive. A milking cup is attached to each breast milking each breasts. Her two very lactating breasts are supported by a large fat belly. &#xd;
+&#xd;
+-Good that you are here. I putting out as much milk as I can but there are so many mouths to feed. I might have knocked up a elf or two too many. &#xd;
+&#xd;
+The assistant stops stroking Elwing’s massive dick and guides [proxy] to another milking machine. The assistant places the milking cups on [proxy] breasts and then switches the machine on. Slowly but surely the machine sucks [proxy] breasts dry. The liquid [proxy] drank has stopped working.&#xd;
+&#xd;
+When [proxy] is finished milking [hisher] breasts [heshe] walks to Elwing to have a conversation. Elwing is too far gone because of the simulating of her breasts by the milking cups to respond with anything more than moans.&#xd;
+&#xd;
+&lt;% &#xd;
+SetPerFlag(&quot;elf_breed&quot;,10);&#xd;
+SetPerFlag(&quot;elwing_wait&quot;,clock.getDays());&#xd;
+selectedWorker.doAction(&quot;milking&quot;);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/queen12.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/tree_waiting</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

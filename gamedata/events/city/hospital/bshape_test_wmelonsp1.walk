@@ -1,0 +1,19 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/bshape_test_wmelonsp1</name>
+  <descr>
+
+&lt;%
+self.addStat(&quot;skill.desireforfat&quot;, (proxy.getStat(&quot;breasts.size&quot;)+10));
+SetPerFlag(&quot;bshape&quot;, 3);
+&quot;&quot;;%&gt;</descr>
+  <conditions>1;</conditions>
+  <picturePath></picturePath>
+  <choices/>
+  <defaultNext>New event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>true</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>true</mergeDown>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

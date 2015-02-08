@@ -2,8 +2,8 @@
   <name>city/redlight/cafe/2f_offer</name>
   <descr>Manager seems pleased by something.
 
-- Ah, you are here. Good. I have watched you work for some time, and I think, that you are qualified enough to work in our second hall. Payments will be significantly higher, but think carefully about if you are ready. 
-On the first floor, you can just ignore all the flirting as long as you are not rude. On the second floor however, there is a completely different set of rules. The second floor hall has a medieval theme, and clients can behave as medieval lords. If they ask something or give you an order, you are expected to submit to their wishes, ANY wishes, as long as it is not harmful or painful. Any other demands you are expected to fulfill. I will not force you to work on the second floor, but if you do, please, follow the rules.
+- Ah, you are here. Good. I have watched you work for some time, and I think, that you are qualified enough to take work in our second hall. Payments will be significant higher, but think carefully about if you are ready. 
+On the first floor, you can just ignore all the flirting as long as you are not rude. On the second floor however, there is a completely different set of rules. The second floor hall has a medieval theme, and clients can behave as medieval lords. If they ask something or give you an order, you are expected to submit to their wishes, ANY wishes, as long as it is not harmful or painful. Any other order you will be expected to fulfill. I will not force you to work on the second floor, but if you do, please, follow the rules.
 &lt;%SetPerFlag(&quot;cafe_2f_work&quot;, 1);
 SetFlag(&quot;fcafe_now_about_lowhall&quot;, 1);
 &quot;&quot;;%&gt;</descr>
@@ -13,6 +13,7 @@ SetFlag(&quot;fcafe_now_about_lowhall&quot;, 1);
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/redlight/cafe/interior</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -20,6 +21,6 @@ SetFlag(&quot;fcafe_now_about_lowhall&quot;, 1);
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

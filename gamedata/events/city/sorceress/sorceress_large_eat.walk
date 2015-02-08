@@ -1,0 +1,50 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city\sorceress\sorceress_large_eat</name>
+  <descr>[proxy] joins Morgan at the table in the kitchen and soon both are eating the first dish prepared by Morgan.&#xd;
+&#xd;
+During the eating of the dish, Morgan starts talking about food but [proxy] soon managed to divert the subject to Magic. If one dish is finished, Morgan has the next dish ready in no time.&#xd;
+&#xd;
+Morgan prepares a large number of different dishes most of them are absolutely delicious. The sound produced by the eating of the food and the discussion about magic is at some point disturbed by the sound of a ripping dress.&#xd;
+&#xd;
+-What just happened?&#xd;
+&#xd;
+Morgan’s belly had transformed from small and soft to a dome shape. The food Morgan had already eaten before [proxy] arrived together whit the food she just ate made her belly look like she is pregnant. To prevent the rest of the dress from becoming destroyed and reduce the pressure on her belly, Morgan undresses. It is a bit hard to get the remainder of the dress over her swollen belly, after the seams tears a bit more she managed to undress. Morgan is not wearing anything under her dress so she is now eating naked.&#xd;
+&#xd;
+-I liked that dress, well noting a little magic can’t fix.&#xd;
+&#xd;
+Morgan starts preparing the next dish now naked. After a couple more dishes, Morgan’s eating speed crawls down to a halt. It seems her stomach if finally full with the food she ate together with [proxy] combined with the food she had before [proxy] arrival.  Morgan pats her now full term sized belly a couple of times.&#xd;
+&#xd;
+-That hit the spot. I never knew I could cook that good.&#xd;
+&#xd;
+[proxy] judges the size of Morgan’s stomach. Magic must be involved with the stomach capacity of Morgan since it is highly unlikely Morgan did the same training as [proxy]. Because Morgan now only has to prepare dishes she has more time to talk about magic. The conversations about magic are only disrupted now and then by Morgan standing up to get the next dish and the question about how the new dish tastes. Meanwhile dish after dish disappears in [proxy] ever expending tummy. At some point Morgan stats that she has prepared all the dishes she wanted to try today.&#xd;
+&#xd;
+-Come back soon, next time I will have a new collection of recipes to try out.&#xd;
+&#xd;
+Standing up with [hisher] &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly proved to be a challenge. The mass of food present in [proxy] stomach caused a change in center of gravity where [proxy] has to get used to for a moment.&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;generic.calories&quot;, 27000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 9000);&#xd;
+SetPerFlag(&quot;magic_skill&quot;, GetPerFlag(&quot;magic_skill&quot;)+9);&#xd;
+SetPerFlag(&quot;morgan_eat&quot;, GetPerFlag(&quot;morgan_eat&quot;)+1);&#xd;
+&quot;&quot;;%&gt;&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;morganvisit&quot;, clock.getDays());&#xd;
+ &quot;&quot;;%&gt;</descr>
+  <conditions>(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;))&gt;=9000</conditions>
+  <picturePath>city/sorceres_home/sorceress_eat.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/magic_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>3</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

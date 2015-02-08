@@ -1,0 +1,36 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_training_intro</name>
+  <descr>[proxy] walks to Vicky and asks about training she could provide. Vicky eyes begin to glitter.&#xd;
+&#xd;
+-I knew you would be back. Once you have tasted the trill of competitive eating your hooked. It’s such a adrenaline rush. My family is not only good in baking cakes but also at competitive eating. We developed and perfected the methods for training for these types of competitions over a long line of generations.  Traditionally the women in our family dedicate themselves too cooking too provide the tools required for the training of the man. Have you ever heart of Micky the bottomless?&#xd;
+&#xd;
+[proxy] must confess she never heard of him. Vicky is a bit offended but continues.&#xd;
+&#xd;
+-60 years ago he was the absolute champion in eating competitions, some say he was the best eater that has and will ever exist. He was my grandfather. My brother used our sacred traditions to follow his grandfathers steps. Unfortunately he did not quite make it. I hope that you can become a the champion with my guidance.&#xd;
+&#xd;
+[proxy] agrees to that but still wonders what happened to her brother. Vicky tries to avoid the subject the finally slips a little bit.&#xd;
+&#xd;
+-He kind of was nearing the top of the eating competition but then he was forced to quit. Some matches where far away and even a freighter zeppelin could not transport him anymore. But don&apos;t sweat the details. I’m sure there is not going to be a problem for you. So do you still want to continue?&#xd;
+</descr>
+  <conditions>GetFlag(&quot;stomach_train&quot;) == 1; </conditions>
+  <picturePath>muffin_top/interior.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>yes</name>
+      <value>muffin_top/stomach_training_further</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>No</name>
+      <value>muffin_top/inside</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

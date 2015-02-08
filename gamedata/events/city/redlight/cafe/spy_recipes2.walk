@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/cafe/spy_recipes2</name>
-  <descr>Chef raises an eyebrow.
+  <descr>The chief cook raises an eyebrow.
 
-- I wasn&apos;t aware any deliveries were scheduled today!
+- I wasn&apos;t aware of any deliveries scheduled!
 
-She grumbles to herself and takes the bottles out to the cold room. While the cook is away [proxy] can flick through the cook books. [HeShe] looks for a book on cream cakes, and soon spies one. Flipping through the book [heshe] finds a recipe for cream eclairs, &lt;%Include(&quot;fetish_cafe/result_recipe_spy&quot;);%&gt;
+She, grumbles to themselves and takes the 20 bottles of milk out to the cool room. Whilst the cook is away [proxy] can flick through the cook books. [HeShe] spies a book on cream cakes, and found one. Upon further inspection [heshe] sees that the recipe is for cream eclairs, &lt;%Include(&quot;fetish_cafe/result_recipe_spy&quot;);%&gt;
 &lt;%RemoveItem(&quot;regular_milk&quot;, 20); &quot;&quot;;%&gt;</descr>
   <conditions>GetFlag(&quot;muffin_top_quest&quot;) == 2 &amp;&amp; GetPerFlag(&quot;muffin_top_quest&quot;) &lt; 4 &amp;&amp; HasItems(proxy, &quot;regular_milk&quot;, 20);
 </conditions>
@@ -20,6 +20,5 @@ She grumbles to herself and takes the bottles out to the cold room. While the co
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

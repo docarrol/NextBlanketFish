@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/pets_store/quest1_no</name>
-  <descr>What a shame... But if you know someone willing to do it - please tell them.
+  <descr>What a shame... But if you know someone who can do it - tell them please.
 &lt;%DisplayChar(&quot;char/uren.png&quot;); &quot;&quot;;%&gt;
 &lt;%SetPerFlag(&quot;uren_quest&quot;, 99); &quot;&quot;;%&gt;
 </descr>
@@ -12,6 +12,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

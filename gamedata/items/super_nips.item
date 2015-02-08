@@ -1,8 +1,8 @@
 <fetishmaster.items.Item>
   <name>Super Nips!</name>
-  <descr>A mixture created by carefully mixing breast milk and pussy juices together. It will permanently enhance nipple length and girth!</descr>
+  <descr>A mixture created from carefully dilluting breast milk and pussy juices together. It is said to permanently enchance nipple length and girth!</descr>
   <hourlyScript></hourlyScript>
-  <useScript>res = &quot;Mixture feels really smooth as you rub it on your nipples.&quot;;&#xd;
+  <useScript>res = &quot;The mixture feels really smooth as you rub it on your nipples!&quot;;&#xd;
 if (self.getCleanStat(&quot;breasts.nipple&quot;) &lt; 50)&#xd;
 {&#xd;
 res += &quot; Soon, &quot;+self.getName()+&quot; feels a rising warmth in her nipples as they slowly distend and swell. They grew a inch fatter!&quot;;&#xd;
@@ -10,7 +10,7 @@ self.addStat(&quot;breasts.nipple&quot;, 1);&#xd;
 }&#xd;
 else&#xd;
 {&#xd;
-res += &quot;And while it feels pleasant, nothing really happens. Seems like the formula can&apos;t enlarge such huge nipples any further&quot;;&#xd;
+res += &quot;And it feels pleasant, but nothing really happens. Seems like the formula can&apos;t distend such huge nipples further&quot;;&#xd;
 }&#xd;
 res;</useScript>
   <useText></useText>

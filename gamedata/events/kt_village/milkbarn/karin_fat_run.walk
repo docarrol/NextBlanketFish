@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/milkbarn/karin_fat_run</name>
+  <descr>[proxy] tells Karin it is time to get dressed.&#xd;
+&#xd;
+-Dressed but only special cloths are allowed inside the milking barn and my normal cloths got so tight lately.&#xd;
+&#xd;
+[proxy] tells Karin that they are going to work on that and tell Karin to meet [himher] outside dressed. After waiting sometime outside Karin finally arrives. [proxy] orders Karin to run some round around the building to lose all those extra kilo’s. Karin running looks spectacular mainly because with each step milk shoots from her nipples.&#xd;
+A couple of round later and Karin is finished running. Tired and hopefully a little lighter [proxy] ends the training for Karin.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;karinvisit&quot;,clock.getDays());&#xd;
+SetPerFlag(&quot;karin_milk&quot;,0);&#xd;
+SetPerFlag(&quot;karin_ener&quot;,(GetPerFlag(&quot;karin_ener&quot;)-10));&#xd;
+SetPerFlag(&quot;karin_food&quot;,(GetPerFlag(&quot;karin_food&quot;)-30));&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/milk/train_weight.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/milkbarn/milkbarn_enterance</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

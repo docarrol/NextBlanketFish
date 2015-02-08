@@ -2,7 +2,7 @@
   <name>commoners/proxy_reveal_interested</name>
   <descr>&lt;% c = Character(GetTextFlag(&quot;commoner_uid&quot;)); &quot;&quot;;%&gt;You decided: it&apos;s time to tell &lt;%c.getName();%&gt; about youself. So [Proxy] take time and tell &lt;%c.getName();%&gt; your story, and about [hisher] contract, then you both looks at a &lt;%c.getName();%&gt; waiting for &lt;%c.HisHer();%&gt; reaction.
 
-- Oh, it&apos;s definitely a story! But don&apos;t you feel like a puppet, just doing what you are told? And both of you feel same things? And going on the adventures that you don&apos;t need to fund, and are actually paid for?  It&apos;s definitely interesting... 
+- Oh, it&apos;s definitely a story! But do you not feel like a puppet, just doing what you are told? And both of you feel the same things? And going on the adventures that you don&apos;t need to fund, on the contrary you are payed for this?  It&apos;s definitely interesting... 
 
 &lt;% c.setFlag(&quot;proxy_reveal&quot;, 2); &quot;&quot;;%&gt;
 &lt;%DisplayBG(bgimage); &quot;&quot;;%&gt;</descr>
@@ -14,6 +14,5 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>forest/in_mirkwood_to_lightwood</name>
-  <descr>After some time spent wandering through the dark woods, [Proxy] finds a spot where the forest begins to change. The trees become smaller with lighter bark and stand farther apart, allowing more light to pass through their canopies, while the random twitter of birds can be heard throughout the forest. It&apos;s certainly more inviting then where [heshe] currently is.
+  <descr>After some time spent randomly wandering through the dark woods, [Proxy] finds a spot where the forest starts to change. The trees become smaller with lighter bark and stand farther apart, allowing more light to pass through their canopies, while the random twitter of birds can be heard throughout the forest. It&apos;s certainly more inviting then where [heshe] currently is.
 
 </descr>
   <conditions>Chance(30);</conditions>
@@ -9,10 +9,12 @@
     <fetishmaster.engine.WalkChoice>
       <name>Leave Mirkwood</name>
       <value>forest/lightwood</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Go Back</name>
       <value>forest/mirkwood</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -20,5 +22,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

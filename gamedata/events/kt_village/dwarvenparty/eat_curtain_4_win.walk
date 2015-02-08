@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_4_win</name>
+  <descr>The female dwarf tells the first question. The question is obviously not useful for normal merchant practices, but [proxy] managed to determine the answer anyhow. The next three questions are largely the same although more difficult each time. The final question is a real monster, [proxy] has no clue what the answer is but the question sounded strange. It feels like the dwarf threw together the most complicated stuff she could think of and formulated it in a question. [proxy] decides to ask her the answer and a explanation on how she managed to reach that answer.&#xd;
+&#xd;
+-The answer is 42, the answer to the Ultimate Question of the dwarfs, the stone, and crafting. I cannot explain how I got that answer to someone like you, it is impossible for you to follow my reasoning.&#xd;
+&#xd;
+[proxy] asks how she incorporated the complex number following the negative value root. &#xd;
+&#xd;
+-Oke, you got me, you win. It is even better this way, someone like you does not deserve the food I had prepared.&#xd;
+&#xd;
+A large chunk of meat is brought in and the dwarf starts eating, when the gong sound, [proxy] leaves for the next curtain.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;partycurtain&quot;, GetPerFlag(&quot;partycurtain&quot;)+1);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>self.getStat(&quot;generic.int&quot;)&gt;55</conditions>
+  <picturePath>kt_village/dwarfs/dwarf4.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_walk</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

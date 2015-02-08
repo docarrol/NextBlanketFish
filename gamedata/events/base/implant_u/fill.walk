@@ -1,9 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/implant_u/fill</name>
-  <descr>[Proxy] removes her clothes and installs the IV stand with the saline pack. Then [she] sits down, opens her legs, and inserts the special nozzle into her [=proxy][vagina] and tries to find the sack port at [her] cervix. After succeeding, she lays down and opens the saline drip. It will take some time to transfer all the saline inside...&#xd;
+  <descr>[Proxy] removes her clothes and installs the IV stand with the saline pack. Then [she] sits down, opens her legs, and inserts the special nozzle into her [=proxy][vagina] and tries to find the sack port at [her] cervix. After succeeding, she lays down and opens the saline drip. This will take some time to transfer all the saline inside...&#xd;
 &lt;%LustShame(10, 50);&#xd;
 RemoveItem(&quot;saline_pack&quot;);&#xd;
-proxy.doAction(&quot;ut_implant_fill&quot;);&#xd;
+sal = proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;implant_volume&quot;);&#xd;
+proxy.updateEffect(&quot;uterus.volume&quot;, &quot;implant_volume&quot;, sal+300);&#xd;
  &quot;&quot;;%&gt;</descr>
   <conditions>HasItem(&quot;saline_pack&quot;);</conditions>
   <picturePath>base/sex_room.jpg</picturePath>
@@ -11,6 +12,7 @@ proxy.doAction(&quot;ut_implant_fill&quot;);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>base/implant_u/menu</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -18,6 +20,6 @@ proxy.doAction(&quot;ut_implant_fill&quot;);&#xd;
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

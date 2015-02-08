@@ -6,11 +6,12 @@ You decide that [proxy] needs to give birth at home. You prepare all that [she] 
 [=proxy]
 &lt;%Include(&quot;system/c_generic_birth&quot;); &quot;&quot;;%&gt;</descr>
   <conditions>1</conditions>
-  <picturePath>system/normal_birth.jpg</picturePath>
+  <picturePath></picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>system_events/end_of_walking</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -18,6 +19,6 @@ You decide that [proxy] needs to give birth at home. You prepare all that [she] 
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

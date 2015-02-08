@@ -1,0 +1,26 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/tree_waiting</name>
+  <descr>[proxy] enters the massive tree and walks the lengthy stairs till [heshe] reaches the area situated at the peak of the tree. There [heshe] is greeted by the assistant of Elwing.</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Meet Elwing</name>
+      <value>forest/elves/second_meet_elwing</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Vist Elwing</name>
+      <value>forest/elves/elwing_breeder</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>leave</name>
+      <value>forest/elves/village_center</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>2</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

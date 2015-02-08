@@ -1,0 +1,14 @@
+<fetishmaster.items.Item>
+  <name>White potion</name>
+  <descr>A white potion produced by Elwing</descr>
+  <hourlyScript></hourlyScript>
+  <useScript>self.setStat(&quot;balls.prod_rate&quot;,(1.2*self.getStat(&quot;balls.prod_rate&quot;)));</useScript>
+  <useText>After drinking the potion, &lt;%self.getName();%&gt; balls start feeling warm. When the potion has worn of they produce sperm faster.</useText>
+  <count>1</count>
+  <canBeStacked>true</canBeStacked>
+  <hourlyScriptOnlyForOne>false</hourlyScriptOnlyForOne>
+  <value>100</value>
+  <sellValue>10</sellValue>
+  <weight>0.5</weight>
+  <filename></filename>
+</fetishmaster.items.Item>

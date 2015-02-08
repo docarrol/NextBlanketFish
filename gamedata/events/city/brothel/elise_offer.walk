@@ -1,12 +1,12 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/elise_offer</name>
-  <descr>[proxy] ask to see Neferi in private and show her reaction magic dildo caused on your pussy. She kneels down and looks with a calm smile:
+  <descr>[proxy] ask to see Neferi in private and show her reaction the magic dildo did on your pussy. She kneels down and look with a calm smile:
 
-- Oh, I didn&apos;t mention it right? The dildo can provoke dramatic cunt growth if the user has a LOT of cum in their womb... Sorry about not mentionning it.
+- Oh, I didn&apos;t mention it right? The dildo can provoke dramatic cunt growth of the user has a LOT of cum in their womb... Sorry about not mentionning it.
 
-She get&apos;s up and mentions something else:
+She get&apos;s up and mention something else:
 
-- I&apos;m not sure if you like it or not, but I know someone who can help you accomodate to it... She&apos;s my half-sister really. She lives here with me, her name&apos;s Elise. She&apos;s very open about this and may even help you if you want to continue down that path. I&apos;ll let her know about you.
+- I&apos;m not sure if you like it or not, but I know someone who can help you with accomodating to it... It&apos;s my half-sister really. She lives here with me, her name&apos;s Elise. She&apos;s very open about this and may even help you if you want to continue down that path. I&apos;ll let her know about you.
 &lt;% SetPerFlag(&quot;know_about_elise&quot;, 1);
 &quot;&quot;;%&gt;
 &lt;% DisplayChar(&quot;char/neferi.png&quot;);
@@ -24,6 +24,5 @@ She get&apos;s up and mentions something else:
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

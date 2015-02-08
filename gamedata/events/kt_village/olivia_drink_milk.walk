@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/olivia_drink_milk</name>
+  <descr>[proxy] walks to Olivia and hands her the éclairs.&#xd;
+&#xd;
+-Thank you, I’m going to enjoy them later now follow me.&#xd;
+&#xd;
+[proxy] follows Olivia to the small house and enters.&#xd;
+&#xd;
+-Give me a moment to prepare myself.&#xd;
+&#xd;
+Olivia starts massaging her breasts for a bit and soon the first white drops are vissible on her niplles.&#xd;
+&#xd;
+[proxy] takes one of the nipples in &lt;%activePartner.HisHer();%&gt; mouth and starts to suck. At first only a few drops enter [proxy] mouth but soon the nipple in &lt;%activePartner.HisHer();%&gt; mouth produces a steady flow. The milk is extremely thick and fat, [proxy] wonders how Olivia managed to even get it from her breasts. [proxy] must go to Felis right after &lt;%activePartner.HeShe();%&gt; finishes drinking else the milk could have some severe effects on &lt;%activePartner.HisHer();%&gt; body.&#xd;
+&#xd;
+During the process of drinking Olivia&apos;s milk [proxy]  &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly slowly starts to grow.&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 50*1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;))));&#xd;
+self.addStat(&quot;abdomen.food&quot;, (1.1*(proxy.getStat(&quot;abdomen.stomach_volume&quot;)-(proxy.getStat(&quot;abdomen.food&quot;)))));&#xd;
+RemoveItem(&quot;cream_eclair&quot;, 10);&#xd;
+ &quot;&quot;;%&gt;&#xd;
+If the milk flow in one of Olivia&apos;s breasts slows down a bit, [proxy] switches to the other breasts. Olivia&apos;s breast hardly change in size during this milking process and the milk provided seems to be endless. Each time [proxy] sucks on one of Olivia&apos;s nipples she leaves out a small moan, her face has turned a bit red and she seems to really enjoy the milking.&#xd;
+&#xd;
+Finally [proxy] stomach is so full that &lt;%activePartner.HeShe();%&gt; cannot drink another drop. Because of all the milk in &lt;%activePartner.HisHer();%&gt; stomach &lt;%activePartner.HisHer();%&gt; tummy has grown to a &lt;%IncludeRange(proxy.getStat(&quot;generic.abdomen&quot;), &quot;bellysize&quot;);%&gt; belly.&#xd;
+&#xd;
+[proxy] thanks Olivia for the milk and starts walking as fast as her now sloshing milk stomach allows. The trip to the hospital takes longer than normal. [proxy] has to rest a couple of times because of the extra weight &lt;%activePartner.HeShe();%&gt; is carrying.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;olivia&quot;,7); &#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>HasItems(activePartner, &quot;cream_eclair&quot;, 10) &amp;&amp; GetPerFlag(&quot;olivia&quot;)==6</conditions>
+  <picturePath>char/olivia.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/felis/in_lab</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>8</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

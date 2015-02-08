@@ -1,0 +1,35 @@
+<fetishmaster.engine.WalkEvent>
+  <name>city/hospital/ask_maid</name>
+  <descr>[proxy] approaches the reception desk and asks if they know someone who is looking for a job and knows how to dress and undress people.&#xd;
+&#xd;
+-That is some strange job requirement you got there, what business is it for?&#xd;
+&#xd;
+[proxy] tells she owns a bathhouse in the outskirts and is looking for a maid.&#xd;
+&#xd;
+-I know that place, I’m officially not allowed to tell you this but if we get a really dirty patient we sent them first through that place for a good cleaning. The cleaning girl you got there can even make the dirtiest body nearly sterile.&#xd;
+I really wish I could help you but I don’t know anyone, maybe, no she won’t do.&#xd;
+&#xd;
+[proxy] asks who he means.&#xd;
+&#xd;
+-Berta is a nurse who worked here till recent. Nice girl but she took some experimental medicine and got herself fired. I can give you her address if you like to visit her. I think she is not suitable for your work but it’s best if you judge yourself. She lives between hilltown and the sea.&#xd;
+&lt;% &#xd;
+SetFlag(&quot;bathhouse&quot;,8);&#xd;
+&quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>GetFlag(&quot;bathhouse&quot;)==7</conditions>
+  <picturePath>city/hospital/reception.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>city/hospital/reception</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

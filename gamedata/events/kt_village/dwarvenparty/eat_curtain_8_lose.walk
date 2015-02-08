@@ -1,0 +1,46 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/dwarvenparty/eat_curtain_8_lose</name>
+  <descr>&#xd;
+[proxy] decides to try to lose. [heshe] switcher the 8 and 10 for two new cards. The final score of [proxy] is 17. Cadha shows her hand and has 19.&#xd;
+&#xd;
+-You lost, not a smart move. I had just ordered the chef to make me an ox marinated in Spring Valley honey. Since you decided that you would eat my food, you better make sure you eat all of it. You are not allowed to leave till I declare the food as finished.&#xd;
+&#xd;
+Two waitresses push a card inside with on top a massive roasted ox. The ox is far larger than any meal eaten by [proxy] before. The stomach of Cadha must be absolutely massive if she normally eats this. The only problem now is, the entire ox now has to go in [proxy] stomach. On an empty stomach this would already be an impossible feat for [proxy] but [proxy] stomach is already loaded with food from some of the previous feeding sessions. The only way [proxy] is ever going to eat the entire ox is by using the compression magic of the corset. Thovila warned [proxy] to only use it a single time; [proxy] has to risk using it more to avoid pissing of Cadha. You highly doubt Cadha is going to let a human leave with an unfinished meal after taking her food. Well only one thing left to do, eat and hope that in combination with magic [proxy] can finish it all.&#xd;
+&#xd;
+[proxy] takes the first leg of the massive ox, it is large enough to be served as any of the other dishes at this party. [proxy] starts eating the ox leg and soon [hisher] face is a mess because of the honey marinade present on it. It taste really good but is just so much meat. &#xd;
+&#xd;
+Slowly parts of the Ox disappear in [proxy] stomach. At some point [proxy] stomach is overfull; [heshe] has no choice than to activate the compression magic. [proxy] feels the content of her stomach slowly become smaller but it keeps the same weight. It feels like [proxy] swallowed some lead weights. &#xd;
+After some time the gong sounds indicating it is time to switch.&#xd;
+&#xd;
+-You can ignore that, you have still food left to finish.&#xd;
+&#xd;
+With a large smile on her face, Cadha looks how [proxy] is struggling with the rest of the massive ox. With using the compression magic some more [proxy] managed to finish the four legs. Cadha notices how [proxy] slows down, tired after eating so much. She finds it also a bit odd how much food has disappeared in [proxy] stomach while [hisher] stomach has grown and shrunken multiple times. To speed the eating up, Cadha calls some servants who keep stuffing [proxy] face. [proxy] is left to swallow and activate the compression magic now and then when [hisher] stomach is close to bursting. The effect of the compression becomes less with each usage, either the magic is running out or the food is already so compressed that further compression is not longer feasible. Finally the last piece of meat is placed in [proxy] mouth.&#xd;
+&#xd;
+-I enjoyed this performance, come to another party and we have some fun again.&#xd;
+&#xd;
+After hearing that, [proxy] loses conscious.&#xd;
+&#xd;
+&#xd;
+&lt;%&#xd;
+self.addStat(&quot;generic.calories&quot;, 100000);&#xd;
+self.addStat(&quot;abdomen.food&quot;, 5000);&#xd;
+SetPerFlag(&quot;dwarfparty_eat&quot;, 0);&#xd;
+SetPerFlag(&quot;partycurtain&quot;, 0);&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/dwarfs/princess_1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/dwarvenparty/eat_curtain_8_final_lose</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>3</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,52 +1,12 @@
 <fetishmaster.engine.WalkEvent>
   <name>base/s_training</name>
-  <descr>Sexual training.</descr>
-  <conditions>GetFlag(&quot;visit_david&quot;) == 1; </conditions>
+  <descr></descr>
+  <conditions>1</conditions>
   <picturePath>base/s_training.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
-      <name>Return</name>
-      <value>base/training_rooms</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Breast Play</name>
-      <value>base/milking/milking</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Breast Scanner</name>
-      <value>base/inspect_breasts</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Masturbation</name>
-      <value>base/masturbation</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Stretch Vagina</name>
-      <value>base/vagina_stretch</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Ass play</name>
-      <value>base/ass_play</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Stretch Anus</name>
-      <value>base/anus_stretch</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Dildo Play</name>
-      <value>base/dildo_play</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Pussy Milker</name>
-      <value>base/milking/pussy_milker</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Uterus Implant</name>
-      <value>base/implant_u/menu</value>
-    </fetishmaster.engine.WalkChoice>
-    <fetishmaster.engine.WalkChoice>
-      <name>Cock &amp; Balls desc</name>
-      <value>base/balls_inspect</value>
+      <name>Bellyplay</name>
+      <value>base/Bellyplay</value>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -54,6 +14,6 @@
   <priority>0</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <mergeDown>true</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

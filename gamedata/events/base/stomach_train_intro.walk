@@ -1,0 +1,33 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/stomach_train_intro</name>
+  <descr>Acoring to some tips from Vicky, [proxy] could increase &lt;%activePartner.HisHer();%&gt; stomach size by stretching it to the max. Vicky&apos;s famalie methode might be quicker, but [proxy] is not sure if &lt;%activePartner.HisHer();%&gt; cloth&apos;s still fit after a few setions.&#xd;
+&#xd;
+Might be safer to do some training here at home. Lots of low calory food combined with some liquids should do the trick. The normal food that is provided is not realy suitable for this task, [proxy] will have to buy her own food this time. 100 bucks should provide a sufficient quantity.&#xd;
+&#xd;
+Streching the stomach without supervision of a expert could do some damage to [proxy] health.Streching an already full stomach is also not going to work, [proxy] will have to perform this training on a nearly empty stomach.&#xd;
+&#xd;
+&#xd;
+&#xd;
+</descr>
+  <conditions>GetFlag(&quot;stomach_train&quot;) &gt;= 2</conditions>
+  <picturePath>base/p_training.jpg</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Training (100)</name>
+      <value>base/stomach_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Back</name>
+      <value>base/p_training</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>fast_travel/select</name>
-  <descr>Select, where [proxy] should go, or maybe [heshe] needs to stay here?&#xd;
+  <descr>Select, where [proxy] should go, or maybe [heshe] need to stay here?&#xd;
 &lt;%IncludeAll(&quot;fast_travel/select&quot;); &quot;&quot;%&gt;</descr>
-  <conditions>GetFlag(&quot;visit_david&quot;) == 1;</conditions>
+  <conditions>1;</conditions>
   <picturePath>basehall.jpg</picturePath>
   <choices>
     <fetishmaster.engine.WalkChoice>
@@ -15,6 +15,5 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
 </fetishmaster.engine.WalkEvent>

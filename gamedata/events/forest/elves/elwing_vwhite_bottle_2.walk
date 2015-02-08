@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_vwhite_bottle_2</name>
+  <descr>[proxy] decides to drink the entire bottle. [proxy] hopes the babies are thirsty because soon they have plenty of milk to drink. [proxy] puts the bottle against [hisher] mouth and start drinking. While drinking the content of the large bottle, [proxy] feels [hisher] breasts slowly become warm. The warm feeling slowly intensifies to a burning feeling. [hisher] breasts meanwhile start producing milk at a very high rate. [proxy] can feel [hisher] breasts slowly filling up with milk. [hisher] breasts are however far from lowering the milk production. [proxy] feels the pressure in [hisher] breasts increasing and small drops of milk become visible on [hisher] nipples. These small drops soon increase to a decent flow of milk dripping from [hisher] nipples on the ground. [proxy] breasts are being stretched  trying to store all the excess milk they are producing.  
+
+When a small puddle of breast milk starts to form at [proxy] feet. The assistant is entering the room again. When she sees the milk on the floor.
+
+-What a waste, I’m sure there are some hungry babies out there who could really use it.
+
+[proxy] uses both hands to try to prevent [hisher] nipples from leaking anymore milk while [heshe] walks behind the assistant to Elwing’s room. Because the milk has now nowhere left to go, the pressure in [proxy] breasts increases even further making the stretch more.
+
+&lt;%
+self.setRNAactive(&quot;breasts.lact_rate&quot;, true);
+self.addStat(&quot;breasts.size&quot;, (0.5*self.getStat(&quot;breasts.size&quot;)));
+self.addStat(&quot;breasts.max_lactation&quot;, (0.5*self.getStat(&quot;breasts.max_lactation&quot;)));
+self.setStat(&quot;breasts.lact_rate&quot;,(0.5*self.getStat(&quot;breasts.max_lactation&quot;)));
+self.setStat(&quot;breasts.milk_volume&quot;,self.getStat(&quot;breasts.max_volume&quot;));
+ &quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_aftervwhitebottle</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

@@ -1,12 +1,12 @@
 <fetishmaster.engine.WalkEvent>
   <name>farms/inside_milk</name>
-  <descr>[Proxy] ask if [heshe] can drink some milk from Belanika - it looks delicious...&#xd;
+  <descr>[Proxy] ask if [heshe] can drink some milk from Belanika - it&apos;s look delicious...&#xd;
 &lt;%Include(&quot;farm/inside_firsttime_milk&quot;);%&gt;&#xd;
 She smiles.&#xd;
 &#xd;
-[Proxy] leans over Belanika&apos;s lying figure, experimentally getting tip of the huge nipple in her mouth, and squeezes it with [hisher] lips a little. [HeShe] is immediately rewarded with stream of milk. It has sweet taste, and [proxy] definitely wants more! [HeShe] begins to suck Belanika&apos;s breast and the flow of her milk quickly becomes almost too much to swallow. After some time [proxy] begins to feel full. [HeShe] releases Belanika&apos;s nipple from [hisher] mouth, and stands up, feeling well feed. [Proxy] thanks Belanika for this pleasure.&#xd;
+[Proxy] leans to Belanika&apos;s lying figure, experimentally get tip of the huge nipple in her month, and press it with the lips a little. [HeShe] immediately rewarded with stream of milk. It sweet to the taste, and [proxy] definitely wanted more! [HeShe] begins to suck Belanika&apos;s breast and flow of her milk quickly become almost too much to swallow it. Some time passed, but eventually [proxy] begins to feel full. [HeShe] release Belanika&apos;s nipple from her month, and stand up, feeling well feed. [Proxy] thank Belanika for this pleasure, and she replied:&#xd;
 &#xd;
-- And thank you, I also enjoyed this.&#xd;
+- And thank you, I&apos;m enjoyed this too.&#xd;
 &#xd;
 &lt;%Include(&quot;char/belanika_init&quot;)&#xd;
 belanika.removeStat(&quot;breasts.milk_volume&quot;, 700);&#xd;
@@ -23,6 +23,6 @@ proxy.addStat(&quot;belanika.relations&quot;, 5);&#xd;
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -24,6 +24,14 @@
       <name>Running (1h)</name>
       <value>base/running</value>
     </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Scan Belly</name>
+      <value>base\belly_scanner</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Train stomach</name>
+      <value>base/stomach_train_intro</value>
+    </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
   <time>0</time>

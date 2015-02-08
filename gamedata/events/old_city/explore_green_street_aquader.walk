@@ -1,6 +1,6 @@
 <fetishmaster.engine.WalkEvent>
   <name>old_city/explore_green_street_aquader</name>
-  <descr>[Proxy] looks for anything useful, but instead [heshe] encounters an Aquader! 
+  <descr>[Proxy] looked for anything useful, but instead [heshe] encountered an Aquader! 
 &lt;%DisplayChar(&quot;lost_city/aquader.png&quot;);&quot;&quot;;%&gt;
 </descr>
   <conditions>calc.chance(30);</conditions>
@@ -9,6 +9,7 @@
     <fetishmaster.engine.WalkChoice>
       <name>Fight!</name>
       <value>battle/aquader/start</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -16,5 +17,5 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

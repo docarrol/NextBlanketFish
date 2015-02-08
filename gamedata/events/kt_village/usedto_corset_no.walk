@@ -1,0 +1,27 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/usedto_corset_no</name>
+  <descr>[proxy] returns to Thovila now a bit more used to wearing the corset.&#xd;
+&#xd;
+-I would like your help with something but first let me check how my corset is functioning.&#xd;
+&#xd;
+Thovila spends a good amount of time checking every part of the corset and pays extra attention to the part located at [proxy] belly.&#xd;
+&#xd;
+-Your stomach seems to be too small for my plan to work. I heard some rumors about Vicky and something behind a bathhouse who could help you with that. You probably have to do some quests for them before you can increase your stomach size trough them. I estimate that for the task on hand you need a stomach of at least 15 liters. I know it sounds much but you have never been to dwarven parties before.&#xd;
+</descr>
+  <conditions>GetPerFlag(&quot;thovilawait&quot;) &lt; clock.getDays() &amp;&amp; GetPerFlag(&quot;dwarf_crash&quot;)==5 &amp;&amp; self.getStat(&quot;abdomen.stomach_volume&quot;) &lt; 15000</conditions>
+  <picturePath>kt_village/Blacksmith.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+      <chance>0</chance>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
+</fetishmaster.engine.WalkEvent>

@@ -4,7 +4,7 @@
 
 The receptionist gives [proxy] an inspective look.
 
-- You are lactating, aren&apos;t you? We are buying breast milk, so if you would like, you can sell it to us. We pay more for it than any other place in town.
+- You are lactating, aren't you? We are constantly buying breast milk, so if you would like, you can sell it to us here. We pay more for it than any other place in town.
 
 (Now, if you train a milkmaid and have a milker, you can give a proxy the task to sell milk here.)
 &lt;%SetFlag (&quot;hospital_buy_milk&quot;, 1); &quot;&quot;;%&gt;</descr>
@@ -14,14 +14,17 @@ The receptionist gives [proxy] an inspective look.
     <fetishmaster.engine.WalkChoice>
       <name>Go outside</name>
       <value>city/hospital_entrance</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Treatment wing</name>
       <value>city/hospital/treatment_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Research wing</name>
       <value>city/hospital/research_wing</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
@@ -29,6 +32,6 @@ The receptionist gives [proxy] an inspective look.
   <priority>1</priority>
   <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -1,0 +1,38 @@
+<fetishmaster.engine.WalkEvent>
+  <name>kt_village/recieve_corset_2</name>
+  <descr>Thovila tells [proxy] to strip naked and with Thovila’s help [proxy] puts on the corset. The corset feels much too loose to provide any support, it does look great however. Between the two breast cups a large shining stone is present. That stone is probably the magic crystal used for powering the magical functions of the corset.&#xd;
+&#xd;
+Once [proxy] wears the corset and Thovila has double checked every part of it, she pushes an hidden button. When [proxy] listens very closely, [heshe] can hear some gears moving. The corset suddenly starts to shrink putting pressure on just the right places. The pressure increases and becomes more noticeable over time but stops just before it becomes painful. Some of the fat from [proxy] belly has been pushed towards [hisher] breasts and hips. Thovila walks a couple of rounds around [proxy] tweaking the mechanism here and there and checks if everything works properly.&#xd;
+&#xd;
+-What do you think of my latest design. Normally you go to a party being strapped in a corset and during the party sneak to a back room to remove it. Not anymore, this corset changes depending on the requirements of the user. When eating the belly region expands for the food, gain weight and the entire corset becomes larger. One could wear this corset always only removing it for a shower and maybe sleep. If you want you could even sleep in it. &#xd;
+&#xd;
+The magic crystal provides the power for all the mechanisms so no fuel or other energy is required. Christian even managed to add in a special feature for you. He added a special feature in the magical circuits present in the corset that allows the compression of the food in your stomach. Let’s say you eat a rather large meal and your stomach is full, a good host also provides a dessert. Activate the compression function and you have room again in your stomach for a dessert. He can guaranty the compression function for a single use, compressing the already compressed food might be possible but he is not sure about that. Do keep in mind that the compressed food keeps al its weight and calories so I do not suggest using it often. I’m sure my corset can handle nearly any weight you gain but I’m not sure you prefer to become an immobile blob stuck in the corset. So how does it feel wearing it?&#xd;
+&#xd;
+[proxy] tells Thovila that it feels currently a bit odd but it looks nice.&#xd;
+&#xd;
+-Get a bit more used to it and then return to me. I have something I could use your help with.&#xd;
+&#xd;
+&lt;%&#xd;
+SetPerFlag(&quot;thovilawait&quot;,clock.getDays()+2);&#xd;
+SetPerFlag(&quot;dwarf_crash&quot;,5);&#xd;
+&#xd;
+self.setStat(&quot;fat.belly&quot;, (0.5*self.getStat(&quot;fat.belly&quot;)));&#xd;
+&#xd;
+&#xd;
+ &quot;&quot;;%&gt;&#xd;
+</descr>
+  <conditions>1</conditions>
+  <picturePath>kt_village/magic_corset.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>kt_village/main_street</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

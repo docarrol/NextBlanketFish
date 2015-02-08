@@ -1,0 +1,43 @@
+<fetishmaster.engine.WalkEvent>
+  <name>muffin_top/stomach_advstrechingcont</name>
+  <descr>After a little wait, the two friends of Vicky arrive. One of them seems to be a witch. They say hallo to [proyx] and then disappear to the kitchen where Vicky is working hard.&#xd;
+&#xd;
+Sometime later the two girls leave the kitchen both pushing a card filled with plates stacked full with food.&#xd;
+&#xd;
+-Here is the appetizer. According to Vicky this should only provide a small bottom for the rest.&#xd;
+&#xd;
+The witch continues.&#xd;
+&#xd;
+-Vicky asked me by the way for help. She wants to try to perfect her families training by improving it with magic. There is where I come in. You seem like a promising test subject; let’s hope you can fulfill my expectations.&#xd;
+&#xd;
+She then picks the first plate of food and starts shoving the content in your mouth. After some trial and error the two girls managed to get in an optimal rhythm of picking a full plate, shove the content in [proxy] mouth, put the now empty plate on the stack and continue with the next plate. &#xd;
+The only break [proxy] receives is when they have to get new food from the kitchen or when the witch is performing on of her spells on [proxy] stomach. This progress continues for hours till [proxy] ate everything Vicky managed to cook.&#xd;
+&#xd;
+The size of [proxy] belly at the end is just mind boggling. &lt;%activePartner.HisHer();%&gt; belly has become large enough to contain multiple people of normal size. Luckily &lt;%activePartner.HisHer();%&gt; belly is resting on the table, else it might have crushed &lt;%activePartner.HisHer();%&gt; legs.&#xd;
+&#xd;
+Vicky together with the two girls watches their accomplishment, tired but fulfilled. Vicky:&#xd;
+&#xd;
+-I knew you could do it. Let us hope you can finish your training before you get to heavy to move.&#xd;
+&#xd;
+&lt;% &#xd;
+self.addStat(&quot;abdomen.max_volume&quot;,0.1*self.getStat(&quot;abdomen.max_volume&quot;));&#xd;
+self.addStat(&quot;abdomen.food&quot;,(self.getStat(&quot;abdomen.stomach_volume&quot;)-proxy.getStat(&quot;abdomen.food&quot;)));&#xd;
+self.addStat(&quot;generic.calories&quot;,(self.getStat(&quot;abdomen.stomach_volume&quot;)*5));&#xd;
+self.addEffect(&quot;generic.calories_rate&quot;, &quot;boostup&quot;,(self.getStat(&quot;generic.calories&quot;)/60), 48);&#xd;
+RemoveMoney(1000); &#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>bathhouse/training.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>muffin_top/stomach_advstrechingend</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>3</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

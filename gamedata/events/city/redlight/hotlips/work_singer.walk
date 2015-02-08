@@ -1,8 +1,8 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/redlight/hotlips/work_singer</name>
-  <descr>[proxy] works as a singer. [HeShe] gains some attention but not much. The audience was not impressed. She needs to develop her skill more if [heshe] wishes to be successful.
+  <descr>&lt;%activePartner.getName();%&gt; works as a singer. &lt;%@activePartner.HeShe();%&gt; gains some attention but not much. The audience did not notice her. She needs more skill to be successful.
 
-Ms. Tendo pays [proxy] 5 coins for [hisher] work.
+Ms. Tendo payed &lt;%activePartner.getName();%&gt; 5 coins for the work.
 
 &lt;%
 activePartner.inventory.addMoney(5);
@@ -17,5 +17,5 @@ activePartner.addStat(&quot;skill.sing&quot;, 1);
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

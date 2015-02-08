@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>forest/elves/elwing_white_bottle_2</name>
+  <descr>[proxy] decides to drink two glass of the liquid. The liquid taste a bit like sperm mixed with some herbs. After [proxy] drinks the first glass, [hisher] balls feel a bit hot. [proxy] balls and pouch starts to fill them self up at a rapid rate with sperm. The second glass makes [hisher] balls even more active. After a few minutes [proxy] balls and pouch is full but [hisher] balls do not stop producing more sperm. The pressure in [proxy] balls and pouch increases and [proxy] notices that they increase in size a bit. A few moments later the burning feeling in [hisher] balls stops and the sperm production is back to normal.&#xd;
+&#xd;
+Not much later the assistant enters the room.&#xd;
+&#xd;
+-Follow me, I will take you to Elwing.&#xd;
+&#xd;
+[proxy] walks behind the assistant with a bit larger balls than earlier.&#xd;
+&#xd;
+&lt;% &#xd;
+self.setStat(&quot;pouch.max_volume&quot;,(1.2*self.getStat(&quot;pouch.max_volume&quot;)));&#xd;
+self.setStat(&quot;balls.size&quot;,(1.2*self.getStat(&quot;balls.size&quot;)));&#xd;
+self.setStat(&quot;balls.sperm_volume&quot;,self.getStat(&quot;balls.max_volume&quot;));&#xd;
+self.setStat(&quot;pouch.sperm_volume&quot;,self.getStat(&quot;pouch.max_volume&quot;));&#xd;
+self.setStat(&quot;balls.prod_rate&quot;,(1.2*self.getStat(&quot;balls.prod_rate&quot;)));&#xd;
+&quot;&quot;;%&gt;</descr>
+  <conditions>1</conditions>
+  <picturePath>elves/elf1.png</picturePath>
+  <choices>
+    <fetishmaster.engine.WalkChoice>
+      <name>Continue</name>
+      <value>forest/elves/elwing_afterwhitebottle_1</value>
+    </fetishmaster.engine.WalkChoice>
+  </choices>
+  <defaultNext>Event</defaultNext>
+  <time>0</time>
+  <priority>0</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <parsedDesc></parsedDesc>
+</fetishmaster.engine.WalkEvent>

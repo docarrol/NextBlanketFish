@@ -1,10 +1,10 @@
 <fetishmaster.engine.WalkEvent>
   <name>city/brothel/intro_preg_play</name>
-  <descr>- So, you&apos;re ready to have some fun and give special services? Good. Let me explain the details. After your first session, clients like to return here to see their chosen girls progress. Usually, the more progress between sessions, the more the client will be excited and pleased. And the more tips you&apos;ll get. If you show yourself to a client not significantly changed, he may lose interest in you. Measure your waist carefully, it will be the key to success here. &#xd;
+  <descr>- So, you&apos;re ready to have some fun and give special services? Good. Let me explain the details. After your first session, clients like to return here to see their chosen girls progress. Usually, the more progress between sessions, the more the client will be excited and pleased. And the more tips you&apos;ll get. If you show yourself to a client not significantly changed, he may lost interest in you. Measure your waist carefully, it will be the key to success here. &#xd;
 &#xd;
 Neferi smiles.&#xd;
 &#xd;
-- And one more thing: this service is exclusive. After your first time with a new client, he will expect to be the only one who gets this service from you. It&apos;s a rather personal experience. You can get another client, but after that, you can&apos;t return to the previous one.&#xd;
+- And one more thing: this service is exclusive. After your first time with a new client, he will expect to be the only one who gets this service from you. It&apos;s a rather personal experience. You can get another client, but after it, you can&apos;t return to previous one.&#xd;
 &lt;%&#xd;
 SetPerFlag(&quot;neferi_preg_play_intro&quot;, 1);&#xd;
  &quot;&quot;;%&gt;&#xd;
@@ -16,6 +16,7 @@ SetPerFlag(&quot;neferi_preg_play_intro&quot;, 1);&#xd;
     <fetishmaster.engine.WalkChoice>
       <name>Continue</name>
       <value>city/brothel/lounge</value>
+      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -23,6 +24,6 @@ SetPerFlag(&quot;neferi_preg_play_intro&quot;, 1);&#xd;
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
+  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>
