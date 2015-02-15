@@ -5,9 +5,9 @@
   <picturePath>forest/in_the_forest1.jpg</picturePath>
   <choices/>
   <defaultNext>Event</defaultNext>
-  <time>1</time>
+  <time>0</time>
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
-  <pasedConditions>0</pasedConditions>
+  <mergeDown>false</mergeDown>
 </fetishmaster.engine.WalkEvent>

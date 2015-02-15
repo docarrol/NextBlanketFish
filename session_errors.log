@@ -1,0 +1,1049 @@
++++ Game time: Day: 91, 16:00
+===============================================
+Compiled script error! Look in script: 
+GetPerFlag("brothel_ask_job") > 0  && GetPerFlag("nefri_warning") < 2
+-----------------------------------------------
+cannot invoke method: GetPerFlag
+-----------------------------------------------
+Current variables context: e7cfb2f8-073c-4603-95ee-4de421ae4d09  Used: 8393 time(s).
+-----------------------------------------------
+{gat=12.489281894610112, vol=181.29923617955882, status=class fetishmaster.engine.scripts.Status, res=true, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, knot=2.1306116253741596, giver1=Mariah, age 20y.o., mballs=29.607752914696263, merril=Merril, age 19y.o., vol_inside=219.5251861754026, selectedWorker=Mariah, age 20y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, penw=4.606321039597085, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, lib=18.885343168083804, payment=400, mlust=45.237301655549096, interCalc=class fetishmaster.interaction.InteractionCalc, t=, taker1=Client, age 29y.o., ctv=Client, age 29y.o., item=class fetishmaster.items.ItemProcessor, mbelly=0.0, belanika=Belanika, age 26y.o., skill=, belly_b=0.03936923849988272, proxy=Mariah, age 20y.o., volume=85.09257812189053, belly_dif=0.3766386888771436, self=Mariah, age 20y.o., excess=96.20665805766829, c=Client, age 29y.o., client=Client, age 29y.o., tat=3.751711012278309, calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Mariah, age 20y.o., Calc=class fetishmaster.utils.Calc, belly_a=0.4160079273770263, taker=Client, age 29y.o., Geometry=class fetishmaster.utils.GeometryCalc, act=fetishmaster.bio.BodyResponse@3cf4eee6, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o., Mira, age 19y.o.], giver=Mariah, age 20y.o., world=class fetishmaster.engine.scripts.WorldScripts, ubw=-0.756731998855813, mira=Mira, age 19y.o., pat=3.1135737617326233, enemy=Client, age 29y.o., map=class java.util.HashMap, action=fetishmaster.bio.BodyResponse@74705d4d, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, cvol=0.0, iTarget=Client, age 29y.o., GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], ar=137.1743314264525, cf=-0.07504690431519699, list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, str=47.636732565838216, vagw=9.814281157171134, CreatureProcessor=class fetishmaster.bio.CreatureProcessor, img=char/merril_nn_em.png}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+
+pat = icalc.Attraction(proxy, iTarget) / 10;
+tat = icalc.Attraction(iTarget, proxy) / 10;
+sysprint ("Attraction to "+iTarget.getName()+" = "+pat);
+sysprint ("Attraction to "+proxy.getName()+" = "+tat);
+LustShame(pat, 10); 
+LustShame(iTarget, tat +proxy.getStat("skill.massage")/4, 20);
+proxy.addStat("skill.massage", 0.4)
+<% proxy.addStat("skill.desireforfat", 0.1); "";
+-----------------------------------------------
+[Error: illegal use of operator: %]
+[Near : {... <% proxy.addStat("skill.desiref ....}]
+              ^
+[Line: 9, Column: 2]
+-----------------------------------------------
+Current variables context: ed57fc0f-94b8-4511-a1d0-e584baaef5ea  Used: 2430 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, res=blue, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, interCalc=class fetishmaster.interaction.InteractionCalc, geometry=class fetishmaster.utils.GeometryCalc, kiana=Kiana, age 18y.o., ctv=Client, age 31y.o., proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., client=Client, age 31y.o., tat=3.261514954707354, c=Client, age 31y.o., julia=julia, age 16y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, ubw=-1.368590863336536, pat=3.2337837945949817, sizemod=15.0, enemy=Client, age 31y.o., map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, iTarget=Client, age 31y.o., GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, vicky=Vicky, age 21y.o., agency=class fetishmaster.engine.scripts.Agency, str=50.57353004565368, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+Include("sex/calc_rub_belly"); "";
+-----------------------------------------------
+[Error: Include("sex/calc_rub_belly"): null]
+[Near : {... Include("sex/calc_rub_belly"); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: ed57fc0f-94b8-4511-a1d0-e584baaef5ea  Used: 2430 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, res=blue, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, interCalc=class fetishmaster.interaction.InteractionCalc, geometry=class fetishmaster.utils.GeometryCalc, kiana=Kiana, age 18y.o., ctv=Client, age 31y.o., proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., client=Client, age 31y.o., tat=3.261514954707354, c=Client, age 31y.o., julia=julia, age 16y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, ubw=-1.368590863336536, pat=3.2337837945949817, sizemod=15.0, enemy=Client, age 31y.o., map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, iTarget=Client, age 31y.o., GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, vicky=Vicky, age 21y.o., agency=class fetishmaster.engine.scripts.Agency, str=50.57353004565368, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: f96f5c0d-2afd-437a-9f0f-3ef63cbee320  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: ad61d8a5-135f-4e5b-87a0-14a48420ab58  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: f9f6a5be-1422-4349-95bf-1e5e065735dc  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: c0ae6c09-7641-4da4-b230-38c52bc77fa6  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: 631fa984-7949-4fef-93a2-4f5348cf5272  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: bf4bb75f-8452-4819-b80b-3814aa8aa842  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: 293e1e60-2473-443c-a589-615c7eeabe12  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: f9616577-6b94-481c-8f0f-e07a107b4c7a  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: f61a1335-e436-4441-a0d7-086cdd57436d  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: 48ecd42e-6669-477f-87ea-abeee8d8b180  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: 2e7eed63-23bc-44da-8595-27f98ac894f9  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: b39b7ed9-a34c-43bc-80d3-7884b1185884  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: ccde9033-7ef5-4048-9190-68d0dce291c0  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: e57ab1d9-f935-47c6-b036-03d7b772b78e  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: aa0443c6-719a-44ce-8a20-9c0110bdf281  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: 7c93a028-f121-40ff-a78c-06573a17bd64  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: ca193d37-8378-4928-a901-fcfe4e47831b  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: 6f4d511c-4949-4040-a790-83f837eaa544  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: dd4defac-8d58-41df-b359-3e77f2a56617  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+unable to resolve token: unable to resolve variable 'iTarget'
+-----------------------------------------------
+Current variables context: a2989096-ba8d-40ab-a483-d4a8504d52cf  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 802df1a1-2f08-499b-a604-963041eefb4b  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 108d3958-6fee-4834-92da-acb2d384d45e  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: f9384a1f-ddca-4271-add8-454b9f4458c2  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: a97f66cc-13d1-4c02-a46d-d3240dc46c8c  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 1f1f31e2-03da-4080-9f12-42d6b10781a2  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 9fd8c55b-c8ef-47d0-8f7a-252df541a1c7  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 8105d1d3-6249-4a46-9253-e266898f7cbc  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 6bcbb489-6067-4f71-b91e-209af374442d  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 83f5f1cc-ca9f-419d-927f-e1c8b5f8cd34  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 4f927c7b-a79c-41af-8ab8-edeed3ce0180  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 343b50e9-8a84-4479-a61f-9942d44c1a2c  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 471e917a-c891-4a38-bf2c-3f1ab2bf1885  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: ced3f749-bb9a-45ef-a46f-cbd91fcacac8  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: b30bd178-301e-4175-885e-00ff5fd34161  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: cdf506b2-df6b-4fe5-bc75-8bec095aac52  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 76f05873-25ef-41f8-b247-941a07ae98ed  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 57fad46f-e6a6-4bd1-83b9-9fbe0b70d5bf  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 18587e88-b892-4c22-8329-c0bbdc066159  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 2e94d162-c8f0-4e5e-90e9-a50490f0953d  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: a2bd837c-399d-43f4-85c6-07f0131f21eb  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: c42c90f8-2f8d-4df6-a1a8-4d9597b82e07  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 0bbc811a-550c-421a-acff-e0aa31b6acc7  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 35f7b073-7ca8-474e-88e2-3c0f4c9bd579  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 80097edb-9006-4815-869b-8195798a01b6  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 5733bf4f-27ba-469a-ab1e-8cf7eefd1fb4  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: b301afc1-7ef6-4909-9e66-661841e554eb  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 24c87287-9126-4573-8633-b7da7f1e62ee  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 7259c7e5-223e-45a6-b848-b5e80076cb1d  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 273b5bf7-4714-4530-85b4-dcc287985f6f  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: dba7c738-e2d1-498f-9a89-33d1c02cd0e1  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 896706be-1d31-4c22-8ad4-a6c1e876cf25  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 8e4d200e-ddc5-4c7f-bad1-0a8e00767784  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: e852fdd1-686f-4ca4-a4e0-e384a5022f9c  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 2aed7189-7e47-4302-b88f-62c9c9f88a7a  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 03950f22-3877-4bd9-b471-2dc9d14f6fea  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: ca2f9e64-7484-4dd1-ae92-b3b180beb633  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: a37b14c3-4b10-431d-8aed-e86aca79817c  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: f5c2c423-8083-405d-b01a-04f507879c3c  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 93c34dd3-7328-4a7c-a72b-7755a34353da  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 231ed331-d1bf-43bf-a4d3-dc9b3d7c8055  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 58055066-be8f-400a-bd8d-207d181abadc  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: a1724194-999c-4dbf-886b-9f60438d1367  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: 96c3f3fb-6211-4ac9-92fd-91066a189e18  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: ebeccf03-cb46-48ed-b1a5-2e49af51b816  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: b826f96d-76be-4fde-97d2-390a15e96698  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+
++++ Game time: Day: 101, 15:00
+===============================================
+Compiled script error! Look in script: 
+iTarget.getName();
+-----------------------------------------------
+[Error: could not access: iTarget; in class: java.lang.Class]
+[Near : {... iTarget.getName(); ....}]
+             ^
+[Line: 1, Column: 1]
+-----------------------------------------------
+Current variables context: c3ada8a1-00c0-4391-bbe9-cd8f63d26981  Used: 2 time(s).
+-----------------------------------------------
+{status=class fetishmaster.engine.scripts.Status, creature=class fetishmaster.bio.Creature, Creature=class fetishmaster.bio.Creature, selectedWorker=Eiko, age 25y.o., Agency=class fetishmaster.engine.scripts.Agency, game=class fetishmaster.engine.GameEngine, InternalClock=class fetishmaster.engine.scripts.InternalClock, geometry=class fetishmaster.utils.GeometryCalc, interCalc=class fetishmaster.interaction.InteractionCalc, proxy=Eiko, age 25y.o., item=class fetishmaster.items.ItemProcessor, self=Eiko, age 25y.o., calc=class fetishmaster.utils.Calc, player=Player, age 0y.o., activePartner=Eiko, age 25y.o., Geometry=class fetishmaster.utils.GeometryCalc, Calc=class fetishmaster.utils.Calc, characters=[Anthony, age 29y.o., Belanika, age 26y.o., Eiko, age 25y.o., Kat, age 16y.o., Kiana, age 18y.o., Lucas, age 33y.o., Mariah, age 20y.o., Merril, age 19y.o., Michael, age 30y.o., Mira, age 19y.o., Olivia, age 31y.o., Vicky, age 21y.o., Wojciech, age 29y.o., Wyatt, age 32y.o., julia, age 16y.o.], world=class fetishmaster.engine.scripts.WorldScripts, map=class java.util.HashMap, debug=class fetishmaster.utils.Debug, clock=fetishmaster.components.GameClock@1a49915a, icalc=class fetishmaster.interaction.InteractionCalc, GeneProcessor=class fetishmaster.bio.GeneProcessor, GeometryCalc=class fetishmaster.utils.GeometryCalc, workers=[Anthony, age 29y.o., Eiko, age 25y.o.], list=class java.util.ArrayList, agency=class fetishmaster.engine.scripts.Agency, CreatureProcessor=class fetishmaster.bio.CreatureProcessor}
+===============================================
+
+

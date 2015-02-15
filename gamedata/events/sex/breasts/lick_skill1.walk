@@ -2,7 +2,7 @@
   <name>sex/breasts/lick_skill1</name>
   <descr>[Proxy] kisses and licks [target]&apos;s nipples and breasts. [Target] giggles and moans at the attention, [=target][t-her] pussy is getting wet and nipples are standing out.
 &lt;%Include(&quot;sex/calc_breasts_lick&quot;); &quot;&quot;;%&gt;</descr>
-  <conditions>proxy.getStat(&quot;generic.kiss&quot;)&gt;30;</conditions>
+  <conditions>proxy.getStat(&quot;skill.oral&quot;)&gt;30;</conditions>
   <picturePath></picturePath>
   <choices/>
   <defaultNext>New event</defaultNext>
@@ -10,6 +10,6 @@
   <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

@@ -9,8 +9,8 @@
   <defaultNext>New event</defaultNext>
   <time>0</time>
   <priority>0</priority>
-  <returnPoint>false</returnPoint>
+  <returnPoint>true</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

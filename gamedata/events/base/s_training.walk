@@ -8,6 +8,38 @@
       <name>Bellyplay</name>
       <value>base/Bellyplay</value>
     </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Breast Play</name>
+      <value>base/milking</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Ass Play</name>
+      <value>base/ass_play</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Inspect Penis and Balls</name>
+      <value>base/balls_inspect</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Inspect Breasts</name>
+      <value>base/inspect_breasts</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Inspect Belly</name>
+      <value>base/belly_scanner</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Vagina Stretch</name>
+      <value>base/vagina_stretch</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Masturbation</name>
+      <value>base/masturbation</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
+      <name>Return</name>
+      <value>base/training_rooms</value>
+    </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>New event</defaultNext>
   <time>0</time>

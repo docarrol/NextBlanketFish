@@ -6,13 +6,11 @@
   <choices>
     <fetishmaster.engine.WalkChoice>
       <name>Rub belly</name>
-      <value>sex/Belly/rub</value>
-      <chance>0</chance>
+      <value>sex/Belly/rub_1</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
       <name>Back</name>
       <value>sex/turn</value>
-      <chance>0</chance>
     </fetishmaster.engine.WalkChoice>
   </choices>
   <defaultNext>Event</defaultNext>
@@ -20,6 +18,6 @@
   <priority>0</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc></parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>

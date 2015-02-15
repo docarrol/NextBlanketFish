@@ -26,6 +26,10 @@ ctv.setFlag(&quot;clothed&quot;, 0);
       <value>sex/menu_breasts</value>
     </fetishmaster.engine.WalkChoice>
     <fetishmaster.engine.WalkChoice>
+      <name>Belly</name>
+      <value>sex/menu_belly</value>
+    </fetishmaster.engine.WalkChoice>
+    <fetishmaster.engine.WalkChoice>
       <name>Pussy</name>
       <value>sex/menu_vagina</value>
     </fetishmaster.engine.WalkChoice>
@@ -48,13 +52,13 @@ ctv.setFlag(&quot;clothed&quot;, 0);
   </choices>
   <defaultNext>New event</defaultNext>
   <time>0</time>
-  <priority>0</priority>
+  <priority>1</priority>
   <returnPoint>false</returnPoint>
   <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
   <parsedDesc>Before Asami is Hiroaki.
 
 Hiroaki is a boy kau tangata of short height, with shoulder-length straw hair, pair of cow-like ears, and human golden eyes. Pair of the cow-like horns grow on his human head. He has human arms and human legs which end in human feet. He has He has a average weight for his size, with a flat belly and medium hips. Hiroaki has cow-like tail.
 
 </parsedDesc>
-  <pasedConditions>0</pasedConditions>
 </fetishmaster.engine.WalkEvent>
