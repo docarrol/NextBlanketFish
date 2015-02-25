@@ -1,0 +1,32 @@
+<fetishmaster.engine.WalkEvent>
+  <name>base/milking/milk_to_uterus</name>
+  <descr>&lt;% activePartner.getName() %&gt; sets up the milking machine but plug the other end in her vagina. She starts the machine as her breasts gets milked and all of it flows into her waiting womb, slowly making her belly bulge out from the volume inside;
+&lt;%MoodShame(30);
+self.addStat(&quot;generic.arousal&quot;, 20);
+if (self.getStat(&quot;generic.arousal&quot;) &gt; 100)
+{
+self.setStat(&quot;generic.arousal&quot;, 100);
+}
+if (proxy.hasEffect(&quot;uterus.volume&quot;, &quot;milk_in_uterus&quot;))
+{
+milk = proxy.getEffectValue(&quot;uterus.volume&quot;, &quot;milk_in_uterus&quot;) +  proxy.getStat(&quot;breasts.milk_volume&quot;);
+proxy.updateEffect(&quot;uterus.volume&quot;, &quot;milk_in_uterus&quot;, milk);
+}
+else
+{
+proxy.loadEffect(&quot;uterus.volume&quot;, &quot;milk_in_uterus&quot;, proxy.getStat(&quot;breasts.milk_volume&quot;));
+}
+proxy.doAction(&quot;uterus_recalc&quot;);
+proxy.doAction(&quot;abdomen_recalc&quot;);
+proxy.setStat(&quot;breasts.milk_volume&quot;, 0);&quot;&quot;%&gt;</descr>
+  <conditions>proxy.getStat(&quot;breasts.milk_volume&quot;) &gt;= 1000 &amp;&amp; GetFlag(&quot;setup_milking_room&quot;) &gt;= 1 &amp;&amp; proxy.getStat(&quot;generic.lewdness&quot;) &gt;= 40;
+</conditions>
+  <picturePath>base/milking/milk_in_womb.png</picturePath>
+  <choices/>
+  <defaultNext>Event</defaultNext>
+  <time>1</time>
+  <priority>1</priority>
+  <returnPoint>false</returnPoint>
+  <bypassInternalChecks>false</bypassInternalChecks>
+  <mergeDown>false</mergeDown>
+</fetishmaster.engine.WalkEvent>

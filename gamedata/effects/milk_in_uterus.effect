@@ -1,12 +1,12 @@
 <fetishmaster.components.StatEffect>
-  <name>semen_in_uterus</name>
+  <name>milk_in_uterus</name>
   <value>0.0</value>
   <timer>0</timer>
-  <script>cvol = This.getValue();&#xd;
-sysprint (&quot;sperm in uterus: &quot; + cvol);&#xd;
-&#xd;
+  <script>cvol = self.getEffectValue(&quot;uterus.volume&quot;, &quot;milk_in_uterus&quot;);&#xd;
+sysprint (&quot;milk in uterus: &quot; + cvol);&#xd;
+out = 0;&#xd;
 //something can leak out&#xd;
-if (self.hasEffect(&quot;uterus.volume&quot;, &quot;milk_in_uterus&quot;))&#xd;
+if (self.hasEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;))&#xd;
 {&#xd;
 out = self.getStat(&quot;uterus.cervix_size&quot;)*5;&#xd;
 }&#xd;
@@ -18,15 +18,15 @@ if (out&gt;0) cvol -= out;&#xd;
 &#xd;
 //something can be absorbed by body&#xd;
 cvol -= 5;&#xd;
-sysprint (&quot;sperm in uterus after recalc: &quot; + cvol);&#xd;
+sysprint (&quot;milk in uterus after recalc: &quot; + cvol);&#xd;
 &#xd;
 if (cvol &lt; 0)&#xd;
 {&#xd;
-self.removeEffect(&quot;uterus.volume&quot;, &quot;semen_in_uterus&quot;);&#xd;
+self.removeEffect(&quot;uterus.volume&quot;, &quot;milk_in_uterus&quot;);&#xd;
 }&#xd;
 else&#xd;
 {&#xd;
-This.setValue(cvol);&#xd;
+self.updateEffect(&quot;uterus.volume&quot;, &quot;milk_in_uterus&quot;, cvol);&#xd;
 }</script>
   <tmp>false</tmp>
   <endText></endText>

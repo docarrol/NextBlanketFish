@@ -3,7 +3,6 @@
     <string>bodyparts/agency_birthage</string>
     <string>bodyparts/fat_neutral</string>
     <string>human/look</string>
-    <string>human/vagina</string>
     <string>human/uterus</string>
     <string>human/pouch</string>
     <string>human/penis</string>
@@ -14,5 +13,6 @@
     <string>human/fertility</string>
     <string>human/female_breasts</string>
     <string>human/ass</string>
+    <string>_cymic44/bodyparts/human_female_vagina</string>
   </pools>
 </fetishmaster.bio.TemplateDNA>
